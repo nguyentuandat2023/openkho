@@ -313,7 +313,9 @@ export async function buildData({ quiet = false, now = Date.now() } = {}) {
   const state = loadState();
   const histRuns = loadHistory().runs;
   const lastDataSuccess = ['discover', 'refresh'].map((j) => state.jobs[j]?.last_success_at).filter(Boolean).sort().pop() || null;
-  const syncAt = [lastDataSuccess, report?.finished_at].filter(Boolean).sort().pop() || null;
+  // Chỉ tính lần đồng bộ catalog thực sự lấy số liệu (lượt bỏ qua toàn bộ vì --max-age không phải lần cập nhật dữ liệu)
+  const reportAt = report && Object.values(report.totals || {}).reduce((a, b) => a + b, 0) > 0 ? report.finished_at : null;
+  const syncAt = [lastDataSuccess, reportAt].filter(Boolean).sort().pop() || null;
   const refreshH = settings.scheduler.jobs.refresh.interval_hours;
   const automation = {
     scheduler_enabled: settings.scheduler.enabled,
