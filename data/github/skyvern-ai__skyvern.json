@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:51:50.610Z",
+ "fetched_at": "2026-11-17T20:56:27.112Z",
  "meta": {
   "name": "skyvern",
   "owner": "Skyvern-AI",
@@ -40,14 +40,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 23432,
-  "forks": 2245,
+  "stars": 23434,
+  "forks": 2246,
   "watchers": 100,
-  "open_issues": 300,
+  "open_issues": 301,
   "open_prs": null,
   "created_at": "2024-02-28T15:45:19Z",
-  "pushed_at": "2026-11-17T10:57:59Z",
-  "updated_at": "2026-11-17T11:38:43Z",
+  "pushed_at": "2026-11-17T19:47:46Z",
+  "updated_at": "2026-11-17T20:51:14Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,7 +56,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 682082,
+  "size_kb": 679707,
   "og_image": "https://opengraph.githubassets.com/1/Skyvern-AI/skyvern",
   "custom_og_image": false
  },
@@ -89,7 +89,7 @@
   "headings": 50,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:19.266Z",
-  "checked_at": "2026-11-17T11:56:19.266Z"
+  "checked_at": "2026-11-17T21:01:28.623Z"
  },
  "contributors": {
   "count": 96,
@@ -97,5 +97,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:20.669Z"
  },
- "details_checked_at": "2026-11-17T11:56:19.266Z"
+ "details_checked_at": "2026-11-17T21:01:28.623Z"
 }

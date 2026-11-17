@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:55:32.307Z",
+ "fetched_at": "2026-11-17T21:00:36.461Z",
  "meta": {
   "name": "paperless-ngx",
   "owner": "paperless-ngx",
@@ -36,14 +36,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 48189,
-  "forks": 3394,
+  "stars": 48219,
+  "forks": 3395,
   "watchers": 164,
-  "open_issues": 8,
+  "open_issues": 9,
   "open_prs": null,
   "created_at": "2022-02-12T21:56:52Z",
-  "pushed_at": "2026-11-17T11:39:46Z",
-  "updated_at": "2026-11-17T11:43:14Z",
+  "pushed_at": "2026-11-17T20:53:49Z",
+  "updated_at": "2026-11-17T20:56:11Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -52,7 +52,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 237047,
+  "size_kb": 237423,
   "og_image": "https://opengraph.githubassets.com/1/paperless-ngx/paperless-ngx",
   "custom_og_image": false
  },
@@ -80,8 +80,13 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.942Z",
-  "checked_at": "2026-11-17T11:56:28.942Z"
+  "checked_at": "2026-11-17T21:01:39.802Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T11:56:28.942Z"
+ "contributors": {
+  "count": 465,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T21:01:42.137Z"
+ },
+ "details_checked_at": "2026-11-17T21:01:39.802Z"
 }

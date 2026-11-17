@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:55:47.895Z",
+ "fetched_at": "2026-11-17T21:00:54.916Z",
  "meta": {
   "name": "rclone",
   "owner": "rclone",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 61065,
-  "forks": 5711,
+  "stars": 61075,
+  "forks": 5717,
   "watchers": 564,
-  "open_issues": 1352,
+  "open_issues": 1353,
   "open_prs": null,
   "created_at": "2014-03-16T16:19:57Z",
-  "pushed_at": "2026-11-14T04:16:07Z",
-  "updated_at": "2026-11-17T07:01:45Z",
+  "pushed_at": "2026-11-17T16:48:23Z",
+  "updated_at": "2026-11-17T20:41:41Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 261608,
+  "size_kb": 261562,
   "og_image": "https://opengraph.githubassets.com/1/rclone/rclone",
   "custom_og_image": false
  },
@@ -88,8 +88,13 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.685Z",
-  "checked_at": "2026-11-17T11:56:29.685Z"
+  "checked_at": "2026-11-17T21:01:40.509Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T11:56:29.685Z"
+ "contributors": {
+  "count": 1295,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T21:01:43.158Z"
+ },
+ "details_checked_at": "2026-11-17T21:01:40.509Z"
 }

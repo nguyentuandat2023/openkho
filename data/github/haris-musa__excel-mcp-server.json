@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:55:01.342Z",
+ "fetched_at": "2026-11-17T20:59:58.536Z",
  "meta": {
   "name": "excel-mcp-server",
   "owner": "haris-musa",
@@ -88,7 +88,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.627Z",
-  "checked_at": "2026-11-17T11:56:27.627Z"
+  "checked_at": "2026-11-17T21:01:38.481Z"
  },
  "contributors": {
   "count": 13,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.614Z"
  },
- "details_checked_at": "2026-11-17T11:56:27.627Z"
+ "details_checked_at": "2026-11-17T21:01:38.481Z"
 }

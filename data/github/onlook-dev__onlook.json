@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:56:16.929Z",
+ "fetched_at": "2026-11-17T21:01:26.310Z",
  "meta": {
   "name": "onlook",
   "owner": "onlook-dev",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 27234,
+  "stars": 27241,
   "forks": 2149,
   "watchers": 124,
   "open_issues": 385,
   "open_prs": null,
   "created_at": "2024-06-25T19:16:02Z",
-  "pushed_at": "2026-11-17T01:38:13Z",
-  "updated_at": "2026-11-17T11:30:11Z",
+  "pushed_at": "2026-11-17T20:25:02Z",
+  "updated_at": "2026-11-17T20:51:31Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,36 +60,41 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 84523,
+  "size_kb": 90700,
   "og_image": "https://opengraph.githubassets.com/1/onlook-dev/onlook",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 10471,
+  "length": 10937,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
   "sections": {
    "install": {
     "title": "Getting Started",
-    "html": "<p>🖥️ <a href=\"https://www.onlook.com/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download the Desktop App</a> (Recommended) – The fastest way to get started with Onlook.</p>\n<ul>\n<li>macOS (Apple Silicon · Intel x64) → <a href=\"https://www.onlook.com/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></li>\n<li>Windows – Coming soon. Join the <a href=\"https://www.onlook.com/waitlist?os=windows\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Windows waitlist here</a> and be emailed when we have updates.</li>\n<li>Linux – No Linux artifact is published and we're still gauging demand for Linux. Join the <a href=\"https://www.onlook.com/waitlist?os=linux\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Linux waitlist here</a> and be emailed when we have updates.</li>\n</ul>\n<p>🧑‍💻 Run locally – Visit <a href=\"https://docs.onlook.com/developers\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs.onlook.com/developers</a> for details.</p>",
+    "html": "<p>🖥️ <a href=\"https://www.onlook.com/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download the Desktop App</a> (Recommended) – The fastest way to get started with Onlook.</p>\n<ul>\n<li>macOS (Apple Silicon · Intel x64) → <a href=\"https://www.onlook.com/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></li>\n<li>Windows – Coming soon. Join the <a href=\"https://www.onlook.com/waitlist?os=windows\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Windows waitlist here</a> and be emailed when we have updates.</li>\n<li>Linux – No Linux artifact is published and we're still gauging demand for Linux. Join the <a href=\"https://www.onlook.com/waitlist?os=linux\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Linux waitlist here</a> and be emailed when we have updates.</li>\n</ul>\n<p>🧑‍💻 Build from source – <a href=\"https://github.com/onlook-dev/onlook/blob/main/SOURCE_BUILD.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SOURCE_BUILD.md</a> covers building and running Onlook on a Mac. No Onlook account or cloud keys needed.</p>",
     "truncated": false,
-    "chars": 644
+    "chars": 686
    },
    "usage": {
-    "title": "An example workflow",
-    "html": "<ol>\n<li>Start a new empty project by clicking the \"New Draft\" button in the upper left corner of the projects page.</li>\n<li>Use the input box in the lower right corner of the screen to write what you'd like to be designed in Onlook.</li>\n<li>Answer clarifying questions from the agent, and wait for it to build</li>\n<li>Click to select individual frames for context in follow-up prompts, or double-click on a specific element to use the inline chat and guide the AI to edit that specific element.</li>\n<li>Prompt more ideas on one or multiple designs until you're ready to share your work with a colleague.</li>\n<li>Select the frame you'd like to share, and ask the agent to convert it into an Artifact for exporting.</li>\n<li>Export the artifact as HTML/CSS or as a PNG using the export button in the upper right corner of the frame. </li>\n<li>Paste the exported artifact in Slack, email, or any messaging tool.</li>\n</ol>",
+    "title": "Usage data",
+    "html": "<p>Onlook collects product usage analytics to help us improve the app. In the official download they are on by default; a build from source asks first. You can turn them off in Settings, or set <code>STUDIO_TELEMETRY=0</code> to run or build without them. See the <a href=\"https://www.onlook.com/privacy-policy\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">privacy policy</a> for details.</p>",
     "truncated": false,
-    "chars": 872
+    "chars": 322
    },
    "features": null
   },
-  "headings": 12,
+  "headings": 13,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:30.722Z",
-  "checked_at": "2026-11-17T11:56:30.722Z"
+  "fetched_at": "2026-11-17T21:01:41.799Z",
+  "checked_at": "2026-11-17T21:01:41.799Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T11:56:30.722Z"
+ "contributors": {
+  "count": 109,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T21:01:44.747Z"
+ },
+ "details_checked_at": "2026-11-17T21:01:41.799Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:56:03.286Z",
+ "fetched_at": "2026-11-17T21:01:11.637Z",
  "meta": {
   "name": "auto-editor",
   "owner": "WyattBlue",
@@ -32,14 +32,14 @@
    "spdx": "Unlicense",
    "name": "The Unlicense"
   },
-  "stars": 5959,
-  "forks": 742,
+  "stars": 5964,
+  "forks": 743,
   "watchers": 42,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2020-04-30T04:57:21Z",
   "pushed_at": "2026-11-16T18:36:21Z",
-  "updated_at": "2026-11-17T11:08:15Z",
+  "updated_at": "2026-11-17T20:20:13Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -71,8 +71,13 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.198Z",
-  "checked_at": "2026-11-17T11:56:30.198Z"
+  "checked_at": "2026-11-17T21:01:41.114Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T11:56:30.198Z"
+ "contributors": {
+  "count": 17,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T21:01:43.716Z"
+ },
+ "details_checked_at": "2026-11-17T21:01:41.114Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:55:21.233Z",
+ "fetched_at": "2026-11-17T21:00:22.473Z",
  "meta": {
   "name": "Ventoy",
   "owner": "ventoy",
@@ -42,14 +42,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 80948,
-  "forks": 5091,
-  "watchers": 733,
+  "stars": 81106,
+  "forks": 5170,
+  "watchers": 830,
   "open_issues": 1018,
   "open_prs": null,
   "created_at": "2020-03-10T15:19:19Z",
   "pushed_at": "2026-10-22T08:11:00Z",
-  "updated_at": "2026-11-17T11:11:36Z",
+  "updated_at": "2026-11-17T20:30:47Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -86,7 +86,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.418Z",
-  "checked_at": "2026-11-17T11:56:28.418Z"
+  "checked_at": "2026-11-17T21:01:39.350Z"
  },
  "contributors": {
   "count": 136,
@@ -94,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:40.154Z"
  },
- "details_checked_at": "2026-11-17T11:56:28.418Z"
+ "details_checked_at": "2026-11-17T21:01:39.350Z"
 }

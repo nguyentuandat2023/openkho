@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:56:17.741Z",
+ "fetched_at": "2026-11-17T21:01:27.069Z",
  "meta": {
   "name": "grapesjs",
   "owner": "GrapesJS",
@@ -43,7 +43,7 @@
   "open_prs": null,
   "created_at": "2016-01-22T00:23:19Z",
   "pushed_at": "2026-11-13T10:01:59Z",
-  "updated_at": "2026-11-17T03:08:40Z",
+  "updated_at": "2026-11-17T20:49:31Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -85,8 +85,13 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.778Z",
-  "checked_at": "2026-11-17T11:56:30.778Z"
+  "checked_at": "2026-11-17T21:01:41.886Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T11:56:30.778Z"
+ "contributors": {
+  "count": 231,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T21:01:44.838Z"
+ },
+ "details_checked_at": "2026-11-17T21:01:41.886Z"
 }

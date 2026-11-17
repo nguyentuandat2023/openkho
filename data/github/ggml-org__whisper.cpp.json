@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:51:53.111Z",
+ "fetched_at": "2026-11-17T20:56:29.624Z",
  "meta": {
   "name": "whisper.cpp",
   "owner": "ggml-org",
@@ -30,14 +30,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 55265,
-  "forks": 6315,
+  "stars": 55271,
+  "forks": 6318,
   "watchers": 399,
-  "open_issues": 373,
+  "open_issues": 375,
   "open_prs": null,
   "created_at": "2022-09-25T18:26:37Z",
-  "pushed_at": "2026-11-17T10:47:52Z",
-  "updated_at": "2026-11-17T10:28:31Z",
+  "pushed_at": "2026-11-17T16:40:00Z",
+  "updated_at": "2026-11-17T20:30:34Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,7 +46,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 50037,
+  "size_kb": 50343,
   "og_image": "https://opengraph.githubassets.com/1/ggml-org/whisper.cpp",
   "custom_og_image": false
  },
@@ -80,7 +80,7 @@
   "headings": 43,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:19.294Z",
-  "checked_at": "2026-11-17T11:56:19.294Z"
+  "checked_at": "2026-11-17T21:01:28.701Z"
  },
  "contributors": {
   "count": 1140,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:21.645Z"
  },
- "details_checked_at": "2026-11-17T11:56:19.294Z"
+ "details_checked_at": "2026-11-17T21:01:28.701Z"
 }

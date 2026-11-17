@@ -6,13 +6,13 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:52:16.379Z",
+ "fetched_at": "2026-11-17T20:56:57.058Z",
  "meta": {
   "name": "firecrawl",
   "owner": "firecrawl",
   "owner_type": "Organization",
   "avatar_url": "https://avatars.githubusercontent.com/u/135057108?v=4",
-  "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+  "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
   "homepage": "https://firecrawl.dev",
   "html_url": "https://github.com/firecrawl/firecrawl",
   "default_branch": "main",
@@ -43,14 +43,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 202480,
-  "forks": 10605,
+  "stars": 202608,
+  "forks": 10607,
   "watchers": 501,
-  "open_issues": 812,
+  "open_issues": 814,
   "open_prs": null,
   "created_at": "2024-04-15T21:02:29Z",
-  "pushed_at": "2026-11-17T10:44:45Z",
-  "updated_at": "2026-11-17T11:49:21Z",
+  "pushed_at": "2026-11-17T20:42:37Z",
+  "updated_at": "2026-11-17T20:56:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,13 +59,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 192032,
+  "size_kb": 192380,
   "og_image": "https://opengraph.githubassets.com/1/firecrawl/firecrawl",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 25871,
+  "length": 26136,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
@@ -81,8 +81,8 @@
   },
   "headings": 39,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:20.451Z",
-  "checked_at": "2026-11-17T11:56:20.451Z"
+  "fetched_at": "2026-11-17T21:01:29.999Z",
+  "checked_at": "2026-11-17T21:01:29.999Z"
  },
  "contributors": {
   "count": 180,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:34.288Z"
  },
- "details_checked_at": "2026-11-17T11:56:20.451Z"
+ "details_checked_at": "2026-11-17T21:01:29.999Z"
 }

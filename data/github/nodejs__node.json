@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:54:02.741Z",
+ "fetched_at": "2026-11-17T20:58:52.471Z",
  "meta": {
   "name": "node",
   "owner": "nodejs",
@@ -33,14 +33,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 123765,
-  "forks": 38079,
-  "watchers": 3068,
-  "open_issues": 1317,
+  "stars": 123923,
+  "forks": 38151,
+  "watchers": 3166,
+  "open_issues": 1316,
   "open_prs": null,
   "created_at": "2014-11-26T19:57:11Z",
-  "pushed_at": "2026-11-17T11:47:28Z",
-  "updated_at": "2026-11-17T11:27:09Z",
+  "pushed_at": "2026-11-17T20:38:21Z",
+  "updated_at": "2026-11-17T20:42:30Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,7 +49,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 1694174,
+  "size_kb": 1694199,
   "og_image": "https://opengraph.githubassets.com/1/nodejs/node",
   "custom_og_image": false
  },
@@ -72,7 +72,7 @@
   "headings": 23,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.117Z",
-  "checked_at": "2026-11-17T11:56:25.117Z"
+  "checked_at": "2026-11-17T21:01:35.314Z"
  },
  "contributors": {
   "count": 4560,
@@ -80,5 +80,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.091Z"
  },
- "details_checked_at": "2026-11-17T11:56:25.117Z"
+ "details_checked_at": "2026-11-17T21:01:35.314Z"
 }

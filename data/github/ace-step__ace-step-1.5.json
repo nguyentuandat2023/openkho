@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:51:59.069Z",
+ "fetched_at": "2026-11-17T20:56:35.989Z",
  "meta": {
   "name": "ACE-Step-1.5",
   "owner": "ace-step",
@@ -25,14 +25,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 14877,
-  "forks": 1978,
+  "stars": 14894,
+  "forks": 1980,
   "watchers": 116,
   "open_issues": 170,
   "open_prs": null,
   "created_at": "2025-09-04T02:00:07Z",
   "pushed_at": "2026-11-08T16:58:40Z",
-  "updated_at": "2026-11-17T11:31:14Z",
+  "updated_at": "2026-11-17T19:48:29Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -73,8 +73,8 @@
   },
   "headings": 29,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:19.697Z",
-  "checked_at": "2026-11-17T11:56:19.697Z"
+  "fetched_at": "2026-11-17T21:01:29.082Z",
+  "checked_at": "2026-11-17T21:01:29.082Z"
  },
  "contributors": {
   "count": 85,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:24.439Z"
  },
- "details_checked_at": "2026-11-17T11:56:19.697Z"
+ "details_checked_at": "2026-11-17T21:01:29.082Z"
 }

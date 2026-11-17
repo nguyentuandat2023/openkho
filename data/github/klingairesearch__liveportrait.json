@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:52:50.649Z",
+ "fetched_at": "2026-11-17T20:57:35.118Z",
  "meta": {
   "name": "LivePortrait",
   "owner": "KlingAIResearch",
@@ -28,14 +28,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 19511,
-  "forks": 2037,
+  "stars": 19516,
+  "forks": 2038,
   "watchers": 157,
   "open_issues": 292,
   "open_prs": null,
   "created_at": "2024-07-03T16:15:03Z",
   "pushed_at": "2026-06-01T17:25:09Z",
-  "updated_at": "2026-11-17T09:49:02Z",
+  "updated_at": "2026-11-17T18:15:42Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -88,7 +88,7 @@
   "headings": 24,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.166Z",
-  "checked_at": "2026-11-17T11:56:22.166Z"
+  "checked_at": "2026-11-17T21:01:31.947Z"
  },
  "contributors": {
   "count": 12,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.267Z"
  },
- "details_checked_at": "2026-11-17T11:56:22.166Z"
+ "details_checked_at": "2026-11-17T21:01:31.947Z"
 }

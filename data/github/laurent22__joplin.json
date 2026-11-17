@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:55:30.128Z",
+ "fetched_at": "2026-11-17T21:00:33.870Z",
  "meta": {
   "name": "joplin",
   "owner": "laurent22",
@@ -42,14 +42,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 57221,
+  "stars": 57225,
   "forks": 6454,
   "watchers": 485,
-  "open_issues": 682,
+  "open_issues": 680,
   "open_prs": null,
   "created_at": "2017-01-16T21:49:41Z",
-  "pushed_at": "2026-11-17T11:41:09Z",
-  "updated_at": "2026-11-17T11:41:33Z",
+  "pushed_at": "2026-11-17T16:19:23Z",
+  "updated_at": "2026-11-17T19:46:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,7 +58,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 669995,
+  "size_kb": 670091,
   "og_image": "https://opengraph.githubassets.com/1/laurent22/joplin",
   "custom_og_image": false
  },
@@ -76,8 +76,13 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.824Z",
-  "checked_at": "2026-11-17T11:56:28.824Z"
+  "checked_at": "2026-11-17T21:01:39.757Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T11:56:28.824Z"
+ "contributors": {
+  "count": 835,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T21:01:42.215Z"
+ },
+ "details_checked_at": "2026-11-17T21:01:39.757Z"
 }

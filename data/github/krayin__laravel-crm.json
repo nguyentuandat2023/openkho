@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:53:09.768Z",
+ "fetched_at": "2026-11-17T20:57:55.280Z",
  "meta": {
   "name": "laravel-crm",
   "owner": "krayin",
@@ -41,14 +41,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 24172,
-  "forks": 1688,
+  "stars": 24176,
+  "forks": 1689,
   "watchers": 62,
-  "open_issues": 119,
+  "open_issues": 114,
   "open_prs": null,
   "created_at": "2021-06-05T14:18:48Z",
-  "pushed_at": "2026-11-16T04:39:10Z",
-  "updated_at": "2026-11-17T10:21:38Z",
+  "pushed_at": "2026-11-17T14:09:46Z",
+  "updated_at": "2026-11-17T20:04:32Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,7 +57,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 54038,
+  "size_kb": 53652,
   "og_image": "https://opengraph.githubassets.com/1/krayin/laravel-crm",
   "custom_og_image": false
  },
@@ -80,7 +80,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.993Z",
-  "checked_at": "2026-11-17T11:56:22.993Z"
+  "checked_at": "2026-11-17T21:01:32.885Z"
  },
  "contributors": {
   "count": 67,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.166Z"
  },
- "details_checked_at": "2026-11-17T11:56:22.993Z"
+ "details_checked_at": "2026-11-17T21:01:32.885Z"
 }

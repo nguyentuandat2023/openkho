@@ -6,7 +6,7 @@
  "status": "archived",
  "renamed_from": null,
  "source": "graphql",
- "fetched_at": "2026-11-17T11:50:24.164Z",
+ "fetched_at": "2026-11-17T20:55:02.543Z",
  "meta": {
   "name": "pocketbase",
   "owner": "pocketbase",
@@ -54,14 +54,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 61582,
-  "forks": 3770,
+  "stars": 61583,
+  "forks": 3771,
   "watchers": 325,
   "open_issues": 1,
   "open_prs": 0,
   "created_at": "2022-07-05T06:06:21Z",
   "pushed_at": "2026-10-26T18:07:11Z",
-  "updated_at": "2026-11-17T10:40:55Z",
+  "updated_at": "2026-11-17T18:56:34Z",
   "archived": true,
   "disabled": false,
   "is_fork": false,
@@ -76,7 +76,7 @@
  },
  "activity": {
   "last_commit_at": "2026-10-26T18:07:11Z",
-  "commits_90d": 97,
+  "commits_90d": 94,
   "commits_90d_estimated": false,
   "source": "graphql"
  },
@@ -92,49 +92,49 @@
    {
     "name": "pocketbase_0.40.6_linux_s390x.zip",
     "size": 12524235,
-    "download_count": 116,
+    "download_count": 117,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_linux_s390x.zip",
     "content_type": "application/zip"
    },
    {
     "name": "pocketbase_0.40.6_linux_amd64.zip",
     "size": 12824710,
-    "download_count": 51417,
+    "download_count": 52673,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_linux_amd64.zip",
     "content_type": "application/zip"
    },
    {
     "name": "pocketbase_0.40.6_linux_arm64.zip",
     "size": 11875035,
-    "download_count": 3254,
+    "download_count": 3321,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_linux_arm64.zip",
     "content_type": "application/zip"
    },
    {
     "name": "pocketbase_0.40.6_linux_armv7.zip",
     "size": 12192739,
-    "download_count": 318,
+    "download_count": 320,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_linux_armv7.zip",
     "content_type": "application/zip"
    },
    {
     "name": "pocketbase_0.40.6_darwin_arm64.zip",
     "size": 12235482,
-    "download_count": 3505,
+    "download_count": 3579,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_darwin_arm64.zip",
     "content_type": "application/zip"
    },
    {
     "name": "pocketbase_0.40.6_windows_amd64.zip",
     "size": 13009601,
-    "download_count": 5857,
+    "download_count": 5952,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_windows_amd64.zip",
     "content_type": "application/zip"
    },
    {
     "name": "pocketbase_0.40.6_windows_arm64.zip",
     "size": 11888006,
-    "download_count": 267,
+    "download_count": 269,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_windows_arm64.zip",
     "content_type": "application/zip"
    },
@@ -148,14 +148,14 @@
    {
     "name": "pocketbase_0.40.6_darwin_amd64.zip",
     "size": 12917119,
-    "download_count": 705,
+    "download_count": 712,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_darwin_amd64.zip",
     "content_type": "application/zip"
    },
    {
     "name": "checksums.txt",
     "size": 908,
-    "download_count": 12092,
+    "download_count": 12400,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/checksums.txt",
     "content_type": "text/plain; charset=utf-8"
    }
@@ -168,9 +168,9 @@
   "total": 296
  },
  "stars_recent": {
-  "per_day": 4.3,
+  "per_day": 4.2,
   "sample": 100,
-  "window_days": 23.4,
+  "window_days": 23.7,
   "complete": false,
   "method": "stargazers"
  },
@@ -194,7 +194,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.821Z",
-  "checked_at": "2026-11-17T11:56:23.821Z"
+  "checked_at": "2026-11-17T21:01:33.986Z"
  },
  "contributors": {
   "count": 45,
@@ -202,5 +202,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:33.443Z"
  },
- "details_checked_at": "2026-11-17T11:56:23.821Z"
+ "details_checked_at": "2026-11-17T21:01:33.986Z"
 }

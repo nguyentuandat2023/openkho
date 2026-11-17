@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:55:53.354Z",
+ "fetched_at": "2026-11-17T21:01:01.643Z",
  "meta": {
   "name": "OpenCut",
   "owner": "OpenCut-app",
@@ -27,14 +27,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 98733,
-  "forks": 9886,
-  "watchers": 466,
+  "stars": 98759,
+  "forks": 9889,
+  "watchers": 467,
   "open_issues": 389,
   "open_prs": null,
   "created_at": "2025-06-22T08:02:17Z",
   "pushed_at": "2026-09-24T09:24:44Z",
-  "updated_at": "2026-11-17T11:39:53Z",
+  "updated_at": "2026-11-17T20:52:06Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -61,8 +61,13 @@
   "headings": 5,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.801Z",
-  "checked_at": "2026-11-17T11:56:29.801Z"
+  "checked_at": "2026-11-17T21:01:40.709Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T11:56:29.801Z"
+ "contributors": {
+  "count": 101,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T21:01:43.209Z"
+ },
+ "details_checked_at": "2026-11-17T21:01:40.709Z"
 }

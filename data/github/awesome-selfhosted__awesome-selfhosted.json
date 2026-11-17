@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:54:35.995Z",
+ "fetched_at": "2026-11-17T20:59:30.401Z",
  "meta": {
   "name": "awesome-selfhosted",
   "owner": "awesome-selfhosted",
@@ -32,14 +32,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 337886,
-  "forks": 15869,
-  "watchers": 3394,
+  "stars": 338043,
+  "forks": 15872,
+  "watchers": 3395,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2015-06-01T02:33:17Z",
-  "pushed_at": "2026-11-16T20:39:05Z",
-  "updated_at": "2026-11-17T11:53:28Z",
+  "pushed_at": "2026-11-17T17:21:32Z",
+  "updated_at": "2026-11-17T20:49:29Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,13 +48,13 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 17526,
+  "size_kb": 17641,
   "og_image": "https://opengraph.githubassets.com/1/awesome-selfhosted/awesome-selfhosted",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 331370,
+  "length": 331371,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [],
@@ -75,8 +75,8 @@
   },
   "headings": 103,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:26.693Z",
-  "checked_at": "2026-11-17T11:56:26.693Z"
+  "fetched_at": "2026-11-17T21:01:37.069Z",
+  "checked_at": "2026-11-17T21:01:37.069Z"
  },
  "contributors": {
   "count": 1362,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:37.175Z"
  },
- "details_checked_at": "2026-11-17T11:56:26.693Z"
+ "details_checked_at": "2026-11-17T21:01:37.069Z"
 }

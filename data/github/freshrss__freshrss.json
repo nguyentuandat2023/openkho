@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:55:51.966Z",
+ "fetched_at": "2026-11-17T21:00:59.922Z",
  "meta": {
   "name": "FreshRSS",
   "owner": "FreshRSS",
@@ -33,14 +33,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 16610,
+  "stars": 16613,
   "forks": 1349,
   "watchers": 114,
-  "open_issues": 681,
+  "open_issues": 679,
   "open_prs": null,
   "created_at": "2012-10-21T16:48:50Z",
-  "pushed_at": "2026-11-17T08:28:56Z",
-  "updated_at": "2026-11-17T10:07:02Z",
+  "pushed_at": "2026-11-17T12:46:17Z",
+  "updated_at": "2026-11-17T17:14:47Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -72,8 +72,13 @@
   "headings": 17,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.744Z",
-  "checked_at": "2026-11-17T11:56:29.744Z"
+  "checked_at": "2026-11-17T21:01:40.701Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T11:56:29.744Z"
+ "contributors": {
+  "count": 473,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T21:01:43.290Z"
+ },
+ "details_checked_at": "2026-11-17T21:01:40.701Z"
 }

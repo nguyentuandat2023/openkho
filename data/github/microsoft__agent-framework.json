@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:51:46.045Z",
+ "fetched_at": "2026-11-17T20:56:22.531Z",
  "meta": {
   "name": "agent-framework",
   "owner": "microsoft",
@@ -34,14 +34,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 14721,
-  "forks": 2640,
+  "stars": 14726,
+  "forks": 2641,
   "watchers": 113,
-  "open_issues": 942,
+  "open_issues": 941,
   "open_prs": null,
   "created_at": "2025-04-28T19:40:42Z",
-  "pushed_at": "2026-11-17T10:13:58Z",
-  "updated_at": "2026-11-17T10:53:16Z",
+  "pushed_at": "2026-11-17T20:50:30Z",
+  "updated_at": "2026-11-17T19:46:13Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -50,7 +50,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 157006,
+  "size_kb": 157161,
   "og_image": "https://opengraph.githubassets.com/1/microsoft/agent-framework",
   "custom_og_image": false
  },
@@ -94,7 +94,7 @@
   "headings": 20,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:19.051Z",
-  "checked_at": "2026-11-17T11:56:19.051Z"
+  "checked_at": "2026-11-17T21:01:28.382Z"
  },
  "contributors": {
   "count": 342,
@@ -102,5 +102,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:18.860Z"
  },
- "details_checked_at": "2026-11-17T11:56:19.051Z"
+ "details_checked_at": "2026-11-17T21:01:28.382Z"
 }

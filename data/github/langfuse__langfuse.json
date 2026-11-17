@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:55:04.763Z",
+ "fetched_at": "2026-11-17T21:00:02.188Z",
  "meta": {
   "name": "langfuse",
   "owner": "langfuse",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 37539,
-  "forks": 4243,
+  "stars": 37554,
+  "forks": 4246,
   "watchers": 111,
-  "open_issues": 1178,
+  "open_issues": 1172,
   "open_prs": null,
   "created_at": "2023-05-18T17:47:09Z",
-  "pushed_at": "2026-11-17T11:49:21Z",
-  "updated_at": "2026-11-17T11:40:31Z",
+  "pushed_at": "2026-11-17T20:55:23Z",
+  "updated_at": "2026-11-17T20:50:35Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 284740,
+  "size_kb": 286185,
   "og_image": "https://opengraph.githubassets.com/1/langfuse/langfuse",
   "custom_og_image": false
  },
@@ -88,7 +88,7 @@
   "headings": 21,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.774Z",
-  "checked_at": "2026-11-17T11:56:27.774Z"
+  "checked_at": "2026-11-17T21:01:38.506Z"
  },
  "contributors": {
   "count": 235,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.820Z"
  },
- "details_checked_at": "2026-11-17T11:56:27.774Z"
+ "details_checked_at": "2026-11-17T21:01:38.506Z"
 }

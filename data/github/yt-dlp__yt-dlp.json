@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:55:54.866Z",
+ "fetched_at": "2026-11-17T21:01:03.375Z",
  "meta": {
   "name": "yt-dlp",
   "owner": "yt-dlp",
@@ -31,14 +31,14 @@
    "spdx": "Unlicense",
    "name": "The Unlicense"
   },
-  "stars": 208567,
-  "forks": 18395,
-  "watchers": 979,
-  "open_issues": 2790,
+  "stars": 208659,
+  "forks": 18408,
+  "watchers": 980,
+  "open_issues": 2791,
   "open_prs": null,
   "created_at": "2020-10-26T04:22:55Z",
-  "pushed_at": "2026-11-17T06:51:01Z",
-  "updated_at": "2026-11-17T11:51:28Z",
+  "pushed_at": "2026-11-17T16:08:48Z",
+  "updated_at": "2026-11-17T20:59:54Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 65181,
+  "size_kb": 65164,
   "og_image": "https://opengraph.githubassets.com/1/yt-dlp/yt-dlp",
   "custom_og_image": false
  },
@@ -86,8 +86,13 @@
   "headings": 106,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.898Z",
-  "checked_at": "2026-11-17T11:56:29.898Z"
+  "checked_at": "2026-11-17T21:01:40.838Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T11:56:29.898Z"
+ "contributors": {
+  "count": 1761,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T21:01:43.423Z"
+ },
+ "details_checked_at": "2026-11-17T21:01:40.838Z"
 }

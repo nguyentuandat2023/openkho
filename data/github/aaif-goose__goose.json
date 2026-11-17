@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:51:49.585Z",
+ "fetched_at": "2026-11-17T20:56:26.056Z",
  "meta": {
   "name": "goose",
   "owner": "aaif-goose",
@@ -28,14 +28,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 56710,
-  "forks": 6606,
+  "stars": 56724,
+  "forks": 6611,
   "watchers": 286,
-  "open_issues": 532,
+  "open_issues": 507,
   "open_prs": null,
   "created_at": "2024-08-23T19:03:36Z",
-  "pushed_at": "2026-11-17T07:07:41Z",
-  "updated_at": "2026-11-17T11:40:02Z",
+  "pushed_at": "2026-11-17T20:53:39Z",
+  "updated_at": "2026-11-17T20:51:36Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -44,7 +44,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 997451,
+  "size_kb": 997588,
   "og_image": "https://opengraph.githubassets.com/1/aaif-goose/goose",
   "custom_og_image": false
  },
@@ -67,7 +67,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:19.203Z",
-  "checked_at": "2026-11-17T11:56:19.203Z"
+  "checked_at": "2026-11-17T21:01:28.656Z"
  },
  "contributors": {
   "count": 689,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:20.306Z"
  },
- "details_checked_at": "2026-11-17T11:56:19.203Z"
+ "details_checked_at": "2026-11-17T21:01:28.656Z"
 }

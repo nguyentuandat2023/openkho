@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:56:08.605Z",
+ "fetched_at": "2026-11-17T21:01:17.399Z",
  "meta": {
   "name": "Ghost",
   "owner": "TryGhost",
@@ -32,14 +32,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 55836,
-  "forks": 12143,
+  "stars": 55839,
+  "forks": 12144,
   "watchers": 1006,
-  "open_issues": 240,
+  "open_issues": 231,
   "open_prs": null,
   "created_at": "2013-05-04T11:09:13Z",
-  "pushed_at": "2026-11-17T11:47:36Z",
-  "updated_at": "2026-11-17T11:34:02Z",
+  "pushed_at": "2026-11-17T21:00:41Z",
+  "updated_at": "2026-11-17T20:43:20Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,7 +48,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 637758,
+  "size_kb": 638991,
   "og_image": "https://opengraph.githubassets.com/1/TryGhost/Ghost",
   "custom_og_image": false
  },
@@ -71,8 +71,13 @@
   "headings": 5,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.399Z",
-  "checked_at": "2026-11-17T11:56:30.399Z"
+  "checked_at": "2026-11-17T21:01:41.418Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T11:56:30.399Z"
+ "contributors": {
+  "count": 947,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T21:01:44.218Z"
+ },
+ "details_checked_at": "2026-11-17T21:01:41.418Z"
 }

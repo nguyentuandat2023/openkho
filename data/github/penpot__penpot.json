@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:53:45.737Z",
+ "fetched_at": "2026-11-17T20:58:35.135Z",
  "meta": {
   "name": "penpot",
   "owner": "penpot",
@@ -31,14 +31,14 @@
    "spdx": "MPL-2.0",
    "name": "Mozilla Public License 2.0"
   },
-  "stars": 62459,
-  "forks": 4432,
+  "stars": 62474,
+  "forks": 4434,
   "watchers": 281,
-  "open_issues": 932,
+  "open_issues": 942,
   "open_prs": null,
   "created_at": "2015-12-29T22:09:07Z",
-  "pushed_at": "2026-11-17T11:48:21Z",
-  "updated_at": "2026-11-17T11:01:38Z",
+  "pushed_at": "2026-11-17T20:56:18Z",
+  "updated_at": "2026-11-17T20:49:30Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 440336,
+  "size_kb": 440367,
   "og_image": "https://opengraph.githubassets.com/1/penpot/penpot",
   "custom_og_image": false
  },
@@ -76,7 +76,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.395Z",
-  "checked_at": "2026-11-17T11:56:24.395Z"
+  "checked_at": "2026-11-17T21:01:34.620Z"
  },
  "contributors": {
   "count": 379,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.051Z"
  },
- "details_checked_at": "2026-11-17T11:56:24.395Z"
+ "details_checked_at": "2026-11-17T21:01:34.620Z"
 }

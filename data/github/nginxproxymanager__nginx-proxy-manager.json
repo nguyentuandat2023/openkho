@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:55:47.157Z",
+ "fetched_at": "2026-11-17T21:00:53.877Z",
  "meta": {
   "name": "nginx-proxy-manager",
   "owner": "NginxProxyManager",
@@ -26,14 +26,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 34744,
-  "forks": 3976,
+  "stars": 34743,
+  "forks": 3975,
   "watchers": 225,
   "open_issues": 841,
   "open_prs": null,
   "created_at": "2017-12-20T23:01:16Z",
   "pushed_at": "2026-11-16T13:05:47Z",
-  "updated_at": "2026-11-17T10:48:58Z",
+  "updated_at": "2026-11-17T20:54:35Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -70,8 +70,13 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.569Z",
-  "checked_at": "2026-11-17T11:56:29.569Z"
+  "checked_at": "2026-11-17T21:01:40.484Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T11:56:29.569Z"
+ "contributors": {
+  "count": 340,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T21:01:43.000Z"
+ },
+ "details_checked_at": "2026-11-17T21:01:40.484Z"
 }

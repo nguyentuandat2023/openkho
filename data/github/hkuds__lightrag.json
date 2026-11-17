@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:52:35.233Z",
+ "fetched_at": "2026-11-17T20:57:18.193Z",
  "meta": {
   "name": "LightRAG",
   "owner": "HKUDS",
@@ -35,14 +35,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 40738,
+  "stars": 40743,
   "forks": 5789,
   "watchers": 287,
-  "open_issues": 319,
+  "open_issues": 314,
   "open_prs": null,
   "created_at": "2024-10-02T11:57:54Z",
-  "pushed_at": "2026-11-17T10:06:05Z",
-  "updated_at": "2026-11-17T10:37:59Z",
+  "pushed_at": "2026-11-17T18:11:22Z",
+  "updated_at": "2026-11-17T18:44:52Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,13 +51,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 124335,
+  "size_kb": 126570,
   "og_image": "https://opengraph.githubassets.com/1/HKUDS/LightRAG",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 57297,
+  "length": 57234,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [
@@ -87,15 +87,15 @@
    },
    "features": {
     "title": "Features & Advantages",
-    "html": "<ul>\n<li><strong>Deep Contextual Understanding:</strong> Through graph-structured indexing, LightRAG captures complex semantic dependencies between entities, overcoming the fragmented context limitations typical of traditional chunk-based retrieval methods. Its generation quality and context awareness are particularly outstanding in vertical domains (e.g., legal, financial) that require global comprehension or logical reasoning.</li>\n<li><strong>Exceptional Comprehensiveness &amp; Diversity:</strong> LightRAG’s dual-level retrieval mechanism allows it to integrate detailed facts and abstract concepts concurrently. This enables the system to achieve remarkable performance in query result comprehensiveness and diversity, making it highly effective at handling complex, cross-document queries.</li>\n<li><strong>Extreme Retrieval Efficiency &amp; Low Cost:</strong> LightRAG does not rely on inefficient community reports or multi-hop reasoning for complex queries. This drastically reduces the number of LLM calls required during both the indexing and querying phases, significantly lowering response latency and LLM computational costs.</li>\n<li><strong>Incremental Updates &amp; Selective Deletion:</strong> LightRAG addresses the challenges of incrementally updating and selectively deleting content from graph-based knowledge bases, keeping them current in dynamic data environments. When a document is deleted, the system can use the LLM cache created during indexing to quickly rebuild the affected entities and relationships, substantially improving update efficiency.</li>\n<li><strong>Multiple Document Parsing Engines:</strong> LightRAG's document processing pipeline supports MinerU, Docling, and Native and can be extended with third-party parsers. LightRAG's Native engine efficiently parses images, tables, and formulas in Word and Markdown documents, making it especially suitable for documents rich in multimodal content. The Native engine also automatically detects and corrects section headings in Word documents, improving content extraction from documents with inconsistent outlines and laying the foundation for section-aware text chunking.</li>\n<li><strong>Multiple Text Chunking Strategies:</strong> LightRAG supports four text chunking strategies: <code>Fixed-length (F)</code>, <code>Recursive character (R)</code>, <code>Vector semantic (V)</code>, and <code>Paragraph semantic (P)</code>. The LightRAG-native <code>Paragraph semantic (P)</code> strategy <strong>aligns chunk boundaries with the document's native semantic boundaries</strong>—headings, paragraphs, and tables—as closely as possible. This reduces problems such as mismatched headings and content or missing header rows when long tables are split.</li>\n<li><strong>Multiple Storage Backends:</strong> LightRAG's default KV, vector, and graph stores are in-memory databases with local file persistence — suitable only for small-scale testing and evaluation, <strong>not for production</strong>. LightRAG also supports a wide range of commonly used storage backends (PostgreSQL recommended) for production deployments with large datasets.</li>\n</ul>",
+    "html": "<ul>\n<li><strong>Deep Contextual Understanding:</strong> Through graph-structured indexing, LightRAG captures complex semantic dependencies between entities, overcoming the fragmented context limitations typical of traditional chunk-based retrieval methods. Its generation quality and context awareness are particularly outstanding in vertical domains (e.g., legal, financial) that require global comprehension or logical reasoning.</li>\n<li><strong>Exceptional Comprehensiveness &amp; Diversity:</strong> LightRAG’s dual-level retrieval mechanism allows it to integrate detailed facts and abstract concepts concurrently. This enables the system to achieve remarkable performance in query result comprehensiveness and diversity, making it highly effective at handling complex, cross-document queries.</li>\n<li><strong>Extreme Retrieval Efficiency &amp; Low Cost:</strong> LightRAG does not rely on inefficient community reports or multi-hop reasoning for complex queries. This drastically reduces the number of LLM calls required during both the indexing and querying phases, significantly lowering response latency and LLM computational costs.</li>\n<li><strong>Incremental Updates &amp; Selective Deletion:</strong> LightRAG addresses the challenges of incrementally updating and selectively deleting content from graph-based knowledge bases, keeping them current in dynamic data environments. When a document is deleted, the system can use the LLM cache created during indexing to quickly rebuild the affected entities and relationships, substantially improving update efficiency.</li>\n<li><strong>Multiple Document Parsing Engines:</strong> LightRAG's document processing pipeline supports MinerU, Docling, and Native and can be extended with third-party parsers. LightRAG's Native engine efficiently parses images, tables, and formulas in Word and Markdown documents, making it especially suitable for documents rich in multimodal content. The Native engine also automatically detects and corrects section headings in Word documents, improving content extraction from documents with inconsistent outlines and laying the foundation for section-aware text chunking.</li>\n<li><strong>Multiple Text Chunking Strategies:</strong> LightRAG supports the built-in <code>Fixed-length (F)</code>, <code>Recursive character (R)</code>, <code>Vector semantic (V)</code>, and <code>Paragraph semantic (P)</code> strategies, plus the custom <code>C</code> chunker callback. The <code>P</code> strategy works with structured sidecars from supported parsers and <strong>aligns chunk boundaries with the document's native semantic boundaries</strong>—headings, paragraphs, and tables—as closely as possible. This reduces problems such as mismatched headings and content or missing header rows when long tables are split.</li>\n<li><strong>Multiple Storage Backends:</strong> LightRAG's default KV, vector, and graph stores are in-memory databases with local file persistence — suitable only for small-scale testing and evaluation, <strong>not for production</strong>. LightRAG also supports a wide range of commonly used storage backends (PostgreSQL recommended) for production deployments with large datasets.</li>\n</ul>",
     "truncated": false,
-    "chars": 2904
+    "chars": 2956
    }
   },
   "headings": 38,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:21.449Z",
-  "checked_at": "2026-11-17T11:56:21.449Z"
+  "fetched_at": "2026-11-17T21:01:31.139Z",
+  "checked_at": "2026-11-17T21:01:31.139Z"
  },
  "contributors": {
   "count": 392,
@@ -103,5 +103,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T02:20:53.117Z"
  },
- "details_checked_at": "2026-11-17T11:56:21.449Z"
+ "details_checked_at": "2026-11-17T21:01:31.139Z"
 }

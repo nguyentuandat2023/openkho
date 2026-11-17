@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:53:02.973Z",
+ "fetched_at": "2026-11-17T20:57:47.799Z",
  "meta": {
   "name": "private-gpt",
   "owner": "zylon-ai",
@@ -27,14 +27,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 57642,
-  "forks": 7628,
+  "stars": 57645,
+  "forks": 7627,
   "watchers": 447,
   "open_issues": 19,
   "open_prs": null,
   "created_at": "2023-05-02T09:15:31Z",
   "pushed_at": "2026-11-17T10:21:34Z",
-  "updated_at": "2026-11-17T10:18:17Z",
+  "updated_at": "2026-11-17T20:50:31Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -66,7 +66,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.593Z",
-  "checked_at": "2026-11-17T11:56:22.593Z"
+  "checked_at": "2026-11-17T21:01:32.588Z"
  },
  "contributors": {
   "count": 121,
@@ -74,5 +74,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.822Z"
  },
- "details_checked_at": "2026-11-17T11:56:22.593Z"
+ "details_checked_at": "2026-11-17T21:01:32.588Z"
 }

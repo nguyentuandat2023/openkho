@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:52:11.731Z",
+ "fetched_at": "2026-11-17T20:56:52.230Z",
  "meta": {
   "name": "node-red",
   "owner": "node-red",
@@ -30,14 +30,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 23852,
+  "stars": 23854,
   "forks": 4033,
   "watchers": 529,
-  "open_issues": 356,
+  "open_issues": 355,
   "open_prs": null,
   "created_at": "2013-09-05T13:30:47Z",
-  "pushed_at": "2026-11-17T11:50:49Z",
-  "updated_at": "2026-11-17T11:39:00Z",
+  "pushed_at": "2026-11-17T13:05:04Z",
+  "updated_at": "2026-11-17T17:56:56Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,7 +46,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 76030,
+  "size_kb": 76168,
   "og_image": "https://opengraph.githubassets.com/1/node-red/node-red",
   "custom_og_image": false
  },
@@ -68,8 +68,8 @@
   },
   "headings": 7,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:20.211Z",
-  "checked_at": "2026-11-17T11:56:20.211Z"
+  "fetched_at": "2026-11-17T21:01:29.766Z",
+  "checked_at": "2026-11-17T21:01:29.766Z"
  },
  "contributors": {
   "count": 301,
@@ -77,5 +77,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:31.136Z"
  },
- "details_checked_at": "2026-11-17T11:56:20.211Z"
+ "details_checked_at": "2026-11-17T21:01:29.766Z"
 }

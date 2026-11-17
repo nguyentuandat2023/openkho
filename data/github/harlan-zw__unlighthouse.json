@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:54:47.294Z",
+ "fetched_at": "2026-11-17T20:59:42.381Z",
  "meta": {
   "name": "unlighthouse",
   "owner": "harlan-zw",
@@ -27,14 +27,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 4953,
-  "forks": 183,
+  "stars": 4956,
+  "forks": 184,
   "watchers": 22,
-  "open_issues": 33,
+  "open_issues": 26,
   "open_prs": null,
   "created_at": "2021-10-31T07:14:30Z",
-  "pushed_at": "2026-10-27T03:50:57Z",
-  "updated_at": "2026-11-17T03:51:28Z",
+  "pushed_at": "2026-11-17T13:16:05Z",
+  "updated_at": "2026-11-17T19:50:02Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -43,7 +43,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 36215,
+  "size_kb": 36223,
   "og_image": "https://opengraph.githubassets.com/1/harlan-zw/unlighthouse",
   "custom_og_image": false
  },
@@ -66,7 +66,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.893Z",
-  "checked_at": "2026-11-17T11:56:26.893Z"
+  "checked_at": "2026-11-17T21:01:37.527Z"
  },
  "contributors": {
   "count": 29,
@@ -74,5 +74,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:37.974Z"
  },
- "details_checked_at": "2026-11-17T11:56:26.893Z"
+ "details_checked_at": "2026-11-17T21:01:37.527Z"
 }

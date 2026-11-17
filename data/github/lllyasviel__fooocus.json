@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:52:42.029Z",
+ "fetched_at": "2026-11-17T20:57:25.686Z",
  "meta": {
   "name": "Fooocus",
   "owner": "lllyasviel",
@@ -23,14 +23,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 53942,
-  "forks": 8623,
+  "stars": 53943,
+  "forks": 8621,
   "watchers": 474,
   "open_issues": 316,
   "open_prs": null,
   "created_at": "2023-08-09T18:43:40Z",
   "pushed_at": "2025-12-01T19:17:07Z",
-  "updated_at": "2026-11-17T10:37:23Z",
+  "updated_at": "2026-11-17T20:50:49Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 30,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.661Z",
-  "checked_at": "2026-11-17T11:56:21.661Z"
+  "checked_at": "2026-11-17T21:01:31.427Z"
  },
  "contributors": {
   "count": 59,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T02:20:54.189Z"
  },
- "details_checked_at": "2026-11-17T11:56:21.661Z"
+ "details_checked_at": "2026-11-17T21:01:31.427Z"
 }

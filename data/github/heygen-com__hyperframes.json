@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:55:56.847Z",
+ "fetched_at": "2026-11-17T21:01:05.081Z",
  "meta": {
   "name": "hyperframes",
   "owner": "heygen-com",
@@ -39,14 +39,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 85593,
-  "forks": 7932,
+  "stars": 85912,
+  "forks": 7962,
   "watchers": 203,
-  "open_issues": 300,
+  "open_issues": 294,
   "open_prs": null,
   "created_at": "2026-03-10T01:51:06Z",
-  "pushed_at": "2026-11-17T11:55:24Z",
-  "updated_at": "2026-11-17T11:55:35Z",
+  "pushed_at": "2026-11-17T20:59:57Z",
+  "updated_at": "2026-11-17T20:59:49Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,7 +55,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 544528,
+  "size_kb": 544971,
   "og_image": "https://opengraph.githubassets.com/1/heygen-com/hyperframes",
   "custom_og_image": false
  },
@@ -78,8 +78,13 @@
   "headings": 21,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.928Z",
-  "checked_at": "2026-11-17T11:56:29.928Z"
+  "checked_at": "2026-11-17T21:01:40.943Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T11:56:29.928Z"
+ "contributors": {
+  "count": 152,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T21:01:43.465Z"
+ },
+ "details_checked_at": "2026-11-17T21:01:40.943Z"
 }

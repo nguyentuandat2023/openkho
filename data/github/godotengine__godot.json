@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T11:55:22.145Z",
+ "fetched_at": "2026-11-17T21:00:23.648Z",
  "meta": {
   "name": "godot",
   "owner": "godotengine",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 120305,
-  "forks": 27547,
+  "stars": 120321,
+  "forks": 27551,
   "watchers": 1562,
-  "open_issues": 19061,
+  "open_issues": 19069,
   "open_prs": null,
   "created_at": "2014-01-04T16:05:36Z",
-  "pushed_at": "2026-11-16T18:48:03Z",
-  "updated_at": "2026-11-17T10:36:00Z",
+  "pushed_at": "2026-11-17T15:35:34Z",
+  "updated_at": "2026-11-17T20:46:33Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 1951859,
+  "size_kb": 1951908,
   "og_image": "https://opengraph.githubassets.com/1/godotengine/godot",
   "custom_og_image": false
  },
@@ -65,7 +65,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.575Z",
-  "checked_at": "2026-11-17T11:56:28.575Z"
+  "checked_at": "2026-11-17T21:01:39.237Z"
  },
  "contributors": {
   "count": 4015,
@@ -73,5 +73,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.898Z"
  },
- "details_checked_at": "2026-11-17T11:56:28.575Z"
+ "details_checked_at": "2026-11-17T21:01:39.237Z"
 }
