@@ -21,7 +21,7 @@
     "check-links": "node scripts/check-links.mjs",
     "db:sql": "node scripts/db/export-sql.mjs",
     "db:load": "node scripts/db/load-postgres.mjs",
-    "test": "node --test scripts/test/",
+    "test": "node --test \"scripts/test/*.test.mjs\"",
     "test:db": "node scripts/db/test-pglite.mjs",
     "test:e2e": "node scripts/e2e/run.mjs",
     "jobs": "node scripts/scheduler/cli.mjs",
