@@ -1,0 +1,179 @@
+# 20 lĩnh vực công nghệ dùng để PHÂN LOẠI TỰ ĐỘNG repo (đa nhãn, có độ tin cậy).
+# Khác với danh mục biên tập (data/categories.yaml): lĩnh vực được gán bằng quy tắc minh bạch từ
+# topic GitHub (3 điểm), mô tả (2 điểm), tên repo (1 điểm), README (1 điểm/từ khóa xuất hiện ≥ 2 lần, tối đa 3)
+# và ngôn ngữ chính (0,5 điểm). Gán nhãn khi tổng ≥ 3 điểm; độ tin cậy = min(0,99; điểm / 8).
+# Sửa file này để thêm/bớt từ khóa — không cần sửa mã nguồn. Từ khóa kết thúc bằng * là khớp tiền tố.
+# implies: lĩnh vực cha được gán kèm (độ tin cậy × 0,8). combo: cộng 3 điểm khi lĩnh vực `with` cũng khớp
+# và repo có một trong các topic/từ khóa liệt kê.
+
+- slug: ai
+  name: Trí tuệ nhân tạo
+  en: Artificial Intelligence
+  icon: sparkles
+  hue: 270
+  description: Ứng dụng, công cụ và nền tảng dùng trí tuệ nhân tạo nói chung.
+  topics: [ai, artificial-intelligence, genai, generative-ai, ai-tools, openai, anthropic, claude, gemini, chatgpt, gpt, ai-assistant, deepseek, qwen]
+  keywords: [artificial intelligence, generative ai, genai, ai-powered, ai powered, ai assistant, openai, chatgpt]
+- slug: ai-agents
+  name: AI Agent
+  en: AI Agents
+  icon: bot
+  hue: 285
+  description: Agent tự chủ, hệ đa agent, agent lập trình và khung xây dựng agent.
+  implies: [ai]
+  topics: [ai-agent, ai-agents, agent, agents, agentic, agentic-ai, multi-agent, multi-agent-systems, autonomous-agents, crewai, langgraph, autogen, computer-use, browser-use, coding-agent, claude-code, agent-framework, agentic-workflow, swe-agent]
+  keywords: [ai agent, ai agents, agentic, multi-agent, autonomous agent, coding agent, agent framework, agent sdk, computer use]
+- slug: llm
+  name: Mô hình ngôn ngữ lớn (LLM)
+  en: Large Language Models
+  icon: message-square
+  hue: 255
+  description: Mô hình ngôn ngữ, suy luận, RAG, tinh chỉnh và hạ tầng chạy LLM.
+  implies: [ai]
+  topics: [llm, llms, large-language-models, large-language-model, llama, llama-cpp, ollama, rag, retrieval-augmented-generation, prompt-engineering, langchain, llamaindex, vllm, llm-inference, fine-tuning, chatbot, local-llm, llmops, embeddings, gguf]
+  keywords: [llm, llms, large language model*, retrieval-augmented, retrieval augmented, rag, prompt engineering, fine-tun*, inference engine, local llm, embedding*]
+- slug: machine-learning
+  name: Học máy
+  en: Machine Learning
+  icon: brain
+  hue: 230
+  description: Thuật toán học máy, MLOps, huấn luyện và triển khai mô hình.
+  implies: [ai]
+  topics: [machine-learning, ml, scikit-learn, sklearn, mlops, xgboost, lightgbm, reinforcement-learning, automl, feature-store, model-serving, experiment-tracking]
+  keywords: [machine learning, mlops, model training, reinforcement learning, feature engineering, model serving]
+- slug: deep-learning
+  name: Học sâu
+  en: Deep Learning
+  icon: layers
+  hue: 215
+  description: Mạng nơ-ron, thị giác máy tính, mô hình khuếch tán, giọng nói.
+  implies: [ai]
+  topics: [deep-learning, pytorch, tensorflow, neural-network, neural-networks, transformers, computer-vision, diffusion, stable-diffusion, diffusion-models, jax, gan, speech-recognition, text-to-speech, tts, image-generation, video-generation, object-detection, comfyui]
+  keywords: [deep learning, neural network*, pytorch, tensorflow, diffusion model*, computer vision, text-to-speech, speech recognition, image generation, video generation]
+- slug: ai-automation
+  name: Tự động hóa bằng AI
+  en: AI Automation
+  icon: workflow
+  hue: 300
+  description: Quy trình tự động có AI tham gia — workflow, RPA, tự động hóa trình duyệt.
+  implies: [ai]
+  topics: [ai-automation, ai-workflow, ai-workflows, agentic-workflow, ai-agents-automation, llm-automation]
+  keywords: [ai automation, ai workflow*, automate with ai, ai-driven automation, ai-powered automation]
+  combo:
+    with: ai
+    topics: [automation, workflow-automation, workflow, rpa, browser-automation, n8n, zapier, low-code, no-code]
+    keywords: [workflow automation, automation platform, automate*]
+- slug: developer-tools
+  name: Công cụ lập trình viên
+  en: Developer Tools
+  icon: wrench
+  hue: 25
+  description: CLI, IDE, tiện ích cho editor, kiểm thử, gỡ lỗi, sinh mã.
+  topics: [developer-tools, devtools, cli, terminal, ide, vscode, vscode-extension, neovim, vim, editor, debugging, debugger, linter, formatter, testing, testing-tools, git, code-generation, sdk, build-tool, code-review, code-quality, tui, shell]
+  keywords: [developer tool*, developer experience, cli tool, command-line, command line, vs code extension, vscode extension, code editor, linter, debugger, for developers, terminal ui]
+- slug: web-development
+  name: Phát triển web
+  en: Web Development
+  icon: globe
+  hue: 195
+  description: Framework, thư viện và công cụ xây dựng website, ứng dụng web.
+  topics: [web, webdev, web-development, frontend, javascript, typescript, react, reactjs, nextjs, vue, vuejs, svelte, sveltekit, angular, nodejs, css, html, tailwindcss, web-framework, static-site-generator, astro, remix, nuxt, vite, htmx, bun, deno]
+  keywords: [web app*, web framework, frontend, front-end, full-stack, fullstack, next.js, react, website builder, static site]
+- slug: mobile-development
+  name: Phát triển ứng dụng di động
+  en: Mobile Development
+  icon: smartphone
+  hue: 160
+  description: Ứng dụng và framework cho Android, iOS, đa nền tảng.
+  topics: [android, ios, mobile, flutter, react-native, swift, swiftui, kotlin, jetpack-compose, expo, mobile-app, android-app, ios-app, kotlin-multiplatform]
+  keywords: [android, ios app, iphone, mobile app*, flutter, react native, swiftui, jetpack compose]
+  languages: [Swift, Kotlin, Dart, Objective-C]
+- slug: data-science
+  name: Khoa học dữ liệu
+  en: Data Science
+  icon: bar-chart
+  hue: 140
+  description: Phân tích, trực quan hóa, xử lý dữ liệu lớn và BI.
+  topics: [data-science, data-analysis, data-visualization, jupyter, jupyter-notebook, notebook, pandas, analytics, etl, data-engineering, big-data, spark, dataframe, polars, business-intelligence, bi, dashboard, data-pipeline, visualization]
+  keywords: [data science, data analysis, data visualization, dataframe*, jupyter, etl, data pipeline*, business intelligence, analytics]
+  languages: [Jupyter Notebook, R]
+- slug: cybersecurity
+  name: An ninh mạng
+  en: Cybersecurity
+  icon: shield
+  hue: 0
+  description: Kiểm thử xâm nhập, quét lỗ hổng, OSINT, bảo mật ứng dụng.
+  topics: [security, cybersecurity, infosec, pentest, pentesting, penetration-testing, vulnerability, vulnerability-scanner, osint, malware-analysis, ctf, red-team, blue-team, encryption, privacy, appsec, sast, secrets-management, hacking, exploit, bug-bounty, reverse-engineering]
+  keywords: [cybersecurity, penetration test*, pentest*, vulnerabilit*, osint, malware, threat intelligence, red team, security scanner, exploit*]
+- slug: cloud-computing
+  name: Điện toán đám mây
+  en: Cloud Computing
+  icon: cloud
+  hue: 205
+  description: Hạ tầng, dịch vụ và công cụ cho AWS, Azure, GCP, serverless.
+  topics: [cloud, aws, azure, gcp, google-cloud, serverless, cloud-native, cloudflare, aws-lambda, multi-cloud, cloud-computing, s3, cloudflare-workers, edge-computing]
+  keywords: [cloud-native, serverless, aws, azure, google cloud, gcp, multi-cloud, cloudflare workers]
+- slug: devops
+  name: DevOps & hạ tầng
+  en: DevOps
+  icon: server
+  hue: 180
+  description: Container, Kubernetes, CI/CD, hạ tầng dưới dạng mã, giám sát.
+  topics: [devops, kubernetes, k8s, docker, containers, container, ci-cd, cicd, continuous-integration, github-actions, terraform, ansible, infrastructure-as-code, iac, monitoring, observability, prometheus, grafana, helm, gitops, sre, logging, opentelemetry]
+  keywords: [devops, kubernetes, ci/cd, infrastructure as code, observability, monitoring, gitops, container orchestration, deployment pipeline*]
+- slug: open-source-tools
+  name: Công cụ mã nguồn mở thay thế
+  en: Open Source Tools
+  icon: package
+  hue: 45
+  description: Phần mềm nguồn mở thay thế dịch vụ thương mại và bộ sưu tập công cụ.
+  topics: [open-source, opensource, alternative, open-source-alternative, foss, free-software, awesome, awesome-list, alternatives]
+  keywords: [open-source alternative, open source alternative, alternative to, free and open source, foss, awesome list]
+- slug: productivity
+  name: Năng suất & làm việc
+  en: Productivity
+  icon: check-square
+  hue: 95
+  description: Ghi chú, quản lý công việc, lịch, quản lý tri thức cá nhân.
+  topics: [productivity, note-taking, notes, todo, todo-app, task-manager, calendar, markdown-editor, knowledge-base, pkm, obsidian, time-tracking, kanban, personal-knowledge-management, second-brain, writing, project-management]
+  keywords: [productivity, note-taking, notes app, to-do, todo list, task management, knowledge base, knowledge management, second brain, project management]
+- slug: ui-ux-libraries
+  name: Thư viện UI/UX
+  en: UI/UX Libraries
+  icon: palette
+  hue: 330
+  description: Bộ component, design system, biểu tượng, hiệu ứng chuyển động.
+  topics: [ui, ui-components, component-library, design-system, ui-library, react-components, tailwind-components, shadcn, shadcn-ui, css-framework, icons, icon-library, animation, ux, figma, design, headless-ui, ui-kit]
+  keywords: [component library, ui component*, design system, ui kit, icon set, animation library, headless ui, shadcn]
+- slug: api-backend
+  name: API & Backend
+  en: API & Backend
+  icon: plug
+  hue: 15
+  description: Framework backend, máy chủ API, GraphQL, microservice, BaaS.
+  topics: [api, rest-api, restful-api, graphql, backend, server, microservices, grpc, web-api, fastapi, express, django, flask, spring-boot, nestjs, laravel, rails, http-server, openapi, api-gateway, backend-framework, baas, firebase-alternative]
+  keywords: [rest api, restful, graphql, backend, back-end, api server, microservice*, openapi, api gateway, backend as a service]
+- slug: database
+  name: Cơ sở dữ liệu
+  en: Database
+  icon: database
+  hue: 35
+  description: Hệ quản trị CSDL, vector database, ORM, công cụ truy vấn.
+  topics: [database, databases, sql, postgresql, postgres, mysql, sqlite, mongodb, redis, nosql, vector-database, vector-search, orm, key-value, time-series, olap, clickhouse, duckdb, graph-database, embedded-database, database-management]
+  keywords: [database, sql, postgres*, mysql, sqlite, vector database, vector search, orm, query engine, key-value store, time-series]
+- slug: self-hosted
+  name: Tự lưu trữ (self-hosted)
+  en: Self-hosted
+  icon: home
+  hue: 120
+  description: Ứng dụng tự cài trên máy chủ riêng, homelab, ưu tiên quyền riêng tư.
+  topics: [self-hosted, selfhosted, self-host, homelab, home-server, privacy-first, local-first, home-assistant, home-automation, nas]
+  keywords: [self-hosted, self-host*, selfhosted, homelab, host it yourself, on-premise*, your own server, local-first]
+- slug: trending-technologies
+  name: Công nghệ mới nổi
+  en: Trending Technologies
+  icon: flame
+  hue: 15
+  description: Công nghệ đang lên — MCP, agent lập trình, AI cục bộ, WebGPU, WebAssembly…
+  topics: [mcp, model-context-protocol, mcp-server, mcp-servers, mcp-client, vibe-coding, claude-code, computer-use, browser-use, local-llm, webgpu, wasm, webassembly, small-language-models, multimodal, vlm, vision-language-model, text-to-video, ai-video, voice-ai, speech-to-speech, gemini-cli, codex, a2a, agent-to-agent]
+  keywords: [model context protocol, mcp server*, vibe coding, webgpu, webassembly, local llm*, multimodal, vision-language, speech-to-speech, text-to-video]

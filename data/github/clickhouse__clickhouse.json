@@ -1,0 +1,123 @@
+{
+ "id": "ClickHouse/ClickHouse",
+ "github_id": 60246359,
+ "node_id": "MDEwOlJlcG9zaXRvcnk2MDI0NjM1OQ==",
+ "full_name": "ClickHouse/ClickHouse",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "ClickHouse",
+  "owner": "ClickHouse",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/54801242?v=4",
+  "description": "ClickHouse® is a real-time analytics database management system",
+  "homepage": "https://clickhouse.com",
+  "html_url": "https://github.com/ClickHouse/ClickHouse",
+  "default_branch": "master",
+  "language": "C++",
+  "languages": null,
+  "topics": [
+   "ai",
+   "analytics",
+   "big-data",
+   "clickhouse",
+   "cloud-native",
+   "cpp",
+   "database",
+   "dbms",
+   "distributed",
+   "embedded",
+   "hacktoberfest",
+   "lakehouse",
+   "mpp",
+   "olap",
+   "rust",
+   "self-hosted",
+   "sql"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 50965,
+  "forks": 9272,
+  "watchers": null,
+  "open_issues": 9161,
+  "open_prs": null,
+  "created_at": "2016-06-02T08:28:18Z",
+  "pushed_at": "2026-11-17T02:13:48Z",
+  "updated_at": "2026-11-17T00:27:18Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 15989255,
+  "og_image": "https://opengraph.githubassets.com/1/ClickHouse/ClickHouse",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T19:11:13.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v26.9.30.7-stable",
+  "name": "Release v26.9.30.7-stable",
+  "published_at": "2026-11-16T15:59:56Z",
+  "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.9.30.7-stable",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 7082,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "wLrTlU5LLWI",
+    "url": "https://www.youtube.com/watch?v=wLrTlU5LLWI"
+   },
+   {
+    "type": "youtube",
+    "id": "5A9gRYE0v2M",
+    "url": "https://www.youtube.com/watch?v=5A9gRYE0v2M"
+   },
+   {
+    "type": "youtube",
+    "id": "mKBNLaFOVDA",
+    "url": "https://www.youtube.com/watch?v=mKBNLaFOVDA"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "How To Install (Linux, macOS, FreeBSD)",
+    "html": "<pre><code>curl https://clickhouse.com/ | sh\n</code></pre>\n<p>Or skip the install: try <a href=\"https://console.clickhouse.cloud/signUp?utm_medium=referral&amp;utm_source=github\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ClickHouse Cloud</a> for free and start querying in minutes.</p>",
+    "truncated": false,
+    "chars": 208
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 7,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:24.756Z",
+  "checked_at": "2026-11-17T02:19:51.667Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:51.667Z"
+}

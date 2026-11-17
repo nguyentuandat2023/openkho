@@ -1,0 +1,283 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* ===== Token màu =====
+   Sáng: giấy trắng, mực nâu cánh gián, vàng đồng.
+   Tối: sơn then (nâu-đen sơn mài), chữ màu vỏ trứng, vàng lá. */
+:root {
+  color-scheme: light;
+  --bg: #ffffff;
+  --surface: #f6f4f1;
+  --surface-2: #ece8e2;
+  --raised: #ffffff;
+  --line: #e5ded5;
+  --line-strong: #d2c6b8;
+  --ink: #261a14;
+  --ink-2: #66564a;
+  --ink-3: #8a7a6d;
+  --accent: #6b2b1d;
+  --accent-ink: #fff6ec;
+  --gold: #8a5f12;
+  --gold-soft: #f4e8d0;
+  --gold-line: rgba(138, 95, 18, 0.38);
+  --ok: #2b7550;
+  --ok-soft: #e2f0e7;
+  --warn: #a5520e;
+  --warn-soft: #f8e9da;
+  --danger: #b0372a;
+  --danger-soft: #f8e1dc;
+  --info: #2c5a8e;
+  --info-soft: #e1eaf5;
+  --focus: #a4761a;
+  --cabinet: #efe9e1;
+  --drawer: #fdfcfa;
+  --drawer-hi: #ffffff;
+  --drawer-lo: rgba(38, 26, 20, 0.09);
+  --drawer-shadow: rgba(38, 26, 20, 0.28);
+  --code-bg: #1c1410;
+  --code-ink: #efe6d9;
+  --hue-l: 0.56;
+  --hue-c: 0.11;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #1a1310;
+    --surface: #211813;
+    --surface-2: #2b201a;
+    --raised: #271d17;
+    --line: #3a2c23;
+    --line-strong: #4f3d31;
+    --ink: #f2eadf;
+    --ink-2: #c4b3a2;
+    --ink-3: #9b8877;
+    --accent: #d8b36a;
+    --accent-ink: #1a1310;
+    --gold: #e1bf7a;
+    --gold-soft: #3a2c1b;
+    --gold-line: rgba(216, 179, 106, 0.42);
+    --ok: #7fc89f;
+    --ok-soft: #1d3125;
+    --warn: #eca061;
+    --warn-soft: #3a2616;
+    --danger: #ef7660;
+    --danger-soft: #3d1e19;
+    --info: #98bce4;
+    --info-soft: #1c2938;
+    --focus: #e1bf7a;
+    --cabinet: #140e0b;
+    --drawer: #2a1f19;
+    --drawer-hi: rgba(255, 240, 220, 0.05);
+    --drawer-lo: rgba(0, 0, 0, 0.38);
+    --drawer-shadow: rgba(0, 0, 0, 0.6);
+    --code-bg: #120d0a;
+    --code-ink: #efe6d9;
+    --hue-l: 0.75;
+    --hue-c: 0.085;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #1a1310;
+  --surface: #211813;
+  --surface-2: #2b201a;
+  --raised: #271d17;
+  --line: #3a2c23;
+  --line-strong: #4f3d31;
+  --ink: #f2eadf;
+  --ink-2: #c4b3a2;
+  --ink-3: #9b8877;
+  --accent: #d8b36a;
+  --accent-ink: #1a1310;
+  --gold: #e1bf7a;
+  --gold-soft: #3a2c1b;
+  --gold-line: rgba(216, 179, 106, 0.42);
+  --ok: #7fc89f;
+  --ok-soft: #1d3125;
+  --warn: #eca061;
+  --warn-soft: #3a2616;
+  --danger: #ef7660;
+  --danger-soft: #3d1e19;
+  --info: #98bce4;
+  --info-soft: #1c2938;
+  --focus: #e1bf7a;
+  --cabinet: #140e0b;
+  --drawer: #2a1f19;
+  --drawer-hi: rgba(255, 240, 220, 0.05);
+  --drawer-lo: rgba(0, 0, 0, 0.38);
+  --drawer-shadow: rgba(0, 0, 0, 0.6);
+  --code-bg: #120d0a;
+  --code-ink: #efe6d9;
+  --hue-l: 0.75;
+  --hue-c: 0.085;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-raised: var(--raised);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+  --font-sans: var(--font-vn), ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+  --font-mono: ui-monospace, "Cascadia Code", "SF Mono", Consolas, "Liberation Mono", monospace;
+}
+
+@layer base {
+  html {
+    background: var(--bg);
+    color: var(--ink);
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 72px;
+  }
+  body {
+    background: var(--bg);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  h1, h2, h3, h4 { line-height: 1.25; text-wrap: balance; }
+  p { text-wrap: pretty; }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+  ::selection { background: var(--gold-soft); color: var(--ink); }
+  img, svg { max-width: 100%; }
+  input, select, textarea, button { font: inherit; color: inherit; }
+}
+
+@layer components {
+  .page { max-width: 1200px; margin-inline: auto; padding-inline: 16px; }
+  @media (min-width: 640px) { .page { padding-inline: 24px; } }
+  @media (min-width: 1024px) { .page { padding-inline: 32px; } }
+
+  .tnum { font-variant-numeric: tabular-nums; }
+  .skip-link { position: absolute; left: 12px; top: -48px; z-index: 60; background: var(--accent); color: var(--accent-ink); padding: 8px 12px; border-radius: 8px; font-weight: 600; }
+  .skip-link:focus { top: 12px; }
+
+  .link { color: var(--gold); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+  .link:hover { text-decoration-thickness: 2px; }
+
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+    min-height: 40px; padding: 0 14px; border-radius: 10px;
+    font-weight: 600; font-size: 0.9375rem; line-height: 1.2;
+    border: 1px solid var(--line-strong); background: var(--raised); color: var(--ink);
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+    white-space: nowrap; min-width: 0; max-width: 100%;
+  }
+  .btn:hover { background: var(--surface-2); }
+  .btn-primary { background: var(--accent); color: var(--accent-ink); border-color: transparent; }
+  .btn-primary:hover { background: var(--accent); filter: brightness(1.07); }
+  .btn-ghost { background: transparent; border-color: transparent; }
+  .btn-ghost:hover { background: var(--surface-2); }
+  .btn-sm { min-height: 32px; padding: 0 10px; font-size: 0.875rem; border-radius: 8px; }
+  .btn[aria-disabled="true"], .btn:disabled { opacity: 0.55; pointer-events: none; }
+
+  .field {
+    width: 100%; min-height: 40px; padding: 8px 12px; border-radius: 10px;
+    background: var(--raised); border: 1px solid var(--line-strong); color: var(--ink);
+  }
+  .field::placeholder { color: var(--ink-3); }
+
+  /* Chip lọc */
+  .chip {
+    display: inline-flex; align-items: center; gap: 0.35rem; min-height: 32px; padding: 0 11px;
+    border-radius: 999px; border: 1px solid var(--line-strong); background: var(--raised);
+    font-size: 0.8125rem; font-weight: 500; color: var(--ink-2); cursor: pointer; user-select: none;
+  }
+  .chip:hover { border-color: var(--ink-3); color: var(--ink); }
+  .chip[aria-pressed="true"] { background: var(--gold-soft); border-color: var(--gold-line); color: var(--ink); }
+
+  /* Tủ ngăn kéo – danh mục */
+  .cabinet { background: var(--cabinet); border: 1px solid var(--line-strong); border-radius: 14px; padding: 8px; }
+  .drawer {
+    position: relative; display: flex; flex-direction: column; gap: 6px; justify-content: space-between;
+    min-height: 92px; padding: 10px 11px 20px; border-radius: 7px;
+    background: var(--drawer); border: 1px solid var(--line);
+    box-shadow: inset 0 1px 0 var(--drawer-hi), inset 0 -3px 0 var(--drawer-lo);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+  }
+  .drawer:hover, .drawer:focus-visible {
+    transform: translateY(-3px);
+    box-shadow: inset 0 1px 0 var(--drawer-hi), inset 0 -3px 0 var(--drawer-lo), 0 10px 18px -10px var(--drawer-shadow);
+  }
+  .drawer-label { align-self: flex-start; max-width: 100%; padding: 2px 7px; border: 1px solid var(--gold-line); border-radius: 3px; font-size: 0.8125rem; font-weight: 600; line-height: 1.35; color: var(--ink); }
+  .drawer-pull { position: absolute; left: 50%; bottom: 8px; width: 30px; height: 4px; margin-left: -15px; border-radius: 4px; background: var(--gold); opacity: 0.75; }
+  .hue-dot { width: 8px; height: 8px; border-radius: 2px; flex: none; background: oklch(var(--hue-l) var(--hue-c) var(--h, 210)); }
+
+  /* Con dấu giấy phép / trạng thái */
+  .stamp {
+    display: inline-flex; align-items: center; gap: 0.3rem; padding: 1px 8px; border-radius: 6px;
+    font-size: 0.75rem; font-weight: 650; line-height: 1.55; max-width: calc(100% - 6px); overflow-wrap: anywhere;
+    border: 1px solid currentColor;
+    box-shadow: 0 0 0 2px var(--bg), 0 0 0 3px color-mix(in oklab, currentColor 45%, transparent);
+    margin: 3px;
+  }
+  .tone-ok { color: var(--ok); background: var(--ok-soft); }
+  .tone-gold { color: var(--gold); background: var(--gold-soft); }
+  .tone-warn { color: var(--warn); background: var(--warn-soft); }
+  .tone-danger { color: var(--danger); background: var(--danger-soft); }
+  .tone-info { color: var(--info); background: var(--info-soft); }
+
+  .tag { display: inline-flex; align-items: center; min-height: 24px; padding: 0 8px; border-radius: 6px; background: var(--surface-2); color: var(--ink-2); font-size: 0.75rem; font-weight: 500; }
+
+  .panel { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
+  .hairline { border-top: 1px solid var(--line); }
+
+  .clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+  /* Nội dung trích từ README (đã làm sạch) */
+  .prose-readme { font-size: 0.9375rem; line-height: 1.68; overflow-wrap: anywhere; color: var(--ink); }
+  .prose-readme > :first-child { margin-top: 0; }
+  .prose-readme p { margin: 0.65em 0; }
+  .prose-readme h4 { font-size: 1rem; font-weight: 700; margin: 1.3em 0 0.4em; }
+  .prose-readme h5, .prose-readme h6 { font-size: 0.95rem; font-weight: 650; margin: 1.1em 0 0.35em; }
+  .prose-readme ul { list-style: disc; padding-left: 1.35em; margin: 0.6em 0; }
+  .prose-readme ol { list-style: decimal; padding-left: 1.5em; margin: 0.6em 0; }
+  .prose-readme li { margin: 0.25em 0; }
+  .prose-readme a { color: var(--gold); text-decoration: underline; text-underline-offset: 2px; }
+  .prose-readme code { font-family: var(--font-mono); font-size: 0.86em; background: var(--surface-2); padding: 0.1em 0.35em; border-radius: 4px; }
+  .prose-readme pre { position: relative; background: var(--code-bg); color: var(--code-ink); padding: 12px 14px; padding-right: 76px; border-radius: 10px; overflow-x: auto; margin: 0.8em 0; font-size: 0.84rem; line-height: 1.55; }
+  .prose-readme pre code { background: none; padding: 0; font-size: inherit; color: inherit; white-space: pre; }
+  .prose-readme img { display: inline-block; max-width: 100%; height: auto; border-radius: 6px; vertical-align: middle; }
+  .prose-readme table { display: block; max-width: 100%; overflow-x: auto; border-collapse: collapse; font-size: 0.875rem; margin: 0.8em 0; }
+  .prose-readme th, .prose-readme td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; vertical-align: top; }
+  .prose-readme th { background: var(--surface-2); font-weight: 600; }
+  .prose-readme blockquote { border-left: 3px solid var(--line-strong); padding-left: 12px; color: var(--ink-2); margin: 0.8em 0; }
+  .prose-readme details { border: 1px solid var(--line); border-radius: 8px; padding: 6px 12px; margin: 0.6em 0; }
+  .prose-readme summary { cursor: pointer; font-weight: 600; }
+  .prose-readme hr { border: 0; border-top: 1px solid var(--line); margin: 1.2em 0; }
+  .code-copy { position: absolute; top: 8px; right: 8px; font-family: var(--font-sans); font-size: 0.75rem; font-weight: 600; padding: 3px 9px; border-radius: 6px; background: rgba(255, 255, 255, 0.1); color: var(--code-ink); border: 1px solid rgba(255, 255, 255, 0.18); cursor: pointer; }
+  .code-copy:hover { background: rgba(255, 255, 255, 0.18); }
+
+  .codebox { background: var(--code-bg); color: var(--code-ink); border-radius: 10px; font-family: var(--font-mono); font-size: 0.84rem; line-height: 1.6; padding: 12px 14px; overflow-x: auto; white-space: pre; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  .drawer:hover, .drawer:focus-visible { transform: none; }
+}
+
+/* Chữ dành cho trình đọc màn hình: ghim về góc khối chứa để không đẩy trang rộng ra trên điện thoại */
+.sr-only { left: 0; top: 0; }

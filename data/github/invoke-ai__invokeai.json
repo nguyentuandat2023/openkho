@@ -1,0 +1,118 @@
+{
+ "id": "invoke-ai/InvokeAI",
+ "github_id": 525592995,
+ "node_id": "R_kgDOH1Ppow",
+ "full_name": "invoke-ai/InvokeAI",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.073Z",
+ "meta": {
+  "name": "InvokeAI",
+  "owner": "invoke-ai",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/113954515?v=4",
+  "description": "Invoke is a leading creative engine that uses image and video generation models to empower professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry-leading application interface, and serves as the foundation for multiple commercial products.",
+  "homepage": "https://invoke-ai.github.io/InvokeAI/",
+  "html_url": "https://github.com/invoke-ai/InvokeAI",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "ai-art",
+   "artificial-intelligence",
+   "generative-art",
+   "image-generation",
+   "img2img",
+   "inpainting",
+   "latent-diffusion",
+   "linux",
+   "macos",
+   "outpainting",
+   "stable-diffusion",
+   "txt2img",
+   "windows"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 29104,
+  "forks": 3118,
+  "watchers": null,
+  "open_issues": 329,
+  "open_prs": null,
+  "created_at": "2022-08-17T01:04:27Z",
+  "pushed_at": "2026-11-17T02:17:07Z",
+  "updated_at": "2026-11-17T01:41:15Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 457979,
+  "og_image": "https://opengraph.githubassets.com/1/invoke-ai/InvokeAI",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T00:45:37.000Z",
+  "commits_90d": 860,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v6.14.4",
+  "name": "InvokeAI 6.14.4",
+  "published_at": "2026-11-03T02:30:14Z",
+  "url": "https://github.com/invoke-ai/InvokeAI/releases/tag/v6.14.4",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v7.0.0-beta.1",
+  "name": "v7.0.0 (beta 1)",
+  "published_at": "2026-11-09T13:05:54Z",
+  "url": "https://github.com/invoke-ai/InvokeAI/releases/tag/v7.0.0-beta.1"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 8392,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>To get started with Invoke, <a href=\"https://github.com/invoke-ai/launcher/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download the Launcher</a>.</p>\n<h4>Troubleshooting, FAQ and Support</h4>\n<p>Please review our <a href=\"https://invoke.ai/troubleshooting/faq/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">FAQ</a> for solutions to common installation problems and other issues.</p>\n<p>For more help, please join our <a href=\"https://discord.gg/ZmtBAhwWhy\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Discord</a>.</p>\n<h4>Features</h4>\n<p>Full details on features can be found in <a href=\"https://invoke.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our documentation</a>.</p>\n<h5>Web Server &amp; UI</h5>\n<p>Invoke runs a locally hosted web server &amp; React UI with an industry-leading user experience.</p>\n<h5>Unified Canvas</h5>\n<p>The Unified Canvas is a fully integrated canvas implementation with support for all core generation capabilities, in/out-painting, brush tools, and more. This creative tool unlocks the capability for artists to create with AI as a creative collaborator, and can be used to augment AI-generated imagery, sketches, photography, renders, and more.</p>\n<h5>Workflows &amp; Nodes</h5>\n<p>Invoke offers a fully featured workflow management solution, enabling users to combine the power of node-based workflows with the ease of a UI. This allows for customizable generation pipelines to be developed and shared by users looking to create specific workflows to support their production use-cases.</p>\n<h5>Board &amp; Gallery Management</h5>\n<p>Invoke features an organized gallery system for easily storing, accessing, and remixing your content in the Invoke workspace. Images can be dragged/dropped onto any Image-base UI element in the application, and rich metadata within the Image allows for easy recall of key prompts or settings used in your workflow.</p>\n<h5>Model Support</h5>\n<ul>\n<li>SD 1.5</li>\n<li>SD 2.0</li>\n<li>SDXL</li>\n<li>SD 3.5 Medium</li>\n<li>SD 3.5 Large</li>\n<li>CogView 4</li>\n<li>Flux.1 Dev</li>\n<li>Flux.1 Schnell</li>\n<li>Flux.1 Kontext</li>\n<li>Flux.1 Krea</li>\n<li>Flux Redux</li>\n<li>Flux Fill</li>\n<li>Flux.2 Dev</li>\n<li>Flux.2 Klein 4B</li>\n<li>Flux.2 Klein 9B</li>\n<li>Z-Image Turbo</li>\n<li>Z-Image Base</li>\n<li>Krea 2 Turbo</li>\n<li>Krea 2 Raw</li>\n<li>Anima</li>\n<li>Qwen Image</li>\n<li>Qwen Image Edit</li>\n<li>Ideogram 4</li>\n<li>ERNIE-Image</li>\n<li>ERNIE-Image-Turbo</li>\n<li>Nano Banana (API Only)</li>\n<li>GPT Image (API Only)</li>\n<li>Wan (API Only)</li>\n</ul>\n<h5>Other features</h5>\n<ul>\n<li>Support for ckpt, diffusers, and some gguf models</li>\n<li>Upscaling Tools</li>\n<li>Embedding Manager &amp; Support</li>\n<li>Model Manager &amp; Support</li>\n<li>Workflow creation &amp; management</li>\n<li>Node-Based Architecture</li>\n<li>Object Segmentation &amp; Selection Models (SAM / SAM2)</li>\n</ul>\n<h4>Contributing</h4>\n<p>Anyone who wishes to contribute to this project - whether documentation, features, bug fixes, code cleanup, testing, or code reviews - is very much encouraged to do so.</p>\n<p>Get started with contributing by reading our <a href=\"https://invoke.ai/contributing/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">contribution documentation</a>, joining the <a href=\"https://discord.com/channels/1020123559063990373/1049495067846524939\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#dev-chat</a> or the GitHub discussion board.</p>\n<p>We hope you enjoy using Invoke as much as we enjoy creating it, and we hope you will elect to become part of our community.</p>\n<h4>Sponsors</h4>\n<p>Invoke's open-source development is powered by our sponsors. If Invoke is valuable to you or your business, please consider <a href=\"https://github.com/sponsors/invoke-ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">sponsoring us</a> — it directly funds maintenance, new features, and community support.</p>\n<p><a href=\"https://github.com/sponsors/invoke-ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"></a></p>\n<p>We very much thank the following sponsors:</p>\n<h5>Blacksmith</h5>\n<p><a href=\"https://www.blacksmith.sh/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/invoke-ai/InvokeAI/main/docs/src/content/docs/assets/blacksmith-logo.png\" alt=\"Blacksmith\" loading=\"lazy\" decoding=\"async\" /></a></p>\n<p>Blacksmith provides InvokeAI with virtual machines for continuous\nintegration and continuous deployment.</p>\n<h5>Backers ($15/mo)</h5>\n<ul>\n<li><a href=\"https://github.com/apokolypsse\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">apokolypsse</a></li>\n<li><a href=\"https://github.com/Romeotechguy\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Romeotechguy</a></li>\n<li><a href=\"https://github.com/Pynshe9\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Pynshe9</a></li>\n<li><a href=\"https://github.com/CarstenD74\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CarstenD74</a></li>\n<li><a href=\"https://github.com/zamjoor\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">zamjoor</a></li>\n<li><a href=\"https://github.com/FusionBreak\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">FusionBreak</a></li>\n<li>and 2 anonymous donors</li>\n</ul>\n<h5>Power Users ($50/mo)</h5>\n<ul>\n<li><a href=\"https://github.com/mickr777\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">mickr777</a></li>\n<li><a href=\"https://github.com/Astroburner\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Astroburner</a></li>\n<li>and 2 anonymous donors</li>\n</ul>\n<h4>Thanks</h4>\n<p>Invoke is a combined effort of <a href=\"https://invoke.ai/contributing/contributors/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">passionate and talented people from across the world</a>. We thank them for their time, hard work and effort.</p>\n<p>Copyright 2022-2026 InvokeAI Contributors. See <a href=\"https://github.com/invoke-ai/InvokeAI/blob/main/NOTICE\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">NOTICE</a>.</p>",
+    "truncated": false,
+    "chars": 6329
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<p>Full details on features can be found in <a href=\"https://invoke.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our documentation</a>.</p>\n<h5>Web Server &amp; UI</h5>\n<p>Invoke runs a locally hosted web server &amp; React UI with an industry-leading user experience.</p>\n<h5>Unified Canvas</h5>\n<p>The Unified Canvas is a fully integrated canvas implementation with support for all core generation capabilities, in/out-painting, brush tools, and more. This creative tool unlocks the capability for artists to create with AI as a creative collaborator, and can be used to augment AI-generated imagery, sketches, photography, renders, and more.</p>\n<h5>Workflows &amp; Nodes</h5>\n<p>Invoke offers a fully featured workflow management solution, enabling users to combine the power of node-based workflows with the ease of a UI. This allows for customizable generation pipelines to be developed and shared by users looking to create specific workflows to support their production use-cases.</p>\n<h5>Board &amp; Gallery Management</h5>\n<p>Invoke features an organized gallery system for easily storing, accessing, and remixing your content in the Invoke workspace. Images can be dragged/dropped onto any Image-base UI element in the application, and rich metadata within the Image allows for easy recall of key prompts or settings used in your workflow.</p>\n<h5>Model Support</h5>\n<ul>\n<li>SD 1.5</li>\n<li>SD 2.0</li>\n<li>SDXL</li>\n<li>SD 3.5 Medium</li>\n<li>SD 3.5 Large</li>\n<li>CogView 4</li>\n<li>Flux.1 Dev</li>\n<li>Flux.1 Schnell</li>\n<li>Flux.1 Kontext</li>\n<li>Flux.1 Krea</li>\n<li>Flux Redux</li>\n<li>Flux Fill</li>\n<li>Flux.2 Dev</li>\n<li>Flux.2 Klein 4B</li>\n<li>Flux.2 Klein 9B</li>\n<li>Z-Image Turbo</li>\n<li>Z-Image Base</li>\n<li>Krea 2 Turbo</li>\n<li>Krea 2 Raw</li>\n<li>Anima</li>\n<li>Qwen Image</li>\n<li>Qwen Image Edit</li>\n<li>Ideogram 4</li>\n<li>ERNIE-Image</li>\n<li>ERNIE-Image-Turbo</li>\n<li>Nano Banana (API Only)</li>\n<li>GPT Image (API Only)</li>\n<li>Wan (API Only)</li>\n</ul>\n<h5>Other features</h5>\n<ul>\n<li>Support for ckpt, diffusers, and some gguf models</li>\n<li>Upscaling Tools</li>\n<li>Embedding Manager &amp; Support</li>\n<li>Model Manager &amp; Support</li>\n<li>Workflow creation &amp; management</li>\n<li>Node-Based Architecture</li>\n<li>Object Segmentation &amp; Selection Models (SAM / SAM2)</li>\n</ul>",
+    "truncated": false,
+    "chars": 1931
+   }
+  },
+  "headings": 17,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:10.143Z",
+  "checked_at": "2026-11-17T02:19:29.523Z"
+ },
+ "contributors": {
+  "count": 426,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T02:20:54.318Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:29.523Z"
+}

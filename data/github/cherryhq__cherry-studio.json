@@ -1,0 +1,108 @@
+{
+ "id": "CherryHQ/cherry-studio",
+ "github_id": 805155266,
+ "node_id": "R_kgDOL_2xwg",
+ "full_name": "CherryHQ/cherry-studio",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.074Z",
+ "meta": {
+  "name": "cherry-studio",
+  "owner": "CherryHQ",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/187777663?v=4",
+  "description": "Your AI workspace for models, agents, and productivity.",
+  "homepage": "https://cherryai.com",
+  "html_url": "https://github.com/CherryHQ/cherry-studio",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "agent-skills",
+   "agent-workspace",
+   "agentic-workspace",
+   "ai-agents",
+   "ai-models",
+   "ai-productivity",
+   "ai-workspace",
+   "computer-use",
+   "llm",
+   "mcp",
+   "mcp-client",
+   "ollama",
+   "rag"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 53572,
+  "forks": 5231,
+  "watchers": null,
+  "open_issues": 2794,
+  "open_prs": null,
+  "created_at": "2024-05-24T01:56:26Z",
+  "pushed_at": "2026-11-17T01:27:46Z",
+  "updated_at": "2026-11-17T02:09:14Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 874106,
+  "og_image": "https://opengraph.githubassets.com/1/CherryHQ/cherry-studio",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T21:26:06.000Z",
+  "commits_90d": 1867,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.2.2",
+  "name": "v2.2.2",
+  "published_at": "2026-11-13T16:04:27Z",
+  "url": "https://github.com/CherryHQ/cherry-studio/releases/tag/v2.2.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 15310,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<ol>\n<li>Read the <a href=\"https://github.com/CherryHQ/cherry-studio/blob/main/CONTRIBUTING.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Contributing Guide</a> and <a href=\"https://github.com/CherryHQ/cherry-studio/blob/main/docs/dev/contrib/development.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Development Guide</a>.</li>\n<li>Fork the repository and create a focused branch from <code>main</code>.</li>\n<li>Validate your changes, sign and sign off your commits, and open a pull request targeting <code>main</code> using the repository template.</li>\n</ol>\n<p>See the <a href=\"https://github.com/CherryHQ/cherry-studio/blob/main/docs/dev/contrib/branching-strategy.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Branching Strategy</a> for branch and release conventions.</p>",
+    "truncated": false,
+    "chars": 411
+   },
+   "usage": null,
+   "features": {
+    "title": "Key Features",
+    "html": "<h4>Agents &amp; Automation</h4>\n<ul>\n<li>🤖 Create agents with their own instructions, workspaces, models, and tool permissions.</li>\n<li>🛠️ Work with files, run commands, and use browser and computer automation tools.</li>\n<li>🔌 Extend capabilities with Skills and MCP (Model Context Protocol) servers.</li>\n<li>⏰ Run scheduled tasks and connect agents to messaging platforms through Channels.</li>\n</ul>\n<h4>Models &amp; Conversations</h4>\n<ul>\n<li>☁️ Connect OpenAI, Anthropic, Gemini, and other cloud providers, or add custom compatible services.</li>\n<li>💻 Use local models through Ollama and LM Studio.</li>\n<li>💬 Customize assistants and compare responses from multiple models in one conversation.</li>\n<li>📝 Read and share rich responses with Markdown, code highlighting, formulas, Mermaid charts, and conversation exports.</li>\n</ul>\n<h4>Knowledge &amp; Documents</h4>\n<ul>\n<li>📚 Build local knowledge bases from files, folders, and web pages, then use them in conversations and agents.</li>\n<li>📄 Process PDF, Office documents, images, and text, with OCR and document processing options.</li>\n<li>✍️ Organize ideas in Markdown notes and manage attachments and generated files in the file library.</li>\n</ul>\n<h4>Creative &amp; Everyday Tools</h4>\n<ul>\n<li>🎨 Generate and edit images with supported image models.</li>\n<li>🔤 Translate text and documents, and use quick translation from other apps.</li>\n<li>🔍 Search the web, read pages, and find content across your conversations and knowledge bases.</li>\n<li>🧩 Open web-based tools through Mini Apps, or use the API Gateway to connect other applications to your configured models.</li>\n</ul>\n<h4>Voice &amp; Workspace</h4>\n<ul>\n<li>🎙️ Dictate messages and listen to responses with speech recognition and text-to-speech options, including local models.</li>\n<li>🪟 Work across tabs and detached windows, with window pinning, Quick Assistant, and text selection tools.</li>\n<li>🌈 Customize your workspace with light and dark themes, layouts, and custom CSS.</li>\n<li>💾 Keep conversation history and knowledge bases on your device, with local and WebDAV backup options.</li>\n</ul>\n<p>Model and tool availability depends on your provider, operating system, and configuration. Some features require API credentials, downloaded models, additional dependencies, or system permissions. See the <a href=\"https://cherryai.com/docs/en/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">user documentation</a> for setup.</p>",
+    "truncated": false,
+    "chars": 2195
+   }
+  },
+  "headings": 18,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:15.404Z",
+  "checked_at": "2026-11-17T02:19:35.302Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:35.302Z"
+}

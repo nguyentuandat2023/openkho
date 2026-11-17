@@ -1,0 +1,114 @@
+{
+ "id": "GoogleChrome/lighthouse",
+ "github_id": 53370988,
+ "node_id": "MDEwOlJlcG9zaXRvcnk1MzM3MDk4OA==",
+ "full_name": "GoogleChrome/lighthouse",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:56.641Z",
+ "meta": {
+  "name": "lighthouse",
+  "owner": "GoogleChrome",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1778935?v=4",
+  "description": "Automated auditing, performance metrics, and best practices for the web.",
+  "homepage": "https://developer.chrome.com/docs/lighthouse/overview/",
+  "html_url": "https://github.com/GoogleChrome/lighthouse",
+  "default_branch": "main",
+  "language": "JavaScript",
+  "languages": null,
+  "topics": [
+   "audit",
+   "best-practices",
+   "chrome-devtools",
+   "developer-tools",
+   "performance-analysis",
+   "performance-metrics",
+   "pwa",
+   "web"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 31135,
+  "forks": 9794,
+  "watchers": null,
+  "open_issues": 434,
+  "open_prs": null,
+  "created_at": "2016-03-08T01:03:11Z",
+  "pushed_at": "2026-11-17T00:12:10Z",
+  "updated_at": "2026-11-17T01:52:56Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 375450,
+  "og_image": "https://opengraph.githubassets.com/1/GoogleChrome/lighthouse",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T00:12:07.000Z",
+  "commits_90d": 428,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v13.6.0",
+  "name": "v13.6.0",
+  "published_at": "2026-10-27T21:32:12Z",
+  "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.6.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "readme.md",
+  "length": 33902,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "UvK9zAsSM8Q",
+    "url": "https://www.youtube.com/watch?v=UvK9zAsSM8Q"
+   },
+   {
+    "type": "youtube",
+    "id": "NoRYn6gOtVo",
+    "url": "https://www.youtube.com/watch?v=NoRYn6gOtVo"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Setup",
+    "html": "<pre><code class=\"language-sh\"># yarn should be installed first\n\ngit clone https://github.com/GoogleChrome/lighthouse\n\ncd lighthouse\nyarn\nyarn build-all\n</code></pre>",
+    "truncated": false,
+    "chars": 135
+   },
+   "usage": {
+    "title": "Using Lighthouse in Chrome DevTools",
+    "html": "<p>Lighthouse is integrated directly into the Chrome DevTools, under the \"Lighthouse\" panel.</p>\n<p><strong>Installation</strong>: install <a href=\"https://www.google.com/chrome/browser\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Chrome</a>.</p>\n<p><strong>Run it</strong>: open Chrome DevTools, select the Lighthouse panel, and hit \"Generate report\".</p>\n<img src=\"https://user-images.githubusercontent.com/2766281/204185043-9c49abe5-baee-4b26-b5ce-ece410661213.png\" alt=\"Lighthouse integration in Chrome DevTools.\" loading=\"lazy\" decoding=\"async\" width=\"550\" />",
+    "truncated": false,
+    "chars": 435
+   },
+   "features": null
+  },
+  "headings": 31,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:17.284Z",
+  "checked_at": "2026-11-17T02:20:17.284Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:17.284Z"
+}

@@ -1,0 +1,113 @@
+{
+ "id": "LibreChat-AI/LibreChat",
+ "github_id": 600596928,
+ "node_id": "R_kgDOI8xhwA",
+ "full_name": "LibreChat-AI/LibreChat",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.074Z",
+ "meta": {
+  "name": "LibreChat",
+  "owner": "LibreChat-AI",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/169401942?v=4",
+  "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+  "homepage": "https://librechat.ai/",
+  "html_url": "https://github.com/LibreChat-AI/LibreChat",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "ai",
+   "anthropic",
+   "artifacts",
+   "aws",
+   "azure",
+   "chatgpt",
+   "chatgpt-clone",
+   "claude",
+   "clone",
+   "deepseek",
+   "gemini",
+   "google",
+   "gpt-5",
+   "librechat",
+   "mcp",
+   "o1",
+   "openai",
+   "responses-api",
+   "vision",
+   "webui"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 47201,
+  "forks": 9724,
+  "watchers": null,
+  "open_issues": 1101,
+  "open_prs": null,
+  "created_at": "2023-02-12T01:06:52Z",
+  "pushed_at": "2026-11-17T01:56:59Z",
+  "updated_at": "2026-11-17T01:33:21Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 307785,
+  "og_image": "https://opengraph.githubassets.com/1/LibreChat-AI/LibreChat",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T13:47:28.000Z",
+  "commits_90d": 796,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": {
+  "tag": "v0.8.9-rc1",
+  "name": "v0.8.9-rc1",
+  "published_at": "2026-10-26T21:55:28Z",
+  "url": "https://github.com/LibreChat-AI/LibreChat/releases/tag/v0.8.9-rc1"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 15935,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "GfTj7O4gmd0",
+    "url": "https://www.youtube.com/watch?v=GfTj7O4gmd0"
+   }
+  ],
+  "sections": {
+   "install": null,
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li><p>🖥️ <strong>UI &amp; Experience</strong> inspired by ChatGPT with enhanced design and features</p>\n</li>\n<li><p>🤖 <strong>AI Model Selection</strong>:  </p>\n<ul>\n<li>Anthropic (Claude), AWS Bedrock, OpenAI, Azure OpenAI, Google, Vertex AI, OpenAI Responses API (incl. Azure)</li>\n<li><a href=\"https://www.librechat.ai/docs/quick_start/custom_endpoints\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Custom Endpoints</a>: Use any OpenAI-compatible API with LibreChat, no proxy required</li>\n<li>Compatible with <a href=\"https://www.librechat.ai/docs/configuration/librechat_yaml/ai_endpoints\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Local &amp; Remote AI Providers</a>:<ul>\n<li>Ollama, <a href=\"https://lemonade-server.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AMD Lemonade</a>, groq, Cohere, Mistral AI, Apple MLX, koboldcpp, together.ai,</li>\n<li>OpenRouter, Helicone, Perplexity, ShuttleAI, Deepseek, Qwen, and more</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><p>🔧 <strong><a href=\"https://www.librechat.ai/docs/features/code_interpreter\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Code Interpreter API</a></strong>: </p>\n<ul>\n<li>Secure, Sandboxed Execution in Python, Node.js (JS/TS), Go, C/C++, Java, PHP, Rust, and Fortran</li>\n<li>Seamless File Handling: Upload, process, and download files directly</li>\n<li>No Privacy Concerns: Fully isolated and secure execution</li>\n<li>Open-Source &amp; Self-Hostable: powered by <a href=\"https://github.com/ClickHouse/code-interpreter\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ClickHouse/code-interpreter</a></li>\n</ul>\n</li>\n<li><p>🔦 <strong>Agents &amp; Tools Integration</strong>:  </p>\n<ul>\n<li><strong><a href=\"https://www.librechat.ai/docs/features/agents\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LibreChat Agents</a></strong>:<ul>\n<li>No-Code Custom Assistants: Build specialized, AI-driven helpers</li>\n<li>Agent Marketplace: Discover and deploy community-built agents</li>\n<li>Collaborative Sharing: Share agents with specific users and groups</li>\n<li>Flexible &amp; Extensible: Use MCP Servers, tools, file search, code execution, and more</li>\n<li><a href=\"https://www.librechat.ai/docs/features/skills\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Skills</a>: Create reusable <code>SKILL.md</code> instruction bundles for manual, automatic, or always-on agent workflows</li>\n<li><a href=\"https://www.librechat.ai/docs/features/agent_plugins\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Agent Plugins</a>: Experimentally bundle deployment Skills and MCP servers into startup-loaded packages</li>\n<li><a href=\"https://www.librechat.ai/docs/features/subagents\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Subagents</a>: Delegate focused work to isolated child agent runs with their own context windows</li>\n<li>Agent Management API: Automate Agent, file, and Skill management with deployment-bound OIDC clients</li>\n<li>Attached Code Workspaces: Let Agents inspect, search, edit, and run commands in managed or personal workspaces (highly experimental)</li>\n<li>Compatible with Custom Endpoints, OpenAI, Azure, Anthropic, AWS Bedrock, Google, Vertex AI, Responses API, and more</li>\n<li><a href=\"https://modelcontextprotocol.io/clients#librechat\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Model Context Protocol (MCP) Support</a> for Tools</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><p>🔍 <strong>Web Search</strong>:  </p>\n<ul>\n<li>Search the internet and retrieve relevant information to enhance your AI context</li>\n<li>Combines search providers, content scrapers, and result rerankers for optimal results</li>\n<li><strong>Customizable Jina Reranking</strong>: Configure custom Jina API URLs for reranking services</li>\n<li><strong><a href=\"https://www.librechat.ai/docs/features/web_search\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Learn More →</a></strong></li>\n</ul>\n</li>\n<li><p>🪄 <strong>Generative UI with Code Artifacts</strong>:  </p>\n<ul>\n<li><a href=\"https://youtu.be/GfTj7O4gmd0?si=WJbdnemZpJzBrJo3\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Code Artifacts</a> create React, HTML, and Mermaid content directly in chat</li>\n<li>Open previews fullscreen and export Mermaid diagrams as SVG or PNG</li>\n</ul>\n</li>\n<li><p>🎨 <strong>Image Generation &amp; Editing</strong></p>\n<ul>\n<li>Text-to-image and image-to-image with <a href=\"https://www.librechat.ai/docs/features/image_gen#1--openai-image-tools-recommended\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GPT-Image-1</a></li>\n<li>Text-to-image with <a href=\"https://www.librechat.ai/docs/features/image_gen#3--stable-diffusion-local\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Stable Diffusion</a>, <a href=\"https://www.librechat.ai/docs/features/image_gen#4--flux\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Flux</a>, or any <a href=\"https://www.librechat.ai/docs/features/image_gen#5--model-context-protocol-mcp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MCP server</a></li>\n<li>Produce stunning visuals from prompts or refine existing images with a single instruction</li>\n</ul>\n</li>\n<li><p>💾 <strong>Presets &amp; Context Management</strong>:  </p>\n<ul>\n<li>Create, Save, &amp; Share Custom Presets  </li>\n<li>Switch between AI Endpoints and Presets mid-chat</li>\n<li>Edit, Resubmit, and Continue Messages with Conversation branching  </li>\n<li>Create and share prompts with specific users and groups</li>\n<li><a href=\"https://www.librechat.ai/docs/features/fork\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Fork Messages &amp; Conversations</a> for Advanced Context control</li>\n<li>Compact long conversations on demand while preserving recent context</li>\n</ul>\n</li>\n<li><p>💬 <strong>Multimodal &amp; File Interactions</strong>:  </p>\n<ul>\n<li>Upload and analyze images with Claude 3, GPT-4.5, GPT-4o, o1, Llama-Vision, and Gemini 📸  </li>\n<li>Chat with Files using Custom Endpoints, OpenAI, Azure, Anthropic, AWS Bedrock, &amp; Google 🗃️</li>\n<li>Copy messages as formatted rich text for documents, email, and collaboration apps</li>\n</ul>\n</li>\n<li><p>🌎 <strong>Multilingual UI</strong>:</p>\n<ul>\n<li>English, 中文 (简体), 中文 (繁體), العربية, Deutsch, Español, Français, Italiano</li>\n<li>Polski, Português (PT), Português (BR), Русский, 日本語, Svenska, 한국어, Tiếng Việt</li>\n<li>Türkçe, Nederlands, עברית, Català, Čeština, Dansk, Eesti, فارسی</li>\n<li>Suomi, Magyar, Հայերեն, Bahasa Indonesia, ქართული, Latviešu, ไทย, ئۇيغۇرچە</li>\n</ul>\n</li>\n<li><p>🧠 <strong>Reasoning UI</strong>:  </p>\n<ul>\n<li>Dynamic Reasoning UI for Chain-of-Thought/Reasoning AI models like DeepSeek-R1</li>\n</ul>\n</li>\n<li><p>🎨 <strong>Customizable Interface</strong>:  </p>\n<ul>\n<li>Customizable Dropdown &amp; Interface that adapts to both power users and newcomers</li>\n<li>Light, dark, system, and high-contrast appearance modes</li>\n</ul>\n</li>\n<li><p>📈 <strong>Observability</strong>:</p>\n<ul>\n<li>Export traces and logs with OpenTelemetry and connect Langfuse for Agent and model insights</li>\n</ul>\n</li>\n<li><p>🌊 <strong><a href=\"https://www.librechat.ai/docs/features/resumable_streams\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Resumable Streams</a></strong>:  </p>\n<ul>\n<li>Never lose a response: AI responses automatically reconnect and resume if your connection drops</li>\n<li>Multi-Tab &amp; Multi-Device Sync: Open the same chat in multiple tabs or pick up on another device</li>\n<li>Production-Ready: Works from single-server setups to horizontally scaled deployments with Redis</li>\n</ul>\n</li>\n<li><p>🗣️ <strong>Speech &amp; Audio</strong>:  </p>\n<ul>\n<li>Chat hands-free with Speech-to-Text and Text-to-Speech  </li>\n<li>Automatically send and play Audio  </li>\n<li>Supports OpenAI, Azure OpenAI, and Elevenlabs</li>\n</ul>\n</li>\n<li><p>📥 <strong>Import &amp; Export Conversations</strong>:  </p>\n<ul>\n<li>Import Conversations from LibreChat, ChatGPT, Chatbot UI  </li>\n<li>Export conversations as screenshots, markdown, text, json</li>\n</ul>\n</li>\n<li><p>🔍 <strong>Search &amp; Discovery</strong>:  </p>\n<ul>\n<li>Search all messages/conversations</li>\n</ul>\n</li>\n<li><p>👥 <strong>Multi-User &amp; Secure Access</strong>:</p>\n<ul>\n<li>Multi-User, Secure Authentication with OAuth2, LDAP, &amp; Email Login Support</li>\n<li>Built-in Moderation, and Token spend tools</li>\n</ul>\n</li>\n<li><p>🎛️ <strong><a href=\"https://www.librechat.ai/docs/features/admin_panel\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Admin Panel</a></strong>:</p>\n<ul>\n<li>Browser-based UI to manage users, groups, roles, and configuration overrides</li>\n<li>Edit settings and per-role/group permissions live, without redeploying</li>\n<li>Bundled with the Docker Compose stacks for one-command setup</li>\n</ul>\n</li>\n<li><p>⚙️ <strong>Configuration &amp; Deployment</strong>:  </p>\n<ul>\n<li>Configure Proxy, Reverse Proxy, Docker, &amp; many Deployment options  </li>\n<li>Use <a href=\"https://www.librechat.ai/docs/configuration/cdn/cloudfront\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">S3 with CloudFront</a> for stable media links, edge delivery, signed cookies, and secured downloads</li>\n<li>Use completely local or deploy on the cloud</li>\n</ul>\n</li>\n<li><p>📖 <strong>Open-Source &amp; Community</strong>:  </p>\n<ul>\n<li>Completely Open-Source &amp; Built in Public  </li>\n<li>Community-driven development, support, and feedback</li>\n</ul>\n</li>\n</ul>\n<p><a href=\"https://docs.librechat.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">For a thorough review of our features, see our docs here</a> 📚</p>\n<h4>🪶 All-In-One AI Conversations with LibreChat</h4>\n<p>LibreChat is a self-hosted AI chat platform that unifies all major AI providers in a single, privacy-focused interface.</p>\n<p>Beyond chat, LibreChat provides AI Agents, Model Context Protocol (MCP) support, Artifacts, Code Interpreter, custom actions, conversation search, and enterprise-ready multi-user authentication.</p>\n<p>Open source, actively developed, and built for anyone who values control over their AI infrastructure.</p>\n<hr />\n<h4>🌐 Resources</h4>\n<p><strong>GitHub Repo:</strong></p>\n<ul>\n<li><strong>RAG API:</strong> <a href=\"https://github.com/LibreChat-AI/rag-api\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">github.com/LibreChat-AI/rag-api</a></li>\n<li><strong>Website:</strong> <a href=\"https://github.com/LibreChat-AI/librechat.ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">github.com/LibreChat-AI/librechat.ai</a></li>\n</ul>\n<p><strong>Other:</strong></p>\n<ul>\n<li><strong>Website:</strong> <a href=\"https://librechat.ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">librechat.ai</a></li>\n<li><strong>Documentation:</strong> <a href=\"https://librechat.ai/docs\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">librechat.ai/docs</a></li>\n<li><strong>Blog:</strong> <a href=\"https://librechat.ai/blog\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">librechat.ai/blog</a></li>\n</ul>\n<hr />\n<h4>📝 Changelog</h4>\n<p>Keep up with the latest updates by visiting the releases page and notes:</p>\n<ul>\n<li><a href=\"https://github.com/LibreChat-AI/LibreChat/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Releases</a></li>\n<li><a href=\"https://www.librechat.ai/changelog\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Changelog</a></li>\n</ul>\n<p><strong>⚠️ Please consult the <a href=\"https://www.librechat.ai/changelog\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">changelog</a> for breaking changes before updating.</strong></p>\n<hr />\n<h4>⭐ Star History</h4>",
+    "truncated": true,
+    "chars": 8274
+   }
+  },
+  "headings": 9,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:13.873Z",
+  "checked_at": "2026-11-17T02:19:34.635Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:34.635Z"
+}

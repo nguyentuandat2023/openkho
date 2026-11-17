@@ -1,0 +1,90 @@
+{
+ "id": "microsoft/vscode",
+ "github_id": 41881900,
+ "node_id": "MDEwOlJlcG9zaXRvcnk0MTg4MTkwMA==",
+ "full_name": "microsoft/vscode",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "vscode",
+  "owner": "microsoft",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "description": "Visual Studio Code",
+  "homepage": "https://code.visualstudio.com",
+  "html_url": "https://github.com/microsoft/vscode",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "editor",
+   "electron",
+   "microsoft",
+   "typescript",
+   "visual-studio-code"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 195509,
+  "forks": 43860,
+  "watchers": null,
+  "open_issues": 21604,
+  "open_prs": null,
+  "created_at": "2015-09-03T20:23:38Z",
+  "pushed_at": "2026-11-17T02:13:28Z",
+  "updated_at": "2026-11-17T02:14:03Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 1768802,
+  "og_image": "https://opengraph.githubassets.com/1/microsoft/vscode",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T01:55:46.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "1.146.0",
+  "name": "1.146.0",
+  "published_at": "2026-11-11T10:07:14Z",
+  "url": "https://github.com/microsoft/vscode/releases/tag/1.146.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 6726,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": null,
+   "usage": null,
+   "features": null
+  },
+  "headings": 10,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:28.029Z",
+  "checked_at": "2026-11-17T02:20:00.097Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:00.097Z"
+}

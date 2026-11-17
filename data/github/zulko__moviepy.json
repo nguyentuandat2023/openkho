@@ -1,0 +1,102 @@
+{
+ "id": "Zulko/moviepy",
+ "github_id": 12052630,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxMjA1MjYzMA==",
+ "full_name": "Zulko/moviepy",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:06.954Z",
+ "meta": {
+  "name": "moviepy",
+  "owner": "Zulko",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1646122?v=4",
+  "description": "Video editing with Python",
+  "homepage": "https://zulko.github.io/moviepy/",
+  "html_url": "https://github.com/Zulko/moviepy",
+  "default_branch": "master",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "animation",
+   "gif",
+   "hacktoberfest",
+   "python",
+   "video",
+   "video-editing",
+   "video-processing"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 15154,
+  "forks": 2166,
+  "watchers": null,
+  "open_issues": 98,
+  "open_prs": null,
+  "created_at": "2013-08-12T09:39:28Z",
+  "pushed_at": "2026-08-26T06:17:08Z",
+  "updated_at": "2026-11-16T17:23:52Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 169976,
+  "og_image": "https://opengraph.githubassets.com/1/Zulko/moviepy",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-08-26T06:17:07.000Z",
+  "commits_90d": 1,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.2.1",
+  "name": "v2.2.1",
+  "published_at": "2025-05-21T19:31:17Z",
+  "url": "https://github.com/Zulko/moviepy/releases/tag/v2.2.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 5004,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>Intall moviepy with <code>pip install moviepy</code>. For additional installation options, such as a custom FFMPEG or for previewing, see <a href=\"https://zulko.github.io/moviepy/getting_started/install.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">this section</a>. For development, clone that repo locally and install with <code>pip install -e .</code></p>",
+    "truncated": false,
+    "chars": 285
+   },
+   "usage": {
+    "title": "Example",
+    "html": "<p>In this example we open a video file, select the subclip between 10 and\n20 seconds, add a title at the center of the screen, and write the\nresult to a new file:</p>\n<pre><code class=\"language-python\">from moviepy import VideoFileClip, TextClip, CompositeVideoClip\n\n# Load file example.mp4 and keep only the subclip from 00:00:10 to 00:00:20\n# Reduce the audio volume to 80% of its original volume\n\nclip = (\n    VideoFileClip(\"long_examples/example2.mp4\")\n    .subclipped(10, 20)\n    .with_volume_scaled(0.8)\n)\n\n# Generate a text clip. You can customize the font, color, etc.\ntxt_clip = TextClip(\n    font=\"Arial.ttf\",\n    text=\"Hello there!\",\n    font_size=70,\n    color='white'\n).with_duration(10).with_position('center')\n\n# Overlay the text clip on the first video clip\nfinal_video = CompositeVideoClip([clip, txt_clip])\nfinal_video.write_videofile(\"result.mp4\")\n</code></pre>",
+    "truncated": false,
+    "chars": 845
+   },
+   "features": null
+  },
+  "headings": 9,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:53.967Z",
+  "checked_at": "2026-11-16T05:09:53.967Z"
+ },
+ "details_checked_at": "2026-11-16T05:07:21.178Z",
+ "contributors": null
+}

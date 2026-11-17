@@ -1,0 +1,100 @@
+{
+ "id": "Tencent-Hunyuan/HunyuanVideo",
+ "github_id": 895453957,
+ "node_id": "R_kgDONV-LBQ",
+ "full_name": "Tencent-Hunyuan/HunyuanVideo",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.074Z",
+ "meta": {
+  "name": "HunyuanVideo",
+  "owner": "Tencent-Hunyuan",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/210980732?v=4",
+  "description": "HunyuanVideo: A Systematic Framework For Large Video Generation Model",
+  "homepage": "https://aivideo.hunyuan.tencent.com",
+  "html_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "diffusion-models",
+   "diffusion-transformer",
+   "video-generation"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 12780,
+  "forks": 1390,
+  "watchers": null,
+  "open_issues": 186,
+  "open_prs": null,
+  "created_at": "2024-11-28T08:38:31Z",
+  "pushed_at": "2026-10-08T08:57:37Z",
+  "updated_at": "2026-11-16T22:37:38Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 109277,
+  "og_image": "https://opengraph.githubassets.com/1/Tencent-Hunyuan/HunyuanVideo",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-10-08T08:57:06.000Z",
+  "commits_90d": 3,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": {
+  "tag": "HunyuanVideo",
+  "name": "HunyuanVideo",
+  "published_at": "2024-12-03T02:17:28Z",
+  "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo/releases/tag/HunyuanVideo"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 28927,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation Guide for Linux",
+    "html": "<p>We recommend CUDA versions 12.6 or 11.8 for the manual installation.</p>\n<p>Conda's installation instructions are available <a href=\"https://docs.anaconda.com/free/miniconda/index.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>.</p>\n<pre><code class=\"language-shell\"># 1. Create conda environment\nconda create -n HunyuanVideo python==3.10.9\n\n# 2. Activate the environment\nconda activate HunyuanVideo\n\n# 3. Install PyTorch\n# For CUDA 11.8\npip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu118\n# For CUDA 12.6\npip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu126\n\n# 4. Install pip dependencies\npython -m pip install -r requirements.txt\n\n# 5. Install flash attention v2 for acceleration (requires CUDA 11.8 or above)\npython -m pip install ninja\npython -m pip install git+https://github.com/Dao-AILab/flash-attention.git@v2.8.3\n\n# 6. Install xDiT for parallel inference (It is recommended to use torch 2.7.1 and flash-attn 2.8.3)\npython -m pip install xfuser==0.4.0\n</code></pre>\n<p>In case of running into float point exception(core dump) on the specific GPU type, you may try the following solutions:</p>\n<pre><code class=\"language-shell\"># Option 1: Making sure you have installed CUDA 12.4, CUBLAS&gt;=12.4.5.8, and CUDNN&gt;=9.00 (or simply using our CUDA 12 docker image).\npip install nvidia-cublas-cu12==12.4.5.8\nexport LD_LIBRARY_PATH=/opt/conda/lib/python3.8/site-packages/nvidia/cublas/lib/\n\n# Option 2: Forcing to explictly use the CUDA 11.8 compiled version of Pytorch and all the other packages\npip uninstall -r requirements.txt  # uninstall all packages\npip uninstall -y xfuser\npip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu118\npip install -r requirements.txt\npip install ninja\npip install git+https://github.com/Dao-AILab/flash-attention.git@v2.8.3\npip install xfuser==0.4.0\n</code></pre>\n<p>Additionally, HunyuanVideo also provides a pre-built Docker image. Use the following command to pull and run the docker image.</p>\n<pre><code class=\"language-shell\"># For CUDA 12.4 (updated to avoid float point exception)\ndocker pull hunyuanvideo/hunyuanvideo:cuda_12\ndocker run -itd --gpus all --init --net=host --uts=host --ipc=host --name hunyuanvideo --security-opt=seccomp=unconfined --ulimit=stack=67108864 --ulimit=memlock=-1 --privileged hunyuanvideo/hunyuanvideo:cuda_12\n\n# For CUDA 11.8\ndocker pull hunyuanvideo/hunyuanvideo:cuda_11\ndocker run -itd --gpus all --init --net=host --uts=host --ipc=host --name hunyuanvideo --security-opt=seccomp=unconfined --ulimit=stack=67108864 --ulimit=memlock=-1 --privileged hunyuanvideo/hunyuanvideo:cuda_11\n</code></pre>",
+    "truncated": false,
+    "chars": 2587
+   },
+   "usage": {
+    "title": "Using Command Line",
+    "html": "<pre><code class=\"language-bash\">cd HunyuanVideo\n\npython3 sample_video.py \\\n    --video-size 720 1280 \\\n    --video-length 129 \\\n    --infer-steps 50 \\\n    --prompt \"A cat walks on the grass, realistic style.\" \\\n    --flow-reverse \\\n    --use-cpu-offload \\\n    --save-path ./results\n</code></pre>",
+    "truncated": false,
+    "chars": 265
+   },
+   "features": {
+    "title": "HunyuanVideo Key Features",
+    "html": "<h5><strong>Unified Image and Video Generative Architecture</strong></h5>\n<p>HunyuanVideo introduces the Transformer design and employs a Full Attention mechanism for unified image and video generation. \nSpecifically, we use a \"Dual-stream to Single-stream\" hybrid model design for video generation. In the dual-stream phase, video and text\ntokens are processed independently through multiple Transformer blocks, enabling each modality to learn its own appropriate modulation mechanisms without interference. In the single-stream phase, we concatenate the video and text\ntokens and feed them into subsequent Transformer blocks for effective multimodal information fusion.\nThis design captures complex interactions between visual and semantic information, enhancing\noverall model performance.</p>\n<p>\n  <img src=\"https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanVideo/refs/heads/main/assets/backbone.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" height=\"350\" />\n</p><h5><strong>MLLM Text Encoder</strong></h5>\n<p>Some previous text-to-video models typically use pre-trained CLIP and T5-XXL as text encoders where CLIP uses Transformer Encoder and T5 uses an Encoder-Decoder structure. In contrast, we utilize a pre-trained Multimodal Large Language Model (MLLM) with a Decoder-Only structure as our text encoder, which has the following advantages: (i) Compared with T5, MLLM after visual instruction finetuning has better image-text alignment in the feature space, which alleviates the difficulty of the instruction following in diffusion models; (ii)\nCompared with CLIP, MLLM has demonstrated superior ability in image detail description\nand complex reasoning; (iii) MLLM can play as a zero-shot learner by following system instructions prepended to user prompts, helping text features pay more attention to key information. In addition, MLLM is based on causal attention while T5-XXL utilizes bidirectional attention that produces better text guidance for diffusion models. Therefore, we introduce an extra bidirectional token refiner to enhance text features.</p>\n<p>\n  <img src=\"https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanVideo/refs/heads/main/assets/text_encoder.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" height=\"275\" />\n</p><h5><strong>3D VAE</strong></h5>\n<p>HunyuanVideo trains a 3D VAE with CausalConv3D to compress pixel-space videos and images into a compact latent space. We set the compression ratios of video length, space, and channel to 4, 8, and 16 respectively. This can significantly reduce the number of tokens for the subsequent diffusion transformer model, allowing us to train videos at the original resolution and frame rate.</p>\n<p>\n  <img src=\"https://raw.githubusercontent.com/Tencent-Hunyuan/HunyuanVideo/refs/heads/main/assets/3dvae.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" height=\"150\" />\n</p><h5><strong>Prompt Rewrite</strong></h5>\n<p>To address the variability in linguistic style and length of user-provided prompts, we fine-tune the <a href=\"https://github.com/Tencent/Tencent-Hunyuan-Large\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Hunyuan-Large model</a> as our prompt rewrite model to adapt the original user prompt to model-preferred prompt.</p>\n<p>We provide two rewrite modes: Normal mode and Master mode, which can be called using different prompts. The prompts are shown <a href=\"https://github.com/Tencent-Hunyuan/HunyuanVideo/blob/main/hyvideo/prompt_rewrite.py\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>. The Normal mode is designed to enhance the video generation model's comprehension of user intent, facilitating a more accurate interpretation of the instructions provided. The Master mode enhances the description of aspects such as composition, lighting, and camera movement, which leans towards generating videos with a higher visual quality. However, this emphasis may occasionally result in the loss of some semantic details. </p>\n<p>The Prompt Rewrite Model can be directly deployed and inferred using the <a href=\"https://github.com/Tencent/Tencent-Hunyuan-Large\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Hunyuan-Large original code</a>. We release the weights of the Prompt Rewrite Model <a href=\"https://huggingface.co/Tencent/HunyuanVideo-PromptRewrite\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>.</p>",
+    "truncated": false,
+    "chars": 3853
+   }
+  },
+  "headings": 29,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:03.805Z",
+  "checked_at": "2026-11-16T05:08:03.805Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:17.093Z",
+ "contributors": null
+}

@@ -1,0 +1,92 @@
+{
+ "id": "microsoft/AI-For-Beginners",
+ "github_id": 344190478,
+ "node_id": "MDEwOlJlcG9zaXRvcnkzNDQxOTA0Nzg=",
+ "full_name": "microsoft/AI-For-Beginners",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.326Z",
+ "meta": {
+  "name": "AI-For-Beginners",
+  "owner": "microsoft",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "description": "12 Weeks, 24 Lessons, AI for All!",
+  "homepage": null,
+  "html_url": "https://github.com/microsoft/AI-For-Beginners",
+  "default_branch": "main",
+  "language": "Jupyter Notebook",
+  "languages": null,
+  "topics": [
+   "ai",
+   "artificial-intelligence",
+   "cnn",
+   "computer-vision",
+   "deep-learning",
+   "gan",
+   "machine-learning",
+   "microsoft-for-beginners",
+   "nlp",
+   "rnn"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 70931,
+  "forks": 13828,
+  "watchers": null,
+  "open_issues": 11,
+  "open_prs": null,
+  "created_at": "2021-03-03T16:27:36Z",
+  "pushed_at": "2026-11-15T19:46:34Z",
+  "updated_at": "2026-11-17T02:13:58Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 1397934,
+  "og_image": "https://opengraph.githubassets.com/1/microsoft/AI-For-Beginners",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-03T22:47:11.000Z",
+  "commits_90d": 147,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 29093,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<h5>🎯 New to AI? Start Here!</h5>\n<p>If you're completely new to AI and want quick, hands-on examples, check out our <a href=\"https://github.com/microsoft/AI-For-Beginners/blob/main/examples/README.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Beginner-Friendly Examples</strong></a>! These include:</p>\n<ul>\n<li>🌟 <strong>Hello AI World</strong> - Your first AI program (pattern recognition)</li>\n<li>🧠 <strong>Simple Neural Network</strong> - Build a neural network from scratch  </li>\n<li>🖼️ <strong>Image Classifier</strong> - Classify images with detailed comments</li>\n<li>💬 <strong>Text Sentiment</strong> - Analyze positive/negative text</li>\n</ul>\n<p>These examples are designed to help you understand AI concepts before diving into the full curriculum.</p>\n<h5>📚 Full Curriculum Setup</h5>\n<ul>\n<li>We have created a <a href=\"https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/0-course-setup/setup.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">setup lesson</a> to help you with setting up your development environment. - For Educators, we have created a <a href=\"https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/0-course-setup/for-teachers.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">curricula setup lesson</a> for you too!</li>\n<li>How to <a href=\"https://github.com/microsoft/AI-For-Beginners/blob/main/lessons/0-course-setup/how-to-run.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Run the code in a VSCode or a Codespace</a></li>\n</ul>\n<p>Follow these steps:</p>\n<p>Fork the Repository: Click on the \"Fork\" button at the top-right corner of this page.</p>\n<p>Clone the Repository: <code>git clone https://github.com/microsoft/AI-For-Beginners.git</code></p>\n<p>Don't forget to star (🌟) this repo to find it easier later.</p>",
+    "truncated": false,
+    "chars": 1176
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 22,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:02.090Z",
+  "checked_at": "2026-11-16T05:09:02.090Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:27.964Z",
+ "contributors": null
+}

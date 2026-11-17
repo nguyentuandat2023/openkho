@@ -1,0 +1,109 @@
+{
+ "id": "marimo-team/marimo",
+ "github_id": 678526156,
+ "node_id": "R_kgDOKHF8zA",
+ "full_name": "marimo-team/marimo",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "marimo",
+  "owner": "marimo-team",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/98563464?v=4",
+  "description": "A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor.",
+  "homepage": "https://marimo.io",
+  "html_url": "https://github.com/marimo-team/marimo",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "artificial-intelligence",
+   "dag",
+   "data-science",
+   "data-visualization",
+   "dataflow",
+   "developer-tools",
+   "machine-learning",
+   "notebooks",
+   "pipeline",
+   "python",
+   "reactive",
+   "sql",
+   "web-app"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 23573,
+  "forks": 1404,
+  "watchers": null,
+  "open_issues": 643,
+  "open_prs": null,
+  "created_at": "2023-08-14T18:56:20Z",
+  "pushed_at": "2026-11-17T01:09:38Z",
+  "updated_at": "2026-11-16T22:07:41Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 273592,
+  "og_image": "https://opengraph.githubassets.com/1/marimo-team/marimo",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T22:48:14.000Z",
+  "commits_90d": 547,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "0.25.2",
+  "name": "0.25.2",
+  "published_at": "2026-10-19T20:14:12Z",
+  "url": "https://github.com/marimo-team/marimo/releases/tag/0.25.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 16622,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "3N6lInzq5MI",
+    "url": "https://www.youtube.com/watch?v=3N6lInzq5MI"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Quickstart",
+    "html": "<p><em>The <a href=\"https://www.youtube.com/watch?v=3N6lInzq5MI&amp;list=PLNJXGo8e1XT9jP7gPbRdm1XwloZVFvLEq\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">marimo concepts\nplaylist</a>\non our <a href=\"https://www.youtube.com/@marimo-team\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">YouTube channel</a> gives an\noverview of many features.</em></p>\n<p><strong>Installation.</strong> In a terminal, run</p>\n<pre><code class=\"language-bash\">pip install marimo  # or conda install -c conda-forge marimo\nmarimo tutorial intro\n</code></pre>\n<p>To install with additional dependencies that unlock SQL cells, AI completion, and more,\nrun</p>\n<pre><code class=\"language-bash\">pip install \"marimo[recommended]\"\n</code></pre>\n<p><strong>Create notebooks.</strong></p>\n<p>Create or edit notebooks with</p>\n<pre><code class=\"language-bash\">marimo edit\n</code></pre>\n<p><strong>Run apps.</strong> Run your notebook as a web app, with Python\ncode hidden and uneditable:</p>\n<pre><code class=\"language-bash\">marimo run your_notebook.py\n</code></pre>\n<img src=\"https://raw.githubusercontent.com/marimo-team/marimo/main/docs/_static/docs-model-comparison.gif\" alt=\"\" loading=\"lazy\" decoding=\"async\" /><p><strong>Execute as scripts.</strong> Execute a notebook as a script at the\ncommand line:</p>\n<pre><code class=\"language-bash\">python your_notebook.py\n</code></pre>\n<p><strong>Automatically convert Jupyter notebooks.</strong> Automatically convert Jupyter\nnotebooks to marimo notebooks with the CLI</p>\n<pre><code class=\"language-bash\">marimo convert your_notebook.ipynb &gt; your_notebook.py\n</code></pre>\n<p>or use our <a href=\"https://marimo.io/convert\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">web interface</a>.</p>\n<p><strong>Tutorials.</strong>\nList all tutorials:</p>\n<pre><code class=\"language-bash\">marimo tutorial --help\n</code></pre>\n<p><strong>Share cloud-based notebooks.</strong> Use\n<a href=\"https://molab.marimo.io/notebooks\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">molab</a>, a cloud-based marimo notebook\nservice similar to Google Colab, to create and share notebook links.</p>",
+    "truncated": false,
+    "chars": 1463
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 7,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:24.011Z",
+  "checked_at": "2026-11-17T02:19:47.393Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:47.393Z"
+}

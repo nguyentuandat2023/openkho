@@ -1,0 +1,104 @@
+{
+ "id": "nodejs/node",
+ "github_id": 27193779,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyNzE5Mzc3OQ==",
+ "full_name": "nodejs/node",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.325Z",
+ "meta": {
+  "name": "node",
+  "owner": "nodejs",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/9950313?v=4",
+  "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+  "homepage": "https://nodejs.org",
+  "html_url": "https://github.com/nodejs/node",
+  "default_branch": "main",
+  "language": "JavaScript",
+  "languages": null,
+  "topics": [
+   "javascript",
+   "js",
+   "linux",
+   "macos",
+   "mit",
+   "node",
+   "nodejs",
+   "runtime",
+   "windows"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 123754,
+  "forks": 38071,
+  "watchers": null,
+  "open_issues": 1321,
+  "open_prs": null,
+  "created_at": "2014-11-26T19:57:11Z",
+  "pushed_at": "2026-11-17T00:59:18Z",
+  "updated_at": "2026-11-17T01:42:01Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 1693516,
+  "og_image": "https://opengraph.githubassets.com/1/nodejs/node",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T00:59:15.000Z",
+  "commits_90d": 2530,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v27.0.0-alpha.0.1.0",
+  "name": "2026-11-12, Version 27.0.0-alpha.0.1.0 (Alpha), @aduh95",
+  "published_at": "2026-11-12T13:35:13Z",
+  "url": "https://github.com/nodejs/node/releases/tag/v27.0.0-alpha.0.1.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v27.0.0-alpha.0.1.1",
+  "name": "2026-11-16 Node.js v27.0.0-alpha.0.1.1 (Alpha) Release",
+  "published_at": "2026-11-16T23:31:33Z",
+  "url": "https://github.com/nodejs/node/releases/tag/v27.0.0-alpha.0.1.1"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 42938,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Download",
+    "html": "<p>Binaries, installers, and source tarballs are available at\n<a href=\"https://nodejs.org/en/download/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://nodejs.org/en/download/</a>.</p>\n<h6>Current and LTS releases</h6>\n<p><a href=\"https://nodejs.org/download/release/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://nodejs.org/download/release/</a></p>\n<p>The <a href=\"https://nodejs.org/download/release/latest/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">latest</a> directory is an\nalias for the latest Current release. The latest-<em>codename</em> directory is an\nalias for the latest release from an LTS line. For example, the\n<a href=\"https://nodejs.org/download/release/latest-hydrogen/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">latest-hydrogen</a>\ndirectory contains the latest Hydrogen (Node.js 18) release.</p>\n<h6>Nightly releases</h6>\n<p><a href=\"https://nodejs.org/download/nightly/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://nodejs.org/download/nightly/</a></p>\n<p>Each directory and filename includes the version (e.g., <code>v22.0.0</code>),\nfollowed by the UTC date (e.g., <code>20240424</code> for April 24, 2024),\nand the short commit SHA of the HEAD of the release (e.g., <code>ddd0a9e494</code>).\nFor instance, a full directory name might look like <code>v22.0.0-nightly20240424ddd0a9e494</code>.</p>\n<h6>API documentation</h6>\n<p>Documentation for the latest Current release is at <a href=\"https://nodejs.org/api/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://nodejs.org/api/</a>.\nVersion-specific documentation is available in each release directory in the\n<em>docs</em> subdirectory. Version-specific documentation is also at\n<a href=\"https://nodejs.org/download/docs/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://nodejs.org/download/docs/</a>.</p>",
+    "truncated": false,
+    "chars": 1155
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 23,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:03.300Z",
+  "checked_at": "2026-11-17T02:20:03.300Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:03.300Z"
+}

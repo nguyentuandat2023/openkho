@@ -1,0 +1,113 @@
+{
+ "id": "github/spec-kit",
+ "github_id": 1042367133,
+ "node_id": "R_kgDOPiFCnQ",
+ "full_name": "github/spec-kit",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.325Z",
+ "meta": {
+  "name": "spec-kit",
+  "owner": "github",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
+  "description": "💫 Toolkit to help you get started with SDD or any other process!",
+  "homepage": "https://github.github.com/spec-kit/",
+  "html_url": "https://github.com/github/spec-kit",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "ai",
+   "copilot",
+   "development",
+   "engineering",
+   "prd",
+   "spec",
+   "spec-driven"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 150123,
+  "forks": 13487,
+  "watchers": null,
+  "open_issues": 247,
+  "open_prs": null,
+  "created_at": "2025-08-21T22:54:31Z",
+  "pushed_at": "2026-11-16T23:48:40Z",
+  "updated_at": "2026-11-17T02:16:56Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 23379,
+  "og_image": "https://opengraph.githubassets.com/1/github/spec-kit",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T23:48:39.000Z",
+  "commits_90d": 327,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.4.1",
+  "name": "Spec Kit - 1.4.1",
+  "published_at": "2026-11-16T15:50:09Z",
+  "url": "https://github.com/github/spec-kit/releases/tag/v1.4.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 14292,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "8hHCpNVLhmI",
+    "url": "https://www.youtube.com/watch?v=8hHCpNVLhmI"
+   },
+   {
+    "type": "youtube",
+    "id": "2IArMAhkJcE",
+    "url": "https://www.youtube.com/watch?v=2IArMAhkJcE"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Get started",
+    "html": "<p>You need Python 3.11+, <a href=\"https://github.github.io/spec-kit/install/uv.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">uv</a>,\nand a supported AI coding agent on Linux, macOS, or Windows.</p>\n<p>Run these commands in your terminal to install Spec Kit and create a project.\nThis example uses GitHub Copilot.</p>\n<pre><code class=\"language-bash\">uv tool install specify-cli\nspecify init my-project --integration copilot\ncd my-project\n</code></pre>\n<p><a></a></p>\n<p>After installing the Specify CLI and creating your project, launch your coding\nagent in the project directory, then choose a process below.</p>\n<p>For other setups:</p>\n<ul>\n<li><a href=\"https://github.github.io/spec-kit/installation.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Installation</a> for pinned releases, other installers, CI, and troubleshooting.</li>\n<li><a href=\"https://github.github.io/spec-kit/how-to/existing-projects.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Existing projects</a> to start with code you already have.</li>\n<li><a href=\"https://github.github.io/spec-kit/integrations/index.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Other agents</a> for integration keys and <a href=\"https://github.github.io/spec-kit/integrations/cli.html#command-invocation\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">invocation syntax</a>.</li>\n<li><a href=\"https://github.github.io/spec-kit/upgrade.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Upgrade</a> to update an existing installation.</li>\n</ul>\n<p><a></a>\n<a></a></p>",
+    "truncated": false,
+    "chars": 1200
+   },
+   "usage": null,
+   "features": {
+    "title": "Capabilities",
+    "html": "<p>Spec Kit combines ready-to-use processes with composable mechanisms:</p>\n<table>\n<thead>\n<tr>\n<th>Capability</th>\n<th>Spec Kit mechanism</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Connect to or switch between coding agents</td>\n<td><a href=\"https://github.github.io/spec-kit/integrations/index.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Integration</a></td>\n</tr>\n<tr>\n<td>Add a command, quality gate, or complete process</td>\n<td><a href=\"https://github.github.io/spec-kit/extensions/overview.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Extension</a></td>\n</tr>\n<tr>\n<td>Connect a process to an external tool or service</td>\n<td><a href=\"https://github.github.io/spec-kit/extensions/overview.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Extension</a></td>\n</tr>\n<tr>\n<td>React to coding-agent lifecycle events</td>\n<td><a href=\"https://github.github.io/spec-kit/extensions/api.html#extension-runtime-events\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Extension runtime event</a></td>\n</tr>\n<tr>\n<td>Run extension commands before or after Spec Kit commands</td>\n<td><a href=\"https://github.github.io/spec-kit/extensions/api.html#hook-configuration\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Extension hook</a></td>\n</tr>\n<tr>\n<td>Adapt templates, commands, terminology, or methodology</td>\n<td><a href=\"https://github.github.io/spec-kit/presets/overview.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Preset</a></td>\n</tr>\n<tr>\n<td>Enforce organizational or regulatory standards</td>\n<td><a href=\"https://github.github.io/spec-kit/presets/overview.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Preset</a></td>\n</tr>\n<tr>\n<td>Override a template for one project</td>\n<td><a href=\"https://github.github.io/spec-kit/how-to/customization.html#project-local-overrides-and-resolution\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Project-local override</a></td>\n</tr>\n<tr>\n<td>Automate prompts, commands, gates, and shell tasks</td>\n<td><a href=\"https://github.github.io/spec-kit/workflows/overview.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Workflow</a></td>\n</tr>\n<tr>\n<td>Modify an installed workflow without forking it</td>\n<td><a href=\"https://github.github.io/spec-kit/workflows/overlays.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Workflow overlay</a></td>\n</tr>\n<tr>\n<td>Add reusable executable behavior to workflows</td>\n<td><a href=\"https://github.github.io/spec-kit/workflow-steps/developing.html#custom-step-packages\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Workflow step</a></td>\n</tr>\n<tr>\n<td>Install a curated setup for a role or team</td>\n<td><a href=\"https://github.github.io/spec-kit/bundles/overview.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Bundle</a></td>\n</tr>\n<tr>\n<td>Discover community components</td>\n<td><a href=\"https://github.github.io/spec-kit/overview/catalogs.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Catalog</a></td>\n</tr>\n<tr>\n<td>Host a private catalog of approved components</td>\n<td><a href=\"https://github.github.io/spec-kit/overview/catalogs.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Catalog</a></td>\n</tr>\n<tr>\n<td>Access private catalogs and component downloads</td>\n<td><a href=\"https://github.github.io/spec-kit/reference/authentication.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Authentication</a></td>\n</tr>\n<tr>\n<td>Work offline or behind a firewall</td>\n<td><a href=\"https://github.github.io/spec-kit/install/air-gapped.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Local sources and self-hosted catalogs</a></td>\n</tr>\n<tr>\n<td>Inspect which layer supplies a command, template, or script</td>\n<td><a href=\"https://github.github.io/spec-kit/overview/artifacts.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Artifact inventory</a></td>\n</tr>\n</tbody></table>\n<p>Search the active catalogs with commands such as <code>specify extension search</code>,\n<code>specify preset search</code>, <code>specify workflow search</code>, and <code>specify bundle search</code>.\nSpec Kit includes community catalogs, and organizations can add their own\ncurated sources. Catalog listings are not audits or endorsements, so review\ncommunity source code before installing or running it.</p>\n<p><a></a>\n<a></a></p>",
+    "truncated": false,
+    "chars": 2811
+   }
+  },
+  "headings": 11,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:06.773Z",
+  "checked_at": "2026-11-17T02:20:06.773Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:06.773Z"
+}

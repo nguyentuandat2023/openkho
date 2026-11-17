@@ -1,0 +1,101 @@
+{
+ "id": "GLips/Figma-Context-MCP",
+ "github_id": 931892749,
+ "node_id": "R_kgDON4uODQ",
+ "full_name": "GLips/Figma-Context-MCP",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.971Z",
+ "meta": {
+  "name": "Figma-Context-MCP",
+  "owner": "GLips",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/842883?v=4",
+  "description": "MCP server to provide Figma layout information to AI coding agents like Cursor",
+  "homepage": "https://www.framelink.ai/",
+  "html_url": "https://github.com/GLips/Figma-Context-MCP",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "ai",
+   "cursor",
+   "figma",
+   "mcp",
+   "typescript"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 16218,
+  "forks": 1288,
+  "watchers": null,
+  "open_issues": 30,
+  "open_prs": null,
+  "created_at": "2025-02-13T02:55:06Z",
+  "pushed_at": "2026-11-15T22:22:42Z",
+  "updated_at": "2026-11-17T01:43:11Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 8723,
+  "og_image": "https://opengraph.githubassets.com/1/GLips/Figma-Context-MCP",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-06-24T16:12:40.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.13.2",
+  "name": "v0.13.2",
+  "published_at": "2026-06-18T16:38:52Z",
+  "url": "https://github.com/GLips/Figma-Context-MCP/releases/tag/v0.13.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 4182,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "6G9yb-LrEqg",
+    "url": "https://www.youtube.com/watch?v=6G9yb-LrEqg"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<p>Many code editors and other AI clients use a configuration file to manage MCP servers.</p>\n<p>The <code>figma-developer-mcp</code> server can be configured by adding the following to your configuration file.</p>\n<blockquote>\n<p>NOTE: You will need to create a Figma access token to use this server. Instructions on how to create a Figma API access token can be found <a href=\"https://help.figma.com/hc/en-us/articles/8085703771159-Manage-personal-access-tokens\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>.</p>\n</blockquote>\n<h5>MacOS / Linux</h5>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"Framelink MCP for Figma\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"figma-developer-mcp\", \"--figma-api-key=YOUR-KEY\", \"--stdio\"]\n    }\n  }\n}\n</code></pre>\n<h5>Windows</h5>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"Framelink MCP for Figma\": {\n      \"command\": \"cmd\",\n      \"args\": [\"/c\", \"npx\", \"-y\", \"figma-developer-mcp\", \"--figma-api-key=YOUR-KEY\", \"--stdio\"]\n    }\n  }\n}\n</code></pre>\n<p>Or you can set <code>FIGMA_API_KEY</code> and <code>PORT</code> in the <code>env</code> field.</p>\n<p>If you need more information on how to configure the Framelink MCP for Figma, see the <a href=\"https://www.framelink.ai/docs/quickstart?utm_source=github&amp;utm_medium=referral&amp;utm_campaign=readme\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Framelink docs</a>.</p>",
+    "truncated": false,
+    "chars": 1113
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 8,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:17.845Z",
+  "checked_at": "2026-11-16T05:09:17.845Z"
+ },
+ "details_checked_at": "2026-11-16T05:07:14.363Z",
+ "contributors": null
+}

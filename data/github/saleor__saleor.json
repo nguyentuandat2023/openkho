@@ -1,0 +1,113 @@
+{
+ "id": "saleor/saleor",
+ "github_id": 8162715,
+ "node_id": "MDEwOlJlcG9zaXRvcnk4MTYyNzE1",
+ "full_name": "saleor/saleor",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.326Z",
+ "meta": {
+  "name": "saleor",
+  "owner": "saleor",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/13796165?v=4",
+  "description": "Saleor Core: the high performance, composable, headless commerce API.",
+  "homepage": "https://saleor.io",
+  "html_url": "https://github.com/saleor/saleor",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "cart",
+   "checkout",
+   "commerce",
+   "composable",
+   "e-commerce",
+   "ecommerce",
+   "graphql",
+   "headless",
+   "headless-commerce",
+   "multichannel",
+   "oms",
+   "order-management",
+   "payments",
+   "pim",
+   "python",
+   "shop",
+   "shopping-cart",
+   "store"
+  ],
+  "license": {
+   "spdx": "BSD-3-Clause",
+   "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+  },
+  "stars": 23579,
+  "forks": 6209,
+  "watchers": null,
+  "open_issues": 316,
+  "open_prs": null,
+  "created_at": "2013-02-12T16:46:39Z",
+  "pushed_at": "2026-11-16T15:30:46Z",
+  "updated_at": "2026-11-16T14:56:25Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 248574,
+  "og_image": "https://opengraph.githubassets.com/1/saleor/saleor",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T14:19:11.000Z",
+  "commits_90d": 73,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "3.23.49",
+  "name": "3.23.49",
+  "published_at": "2026-11-12T12:31:59Z",
+  "url": "https://github.com/saleor/saleor/releases/tag/3.23.49",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 9504,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p><a href=\"https://docs.saleor.io/setup/docker-compose\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">See the Saleor docs</a> for step-by-step installation and deployment instructions. For local development without Docker, follow our <a href=\"https://github.com/saleor/saleor/blob/main/CONTRIBUTING.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Contributing Guide</a>.</p>\n<p>Note:\nThe <code>main</code> branch is the development version of Saleor and it may be unstable. To use the latest stable version, download it from the <a href=\"https://github.com/saleor/saleor/releases/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Releases</a> page or switch to a release tag.</p>\n<p>The current production-ready version is 3.x and you should use this version for all three components:</p>\n<ul>\n<li>Saleor: <a href=\"https://github.com/saleor/saleor/releases/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://github.com/saleor/saleor/releases/</a></li>\n<li>Dashboard: <a href=\"https://github.com/saleor/saleor-dashboard/releases/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://github.com/saleor/saleor-dashboard/releases/</a></li>\n<li>Storefront: <a href=\"https://github.com/saleor/react-storefront/releases/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://github.com/saleor/react-storefront/releases/</a></li>\n</ul>\n<h5>Saleor Cloud</h5>\n<p>The fastest way to develop with Saleor is by using developer accounts in <a href=\"https://cloud.saleor.io\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Saleor Cloud</a>.</p>\n<p>Register <a href=\"https://cloud.saleor.io/register\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a> or install our <a href=\"https://github.com/saleor/saleor-cli\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CLI tool</a>:</p>\n<p><code>npm i -g @saleor/cli</code></p>\n<p>and run the following command:</p>\n<p><code>saleor register</code></p>\n<p>Bootstrap your first <a href=\"https://github.com/saleor/react-storefront\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">storefront</a> with:</p>\n<p><code>saleor storefront create --url {your-saleor-graphql-endpoint}</code></p>",
+    "truncated": false,
+    "chars": 1218
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li><strong>Enterprise ready</strong>: Secure, scalable, and stable. Battle-tested by big brands</li>\n<li><strong>Dashboard</strong>: User-friendly, fast, and productive. (Decoupled project <a href=\"https://github.com/saleor/saleor-dashboard\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">repo</a> )</li>\n<li><strong>Global by design</strong> Multi-currency, multi-language, multi-warehouse, tutti multi!</li>\n<li><strong>CMS</strong>: Manage product or marketing content.</li>\n<li><strong>Product management</strong>: A rich content model for large and complex catalogs.</li>\n<li><strong>Orders</strong>: Flexible order model, split payments, multi-warehouse, returns, and more.</li>\n<li><strong>Customers</strong>: Order history and preferences.</li>\n<li><strong>Promotion engine</strong>: Sales, vouchers, cart rules, giftcards.</li>\n<li><strong>Payment orchestration</strong>: multi-gateway, extensible payment API, flexible flows.</li>\n<li><strong>Cart</strong>: Advanced payment and tax options, with full control over discounts and promotions.</li>\n<li><strong>Payments</strong>: Flexible API architecture allows integration of any payment method.</li>\n<li><strong>Translations</strong>: Fully translatable catalog.</li>\n<li><strong>SEO</strong>: Unlimited SEO freedom with headless architecture.</li>\n<li><strong>Apps</strong>: Extend dashboard via iframe with any web stack.</li>\n</ul>\n<p><img src=\"https://user-images.githubusercontent.com/9268745/224249510-d3c7658e-6d5c-42c5-b4fb-93eaf65a5335.png\" alt=\"Saleor Dashboard - Modern UI for managing your e-commerce\" loading=\"lazy\" decoding=\"async\" /></p>",
+    "truncated": false,
+    "chars": 1219
+   }
+  },
+  "headings": 14,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:08.572Z",
+  "checked_at": "2026-11-17T02:20:08.572Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:08.572Z"
+}

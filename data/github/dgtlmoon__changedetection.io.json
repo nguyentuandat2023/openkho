@@ -1,0 +1,120 @@
+{
+ "id": "dgtlmoon/changedetection.io",
+ "github_id": 333483116,
+ "node_id": "MDEwOlJlcG9zaXRvcnkzMzM0ODMxMTY=",
+ "full_name": "dgtlmoon/changedetection.io",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:56.641Z",
+ "meta": {
+  "name": "changedetection.io",
+  "owner": "dgtlmoon",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/275001?v=4",
+  "description": "Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring— MCP included! all for free or enjoy our SaaS plan!",
+  "homepage": "https://changedetection.io",
+  "html_url": "https://github.com/dgtlmoon/changedetection.io",
+  "default_branch": "master",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "back-in-stock",
+   "change-alert",
+   "change-detection",
+   "change-monitoring",
+   "monitoring",
+   "notifications",
+   "restock-monitor",
+   "rss",
+   "self-hosted",
+   "url-monitor",
+   "web-scraping",
+   "website-change-detection",
+   "website-change-detector",
+   "website-change-monitor",
+   "website-change-notification",
+   "website-change-tracker",
+   "website-defacement-monitoring",
+   "website-monitor",
+   "website-monitoring",
+   "website-watcher"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 35857,
+  "forks": 2256,
+  "watchers": null,
+  "open_issues": 387,
+  "open_prs": null,
+  "created_at": "2021-01-27T16:03:30Z",
+  "pushed_at": "2026-11-16T08:48:22Z",
+  "updated_at": "2026-11-17T02:07:44Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 76727,
+  "og_image": "https://opengraph.githubassets.com/1/dgtlmoon/changedetection.io",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T08:48:22.000Z",
+  "commits_90d": 239,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "0.70.3",
+  "name": "0.70.3",
+  "published_at": "2026-11-09T14:57:31Z",
+  "url": "https://github.com/dgtlmoon/changedetection.io/releases/tag/0.70.3",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 22218,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<h5>Docker</h5>\n<p>With Docker composer, just clone this repository and..</p>\n<pre><code class=\"language-bash\">$ docker compose up -d\n</code></pre>\n<p>Docker standalone</p>\n<pre><code class=\"language-bash\">$ docker run -d --restart always -p \"127.0.0.1:5000:5000\" -v datastore-volume:/datastore --name changedetection.io docker.io/dgtlmoon/changedetection.io\n</code></pre>\n<p><code>:latest</code> tag is our latest stable release, <code>:dev</code> tag is our bleeding edge <code>master</code> branch.</p>\n<p>Alternative docker repository over at ghcr - <a href=\"https://ghcr.io/dgtlmoon/changedetection.io\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ghcr.io/dgtlmoon/changedetection.io</a></p>\n<h5>Windows</h5>\n<p>See the install instructions at the wiki <a href=\"https://github.com/dgtlmoon/changedetection.io/wiki/Microsoft-Windows\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://github.com/dgtlmoon/changedetection.io/wiki/Microsoft-Windows</a></p>\n<h5>Python Pip</h5>\n<p>Check out our pypi page <a href=\"https://pypi.org/project/changedetection.io/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://pypi.org/project/changedetection.io/</a></p>\n<pre><code class=\"language-bash\">$ pip3 install changedetection.io\n$ changedetection.io -d /path/to/empty/data/dir -p 5000\n</code></pre>\n<p>Then visit <a href=\"http://127.0.0.1:5000\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://127.0.0.1:5000</a> , You should now be able to access the UI.</p>\n<p><em>Now with per-site configurable support for using a fast built in HTTP fetcher or use a Chrome based fetcher for monitoring of JavaScript websites!</em></p>",
+    "truncated": false,
+    "chars": 1054
+   },
+   "usage": {
+    "title": "Example use cases",
+    "html": "<ul>\n<li>Products and services have a change in pricing</li>\n<li><em>Out of stock notification</em> and <em>Back In stock notification</em></li>\n<li>Monitor and track PDF file changes, know when a PDF file has text changes.</li>\n<li>Governmental department updates (changes are often only on their websites)</li>\n<li>New software releases, security advisories when you're not on their mailing list.</li>\n<li>Festivals with changes</li>\n<li>Discogs restock alerts and monitoring</li>\n<li>Realestate listing changes</li>\n<li>Know when your favourite whiskey is on sale, or other special deals are announced before anyone else</li>\n<li>COVID related news from government websites</li>\n<li>University/organisation news from their website</li>\n<li>Detect and monitor changes in JSON API responses </li>\n<li>JSON API monitoring and alerting</li>\n<li>Changes in legal and other documents</li>\n<li>Trigger API calls via notifications when text appears on a website</li>\n<li>Glue together APIs using the JSON filter and JSON notifications</li>\n<li>Create RSS feeds based on changes in web content</li>\n<li>Monitor HTML source code for unexpected changes, strengthen your PCI compliance</li>\n<li>You have a very sensitive list of URLs to watch and you do <em>not</em> want to use the paid alternatives. (Remember, <em>you</em> are the product)</li>\n<li>Get notified when certain keywords appear in Twitter search results</li>\n<li>Proactively search for jobs, get notified when companies update their careers page, search job portals for keywords.</li>\n<li>Get alerts when new job positions are open on Bamboo HR and other job platforms</li>\n<li>Website defacement monitoring</li>\n<li>Pokémon Card Restock Tracker / Pokémon TCG Tracker</li>\n<li>RegTech - stay ahead of regulatory changes, regulatory compliance</li>\n</ul>\n<p><em>Need an actual Chrome runner with Javascript support? We support fetching via WebDriver and Playwright!</em></p>\n<h6>Key Features</h6>\n<ul>\n<li>Lots of trigger filters, such as \"Trigger on text\", \"Remove text by selector\", \"Ignore text\", \"Extract text\", also using regular-expressions!</li>\n<li>Target elements with xPath 1 and xPath 2, CSS Selectors, Easily monitor complex JSON with JSONPath or jq</li>\n<li>Switch between fast non-JS and Chrome JS based \"fetchers\"</li>\n<li>Track changes in PDF files (Monitor text changed in the PDF, Also monitor PDF filesize and checksums)</li>\n<li>Easily specify how often a site should be checked</li>\n<li>Execute JS before extracting text (Good for logging in, see examples in the UI!)</li>\n<li>Override Request Headers, Specify <code>POST</code> or <code>GET</code> and other methods</li>\n<li>Use the \"Visual Selector\" to help target specific elements</li>\n<li>Configurable <a href=\"https://github.com/dgtlmoon/changedetection.io/wiki/Proxy-configuration\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">proxy per watch</a></li>\n<li>Send a screenshot with the notification when a change is detected in the web page</li>\n</ul>\n<p>We <a href=\"https://brightdata.grsm.io/n0r16zf7eivq\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">recommend and use Bright Data</a> global proxy services, Bright Data will match any first deposit up to $150 using our signup link.</p>\n<p>Please :star: star :star: this project and help it grow! <a href=\"https://github.com/dgtlmoon/changedetection.io/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://github.com/dgtlmoon/changedetection.io/</a></p>",
+    "truncated": false,
+    "chars": 2883
+   },
+   "features": {
+    "title": "Key Features",
+    "html": "<ul>\n<li>Lots of trigger filters, such as \"Trigger on text\", \"Remove text by selector\", \"Ignore text\", \"Extract text\", also using regular-expressions!</li>\n<li>Target elements with xPath 1 and xPath 2, CSS Selectors, Easily monitor complex JSON with JSONPath or jq</li>\n<li>Switch between fast non-JS and Chrome JS based \"fetchers\"</li>\n<li>Track changes in PDF files (Monitor text changed in the PDF, Also monitor PDF filesize and checksums)</li>\n<li>Easily specify how often a site should be checked</li>\n<li>Execute JS before extracting text (Good for logging in, see examples in the UI!)</li>\n<li>Override Request Headers, Specify <code>POST</code> or <code>GET</code> and other methods</li>\n<li>Use the \"Visual Selector\" to help target specific elements</li>\n<li>Configurable <a href=\"https://github.com/dgtlmoon/changedetection.io/wiki/Proxy-configuration\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">proxy per watch</a></li>\n<li>Send a screenshot with the notification when a change is detected in the web page</li>\n</ul>\n<p>We <a href=\"https://brightdata.grsm.io/n0r16zf7eivq\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">recommend and use Bright Data</a> global proxy services, Bright Data will match any first deposit up to $150 using our signup link.</p>\n<p>Please :star: star :star: this project and help it grow! <a href=\"https://github.com/dgtlmoon/changedetection.io/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://github.com/dgtlmoon/changedetection.io/</a></p>",
+    "truncated": false,
+    "chars": 1155
+   }
+  },
+  "headings": 35,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:18.238Z",
+  "checked_at": "2026-11-17T02:20:18.238Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:18.238Z"
+}

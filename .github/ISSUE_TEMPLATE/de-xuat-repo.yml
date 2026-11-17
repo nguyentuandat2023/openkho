@@ -1,0 +1,63 @@
+# Sinh tự động bởi scripts/gen-issue-template.mjs – chạy lại khi thay đổi danh mục
+name: Đề xuất repository
+description: Đề xuất thêm một dự án mã nguồn mở trên GitHub vào thư viện
+title: "[Đề xuất] "
+labels:
+  - de-xuat
+body:
+  - type: markdown
+    attributes:
+      value: Cảm ơn bạn! Quản trị viên sẽ xem xét; khi được gắn nhãn **duyet**, dự án tự động được thêm và đồng bộ số liệu.
+  - type: input
+    id: repo
+    attributes:
+      label: Link GitHub của repository
+      placeholder: https://github.com/owner/ten-repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Danh mục chính
+      options:
+        - ai-ml — AI & Machine Learning
+        - ai-agents — AI Agents & Autonomous Agents
+        - ai-marketing — AI Marketing & Content Creation
+        - ai-automation — AI Automation & Workflow
+        - ai-video-image — AI Video & Image Generation
+        - ai-audio — AI Audio, Voice & Speech
+        - chatbot-llm — Chatbot & LLM
+        - mcp-ai-tools — MCP Servers & AI Tools
+        - web-dev — Website & Web Development
+        - no-code — No-code & Low-code
+        - marketing-seo — Marketing & SEO Tools
+        - data-bi — Data Analytics & Business Intelligence
+        - productivity — Automation & Productivity
+        - video-media — Video Editing & Media Processing
+        - design — Graphic Design & Creative Tools
+        - ecommerce — E-commerce & Affiliate Marketing
+        - crm-sales — CRM & Sales Automation
+        - self-hosted — Self-hosted Applications
+        - dev-tools — Developer Tools
+        - database-backend — Database & Backend
+        - learning — Learning Resources & Awesome Lists
+        - other — Other Useful Projects
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Mô tả ngắn bằng tiếng Việt
+      description: "1–2 câu: dự án làm được gì, dùng cho ai."
+  - type: textarea
+    id: reason
+    attributes:
+      label: Vì sao nên thêm?
+      description: Bạn đã dùng thử chưa? Ứng dụng thực tế là gì?
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Xác nhận
+      options:
+        - label: Tôi đã xem giấy phép của dự án và đây là repository chính thức (không phải bản sao/fork không rõ nguồn).
+          required: true

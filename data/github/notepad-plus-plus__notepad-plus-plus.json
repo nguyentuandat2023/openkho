@@ -1,0 +1,89 @@
+{
+ "id": "notepad-plus-plus/notepad-plus-plus",
+ "github_id": 33014811,
+ "node_id": "MDEwOlJlcG9zaXRvcnkzMzAxNDgxMQ==",
+ "full_name": "notepad-plus-plus/notepad-plus-plus",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "notepad-plus-plus",
+  "owner": "notepad-plus-plus",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/12589084?v=4",
+  "description": "Notepad++ official repository",
+  "homepage": "https://notepad-plus-plus.org/",
+  "html_url": "https://github.com/notepad-plus-plus/notepad-plus-plus",
+  "default_branch": "master",
+  "language": "C++",
+  "languages": null,
+  "topics": [
+   "editor",
+   "notepad",
+   "notepad-official",
+   "windows"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 29912,
+  "forks": 5440,
+  "watchers": null,
+  "open_issues": 2923,
+  "open_prs": null,
+  "created_at": "2015-03-28T00:05:08Z",
+  "pushed_at": "2026-11-15T04:06:55Z",
+  "updated_at": "2026-11-17T01:39:58Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 337932,
+  "og_image": "https://opengraph.githubassets.com/1/notepad-plus-plus/notepad-plus-plus",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-15T04:06:54.000Z",
+  "commits_90d": 342,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v8.9.9.1",
+  "name": "Notepad++ release 8.9.9.1",
+  "published_at": "2026-11-12T01:25:58Z",
+  "url": "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/tag/v8.9.9.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 2138,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": null,
+   "usage": null,
+   "features": null
+  },
+  "headings": 5,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:44.053Z",
+  "checked_at": "2026-11-16T05:08:44.053Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:24.366Z",
+ "contributors": null
+}

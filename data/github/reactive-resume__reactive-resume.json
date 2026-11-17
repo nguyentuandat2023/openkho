@@ -1,0 +1,110 @@
+{
+ "id": "reactive-resume/reactive-resume",
+ "github_id": 249995750,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyNDk5OTU3NTA=",
+ "full_name": "reactive-resume/reactive-resume",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.971Z",
+ "meta": {
+  "name": "reactive-resume",
+  "owner": "reactive-resume",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/245328954?v=4",
+  "description": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+  "homepage": "https://rxresu.me",
+  "html_url": "https://github.com/reactive-resume/reactive-resume",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "agent-skills",
+   "ai",
+   "dsh-plugin",
+   "hacktoberfest",
+   "javascript",
+   "mcp-server",
+   "react",
+   "resume-builder",
+   "self-hosted",
+   "typescript"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 45831,
+  "forks": 4959,
+  "watchers": null,
+  "open_issues": 7,
+  "open_prs": null,
+  "created_at": "2020-03-25T14:08:22Z",
+  "pushed_at": "2026-11-16T17:14:33Z",
+  "updated_at": "2026-11-17T02:13:11Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 2352087,
+  "og_image": "https://opengraph.githubassets.com/1/reactive-resume/reactive-resume",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T17:14:30.000Z",
+  "commits_90d": 507,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v6.1.1",
+  "name": "v6.1.1",
+  "published_at": "2026-11-13T14:12:51Z",
+  "url": "https://github.com/reactive-resume/reactive-resume/releases/tag/v6.1.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "android-354",
+  "name": "Android 1.0.2 (354)",
+  "published_at": "2026-11-14T02:39:57Z",
+  "url": "https://github.com/reactive-resume/reactive-resume/releases/tag/android-354"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 23984,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<p>Use the <a href=\"https://rxresu.me\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">hosted app</a> to start writing, or build this checkout locally with Docker and Docker Compose:</p>\n<pre><code class=\"language-bash\"># Clone the repository\ngit clone --depth=1 https://github.com/reactive-resume/reactive-resume.git reactive-resume\ncd reactive-resume\n\n# Create your local configuration\ncp .env.example .env\n# Edit .env: set AUTH_SECRET and a separate ENCRYPTION_SECRET.\n# Generate each secret with: openssl rand -hex 32\n\n# Build the app and start PostgreSQL, Redis, and SeaweedFS\ndocker compose up -d --build\n\n# Open http://localhost:3000 in your browser\n</code></pre>\n<p>This builds the checked-out source. For a deployment using published images, follow the <a href=\"https://docs.rxresu.me/self-hosting/docker\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker guide</a>. For source development, see the <a href=\"https://docs.rxresu.me/contributing/development\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">development setup guide</a>.</p>",
+    "truncated": false,
+    "chars": 831
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<p><strong>Write, Design, and Check</strong></p>\n<ul>\n<li>Redesigned editor with inline content editing and click-to-select on the page</li>\n<li>Live PDF preview and browser downloads powered by Forme, rendered in a background worker</li>\n<li>Rich text, custom sections, drag-and-drop ordering, and structured dates with consistent formatting</li>\n<li>Autosave, local recovery of unsaved resume drafts, and up to 200 undo steps</li>\n<li>Phone and tablet layouts, keyboard shortcuts, and a searchable command bar</li>\n</ul>\n<p><strong>Templates and Customization</strong></p>\n<ul>\n<li>18 templates, including the new Porygon and Smeargle, previewed with your own content</li>\n<li>One-column, two-column, and ATS-safe template filters</li>\n<li>Font presets, custom fonts, colors, spacing, A4 and Letter paper, and left or right sidebars</li>\n<li>Fit overflowing content by adjusting density, margins, and text size</li>\n<li>Custom Styles written as Semantic CSS, with an element picker on the page</li>\n</ul>\n<p><strong>Resume Checks</strong></p>\n<ul>\n<li>Readability checks with findings pinned to the relevant lines</li>\n<li>Job-posting keyword matching and a view of the text hiring software reads</li>\n<li>Checks on the exported PDF, plus an optional AI writing review</li>\n<li>A public <a href=\"https://rxresu.me/ats-checker\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ATS checker</a> that reads PDFs in your browser without an account</li>\n</ul>\n<p><strong>Documents and Cover Letters</strong></p>\n<ul>\n<li>One searchable library for resumes and letters, with tags, sorting, and grid or list views</li>\n<li>Standalone cover letters with their own editor, exports, and version history</li>\n<li>Link a letter to a resume to keep its sender details and design in sync, or customize it independently</li>\n<li>Automatic and named versions you can preview and restore</li>\n<li>Trash with Undo and a 30-day recovery window</li>\n</ul>\n<p><strong>Job Applications</strong></p>\n<ul>\n<li>List, Board, Insights, and Calendar views for tracking applications from Saved to Offer</li>\n<li>Save jobs from a URL or pasted posting; optional keyword search through Firecrawl, Tavily, or Exa</li>\n<li>Tailor a resume and draft a cover letter for a saved job</li>\n<li>Track contacts, notes, follow-ups, application outcomes, and the documents you sent</li>\n<li>Schedule interviews, export calendar events, and import or export applications as CSV</li>\n</ul>\n<p><strong>AI Assistant</strong></p>\n<ul>\n<li>Assistant beside your resume or letter, with conversations tied to that document</li>\n<li>Proposed edits show what changes and why; accept or reject each suggestion</li>\n<li>Improve selected text, review writing, and draft letters from a resume and job posting</li>\n<li>Connect OpenAI, Anthropic, Google Gemini, OpenRouter, Ollama, or other supported providers and compatible endpoints</li>\n<li>Optional web search and page reading; self-hosters can configure shared AI and web-access providers</li>\n</ul>\n<p><strong>Import, Export, and Sharing</strong></p>\n<ul>\n<li>Import Reactive Resume JSON, JSON Resume, LinkedIn data exports, PDF, and Word files</li>\n<li>JSON, LinkedIn, and readable PDF imports work without AI; Word imports require a connected provider</li>\n<li>Export resumes and letters as PDF, Word (DOCX), Markdown, or JSON</li>\n<li>Share resumes through public links with optional password protection and view/download statistics</li>\n<li>REST API and MCP server for document management, imports, exports, checks, and application workflows</li>\n</ul>\n<p><strong>Privacy and Control</strong></p>\n<ul>\n<li>Self-host with Docker, Vercel, Cloudflare Workers, or a 1-click deploy on Hostinger</li>\n<li>No tracking or ads; export your account data or delete your account</li>\n<li>Passkeys, two-factor authentication, and linked sign-in providers</li>\n<li>Multiple interface languages, light/dark/system themes, and reduced-motion support</li>\n</ul>",
+    "truncated": false,
+    "chars": 3393
+   }
+  },
+  "headings": 18,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:28.956Z",
+  "checked_at": "2026-11-17T02:20:28.956Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:28.956Z"
+}

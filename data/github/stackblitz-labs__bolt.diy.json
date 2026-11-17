@@ -1,0 +1,94 @@
+{
+ "id": "stackblitz-labs/bolt.diy",
+ "github_id": 872087586,
+ "node_id": "R_kgDOM_sAIg",
+ "full_name": "stackblitz-labs/bolt.diy",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "rest",
+ "fetched_at": "2026-11-17T02:19:07.736Z",
+ "meta": {
+  "name": "bolt.diy",
+  "owner": "stackblitz-labs",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/164069192?v=4",
+  "description": "Prompt, run, edit, and deploy full-stack web applications using any LLM you want!",
+  "homepage": "https://stackblitz-labs.github.io/bolt.diy/",
+  "html_url": "https://github.com/stackblitz-labs/bolt.diy",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 20095,
+  "forks": 10610,
+  "watchers": 291,
+  "open_issues": 1,
+  "open_prs": null,
+  "created_at": "2024-10-13T18:40:54Z",
+  "pushed_at": "2026-11-16T22:48:39Z",
+  "updated_at": "2026-11-17T00:01:01Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": true,
+  "is_template": true,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 14953,
+  "og_image": "https://opengraph.githubassets.com/1/stackblitz-labs/bolt.diy",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T22:48:38.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.0.3",
+  "name": "Release v1.0.3",
+  "published_at": "2026-11-15T19:17:07Z",
+  "url": "https://github.com/stackblitz-labs/bolt.diy/releases/tag/v1.0.3",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 8299,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<h5>Prerequisites</h5>\n<ul>\n<li><strong>Node.js</strong> &gt;= 22.12.0</li>\n<li><strong>pnpm</strong> &gt;= 9.15.9 (<code>npm install -g pnpm</code>)</li>\n</ul>\n<h5>1. Clone &amp; Install</h5>\n<pre><code class=\"language-bash\">git clone https://github.com/stackblitz-labs/bolt.diy.git\ncd bolt.diy\npnpm install\n</code></pre>\n<h5>2. Run the Development Server</h5>\n<pre><code class=\"language-bash\">pnpm run dev\n</code></pre>\n<p>Open <a href=\"http://localhost:5173\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:5173</a> in your browser.</p>\n<blockquote>\n<p><strong>Pre-built Desktop Binaries</strong>: Prefer a standalone app? Download binaries for Windows, macOS, and Linux from our <a href=\"https://github.com/stackblitz-labs/bolt.diy/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Latest Releases</a>.</p>\n</blockquote>\n<hr />",
+    "truncated": false,
+    "chars": 544
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li><strong>In-Browser Web Development</strong>: Full-stack Node.js development environment powered by WebContainers.</li>\n<li><strong>22+ AI Providers</strong>: Cloud (Anthropic, OpenAI, Google, DeepSeek, Groq, xAI, Mistral, etc.) and Local (Ollama, LM Studio). OpenRouter, Anthropic, OpenAI, and Google are enabled by default.</li>\n<li><strong>Interactive Workbench</strong>: Integrated code editor, terminal, visual diff viewer, and real-time live preview. Opens by default for a started chat and can be reopened after closing.</li>\n<li><strong>Starter Setup</strong>: Explicit framework requests select a matching starter in code. Starter files include detected install and development server commands before the first customization request.</li>\n<li><strong>Prompt Library</strong>: Choose a system prompt under Settings → Workspace → Features, including Simple Sal for concise guidance and Tiny Tim for smaller models.</li>\n<li><strong>Project Workflows</strong>: Git cloning/pushing, snapshot restoration, file conflict locking, and ZIP export.</li>\n<li><strong>Deployments</strong>: One-click deployment to Netlify, Vercel, and GitHub Pages.</li>\n<li><strong>Database &amp; Visuals</strong>: Supabase integration, data visualization charts, and Model Context Protocol (MCP) tooling.</li>\n</ul>\n<hr />",
+    "truncated": false,
+    "chars": 1140
+   }
+  },
+  "headings": 16,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:49.799Z",
+  "checked_at": "2026-11-17T02:20:49.799Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:49.799Z"
+}

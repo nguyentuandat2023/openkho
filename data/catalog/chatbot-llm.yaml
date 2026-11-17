@@ -1,0 +1,214 @@
+# Danh mục: Chatbot & LLM — xem cấu trúc trường trong data/README.md
+- repo: ollama/ollama
+  tags: [local-llm, offline, api, gguf]
+  summary: "Chạy các mô hình ngôn ngữ lớn mở (Llama, Qwen, Gemma, DeepSeek, gpt-oss…) trên máy tính chỉ với một lệnh; có API tương thích OpenAI."
+  use_cases: ["Chatbot nội bộ không lộ dữ liệu ra ngoài", "'Động cơ' AI cho n8n, Dify, Open WebUI, AnythingLLM", "Thử nghiệm mô hình mở miễn phí"]
+  pros: ["Cài đặt cực đơn giản trên Windows, macOS, Linux", "Thư viện mô hình phong phú, cập nhật nhanh", "Không tốn phí API"]
+  cons: ["Mô hình chạy local thường kém các mô hình thương mại mới nhất", "Mô hình lớn cần nhiều RAM/VRAM"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [desktop, cli]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  requirements: "RAM ≥ 8 GB cho mô hình 7B, 16 GB cho 13B (theo README); GPU giúp chạy nhanh hơn."
+  quick_start: |
+    Tải bộ cài tại ollama.com/download, sau đó mở Terminal:
+    ollama run gemma3
+  applicability: 5
+  featured: true
+- repo: open-webui/open-webui
+  tags: [chat-ui, rag, self-hosted, ollama]
+  summary: "Giao diện chat kiểu ChatGPT tự host, kết nối Ollama hoặc API tương thích OpenAI; có hỏi đáp tài liệu (RAG), tìm kiếm web, quản lý người dùng."
+  use_cases: ["'ChatGPT nội bộ' cho cả công ty", "Hỏi đáp tài liệu nội bộ", "Dùng nhiều mô hình trong một giao diện"]
+  pros: ["Trải nghiệm gần giống ChatGPT", "RAG và tìm kiếm web có sẵn", "Phân quyền nhiều người dùng"]
+  cons: ["Giấy phép có điều khoản thương hiệu khi dùng quy mô lớn", "Nhiều tùy chọn — cần thời gian cấu hình"]
+  platforms: [docker, windows, macos, linux]
+  deploy: [self-host, local]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: optional
+  license_note: "Open WebUI License (BSD-3 + điều khoản thương hiệu): khi phục vụ hơn 50 người dùng trong 30 ngày phải giữ nguyên thương hiệu Open WebUI, trừ khi có giấy phép doanh nghiệp."
+  quick_start: |
+    pip install open-webui      # cần Python 3.11
+    open-webui serve
+    # Mở http://localhost:8080
+  applicability: 5
+  featured: true
+  license_override:
+    class: source-available
+    name: Open WebUI License (BSD-3 + điều khoản thương hiệu)
+- repo: Mintplex-Labs/anything-llm
+  tags: [rag, chat-with-docs, desktop, agent]
+  summary: "Ứng dụng AI 'tất cả trong một': chat với tài liệu (PDF, Word, website), agent, nhiều không gian làm việc — bản desktop cài là chạy, riêng tư."
+  use_cases: ["Chatbot tài liệu nội bộ", "Trợ lý soạn thảo dựa trên tài liệu công ty"]
+  pros: ["Cách dễ nhất để có chatbot tài liệu riêng", "Chạy offline với mô hình local", "Có bản Docker cho nhiều người dùng"]
+  cons: ["Chất lượng trả lời phụ thuộc mô hình bạn chọn", "Bản desktop chỉ dành cho một người dùng"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [desktop, self-host]
+  difficulty: easy
+  pricing: free
+  needs_api_key: optional
+  quick_start: |
+    Tải bản Desktop tại anythingllm.com → chọn mô hình (Ollama local hoặc khóa API) → tạo workspace và kéo thả tài liệu
+  applicability: 5
+  featured: true
+- repo: ggml-org/llama.cpp
+  tags: [inference, gguf, cpp, local-llm]
+  summary: "Thư viện chạy LLM bằng C/C++ hiệu năng cao, chạy mô hình GGUF trên CPU/GPU mọi nền tảng — nền móng của nhiều ứng dụng AI local."
+  use_cases: ["Chạy LLM trên máy cấu hình thấp", "Máy chủ LLM nhẹ tương thích OpenAI"]
+  platforms: [windows, macos, linux, android]
+  deploy: [cli, library, self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: langchain-ai/langchain
+  tags: [framework, llm-app, python, typescript]
+  summary: "Framework phổ biến nhất để lập trình ứng dụng LLM: kết nối mô hình, dữ liệu, công cụ và agent."
+  use_cases: ["Xây chatbot, RAG, agent bằng code", "Tích hợp LLM vào hệ thống sẵn có"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 3
+- repo: lobehub/lobehub
+  tags: [chat-ui, multi-model, plugins, agent]
+  summary: "Không gian làm việc AI hiện đại (trước đây là LobeChat): chat đa mô hình, plugin, agent, kho tri thức — tự host hoặc dùng cloud."
+  use_cases: ["Giao diện AI đẹp cho đội nhóm", "Quản lý nhiều trợ lý AI chuyên biệt"]
+  platforms: [docker, web]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  license_note: "Giấy phép cộng đồng riêng của LobeHub (GitHub hiển thị NOASSERTION), có hạn chế với sản phẩm phái sinh thương mại — đọc file LICENSE."
+  applicability: 4
+  license_override:
+    class: source-available
+    name: LobeHub Community License
+- repo: ChatGPTNextWeb/NextChat
+  tags: [chat-ui, lightweight, vercel]
+  summary: "Giao diện chat AI gọn nhẹ, triển khai miễn phí lên Vercel bằng một cú nhấp, hỗ trợ GPT, Claude, Gemini, DeepSeek…"
+  use_cases: ["Trang chat AI riêng dùng khóa API của bạn"]
+  platforms: [web, windows, macos, linux]
+  deploy: [self-host, desktop, cloud]
+  difficulty: easy
+  pricing: free
+  needs_api_key: required
+  applicability: 3
+- repo: LibreChat-AI/LibreChat
+  tags: [chat-ui, multi-provider, agents, mcp]
+  summary: "'ChatGPT nâng cao' tự host: nhiều nhà cung cấp AI, agent, MCP, chạy code, đăng nhập nhiều người dùng."
+  use_cases: ["Cổng AI nội bộ cho doanh nghiệp", "Kiểm soát chi phí API theo người dùng"]
+  platforms: [docker]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: optional
+  applicability: 4
+- repo: CherryHQ/cherry-studio
+  tags: [desktop, multi-model, assistant]
+  summary: "Ứng dụng desktop dùng nhiều mô hình AI (OpenAI, Claude, Gemini, DeepSeek, Ollama…) trong một giao diện, có trợ lý dựng sẵn và kho tri thức."
+  use_cases: ["Một ứng dụng cho mọi mô hình AI", "Trợ lý viết, dịch, tóm tắt"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: optional
+  license_note: "GitHub nhận diện AGPL-3.0; dự án có thêm điều khoản cấp phép cho tổ chức trong README/LICENSE — doanh nghiệp nên đọc kỹ trước khi triển khai."
+  applicability: 4
+- repo: janhq/jan
+  tags: [desktop, offline, local-llm]
+  summary: "Ứng dụng desktop thay ChatGPT chạy 100% offline: tải mô hình mở về máy và chat, có API cục bộ tương thích OpenAI."
+  use_cases: ["Chat AI riêng tư trên laptop", "Thử mô hình mở không cần dòng lệnh"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: vllm-project/vllm
+  tags: [inference, serving, gpu, production]
+  summary: "Máy chủ chạy LLM thông lượng cao cho môi trường sản xuất — phục vụ nhiều người dùng đồng thời với API tương thích OpenAI."
+  use_cases: ["Tự vận hành LLM cho ứng dụng nhiều người dùng"]
+  platforms: [linux, docker]
+  deploy: [self-host, library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  requirements: "GPU NVIDIA/AMD trên Linux."
+  applicability: 3
+- repo: run-llama/llama_index
+  tags: [rag, framework, data-connectors]
+  summary: "Framework kết nối LLM với dữ liệu doanh nghiệp: đọc tài liệu, lập chỉ mục và xây ứng dụng RAG/agent."
+  use_cases: ["Chatbot trên dữ liệu nội bộ", "Trích xuất thông tin từ tài liệu"]
+  platforms: [windows, macos, linux]
+  deploy: [library, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 3
+- repo: BerriAI/litellm
+  also: [mcp-ai-tools]
+  tags: [llm-gateway, proxy, cost-tracking]
+  summary: "Cổng (gateway) gọi hơn 100 nhà cung cấp LLM qua một API chuẩn OpenAI — quản lý khóa, ngân sách, giới hạn cho từng nhóm."
+  use_cases: ["Quản lý chi phí AI toàn công ty", "Chuyển đổi nhà cung cấp LLM không sửa code"]
+  platforms: [docker, windows, macos, linux]
+  deploy: [self-host, library]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  license_note: "Lõi MIT; thư mục enterprise có giấy phép thương mại (GitHub hiển thị NOASSERTION)."
+  applicability: 3
+  license_override:
+    spdx: MIT
+    name: MIT + giấy phép enterprise
+- repo: zylon-ai/private-gpt
+  tags: [rag, privacy, offline]
+  summary: "Hỏi đáp tài liệu riêng tư bằng LLM, chạy hoàn toàn offline — không dữ liệu nào rời khỏi máy."
+  use_cases: ["Tra cứu tài liệu nhạy cảm", "Chatbot nội bộ không Internet"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [local, self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: openai/gpt-oss
+  tags: [open-weights, llm, reasoning]
+  summary: "Mô hình ngôn ngữ trọng số mở của OpenAI (gpt-oss-20b, gpt-oss-120b), giấy phép Apache 2.0 — bản 20B chạy được trên máy có 16 GB bộ nhớ."
+  use_cases: ["LLM mạnh chạy local cho doanh nghiệp", "Agent dùng công cụ không phụ thuộc cloud"]
+  platforms: [windows, macos, linux]
+  deploy: [library, local]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  quick_start: |
+    ollama run gpt-oss:20b
+  applicability: 4
+- repo: deepseek-ai/DeepSeek-V3
+  tags: [open-weights, llm, moe]
+  summary: "Mô hình ngôn ngữ mở hàng đầu của DeepSeek (kiến trúc MoE 671 tỷ tham số) — trọng số tải về được để tự triển khai."
+  use_cases: ["Tự vận hành LLM cỡ lớn", "Nghiên cứu mô hình mở"]
+  platforms: [linux]
+  deploy: [library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  requirements: "Cần cụm GPU lớn; người dùng phổ thông nên dùng bản rút gọn qua Ollama hoặc API."
+  license_note: "Mã nguồn MIT; trọng số mô hình có giấy phép riêng — kiểm tra trên trang mô hình."
+  applicability: 3
+- repo: baptisteArno/typebot.io
+  also: [marketing-seo]
+  tags: [chatbot-builder, lead-generation, no-code]
+  summary: "Trình tạo chatbot hội thoại kéo-thả (thu lead, khảo sát, chăm sóc khách) nhúng vào website, WhatsApp — tự host được."
+  use_cases: ["Chatbot thu lead trên landing page", "Form hội thoại thay form truyền thống"]
+  platforms: [docker, web]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  license_note: "Functional Source License (FSL): được tự host và dùng nội bộ, không được cung cấp dịch vụ cạnh tranh; mỗi phiên bản chuyển sang Apache 2.0 sau 2 năm."
+  applicability: 4
+  license_override:
+    class: source-available
+    name: Functional Source License (FSL)

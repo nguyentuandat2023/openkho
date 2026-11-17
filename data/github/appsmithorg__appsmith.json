@@ -1,0 +1,116 @@
+{
+ "id": "appsmithorg/appsmith",
+ "github_id": 275993885,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyNzU5OTM4ODU=",
+ "full_name": "appsmithorg/appsmith",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.971Z",
+ "meta": {
+  "name": "appsmith",
+  "owner": "appsmithorg",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/67620218?v=4",
+  "description": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.",
+  "homepage": "https://www.appsmith.com",
+  "html_url": "https://github.com/appsmithorg/appsmith",
+  "default_branch": "release",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "admin-dashboard",
+   "admin-panels",
+   "app-builder",
+   "automation",
+   "crud",
+   "custom-internal",
+   "developer-tools",
+   "gui",
+   "gui-application",
+   "hacktoberfest",
+   "internal-tools",
+   "java",
+   "javascript",
+   "low-code",
+   "low-code-framework",
+   "react",
+   "self-hosted",
+   "typescript",
+   "webdevelopment",
+   "workflows"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 41258,
+  "forks": 4846,
+  "watchers": null,
+  "open_issues": 4524,
+  "open_prs": null,
+  "created_at": "2020-06-30T04:07:36Z",
+  "pushed_at": "2026-11-16T23:35:14Z",
+  "updated_at": "2026-11-17T01:32:02Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 823182,
+  "og_image": "https://opengraph.githubassets.com/1/appsmithorg/appsmith",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T21:42:20.000Z",
+  "commits_90d": 316,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.7.0",
+  "name": "Release v2.7.0 🌈",
+  "published_at": "2026-11-12T17:45:16Z",
+  "url": "https://github.com/appsmithorg/appsmith/releases/tag/v2.7.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 54343,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "jhyDI0e1o08",
+    "url": "https://www.youtube.com/watch?v=jhyDI0e1o08"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>There are two ways to start using Appsmith:</p>\n<ul>\n<li>Signup on <a href=\"https://login.appsmith.com/?utm_source=github&amp;utm_medium=organic&amp;utm_campaign=readme\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Appsmith Cloud</a>.</li>\n<li>Install Appsmith on your machine. See the installation guides below.</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th>Installation Methods</th>\n<th>Documentation</th>\n</tr>\n</thead>\n<tbody><tr>\n<td></td>\n<td><a href=\"https://docs.appsmith.com/getting-started/setup/installation-guides/docker?utm_source=github&amp;utm_medium=organic&amp;utm_campaign=readme\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker</a> (<em>Recommended</em>)</td>\n</tr>\n<tr>\n<td></td>\n<td><a href=\"https://docs.appsmith.com/getting-started/setup/installation-guides/kubernetes?utm_source=github&amp;utm_medium=organic&amp;utm_campaign=readme\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Kubernetes</a></td>\n</tr>\n<tr>\n<td></td>\n<td><a href=\"https://docs.appsmith.com/getting-started/setup/installation-guides/aws-ami?utm_source=github&amp;utm_medium=organic&amp;utm_campaign=readme\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AWS AMI</a></td>\n</tr>\n</tbody></table>\n<p>For other deployment options, see the <a href=\"https://docs.appsmith.com/getting-started/setup/installation-guides?utm_source=github&amp;utm_medium=organic&amp;utm_campaign=readme\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Installation Guides</a> documentation.  </p>",
+    "truncated": false,
+    "chars": 1563
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 8,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:23.977Z",
+  "checked_at": "2026-11-17T02:20:23.977Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:23.977Z"
+}

@@ -1,0 +1,103 @@
+{
+ "id": "danielgatis/rembg",
+ "github_id": 286500101,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyODY1MDAxMDE=",
+ "full_name": "danielgatis/rembg",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.073Z",
+ "meta": {
+  "name": "rembg",
+  "owner": "danielgatis",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/7380?v=4",
+  "description": "Rembg is a tool to remove images background",
+  "homepage": null,
+  "html_url": "https://github.com/danielgatis/rembg",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "background-removal",
+   "image-processing",
+   "python"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 25529,
+  "forks": 2500,
+  "watchers": null,
+  "open_issues": 2,
+  "open_prs": null,
+  "created_at": "2020-08-10T14:38:24Z",
+  "pushed_at": "2026-11-06T01:18:29Z",
+  "updated_at": "2026-11-17T01:31:39Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 89581,
+  "og_image": "https://opengraph.githubassets.com/1/danielgatis/rembg",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-06T01:17:53.000Z",
+  "commits_90d": 19,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.0.87",
+  "name": "v2.0.87",
+  "published_at": "2026-11-06T01:27:35Z",
+  "url": "https://github.com/danielgatis/rembg/releases/tag/v2.0.87",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 27495,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>Choose <strong>one</strong> of the following backends based on your hardware:</p>\n<h5>CPU support</h5>\n<pre><code class=\"language-bash\">pip install \"rembg[cpu]\" # for library\npip install \"rembg[cpu,cli]\" # for library + cli\n</code></pre>\n<h5>GPU support (NVIDIA/CUDA)</h5>\n<p>First, check if your system supports <code>onnxruntime-gpu</code> by visiting <a href=\"https://onnxruntime.ai/getting-started\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">onnxruntime.ai</a> and reviewing the installation matrix.</p>\n<p>\n  <img src=\"https://raw.githubusercontent.com/danielgatis/rembg/main/onnxruntime-installation-matrix.png\" alt=\"onnxruntime-installation-matrix\" loading=\"lazy\" decoding=\"async\" width=\"400\" />\n</p><p>If your system is compatible, run:</p>\n<pre><code class=\"language-bash\">pip install \"rembg[gpu]\" # for library\npip install \"rembg[gpu,cli]\" # for library + cli\n</code></pre>\n<blockquote>\n<p><strong>Note:</strong> NVIDIA GPUs may require <code>onnxruntime-gpu</code>, CUDA, and <code>cudnn-devel</code>. See <a href=\"https://github.com/danielgatis/rembg/issues/668#issuecomment-2689830314\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#668</a> for details. If <code>rembg[gpu]</code> doesn't work and you can't install CUDA or <code>cudnn-devel</code>, use <code>rembg[cpu]</code> with <code>onnxruntime</code> instead.</p>\n</blockquote>\n<h5>GPU support (AMD/ROCm)</h5>\n<p>ROCm support requires the <code>onnxruntime-rocm</code> package. Install it by following <a href=\"https://rocm.docs.amd.com/projects/radeon/en/latest/docs/install/native_linux/install-onnx.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AMD's documentation</a>.</p>\n<p>Once <code>onnxruntime-rocm</code> is installed and working, install rembg with ROCm support:</p>\n<pre><code class=\"language-bash\">pip install \"rembg[rocm]\" # for library\npip install \"rembg[rocm,cli]\" # for library + cli\n</code></pre>",
+    "truncated": false,
+    "chars": 1410
+   },
+   "usage": {
+    "title": "Usage as a CLI",
+    "html": "<p>After installation, you can use rembg by typing <code>rembg</code> in your terminal.</p>\n<p>The <code>rembg</code> command has these subcommands:</p>\n<ul>\n<li><code>i</code> - single files</li>\n<li><code>p</code> - folders (batch processing)</li>\n<li><code>s</code> - HTTP server</li>\n<li><code>b</code> - RGB24 pixel binary stream</li>\n<li><code>d</code> - download models ahead of time</li>\n<li><code>m</code> - migrate models from the legacy <code>~/.u2net</code> directory</li>\n</ul>\n<p>You can get help about the main command using:</p>\n<pre><code class=\"language-shell\">rembg --help\n</code></pre>\n<p>You can also get help for any subcommand:</p>\n<pre><code class=\"language-shell\">rembg &lt;COMMAND&gt; --help\n</code></pre>\n<h5>rembg <code>i</code></h5>\n<p>Used for processing single files.</p>\n<p><strong>Remove background from a remote image:</strong></p>\n<pre><code class=\"language-shell\">curl -s http://input.png | rembg i &gt; output.png\n</code></pre>\n<p><strong>Remove background from a local file:</strong></p>\n<pre><code class=\"language-shell\">rembg i path/to/input.png path/to/output.png\n</code></pre>\n<p><strong>Omit the output path</strong> (writes <code>&lt;input_stem&gt;.out.png</code> next to the input):</p>\n<pre><code class=\"language-shell\">rembg i path/to/input.png\n# → path/to/input.out.png\n</code></pre>\n<p>If <code>stdout</code> is redirected (e.g. <code>rembg i input.png &gt; out.png</code>), the output is written to <code>stdout</code> instead.</p>\n<p><strong>Specify a model:</strong></p>\n<pre><code class=\"language-shell\">rembg i -m u2netp path/to/input.png path/to/output.png\n</code></pre>\n<p><strong>Return only the mask:</strong></p>\n<pre><code class=\"language-shell\">rembg i -om path/to/input.png path/to/output.png\n</code></pre>\n<p><strong>Apply alpha matting:</strong></p>\n<pre><code class=\"language-shell\">rembg i -a path/to/input.png path/to/output.png\n</code></pre>\n<p><strong>Remove color fringing from soft edges:</strong></p>\n<pre><code class=\"language-shell\">rembg i -dc path/to/input.png path/to/output.png\n</code></pre>\n<p>See <a href=\"https://github.com/danielgatis/rembg#color-decontamination\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Color decontamination</a> for what this does.</p>\n<p><strong>Pass extra parameters (SAM example):</strong></p>\n<pre><code class=\"language-shell\">rembg i -m sam -x '{ \"sam_prompt\": [{\"type\": \"point\", \"data\": [724, 740], \"label\": 1}] }' examples/plants-1.jpg examples/plants-1.out.png\n</code></pre>\n<p><strong>Pass extra parameters (custom model):</strong></p>\n<pre><code class=\"language-shell\">rembg i -m u2net_custom -x '{\"model_path\": \"~/.u2net/u2net.onnx\"}' path/to/input.png path/to/output.png\n</code></pre>\n<p><strong>Use the withoutBG cloud API:</strong></p>\n<p><a href=\"https://withoutbg.com/signup?ref=rembg&amp;utm_medium=readme&amp;utm_content=cli\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Get 50 free credits with signup</a>. <a href=\"https://withoutbg.com/pro-model-api/results?ref=rembg&amp;utm_medium=readme&amp;utm_content=cli\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Sample results</a>.</p>\n<pre><code class=\"language-shell\">export WITHOUTBG_API_KEY=sk_...\nrembg i -m withoutbg path/to/input.png path/to/output.png\n</code></pre>\n<p><strong>Use the Atlas Cloud API (hosted Midjourney background removal):</strong></p>\n<pre><code class=\"language-shell\">export ATLASCLOUD_API_KEY=apikey-...\nrembg i -m atlascloud path/to/input.png path/to/output.png\n</code></pre>\n<p>The job is asynchronous and can take over a minute per image. Pick another <a href=\"https://www.atlascloud.ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Atlas Cloud</a> model with <code>ATLASCLOUD_MODEL</code> or <code>-x '{\"model\": \"midjourney/v8.1/remove-background\"}'</code>.</p>\n<p>Or pass the key via extras:</p>\n<pre><code class=\"language-shell\">rembg i -m withoutbg -x '{\"api_key\":\"sk_...\"}' path/to/input.png path/to/output.png\n</code></pre>\n<h5>rembg <code>p</code></h5>\n<p>Used for batch processing entire folders.</p>\n<p><strong>Process all images in a folder:</strong></p>\n<pre><code class=\"language-shell\">rembg p path/to/input path/to/output\n</code></pre>\n<p><strong>Watch mode (process new/changed files automatically):</strong></p>\n<pre><code class=\"language-shell\">rembg p -w path/to/input path/to/output\n</code></pre>\n<h5>rembg <code>s</code></h5>\n<p>Used to start an HTTP server.</p>\n<pre><code class=\"language-shell\">rembg s --host 0.0.0.0 --port 7000 --log_level info\n</code></pre>\n<p>For complete API documentation, visit: <code>http://localhost:7000/api</code></p>\n<p><strong>Disable the Gradio UI (reduces idle CPU usage):</strong></p>\n<pre><code class=\"language-shell\">rembg s --no-ui\n</code></pre>\n<p><strong>Serve cloud models (atlascloud, withoutbg):</strong></p>\n<p>They are off by default, because a request without its own <code>api_key</code> is billed to the API key set in the server's environment.</p>\n<pre><code class=\"language-shell\">rembg s --allow-remote-models\n</code></pre>\n<p><strong>Limit how many models stay loaded in memory (default 8):</strong></p>\n<pre><code class=\"language-shell\">rembg s --max-sessions 4\n</code></pre>\n<p>The <code>extras</code> parameter only accepts <code>model_path</code>, <code>sam_model</code>, <code>sam_quant</code>, <code>sam_prompt</code>, <code>cc</code>, <code>cloth_category</code>, <code>vitmatte_model</code>, <code>putalpha</code>, <code>api_key</code>, <code>model</code>, <code>timeout</code> and <code>poll_timeout</code>.</p>\n<p><strong>Remove background from an image URL:</strong></p>\n<pre><code class=\"language-shell\">curl -s \"http://localhost:7000/api/remove?url=http://input.png\" -o output.png\n</code></pre>\n<p><strong>Remove background from an uploaded image:</strong></p>\n<pre><code class=\"language-shell\">curl -s -F file=@/path/to/input.jpg \"http://localhost:7000/api/remove\" -o output.png\n</code></pre>\n<h5>rembg <code>b</code></h5>\n<p>Process a sequence of RGB24 images from stdin. This is intended to be used with programs like FFmpeg that output RGB24 pixel data to stdout.</p>\n<pre><code class=\"language-shell\">rembg b &lt;width&gt; &lt;height&gt; -o &lt;output_specifier&gt;\n</code></pre>\n<p><strong>Arguments:</strong></p>\n<table>\n<thead>\n<tr>\n<th>Argument</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><code>width</code></td>\n<td>Width of input image(s)</td>\n</tr>\n<tr>\n<td><code>height</code></td>\n<td>Height of input image(s)</td>\n</tr>\n<tr>\n<td><code>output_specifier</code></td>\n<td>Printf-style specifier for output filenames (e.g., <code>output-%03u.png</code> produces <code>output-000.png</code>, <code>output-001.png</code>, etc.). Omit to write to stdout.</td>\n</tr>\n</tbody></table>\n<p><strong>Example with FFmpeg:</strong></p>\n<pre><code class=\"language-shell\">ffmpeg -i input.mp4 -ss 10 -an -f rawvideo -pix_fmt rgb24 pipe:1 | rembg b 1280 720 -o folder/output-%03u.png\n</code></pre>\n<blockquote>\n<p><strong>Note:</strong> The width and height must match FFmpeg's output dimensions. The flags <code>-an -f rawvideo -pix_fmt rgb24 pipe:1</code> are required for FFmpeg compatibility.</p>\n</blockquote>",
+    "truncated": false,
+    "chars": 4832
+   },
+   "features": null
+  },
+  "headings": 27,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:07:58.817Z",
+  "checked_at": "2026-11-16T05:07:58.817Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:17.093Z",
+ "contributors": {
+  "count": 92,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T02:20:53.785Z"
+ }
+}

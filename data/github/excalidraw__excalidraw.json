@@ -1,0 +1,102 @@
+{
+ "id": "excalidraw/excalidraw",
+ "github_id": 231283452,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyMzEyODM0NTI=",
+ "full_name": "excalidraw/excalidraw",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "excalidraw",
+  "owner": "excalidraw",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/59452120?v=4",
+  "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+  "homepage": "https://excalidraw.com",
+  "html_url": "https://github.com/excalidraw/excalidraw",
+  "default_branch": "master",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "canvas",
+   "collaboration",
+   "diagrams",
+   "drawing",
+   "hacktoberfest",
+   "productivity",
+   "whiteboard"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 135812,
+  "forks": 16197,
+  "watchers": null,
+  "open_issues": 3558,
+  "open_prs": null,
+  "created_at": "2020-01-02T01:04:43Z",
+  "pushed_at": "2026-11-16T16:11:41Z",
+  "updated_at": "2026-11-17T02:18:03Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 109834,
+  "og_image": "https://opengraph.githubassets.com/1/excalidraw/excalidraw",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T15:23:22.000Z",
+  "commits_90d": 88,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.18.1",
+  "name": "v0.18.1",
+  "published_at": "2026-04-21T08:43:20Z",
+  "url": "https://github.com/excalidraw/excalidraw/releases/tag/v0.18.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 7710,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick start",
+    "html": "<p><strong>Note:</strong> following instructions are for installing the Excalidraw <a href=\"https://www.npmjs.com/package/@excalidraw/excalidraw\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">npm package</a> when integrating Excalidraw into your own app. To run the repository locally for development, please refer to our <a href=\"https://docs.excalidraw.com/docs/introduction/development\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Development Guide</a>.</p>\n<p>Use <code>npm</code> or <code>yarn</code> to install the package.</p>\n<pre><code class=\"language-bash\">npm install react react-dom @excalidraw/excalidraw\n# or\nyarn add react react-dom @excalidraw/excalidraw\n</code></pre>\n<p>Check out our <a href=\"https://docs.excalidraw.com/docs/@excalidraw/excalidraw/installation\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">documentation</a> for more details!</p>",
+    "truncated": false,
+    "chars": 613
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<p>The Excalidraw editor (npm package) supports:</p>\n<ul>\n<li>💯 Free &amp; open-source.</li>\n<li>🎨 Infinite, canvas-based whiteboard.</li>\n<li>✍️ Hand-drawn like style.</li>\n<li>🌓 Dark mode.</li>\n<li>🏗️ Customizable.</li>\n<li>📷 Image support.</li>\n<li>😀 Shape libraries support.</li>\n<li>🌐 Localization (i18n) support.</li>\n<li>🖼️ Export to PNG, SVG &amp; clipboard.</li>\n<li>💾 Open format - export drawings as an <code>.excalidraw</code> json file.</li>\n<li>⚒️ Wide range of tools - rectangle, circle, diamond, arrow, line, free-draw, eraser...</li>\n<li>➡️ Arrow-binding &amp; labeled arrows.</li>\n<li>🔙 Undo / Redo.</li>\n<li>🔍 Zoom and panning support.</li>\n</ul>",
+    "truncated": false,
+    "chars": 612
+   }
+  },
+  "headings": 9,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:55.590Z",
+  "checked_at": "2026-11-17T02:19:55.591Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:55.591Z"
+}

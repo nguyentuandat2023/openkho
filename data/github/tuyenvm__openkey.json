@@ -1,0 +1,109 @@
+{
+ "id": "tuyenvm/OpenKey",
+ "github_id": 168663461,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxNjg2NjM0NjE=",
+ "full_name": "tuyenvm/OpenKey",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.971Z",
+ "meta": {
+  "name": "OpenKey",
+  "owner": "tuyenvm",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/7700801?v=4",
+  "description": "Vietnamese Input for macOS, Windows and Linux - Bộ gõ Tiếng Việt nguồn mở đa nền tảng",
+  "homepage": "https://open-key.org",
+  "html_url": "https://github.com/tuyenvm/OpenKey",
+  "default_branch": "master",
+  "language": "C++",
+  "languages": null,
+  "topics": [
+   "bogo",
+   "c",
+   "cplusplus",
+   "gotiengviet",
+   "mac",
+   "macos",
+   "objective-c",
+   "tcvn3",
+   "telex",
+   "unicode",
+   "unikey",
+   "unikeyformac",
+   "vietkey",
+   "vni"
+  ],
+  "license": {
+   "spdx": "GPL-3.0",
+   "name": "GNU General Public License v3.0"
+  },
+  "stars": 976,
+  "forks": 357,
+  "watchers": null,
+  "open_issues": 150,
+  "open_prs": null,
+  "created_at": "2019-02-01T08:05:50Z",
+  "pushed_at": "2026-06-15T15:27:55Z",
+  "updated_at": "2026-11-16T09:02:40Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 8835,
+  "og_image": "https://opengraph.githubassets.com/1/tuyenvm/OpenKey",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-06-15T15:27:55.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "2.0.5",
+  "name": "2.0.5",
+  "published_at": "2022-07-02T08:47:52Z",
+  "url": "https://github.com/tuyenvm/OpenKey/releases/tag/2.0.5",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 6430,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": null,
+   "usage": {
+    "title": "Lưu ý, khi sử dụng OpenKey, bạn nên tắt hẳn bộ gõ khác vì 2 chương trình bộ gõ s",
+    "html": "<p><img src=\"https://raw.githubusercontent.com/tuyenvm/tuyenvm.github.io/master/images/openkey-main-control.png\" alt=\"Giao diện\" loading=\"lazy\" decoding=\"async\" />\n<img src=\"https://raw.githubusercontent.com/tuyenvm/tuyenvm.github.io/master/images/openkey-main-control-2.png\" alt=\"Giao diện\" loading=\"lazy\" decoding=\"async\" />\n<img src=\"https://raw.githubusercontent.com/tuyenvm/tuyenvm.github.io/master/images/openkey-main-control-3.png\" alt=\"Giao diện\" loading=\"lazy\" decoding=\"async\" />\n<img src=\"https://raw.githubusercontent.com/tuyenvm/tuyenvm.github.io/master/images/openkey-small-control.png\" alt=\"Menu\" loading=\"lazy\" decoding=\"async\" />\n<img src=\"https://raw.githubusercontent.com/tuyenvm/tuyenvm.github.io/master/images/openkey-macro.png\" alt=\"Gõ tắt\" loading=\"lazy\" decoding=\"async\" />\n<img src=\"https://raw.githubusercontent.com/tuyenvm/tuyenvm.github.io/master/images/openkey-convert-tool.png\" alt=\"Chuyển mã\" loading=\"lazy\" decoding=\"async\" /></p>",
+    "truncated": false,
+    "chars": 734
+   },
+   "features": {
+    "title": "Tính năng",
+    "html": "<ul>\n<li><strong>Modern orthography</strong> (On/Off) - Đặt dấu oà, uý thay vì òa, úy.</li>\n<li><strong>Quick Telex</strong> (On/Off) - Gõ nhanh (cc=ch, gg=gi, kk=kh, nn=ng, qq=qu, pp=ph, tt=th).</li>\n<li><strong>Grammar check</strong> (On/Off) - Kiểm tra ngữ pháp.</li>\n<li><strong>Spelling check</strong> (On/Off) - Kiểm tra chính tả.</li>\n<li><strong>Restore key if invalid word</strong> (on/off) - Phục hồi phím với từ sai.</li>\n<li><strong>Run on startup</strong> (On/Off) - Chạy cùng macOS.</li>\n<li><strong>Gray menu bar icon</strong> (On/Off) - Biểu tượng xám trên thanh menu phù hợp với chế độ Dark mode.</li>\n<li><strong>Switch input mode by shortcut key</strong> - Đổi chế độ gõ bằng phím tắt tùy chọn.</li>\n<li><strong>Autocorrect fixed</strong> (On/Off) - Sửa lỗi autocorrect trên trình duyệt như Chrome, Safari, Firefox, Microsoft Excel.</li>\n<li><strong>Underline issue fixed on macOS</strong> (On/Off) - Sửa lỗi gạch chân trên macOS.</li>\n<li><strong>Tạm tắt kiểm tra chính tả bằng phím Ctrl</strong> (On/Off) (Bản 1.5 về sau).</li>\n<li><strong>Tạm tắt OpenKey bằng phím Cmd/Alt</strong> (On/Off) (Bản 2.0.1 về sau).</li>\n<li><strong>Cho phép dùng f z w j làm phụ âm đầu</strong> (On/Off) (Bản 1.5 về sau).</li>\n<li><strong>Gõ tắt phụ âm đầu: f-&gt;ph, j-&gt;gi, w-&gt;qu</strong> (On/Off) (Bản 1.6 về sau).</li>\n<li><strong>Gõ tắt phụ âm cuối: g-&gt;ng, h-&gt;nh, k-&gt;ch</strong> (On/Off) (Bản 1.6 về sau).</li>\n<li><strong>Hiện biểu tượng trên thanh Dock</strong> (On/Off) (Bản 2.0.1 về sau). Bấm vào icon trên thanh Dock sẽ mở nhanh Bảng điều khiển.</li>\n<li><strong>Macro</strong> - Tính năng gõ tắt vô cùng tiện lợi. Gõ tắt của macOS chỉ hỗ trợ 20 ký tự, còn OpenKey không giới hạn ký tự.</li>\n<li><strong>Chuyển chế độ thông minh:</strong> (On/Off) (Bản 1.2 về sau) - Bạn đang dùng chế độ gõ Tiếng Việt trên ứng dụng A, bạn chuyển qua ứng dụng B trước đó bạn dùng chế độ gõ Tiếng Anh, OpenKey sẽ tự động chuyển qua chế độ gõ Tiếng Anh cho bạn, khi bạn quay lại ứng dụng A, OpenKey tất nhiên sẽ chuyển lại chế độ gõ tiếng Việt, rất cơ động.</li>\n<li><strong>Viết Hoa chữ cái đầu câu</strong> (On/Off) (Bản 1.2 về sau) - Khi gõ văn bản dài, đôi khi bạn quên ghi hoa chữ cái đầu câu khi kết thúc một câu hoặc khi xuống hàng, tính năng này sẽ tự ghi hoa chữ cái đầu câu cho bạn, thật tuyệt vời.</li>\n<li><strong>Chế độ “Gửi từng phím”:</strong> (On/Off) (Bản 1.1 về sau) mặc định dùng kỹ thuật mới gửi dữ liệu 1 lần thay vì gửi nhiều lần cho chuỗi ký tự, nên nếu có ứng dụng nào không tương thích, hãy bật tính năng này lên, mặc định thì nên tắt vì kỹ thuật mới sẽ chạy nhanh hơn.</li>\n<li><strong>Cập nhật tự động:</strong> (Bản 1.3 về sau) tính năng hỗ trợ cập nhật phiên bản OpenKey mới nhất mỗi khi mở OpenKey hoặc tự check trong phần mục Giới thiệu.</li>\n<li><strong>Công cụ chuyển mã:</strong> (Bản 1.4 về sau) hỗ trợ chuyển mã qua lại văn bản, thích hợp cho việc chuyển đổi văn bản cũ viết bằng VNI, TCVN3 qua Unicode,... Hỗ trợ cấu hình phím tắt chuyển mã nhanh, bảng cấu hình tùy chọn chuyển mã.</li>\n<li><strong>Tự ghi nhớ bảng mã theo ứng dụng:</strong> (Bản 2.0.1 về sau) Phù hợp cho các bạn dùng Photoshop, CAD,... với các bảng mã VNI, TCVN3. OpenKey tự ghi nhớ ứng dụng nào dùng bảng mã nào để lần sau sử dụng Photoshop, CAD,... OpenKey có thể tự chuyển sang bảng mã đó.</li>\n<li>...</li>\n</ul>\n<p><a href=\"https://github.com/tuyenvm/OpenKey/blob/master/CHANGELOG.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Changelog</a></p>",
+    "truncated": false,
+    "chars": 2909
+   }
+  },
+  "headings": 13,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:27.195Z",
+  "checked_at": "2026-11-16T05:09:27.195Z"
+ },
+ "details_checked_at": "2026-11-16T05:07:14.364Z",
+ "contributors": null
+}

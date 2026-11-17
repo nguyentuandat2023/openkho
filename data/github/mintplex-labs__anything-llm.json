@@ -1,0 +1,116 @@
+{
+ "id": "Mintplex-Labs/anything-llm",
+ "github_id": 649170660,
+ "node_id": "R_kgDOJrGO5A",
+ "full_name": "Mintplex-Labs/anything-llm",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.074Z",
+ "meta": {
+  "name": "anything-llm",
+  "owner": "Mintplex-Labs",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/134426827?v=4",
+  "description": "Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience ",
+  "homepage": "https://anythingllm.com",
+  "html_url": "https://github.com/Mintplex-Labs/anything-llm",
+  "default_branch": "master",
+  "language": "JavaScript",
+  "languages": null,
+  "topics": [
+   "agent-computer",
+   "agent-harness",
+   "agent-orchestration",
+   "agentic-ai",
+   "agentic-workflow",
+   "ai-agents",
+   "computer-use",
+   "hermes-agent",
+   "llm",
+   "local-ai",
+   "localai",
+   "multimodal",
+   "rag",
+   "self-hosted-ai",
+   "vector-database"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 68349,
+  "forks": 7722,
+  "watchers": null,
+  "open_issues": 352,
+  "open_prs": null,
+  "created_at": "2023-06-04T02:29:14Z",
+  "pushed_at": "2026-11-17T01:46:51Z",
+  "updated_at": "2026-11-17T02:02:57Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 95923,
+  "og_image": "https://opengraph.githubassets.com/1/Mintplex-Labs/anything-llm",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T01:44:11.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.19.0",
+  "name": "AnythingLLM v1.19.0",
+  "published_at": "2026-10-26T16:14:51Z",
+  "url": "https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 25662,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "f95rGD9trL0",
+    "url": "https://www.youtube.com/watch?v=f95rGD9trL0"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Self-Hosting",
+    "html": "<p>Mintplex Labs &amp; the community maintain a number of deployment methods, scripts, and templates that you can use to run AnythingLLM locally. Refer to the table below to read how to deploy on your preferred environment or to automatically deploy.</p>\n<table>\n<thead>\n<tr>\n<th>Docker</th>\n<th>AWS</th>\n<th>GCP</th>\n<th>Digital Ocean</th>\n<th>Render.com</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><a href=\"https://github.com/Mintplex-Labs/anything-llm/blob/master/docker/HOW_TO_USE_DOCKER.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/images/deployBtns/docker.png\" alt=\"Deploy on Docker\" loading=\"lazy\" decoding=\"async\" /></a></td>\n<td><a href=\"https://github.com/Mintplex-Labs/anything-llm/blob/master/cloud-deployments/aws/cloudformation/DEPLOY.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/master/images/deployBtns/aws.png\" alt=\"Deploy on AWS\" loading=\"lazy\" decoding=\"async\" /></a></td>\n<td><a href=\"https://github.com/Mintplex-Labs/anything-llm/blob/master/cloud-deployments/gcp/deployment/DEPLOY.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://deploy.cloud.run/button.svg\" alt=\"Deploy on GCP\" loading=\"lazy\" decoding=\"async\" /></a></td>\n<td><a href=\"https://github.com/Mintplex-Labs/anything-llm/blob/master/cloud-deployments/digitalocean/terraform/DEPLOY.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://www.deploytodo.com/do-btn-blue.svg\" alt=\"Deploy on DigitalOcean\" loading=\"lazy\" decoding=\"async\" /></a></td>\n<td><a href=\"https://render.com/deploy?repo=https://github.com/Mintplex-Labs/anything-llm&amp;branch=render\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy on Render.com\" loading=\"lazy\" decoding=\"async\" /></a></td>\n</tr>\n</tbody></table>\n<table>\n<thead>\n<tr>\n<th>Railway</th>\n<th>RepoCloud</th>\n<th>Elestio</th>\n<th>Northflank</th>\n<th>Sealos</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><a href=\"https://railway.app/template/HNSCS1?referralCode=WFgJkn\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://railway.app/button.svg\" alt=\"Deploy on Railway\" loading=\"lazy\" decoding=\"async\" /></a></td>\n<td><a href=\"https://repocloud.io/details/?app_id=276\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://d16t0pc4846x52.cloudfront.net/deploylobe.svg\" alt=\"Deploy on RepoCloud\" loading=\"lazy\" decoding=\"async\" /></a></td>\n<td><a href=\"https://elest.io/open-source/anythingllm\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://elest.io/images/logos/deploy-to-elestio-btn.png\" alt=\"Deploy on Elestio\" loading=\"lazy\" decoding=\"async\" /></a></td>\n<td><a href=\"https://northflank.com/stacks/deploy-anythingllm\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://assets.northflank.com/deploy_to_northflank_smm_36700fb050.svg\" alt=\"Deploy on Northflank\" loading=\"lazy\" decoding=\"async\" /></a></td>\n<td><a href=\"https://sealos.io/products/app-store/anything-llm\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://sealos.io/Deploy-on-Sealos.svg\" alt=\"Deploy on Sealos\" loading=\"lazy\" decoding=\"async\" /></a></td>\n</tr>\n</tbody></table>\n<table>\n<thead>\n<tr>\n<th>Easypanel</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><a href=\"https://easypanel.io/templates/anythingllm\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://easypanel.io/img/deploy-on-easypanel-40.svg\" alt=\"Deploy on Easypanel\" loading=\"lazy\" decoding=\"async\" /></a></td>\n</tr>\n</tbody></table>\n<p><a href=\"https://github.com/Mintplex-Labs/anything-llm/blob/master/BARE_METAL.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">or set up a production AnythingLLM instance without Docker →</a></p>",
+    "truncated": false,
+    "chars": 1744
+   },
+   "usage": null,
+   "features": {
+    "title": "Cool Features of AnythingLLM",
+    "html": "<ul>\n<li><a href=\"https://github.com/Mintplex-Labs/anything-llm/blob/master/docker/HOW_TO_USE_DOCKER.md#built-in-llm-engine-optional\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Built-in local LLM engine</a> - Run local models on your CPU or GPU (NVIDIA via CUDA, AMD and Intel via Vulkan) with no extra setup, powered by <a href=\"https://lemonade-server.ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Lemonade</a> and <a href=\"https://github.com/ggml-org/llama.cpp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">llama.cpp</a>.</li>\n<li><a href=\"https://docs.anythingllm.com/model-router/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Dynamic Model Routing</a> - Automatically route chats to the best provider &amp; model for the conversation based on rules you define.</li>\n<li><a href=\"https://docs.anythingllm.com/features/memories\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Automatic &amp; User Managed Memories</a> - Have your LLM remember important information about you or your workspace.</li>\n<li><a href=\"https://docs.anythingllm.com/scheduled-jobs/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Scheduled Tasks</a> - Run recurring tasks or prompts on a cron schedule with full agent capabilities.</li>\n<li><a href=\"https://docs.anythingllm.com/agent/intelligent-tool-selection\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Intelligent Skill Selection</a> Enable <strong>unlimited</strong> tools for your models while reducing token usage by up to 80% per query</li>\n<li><a href=\"https://docs.anythingllm.com/agent-flows/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">No-code AI Agent builder</a></li>\n<li><a href=\"https://docs.anythingllm.com/mcp-compatibility/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MCP-compatibility</a></li>\n<li><a href=\"https://docs.anythingllm.com/features/language-models\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Multi-modal support (both closed and open-source LLMs!)</a></li>\n<li><a href=\"https://docs.anythingllm.com/agent/custom/introduction\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Custom AI Agents</a></li>\n<li>👤 Multi-user instance support and permissioning <em>Docker version only</em></li>\n<li>🎨 <a href=\"https://docs.anythingllm.com/features/branding\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Custom color themes &amp; white-labeling</a> - Pick a built-in palette like True Dark or create your own from your brand colors, and set it for everyone on your instance. <em>Docker version only</em></li>\n<li>🦾 Agents inside your workspace (browse the web, etc)</li>\n<li>💬 <a href=\"https://github.com/Mintplex-Labs/anythingllm-embed/blob/main/README.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Custom Embeddable Chat widget for your website</a> <em>Docker version only</em></li>\n<li>📖 Multiple document type support (PDF, TXT, DOCX, etc)</li>\n<li>Intuitive chat UI with drag-and-drop uploads and source citations.</li>\n<li>Production-ready for any cloud deployment.</li>\n<li>Works with all popular <a href=\"https://github.com/Mintplex-Labs/anything-llm#supported-llms-embedder-models-speech-models-and-vector-databases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">closed and open-source LLM providers</a>.</li>\n<li>Built-in optimizations for large document sets—lower costs and faster responses than other chat UIs.</li>\n<li>Full Developer API for custom integrations!</li>\n<li>...and much more—install in minutes and see for yourself.</li>\n</ul>\n<h5>Supported LLMs, Embedder Models, Speech models, and Vector Databases</h5>\n<p><strong>Large Language Models (LLMs):</strong></p>\n<ul>\n<li><a href=\"https://github.com/Mintplex-Labs/anything-llm/blob/master/server/storage/models/README.md#text-generation-llm-selection\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Any open-source llama.cpp compatible model</a></li>\n<li><a href=\"https://openai.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">OpenAI</a></li>\n<li><a href=\"https://openai.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">OpenAI (Generic)</a></li>\n<li><a href=\"https://azure.microsoft.com/en-us/products/ai-services/openai-service\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Azure OpenAI</a></li>\n<li><a href=\"https://aws.amazon.com/bedrock/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AWS Bedrock</a></li>\n<li><a href=\"https://www.anthropic.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Anthropic</a></li>\n<li><a href=\"https://build.nvidia.com/explore/discover\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">NVIDIA NIM (chat models)</a></li>\n<li><a href=\"https://ai.google.dev/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Google Gemini Pro</a></li>\n<li><a href=\"https://ollama.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Ollama (chat models)</a></li>\n<li><a href=\"https://lmstudio.ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LM Studio (all models)</a></li>\n<li><a href=\"https://localai.io/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LocalAI (all models)</a></li>\n<li><a href=\"https://www.together.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Together AI (chat models)</a></li>\n<li><a href=\"https://fireworks.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Fireworks AI (chat models)</a></li>\n<li><a href=\"https://www.perplexity.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Perplexity (chat models)</a></li>\n<li><a href=\"https://openrouter.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">OpenRouter (chat models)</a></li>\n<li><a href=\"https://deepseek.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">DeepSeek (chat models)</a></li>\n<li><a href=\"https://mistral.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Mistral</a></li>\n<li><a href=\"https://groq.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Groq</a></li>\n<li><a href=\"https://cohere.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Cohere</a></li>\n<li><a href=\"https://github.com/LostRuins/koboldcpp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">KoboldCPP</a></li>\n<li><a href=\"https://github.com/BerriAI/litellm\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LiteLLM</a></li>\n<li><a href=\"https://github.com/oobabooga/text-generation-webui\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Text Generation Web UI</a></li>\n<li><a href=\"https://apipie.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Apipie</a></li>\n<li><a href=\"https://x.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">xAI</a></li>\n<li><a href=\"https://z.ai/model-api\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Z.AI (chat models)</a></li>\n<li><a href=\"https://novita.ai/model-api/product/llm-api?utm_source=github_anything-llm&amp;utm_medium=github_readme&amp;utm_campaign=link\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Novita AI (chat models)</a></li>\n<li><a href=\"https://ppinfra.com?utm_source=github_anything-llm\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PPIO</a></li>\n<li><a href=\"https://ai.gitee.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Gitee AI</a></li>\n<li><a href=\"https://www.moonshot.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Moonshot AI</a></li>\n<li><a href=\"https://github.com/microsoft/Foundry-Local\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Microsoft Foundry Local</a></li>\n<li><a href=\"https://www.cometapi.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CometAPI (chat models)</a></li>\n<li><a href=\"https://github.com/llmmanorg/llmman\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">llmman</a></li>\n<li><a href=\"https://privatemode.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PrivateModeAI (chat models)</a></li>\n<li><a href=\"https://cloud.sambanova.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SambaNova Cloud (chat models)</a></li>\n<li><a href=\"https://lemonade-server.ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Lemonade by AMD</a></li>\n<li><a href=\"https://platform.minimax.io\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Minimax</a></li>\n<li><a href=\"https://www.cerebras.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Cerebras (chat models)</a></li>\n<li><a href=\"https://github.com/jundot/omlx\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">oMLX</a></li>\n</ul>\n<p><strong>Embedder models:</strong></p>\n<ul>\n<li><a href=\"https://github.com/Mintplex-Labs/anything-llm/blob/master/server/storage/models/README.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AnythingLLM Native Embedder</a> (default)</li>\n<li><a href=\"https://openai.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">OpenAI</a></li>\n<li><a href=\"https://azure.microsoft.com/en-us/products/ai-services/openai-service\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Azure OpenAI</a></li>\n<li><a href=\"https://ai.google.dev/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Gemini</a></li>\n<li><a href=\"https://localai.io/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LocalAI (all)</a></li>\n<li><a href=\"https://ollama.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Ollama (all)</a></li>\n<li><a href=\"https://lmstudio.ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LM Studio (all)</a></li>\n<li><a href=\"https://lemonade-server.ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Lemonade</a></li>\n<li><a href=\"https://openrouter.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">OpenRouter</a></li>\n<li><a href=\"https://github.com/BerriAI/litellm\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LiteLLM</a></li>\n<li><a href=\"https://cohere.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Cohere</a></li>\n<li><a href=\"https://www.voyageai.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Voyage AI</a></li>\n<li><a href=\"https://mistral.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Mistral</a></li>\n<li>Generic OpenAI-compatible embedding APIs</li>\n</ul>\n<p><strong>Audio Transcription models:</strong></p>\n<ul>\n<li><a href=\"https://github.com/Mintplex-Labs/anything-llm/tree/master/server/storage/models#audiovideo-transcription\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AnythingLLM Built-in</a> (default)</li>\n<li><a href=\"https://openai.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">OpenAI</a></li>\n</ul>\n<p><strong>TTS (text-to-speech) support:</strong></p>\n<ul>\n<li>Native Browser Built-in (default)</li>\n<li><a href=\"https://github.com/rhasspy/piper\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PiperTTSLocal - runs in browser</a></li>\n<li><a href=\"https://platform.openai.com/docs/guides/text-to-speech#voice-options\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">OpenAI TTS</a></li>\n<li><a href=\"https://elevenlabs.io/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ElevenLabs</a></li>\n<li>Any OpenAI Compatible TTS service.</li>\n</ul>\n<p><strong>STT (speech-to-text) support:</strong></p>\n<ul>\n<li>Native Browser Built-in (default)</li>\n</ul>\n<p><strong>Vector Databases:</strong></p>\n<ul>\n<li><a href=\"https://github.com/lancedb/lancedb\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LanceDB</a> (default)</li>\n<li><a href=\"https://github.com/pgvector/pgvector\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PGVector</a></li>\n<li><a href=\"https://www.datastax.com/products/datastax-astra\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Astra DB</a></li>\n<li><a href=\"https://pinecone.io\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Pinecone</a></li>\n<li><a href=\"https://trychroma.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Chroma &amp; ChromaCloud</a></li>\n<li><a href=\"https://weaviate.io\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Weaviate</a></li>\n<li><a href=\"https://qdrant.tech\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Qdrant</a></li>\n<li><a href=\"https://milvus.io\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Milvus</a></li>\n<li><a href=\"https://zilliz.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Zilliz</a></li>\n</ul>\n<h5>Technical Overview</h5>\n<p>This monorepo consists of six main sections:</p>\n<ul>\n<li><code>frontend</code>: A viteJS + React frontend that you can run to easily create and manage all your content the LLM can use.</li>\n<li><code>server</code>: A NodeJS express server to handle all the interactions and do all the vectorDB management and LLM interactions.</li>\n<li><code>collector</code>: NodeJS express server that processes and parses documents from the UI.</li>\n<li><code>docker</code>: Docker instructions and build process + information for building from source.</li>\n<li><code>embed</code>: Submodule for generation &amp; creation of the <a href=\"https://github.com/Mintplex-Labs/anythingllm-embed\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">web embed widget</a>.</li>\n<li><code>browser-extension</code>: Submodule for the <a href=\"https://github.com/Mintplex-Labs/anythingllm-extension\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">chrome browser extension</a>.</li>\n</ul>",
+    "truncated": false,
+    "chars": 6884
+   }
+  },
+  "headings": 16,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:32.599Z",
+  "checked_at": "2026-11-17T02:19:32.599Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:32.599Z"
+}

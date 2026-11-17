@@ -1,0 +1,116 @@
+{
+ "id": "AUTOMATIC1111/stable-diffusion-webui",
+ "github_id": 527591471,
+ "node_id": "R_kgDOH3JoLw",
+ "full_name": "AUTOMATIC1111/stable-diffusion-webui",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.073Z",
+ "meta": {
+  "name": "stable-diffusion-webui",
+  "owner": "AUTOMATIC1111",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/20920490?v=4",
+  "description": "Stable Diffusion web UI",
+  "homepage": null,
+  "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "default_branch": "master",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "ai",
+   "ai-art",
+   "deep-learning",
+   "diffusion",
+   "gradio",
+   "image-generation",
+   "image2image",
+   "img2img",
+   "pytorch",
+   "stable-diffusion",
+   "text2image",
+   "torch",
+   "txt2img",
+   "unstable",
+   "upscaling",
+   "web"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 165322,
+  "forks": 31113,
+  "watchers": null,
+  "open_issues": 2512,
+  "open_prs": null,
+  "created_at": "2022-08-22T14:05:26Z",
+  "pushed_at": "2026-03-02T07:00:53Z",
+  "updated_at": "2026-11-17T02:02:02Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 36552,
+  "og_image": "https://opengraph.githubassets.com/1/AUTOMATIC1111/stable-diffusion-webui",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2024-07-27T12:49:39.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.10.1",
+  "name": "1.10.1",
+  "published_at": "2025-02-09T08:00:10Z",
+  "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.10.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 12924,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation and Running",
+    "html": "<p>Make sure the required <a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Dependencies\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">dependencies</a> are met and follow the instructions available for:</p>\n<ul>\n<li><a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">NVidia</a> (recommended)</li>\n<li><a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-AMD-GPUs\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AMD</a> GPUs.</li>\n<li><a href=\"https://github.com/openvinotoolkit/stable-diffusion-webui/wiki/Installation-on-Intel-Silicon\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Intel CPUs, Intel GPUs (both integrated and discrete)</a> (external wiki page)</li>\n<li><a href=\"https://github.com/wangshuai09/stable-diffusion-webui/wiki/Install-and-run-on-Ascend-NPUs\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Ascend NPUs</a> (external wiki page)</li>\n</ul>\n<p>Alternatively, use online services (like Google Colab):</p>\n<ul>\n<li><a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Online-Services\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">List of Online Services</a></li>\n</ul>\n<h5>Installation on Windows 10/11 with NVidia-GPUs using release package</h5>\n<ol>\n<li>Download <code>sd.webui.zip</code> from <a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.0.0-pre\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">v1.0.0-pre</a> and extract its contents.</li>\n<li>Run <code>update.bat</code>.</li>\n<li>Run <code>run.bat</code>.</li>\n</ol>\n<blockquote>\n<p>For more details see <a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Install-and-Run-on-NVidia-GPUs</a></p>\n</blockquote>\n<h5>Automatic Installation on Windows</h5>\n<ol>\n<li>Install <a href=\"https://www.python.org/downloads/release/python-3106/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Python 3.10.6</a> (Newer version of Python does not support torch), checking \"Add Python to PATH\".</li>\n<li>Install <a href=\"https://git-scm.com/download/win\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">git</a>.</li>\n<li>Download the stable-diffusion-webui repository, for example by running <code>git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui.git</code>.</li>\n<li>Run <code>webui-user.bat</code> from Windows Explorer as normal, non-administrator, user.</li>\n</ol>\n<h5>Automatic Installation on Linux</h5>\n<ol>\n<li>Install the dependencies:</li>\n</ol>\n<pre><code class=\"language-bash\"># Debian-based:\nsudo apt install wget git python3 python3-venv libgl1 libglib2.0-0\n# Red Hat-based:\nsudo dnf install wget git python3 gperftools-libs libglvnd-glx\n# openSUSE-based:\nsudo zypper install wget git python3 libtcmalloc4 libglvnd\n# Arch-based:\nsudo pacman -S wget git python3\n</code></pre>\n<p>If your system is very new, you need to install python3.11 or python3.10:</p>\n<pre><code class=\"language-bash\"># Ubuntu 24.04\nsudo add-apt-repository ppa:deadsnakes/ppa\nsudo apt update\nsudo apt install python3.11\n\n# Manjaro/Arch\nsudo pacman -S yay\nyay -S python311 # do not confuse with python3.11 package\n\n# Only for 3.11\n# Then set up env variable in launch script\nexport python_cmd=\"python3.11\"\n# or in webui-user.sh\npython_cmd=\"python3.11\"\n</code></pre>\n<ol start=\"2\">\n<li>Navigate to the directory you would like the webui to be installed and execute the following command:</li>\n</ol>\n<pre><code class=\"language-bash\">wget -q https://raw.githubusercontent.com/AUTOMATIC1111/stable-diffusion-webui/master/webui.sh\n</code></pre>\n<p>Or just clone the repo wherever you want:</p>\n<pre><code class=\"language-bash\">git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui\n</code></pre>\n<ol start=\"3\">\n<li>Run <code>webui.sh</code>.</li>\n<li>Check <code>webui-user.sh</code> for options.</li>\n</ol>\n<h5>Installation on Apple Silicon</h5>\n<p>Find the instructions <a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Installation-on-Apple-Silicon\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>.</p>",
+    "truncated": false,
+    "chars": 3079
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<p><a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Detailed feature showcase with images</a>:</p>\n<ul>\n<li>Original txt2img and img2img modes</li>\n<li>One click install and run script (but you still must install python and git)</li>\n<li>Outpainting</li>\n<li>Inpainting</li>\n<li>Color Sketch</li>\n<li>Prompt Matrix</li>\n<li>Stable Diffusion Upscale</li>\n<li>Attention, specify parts of text that the model should pay more attention to<ul>\n<li>a man in a <code>((tuxedo))</code> - will pay more attention to tuxedo</li>\n<li>a man in a <code>(tuxedo:1.21)</code> - alternative syntax</li>\n<li>select text and press <code>Ctrl+Up</code> or <code>Ctrl+Down</code> (or <code>Command+Up</code> or <code>Command+Down</code> if you're on a MacOS) to automatically adjust attention to selected text (code contributed by anonymous user)</li>\n</ul>\n</li>\n<li>Loopback, run img2img processing multiple times</li>\n<li>X/Y/Z plot, a way to draw a 3 dimensional plot of images with different parameters</li>\n<li>Textual Inversion<ul>\n<li>have as many embeddings as you want and use any names you like for them</li>\n<li>use multiple embeddings with different numbers of vectors per token</li>\n<li>works with half precision floating point numbers</li>\n<li>train embeddings on 8GB (also reports of 6GB working)</li>\n</ul>\n</li>\n<li>Extras tab with:<ul>\n<li>GFPGAN, neural network that fixes faces</li>\n<li>CodeFormer, face restoration tool as an alternative to GFPGAN</li>\n<li>RealESRGAN, neural network upscaler</li>\n<li>ESRGAN, neural network upscaler with a lot of third party models</li>\n<li>SwinIR and Swin2SR (<a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/2092\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">see here</a>), neural network upscalers</li>\n<li>LDSR, Latent diffusion super resolution upscaling</li>\n</ul>\n</li>\n<li>Resizing aspect ratio options</li>\n<li>Sampling method selection<ul>\n<li>Adjust sampler eta values (noise multiplier)</li>\n<li>More advanced noise setting options</li>\n</ul>\n</li>\n<li>Interrupt processing at any time</li>\n<li>4GB video card support (also reports of 2GB working)</li>\n<li>Correct seeds for batches</li>\n<li>Live prompt token length validation</li>\n<li>Generation parameters<ul>\n<li>parameters you used to generate images are saved with that image</li>\n<li>in PNG chunks for PNG, in EXIF for JPEG</li>\n<li>can drag the image to PNG info tab to restore generation parameters and automatically copy them into UI</li>\n<li>can be disabled in settings</li>\n<li>drag and drop an image/text-parameters to promptbox</li>\n</ul>\n</li>\n<li>Read Generation Parameters Button, loads parameters in promptbox to UI</li>\n<li>Settings page</li>\n<li>Running arbitrary python code from UI (must run with <code>--allow-code</code> to enable)</li>\n<li>Mouseover hints for most UI elements</li>\n<li>Possible to change defaults/mix/max/step values for UI elements via text config</li>\n<li>Tiling support, a checkbox to create images that can be tiled like textures</li>\n<li>Progress bar and live image generation preview<ul>\n<li>Can use a separate neural network to produce previews with almost none VRAM or compute requirement</li>\n</ul>\n</li>\n<li>Negative prompt, an extra text field that allows you to list what you don't want to see in generated image</li>\n<li>Styles, a way to save part of prompt and easily apply them via dropdown later</li>\n<li>Variations, a way to generate same image but with tiny differences</li>\n<li>Seed resizing, a way to generate same image but at slightly different resolution</li>\n<li>CLIP interrogator, a button that tries to guess prompt from an image</li>\n<li>Prompt Editing, a way to change prompt mid-generation, say to start making a watermelon and switch to anime girl midway</li>\n<li>Batch Processing, process a group of files using img2img</li>\n<li>Img2img Alternative, reverse Euler method of cross attention control</li>\n<li>Highres Fix, a convenience option to produce high resolution pictures in one click without usual distortions</li>\n<li>Reloading checkpoints on the fly</li>\n<li>Checkpoint Merger, a tab that allows you to merge up to 3 checkpoints into one</li>\n<li><a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Custom-Scripts\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Custom scripts</a> with many extensions from community</li>\n<li><a href=\"https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Composable-Diffusion</a>, a way to use multiple prompts at once<ul>\n<li>separate prompts using uppercase <code>AND</code></li>\n<li>also supports weights for prompts: <code>a cat :1.2 AND a dog AND a penguin :2.2</code></li>\n</ul>\n</li>\n<li>No token limit for prompts (original stable diffusion lets you use up to 75 tokens)</li>\n<li>DeepDanbooru integration, creates danbooru style tags for anime prompts</li>\n<li><a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Xformers\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">xformers</a>, major speed increase for select cards: (add <code>--xformers</code> to commandline args)</li>\n<li>via extension: <a href=\"https://github.com/yfszzx/stable-diffusion-webui-images-browser\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">History tab</a>: view, direct and delete images conveniently within the UI</li>\n<li>Generate forever option</li>\n<li>Training tab<ul>\n<li>hypernetworks and embeddings options</li>\n<li>Preprocessing images: cropping, mirroring, autotagging using BLIP or deepdanbooru (for anime)</li>\n</ul>\n</li>\n<li>Clip skip</li>\n<li>Hypernetworks</li>\n<li>Loras (same as Hypernetworks but more pretty)</li>\n<li>A separate UI where you can choose, with preview, which embeddings, hypernetworks or Loras to add to your prompt</li>\n<li>Can select to load a different VAE from settings screen</li>\n<li>Estimated completion time in progress bar</li>\n<li>API</li>\n<li>Support for dedicated <a href=\"https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">inpainting model</a> by RunwayML</li>\n<li>via extension: <a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Aesthetic Gradients</a>, a way to generate images with a specific aesthetic by using clip images embeds (implementation of <a href=\"https://github.com/vicgalle/stable-diffusion-aesthetic-gradients\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://github.com/vicgalle/stable-diffusion-aesthetic-gradients</a>)</li>\n<li><a href=\"https://github.com/Stability-AI/stablediffusion\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Stable Diffusion 2.0</a> support - see <a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#stable-diffusion-20\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">wiki</a> for instructions</li>\n<li><a href=\"https://arxiv.org/abs/2211.06679\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Alt-Diffusion</a> support - see <a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Features#alt-diffusion\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">wiki</a> for instructions</li>\n<li>Now without any bad letters!</li>\n<li>Load checkpoints in safetensors format</li>\n<li>Eased resolution restriction: generated image's dimensions must be a multiple of 8 rather than 64</li>\n<li>Now with a license!</li>\n<li>Reorder elements in the UI from settings screen</li>\n<li><a href=\"https://huggingface.co/segmind/SSD-1B\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Segmind Stable Diffusion</a> support</li>\n</ul>",
+    "truncated": false,
+    "chars": 6211
+   }
+  },
+  "headings": 10,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:07:59.681Z",
+  "checked_at": "2026-11-16T05:07:59.681Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:17.093Z",
+ "contributors": {
+  "count": 639,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T02:20:54.084Z"
+ }
+}

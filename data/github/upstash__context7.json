@@ -1,0 +1,110 @@
+{
+ "id": "upstash/context7",
+ "github_id": 955620917,
+ "node_id": "R_kgDOOPWeNQ",
+ "full_name": "upstash/context7",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:56.641Z",
+ "meta": {
+  "name": "context7",
+  "owner": "upstash",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/74989412?v=4",
+  "description": "Context7 Platform -- Up-to-date docs for AI agents",
+  "homepage": "https://context7.com",
+  "html_url": "https://github.com/upstash/context7",
+  "default_branch": "master",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "llm",
+   "mcp",
+   "mcp-server",
+   "vibe-coding"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 64940,
+  "forks": 3263,
+  "watchers": null,
+  "open_issues": 54,
+  "open_prs": null,
+  "created_at": "2025-03-26T23:40:39Z",
+  "pushed_at": "2026-11-16T16:42:40Z",
+  "updated_at": "2026-11-17T01:36:30Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 50787,
+  "og_image": "https://opengraph.githubassets.com/1/upstash/context7",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T16:30:56.000Z",
+  "commits_90d": 391,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "ctx7@0.12.1",
+  "name": "ctx7@0.12.1",
+  "published_at": "2026-11-16T16:31:48Z",
+  "url": "https://github.com/upstash/context7/releases/tag/ctx7%400.12.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 12856,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "52FC3qObp9E",
+    "url": "https://www.youtube.com/watch?v=52FC3qObp9E"
+   },
+   {
+    "type": "youtube",
+    "id": "G7gK8H6u7Rs",
+    "url": "https://www.youtube.com/watch?v=G7gK8H6u7Rs"
+   },
+   {
+    "type": "youtube",
+    "id": "-ggvzyLpK6o",
+    "url": "https://www.youtube.com/watch?v=-ggvzyLpK6o"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<blockquote>\n<p>[!NOTE]\n<strong>API Key Recommended</strong>: Get a free API key at <a href=\"https://context7.com/dashboard?tab=settings\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">context7.com/dashboard</a> for higher rate limits.</p>\n</blockquote>\n<p>Set up Context7 for your coding agents with a single command. The <code>ctx7</code> CLI requires Node.js 22.13 or newer.</p>\n<pre><code class=\"language-bash\">npx ctx7 setup\n</code></pre>\n<p>Authenticates via OAuth, generates an API key, and installs the appropriate skill. You can choose between CLI + Skills or MCP mode. Use <code>--cursor</code>, <code>--claude</code>, or <code>--opencode</code> to target a specific agent.</p>\n<p>To remove the generated setup later, run <code>npx ctx7 remove</code>. If you globally installed the CLI with <code>npm install -g ctx7</code>, remove that package separately with <code>npm uninstall -g ctx7</code>.</p>\n<p>To configure manually, use the Context7 server URL <code>https://mcp.context7.com/mcp</code> with your MCP client and pass your API key via the <code>Authorization: Bearer YOUR_API_KEY</code> header. See the link below for client-specific setup instructions.</p>\n<p><strong><a href=\"https://context7.com/docs/resources/all-clients\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Manual Installation / Other Clients →</a></strong></p>",
+    "truncated": false,
+    "chars": 1016
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 17,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:19.311Z",
+  "checked_at": "2026-11-17T02:20:19.311Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:19.311Z"
+}

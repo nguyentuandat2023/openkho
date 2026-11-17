@@ -1,0 +1,140 @@
+{
+ "id": "debpalash/VoiceStudio",
+ "github_id": 1206390571,
+ "node_id": "R_kgDOR-gPKw",
+ "full_name": "debpalash/VoiceStudio",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "VoiceStudio",
+  "owner": "debpalash",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/4178343?v=4",
+  "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+  "homepage": "https://voicestudio.sh",
+  "html_url": "https://github.com/debpalash/VoiceStudio",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "ai",
+   "audiobook",
+   "cuda",
+   "dubbing",
+   "elevenlabs-alternative",
+   "huggingface",
+   "local-first",
+   "mlx",
+   "omnivoice-studio",
+   "speech-to-text",
+   "text-to-speech",
+   "transcription",
+   "translate",
+   "tts",
+   "voice-ai",
+   "voice-cloning",
+   "voice-generation",
+   "voicestudio",
+   "workflow"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 111979,
+  "forks": 12428,
+  "watchers": null,
+  "open_issues": 31,
+  "open_prs": null,
+  "created_at": "2026-04-09T21:40:26Z",
+  "pushed_at": "2026-11-16T22:05:43Z",
+  "updated_at": "2026-11-17T02:17:54Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 214620,
+  "og_image": "https://opengraph.githubassets.com/1/debpalash/VoiceStudio",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T22:05:25.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.5.8",
+  "name": "v0.5.8 — VoiceStudio",
+  "published_at": "2026-11-12T09:19:38Z",
+  "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.8",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v0.5.9-beta.5",
+  "name": "v0.5.9-beta.5 — VoiceStudio",
+  "published_at": "2026-11-16T15:26:22Z",
+  "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.5"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 31207,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "I-u-A-oisIU",
+    "url": "https://www.youtube.com/watch?v=I-u-A-oisIU"
+   },
+   {
+    "type": "youtube",
+    "id": "hsLRbXLBP4U",
+    "url": "https://www.youtube.com/watch?v=hsLRbXLBP4U"
+   },
+   {
+    "type": "youtube",
+    "id": "2KemGhEI0Ck",
+    "url": "https://www.youtube.com/watch?v=2KemGhEI0Ck"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Get started",
+    "html": "<p>Install using the options above. Then open <strong>Voice cloning</strong>, pick a voice or add a clean reference recording, type your text and generate. The app asks before it downloads any model.</p>\n<details>\n<summary><strong>More install options</strong>: a specific version, current main, uninstall, from source, with a coding agent</summary><pre><code class=\"language-sh\">curl -fsSL https://voicestudio.sh/install | sh -s -- --version X.Y.Z   # a specific release\ncurl -fsSL https://voicestudio.sh/install | sh -s -- --main            # build current main\ncurl -fsSL https://voicestudio.sh/install | sh -s -- --uninstall       # remove the app, keep your data\n</code></pre>\n<p>If <code>voicestudio.sh</code> is unreachable, run the script straight from the repository:\n<code>curl -fsSL https://raw.githubusercontent.com/debpalash/VoiceStudio/main/scripts/install.sh | sh</code>.\nPrerequisites and behavior: <a href=\"https://github.com/debpalash/VoiceStudio/blob/main/docs/install/script.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">installer guide</a>.</p>\n<p><strong>From source</strong></p>\n<pre><code class=\"language-bash\">git clone https://github.com/debpalash/VoiceStudio.git\ncd VoiceStudio\nbun run dev\n</code></pre>\n<p><code>bun run dev</code> installs the JavaScript dependencies and, when using a supported\nlocal backend, the Python dependencies before launching Electron. Run\n<code>bun run setup:api</code> directly when you only need to rebuild the Python environment.</p>\n<p>See <a href=\"https://github.com/debpalash/VoiceStudio/blob/main/electron/README.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Electron setup</a>.</p>\n<p><strong>With a coding agent</strong> (Claude Code, Codex, Cursor, …), paste:</p>\n<pre><code class=\"language-text\">Install the VoiceStudio app on this device and verify it works, following\nhttps://github.com/debpalash/VoiceStudio/blob/main/docs/install/agent.md\n</code></pre>\n<p>Upgrading from 0.5.3 or older (the Tauri app)? <a href=\"https://github.com/debpalash/VoiceStudio/blob/main/docs/electron-migration.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Install the new app separately</a>.</p>\n</details>",
+    "truncated": false,
+    "chars": 1620
+   },
+   "usage": {
+    "title": "Community tutorials",
+    "html": "<p>\n  <a href=\"https://www.youtube.com/watch?v=I-u-A-oisIU&amp;utm_source=github&amp;utm_medium=readme&amp;utm_campaign=community_tutorials\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://i.ytimg.com/vi/I-u-A-oisIU/hqdefault.jpg\" alt=\"VoiceStudio tutorial by Nafay 3D on YouTube\" loading=\"lazy\" decoding=\"async\" width=\"30%\" /></a>\n  <a href=\"https://www.youtube.com/watch?v=hsLRbXLBP4U&amp;utm_source=github&amp;utm_medium=readme&amp;utm_campaign=community_tutorials\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://i.ytimg.com/vi/hsLRbXLBP4U/hqdefault.jpg\" alt=\"VoiceStudio tutorial by Samuel Gregory on YouTube\" loading=\"lazy\" decoding=\"async\" width=\"30%\" /></a>\n  <a href=\"https://www.youtube.com/watch?v=2KemGhEI0Ck&amp;utm_source=github&amp;utm_medium=readme&amp;utm_campaign=community_tutorials\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://i.ytimg.com/vi/2KemGhEI0Ck/hqdefault.jpg\" alt=\"VoiceStudio tutorial by kilObit on YouTube\" loading=\"lazy\" decoding=\"async\" width=\"30%\" /></a><br />\n  <sub>Nafay 3D · Samuel Gregory · kilObit</sub>\n</p><p><a href=\"https://discord.gg/bzQavDfVV9\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/assets/discord-community.svg\" alt=\"Come say hello! Join us on Discord\" loading=\"lazy\" decoding=\"async\" height=\"64\" /></a></p><p><strong>Disclaimer</strong></p>\n<p>VoiceStudio users are strictly prohibited from using it for unauthorized voice cloning, voice impersonation, fraud, scams, or any other illegal or unethical activities. All users shall ensure full compliance with applicable local laws, regulations, and ethical standards. The developers assume no liability for any misuse of VoiceStudio and advocate for responsible AI development and use, encouraging the community to uphold safety and ethical principles in AI research and applications.</p>",
+    "truncated": false,
+    "chars": 1558
+   },
+   "features": null
+  },
+  "headings": 12,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:17.627Z",
+  "checked_at": "2026-11-17T02:19:17.627Z"
+ },
+ "contributors": {
+  "count": 167,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:26.641Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:17.627Z"
+}

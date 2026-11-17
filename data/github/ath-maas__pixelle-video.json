@@ -1,0 +1,117 @@
+{
+ "id": "ATH-MaaS/Pixelle-Video",
+ "github_id": 1091534692,
+ "node_id": "R_kgDOQQ9_ZA",
+ "full_name": "ATH-MaaS/Pixelle-Video",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "Pixelle-Video",
+  "owner": "ATH-MaaS",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/172576026?v=4",
+  "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+  "homepage": "https://aidc-ai.github.io/Pixelle-Video/zh",
+  "html_url": "https://github.com/ATH-MaaS/Pixelle-Video",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "aigc",
+   "comfyui",
+   "image-generation",
+   "tts",
+   "video-generation"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 30156,
+  "forks": 4374,
+  "watchers": null,
+  "open_issues": 175,
+  "open_prs": null,
+  "created_at": "2025-11-07T06:34:27Z",
+  "pushed_at": "2026-06-14T12:40:58Z",
+  "updated_at": "2026-11-17T00:03:20Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 28868,
+  "og_image": "https://opengraph.githubassets.com/1/ATH-MaaS/Pixelle-Video",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-06-14T12:40:58.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.1.15",
+  "name": "Pixelle-Video v0.1.15 – Windows一键整合包",
+  "published_at": "2026-01-27T13:51:55Z",
+  "url": "https://github.com/ATH-MaaS/Pixelle-Video/releases/tag/v0.1.15",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README_EN.md",
+  "length": 21694,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "uUkx-lRxLjc",
+    "url": "https://www.youtube.com/watch?v=uUkx-lRxLjc"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<h5>🪟 Windows All-in-One Package (Recommended for Windows Users)</h5>\n<p><strong>No need to install Python, uv, or ffmpeg - ready to use out of the box!</strong></p>\n<p>👉 <strong><a href=\"https://github.com/AIDC-AI/Pixelle-Video/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download Windows All-in-One Package</a></strong></p>\n<ol>\n<li>Download the latest Windows All-in-One Package and extract it</li>\n<li>Double-click <code>start.bat</code> to launch the Web interface</li>\n<li>Browser will automatically open <a href=\"http://localhost:8501\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:8501</a></li>\n<li>Configure LLM API and image generation service in \"⚙️ System Configuration\"</li>\n<li>Start generating videos!</li>\n</ol>\n<blockquote>\n<p>💡 <strong>Tip</strong>: The package includes all dependencies, no need to manually install any environment. On first use, you only need to configure API keys.</p>\n</blockquote>\n<h5>Install from Source (For macOS / Linux Users or Users Who Need Customization)</h5>\n<h6>Prerequisites</h6>\n<p>Before starting, you need to install Python package manager <code>uv</code> and video processing tool <code>ffmpeg</code>:</p>\n<h6>Install uv</h6>\n<p>Please visit the uv official documentation to see the installation method for your system:<br />👉 <strong><a href=\"https://docs.astral.sh/uv/getting-started/installation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">uv Installation Guide</a></strong></p>\n<p>After installation, run <code>uv --version</code> in the terminal to verify successful installation.</p>\n<h6>Install ffmpeg</h6>\n<p><strong>macOS</strong></p>\n<pre><code class=\"language-bash\">brew install ffmpeg\n</code></pre>\n<p><strong>Ubuntu / Debian</strong></p>\n<pre><code class=\"language-bash\">sudo apt update\nsudo apt install ffmpeg\n</code></pre>\n<p><strong>Windows</strong></p>\n<ul>\n<li>Download URL: <a href=\"https://ffmpeg.org/download.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://ffmpeg.org/download.html</a></li>\n<li>After downloading, extract and add the <code>bin</code> directory to the system environment variable PATH</li>\n</ul>\n<p>After installation, run <code>ffmpeg -version</code> in the terminal to verify successful installation.</p>\n<h6>Step 1: Clone Project</h6>\n<pre><code class=\"language-bash\">git clone https://github.com/AIDC-AI/Pixelle-Video.git\ncd Pixelle-Video\n</code></pre>\n<h6>Step 2: Launch Web Interface</h6>\n<pre><code class=\"language-bash\"># Run with uv (recommended, will automatically install dependencies)\nuv run streamlit run web/app.py\n</code></pre>\n<p>Browser will automatically open <a href=\"http://localhost:8501\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:8501</a></p>\n<h6>Step 3: Configure in Web Interface</h6>\n<p>On first use, expand the \"⚙️ System Configuration\" panel and fill in:</p>\n<ul>\n<li><strong>LLM Configuration</strong>: Select AI model (such as Qwen, GPT, etc.) and enter API Key</li>\n<li><strong>ComfyUI / RunningHub Configuration</strong>: Configure local ComfyUI or RunningHub API Key if you want to use workflow-based image, video, or voice generation</li>\n<li><strong>API Media Model Configuration</strong>: Configure API Key, Base URL, and proxy options for direct image/video model providers such as DashScope, OpenAI, ARK, and Kling</li>\n</ul>\n<p>After configuration, click \"Save Configuration\", and you can start generating videos!</p>\n<div></div>",
+    "truncated": false,
+    "chars": 2524
+   },
+   "usage": {
+    "title": "Usage",
+    "html": "<p>After opening the Web interface, you will see a three-column layout. Here's a detailed explanation of each part:</p>\n<h5>⚙️ System Configuration (Required on First Use)</h5>\n<p>Configuration is required on first use. Click to expand the \"⚙️ System Configuration\" panel:</p>\n<h6>1. LLM Configuration (Large Language Model)</h6>\n<p>Used for generating video scripts.</p>\n<p><strong>Quick Select Preset</strong>  </p>\n<ul>\n<li>Select preset model from dropdown menu (Qwen, GPT-4o, DeepSeek, etc.)</li>\n<li>After selection, base_url and model will be automatically filled</li>\n<li>Click \"🔑 Get API Key\" link to register and obtain key</li>\n</ul>\n<p><strong>Manual Configuration</strong>  </p>\n<ul>\n<li>API Key: Enter your key</li>\n<li>Base URL: API address</li>\n<li>Model: Model name</li>\n</ul>\n<h6>2. ComfyUI / RunningHub Configuration</h6>\n<p>Used for generating video images, video clips, or voices through ComfyUI workflows.</p>\n<p><strong>Local Deployment (Recommended)</strong>  </p>\n<ul>\n<li>ComfyUI URL: Local ComfyUI service address (default <a href=\"http://127.0.0.1:8188\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://127.0.0.1:8188</a>)</li>\n<li>Click \"Test Connection\" to confirm service is available</li>\n</ul>\n<p><strong>Cloud Deployment</strong>  </p>\n<ul>\n<li>RunningHub API Key: Cloud image generation service key</li>\n</ul>\n<h6>3. API Media Model Configuration</h6>\n<p>Used to directly call image, video, or asset-analysis model providers without relying on ComfyUI/RunningHub.</p>\n<p><strong>Supported Providers</strong></p>\n<ul>\n<li>OpenAI / GPT Image: for GPT image generation models</li>\n<li>DashScope / Wan / HappyHorse: for Alibaba Tongyi Wan image and video generation</li>\n<li>Volcengine ARK / Seedream / Seedance: for Seedream image generation and Seedance video generation</li>\n<li>Kling AI: for Kling video generation</li>\n</ul>\n<p><strong>Configurable Items</strong></p>\n<ul>\n<li>API Key / Access Key / Secret Key: provider credentials</li>\n<li>Base URL: model service endpoint, with official defaults prefilled in WebUI</li>\n<li>Local proxy: for example <code>http://127.0.0.1:9090</code></li>\n<li>Use proxy: each provider can independently choose whether to route requests through the local proxy</li>\n<li>Print model request parameters: debug option that prints prompts, model names, and input file paths to the terminal</li>\n</ul>\n<blockquote>\n<p>💡 If you only use ComfyUI or RunningHub, you can leave API Media Model Configuration empty. If you choose an <code>api/...</code> workflow, configure the corresponding provider credentials first.</p>\n</blockquote>\n<p>After configuration, click \"Save Configuration\".</p>\n<h5>📝 Content Input (Left Column)</h5>\n<h6>Generation Mode</h6>\n<ul>\n<li><strong>AI Generated Content</strong>: Input topic, AI automatically creates script<ul>\n<li>Suitable for: Want to quickly generate video, let AI write script</li>\n<li>Example: \"Why develop a reading habit\"</li>\n</ul>\n</li>\n<li><strong>Fixed Script Content</strong>: Directly input complete script, skip AI creation<ul>\n<li>Suitable for: Already have ready-made script, directly generate video</li>\n</ul>\n</li>\n</ul>\n<h6>Background Music (BGM)</h6>\n<ul>\n<li><strong>No BGM</strong>: Pure voice narration</li>\n<li><strong>Built-in Music</strong>: Select preset background music (such as default.mp3)</li>\n<li><strong>Custom Music</strong>: Put your music files (MP3/WAV, etc.) in the <code>bgm/</code> folder</li>\n<li>Click \"Preview BGM\" to preview music</li>\n</ul>\n<h5>🎤 Voice Settings (Middle Column)</h5>\n<h6>TTS Workflow</h6>\n<ul>\n<li>Select TTS workflow from dropdown menu (supports Edge-TTS, Index-TTS, etc.)</li>\n<li>System will automatically scan TTS workflows in the <code>workflows/</code> folder</li>\n<li>If you know ComfyUI, you can customize TTS workflows</li>\n</ul>\n<h6>Reference Audio (Optional)</h6>\n<ul>\n<li>Upload reference audio file for voice cloning (supports MP3/WAV/FLAC and other formats)</li>\n<li>Suitable for TTS workflows that support voice cloning (such as Index-TTS)</li>\n<li>Can listen directly after upload</li>\n</ul>\n<h6>Preview Function</h6>\n<ul>\n<li>Enter test text, click \"Preview Voice\" to listen to the effect</li>\n<li>Supports using reference audio for preview</li>\n</ul>\n<h5>🎨 Visual Settings (Middle Column)</h5>\n<h6>Image Generation</h6>\n<p>Determine what style of images AI generates.</p>\n<p><strong>ComfyUI Workflow</strong>  </p>\n<ul>\n<li>Select image generation workflow from dropdown menu</li>\n<li>Supports local deployment (selfhost) and cloud (RunningHub) workflows</li>\n<li>Also supports <code>api/...</code> direct image model workflows after configuring the corresponding provider credentials</li>\n<li>Default uses <code>image_flux.json</code></li>\n<li>If you know ComfyUI, you can put your own workflows in the <code>workflows/</code> folder</li>\n</ul>\n<p><strong>Image Dimensions</strong>  </p>\n<ul>\n<li>Set width and height of generated images (unit: pixels)</li>\n<li>Default 1024x1024, can be adjusted as needed</li>\n<li>Note: Different models have different dimension limitations</li>\n</ul>\n<p><strong>Prompt Prefix</strong>  </p>\n<ul>\n<li>Controls overall image style (language needs to be English)</li>\n<li>Example: Minimalist black-and-white matchstick figure style illustration, clean lines, simple sketch style</li>\n<li>Click \"Preview Style\" to test effect</li>\n</ul>\n<h6>Video Template</h6>\n<p>Determines video layout and design.</p>\n<p><strong>Template Naming Convention</strong>  </p>\n<ul>\n<li><code>static_*.html</code>: Static templates (no AI-generated media, text-only styles)</li>\n<li><code>image_*.html</code>: Image templates (uses AI-generated images as background)</li>\n<li><code>video_*.html</code>: Video templates (uses AI-generated videos as background)</li>\n</ul>\n<p><strong>Usage</strong>  </p>\n<ul>\n<li>Select template from dropdown menu, displayed grouped by dimension (portrait/landscape/square)</li>\n<li>Click \"Preview Template\" to test effect with custom parameters</li>\n<li>If you know HTML, you can create your own templates in the <code>templates/</code> folder</li>\n<li>🔗 <a href=\"https://aidc-ai.github.io/Pixelle-Video/user-guide/templates/#built-in-template-preview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">View All Template Previews</a></li>\n</ul>\n<h6>API Video Generation</h6>\n<p>When using dynamic video templates or extension workflows, you can generate clips through direct API video models.</p>\n<ul>\n<li>Supports DashScope Wan / HappyHorse, Kling, Seedance and other video models</li>\n<li>Displays model-aware options such as resolution, aspect ratio, duration, watermark, and native audio</li>\n<li>Supports network/download retries and LLM-based prompt neutralization retry for content-inspection failures</li>\n<li>In the Custom Media workflow, API video segments try to follow narration audio duration and use neighboring segment information to improve continuity</li>\n</ul>\n<h5>🎬 Generate Video (Right Column)</h5>\n<h6>Generate Button</h6>\n<ul>\n<li>After configuring all parameters, click \"🎬 Generate Video\"</li>\n<li>Shows real-time progress (generating script → generating images → synthesizing voice → composing video)</li>\n<li>Automatically shows video preview after completion</li>\n</ul>\n<h6>Progress Display</h6>\n<ul>\n<li>Shows current step in real-time</li>\n<li>Example: \"Frame 3/5 - Generating Image\"</li>\n</ul>\n<h6>Video Preview</h6>\n<ul>\n<li>Automatically plays after generation</li>\n<li>Shows video duration, file size, number of frames, etc.</li>\n<li>Video files are saved in the <code>output/</code> folder</li>\n</ul>\n<h5>❓ FAQ</h5>\n<p><strong>Q: How long does it take to use for the first time?</strong><br />A: Generation time depends on the number of video frames, network conditions, and AI inference speed, typically completed within a few minutes.</p>\n<p><strong>Q: What if I'm not satisfied with the video?</strong><br />A: You can try:</p>\n<ol>\n<li>Change LLM model (different models have different script styles)</li>\n<li>Adjust image dimensions and prompt prefix (change image style)</li>\n<li>Change TTS workflow or upload reference audio (change voice effect)</li>\n<li>Try different video templates and dimensions</li>\n</ol>\n<p><strong>Q: What about the cost?</strong><br />A: <strong>This project fully supports free operation!</strong></p>\n<ul>\n<li><strong>Completely Free Solution</strong>: LLM using Ollama (local) + ComfyUI local deployment = 0 cost</li>\n<li><strong>Recommended Solution</strong>: LLM using Qwen (extremely low cost, highly cost-effective) + ComfyUI local deployment</li>\n<li><strong>Cloud Solution</strong>: LLM using OpenAI + Image using RunningHub (higher cost but no need for local environment)</li>\n</ul>\n<p><strong>Selection Suggestion</strong>: If you have a local GPU, recommend completely free solution, otherwise recommend using Qwen (cost-effective)</p>",
+    "truncated": false,
+    "chars": 7267
+   },
+   "features": {
+    "title": "Key Features",
+    "html": "<ul>\n<li>✅ <strong>Fully Automatic Generation</strong> - Input a topic, automatically generate complete video</li>\n<li>✅ <strong>AI Smart Copywriting</strong> - Intelligently create narration based on topic, no need to write scripts yourself</li>\n<li>✅ <strong>AI Generated Images</strong> - Each sentence comes with beautiful AI illustrations</li>\n<li>✅ <strong>AI Generated Videos</strong> - Support AI video generation models (like WAN 2.1) to create dynamic video content</li>\n<li>✅ <strong>Direct Model APIs</strong> - Directly call image/video generation services from DashScope, OpenAI, Seedream, Seedance, Kling, and more</li>\n<li>✅ <strong>AI Generated Voice</strong> - Support Edge-TTS, Index-TTS and many other mainstream TTS solutions</li>\n<li>✅ <strong>Background Music</strong> - Support adding BGM to make videos more atmospheric</li>\n<li>✅ <strong>Visual Styles</strong> - Multiple templates to choose from, create unique video styles</li>\n<li>✅ <strong>Flexible Dimensions</strong> - Support portrait, landscape and other video dimensions</li>\n<li>✅ <strong>Multiple AI Models</strong> - Support GPT, Qwen, DeepSeek, Ollama and more</li>\n<li>✅ <strong>Flexible Atomic Capability Combination</strong> - Supports ComfyUI / RunningHub workflows and direct API models, allowing image, video, TTS, VLM and other capabilities to be swapped as needed</li>\n</ul>",
+    "truncated": false,
+    "chars": 1145
+   }
+  },
+  "headings": 45,
+  "processor": 3,
+  "original_path": "README.md",
+  "fetched_at": "2026-11-16T04:33:52.092Z",
+  "checked_at": "2026-11-16T04:33:52.092Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:16.512Z",
+ "contributors": {
+  "count": 18,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:36.901Z"
+ }
+}

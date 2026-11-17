@@ -1,0 +1,106 @@
+{
+ "id": "dani-garcia/vaultwarden",
+ "github_id": 121898717,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxMjE4OTg3MTc=",
+ "full_name": "dani-garcia/vaultwarden",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:03.703Z",
+ "meta": {
+  "name": "vaultwarden",
+  "owner": "dani-garcia",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/725423?v=4",
+  "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+  "homepage": null,
+  "html_url": "https://github.com/dani-garcia/vaultwarden",
+  "default_branch": "main",
+  "language": "Rust",
+  "languages": null,
+  "topics": [
+   "bitwarden",
+   "bitwarden-rs",
+   "docker",
+   "rocket",
+   "rust",
+   "vaultwarden"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 70854,
+  "forks": 3470,
+  "watchers": null,
+  "open_issues": 85,
+  "open_prs": null,
+  "created_at": "2018-02-17T22:40:20Z",
+  "pushed_at": "2026-11-15T20:20:46Z",
+  "updated_at": "2026-11-17T02:02:18Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 13799,
+  "og_image": "https://opengraph.githubassets.com/1/dani-garcia/vaultwarden",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-15T20:20:46.000Z",
+  "commits_90d": 134,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "1.37.5",
+  "name": "1.37.5",
+  "published_at": "2026-11-01T22:16:50Z",
+  "url": "https://github.com/dani-garcia/vaultwarden/releases/tag/1.37.5",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 11157,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Docker/Podman CLI",
+    "html": "<p>Pull the container image and mount a volume from the host for persistent storage.<br />\nYou can replace <code>docker</code> with <code>podman</code> if you prefer to use podman.</p>\n<pre><code class=\"language-shell\">docker pull vaultwarden/server:latest\ndocker run --detach --name vaultwarden \\\n  --env DOMAIN=\"https://vw.domain.tld\" \\\n  --volume /vw-data/:/data/ \\\n  --restart unless-stopped \\\n  --publish 127.0.0.1:8000:80 \\\n  vaultwarden/server:latest\n</code></pre>\n<p>This will preserve any persistent data under <code>/vw-data/</code>, you can adapt the path to whatever suits you.</p>",
+    "truncated": false,
+    "chars": 515
+   },
+   "usage": {
+    "title": "Usage",
+    "html": "<blockquote>\n<p>[!IMPORTANT]\nThe web-vault requires the use of HTTPS and a secure context for the <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Web Crypto API</a>. <br />\nThat means it will only work if you <a href=\"https://github.com/dani-garcia/vaultwarden/wiki/Enabling-HTTPS\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">enable HTTPS</a>. <br />\nWe also suggest to use a <a href=\"https://github.com/dani-garcia/vaultwarden/wiki/Proxy-examples\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">reverse proxy</a>.</p>\n</blockquote>\n<p>The recommended way to install and use Vaultwarden is via our container images which are published to <a href=\"https://github.com/dani-garcia/vaultwarden/pkgs/container/vaultwarden\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ghcr.io</a>, <a href=\"https://hub.docker.com/r/vaultwarden/server\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docker.io</a> and <a href=\"https://quay.io/repository/vaultwarden/server\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">quay.io</a>.\nSee <a href=\"https://github.com/dani-garcia/vaultwarden/wiki/Which-container-image-to-use\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">which container image to use</a> for an explanation of the provided tags.</p>\n<p>There are also <a href=\"https://github.com/dani-garcia/vaultwarden/wiki/Third-party-packages\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">community driven packages</a> which can be used, but those might be lagging behind the latest version or might deviate in the way Vaultwarden is configured, as described in our <a href=\"https://github.com/dani-garcia/vaultwarden/wiki\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Wiki</a>.</p>\n<p>Alternatively, you can also <a href=\"https://github.com/dani-garcia/vaultwarden/wiki/Building-binary\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">build Vaultwarden</a> yourself.</p>\n<p>While Vaultwarden is based upon the <a href=\"https://rocket.rs\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Rocket web framework</a> which has built-in support for TLS our recommendation would be that you setup a reverse proxy (see <a href=\"https://github.com/dani-garcia/vaultwarden/wiki/Proxy-examples\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">proxy examples</a>).</p>\n<blockquote>\n<p>[!TIP]\n<strong>For more detailed examples on how to install, use and configure Vaultwarden you can check our <a href=\"https://github.com/dani-garcia/vaultwarden/wiki\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Wiki</a>.</strong></p>\n</blockquote>\n<h5>Docker/Podman CLI</h5>\n<p>Pull the container image and mount a volume from the host for persistent storage.<br />\nYou can replace <code>docker</code> with <code>podman</code> if you prefer to use podman.</p>\n<pre><code class=\"language-shell\">docker pull vaultwarden/server:latest\ndocker run --detach --name vaultwarden \\\n  --env DOMAIN=\"https://vw.domain.tld\" \\\n  --volume /vw-data/:/data/ \\\n  --restart unless-stopped \\\n  --publish 127.0.0.1:8000:80 \\\n  vaultwarden/server:latest\n</code></pre>\n<p>This will preserve any persistent data under <code>/vw-data/</code>, you can adapt the path to whatever suits you.</p>\n<h5>Docker Compose</h5>\n<p>To use Docker compose you need to create a <code>compose.yaml</code> which will hold the configuration to run the Vaultwarden container.</p>\n<pre><code class=\"language-yaml\">services:\n  vaultwarden:\n    image: vaultwarden/server:latest\n    container_name: vaultwarden\n    restart: unless-stopped\n    environment:\n      DOMAIN: \"https://vw.domain.tld\"\n    volumes:\n      - ./vw-data/:/data/\n    ports:\n      - 127.0.0.1:8000:80\n</code></pre>\n<br />",
+    "truncated": false,
+    "chars": 2690
+   },
+   "features": {
+    "title": "Features",
+    "html": "<p>A nearly complete implementation of the Bitwarden Client API is provided, including:</p>\n<ul>\n<li><a href=\"https://bitwarden.com/help/managing-items/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Personal Vault</a></li>\n<li><a href=\"https://bitwarden.com/help/about-send/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Send</a></li>\n<li><a href=\"https://bitwarden.com/help/attachments/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Attachments</a></li>\n<li><a href=\"https://bitwarden.com/help/website-icons/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Website icons</a></li>\n<li><a href=\"https://bitwarden.com/help/personal-api-key/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Personal API Key</a></li>\n<li><a href=\"https://bitwarden.com/help/getting-started-organizations/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Organizations</a><ul>\n<li><a href=\"https://bitwarden.com/help/about-collections/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Collections</a>,\n<a href=\"https://bitwarden.com/help/sharing/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Password Sharing</a>,\n<a href=\"https://bitwarden.com/help/user-types-access-control/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Member Roles</a>,\n<a href=\"https://bitwarden.com/help/about-groups/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Groups</a>,\n<a href=\"https://bitwarden.com/help/event-logs/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Event Logs</a>,\n<a href=\"https://bitwarden.com/help/admin-reset/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Admin Password Reset</a>,\n<a href=\"https://bitwarden.com/help/directory-sync/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Directory Connector</a>,\n<a href=\"https://bitwarden.com/help/policies/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Policies</a></li>\n</ul>\n</li>\n<li><a href=\"https://bitwarden.com/help/bitwarden-field-guide-two-step-login/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Multi/Two Factor Authentication</a><ul>\n<li><a href=\"https://bitwarden.com/help/setup-two-step-login-authenticator/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Authenticator</a>,\n<a href=\"https://bitwarden.com/help/setup-two-step-login-email/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Email</a>,\n<a href=\"https://bitwarden.com/help/setup-two-step-login-fido/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">FIDO2 WebAuthn</a>,\n<a href=\"https://bitwarden.com/help/setup-two-step-login-yubikey/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">YubiKey</a>,\n<a href=\"https://bitwarden.com/help/setup-two-step-login-duo/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Duo</a></li>\n</ul>\n</li>\n<li><a href=\"https://bitwarden.com/help/emergency-access/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Emergency Access</a></li>\n<li><a href=\"https://github.com/dani-garcia/vaultwarden/wiki/Enabling-admin-page\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Vaultwarden Admin Backend</a></li>\n<li><a href=\"https://github.com/dani-garcia/bw_web_builds\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Modified Web Vault client</a> (Bundled within our containers)</li>\n</ul>\n<br />",
+    "truncated": false,
+    "chars": 1745
+   }
+  },
+  "headings": 8,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:40.093Z",
+  "checked_at": "2026-11-16T05:09:40.093Z"
+ },
+ "details_checked_at": "2026-11-16T05:07:17.738Z",
+ "contributors": null
+}

@@ -1,0 +1,99 @@
+{
+ "id": "PrefectHQ/fastmcp",
+ "github_id": 896296825,
+ "node_id": "R_kgDONWxneQ",
+ "full_name": "PrefectHQ/fastmcp",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.971Z",
+ "meta": {
+  "name": "fastmcp",
+  "owner": "PrefectHQ",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/39270919?v=4",
+  "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+  "homepage": "https://gofastmcp.com",
+  "html_url": "https://github.com/PrefectHQ/fastmcp",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "agents",
+   "fastmcp",
+   "llms",
+   "mcp",
+   "mcp-clients",
+   "mcp-servers",
+   "mcp-tools",
+   "model-context-protocol",
+   "python"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 28595,
+  "forks": 2616,
+  "watchers": null,
+  "open_issues": 241,
+  "open_prs": null,
+  "created_at": "2024-11-30T01:47:40Z",
+  "pushed_at": "2026-11-17T01:43:52Z",
+  "updated_at": "2026-11-17T01:47:11Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 68440,
+  "og_image": "https://opengraph.githubassets.com/1/PrefectHQ/fastmcp",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T15:07:34.000Z",
+  "commits_90d": 339,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v4.2.0",
+  "name": "v4.2.0: Mad Skills",
+  "published_at": "2026-11-14T00:12:23Z",
+  "url": "https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 7764,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>We recommend adding FastMCP to your project with <a href=\"https://docs.astral.sh/uv/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">uv</a>:</p>\n<pre><code class=\"language-bash\">uv add fastmcp\n</code></pre>\n<p>For full installation instructions, including verification and upgrading, see the <a href=\"https://gofastmcp.com/getting-started/installation\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Installation Guide</strong></a>.</p>\n<p><strong>Upgrading?</strong> We have guides for:</p>\n<ul>\n<li><a href=\"https://gofastmcp.com/getting-started/upgrading/from-fastmcp-3\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Upgrading from FastMCP 3</a></li>\n<li><a href=\"https://gofastmcp.com/getting-started/upgrading/from-fastmcp-2\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Upgrading from FastMCP 2</a></li>\n<li><a href=\"https://gofastmcp.com/getting-started/upgrading/from-mcp-sdk-v1\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Upgrading from MCP SDK v1</a> or <a href=\"https://gofastmcp.com/getting-started/upgrading/from-mcp-sdk-v2\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">v2</a></li>\n<li><a href=\"https://gofastmcp.com/getting-started/upgrading/from-low-level-sdk-v1\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Upgrading from the low-level SDK v1</a> or <a href=\"https://gofastmcp.com/getting-started/upgrading/from-low-level-sdk-v2\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">v2</a></li>\n</ul>",
+    "truncated": false,
+    "chars": 855
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 6,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:37.877Z",
+  "checked_at": "2026-11-17T02:20:22.444Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:22.444Z"
+}

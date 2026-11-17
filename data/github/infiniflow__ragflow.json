@@ -1,0 +1,121 @@
+{
+ "id": "infiniflow/ragflow",
+ "github_id": 730534580,
+ "node_id": "R_kgDOK4sStA",
+ "full_name": "infiniflow/ragflow",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "ragflow",
+  "owner": "infiniflow",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/69962740?v=4",
+  "description": "RAGFlow is an agent-native database: a Retrieval-Augmented Generation (RAG) engine that grew into context infrastructure.",
+  "homepage": "https://ragflow.io",
+  "html_url": "https://github.com/infiniflow/ragflow",
+  "default_branch": "main",
+  "language": "Go",
+  "languages": null,
+  "topics": [
+   "agent-harness",
+   "agent-native-database",
+   "agentic-ai",
+   "agentic-retrieval",
+   "agentic-search",
+   "ai",
+   "ai-agents",
+   "context-engine",
+   "context-engineering",
+   "context-management",
+   "harness-engineering",
+   "knowledge-compilation",
+   "rag",
+   "retrieval-augmented-generation",
+   "retrieval-harness",
+   "search-harness"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 94266,
+  "forks": 11333,
+  "watchers": null,
+  "open_issues": 1307,
+  "open_prs": null,
+  "created_at": "2023-12-12T06:13:13Z",
+  "pushed_at": "2026-11-17T02:15:36Z",
+  "updated_at": "2026-11-17T02:16:48Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 194244,
+  "og_image": "https://opengraph.githubassets.com/1/infiniflow/ragflow",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T02:15:35.000Z",
+  "commits_90d": 2179,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.0.0",
+  "name": "v1.0.0",
+  "published_at": null,
+  "url": "https://github.com/infiniflow/ragflow/releases/tag/v1.0.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "nightly",
+  "name": "nightly",
+  "published_at": "2026-11-16T13:29:30Z",
+  "url": "https://github.com/infiniflow/ragflow/releases/tag/nightly"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 16676,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Get Started",
+    "html": "<p>Try our cloud service at <a href=\"https://cloud.ragflow.io\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://cloud.ragflow.io</a>.</p>\n<p>For local deployment, see <a href=\"https://github.com/infiniflow/ragflow#-local-deployment\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Local Deployment</a>.</p>\n<div>\n<img src=\"https://raw.githubusercontent.com/infiniflow/ragflow-docs/refs/heads/image/image/chunking.gif\" alt=\"Chunking demonstration\" loading=\"lazy\" decoding=\"async\" width=\"1200\" />\n<img src=\"https://raw.githubusercontent.com/infiniflow/ragflow-docs/refs/heads/image/image/agentic-dark.gif\" alt=\"Agentic workflow demonstration\" loading=\"lazy\" decoding=\"async\" width=\"1200\" />\n</div>",
+    "truncated": false,
+    "chars": 532
+   },
+   "usage": null,
+   "features": {
+    "title": "Key Features",
+    "html": "<h5>🍭 <strong>\"Quality in, quality out\"</strong></h5>\n<ul>\n<li>Deep document understanding-based knowledge extraction from unstructured data with complicated\nformats.</li>\n<li>Finds \"needle in a data haystack\" of literally unlimited tokens.</li>\n</ul>\n<h5>🍱 <strong>Template-based chunking</strong></h5>\n<ul>\n<li>Intelligent and explainable.</li>\n<li>Plenty of template options to choose from.</li>\n</ul>\n<h5>🧩 <strong>Knowledge Compilation</strong></h5>\n<ul>\n<li>Compile content at the document and dataset levels into structured knowledge artifacts.</li>\n<li>Use compilation templates to generate Wikis, Graphs, Trees, PageIndex, Mind Maps, Timelines, and Skills for different knowledge organization and reuse needs.</li>\n<li>Configure compilation models and processing rules, and view, update, and regenerate knowledge artifacts.</li>\n</ul>\n<h5>🧠 <strong>Agentic Retrieval</strong></h5>\n<ul>\n<li>Perform multi-step retrieval for complex questions: the model analyzes the question and, when needed, breaks it down, retrieves knowledge, and verifies evidence.</li>\n<li>Gather more complete context through multiple rounds of retrieval and reasoning to help generate well-grounded answers.</li>\n<li>Choose Low, Medium, High, or Ultra thinking modes to control retrieval and reasoning depth according to question complexity.</li>\n</ul>\n<h5>🌱 <strong>Grounded citations with reduced hallucinations</strong></h5>\n<ul>\n<li>Visualization of text chunking to allow human intervention.</li>\n<li>Quick view of the key references and traceable citations to support grounded answers.</li>\n</ul>\n<h5>🍔 <strong>Compatibility with heterogeneous data sources</strong></h5>\n<ul>\n<li>Supports Word documents, PowerPoint presentations, Excel spreadsheets, TXT files, images, PDFs, scanned copies, structured data, web pages, and more.</li>\n</ul>\n<h5>🛀 <strong>Automated and effortless RAG workflow</strong></h5>\n<ul>\n<li>Streamlined RAG orchestration catered to both personal and large businesses.</li>\n<li>Configurable LLMs as well as embedding models.</li>\n<li>Multiple recall paired with fused re-ranking.</li>\n<li>Intuitive APIs for seamless integration with business.</li>\n</ul>",
+    "truncated": false,
+    "chars": 1870
+   }
+  },
+  "headings": 24,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:17.863Z",
+  "checked_at": "2026-11-17T02:19:17.863Z"
+ },
+ "contributors": {
+  "count": 932,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:28.326Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:17.863Z"
+}

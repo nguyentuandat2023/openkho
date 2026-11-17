@@ -1,0 +1,97 @@
+{
+ "id": "microsoft/playwright-mcp",
+ "github_id": 952688112,
+ "node_id": "R_kgDOOMjd8A",
+ "full_name": "microsoft/playwright-mcp",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:56.641Z",
+ "meta": {
+  "name": "playwright-mcp",
+  "owner": "microsoft",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "description": "Playwright MCP server",
+  "homepage": "https://www.npmjs.com/package/@playwright/mcp",
+  "html_url": "https://github.com/microsoft/playwright-mcp",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "mcp",
+   "playwright"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 39752,
+  "forks": 3449,
+  "watchers": null,
+  "open_issues": 2,
+  "open_prs": null,
+  "created_at": "2025-03-21T17:48:36Z",
+  "pushed_at": "2026-11-16T22:57:05Z",
+  "updated_at": "2026-11-17T01:39:18Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 2010,
+  "og_image": "https://opengraph.githubassets.com/1/microsoft/playwright-mcp",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T22:57:05.000Z",
+  "commits_90d": 134,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.0.85",
+  "name": "v0.0.85",
+  "published_at": "2026-11-09T18:28:53Z",
+  "url": "https://github.com/microsoft/playwright-mcp/releases/tag/v0.0.85",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 70096,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting started",
+    "html": "<p>First, install the Playwright MCP server with your client.</p>\n<p><strong>Standard config</strong> works in most of the tools:</p>\n<pre><code class=\"language-js\">{\n  \"mcpServers\": {\n    \"playwright\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"@playwright/mcp@latest\"\n      ]\n    }\n  }\n}\n</code></pre>\n<p><a href=\"https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522playwright%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522%2540playwright%252Fmcp%2540latest%2522%255D%257D\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"></a> <a href=\"https://insiders.vscode.dev/redirect?url=vscode-insiders%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522playwright%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522%2540playwright%252Fmcp%2540latest%2522%255D%257D\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"></a></p>\n<details>\n<summary>Amp</summary><p>Add via the Amp VS Code extension settings screen or by updating your settings.json file:</p>\n<pre><code class=\"language-json\">\"amp.mcpServers\": {\n  \"playwright\": {\n    \"command\": \"npx\",\n    \"args\": [\n      \"@playwright/mcp@latest\"\n    ]\n  }\n}\n</code></pre>\n<p><strong>Amp CLI Setup:</strong></p>\n<p>Add via the <code>amp mcp add</code> command below</p>\n<pre><code class=\"language-bash\">amp mcp add playwright -- npx @playwright/mcp@latest\n</code></pre>\n</details><details>\n<summary>Antigravity</summary><p>Add via the Antigravity settings or by updating your configuration file:</p>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"playwright\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"@playwright/mcp@latest\"\n      ]\n    }\n  }\n}\n</code></pre>\n</details><details>\n<summary>Claude Code</summary><p>Use the Claude Code CLI to add the Playwright MCP server:</p>\n<pre><code class=\"language-bash\">claude mcp add playwright npx @playwright/mcp@latest\n</code></pre>\n</details><details>\n<summary>Claude Desktop</summary><p>Follow the MCP install <a href=\"https://modelcontextprotocol.io/quickstart/user\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">guide</a>, use the standard config above.</p>\n</details><details>\n<summary>Cline</summary><p>Follow the instruction in the section <a href=\"https://docs.cline.bot/mcp/configuring-mcp-servers\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Configuring MCP Servers</a></p>\n<p><strong>Example: Local Setup</strong></p>\n<p>Add the following to your <a href=\"https://docs.cline.bot/mcp/configuring-mcp-servers#editing-mcp-settings-files\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>cline_mcp_settings.json</code></a> file:</p>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"playwright\": {\n      \"type\": \"stdio\",\n      \"command\": \"npx\",\n      \"timeout\": 30,\n      \"args\": [\n        \"-y\",\n        \"@playwright/mcp@latest\"\n      ],\n      \"disabled\": false\n    }\n  }\n}\n</code></pre>\n</details><details>\n<summary>Codex</summary><p>Use the Codex CLI to add the Playwright MCP server:</p>\n<pre><code class=\"language-bash\">codex mcp add playwright npx \"@playwright/mcp@latest\"\n</code></pre>\n<p>Alternatively, create or edit the configuration file <code>~/.codex/config.toml</code> and add:</p>\n<pre><code class=\"language-toml\">[mcp_servers.playwright]\ncommand = \"npx\"\nargs = [\"@playwright/mcp@latest\"]\n</code></pre>\n<p>For more information, see the <a href=\"https://github.com/openai/codex/blob/main/codex-rs/config.md#mcp_servers\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Codex MCP documentation</a>.</p>\n</details><details>\n<summary>Copilot</summary><p>Use the Copilot CLI to interactively add the Playwright MCP server:</p>\n<pre><code class=\"language-bash\">/mcp add\n</code></pre>\n<p>Alternatively, create or edit the configuration file <code>~/.copilot/mcp-config.json</code> and add:</p>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"playwright\": {\n      \"type\": \"local\",\n      \"command\": \"npx\",\n      \"tools\": [\n        \"*\"\n      ],\n      \"args\": [\n        \"@playwright/mcp@latest\"\n      ]\n    }\n  }\n}\n</code></pre>\n<p>For more information, see the <a href=\"https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Copilot CLI documentation</a>.</p>\n</details><details>\n<summary>Cursor</summary><h6>Click the button to install:</h6>\n<p><a href=\"https://cursor.com/en/install-mcp?name=Playwright&amp;config=eyJjb21tYW5kIjoibnB4IEBwbGF5d3JpZ2h0L21jcEBsYXRlc3QifQ%3D%3D\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://cursor.com/deeplink/mcp-install-dark.svg\" alt=\"Install in Cursor\" loading=\"lazy\" decoding=\"async\" /></a></p>\n<h6>Or install manually:</h6>\n<p>Go to <code>Cursor Settings</code> -&gt; <code>MCP</code> -&gt; <code>Add new MCP Server</code>. Name to your liking, use <code>command</code> type with the command <code>npx @playwright/mcp@latest</code>. You can also verify config or add command like arguments via clicking <code>Edit</code>.</p>\n</details><details>\n<summary>Factory</summary><p>Use the Factory CLI to add the Playwright MCP server:</p>\n<pre><code class=\"language-bash\">droid mcp add playwright \"npx @playwright/mcp@latest\"\n</code></pre>\n<p>Alternatively, type <code>/mcp</code> within Factory droid to open an interactive UI for managing MCP servers.</p>\n<p>For more information, see the <a href=\"https://docs.factory.ai/cli/configuration/mcp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Factory MCP documentation</a>.</p>\n</details><details>\n<summary>Gemini CLI</summary><p>Follow the MCP install <a href=\"https://github.com/google-gemini/gemini-cli/blob/main/docs/tools/mcp-server.md#configure-the-mcp-server-in-settingsjson\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">guide</a>, use the standard config above.</p>\n</details><details>\n<summary>Goose</summary><h6>Click the button to install:</h6>\n<p><a href=\"https://block.github.io/goose/extension?cmd=npx&amp;arg=%40playwright%2Fmcp%40latest&amp;id=playwright&amp;name=Playwright&amp;description=Interact%20with%20web%20pages%20through%20structured%20accessibility%20snapshots%20using%20Playwright\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://block.github.io/goose/img/extension-install-dark.svg\" alt=\"Install in Goose\" loading=\"lazy\" decoding=\"async\" /></a></p>\n<h6>Or install manually:</h6>\n<p>Go to <code>Advanced settings</code> -&gt; <code>Extensions</code> -&gt; <code>Add custom extension</code>. Name to your liking, use type <code>STDIO</code>, and set the <code>command</code> to <code>npx @playwright/mcp</code>. Click \"Add Extension\".</p>\n</details><details>\n<summary>Grok</summary><p>Use the Grok CLI to add the Playwright MCP server:</p>\n<pre><code class=\"language-bash\">grok mcp add playwright -- npx @playwright/mcp@latest\n</code></pre>\n<p>Alternatively, create or edit the configuration file <code>~/.grok/config.toml</code> and add:</p>\n<pre><code class=\"language-toml\">[mcp_servers.playwright]\ncommand = \"npx\"\nargs = [\"@playwright/mcp@latest\"]\n</code></pre>\n<p>For more information, see the <a href=\"https://docs.x.ai/build/features/mcp-servers\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Grok MCP documentation</a>.</p>\n</details><details>\n<summary>Junie</summary><p>To add the Playwright MCP server in Junie CLI:</p>\n<ol>\n<li>Type <code>/mcp</code></li>\n<li>Press <code>Ctrl+A</code> to add a new MCP server</li>\n<li>Select <strong>Playwright</strong> from the list</li>\n</ol>\n<p>Alternatively, add to <code>.junie/mcp/mcp.json</code>:</p>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"Playwright\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@playwright/mcp@latest\"\n      ]\n    }\n  }\n}\n</code></pre>\n<p>For more information, see the <a href=\"https://junie.jetbrains.com/docs/junie-cli-mcp-configuration.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Junie MCP configuration documentation</a>.</p>\n</details><details>\n<summary>Kiro</summary><p><a href=\"https://kiro.dev/launch/mcp/add?name=playwright&amp;config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22%40playwright%2Fmcp%40latest%22%5D%7D\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://kiro.dev/images/add-to-kiro.svg\" alt=\"Add to Kiro\" loading=\"lazy\" decoding=\"async\" /></a></p>\n<p>Follow the MCP Servers <a href=\"https://kiro.dev/docs/mcp/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">documentation</a>. For example in <code>.kiro/settings/mcp.json</code>:</p>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"playwright\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"@playwright/mcp@latest\"\n      ]\n    }\n  }\n}\n</code></pre>\n</details><details>\n<summary>LM Studio</summary><h6>Click the button to install:</h6>\n<p><a href=\"https://lmstudio.ai/install-mcp?name=playwright&amp;config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyJAcGxheXdyaWdodC9tY3BAbGF0ZXN0Il19\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://files.lmstudio.ai/deeplink/mcp-install-light.svg\" alt=\"Add MCP Server playwright to LM Studio\" loading=\"lazy\" decoding=\"async\" /></a></p>\n<h6>Or install manually:</h6>\n<p>Go to <code>Program</code> in the right sidebar -&gt; <code>Install</code> -&gt; <code>Edit mcp.json</code>. Use the standard config above.</p>\n</details><details>\n<summary>opencode</summary><p>Follow the MCP Servers <a href=\"https://opencode.ai/docs/mcp-servers/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">documentation</a>. For example in <code>~/.config/opencode/opencode.json</code>:</p>\n<pre><code class=\"language-json\">{\n  \"$schema\": \"https://opencode.ai/config.json\",\n  \"mcp\": {\n    \"playwright\": {\n      \"type\": \"local\",\n      \"command\": [\n        \"npx\",\n        \"@playwright/mcp@latest\"\n      ],\n      \"enabled\": true\n    }\n  }\n}\n</code></pre>\n</details><details>\n<summary>Qodo Gen</summary><p>Open <a href=\"https://docs.qodo.ai/qodo-documentation/qodo-gen\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Qodo Gen</a> chat panel in VSCode or IntelliJ → Connect more tools → + Add new MCP → Paste the standard config above.</p>\n<p>Click <code>Save</code>.</p>\n</details><details>\n<summary>VS Code</summary><h6>Click the button to install:</h6>\n<p><a href=\"https://insiders.vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522playwright%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522%2540playwright%252Fmcp%2540latest%2522%255D%257D\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"></a> <a href=\"https://insiders.vscode.dev/redirect?url=vscode-insiders%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522playwright%2522%252C%2522command%2522%253A%2522npx%2522%252C%2522args%2522%253A%255B%2522%2540playwright%252Fmcp%2540latest%2522%255D%257D\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"></a></p>\n<h6>Or install manually:</h6>\n<p>Follow the MCP install <a href=\"https://code.visualstudio.com/docs/copilot/chat/mcp-servers#_add-an-mcp-server\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">guide</a>, use the standard config above. You can also install the Playwright MCP server using the VS Code CLI:</p>\n<pre><code class=\"language-bash\"># For VS Code\ncode --add-mcp '{\"name\":\"playwright\",\"command\":\"npx\",\"args\":[\"@playwright/mcp@latest\"]}'\n</code></pre>\n<p>After installation, the Playwright MCP server will be available for use with your GitHub Copilot agent in VS Code.</p>\n</details><details>\n<summary>Warp</summary><p>Go to <code>Settings</code> -&gt; <code>AI</code> -&gt; <code>Manage MCP Servers</code> -&gt; <code>+ Add</code> to <a href=\"https://docs.warp.dev/knowledge-and-collaboration/mcp#adding-an-mcp-server\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">add an MCP Server</a>. Use the standard config above.</p>\n</details>",
+    "truncated": true,
+    "chars": 8977
+   },
+   "usage": null,
+   "features": {
+    "title": "Key Features",
+    "html": "<ul>\n<li><strong>Fast and lightweight</strong>. Uses Playwright's accessibility tree, not pixel-based input.</li>\n<li><strong>LLM-friendly</strong>. No vision models needed, operates purely on structured data.</li>\n<li><strong>Deterministic tool application</strong>. Avoids ambiguity common with screenshot-based approaches.</li>\n</ul>",
+    "truncated": false,
+    "chars": 269
+   }
+  },
+  "headings": 20,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:20.442Z",
+  "checked_at": "2026-11-17T02:20:20.442Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:20.442Z"
+}

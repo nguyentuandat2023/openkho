@@ -1,0 +1,103 @@
+{
+ "id": "vendurehq/vendure",
+ "github_id": 136938012,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxMzY5MzgwMTI=",
+ "full_name": "vendurehq/vendure",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.326Z",
+ "meta": {
+  "name": "vendure",
+  "owner": "vendurehq",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/39629390?v=4",
+  "description": "Open-source headless commerce platform built with TypeScript, NestJS, React, and GraphQL",
+  "homepage": "https://www.vendure.io",
+  "html_url": "https://github.com/vendurehq/vendure",
+  "default_branch": "master",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "ecommerce",
+   "ecommerce-api",
+   "ecommerce-framework",
+   "ecommerce-platform",
+   "graphql",
+   "graphql-commerce",
+   "headless",
+   "headless-commerce",
+   "nestjs",
+   "nodejs",
+   "nodejs-ecommerce",
+   "react",
+   "shopping-cart"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 8598,
+  "forks": 1552,
+  "watchers": null,
+  "open_issues": 223,
+  "open_prs": null,
+  "created_at": "2018-06-11T14:29:20Z",
+  "pushed_at": "2026-11-16T16:04:33Z",
+  "updated_at": "2026-11-16T18:54:18Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 175595,
+  "og_image": "https://opengraph.githubassets.com/1/vendurehq/vendure",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T15:01:16.000Z",
+  "commits_90d": 240,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v3.8.2",
+  "name": "v3.8.2",
+  "published_at": "2026-11-12T14:21:54Z",
+  "url": "https://github.com/vendurehq/vendure/releases/tag/v3.8.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 8446,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<h5>Quick start</h5>\n<p>Scaffold a project with the server, worker, admin dashboard and GraphQL APIs ready to run:</p>\n<pre><code class=\"language-bash\">npx @vendure/create my-shop\n</code></pre>\n<p>Requires Node.js 22.12+ (20.19+ still runs, but Node.js 20 is end-of-life) and a SQL database (PostgreSQL, MySQL, MariaDB or SQLite). The <a href=\"https://docs.vendure.io/guides/getting-started/installation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">getting started guide</a> covers configuration, seed data and your first plugin. Ask questions on <a href=\"https://vendure.io/discord\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our Discord</a>.</p>\n<h5>Self-hosting</h5>\n<p>Vendure runs anywhere Node.js runs, including Docker, Kubernetes, a single VM or any cloud provider. Self-hosting is free, and your data stays in your own database. See the <a href=\"https://docs.vendure.io/guides/deployment/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">deployment guides</a>.</p>\n<h5>Vendure Cloud</h5>\n<p><a href=\"https://vendure.io/cloud\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Vendure Cloud</a> is the managed runtime for Vendure. It deploys on git push, creates a preview environment for every pull request, and manages the database, queues, search, backups and scaling. It runs the same application you can self-host, so you can move to Cloud without rebuilding it. Every paid plan includes Cloud at no extra cost. Cloud is in design-partner preview now, with general availability planned for Q1 2027.</p>\n<br />",
+    "truncated": false,
+    "chars": 1228
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 14,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:11.686Z",
+  "checked_at": "2026-11-17T02:20:11.686Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:11.686Z"
+}

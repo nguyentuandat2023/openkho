@@ -1,0 +1,112 @@
+{
+ "id": "fishaudio/fish-speech",
+ "github_id": 702796244,
+ "node_id": "R_kgDOKePR1A",
+ "full_name": "fishaudio/fish-speech",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "fish-speech",
+  "owner": "fishaudio",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/122017386?v=4",
+  "description": "SOTA Open Source TTS",
+  "homepage": "https://speech.fish.audio",
+  "html_url": "https://github.com/fishaudio/fish-speech",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "llama",
+   "transformer",
+   "tts",
+   "valle",
+   "vits",
+   "vqgan",
+   "vqvae"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 33763,
+  "forks": 2946,
+  "watchers": null,
+  "open_issues": 28,
+  "open_prs": null,
+  "created_at": "2023-10-10T03:16:51Z",
+  "pushed_at": "2026-11-14T10:03:36Z",
+  "updated_at": "2026-11-17T00:35:07Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 33277,
+  "og_image": "https://opengraph.githubassets.com/1/fishaudio/fish-speech",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-10-29T17:05:07.000Z",
+  "commits_90d": 15,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.5.1",
+  "name": "V1.5.1",
+  "published_at": "2025-05-31T12:15:00Z",
+  "url": "https://github.com/fishaudio/fish-speech/releases/tag/v1.5.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v3.0.0-beta",
+  "name": "Fish Audio Drama 3 — Pre-Release",
+  "published_at": "2026-10-13T16:05:05Z",
+  "url": "https://github.com/fishaudio/fish-speech/releases/tag/v3.0.0-beta"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 10946,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<h5>For Human</h5>\n<ul>\n<li><a href=\"https://speech.fish.audio/install/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Installation</a>: environment setup, download weights, Docker deployment</li>\n<li><a href=\"https://speech.fish.audio/inference/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Inference</a>: command line, API server, WebUI</li>\n</ul>\n<blockquote>\n<p>[!IMPORTANT]\n<strong>We strongly recommend SGLang-Omni for users who care about efficiency; see the <a href=\"https://github.com/sgl-project/sglang-omni/blob/main/sglang_omni/models/fishaudio_drama_3/README.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SGLang-Omni README</a>.</strong></p>\n<p><strong>For vLLM Omni server, please read <a href=\"https://github.com/vllm-project/vllm-omni/blob/main/recipes/fishaudio/Fish-Speech-S2-Pro.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">vLLM-Omni Fish Speech S2 Pro Recipe</a> and the <a href=\"https://github.com/vllm-project/vllm-omni/blob/main/docs/user_guide/examples/online_serving/text_to_speech.md#fish-speech-s2-pro\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">User Guide</a>.</strong></p>\n</blockquote>\n<h5>For LLM Agent</h5>\n<pre><code>Install and configure Fish Audio Drama 3 (or S2-Pro) by following the instructions here: https://speech.fish.audio/install/\n</code></pre>",
+    "truncated": false,
+    "chars": 913
+   },
+   "usage": null,
+   "features": {
+    "title": "Key features",
+    "html": "<ul>\n<li><strong>Multi-turn director revision</strong>: guide the previous take directly (\"gentler, and a bit sadder\"), and the model regenerates it with that context instead of starting over.</li>\n<li><strong>Infilling and precise editing</strong>: edit audio the way you edit text — replace a single word (\"Wednesday\" → \"Thursday\") while the surrounding timbre and transitions stay natural.</li>\n<li><strong>Scene-style multi-character production</strong>: voice a complete scene with several characters straight from a script description, with streaming support for long text.</li>\n<li><strong>Long dialogues and long speech</strong>: built for long recordings and extended sessions, keeping characters and timbre stable throughout.</li>\n<li><strong>Stronger expressiveness</strong>: laughter, crying, whispers and dramatic emotion are no longer flattened by the reference, so the delivery is much closer to a real performance.</li>\n<li><strong>Multilingual voice cloning</strong>: sets a new level of SOTA for cross-lingual cloning error rates (CER / WER).</li>\n<li><strong>Natural-language tag control</strong>: inline tags such as <code>[whisper]</code>, <code>[angry]</code> and <code>[laughing]</code> control emotion and prosody.</li>\n</ul>",
+    "truncated": false,
+    "chars": 1069
+   }
+  },
+  "headings": 11,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:37.177Z",
+  "checked_at": "2026-11-16T04:33:37.177Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:13.194Z",
+ "contributors": {
+  "count": 104,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:26.197Z"
+ }
+}

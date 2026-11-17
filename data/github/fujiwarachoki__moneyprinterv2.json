@@ -1,0 +1,111 @@
+{
+ "id": "FujiwaraChoki/MoneyPrinterV2",
+ "github_id": 756289095,
+ "node_id": "R_kgDOLRQORw",
+ "full_name": "FujiwaraChoki/MoneyPrinterV2",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "MoneyPrinterV2",
+  "owner": "FujiwaraChoki",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/78088687?v=4",
+  "description": "Automate the process of making money online.",
+  "homepage": null,
+  "html_url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "automation",
+   "cli",
+   "json",
+   "money",
+   "outreach",
+   "python",
+   "twitter",
+   "youtube"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 32461,
+  "forks": 3475,
+  "watchers": null,
+  "open_issues": 94,
+  "open_prs": null,
+  "created_at": "2024-02-12T11:20:42Z",
+  "pushed_at": "2026-09-15T22:35:17Z",
+  "updated_at": "2026-11-17T00:47:59Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 447,
+  "og_image": "https://opengraph.githubassets.com/1/FujiwaraChoki/MoneyPrinterV2",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-09-15T22:33:05.000Z",
+  "commits_90d": 1,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 4317,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "wAZ_ZSuIqfk",
+    "url": "https://www.youtube.com/watch?v=wAZ_ZSuIqfk"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<blockquote>\n<p>⚠️ If you are planning to reach out to scraped businesses per E-Mail, please first install the <a href=\"https://golang.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Go Programming Language</a>.</p>\n</blockquote>\n<pre><code class=\"language-bash\">git clone https://github.com/FujiwaraChoki/MoneyPrinterV2.git\n\ncd MoneyPrinterV2\n# Copy Example Configuration and fill out values in config.json\ncp config.example.json config.json\n\n# Create a virtual environment\npython -m venv venv\n\n# Activate the virtual environment - Windows\n.\\venv\\Scripts\\activate\n\n# Activate the virtual environment - Unix\nsource venv/bin/activate\n\n# Install the requirements\npip install -r requirements.txt\n</code></pre>",
+    "truncated": false,
+    "chars": 591
+   },
+   "usage": {
+    "title": "Usage",
+    "html": "<pre><code class=\"language-bash\"># Run the application\npython src/main.py\n</code></pre>",
+    "truncated": false,
+    "chars": 56
+   },
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li> Twitter Bot (with CRON Jobs =&gt; <code>scheduler</code>)</li>\n<li> YouTube Shorts Automator (with CRON Jobs =&gt; <code>scheduler</code>)</li>\n<li> Affiliate Marketing (Amazon + Twitter)</li>\n<li> Find local businesses &amp; cold outreach</li>\n</ul>",
+    "truncated": false,
+    "chars": 205
+   }
+  },
+  "headings": 12,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:51.367Z",
+  "checked_at": "2026-11-16T04:33:51.367Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:16.512Z",
+ "contributors": {
+  "count": 12,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:36.537Z"
+ }
+}

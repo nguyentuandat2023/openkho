@@ -1,0 +1,88 @@
+{
+ "id": "HandBrake/HandBrake",
+ "github_id": 41215835,
+ "node_id": "MDEwOlJlcG9zaXRvcnk0MTIxNTgzNQ==",
+ "full_name": "HandBrake/HandBrake",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:06.954Z",
+ "meta": {
+  "name": "HandBrake",
+  "owner": "HandBrake",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/627269?v=4",
+  "description": "HandBrake's development repository ",
+  "homepage": "https://handbrake.fr",
+  "html_url": "https://github.com/HandBrake/HandBrake",
+  "default_branch": "master",
+  "language": "C",
+  "languages": null,
+  "topics": [
+   "gplv2",
+   "multi-platform",
+   "video-transcoding"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 25026,
+  "forks": 1755,
+  "watchers": null,
+  "open_issues": 297,
+  "open_prs": null,
+  "created_at": "2015-08-22T16:32:28Z",
+  "pushed_at": "2026-11-16T17:23:27Z",
+  "updated_at": "2026-11-17T01:46:16Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 125697,
+  "og_image": "https://opengraph.githubassets.com/1/HandBrake/HandBrake",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T17:23:09.000Z",
+  "commits_90d": 286,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "1.11.2",
+  "name": "1.11.2",
+  "published_at": "2026-06-07T19:08:25Z",
+  "url": "https://github.com/HandBrake/HandBrake/releases/tag/1.11.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.markdown",
+  "length": 2714,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": null,
+   "usage": null,
+   "features": null
+  },
+  "headings": 6,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:44.117Z",
+  "checked_at": "2026-11-17T02:20:44.117Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:44.117Z"
+}

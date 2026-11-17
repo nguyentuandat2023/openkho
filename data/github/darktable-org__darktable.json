@@ -1,0 +1,104 @@
+{
+ "id": "darktable-org/darktable",
+ "github_id": 3791835,
+ "node_id": "MDEwOlJlcG9zaXRvcnkzNzkxODM1",
+ "full_name": "darktable-org/darktable",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "darktable",
+  "owner": "darktable-org",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1561544?v=4",
+  "description": "darktable is an open source photography workflow application and raw developer",
+  "homepage": "https://www.darktable.org",
+  "html_url": "https://github.com/darktable-org/darktable",
+  "default_branch": "master",
+  "language": "C",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "GPL-3.0",
+   "name": "GNU General Public License v3.0"
+  },
+  "stars": 13461,
+  "forks": 1525,
+  "watchers": null,
+  "open_issues": 636,
+  "open_prs": null,
+  "created_at": "2012-03-21T21:53:04Z",
+  "pushed_at": "2026-11-17T00:48:37Z",
+  "updated_at": "2026-11-16T16:17:03Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 1379466,
+  "og_image": "https://opengraph.githubassets.com/1/darktable-org/darktable",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T21:30:14.000Z",
+  "commits_90d": 2122,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "release-5.6.2",
+  "name": "release 5.6.2",
+  "published_at": "2026-10-06T19:14:54Z",
+  "url": "https://github.com/darktable-org/darktable/releases/tag/release-5.6.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "nightly",
+  "name": "Darktable nightly build 20261117",
+  "published_at": "2026-11-17T00:49:32Z",
+  "url": "https://github.com/darktable-org/darktable/releases/tag/nightly"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 25325,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installing",
+    "html": "<p>If the latest release is still not available as a pre-built package for your distribution,\nyou can build the software yourself following the instructions <a href=\"https://github.com/darktable-org/darktable#building\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">below</a>.</p>\n<h5>Latest release</h5>\n<p>5.6.2 (stable)</p>\n<ul>\n<li><a href=\"https://github.com/darktable-org/darktable/releases/download/release-5.6.2/darktable-5.6.2-win64.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download package for Windows</a></li>\n<li><a href=\"https://github.com/darktable-org/darktable/releases/download/release-5.6.2/darktable-5.6.2-woa64.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download package for Windows on Arm</a></li>\n<li><a href=\"https://github.com/darktable-org/darktable/releases/download/release-5.6.2/darktable-5.6.2-arm64.dmg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download disk image for macOS on Apple Silicon</a></li>\n<li><a href=\"https://github.com/darktable-org/darktable/releases/download/release-5.6.2/Darktable-5.6.2-x86_64.AppImage\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download AppImage for Linux</a></li>\n<li><a href=\"https://github.com/darktable-org/darktable/releases/download/release-5.6.2/Darktable-5.6.2-aarch64.AppImage\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download AppImage for Linux on ARM64</a></li>\n<li><a href=\"https://software.opensuse.org/download.html?project=graphics:darktable&amp;package=darktable\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Install native packages or add a third-party repository for Linux distros</a></li>\n<li><a href=\"https://flathub.org/apps/details/org.darktable.Darktable\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Install Flatpak package for Linux</a></li>\n<li><a href=\"https://www.darktable.org/install/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">More information about installing darktable on any system</a></li>\n</ul>\n<p><em>When using a pre-built package, ensure that it has been built with Lua, OpenCL, OpenMP and Colord support.\nThese are optional and will not prevent darktable from running if missing,\nbut their absence will degrade the user experience.\nYou can check for them by running darktable with the <code>--version</code> command line option.</em></p>\n<h5>Development snapshot</h5>\n<p>The development snapshot reflects the current state of the master branch. It is intended for testing and is generally not safe. See the notes <a href=\"https://github.com/darktable-org/darktable#get-the-source\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">below</a> for warnings and precautions about using the master branch.</p>\n<ul>\n<li><a href=\"https://software.opensuse.org/download.html?project=graphics:darktable:master&amp;package=darktable\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Install native packages directly or add third party repository for some Linux distros</a> (one snapshot per day)</li>\n<li><a href=\"https://github.com/darktable-org/darktable/releases/tag/nightly\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Binary packages are provided for Linux (AppImage), macOS and Windows on a nightly basis</a></li>\n</ul>",
+    "truncated": false,
+    "chars": 2241
+   },
+   "usage": {
+    "title": "Using",
+    "html": "<h6>Test/unstable version</h6>\n<p>To use a test version of darktable without damaging your regular/stable version's files and database, start darktable in a terminal with:</p>\n<pre><code class=\"language-bash\">/opt/darktable-test/bin/darktable --configdir \"~/.config/darktable-test\"\n</code></pre>\n<p>and ensure that you set the option \"create XMP files\" to \"never\" in preferences -&gt; storage -&gt; XMP sidecar files. This way,\nyour regular/stable version will save its configuration files in <code>~/.config/darktable</code>, as usual,\nthe test/unstable one will save in <code>~/.config/darktable-test</code>, and the two versions will not produce database conflicts.</p>\n<h6>Regular/stable version</h6>\n<p>Simply launch it from your desktop application menu or, from a terminal, run <code>darktable</code> or <code>/opt/darktable/bin/darktable</code>. If the installation did not create a launcher in your applications menu, run:</p>\n<pre><code class=\"language-bash\">sudo ln -s /opt/darktable/share/applications/org.darktable.darktable.desktop /usr/share/applications/org.darktable.darktable.desktop\n</code></pre>\n<p>You may find darktable configuration files in <code>~/.config/darktable</code>.\nIf you experience crashes at startup, try launching darktable from a terminal with OpenCL disabled using <code>darktable --disable-opencl</code>.</p>",
+    "truncated": false,
+    "chars": 1181
+   },
+   "features": {
+    "title": "AI features (optional)",
+    "html": "<p>Darktable includes optional AI-powered features such as object masks, denoise and upscale.\nThese require building with <code>-DUSE_AI=ON</code> (off by default), or <code>--enable-ai</code> when building\nwith the build helper script <code>build.sh</code>. AI features are disabled by default in preferences\nand must be enabled by the user. Models are downloaded from the AI tab in preferences\n(default repository: <a href=\"https://github.com/darktable-org/darktable-ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">darktable-org/darktable-ai</a>).</p>\n<p><strong>CPU inference</strong> is bundled and works out of the box - no additional software is needed.\nOn macOS (Apple Silicon), CoreML acceleration and on Windows, DirectML GPU acceleration\nare also bundled by default. Processing on CPU is slower than GPU but requires no\nspecial hardware.</p>\n<p><strong>GPU acceleration</strong> significantly speeds up AI inference but requires installing a\nGPU-enabled build of <a href=\"https://onnxruntime.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ONNX Runtime</a> separately:</p>\n<ul>\n<li><strong>NVIDIA (CUDA):</strong> Linux and Windows.<ul>\n<li>Supported NVIDIA GPU with up-to-date drivers (Maxwell or newer)</li>\n<li><a href=\"https://developer.nvidia.com/cuda-12-0-0-download-archive\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CUDA Toolkit 12</a> or <a href=\"https://developer.nvidia.com/cuda-13-0-0-download-archive\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CUDA Toolkit 13</a></li>\n<li><a href=\"https://developer.nvidia.com/cudnn-downloads\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">cuDNN 9.x</a></li>\n</ul>\n</li>\n<li><strong>AMD (ROCm):</strong> Linux only.<ul>\n<li>Supported AMD GPU with up-to-date drivers (RDNA2/CDNA or newer), see <a href=\"https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">compatibility matrix</a></li>\n<li><a href=\"https://rocm.docs.amd.com/projects/install-on-linux/en/latest/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ROCm 6+</a></li>\n<li><a href=\"https://rocm.docs.amd.com/projects/AMDMIGraphX/en/latest/install/install-migraphx.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MIGraphX</a> (may require separate install, e.g. <code>apt install migraphx migraphx-dev</code> on Ubuntu)</li>\n</ul>\n</li>\n<li><strong>Intel (OpenVINO):</strong> Linux and Windows.<ul>\n<li>Supported Intel GPU with up-to-date drivers (integrated Gen9+, discrete Arc, or NPU Meteor Lake+)</li>\n<li><a href=\"https://www.intel.com/content/www/us/en/developer/articles/tool/opencl-drivers.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Intel OpenCL</a> or/and <a href=\"https://www.intel.com/content/www/us/en/docs/dpcpp-cpp-compiler/developer-guide-reference/2025-2/intel-oneapi-level-zero.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Level Zero runtime</a> (included with drivers on Windows; on Linux may need <code>intel-opencl-icd</code> or <code>level-zero</code>)</li>\n<li>On Windows, requires <a href=\"https://docs.openvino.ai/2026/get-started/install-openvino/install-openvino-windows.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">OpenVINO Toolkit</a> installation</li>\n</ul>\n</li>\n<li><strong>Windows (DirectML):</strong> bundled, works with any DirectX 12 compatible GPU (NVIDIA, AMD, Intel).\nNo extra install needed.<ul>\n<li>Windows 10 1903+ (DirectML is a system component)</li>\n</ul>\n</li>\n<li><strong>macOS (CoreML):</strong> bundled, uses Apple Neural Engine automatically.\nNo extra install needed.<ul>\n<li>macOS 11+ (Big Sur)</li>\n<li>Apple Silicon (M1+)</li>\n</ul>\n</li>\n</ul>\n<p><strong>GPU memory:</strong> 4 GB VRAM minimum. If GPU inference fails (out of memory, unsupported op,\nEP crash), darktable automatically retries on CPU and continues.</p>\n<p><strong>AMD first-run latency:</strong> on AMD GPUs the first inference per model is significantly\nslower because ROCm/MIGraphX compiles the model graph on the fly. The compiled graph\nis cached, so subsequent runs of the same model are fast.</p>\n<p>To enable GPU acceleration, run one of the install scripts:</p>\n<p>Linux:</p>\n<pre><code class=\"language-bash\">curl -fsSL https://raw.githubusercontent.com/darktable-org/darktable/HEAD/tools/ai/install-ort-gpu.sh | bash\n</code></pre>\n<p>Windows (PowerShell):</p>\n<pre><code class=\"language-powershell\">irm https://raw.githubusercontent.com/darktable-org/darktable/HEAD/tools/ai/install-ort-gpu.ps1 | iex\n</code></pre>\n<p>Then point darktable at the installed library via the <strong>AI</strong> tab in preferences\n(click <strong>detect</strong>). See <a href=\"https://github.com/darktable-org/darktable/blob/master/tools/ai/README.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">tools/ai/README.md</a> for flags,\nprerequisites, manual install, and troubleshooting. Verify the active provider\nwith <code>darktable -d ai</code>.</p>",
+    "truncated": false,
+    "chars": 3642
+   }
+  },
+  "headings": 41,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:27.380Z",
+  "checked_at": "2026-11-17T02:19:56.902Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:56.902Z"
+}

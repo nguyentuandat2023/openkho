@@ -1,0 +1,86 @@
+{
+ "id": "KDE/kdenlive",
+ "github_id": 42723268,
+ "node_id": "MDEwOlJlcG9zaXRvcnk0MjcyMzI2OA==",
+ "full_name": "KDE/kdenlive",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:06.954Z",
+ "meta": {
+  "name": "kdenlive",
+  "owner": "KDE",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/14312869?v=4",
+  "description": "Free and open source video editor, based on MLT Framework and KDE Frameworks",
+  "homepage": "https://invent.kde.org/multimedia/kdenlive",
+  "html_url": "https://github.com/KDE/kdenlive",
+  "default_branch": "master",
+  "language": "C++",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "GPL-3.0",
+   "name": "GNU General Public License v3.0"
+  },
+  "stars": 6127,
+  "forks": 577,
+  "watchers": null,
+  "open_issues": 0,
+  "open_prs": null,
+  "created_at": "2015-09-18T13:16:08Z",
+  "pushed_at": "2026-11-17T01:05:51Z",
+  "updated_at": "2026-11-17T01:17:43Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": false,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 5281416,
+  "og_image": "https://opengraph.githubassets.com/1/KDE/kdenlive",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T01:05:44.000Z",
+  "commits_90d": 637,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": {
+  "tag": "v26.11.80",
+  "name": "v26.11.80",
+  "published_at": "2026-11-13T11:50:45Z",
+  "url": "https://github.com/KDE/kdenlive/releases/tag/v26.11.80"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 2720,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<ol>\n<li>Check out our <a href=\"https://github.com/KDE/kdenlive/blob/master/dev-docs/build.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">build instructions</a> to set up your development environment</li>\n<li>Familiarize yourself with the <a href=\"https://github.com/KDE/kdenlive/blob/master/dev-docs/architecture.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">architecture</a> and <a href=\"https://github.com/KDE/kdenlive/blob/master/dev-docs/coding.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">coding guidelines</a></li>\n<li>If the MLT library is new to you check out <a href=\"https://github.com/KDE/kdenlive/blob/master/dev-docs/mlt-intro.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MLT Introduction</a></li>\n<li>Join our Matrix channel <code>#kdenlive-dev:kde.org</code> for developer discussions and support</li>\n</ol>",
+    "truncated": false,
+    "chars": 394
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 7,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:42.885Z",
+  "checked_at": "2026-11-17T02:20:42.885Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:42.885Z"
+}

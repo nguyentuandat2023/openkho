@@ -1,0 +1,103 @@
+{
+ "id": "penpot/penpot",
+ "github_id": 48769241,
+ "node_id": "MDEwOlJlcG9zaXRvcnk0ODc2OTI0MQ==",
+ "full_name": "penpot/penpot",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "penpot",
+  "owner": "penpot",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/30179644?v=4",
+  "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
+  "homepage": "https://penpot.app",
+  "html_url": "https://github.com/penpot/penpot",
+  "default_branch": "develop",
+  "language": "Clojure",
+  "languages": null,
+  "topics": [
+   "clojure",
+   "clojurescript",
+   "design",
+   "prototyping",
+   "ui",
+   "ux-design",
+   "ux-experience"
+  ],
+  "license": {
+   "spdx": "MPL-2.0",
+   "name": "Mozilla Public License 2.0"
+  },
+  "stars": 62438,
+  "forks": 4424,
+  "watchers": null,
+  "open_issues": 943,
+  "open_prs": null,
+  "created_at": "2015-12-29T22:09:07Z",
+  "pushed_at": "2026-11-16T22:02:46Z",
+  "updated_at": "2026-11-17T02:02:22Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 439242,
+  "og_image": "https://opengraph.githubassets.com/1/penpot/penpot",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T17:39:36.000Z",
+  "commits_90d": 2664,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "2.19.2",
+  "name": "2.19.2",
+  "published_at": "2026-11-16T11:59:19Z",
+  "url": "https://github.com/penpot/penpot/releases/tag/2.19.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 11774,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "TpN0osiY-8k",
+    "url": "https://www.youtube.com/watch?v=TpN0osiY-8k"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Getting started",
+    "html": "<p>Penpot is the only design &amp; prototype platform that is deployment agnostic. You can use it in our <a href=\"https://design.penpot.app\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SAAS</a> or deploy it anywhere.</p>\n<p>Learn how to install it with Docker, Kubernetes, Elestio or other options on <a href=\"https://penpot.app/self-host\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our website</a>.</p>",
+    "truncated": false,
+    "chars": 281
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 14,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:54.962Z",
+  "checked_at": "2026-11-17T02:19:54.962Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:54.962Z"
+}

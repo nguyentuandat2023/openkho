@@ -1,0 +1,94 @@
+{
+ "id": "lllyasviel/FramePack",
+ "github_id": 965159463,
+ "node_id": "R_kgDOOYcqJw",
+ "full_name": "lllyasviel/FramePack",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.074Z",
+ "meta": {
+  "name": "FramePack",
+  "owner": "lllyasviel",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/19834515?v=4",
+  "description": "Lets make video diffusion practical!",
+  "homepage": null,
+  "html_url": "https://github.com/lllyasviel/FramePack",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 17358,
+  "forks": 1751,
+  "watchers": null,
+  "open_issues": 498,
+  "open_prs": null,
+  "created_at": "2025-04-12T14:45:22Z",
+  "pushed_at": "2025-10-16T01:28:50Z",
+  "updated_at": "2026-11-17T00:53:37Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 76,
+  "og_image": "https://opengraph.githubassets.com/1/lllyasviel/FramePack",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2025-10-16T01:28:50.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "windows",
+  "name": "Windows",
+  "published_at": "2025-04-18T05:01:29Z",
+  "url": "https://github.com/lllyasviel/FramePack/releases/tag/windows",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 16558,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p><strong>Windows</strong>:</p>\n<p><a href=\"https://github.com/lllyasviel/FramePack/releases/download/windows/framepack_cu126_torch26.7z\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">&gt;&gt;&gt; Click Here to Download One-Click Package (CUDA 12.6 + Pytorch 2.6) &lt;&lt;&lt;</a></p>\n<p>After you download, you uncompress, use <code>update.bat</code> to update, and use <code>run.bat</code> to run.</p>\n<p>Note that running <code>update.bat</code> is important, otherwise you may be using a previous version with potential bugs unfixed.</p>\n<p><img src=\"https://github.com/lllyasviel/stable-diffusion-webui-forge/assets/19834515/c49bd60d-82bd-4086-9859-88d472582b94\" alt=\"image\" loading=\"lazy\" decoding=\"async\" /></p>\n<p>Note that the models will be downloaded automatically. You will download more than 30GB from HuggingFace.</p>\n<p><strong>Linux</strong>:</p>\n<p>We recommend having an independent Python 3.10.</p>\n<pre><code>pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126\npip install -r requirements.txt\n</code></pre>\n<p>To start the GUI, run:</p>\n<pre><code>python demo_gradio.py\n</code></pre>\n<p>Note that it supports <code>--share</code>, <code>--port</code>, <code>--server</code>, and so on.</p>\n<p>The software supports PyTorch attention, xformers, flash-attn, sage-attention. By default, it will just use PyTorch attention. You can install those attention kernels if you know how. </p>\n<p>For example, to install sage-attention (linux):</p>\n<pre><code>pip install sageattention==1.0.6\n</code></pre>\n<p>However, you are highly recommended to first try without sage-attention since it will influence results, though the influence is minimal.</p>",
+    "truncated": false,
+    "chars": 1354
+   },
+   "usage": {
+    "title": "More Examples",
+    "html": "<p>Many more examples are in <a href=\"https://lllyasviel.github.io/frame_pack_gitpage/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Project Page</strong></a>.</p>\n<p>Below are some more examples that you may be interested in reproducing.</p>\n<hr />\n<img src=\"https://github.com/user-attachments/assets/99f4d281-28ad-44f5-8700-aa7a4e5638fa\" alt=\"\" loading=\"lazy\" decoding=\"async\" width=\"150\" /><p><code>The girl dances gracefully, with clear movements, full of charm.</code></p>\n<p><img src=\"https://github.com/user-attachments/assets/0e98bfca-1d91-4b1d-b30f-4236b517c35e\" alt=\"image\" loading=\"lazy\" decoding=\"async\" /></p>\n<table>\n  <tr>\n    <td align=\"center\">\n      \n      \n    </td>\n  </tr>\n  <tr>\n    <td align=\"center\">\n      <em>Video may be compressed by GitHub</em>\n    </td>\n  </tr>\n</table><hr />\n<img src=\"https://github.com/user-attachments/assets/853f4f40-2956-472f-aa7a-fa50da03ed92\" alt=\"\" loading=\"lazy\" decoding=\"async\" width=\"150\" /><p><code>The girl suddenly took out a sign that said “cute” using right hand</code></p>\n<p><img src=\"https://github.com/user-attachments/assets/d51180e4-5537-4e25-a6c6-faecae28648a\" alt=\"image\" loading=\"lazy\" decoding=\"async\" /></p>\n<table>\n  <tr>\n    <td align=\"center\">\n      \n      \n    </td>\n  </tr>\n  <tr>\n    <td align=\"center\">\n      <em>Video may be compressed by GitHub</em>\n    </td>\n  </tr>\n</table><hr />\n<img src=\"https://github.com/user-attachments/assets/6d87c53f-81b2-4108-a704-697164ae2e81\" alt=\"\" loading=\"lazy\" decoding=\"async\" width=\"150\" /><p><code>The girl skateboarding, repeating the endless spinning and dancing and jumping on a skateboard, with clear movements, full of charm.</code></p>\n<p><img src=\"https://github.com/user-attachments/assets/c2cfa835-b8e6-4c28-97f8-88f42da1ffdf\" alt=\"image\" loading=\"lazy\" decoding=\"async\" /></p>\n<table>\n  <tr>\n    <td align=\"center\">\n      \n      \n    </td>\n  </tr>\n  <tr>\n    <td align=\"center\">\n      <em>Video may be compressed by GitHub</em>\n    </td>\n  </tr>\n</table><hr />\n<img src=\"https://github.com/user-attachments/assets/6e95d1a5-9674-4c9a-97a9-ddf704159b79\" alt=\"\" loading=\"lazy\" decoding=\"async\" width=\"150\" /><p><code>The girl dances gracefully, with clear movements, full of charm.</code></p>\n<p><img src=\"https://github.com/user-attachments/assets/7412802a-ce44-4188-b1a4-cfe19f9c9118\" alt=\"image\" loading=\"lazy\" decoding=\"async\" /></p>\n<table>\n  <tr>\n    <td align=\"center\">\n      \n      \n    </td>\n  </tr>\n  <tr>\n    <td align=\"center\">\n      <em>Video may be compressed by GitHub</em>\n    </td>\n  </tr>\n</table><hr />\n<img src=\"https://github.com/user-attachments/assets/90fc6d7e-8f6b-4f8c-a5df-ee5b1c8b63c9\" alt=\"\" loading=\"lazy\" decoding=\"async\" width=\"150\" /><p><code>The man dances flamboyantly, swinging his hips and striking bold poses with dramatic flair.</code></p>\n<p><img src=\"https://github.com/user-attachments/assets/1dcf10a3-9747-4e77-a269-03a9379dd9af\" alt=\"image\" loading=\"lazy\" decoding=\"async\" /></p>\n<table>\n  <tr>\n    <td align=\"center\">\n      \n      \n    </td>\n  </tr>\n  <tr>\n    <td align=\"center\">\n      <em>Video may be compressed by GitHub</em>\n    </td>\n  </tr>\n</table><hr />\n<img src=\"https://github.com/user-attachments/assets/62ecf987-ec0c-401d-b3c9-be9ffe84ee5b\" alt=\"\" loading=\"lazy\" decoding=\"async\" width=\"150\" /><p><code>The woman dances elegantly among the blossoms, spinning slowly with flowing sleeves and graceful hand movements.</code></p>\n<p><img src=\"https://github.com/user-attachments/assets/396f06bc-e399-4ac3-9766-8a42d4f8d383\" alt=\"image\" loading=\"lazy\" decoding=\"async\" /></p>\n<table>\n  <tr>\n    <td align=\"center\">\n      \n      \n    </td>\n  </tr>\n  <tr>\n    <td align=\"center\">\n      <em>Video may be compressed by GitHub</em>\n    </td>\n  </tr>\n</table><hr />\n<img src=\"https://github.com/user-attachments/assets/4f740c1a-2d2f-40a6-9613-d6fe64c428aa\" alt=\"\" loading=\"lazy\" decoding=\"async\" width=\"150\" /><p><code>The young man writes intensely, flipping papers and adjusting his glasses with swift, focused movements.</code></p>\n<p><img src=\"https://github.com/user-attachments/assets/c4513c4b-997a-429b-b092-bb275a37b719\" alt=\"image\" loading=\"lazy\" decoding=\"async\" /></p>\n<table>\n  <tr>\n    <td align=\"center\">\n      \n      \n    </td>\n  </tr>\n  <tr>\n    <td align=\"center\">\n      <em>Video may be compressed by GitHub</em>\n    </td>\n  </tr>\n</table><hr />",
+    "truncated": false,
+    "chars": 4711
+   },
+   "features": null
+  },
+  "headings": 12,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:02.315Z",
+  "checked_at": "2026-11-16T05:08:02.315Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:17.093Z",
+ "contributors": null
+}

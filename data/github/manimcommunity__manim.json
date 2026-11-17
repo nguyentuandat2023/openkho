@@ -1,0 +1,100 @@
+{
+ "id": "ManimCommunity/manim",
+ "github_id": 265122478,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyNjUxMjI0Nzg=",
+ "full_name": "ManimCommunity/manim",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:06.954Z",
+ "meta": {
+  "name": "manim",
+  "owner": "ManimCommunity",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/65579849?v=4",
+  "description": "A community-maintained Python framework for creating mathematical animations. ",
+  "homepage": "https://www.manim.community",
+  "html_url": "https://github.com/ManimCommunity/manim",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "animations",
+   "hacktoberfest",
+   "manim",
+   "math",
+   "python"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 42620,
+  "forks": 3353,
+  "watchers": null,
+  "open_issues": 406,
+  "open_prs": null,
+  "created_at": "2020-05-19T02:37:13Z",
+  "pushed_at": "2026-11-14T03:37:47Z",
+  "updated_at": "2026-11-17T01:40:01Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 48339,
+  "og_image": "https://opengraph.githubassets.com/1/ManimCommunity/manim",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-13T16:51:42.000Z",
+  "commits_90d": 81,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.22.1",
+  "name": "Manim v0.22.1",
+  "published_at": "2026-10-27T20:47:31Z",
+  "url": "https://github.com/ManimCommunity/manim/releases/tag/v0.22.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 8378,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<blockquote>\n<p>[!CAUTION]\nThese instructions are for the community version <em>only</em>. Trying to use these instructions to install <a href=\"https://github.com/3b1b/manim\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">3b1b/manim</a> or instructions there to install this version will cause problems. Read <a href=\"https://docs.manim.community/en/stable/faq/installation.html#why-are-there-different-versions-of-manim\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">this</a> and decide which version you wish to install, then only follow the instructions for your desired version.</p>\n</blockquote>\n<p>Manim requires a few dependencies that must be installed prior to using it. If you\nwant to try it out first before installing it locally, you can do so\n<a href=\"https://try.manim.community/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">in our online Jupyter environment</a>.</p>\n<p>For local installation, please visit the <a href=\"https://docs.manim.community/en/stable/installation.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Documentation</a>\nand follow the appropriate instructions for your operating system.</p>",
+    "truncated": false,
+    "chars": 855
+   },
+   "usage": {
+    "title": "Usage",
+    "html": "<p>Manim is an extremely versatile package. The following is an example <code>Scene</code> you can construct:</p>\n<pre><code class=\"language-python\">from manim import *\n\n\nclass SquareToCircle(Scene):\n    def construct(self):\n        circle = Circle()\n        square = Square()\n        square.flip(RIGHT)\n        square.rotate(-3 * TAU / 8)\n        circle.set_fill(PINK, opacity=0.5)\n\n        self.play(Create(square))\n        self.play(Transform(square, circle))\n        self.play(FadeOut(square))\n</code></pre>\n<p>In order to view the output of this scene, save the code in a file called <code>example.py</code>. Then, run the following in a terminal window:</p>\n<pre><code class=\"language-sh\">manim -p -ql example.py SquareToCircle\n</code></pre>\n<p>You should see your native video player program pop up and play a simple scene in which a square is transformed into a circle. You may find some more simple examples within this\n<a href=\"https://github.com/ManimCommunity/manim/blob/main/example_scenes\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GitHub repository</a>. You can also visit the <a href=\"https://docs.manim.community/en/stable/examples.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">official gallery</a> for more advanced examples.</p>\n<p>Manim also ships with a <code>%%manim</code> IPython magic which allows to use it conveniently in JupyterLab (as well as classic Jupyter) notebooks. See the\n<a href=\"https://docs.manim.community/en/stable/reference/manim.utils.ipython_magic.ManimMagic.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">corresponding documentation</a> for some guidance and\n<a href=\"https://mybinder.org/v2/gh/ManimCommunity/jupyter_examples/HEAD?filepath=basic_example_scenes.ipynb\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">try it out online</a>.</p>",
+    "truncated": false,
+    "chars": 1401
+   },
+   "features": null
+  },
+  "headings": 11,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:55.580Z",
+  "checked_at": "2026-11-16T05:09:55.580Z"
+ },
+ "details_checked_at": "2026-11-16T05:07:21.178Z",
+ "contributors": null
+}

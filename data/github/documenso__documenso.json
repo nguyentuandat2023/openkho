@@ -1,0 +1,114 @@
+{
+ "id": "documenso/documenso",
+ "github_id": 613010835,
+ "node_id": "R_kgDOJInNkw",
+ "full_name": "documenso/documenso",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "documenso",
+  "owner": "documenso",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/127681099?v=4",
+  "description": "The Open Source DocuSign Alternative.",
+  "homepage": "https://documenso.com",
+  "html_url": "https://github.com/documenso/documenso",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "digital-signature",
+   "document-signing",
+   "docusign-alternative",
+   "e-signature",
+   "esign",
+   "esignature",
+   "next-auth",
+   "nextjs",
+   "open-source",
+   "pades-standard",
+   "pdf",
+   "pdf-sign",
+   "pdf-signature",
+   "postgresql",
+   "prisma",
+   "self-hosted",
+   "signing",
+   "typescript"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 15785,
+  "forks": 3488,
+  "watchers": null,
+  "open_issues": 275,
+  "open_prs": null,
+  "created_at": "2023-03-12T16:28:56Z",
+  "pushed_at": "2026-11-17T02:07:41Z",
+  "updated_at": "2026-11-16T23:45:26Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 294998,
+  "og_image": "https://opengraph.githubassets.com/1/documenso/documenso",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T12:15:29.000Z",
+  "commits_90d": 151,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.22.0",
+  "name": "v2.22.0",
+  "published_at": "2026-11-13T01:34:30Z",
+  "url": "https://github.com/documenso/documenso/releases/tag/v2.22.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 12509,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "Y0ppIQrEnZs",
+    "url": "https://www.youtube.com/watch?v=Y0ppIQrEnZs"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Developer Quickstart",
+    "html": "<blockquote>\n<p><strong>Note</strong>: This is a quickstart for developers. It assumes that you have both <a href=\"https://docs.docker.com/get-docker/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docker</a> and <a href=\"https://docs.docker.com/compose/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docker-compose</a> installed on your machine.</p>\n</blockquote>\n<p>Want to get up and running quickly? Follow these steps:</p>\n<ol>\n<li><a href=\"https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Fork this repository</a> to your GitHub account.</li>\n</ol>\n<p>After forking the repository, clone it to your local device by using the following command:</p>\n<pre><code class=\"language-sh\">git clone https://github.com/&lt;your-username&gt;/documenso\n</code></pre>\n<ol start=\"2\">\n<li><p>Set up your <code>.env</code> file using the recommendations in the <code>.env.example</code> file. Alternatively, just run <code>cp .env.example .env</code> to get started with our handpicked defaults.</p>\n</li>\n<li><p>Run <code>npm run dx</code> in the root directory</p>\n<ul>\n<li>This will spin up a postgres database and inbucket mailserver in a docker container.</li>\n</ul>\n</li>\n<li><p>Run <code>npm run dev</code> in the root directory</p>\n</li>\n<li><p>Want it even faster? Just use</p>\n</li>\n</ol>\n<pre><code class=\"language-sh\">npm run d\n</code></pre>\n<h6>Access Points for Your Application</h6>\n<ol>\n<li><p><strong>App</strong> - <a href=\"http://localhost:3000\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:3000</a></p>\n</li>\n<li><p><strong>Incoming Mail Access</strong> - <a href=\"http://localhost:9000\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:9000</a></p>\n</li>\n<li><p><strong>Database Connection Details</strong></p>\n<ul>\n<li><strong>Port</strong>: 54320</li>\n<li><strong>Connection</strong>: Use your favorite database client to connect using the provided port.</li>\n</ul>\n</li>\n</ol>",
+    "truncated": false,
+    "chars": 1267
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 23,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:18.174Z",
+  "checked_at": "2026-11-17T02:19:39.473Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:39.473Z"
+}

@@ -1,0 +1,90 @@
+{
+ "id": "punkpeye/awesome-mcp-servers",
+ "github_id": 896335270,
+ "node_id": "R_kgDONWz9pg",
+ "full_name": "punkpeye/awesome-mcp-servers",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:56.641Z",
+ "meta": {
+  "name": "awesome-mcp-servers",
+  "owner": "punkpeye",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/108313943?v=4",
+  "description": "A collection of MCP servers.",
+  "homepage": "https://glama.ai/mcp/servers",
+  "html_url": "https://github.com/punkpeye/awesome-mcp-servers",
+  "default_branch": "main",
+  "language": null,
+  "languages": null,
+  "topics": [
+   "ai",
+   "mcp"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 97772,
+  "forks": 20143,
+  "watchers": null,
+  "open_issues": 4856,
+  "open_prs": null,
+  "created_at": "2024-11-30T04:49:10Z",
+  "pushed_at": "2026-11-17T02:18:01Z",
+  "updated_at": "2026-11-17T02:09:27Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": false,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 611893,
+  "og_image": "https://opengraph.githubassets.com/1/punkpeye/awesome-mcp-servers",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T02:18:01.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 1693767,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "wxCCzo9dGj0",
+    "url": "https://www.youtube.com/watch?v=wxCCzo9dGj0"
+   }
+  ],
+  "sections": {
+   "install": null,
+   "usage": {
+    "title": "Tutorials",
+    "html": "<ul>\n<li><a href=\"https://github.com/glama-ai/tool-definition-quality-score\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Tool Definition Quality Score (TDQS)</a></li>\n<li><a href=\"https://glama.ai/blog/2024-11-25-model-context-protocol-quickstart\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Model Context Protocol (MCP) Quickstart</a></li>\n<li><a href=\"https://youtu.be/wxCCzo9dGj0\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Setup Claude Desktop App to Use a SQLite Database</a></li>\n</ul>",
+    "truncated": false,
+    "chars": 299
+   },
+   "features": null
+  },
+  "headings": 71,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:19.298Z",
+  "checked_at": "2026-11-17T02:20:19.298Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:19.298Z"
+}

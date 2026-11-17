@@ -1,0 +1,94 @@
+{
+ "id": "visioncortex/vtracer",
+ "github_id": 306524806,
+ "node_id": "MDEwOlJlcG9zaXRvcnkzMDY1MjQ4MDY=",
+ "full_name": "visioncortex/vtracer",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "vtracer",
+  "owner": "visioncortex",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/72055406?v=4",
+  "description": "Raster to Vector Graphics Converter",
+  "homepage": "https://www.visioncortex.org/vtracer/",
+  "html_url": "https://github.com/visioncortex/vtracer",
+  "default_branch": "master",
+  "language": "Rust",
+  "languages": null,
+  "topics": [
+   "image-procesing",
+   "rust",
+   "svg",
+   "vector-graphics"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 7547,
+  "forks": 517,
+  "watchers": null,
+  "open_issues": 14,
+  "open_prs": null,
+  "created_at": "2020-10-23T03:58:35Z",
+  "pushed_at": "2026-11-13T11:18:17Z",
+  "updated_at": "2026-11-16T23:16:31Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": false,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 41125,
+  "og_image": "https://opengraph.githubassets.com/1/visioncortex/vtracer",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-13T11:18:15.000Z",
+  "commits_90d": 32,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "1.0.0-alpha.4",
+  "name": "1.0.0-alpha.4",
+  "published_at": "2026-11-13T10:49:01Z",
+  "url": "https://github.com/visioncortex/vtracer/releases/tag/1.0.0-alpha.4",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 11864,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": null,
+   "usage": {
+    "title": "Usage",
+    "html": "<pre><code class=\"language-sh\"># simplest form\n./vtracer input.jpg output.svg\n\n# black &amp; white line art\n./vtracer input.jpg output.svg --preset bw\n\n# scanned/photographed line art with uneven lighting\n./vtracer scan.jpg output.svg --clustering bw --adaptive\n\n# seam-free mosaic (gapless tessellation)\n./vtracer input.jpg output.svg --hierarchical cutout\n\n# watershed region forming, cut to taste\n./vtracer photo.jpg output.svg --clustering watershed --watershed-detail 192\n\n# constrain to a fixed palette\n./vtracer input.jpg output.svg --palette '#1b1b1b,#e0c088,#5a7d3c,#8fb0d0'\n</code></pre>\n<p>Full options:</p>\n<pre><code class=\"language-sh\">Usage: vtracer [OPTIONS] [INPUT] [OUTPUT]\n\nArguments:\n  [INPUT]   Input raster image (positional; or use --input)\n  [OUTPUT]  Output SVG (positional; or use --output)\n\nOptions:\n  -i, --input &lt;INPUT&gt;                        Path to the input raster image\n  -o, --output &lt;OUTPUT&gt;                      Path to the output SVG\n      --preset &lt;PRESET&gt;                      Start from a preset: bw, poster, photo\n      --clustering &lt;CLUSTERING&gt;              Region forming: `color-cluster` (default), `bw`, `watershed`\n      --hierarchical &lt;HIERARCHICAL&gt;          Clustering: `stacked` (default) or `cutout` (seam-free mosaic)\n  -m, --mode &lt;MODE&gt;                          Curve-fitting mode: `pixel`, `polygon`, `spline`\n  -f, --filter-speckle &lt;FILTER_SPECKLE&gt;      Discard patches smaller than X px in size (0..=128)\n  -p, --color-precision &lt;COLOR_PRECISION&gt;    Significant bits per RGB channel (1..=8)\n  -g, --gradient-step &lt;GRADIENT_STEP&gt;        Color difference between gradient layers (0..=255)\n      --simplify &lt;TOLERANCE&gt;                 Simplify curves: fewest cubics within this tolerance in px (try 1–2.5)\n      --path-precision &lt;PATH_PRECISION&gt;      Decimal places to use in path coordinates\n      --palette &lt;PALETTE&gt;                    Fixed palette: comma-separated hex colors, e.g. '#112233,#445566'\n      --palette-file &lt;PALETTE_FILE&gt;          Fixed palette from a file (hex colors, comma/newline separated)\n      --max-colors &lt;MAX_COLORS&gt;              Auto-quantize to at most N colors\n      --optimize &lt;OPTIMIZE&gt;                  Output optimization: 0 = off, 1 = quantize+cleanup, 2 = + shorthands\n      --threshold &lt;THRESHOLD&gt;                Binary mode: fixed threshold 0..=255 (foreground below it)\n      --adaptive                             Binary mode: Bradley–Roth adaptive threshold (uneven lighting)\n      --adaptive-window &lt;ADAPTIVE_WINDOW&gt;    Adaptive window size in px (0 = auto); implies --adaptive\n      --adaptive-t &lt;ADAPTIVE_T&gt;              Adaptive sensitivity: % below local mean (default 15)\n      --watershed-detail &lt;WATERSHED_DETAIL&gt;  Watershed: hierarchy cut level (default 128; higher = more regions, uncapped)\n  -h, --help                                 Print help\n  -V, --version                              Print version\n</code></pre>\n<p>The spline fine-tuning flags <code>--corner-threshold &lt;0..=180&gt;</code>,\n<code>--segment-length &lt;3.5..=10&gt;</code>, and <code>--splice-threshold &lt;0..=180&gt;</code> are still\naccepted but hidden from <code>--help</code>: their defaults (60 / 4 / 45) serve\nvirtually every conversion, and <code>--simplify</code> is the knob that actually moves\noutput size and smoothness.</p>",
+    "truncated": false,
+    "chars": 3161
+   },
+   "features": null
+  },
+  "headings": 11,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:40.811Z",
+  "checked_at": "2026-11-16T05:08:40.811Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:24.366Z",
+ "contributors": null
+}

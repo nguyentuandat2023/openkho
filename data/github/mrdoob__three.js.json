@@ -1,0 +1,102 @@
+{
+ "id": "mrdoob/three.js",
+ "github_id": 576201,
+ "node_id": "MDEwOlJlcG9zaXRvcnk1NzYyMDE=",
+ "full_name": "mrdoob/three.js",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "three.js",
+  "owner": "mrdoob",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/97088?v=4",
+  "description": "JavaScript 3D Library.",
+  "homepage": "https://threejs.org/",
+  "html_url": "https://github.com/mrdoob/three.js",
+  "default_branch": "dev",
+  "language": "JavaScript",
+  "languages": null,
+  "topics": [
+   "3d",
+   "augmented-reality",
+   "canvas",
+   "html5",
+   "javascript",
+   "svg",
+   "virtual-reality",
+   "webaudio",
+   "webgl",
+   "webgl2",
+   "webgpu",
+   "webxr"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 118666,
+  "forks": 37012,
+  "watchers": null,
+  "open_issues": 394,
+  "open_prs": null,
+  "created_at": "2010-03-23T18:58:01Z",
+  "pushed_at": "2026-11-16T22:50:58Z",
+  "updated_at": "2026-11-17T02:14:33Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 1704572,
+  "og_image": "https://opengraph.githubassets.com/1/mrdoob/three.js",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T22:50:58.000Z",
+  "commits_90d": 1087,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "r187",
+  "name": "r187",
+  "published_at": "2026-10-30T08:03:18Z",
+  "url": "https://github.com/mrdoob/three.js/releases/tag/r187",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 2969,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": null,
+   "usage": {
+    "title": "Usage",
+    "html": "<p>This code creates a scene, a camera, and a geometric cube, and it adds the cube to the scene. It then creates a <code>WebGL</code> renderer for the scene and camera, and it adds that viewport to the <code>document.body</code> element. Finally, it animates the cube within the scene for the camera.</p>\n<pre><code class=\"language-javascript\">import * as THREE from 'three';\n\nconst width = window.innerWidth, height = window.innerHeight;\n\n// init\n\nconst camera = new THREE.PerspectiveCamera( 70, width / height, 0.01, 10 );\ncamera.position.z = 1;\n\nconst scene = new THREE.Scene();\n\nconst geometry = new THREE.BoxGeometry( 0.2, 0.2, 0.2 );\nconst material = new THREE.MeshNormalMaterial();\n\nconst mesh = new THREE.Mesh( geometry, material );\nscene.add( mesh );\n\nconst renderer = new THREE.WebGLRenderer( { antialias: true } );\nrenderer.setSize( width, height );\nrenderer.setAnimationLoop( animate );\ndocument.body.appendChild( renderer.domElement );\n\n// animation\n\nfunction animate( time ) {\n\n\tmesh.rotation.x = time / 2000;\n\tmesh.rotation.y = time / 1000;\n\n\trenderer.render( scene, camera );\n\n}\n</code></pre>\n<p>If everything goes well, you should see <a href=\"https://jsfiddle.net/w43x5Lgh/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">this</a>.</p>",
+    "truncated": false,
+    "chars": 1130
+   },
+   "features": null
+  },
+  "headings": 5,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:33.247Z",
+  "checked_at": "2026-11-17T02:20:01.709Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:01.709Z"
+}

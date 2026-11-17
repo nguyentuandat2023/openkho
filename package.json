@@ -1,0 +1,54 @@
+{
+  "name": "openkho",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Thư viện tuyển chọn các dự án mã nguồn mở trên GitHub – dữ liệu thật, tự động cập nhật qua GitHub API.",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "node scripts/build-data.mjs && next dev",
+    "build": "node scripts/build-data.mjs && next build && node scripts/postbuild.mjs",
+    "start": "node scripts/serve.mjs",
+    "data": "node scripts/build-data.mjs",
+    "sync": "node scripts/sync.mjs",
+    "validate": "node scripts/validate.mjs",
+    "add": "node scripts/add-repo.mjs",
+    "discover": "node scripts/discover.mjs",
+    "admin": "node scripts/admin/server.mjs",
+    "report": "node scripts/report.mjs",
+    "check-links": "node scripts/check-links.mjs",
+    "db:sql": "node scripts/db/export-sql.mjs",
+    "db:load": "node scripts/db/load-postgres.mjs",
+    "test": "node --test scripts/test/",
+    "test:db": "node scripts/db/test-pglite.mjs",
+    "test:e2e": "node scripts/e2e/run.mjs",
+    "jobs": "node scripts/scheduler/cli.mjs",
+    "scheduler": "node scripts/scheduler/daemon.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "lucide-react": "^1.73.0",
+    "minisearch": "7.2.0",
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "0.5.16",
+    "@tailwindcss/postcss": "4.3.5",
+    "@types/node": "24.19.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "graphql": "17.1.0",
+    "marked": "18.2.0",
+    "pg": "8.23.1",
+    "playwright-core": "1.65.1",
+    "sanitize-html": "2.18.2",
+    "tailwindcss": "4.3.5",
+    "typescript": "5.9.3",
+    "yaml": "2.9.1"
+  }
+}

@@ -1,0 +1,106 @@
+{
+ "id": "ace-step/ACE-Step-1.5",
+ "github_id": 1050131556,
+ "node_id": "R_kgDOPpe8ZA",
+ "full_name": "ace-step/ACE-Step-1.5",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "ACE-Step-1.5",
+  "owner": "ace-step",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/209436471?v=4",
+  "description": "The most powerful local music generation model that outperforms almost all commercial alternatives, supporting Mac, AMD, Intel, and CUDA devices.",
+  "homepage": "https://acemusic.ai/",
+  "html_url": "https://github.com/ace-step/ACE-Step-1.5",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "text2music"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 14861,
+  "forks": 1973,
+  "watchers": null,
+  "open_issues": 169,
+  "open_prs": null,
+  "created_at": "2025-09-04T02:00:07Z",
+  "pushed_at": "2026-11-08T16:58:40Z",
+  "updated_at": "2026-11-17T01:41:41Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 14289,
+  "og_image": "https://opengraph.githubassets.com/1/ace-step/ACE-Step-1.5",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-08-29T08:25:18.000Z",
+  "commits_90d": 11,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.1.8",
+  "name": "v0.1.8",
+  "published_at": "2026-05-18T14:04:34Z",
+  "url": "https://github.com/ace-step/ACE-Step-1.5/releases/tag/v0.1.8",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 19785,
+  "cjk_ratio": 0.01,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<blockquote>\n<p>🎵 <strong>Don't want to install locally? Try <a href=\"https://acemusic.ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">acemusic.ai</a> — 100% free, no GPU required!</strong></p>\n</blockquote>\n<blockquote>\n<p><strong>Requirements:</strong> Python 3.11-3.12, CUDA GPU recommended (also supports MPS / ROCm / Intel XPU / CPU)</p>\n<p><strong>Note:</strong> ROCm on Windows requires Python 3.12 (AMD officially provides Python 3.12 wheels only)</p>\n</blockquote>\n<pre><code class=\"language-bash\"># 1. Install uv\ncurl -LsSf https://astral.sh/uv/install.sh | sh          # macOS / Linux\n# powershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"  # Windows\n\n# 2. Clone &amp; install\ngit clone https://github.com/ACE-Step/ACE-Step-1.5.git\ncd ACE-Step-1.5\nuv sync\n\n# 3. Launch Gradio UI (models auto-download on first run)\nuv run acestep\n\n# Or launch REST API server\nuv run acestep-api\n</code></pre>\n<p>Open <a href=\"http://localhost:7860\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:7860</a> (Gradio) or <a href=\"http://localhost:8001\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:8001</a> (API).</p>\n<blockquote>\n<p>📦 <strong>Windows users:</strong> A <a href=\"https://files.acemusic.ai/acemusic/win/ACE-Step-1.5.7z\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">portable package</a> with pre-installed dependencies is available. See <a href=\"https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/INSTALL.md#-windows-portable-package\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Installation Guide</a>.</p>\n</blockquote>\n<blockquote>\n<p>📦 <strong>MacOS users:</strong> A <a href=\"https://files.acemusic.ai/acemusic/mac/ACE-Step-1.5.zip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">portable package</a> with pre-installed dependencies is available. See <a href=\"https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/INSTALL.md#-macos-portable-package\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Installation Guide</a>.</p>\n</blockquote>\n<blockquote>\n<p>📖 <strong>Full installation guide</strong> (AMD/ROCm, Intel GPU, CPU, environment variables, command-line options): <a href=\"https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/INSTALL.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">English</a> | <a href=\"https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/zh/INSTALL.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">中文</a> | <a href=\"https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/ja/INSTALL.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">日本語</a></p>\n</blockquote>\n<h5>💡 Which Model Should I Choose?</h5>\n<table>\n<thead>\n<tr>\n<th>Your GPU VRAM</th>\n<th>Recommended DiT</th>\n<th>Recommended LM Model</th>\n<th>Backend</th>\n<th>Notes</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><strong>≤6GB</strong></td>\n<td>2B turbo</td>\n<td>None (DiT only)</td>\n<td>—</td>\n<td>LM disabled by default; INT8 quantization + full CPU offload</td>\n</tr>\n<tr>\n<td><strong>6-8GB</strong></td>\n<td>2B turbo</td>\n<td><code>acestep-5Hz-lm-0.6B</code></td>\n<td><code>pt</code></td>\n<td>Lightweight LM with PyTorch backend</td>\n</tr>\n<tr>\n<td><strong>8-16GB</strong></td>\n<td>2B turbo/sft</td>\n<td><code>acestep-5Hz-lm-0.6B</code> / <code>1.7B</code></td>\n<td><code>vllm</code></td>\n<td>0.6B for 8-12GB, 1.7B for 12-16GB</td>\n</tr>\n<tr>\n<td><strong>16-20GB</strong></td>\n<td>2B sft or XL turbo</td>\n<td><code>acestep-5Hz-lm-1.7B</code></td>\n<td><code>vllm</code></td>\n<td>XL requires CPU offload below 20GB</td>\n</tr>\n<tr>\n<td><strong>20-24GB</strong></td>\n<td>XL turbo/sft</td>\n<td><code>acestep-5Hz-lm-1.7B</code></td>\n<td><code>vllm</code></td>\n<td>XL fits without offload; 4B LM available</td>\n</tr>\n<tr>\n<td><strong>≥24GB</strong></td>\n<td>XL sft (or xl-base for extract/lego/complete)</td>\n<td><code>acestep-5Hz-lm-4B</code></td>\n<td><code>vllm</code></td>\n<td>Best quality, all models fit without offload</td>\n</tr>\n</tbody></table>\n<blockquote>\n<p><strong>XL (4B) models</strong> (<code>acestep-v15-xl-*</code>) offer higher audio quality with ~9GB VRAM for weights (vs ~4.7GB for 2B). They require ≥12GB VRAM (with offload + quantization) or ≥20GB (without offload). All LM models are fully compatible with XL.</p>\n</blockquote>\n<p>The UI automatically selects the best configuration for your GPU. All settings (LM model, backend, offloading, quantization) are tier-aware and pre-configured.</p>\n<blockquote>\n<p>📖 GPU compatibility details: <a href=\"https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/GPU_COMPATIBILITY.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">English</a> | <a href=\"https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/zh/GPU_COMPATIBILITY.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">中文</a> | <a href=\"https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/ja/GPU_COMPATIBILITY.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">日本語</a> | <a href=\"https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/ko/GPU_COMPATIBILITY.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">한국어</a></p>\n</blockquote>",
+    "truncated": false,
+    "chars": 2901
+   },
+   "usage": {
+    "title": "Usage Guides",
+    "html": "<table>\n<thead>\n<tr>\n<th>Method</th>\n<th>Description</th>\n<th>Documentation</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>🖥️ <strong>Gradio Web UI</strong></td>\n<td>Interactive web interface for music generation</td>\n<td><a href=\"https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/GRADIO_GUIDE.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Guide</a></td>\n</tr>\n<tr>\n<td>🧭 <strong>UI Support Baseline</strong></td>\n<td>Supported UI boundary and future UI parity checklist</td>\n<td><a href=\"https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/UI_SUPPORT.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Guide</a></td>\n</tr>\n<tr>\n<td>🎛️ <strong>VST3 Plugin</strong></td>\n<td>Standalone VST3 plugin (C++/GGML) for DAW integration</td>\n<td><a href=\"https://github.com/ace-step/acestep.vst3\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">acestep.vst3</a></td>\n</tr>\n<tr>\n<td>🐍 <strong>Python API</strong></td>\n<td>Programmatic access for integration</td>\n<td><a href=\"https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/INFERENCE.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Guide</a></td>\n</tr>\n<tr>\n<td>🌐 <strong>REST API</strong></td>\n<td>HTTP-based async API for services</td>\n<td><a href=\"https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/API.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Guide</a></td>\n</tr>\n<tr>\n<td>⌨️ <strong>CLI</strong></td>\n<td>Interactive wizard and configuration</td>\n<td><a href=\"https://github.com/ace-step/ACE-Step-1.5/blob/main/docs/en/CLI.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Guide</a></td>\n</tr>\n</tbody></table>",
+    "truncated": false,
+    "chars": 717
+   },
+   "features": {
+    "title": "Features",
+    "html": "<p>\n    <img src=\"https://raw.githubusercontent.com/ace-step/ACE-Step-1.5/main/assets/application_map.png\" alt=\"ACE-Step Framework\" loading=\"lazy\" decoding=\"async\" width=\"100%\" />\n</p><h5>⚡ Performance</h5>\n<ul>\n<li>✅ <strong>Ultra-Fast Generation</strong> — Under 2s per full song on A100, under 10s on RTX 3090 (0.5s to 10s on A100 depending on think mode &amp; diffusion steps)</li>\n<li>✅ <strong>Flexible Duration</strong> — Supports 10 seconds to 10 minutes (600s) audio generation</li>\n<li>✅ <strong>Batch Generation</strong> — Generate up to 8 songs simultaneously</li>\n</ul>\n<h5>🎵 Generation Quality</h5>\n<ul>\n<li>✅ <strong>Commercial-Grade Output</strong> — Quality beyond most commercial music models (between Suno v4.5 and Suno v5)</li>\n<li>✅ <strong>Rich Style Support</strong> — 1000+ instruments and styles with fine-grained timbre description</li>\n<li>✅ <strong>Multi-Language Lyrics</strong> — Supports 50+ languages with lyrics prompt for structure &amp; style control</li>\n</ul>\n<h5>🎛️ Versatility &amp; Control</h5>\n<table>\n<thead>\n<tr>\n<th>Feature</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>✅ Reference Audio Input</td>\n<td>Use reference audio to guide generation style</td>\n</tr>\n<tr>\n<td>✅ Cover Generation</td>\n<td>Create covers from existing audio</td>\n</tr>\n<tr>\n<td>✅ Repaint &amp; Edit</td>\n<td>Selective local audio editing and regeneration</td>\n</tr>\n<tr>\n<td>✅ Track Separation</td>\n<td>Separate audio into individual stems</td>\n</tr>\n<tr>\n<td>✅ Multi-Track Generation</td>\n<td>Add layers like Suno Studio's \"Add Layer\" feature</td>\n</tr>\n<tr>\n<td>✅ Vocal2BGM</td>\n<td>Auto-generate accompaniment for vocal tracks</td>\n</tr>\n<tr>\n<td>✅ Metadata Control</td>\n<td>Control duration, BPM, key/scale, time signature</td>\n</tr>\n<tr>\n<td>✅ Simple Mode</td>\n<td>Generate full songs from simple descriptions</td>\n</tr>\n<tr>\n<td>✅ Query Rewriting</td>\n<td>Auto LM expansion of tags and lyrics</td>\n</tr>\n<tr>\n<td>✅ Audio Understanding</td>\n<td>Extract BPM, key/scale, time signature &amp; caption from audio</td>\n</tr>\n<tr>\n<td>✅ LRC Generation</td>\n<td>Auto-generate lyric timestamps for generated music</td>\n</tr>\n<tr>\n<td>✅ LoRA Training</td>\n<td>One-click annotation &amp; training in Gradio. 8 songs, 1 hour on 3090 (12GB VRAM)</td>\n</tr>\n<tr>\n<td>✅ Quality Scoring</td>\n<td>Automatic quality assessment for generated audio</td>\n</tr>\n</tbody></table>",
+    "truncated": false,
+    "chars": 1797
+   }
+  },
+  "headings": 29,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:35.676Z",
+  "checked_at": "2026-11-16T04:33:35.676Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:13.194Z",
+ "contributors": {
+  "count": 85,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:24.439Z"
+ }
+}

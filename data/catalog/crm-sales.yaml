@@ -1,0 +1,175 @@
+# Danh mục: CRM & Sales Automation — xem cấu trúc trường trong data/README.md
+- repo: twentyhq/twenty
+  tags: [crm, salesforce-alternative, pipeline]
+  summary: "CRM mã nguồn mở hiện đại thay Salesforce: quản lý khách hàng, cơ hội bán hàng, quy trình tự động — giao diện gọn đẹp như Notion."
+  use_cases: ["Quản lý pipeline bán hàng B2B", "Lưu lịch sử chăm sóc khách hàng", "Kết nối n8n để tự động hóa"]
+  pros: ["Giao diện hiện đại, dễ làm quen", "Tùy biến đối tượng và trường dữ liệu linh hoạt", "Có API, webhook"]
+  cons: ["Còn trẻ — ít tích hợp sẵn hơn Salesforce/HubSpot", "Tự host cần Docker và PostgreSQL"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  license_note: "AGPL-3.0 cho phần lớn mã; một số tính năng doanh nghiệp có giấy phép thương mại (GitHub hiển thị NOASSERTION)."
+  applicability: 5
+  featured: true
+  license_override:
+    spdx: AGPL-3.0
+    name: AGPL-3.0 + giấy phép thương mại (ee)
+- repo: odoo/odoo
+  also: [ecommerce]
+  tags: [erp, crm, accounting, inventory]
+  summary: "Bộ phần mềm quản trị doanh nghiệp (ERP) với CRM, bán hàng, kho, kế toán, website, POS… — phổ biến với doanh nghiệp Việt Nam."
+  use_cases: ["Quản lý bán hàng – kho – kế toán thống nhất", "CRM và báo giá", "Website bán hàng gắn tồn kho"]
+  pros: ["Hàng chục ứng dụng tích hợp trong một hệ thống", "Nhiều đối tác triển khai tại Việt Nam", "Có module bản địa hóa kế toán Việt Nam"]
+  cons: ["Triển khai phức tạp, thường cần đối tác tư vấn", "Nhiều tính năng hay nằm ở bản Enterprise trả phí"]
+  platforms: [linux, docker, windows]
+  deploy: [self-host, cloud]
+  difficulty: hard
+  pricing: freemium
+  needs_api_key: none
+  license_note: "Odoo Community: LGPL-3.0; Odoo Enterprise là bản trả phí với nhiều module bổ sung (GitHub hiển thị NOASSERTION)."
+  applicability: 5
+  featured: true
+  license_override:
+    spdx: LGPL-3.0
+    name: LGPL-3.0 (Community) – Enterprise trả phí
+- repo: chatwoot/chatwoot
+  tags: [customer-support, omnichannel, live-chat]
+  summary: "Hộp thư chăm sóc khách hàng đa kênh: gom chat website, Facebook Messenger, Instagram, WhatsApp, Telegram, email về một nơi, có trợ lý AI."
+  use_cases: ["Đội CSKH trả lời mọi kênh trong một màn hình", "Chat trực tuyến trên website", "Chatbot AI trả lời câu hỏi thường gặp"]
+  pros: ["Hộp thư chung cho cả đội", "Có AI hỗ trợ trả lời", "Báo cáo hiệu suất nhân viên"]
+  cons: ["Chưa có kênh Zalo chính thức (cần tự tích hợp qua API)", "Tự host cần máy chủ Linux và Docker"]
+  platforms: [docker, linux]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  license_note: "Lõi MIT; tính năng enterprise có giấy phép riêng (GitHub hiển thị NOASSERTION)."
+  applicability: 5
+  featured: true
+  license_override:
+    spdx: MIT
+    name: MIT + giấy phép enterprise (ee)
+- repo: frappe/erpnext
+  tags: [erp, accounting, manufacturing]
+  summary: "ERP mã nguồn mở toàn diện (Frappe): kế toán, kho, sản xuất, bán hàng, nhân sự — không khóa tính năng sau bức tường trả phí."
+  use_cases: ["ERP cho doanh nghiệp sản xuất, phân phối"]
+  platforms: [docker, linux]
+  deploy: [self-host, cloud]
+  difficulty: hard
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: krayin/laravel-crm
+  tags: [crm, laravel, sme]
+  summary: "CRM Laravel mã nguồn mở cho SME: quản lý lead, pipeline bán hàng, email, báo giá."
+  use_cases: ["CRM gọn nhẹ cho đội sales nhỏ"]
+  platforms: [docker, linux]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: calcom/cal.diy
+  tags: [scheduling, calendly-alternative, booking]
+  summary: "Hạ tầng đặt lịch hẹn mã nguồn mở thay Calendly: trang đặt lịch, đồng bộ Google/Outlook Calendar, thanh toán, quy trình tự động."
+  use_cases: ["Khách tự đặt lịch tư vấn/demo", "Lịch hẹn cho đội sales"]
+  platforms: [docker, web]
+  deploy: [cloud, self-host]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: docusealco/docuseal
+  tags: [e-signature, docusign-alternative, pdf]
+  summary: "Ký hợp đồng điện tử tự host thay DocuSign: tạo mẫu PDF có trường ký, gửi ký qua email, lưu vết."
+  use_cases: ["Ký hợp đồng đại lý, cộng tác viên", "Xác nhận báo giá"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  note: "Giá trị pháp lý của chữ ký điện tử phụ thuộc quy định tại Việt Nam — hợp đồng quan trọng nên dùng chữ ký số do tổ chức được cấp phép cung cấp."
+  applicability: 4
+- repo: documenso/documenso
+  tags: [e-signature, docusign-alternative]
+  summary: "Nền tảng ký tài liệu điện tử mã nguồn mở thay DocuSign, minh bạch và tự host được."
+  use_cases: ["Ký tài liệu nội bộ, thỏa thuận"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  note: "Giá trị pháp lý của chữ ký điện tử phụ thuộc quy định tại Việt Nam — hợp đồng quan trọng nên dùng chữ ký số do tổ chức được cấp phép cung cấp."
+  applicability: 4
+- repo: Dolibarr/dolibarr
+  tags: [erp, crm, invoicing, sme]
+  summary: "ERP/CRM mã nguồn mở gọn nhẹ cho doanh nghiệp nhỏ và hộ kinh doanh: khách hàng, báo giá, hóa đơn, kho, nhân sự."
+  use_cases: ["Quản lý báo giá – hóa đơn – khách hàng", "Kho hàng đơn giản"]
+  platforms: [web, windows, linux, docker]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: SuiteCRM/SuiteCRM
+  tags: [crm, enterprise, php]
+  summary: "CRM mã nguồn mở lâu đời (nhánh từ SugarCRM) với đầy đủ tính năng bán hàng, marketing, chăm sóc khách hàng."
+  use_cases: ["CRM cho doanh nghiệp cần nhiều module"]
+  platforms: [web, linux]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: espocrm/espocrm
+  tags: [crm, php, customizable]
+  summary: "CRM web gọn nhẹ, dễ tùy biến: quản lý liên hệ, cơ hội, chiến dịch email, lịch."
+  use_cases: ["CRM tùy biến cho ngành dịch vụ"]
+  platforms: [web, linux, docker]
+  deploy: [self-host, cloud]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+- repo: frappe/crm
+  tags: [crm, modern, whatsapp]
+  summary: "CRM hiện đại, đơn giản của Frappe (nhà phát triển ERPNext), tích hợp WhatsApp và tổng đài."
+  use_cases: ["CRM cho đội bán hàng qua điện thoại/WhatsApp"]
+  platforms: [docker, linux]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+- repo: zammad/zammad
+  tags: [helpdesk, ticketing, support]
+  summary: "Hệ thống helpdesk/ticket hỗ trợ khách hàng qua email, chat, điện thoại, mạng xã hội."
+  use_cases: ["Quản lý yêu cầu bảo hành, khiếu nại"]
+  platforms: [docker, linux]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+- repo: freescout-help-desk/freescout
+  tags: [helpdesk, shared-inbox, php]
+  summary: "Helpdesk và hộp thư chung (shared inbox) nhẹ thay Help Scout/Zendesk, chạy được trên hosting PHP phổ thông."
+  use_cases: ["Hộp thư CSKH chung cho cả đội"]
+  platforms: [web, linux, docker]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: monicahq/monica
+  tags: [personal-crm, relationships]
+  summary: "CRM cá nhân: ghi nhớ thông tin, sự kiện, ngày quan trọng của người thân, đối tác — chăm sóc mối quan hệ chu đáo hơn."
+  use_cases: ["Quản lý quan hệ đối tác, khách hàng thân thiết"]
+  platforms: [docker, web]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3

@@ -1,0 +1,174 @@
+# Danh mục: Graphic Design & Creative Tools — xem cấu trúc trường trong data/README.md
+- repo: penpot/penpot
+  tags: [ui-design, prototyping, figma-alternative]
+  summary: "Công cụ thiết kế giao diện và prototype mã nguồn mở thay Figma — chạy trên trình duyệt, tự host được, xuất CSS/SVG chuẩn web."
+  use_cases: ["Thiết kế giao diện web/app", "Mockup landing page, banner", "Thư viện thiết kế (design system) cho đội nhóm"]
+  pros: ["Dùng chuẩn mở SVG, CSS — bàn giao cho dev dễ", "Cộng tác thời gian thực", "Tự host được cho dữ liệu nội bộ"]
+  cons: ["File rất lớn chạy chậm hơn Figma", "Ít plugin hơn Figma"]
+  platforms: [web, docker]
+  deploy: [cloud, self-host]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  applicability: 5
+  featured: true
+- repo: excalidraw/excalidraw
+  tags: [whiteboard, diagrams, collaboration]
+  summary: "Bảng trắng vẽ tay trực tuyến: phác sơ đồ, wireframe, ý tưởng — cộng tác thời gian thực, mã hóa đầu-cuối."
+  use_cases: ["Brainstorm chiến dịch", "Vẽ sơ đồ quy trình nhanh"]
+  platforms: [web, docker]
+  deploy: [cloud, self-host, library]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: jgraph/drawio-desktop
+  tags: [diagrams, flowchart, offline]
+  summary: "Ứng dụng vẽ sơ đồ draw.io bản desktop: lưu đồ, sơ đồ tổ chức, kiến trúc hệ thống, mindmap — chạy offline."
+  use_cases: ["Sơ đồ quy trình bán hàng", "Sơ đồ tổ chức, hành trình khách hàng"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: blender/blender
+  also: [video-media]
+  tags: [3d, animation, rendering, vfx]
+  summary: "Bộ phần mềm 3D toàn diện miễn phí: dựng hình, điêu khắc, diễn hoạt, render, VFX, dựng video — dùng trong phim và quảng cáo."
+  use_cases: ["Render 3D sản phẩm", "Video quảng cáo 3D, motion graphics"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  license_note: "GPL (GitHub hiển thị NOASSERTION)."
+  note: "Kho GitHub là bản mirror; phát triển chính tại projects.blender.org."
+  applicability: 4
+  license_override:
+    spdx: GPL-3.0
+    name: GPL-3.0-or-later
+- repo: GNOME/gimp
+  tags: [photo-editing, photoshop-alternative, raster]
+  summary: "Phần mềm chỉnh sửa ảnh miễn phí thay Photoshop: layer, mặt nạ, bộ lọc, chỉnh màu — GIMP 3 có chỉnh sửa không phá hủy."
+  use_cases: ["Chỉnh ảnh sản phẩm", "Thiết kế ảnh mạng xã hội"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  note: "Kho GitHub là bản mirror; phát triển chính tại gitlab.gnome.org."
+  applicability: 4
+  license_override:
+    spdx: GPL-3.0
+    name: GPL-3.0-or-later
+- repo: KDE/krita
+  tags: [digital-painting, illustration, animation]
+  summary: "Phần mềm vẽ kỹ thuật số chuyên nghiệp cho họa sĩ minh họa, truyện tranh, concept art — bộ cọ phong phú, diễn hoạt 2D."
+  use_cases: ["Minh họa cho chiến dịch", "Truyện tranh, sticker thương hiệu"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  note: "Kho GitHub là bản mirror; phát triển chính tại invent.kde.org."
+  applicability: 4
+- repo: darktable-org/darktable
+  tags: [raw-photo, lightroom-alternative, photography]
+  summary: "Phần mềm xử lý ảnh RAW và quản lý thư viện ảnh thay Adobe Lightroom."
+  use_cases: ["Hậu kỳ ảnh chụp sản phẩm, sự kiện"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: GraphiteEditor/Graphite
+  tags: [vector, raster, node-based]
+  summary: "Trình chỉnh sửa đồ họa vector và raster thế hệ mới dựa trên node, chạy trên trình duyệt (đang ở giai đoạn alpha)."
+  use_cases: ["Thử nghiệm thiết kế đồ họa thủ tục"]
+  platforms: [web]
+  deploy: [cloud, desktop]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: FreeCAD/FreeCAD
+  tags: [cad, 3d-modeling, parametric]
+  summary: "Phần mềm thiết kế CAD 3D tham số miễn phí: thiết kế sản phẩm, cơ khí, bao bì, kiến trúc."
+  use_cases: ["Thiết kế bao bì, kệ trưng bày", "Mô hình sản phẩm để in 3D"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: mrdoob/three.js
+  also: [web-dev]
+  tags: [3d, webgl, javascript]
+  summary: "Thư viện JavaScript 3D phổ biến nhất cho web: hiển thị sản phẩm 3D, trải nghiệm tương tác trên website."
+  use_cases: ["Xem sản phẩm 3D xoay 360° trên web", "Landing page tương tác"]
+  platforms: [web]
+  deploy: [library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: visioncortex/vtracer
+  tags: [vectorization, svg, logo]
+  summary: "Chuyển ảnh bitmap (JPG/PNG) thành vector SVG — hữu ích để vector hóa logo, hình minh họa; có bản web và dòng lệnh."
+  use_cases: ["Vector hóa logo cũ để in ấn", "Chuyển hình minh họa sang SVG"]
+  platforms: [windows, macos, linux, web]
+  deploy: [cli, library]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: lucide-icons/lucide
+  tags: [icons, svg, react]
+  summary: "Bộ biểu tượng mã nguồn mở đẹp, đồng nhất với hơn 1.500 icon, có gói cho React, Vue, Figma…"
+  use_cases: ["Icon cho website, slide, ấn phẩm"]
+  platforms: [web]
+  deploy: [library, content]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  license_note: "Giấy phép ISC (tương tự MIT)."
+  applicability: 3
+  license_override:
+    spdx: ISC
+    name: ISC
+- repo: tabler/tabler-icons
+  tags: [icons, svg, mit]
+  summary: "Hơn 5.000 icon SVG miễn phí (MIT) cho web và thiết kế, có kiểu nét và kiểu tô."
+  use_cases: ["Icon cho thiết kế giao diện, ấn phẩm"]
+  platforms: [web]
+  deploy: [library, content]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: simple-icons/simple-icons
+  tags: [icons, brand-logos, svg]
+  summary: "Hơn 3.000 biểu tượng SVG của các thương hiệu nổi tiếng (Facebook, TikTok, YouTube…) cho website."
+  use_cases: ["Nút mạng xã hội trên website", "Logo đối tác, nền tảng"]
+  platforms: [web]
+  deploy: [library, content]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  license_note: "Mã CC0, nhưng biểu tượng là nhãn hiệu của chủ sở hữu — tuân thủ hướng dẫn thương hiệu khi dùng."
+  applicability: 3
+- repo: opentoonz/opentoonz
+  tags: [2d-animation, cartoon]
+  summary: "Phần mềm làm phim hoạt hình 2D chuyên nghiệp — phiên bản mở của Toonz, từng được Studio Ghibli sử dụng."
+  use_cases: ["Video hoạt hình quảng cáo", "Phim hoạt hình ngắn"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+  license_override:
+    spdx: BSD-3-Clause
+    name: BSD-3-Clause (sửa đổi)

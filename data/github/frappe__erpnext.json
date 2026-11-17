@@ -1,0 +1,116 @@
+{
+ "id": "frappe/erpnext",
+ "github_id": 1864233,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxODY0MjMz",
+ "full_name": "frappe/erpnext",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "erpnext",
+  "owner": "frappe",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/836974?v=4",
+  "description": "Free and Open Source Enterprise Resource Planning (ERP)",
+  "homepage": "https://frappe.io/erpnext",
+  "html_url": "https://github.com/frappe/erpnext",
+  "default_branch": "develop",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "accounting",
+   "asset-management",
+   "crm",
+   "distribution",
+   "erp",
+   "erpnext",
+   "frappe",
+   "healthcare",
+   "hrms",
+   "manufacturing",
+   "point-of-sale",
+   "procurement",
+   "project-management",
+   "python",
+   "retail",
+   "support"
+  ],
+  "license": {
+   "spdx": "GPL-3.0",
+   "name": "GNU General Public License v3.0"
+  },
+  "stars": 41357,
+  "forks": 13537,
+  "watchers": null,
+  "open_issues": 2206,
+  "open_prs": null,
+  "created_at": "2011-06-08T08:20:56Z",
+  "pushed_at": "2026-11-17T02:12:59Z",
+  "updated_at": "2026-11-17T01:46:10Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 2058671,
+  "og_image": "https://opengraph.githubassets.com/1/frappe/erpnext",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T00:01:44.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v16.55.0",
+  "name": "v16.55.0",
+  "published_at": "2026-11-12T14:15:47Z",
+  "url": "https://github.com/frappe/erpnext/releases/tag/v16.55.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "assets-version-16-60-nov",
+  "name": "Assets: version-16-60-nov",
+  "published_at": "2026-11-14T20:54:21Z",
+  "url": "https://github.com/frappe/erpnext/releases/tag/assets-version-16-60-nov"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 7438,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Production Setup",
+    "html": "<h5>Managed Hosting</h5>\n<p>You can try <a href=\"https://frappecloud.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Frappe Cloud</a>, a simple, user-friendly, and sophisticated <a href=\"https://github.com/frappe/press\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">open-source</a> platform to host Frappe applications reliably and securely.</p>\n<p>It handles installation, setup, upgrades, monitoring, maintenance, and support of your Frappe deployments. It is a fully featured developer platform with an ability to manage and control multiple Frappe deployments.</p>\n<div>\n\t<a href=\"https://erpnext-demo.frappe.cloud/app/home\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">\n\t\t\n\t\t\t\n\t\t\t<img src=\"https://frappe.io/files/try-on-fc-black.png\" alt=\"Try on Frappe Cloud\" loading=\"lazy\" decoding=\"async\" height=\"28\" />\n\t\t\n\t</a>\n</div><h5>Self-Hosted</h5>\n<h6>Docker</h6>\n<p>See <a href=\"https://github.com/frappe/frappe_docker\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Frappe Docker Documentation</a> for full documentation &amp; FAQ on Docker setup</p>\n<h6>Prerequisites</h6>\n<ul>\n<li><a href=\"https://docs.docker.com/get-docker/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker</a></li>\n<li><a href=\"https://docs.docker.com/compose/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker Compose v2</a></li>\n<li><a href=\"https://docs.github.com/en/get-started/getting-started-with-git/set-up-git\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">git</a></li>\n</ul>\n<blockquote>\n<p>For Docker basics and best practices refer to Docker's <a href=\"https://docs.docker.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">documentation</a></p>\n</blockquote>\n<h5>Try on your environment</h5>\n<blockquote>\n<p><strong>⚠️ Disposable demo only</strong></p>\n<p><strong>This setup is intended for quick evaluation. Expect to throw the environment away.</strong> You will not be able to install custom apps to this setup. For production deployments, custom configurations, and detailed explanations, see the full documentation.</p>\n</blockquote>\n<p>First clone the repo:</p>\n<pre><code class=\"language-sh\">git clone https://github.com/frappe/frappe_docker\ncd frappe_docker\n</code></pre>\n<p>Then run:</p>\n<pre><code class=\"language-sh\">docker compose -f pwd.yml up -d\n</code></pre>\n<p>Wait for a couple of minutes for ERPNext site to be created or check the <code>create-site</code> container logs before opening browser on port <code>8080</code>. (username: <code>Administrator</code>, password: <code>admin</code>)</p>\n<p>See <a href=\"https://github.com/frappe/frappe_docker/blob/main/docs/01-getting-started/03-arm64.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Frappe Docker</a> for ARM based docker setup</p>",
+    "truncated": false,
+    "chars": 2041
+   },
+   "usage": null,
+   "features": {
+    "title": "Key Features",
+    "html": "<ul>\n<li><strong>Accounting</strong>: All the tools you need to manage cash flow in one place, right from recording transactions to summarizing and analyzing financial reports.</li>\n<li><strong>Order Management</strong>: Track inventory levels, replenish stock, and manage sales orders, customers, suppliers, shipments, deliverables, and order fulfillment.</li>\n<li><strong>Manufacturing</strong>: Simplifies the production cycle, helps track material consumption, exhibits capacity planning, handles subcontracting, and more!</li>\n<li><strong>Asset Management</strong>: From purchase to disposal, IT infrastructure to equipment. Covers every branch of your organization, all in one centralized system.</li>\n<li><strong>Projects</strong>: Deliver both internal and external projects on time, budget and profitability. Track tasks, timesheets, and issues by project.</li>\n</ul>\n<details><summary>More</summary>\n\t<img src=\"https://erpnext.com/files/v16_bom.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n\t<img src=\"https://erpnext.com/files/v16_stock_summary.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n\t<img src=\"https://erpnext.com/files/v16_job_card.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n\t<img src=\"https://erpnext.com/files/v16_tasks.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n</details>",
+    "truncated": false,
+    "chars": 1046
+   }
+  },
+  "headings": 16,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:19.215Z",
+  "checked_at": "2026-11-17T02:19:40.040Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:40.040Z"
+}

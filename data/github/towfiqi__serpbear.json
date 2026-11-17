@@ -1,0 +1,100 @@
+{
+ "id": "towfiqi/serpbear",
+ "github_id": 570178488,
+ "node_id": "R_kgDOIfw7uA",
+ "full_name": "towfiqi/serpbear",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:56.641Z",
+ "meta": {
+  "name": "serpbear",
+  "owner": "towfiqi",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1926614?v=4",
+  "description": "Search Engine Position Rank Tracking App",
+  "homepage": "https://docs.serpbear.com/",
+  "html_url": "https://github.com/towfiqi/serpbear",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 2187,
+  "forks": 315,
+  "watchers": null,
+  "open_issues": 79,
+  "open_prs": null,
+  "created_at": "2022-11-24T14:13:07Z",
+  "pushed_at": "2026-10-30T15:57:54Z",
+  "updated_at": "2026-11-16T20:10:59Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 857,
+  "og_image": "https://opengraph.githubassets.com/1/towfiqi/serpbear",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-10-30T15:57:22.000Z",
+  "commits_90d": 6,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v3.1.2",
+  "name": "v3.1.2",
+  "published_at": "2026-10-30T16:38:48Z",
+  "url": "https://github.com/towfiqi/serpbear/releases/tag/v3.1.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 4954,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "bjtDsd0g468",
+    "url": "https://www.youtube.com/watch?v=bjtDsd0g468"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<ul>\n<li><strong>Step 1:</strong> Deploy &amp; Run the App.</li>\n<li><strong>Step 2:</strong> Access your App and Login.</li>\n<li><strong>Step 3:</strong> Add your First domain.</li>\n<li><strong>Step 4:</strong> Get a free API key from ScrapingRobot or select a paid provider (see below) . Skip if you want to use Proxy ips.</li>\n<li><strong>Step 5:</strong> Setup the Scraping API/Proxy from the App's Settings interface.</li>\n<li><strong>Step 6:</strong> Add your keywords and start tracking.</li>\n<li><strong>Step 7:</strong> Optional. From the Settings panel, setup SMTP details to get notified of your keywords positions through email. You can use ElasticEmail and Sendpulse SMTP services that are free.</li>\n</ul>",
+    "truncated": false,
+    "chars": 568
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li><strong>Unlimited Keywords:</strong> Add unlimited domains and unlimited keywords to track their SERP.</li>\n<li><strong>Email Notification:</strong> Get notified of your keyword position changes daily/weekly/monthly through email.</li>\n<li><strong>SERP API:</strong> SerpBear comes with built-in API that you can use for your marketing &amp; data reporting tools.</li>\n<li><strong>Keyword Research:</strong> Ability to research keywords and auto-generate keyword ideas from your tracked website's content by integrating your Google Ads test account.</li>\n<li><strong>Google Search Console Integration:</strong> Get the actual visit count, impressions &amp; more for Each keyword.</li>\n<li><strong>Mobile App:</strong> Add the PWA app to your mobile for a better mobile experience.</li>\n<li><strong>Zero Cost to RUN:</strong> Run the App on mogenius.com or Fly.io for free.</li>\n</ul>",
+    "truncated": false,
+    "chars": 737
+   }
+  },
+  "headings": 6,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:11.841Z",
+  "checked_at": "2026-11-16T05:09:11.841Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:31.394Z",
+ "contributors": null
+}

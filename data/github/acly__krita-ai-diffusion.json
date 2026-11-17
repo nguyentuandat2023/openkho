@@ -1,0 +1,119 @@
+{
+ "id": "Acly/krita-ai-diffusion",
+ "github_id": 686161611,
+ "node_id": "R_kgDOKOX-yw",
+ "full_name": "Acly/krita-ai-diffusion",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.074Z",
+ "meta": {
+  "name": "krita-ai-diffusion",
+  "owner": "Acly",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/6485914?v=4",
+  "description": "Streamlined interface for generating images with AI in Krita. Inpaint and outpaint with optional text prompt, no tweaking required.",
+  "homepage": "https://www.interstice.cloud",
+  "html_url": "https://github.com/Acly/krita-ai-diffusion",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "generative-ai",
+   "krita-plugin",
+   "stable-diffusion"
+  ],
+  "license": {
+   "spdx": "GPL-3.0",
+   "name": "GNU General Public License v3.0"
+  },
+  "stars": 10906,
+  "forks": 665,
+  "watchers": null,
+  "open_issues": 139,
+  "open_prs": null,
+  "created_at": "2023-09-01T22:52:13Z",
+  "pushed_at": "2026-11-06T14:32:51Z",
+  "updated_at": "2026-11-17T01:41:54Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 33505,
+  "og_image": "https://opengraph.githubassets.com/1/Acly/krita-ai-diffusion",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-10-03T10:51:45.000Z",
+  "commits_90d": 21,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.53.0",
+  "name": "Version 1.53.0",
+  "published_at": "2026-08-22T19:38:06Z",
+  "url": "https://github.com/Acly/krita-ai-diffusion/releases/tag/v1.53.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "1.54.0-pre",
+  "name": "1.54.0-pre",
+  "published_at": "2026-10-03T10:40:35Z",
+  "url": "https://github.com/Acly/krita-ai-diffusion/releases/tag/1.54.0-pre"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 7113,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "Ly6USRwTHe0",
+    "url": "https://www.youtube.com/watch?v=Ly6USRwTHe0"
+   },
+   {
+    "type": "youtube",
+    "id": "AF2VyqSApjA",
+    "url": "https://www.youtube.com/watch?v=AF2VyqSApjA"
+   },
+   {
+    "type": "youtube",
+    "id": "PPxOE9YH57E",
+    "url": "https://www.youtube.com/watch?v=PPxOE9YH57E"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<p>See the <a href=\"https://docs.interstice.cloud/installation\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Plugin Installation Guide</a> for instructions.</p>\n<p>A concise (more technical) version is below:</p>\n<h5>Operating System</h5>\n<p>Windows, Linux, MacOS</p>\n<h6>Hardware support</h6>\n<p>To run locally a powerful graphics card with at least 6 GB VRAM (NVIDIA) is\nrecommended. Otherwise generating images will take very long or may fail due to\ninsufficient memory!</p>\n<table>\n<tr><td>NVIDIA GPU</td><td>supported via CUDA (Windows/Linux)</td></tr>\n<tr><td>AMD GPU</td><td>supported via ROCm (Windows/Linux)</td></tr>\n<tr><td>Intel GPU</td><td>supported via XPU (Windows/Linux)</td></tr>\n<tr><td>Apple Silicon</td><td>MPS on macOS 14+</td></tr>\n<tr><td>CPU</td><td>supported, but very slow</td></tr>\n</table><h5>Installation</h5>\n<ol>\n<li>If you haven't yet, go and install <a href=\"https://krita.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Krita</a>! <em>Required version: 5.2.0 or newer</em></li>\n<li><a href=\"https://github.com/Acly/krita-ai-diffusion/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download the plugin</a>.</li>\n<li>Start Krita and install the plugin via Tools ▸ Scripts ▸ Import Python Plugin from File...<ul>\n<li>Point it to the ZIP archive you downloaded in the previous step.</li>\n<li>Check <a href=\"https://docs.krita.org/en/user_manual/python_scripting/install_custom_python_plugin.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Krita's official documentation</a> for more options.</li>\n</ul>\n</li>\n<li>Restart Krita and create a new document or open an existing image.</li>\n<li>To show the plugin docker: Settings ‣ Dockers ‣ AI Image Generation.</li>\n<li>In the plugin docker, click \"Configure\" to start local server installation or connect.</li>\n</ol>\n<blockquote>\n<p>[!NOTE]\nIf you encounter problems please check the <a href=\"https://docs.interstice.cloud/common-issues\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">FAQ / list of common issues</a> for solutions.</p>\n<p>Reach out via <a href=\"https://github.com/Acly/krita-ai-diffusion/discussions\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">discussions</a>, our <a href=\"https://discord.gg/pWyzHfHHhU\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Discord</a>, or report <a href=\"https://github.com/Acly/krita-ai-diffusion/issues\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">an issue here</a>. Please note that official Krita channels are <strong>not</strong> the right place to seek help with\nissues related to this extension!</p>\n</blockquote>\n<h5><em>Optional:</em> Custom ComfyUI Server</h5>\n<p>The plugin uses <a href=\"https://github.com/comfyanonymous/ComfyUI\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ComfyUI</a> as backend.\nAs an alternative to the automatic installation, you can install it manually or\nuse an existing installation. If the server is already running locally before\nstarting Krita, the plugin will automatically try to connect. Using a remote\nserver is also possible this way.</p>\n<p>Please check the list of <a href=\"https://docs.interstice.cloud/comfyui-setup\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">required extensions and models</a> to make sure your installation is compatible.</p>\n<h5><em>Optional:</em> Object selection tools (Segmentation)</h5>\n<p>If you're looking for a way to easily select objects or remove background in the\nimage, there is a <a href=\"https://github.com/Acly/krita-ai-tools\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">separate plugin</a>\nwhich adds AI segmentation tools.</p>",
+    "truncated": false,
+    "chars": 2762
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li><strong>Inpainting</strong>: Use selections for generative fill, expand, to add or remove objects</li>\n<li><strong>Live Painting</strong>: Let AI interpret your canvas in real time for immediate feedback. <a href=\"https://youtu.be/AF2VyqSApjA?si=Ve5uQJWcNOATtABU\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Watch Video</a></li>\n<li><strong>Upscaling</strong>: Upscale and enrich images to 4k, 8k and beyond without running out of memory.</li>\n<li><strong>Diffusion Models</strong>: Flux 2, Z-Image, Stable Diffusion 1.5, XL, Illustrious</li>\n<li><strong>Edit Models</strong>: Make modifications to images via text instructions</li>\n<li><strong>ControlNet</strong>: Scribble, Line art, Canny edge, Pose, Depth, Normals, Segmentation, +more</li>\n<li><strong>IP-Adapter</strong>: Reference images, Style and composition transfer, Face swap</li>\n<li><strong>Regions</strong>: Assign individual text descriptions to image areas defined by layers.</li>\n<li><strong>Job Queue</strong>: Queue and cancel generation jobs while working on your image.</li>\n<li><strong>History</strong>: Preview results and browse previous generations and prompts at any time.</li>\n<li><strong>Strong Defaults</strong>: Versatile default style presets allow for a streamlined UI.</li>\n<li><strong>Customization</strong>: Create your own presets - custom checkpoints, LoRA, samplers and more.</li>\n</ul>",
+    "truncated": false,
+    "chars": 1082
+   }
+  },
+  "headings": 11,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:03.129Z",
+  "checked_at": "2026-11-16T05:08:03.129Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:17.093Z",
+ "contributors": null
+}

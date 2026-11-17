@@ -1,0 +1,97 @@
+{
+ "id": "NginxProxyManager/nginx-proxy-manager",
+ "github_id": 114938943,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxMTQ5Mzg5NDM=",
+ "full_name": "NginxProxyManager/nginx-proxy-manager",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:03.703Z",
+ "meta": {
+  "name": "nginx-proxy-manager",
+  "owner": "NginxProxyManager",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/88089605?v=4",
+  "description": "Docker container for managing Nginx proxy hosts with a simple, powerful interface",
+  "homepage": "https://nginxproxymanager.com",
+  "html_url": "https://github.com/NginxProxyManager/nginx-proxy-manager",
+  "default_branch": "develop",
+  "language": "JavaScript",
+  "languages": null,
+  "topics": [
+   "nginx",
+   "nginx-proxy"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 34741,
+  "forks": 3976,
+  "watchers": null,
+  "open_issues": 840,
+  "open_prs": null,
+  "created_at": "2017-12-20T23:01:16Z",
+  "pushed_at": "2026-11-16T13:05:47Z",
+  "updated_at": "2026-11-16T21:02:31Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 24094,
+  "og_image": "https://opengraph.githubassets.com/1/NginxProxyManager/nginx-proxy-manager",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T11:34:48.000Z",
+  "commits_90d": 220,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.17.0",
+  "name": "v2.17.0",
+  "published_at": "2026-11-12T03:16:13Z",
+  "url": "https://github.com/NginxProxyManager/nginx-proxy-manager/releases/tag/v2.17.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 4391,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Setup",
+    "html": "<ol>\n<li><a href=\"https://docs.docker.com/install/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Install Docker</a></li>\n<li>Create a docker-compose.yml file similar to this:</li>\n</ol>\n<pre><code class=\"language-yml\">services:\n  app:\n    image: 'docker.io/jc21/nginx-proxy-manager:latest'\n    restart: unless-stopped\n    ports:\n      - '80:80'\n      - '81:81'\n      - '443:443'\n    volumes:\n      - ./data:/data\n      - ./letsencrypt:/etc/letsencrypt\n</code></pre>\n<p>This is the bare minimum configuration required. See the <a href=\"https://nginxproxymanager.com/setup/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">documentation</a> for more.</p>\n<ol start=\"3\">\n<li>Bring up your stack by running</li>\n</ol>\n<pre><code class=\"language-bash\">docker compose up -d\n</code></pre>\n<ol start=\"4\">\n<li>Log in to the Admin UI</li>\n</ol>\n<p>When your docker container is running, connect to it on port <code>81</code> for the admin interface.\nSometimes this can take a little bit because of the entropy of keys.</p>\n<p><a href=\"http://127.0.0.1:81\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://127.0.0.1:81</a></p>",
+    "truncated": false,
+    "chars": 780
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li>Beautiful and Secure Admin Interface based on <a href=\"https://tabler.github.io/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Tabler</a></li>\n<li>Easily create forwarding domains, redirections, streams, and 404 hosts without knowing anything about Nginx</li>\n<li>Free SSL using Let's Encrypt or provide your own custom SSL certificates</li>\n<li>Access Lists and basic HTTP Authentication for your hosts</li>\n<li>Advanced Nginx configuration available for super users</li>\n<li>User management, permissions, and audit log</li>\n</ul>\n<p>::: warning\n<code>armv7</code> is no longer supported in version 2.14+. This is due to Nodejs dropping support for armhf. Please\nuse the <code>2.13.7</code> image tag if this applies to you.\n:::</p>",
+    "truncated": false,
+    "chars": 609
+   }
+  },
+  "headings": 7,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:38.500Z",
+  "checked_at": "2026-11-17T02:20:38.500Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:38.500Z"
+}

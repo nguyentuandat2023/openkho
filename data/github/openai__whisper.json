@@ -1,0 +1,99 @@
+{
+ "id": "openai/whisper",
+ "github_id": 537603333,
+ "node_id": "R_kgDOIAstBQ",
+ "full_name": "openai/whisper",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "whisper",
+  "owner": "openai",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4",
+  "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+  "homepage": null,
+  "html_url": "https://github.com/openai/whisper",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 112857,
+  "forks": 13671,
+  "watchers": null,
+  "open_issues": 185,
+  "open_prs": null,
+  "created_at": "2022-09-16T20:02:54Z",
+  "pushed_at": "2026-08-31T17:19:19Z",
+  "updated_at": "2026-11-17T01:57:54Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": false,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 12797,
+  "og_image": "https://opengraph.githubassets.com/1/openai/whisper",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-08-31T17:19:19.000Z",
+  "commits_90d": 1,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v20250625",
+  "name": "v20250625",
+  "published_at": "2025-06-26T01:06:09Z",
+  "url": "https://github.com/openai/whisper/releases/tag/v20250625",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 8244,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Setup",
+    "html": "<p>We used Python 3.9.9 and <a href=\"https://pytorch.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PyTorch</a> 1.10.1 to train and test our models, but the codebase is expected to be compatible with Python 3.8-3.11 and recent PyTorch versions. The codebase also depends on a few Python packages, most notably <a href=\"https://github.com/openai/tiktoken\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">OpenAI's tiktoken</a> for their fast tokenizer implementation. You can download and install (or update to) the latest release of Whisper with the following command:</p>\n<pre><code>pip install -U openai-whisper\n</code></pre>\n<p>Alternatively, the following command will pull and install the latest commit from this repository, along with its Python dependencies:</p>\n<pre><code>pip install git+https://github.com/openai/whisper.git \n</code></pre>\n<p>To update the package to the latest version of this repository, please run:</p>\n<pre><code>pip install --upgrade --no-deps --force-reinstall git+https://github.com/openai/whisper.git\n</code></pre>\n<p>It also requires the command-line tool <a href=\"https://ffmpeg.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>ffmpeg</code></a> to be installed on your system, which is available from most package managers:</p>\n<pre><code class=\"language-bash\"># on Ubuntu or Debian\nsudo apt update &amp;&amp; sudo apt install ffmpeg\n\n# on Arch Linux\nsudo pacman -S ffmpeg\n\n# on MacOS using Homebrew (https://brew.sh/)\nbrew install ffmpeg\n\n# on Windows using Chocolatey (https://chocolatey.org/)\nchoco install ffmpeg\n\n# on Windows using Scoop (https://scoop.sh/)\nscoop install ffmpeg\n</code></pre>\n<p>You may need <a href=\"http://rust-lang.org\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>rust</code></a> installed as well, in case <a href=\"https://github.com/openai/tiktoken\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">tiktoken</a> does not provide a pre-built wheel for your platform. If you see installation errors during the <code>pip install</code> command above, please follow the <a href=\"https://www.rust-lang.org/learn/get-started\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Getting started page</a> to install Rust development environment. Additionally, you may need to configure the <code>PATH</code> environment variable, e.g. <code>export PATH=\"$HOME/.cargo/bin:$PATH\"</code>. If the installation fails with <code>No module named 'setuptools_rust'</code>, you need to install <code>setuptools_rust</code>, e.g. by running:</p>\n<pre><code class=\"language-bash\">pip install setuptools-rust\n</code></pre>",
+    "truncated": false,
+    "chars": 1996
+   },
+   "usage": {
+    "title": "Command-line usage",
+    "html": "<p>The following command will transcribe speech in audio files, using the <code>turbo</code> model:</p>\n<pre><code class=\"language-bash\">whisper audio.flac audio.mp3 audio.wav --model turbo\n</code></pre>\n<p>The default setting (which selects the <code>turbo</code> model) works well for transcribing English. However, <strong>the <code>turbo</code> model is not trained for translation tasks</strong>. If you need to <strong>translate non-English speech into English</strong>, use one of the <strong>multilingual models</strong> (<code>tiny</code>, <code>base</code>, <code>small</code>, <code>medium</code>, <code>large</code>) instead of <code>turbo</code>. </p>\n<p>For example, to transcribe an audio file containing non-English speech, you can specify the language:</p>\n<pre><code class=\"language-bash\">whisper japanese.wav --language Japanese\n</code></pre>\n<p>To <strong>translate</strong> speech into English, use:</p>\n<pre><code class=\"language-bash\">whisper japanese.wav --model medium --language Japanese --task translate\n</code></pre>\n<blockquote>\n<p><strong>Note:</strong> The <code>turbo</code> model will return the original language even if <code>--task translate</code> is specified. Use <code>medium</code> or <code>large</code> for the best translation results.</p>\n</blockquote>\n<p>Run the following to view all available options:</p>\n<pre><code class=\"language-bash\">whisper --help\n</code></pre>\n<p>See <a href=\"https://github.com/openai/whisper/blob/main/whisper/tokenizer.py\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">tokenizer.py</a> for the list of all available languages.</p>",
+    "truncated": false,
+    "chars": 1140
+   },
+   "features": null
+  },
+  "headings": 8,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:29.809Z",
+  "checked_at": "2026-11-16T04:33:29.809Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:13.194Z",
+ "contributors": {
+  "count": 84,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:20.998Z"
+ }
+}

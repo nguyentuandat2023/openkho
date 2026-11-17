@@ -1,0 +1,102 @@
+{
+ "id": "AppFlowy-IO/AppFlowy",
+ "github_id": 377496562,
+ "node_id": "MDEwOlJlcG9zaXRvcnkzNzc0OTY1NjI=",
+ "full_name": "AppFlowy-IO/AppFlowy",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.972Z",
+ "meta": {
+  "name": "AppFlowy",
+  "owner": "AppFlowy-IO",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/86002201?v=4",
+  "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
+  "homepage": "https://appflowy.com",
+  "html_url": "https://github.com/AppFlowy-IO/AppFlowy",
+  "default_branch": "main",
+  "language": "Dart",
+  "languages": null,
+  "topics": [
+   "blog",
+   "confluence-alternative",
+   "content-management",
+   "content-services",
+   "documentation",
+   "flutter",
+   "note-taking",
+   "notion-alternative",
+   "project-management",
+   "task-management",
+   "team-collaboration",
+   "wiki"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 79051,
+  "forks": 6306,
+  "watchers": null,
+  "open_issues": 1034,
+  "open_prs": null,
+  "created_at": "2021-06-16T12:56:48Z",
+  "pushed_at": "2026-11-15T11:08:51Z",
+  "updated_at": "2026-11-17T00:55:53Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 93941,
+  "og_image": "https://opengraph.githubassets.com/1/AppFlowy-IO/AppFlowy",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-10-28T06:07:24.000Z",
+  "commits_90d": 1,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "0.15.1",
+  "name": "v0.15.1",
+  "published_at": "2026-11-16T00:47:30Z",
+  "url": "https://github.com/AppFlowy-IO/AppFlowy/releases/tag/0.15.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 8785,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting Started with development",
+    "html": "<p>Please view the <a href=\"https://docs.appflowy.io/docs/documentation/appflowy/from-source\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">documentation</a> for OS specific\ndevelopment instructions</p>",
+    "truncated": false,
+    "chars": 142
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 13,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:32.400Z",
+  "checked_at": "2026-11-16T05:09:32.400Z"
+ },
+ "details_checked_at": "2026-11-16T05:07:14.364Z",
+ "contributors": null
+}

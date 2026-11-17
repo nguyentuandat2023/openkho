@@ -1,0 +1,94 @@
+{
+ "id": "jellyfin/jellyfin",
+ "github_id": 161012019,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxNjEwMTIwMTk=",
+ "full_name": "jellyfin/jellyfin",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:03.703Z",
+ "meta": {
+  "name": "jellyfin",
+  "owner": "jellyfin",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/45698031?v=4",
+  "description": "The Free Software Media System - Server Backend & API",
+  "homepage": "https://jellyfin.org",
+  "html_url": "https://github.com/jellyfin/jellyfin",
+  "default_branch": "master",
+  "language": "C#",
+  "languages": null,
+  "topics": [
+   "csharp",
+   "dotnet",
+   "hacktoberfest",
+   "jellyfin"
+  ],
+  "license": {
+   "spdx": "GPL-2.0",
+   "name": "GNU General Public License v2.0"
+  },
+  "stars": 59447,
+  "forks": 5826,
+  "watchers": null,
+  "open_issues": 926,
+  "open_prs": null,
+  "created_at": "2018-12-09T06:36:45Z",
+  "pushed_at": "2026-11-16T23:34:55Z",
+  "updated_at": "2026-11-17T01:34:33Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 79350,
+  "og_image": "https://opengraph.githubassets.com/1/jellyfin/jellyfin",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T23:34:48.000Z",
+  "commits_90d": 168,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v12.4",
+  "name": "12.4",
+  "published_at": "2026-10-26T21:30:17Z",
+  "url": "https://github.com/jellyfin/jellyfin/releases/tag/v12.4",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 13338,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installing the Web Client",
+    "html": "<p>The server is configured to host the static files required for the <a href=\"https://github.com/jellyfin/jellyfin-web\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">web client</a> in addition to serving the backend by default. Before you can run the server, you will need to get a copy of the web client since they are not included in this repository directly.</p>\n<p>Note that it is recommended for development to <a href=\"https://github.com/jellyfin/jellyfin#hosting-the-web-client-separately\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">host the web client separately</a> from the web server with some additional configuration, in which case you can skip this step.</p>\n<p>There are two options to get the files for the web client.</p>\n<ol>\n<li>Build them from source following the instructions on the <a href=\"https://github.com/jellyfin/jellyfin-web\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">jellyfin-web repository</a></li>\n<li>Get the pre-built files from an existing installation of the server. For example, with a Windows server installation the client files are located at <code>C:\\Program Files\\Jellyfin\\Server\\jellyfin-web</code></li>\n</ol>",
+    "truncated": false,
+    "chars": 906
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 16,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:37.682Z",
+  "checked_at": "2026-11-17T02:20:37.682Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:37.682Z"
+}

@@ -1,0 +1,108 @@
+{
+ "id": "windmill-labs/windmill",
+ "github_id": 488804911,
+ "node_id": "R_kgDOHSKSLw",
+ "full_name": "windmill-labs/windmill",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "windmill",
+  "owner": "windmill-labs",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/98025271?v=4",
+  "description": "Code-first platform for workflows, apps and AI agents, on the fastest self-hostable orchestrator (benchmarked against Airflow, Prefect and Temporal). Business teams build with AI, engineers control what ships. Open-source alternative to Lovable, Retool and n8n.",
+  "homepage": "https://windmill.dev",
+  "html_url": "https://github.com/windmill-labs/windmill",
+  "default_branch": "main",
+  "language": "Rust",
+  "languages": null,
+  "topics": [
+   "ai-agents",
+   "airflow-alternative",
+   "internal-tools",
+   "open-source",
+   "orchestration",
+   "postgresql",
+   "python",
+   "rust",
+   "self-hostable",
+   "self-hosted",
+   "typescript",
+   "vibe-coding",
+   "workflow-engine"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 18614,
+  "forks": 1164,
+  "watchers": null,
+  "open_issues": 891,
+  "open_prs": null,
+  "created_at": "2022-05-05T02:21:17Z",
+  "pushed_at": "2026-11-16T22:33:39Z",
+  "updated_at": "2026-11-17T01:19:58Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 567429,
+  "og_image": "https://opengraph.githubassets.com/1/windmill-labs/windmill",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T14:31:17.000Z",
+  "commits_90d": 730,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.875.0",
+  "name": "v1.875.0",
+  "published_at": "2026-11-14T15:54:31Z",
+  "url": "https://github.com/windmill-labs/windmill/releases/tag/v1.875.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 19492,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Fastest Self-Hostable Workflow Engine",
+    "html": "<p>We have compared Windmill to other self-hostable workflow engines (Airflow,\nPrefect &amp; Temporal) and Windmill is the most performant solution for both\nbenchmarks: one flow composed of 40 lightweight tasks &amp; one flow composed of 10\nlong-running tasks.</p>\n<p>All methodology &amp; results on our\n<a href=\"https://www.windmill.dev/docs/misc/benchmarks/competitors#airflow-setup\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Benchmarks</a>\npage.</p>\n<p><img src=\"https://raw.githubusercontent.com/windmill-labs/windmill/main/imgs/fastest.png\" alt=\"Fastest workflow engine\" loading=\"lazy\" decoding=\"async\" /></p>",
+    "truncated": false,
+    "chars": 427
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 21,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:20.969Z",
+  "checked_at": "2026-11-17T02:19:20.969Z"
+ },
+ "contributors": {
+  "count": 175,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:31.931Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:20.969Z"
+}

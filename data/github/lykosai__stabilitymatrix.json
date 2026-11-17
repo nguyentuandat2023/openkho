@@ -1,0 +1,104 @@
+{
+ "id": "LykosAI/StabilityMatrix",
+ "github_id": 652941996,
+ "node_id": "R_kgDOJusarA",
+ "full_name": "LykosAI/StabilityMatrix",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.073Z",
+ "meta": {
+  "name": "StabilityMatrix",
+  "owner": "LykosAI",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/136279213?v=4",
+  "description": "Multi-Platform Package Manager for Stable Diffusion",
+  "homepage": "https://lykos.ai",
+  "html_url": "https://github.com/LykosAI/StabilityMatrix",
+  "default_branch": "main",
+  "language": "C#",
+  "languages": null,
+  "topics": [
+   "ai",
+   "automatic1111",
+   "avalonia",
+   "comfyui",
+   "dotnet",
+   "python",
+   "sd-webui",
+   "stable-diffusion",
+   "text2image"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 9037,
+  "forks": 621,
+  "watchers": null,
+  "open_issues": 186,
+  "open_prs": null,
+  "created_at": "2023-06-13T05:20:38Z",
+  "pushed_at": "2026-11-17T01:58:06Z",
+  "updated_at": "2026-11-16T22:18:57Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 147945,
+  "og_image": "https://opengraph.githubassets.com/1/LykosAI/StabilityMatrix",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T01:58:05.000Z",
+  "commits_90d": 60,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.16.5",
+  "name": "v2.16.5",
+  "published_at": "2026-10-21T04:48:33Z",
+  "url": "https://github.com/LykosAI/StabilityMatrix/releases/tag/v2.16.5",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 9404,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "One click install and update for Stable Diffusion Web UI Packages",
+    "html": "<ul>\n<li>Supports:<ul>\n<li><a href=\"https://github.com/Panchovix/stable-diffusion-webui-reForge\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Stable Diffusion WebUI reForge</a>, <a href=\"https://github.com/lllyasviel/stable-diffusion-webui-forge\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Stable Diffusion WebUI Forge</a>, <a href=\"https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu-forge\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Stable Diffusion WebUI AMDGPU Forge</a> <a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Automatic 1111</a>, <a href=\"https://github.com/lshqqytiger/stable-diffusion-webui-directml\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Automatic 1111 DirectML</a>, <a href=\"https://github.com/anapnoe/stable-diffusion-webui-ux\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SD Web UI-UX</a>, <a href=\"https://github.com/vladmandic/automatic\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SD.Next</a></li>\n<li><a href=\"https://github.com/lllyasviel/Fooocus\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Fooocus</a>, <a href=\"https://github.com/MoonRide303/Fooocus-MRE\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Fooocus MRE</a>, <a href=\"https://github.com/fenneishi/Fooocus-ControlNet-SDXL\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Fooocus ControlNet SDXL</a>, <a href=\"https://github.com/runew0lf/RuinedFooocus\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Ruined Fooocus</a>, <a href=\"https://github.com/mashb1t/Fooocus\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Fooocus - mashb1t's 1-Up Edition</a>, <a href=\"https://github.com/metercai/SimpleSDXL/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SimpleSDXL</a></li>\n<li><a href=\"https://github.com/comfyanonymous/ComfyUI\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ComfyUI</a></li>\n<li><a href=\"https://github.com/mcmonkeyprojects/SwarmUI\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SwarmUI</a></li>\n<li><a href=\"https://github.com/VoltaML/voltaML-fast-stable-diffusion\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">VoltaML</a></li>\n<li><a href=\"https://github.com/invoke-ai/InvokeAI\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">InvokeAI</a></li>\n<li><a href=\"https://github.com/sdfxai/sdfx\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SDFX</a></li>\n<li><a href=\"https://github.com/bmaltais/kohya_ss\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Kohya's GUI</a></li>\n<li><a href=\"https://github.com/Nerogar/OneTrainer\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">OneTrainer</a></li>\n<li><a href=\"https://github.com/cocktailpeanut/fluxgym\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">FluxGym</a></li>\n<li><a href=\"https://github.com/shootthesound/Fizgig\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Fizgig</a></li>\n<li><a href=\"https://github.com/THUDM/CogVideo\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CogVideo</a> via <a href=\"https://github.com/pinokiofactory/cogstudio\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CogStudio</a></li>\n</ul>\n</li>\n<li>Manage plugins / extensions for supported packages (<a href=\"https://github.com/AUTOMATIC1111/stable-diffusion-webui\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Automatic1111</a>, <a href=\"https://github.com/comfyanonymous/ComfyUI\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Comfy UI</a>, <a href=\"https://github.com/anapnoe/stable-diffusion-webui-ux\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SD Web UI-UX</a>, and <a href=\"https://github.com/vladmandic/automatic\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SD.Next</a>)</li>\n<li>Easily install or update Python dependencies for each package</li>\n<li>Embedded Git and Python dependencies, with no need for either to be globally installed</li>\n<li>Fully portable - move Stability Matrix's Data Directory to a new drive or computer at any time</li>\n</ul>",
+    "truncated": false,
+    "chars": 1137
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 10,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:29.647Z",
+  "checked_at": "2026-11-17T02:19:29.647Z"
+ },
+ "contributors": {
+  "count": 33,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T02:20:54.405Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:29.647Z"
+}

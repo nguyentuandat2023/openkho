@@ -1,0 +1,101 @@
+{
+ "id": "medusajs/medusa",
+ "github_id": 234739976,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyMzQ3Mzk5NzY=",
+ "full_name": "medusajs/medusa",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.325Z",
+ "meta": {
+  "name": "medusa",
+  "owner": "medusajs",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/62591822?v=4",
+  "description": "The world's most flexible commerce platform for agents and developers",
+  "homepage": "https://medusajs.com",
+  "html_url": "https://github.com/medusajs/medusa",
+  "default_branch": "develop",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "ai-coding",
+   "ai-tools",
+   "commerce",
+   "e-commerce",
+   "ecommerce",
+   "framework",
+   "javascript",
+   "medusa",
+   "nodejs",
+   "react",
+   "typescript"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 37279,
+  "forks": 5536,
+  "watchers": null,
+  "open_issues": 114,
+  "open_prs": null,
+  "created_at": "2020-01-18T13:39:04Z",
+  "pushed_at": "2026-11-16T16:54:56Z",
+  "updated_at": "2026-11-16T23:52:41Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 913621,
+  "og_image": "https://opengraph.githubassets.com/1/medusajs/medusa",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T16:45:35.000Z",
+  "commits_90d": 508,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.22.7",
+  "name": "v2.22.7: Translation Module Stable, Cross Module Joins, Promotion Events",
+  "published_at": "2026-11-13T12:34:20Z",
+  "url": "https://github.com/medusajs/medusa/releases/tag/v2.22.7",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 5951,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<p>The fastest way to get started is with <a href=\"https://medusajs.com/cloud/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Medusa Cloud</a>, a managed environment for Medusa applications with automated deployments, scaling, and maintenance. <a href=\"https://cloud.medusajs.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Get started on Medusa Cloud</a>.</p>\n<p>To create a Medusa application locally, you need Node.js v22.22.0 or later and a running PostgreSQL database. Then run:</p>\n<pre><code class=\"language-bash\">npx create-medusa-app@latest my-medusa-store\n</code></pre>\n<p>This sets up the Medusa server and admin dashboard, and optionally the Next.js Starter Storefront. See the <a href=\"https://docs.medusajs.com/learn/installation\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">installation guide</a> for all options, or <a href=\"https://docs.medusajs.com/learn/installation/docker\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">install with Docker</a>.</p>",
+    "truncated": false,
+    "chars": 696
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 8,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:33.408Z",
+  "checked_at": "2026-11-17T02:20:09.215Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:09.215Z"
+}

@@ -1,0 +1,126 @@
+{
+ "id": "microsoft/agent-framework",
+ "github_id": 974445592,
+ "node_id": "R_kgDOOhTcGA",
+ "full_name": "microsoft/agent-framework",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "agent-framework",
+  "owner": "microsoft",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.",
+  "homepage": "https://aka.ms/agent-framework",
+  "html_url": "https://github.com/microsoft/agent-framework",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "agent-framework",
+   "agentic-ai",
+   "agents",
+   "ai",
+   "dotnet",
+   "multi-agent",
+   "orchestration",
+   "python",
+   "sdk",
+   "workflows"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 14715,
+  "forks": 2638,
+  "watchers": null,
+  "open_issues": 941,
+  "open_prs": null,
+  "created_at": "2025-04-28T19:40:42Z",
+  "pushed_at": "2026-11-17T02:15:38Z",
+  "updated_at": "2026-11-17T00:32:37Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 157011,
+  "og_image": "https://opengraph.githubassets.com/1/microsoft/agent-framework",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T23:48:00.000Z",
+  "commits_90d": 416,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "python-1.26.0",
+  "name": "python-1.26.0",
+  "published_at": "2026-11-13T08:28:16Z",
+  "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.26.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 14041,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "AAgdMhftj8w",
+    "url": "https://www.youtube.com/watch?v=AAgdMhftj8w"
+   },
+   {
+    "type": "youtube",
+    "id": "mOAaGY4WPvc",
+    "url": "https://www.youtube.com/watch?v=mOAaGY4WPvc"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<h5>Installation</h5>\n<p>Python</p>\n<pre><code class=\"language-bash\">pip install agent-framework\n# This installs the standard package set; install `agent-framework-lab` separately for experimental modules.\n# It may take a minute on first install on Windows.\n</code></pre>\n<p>.NET</p>\n<pre><code class=\"language-bash\">dotnet add package Microsoft.Agents.AI\n# For Foundry integration (used in the .NET quickstart below):\ndotnet add package Microsoft.Agents.AI.Foundry\ndotnet add package Azure.AI.Projects\ndotnet add package Azure.Identity\n</code></pre>\n<h5>Learning Resources</h5>\n<ul>\n<li><strong><a href=\"https://learn.microsoft.com/agent-framework/overview/agent-framework-overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Overview</a></strong> - High level overview of the framework</li>\n<li><strong><a href=\"https://learn.microsoft.com/agent-framework/tutorials/quick-start\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Quick Start</a></strong> - Get started with a simple agent</li>\n<li><strong><a href=\"https://learn.microsoft.com/agent-framework/tutorials/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Tutorials</a></strong> - Step by step tutorials</li>\n<li><strong><a href=\"https://learn.microsoft.com/en-us/agent-framework/user-guide/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">User Guide</a></strong> - In-depth user guide for building agents and workflows</li>\n<li><strong><a href=\"https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-semantic-kernel\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Migration from Semantic Kernel</a></strong> - Guide to migrate from Semantic Kernel</li>\n<li><strong><a href=\"https://learn.microsoft.com/en-us/agent-framework/migration-guide/from-autogen\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Migration from AutoGen</a></strong> - Guide to migrate from AutoGen</li>\n</ul>\n<h5>Quickstart</h5>\n<h6>Basic Agent - Python</h6>\n<p>Create a simple Azure Responses Agent that writes a haiku about the Microsoft Agent Framework</p>\n<pre><code class=\"language-python\"># pip install agent-framework\n# Use `az login` to authenticate with Azure CLI\nimport os\nimport asyncio\nfrom agent_framework import Agent\nfrom agent_framework.foundry import FoundryChatClient\nfrom azure.identity import AzureCliCredential\n\n\nasync def main():\n    # Initialize a chat agent with Microsoft Foundry\n    # the endpoint, deployment name, and api version can be set via environment variables\n    # or they can be passed in directly to the FoundryChatClient constructor\n    agent = Agent(\n      client=FoundryChatClient(\n          credential=AzureCliCredential(),\n          # project_endpoint=os.environ[\"FOUNDRY_PROJECT_ENDPOINT\"],\n          # model=os.environ[\"FOUNDRY_MODEL\"],\n      ),\n      name=\"HaikuAgent\",\n      instructions=\"You are an upbeat assistant that writes beautifully.\",\n    )\n\n    print(await agent.run(\"Write a haiku about Microsoft Agent Framework.\"))\n\nif __name__ == \"__main__\":\n    asyncio.run(main())\n</code></pre>\n<h6>Basic Agent - .NET</h6>\n<p>Create a simple Agent, using Microsoft Foundry that writes a haiku about the Microsoft Agent Framework</p>\n<pre><code class=\"language-c#\">// This sample shows how to create and run a basic agent with AIProjectClient.AsAIAgent(...).\n\nusing Azure.AI.Projects;\nusing Azure.Identity;\nusing Microsoft.Agents.AI;\n\nstring endpoint = Environment.GetEnvironmentVariable(\"FOUNDRY_PROJECT_ENDPOINT\") ?? throw new InvalidOperationException(\"FOUNDRY_PROJECT_ENDPOINT is not set.\");\nstring deploymentName = Environment.GetEnvironmentVariable(\"FOUNDRY_MODEL\") ?? \"gpt-5.4-mini\";\n\nAIAgent agent =\n    new AIProjectClient(new Uri(endpoint), new DefaultAzureCredential())\n    .AsAIAgent(model: deploymentName, instructions: \"You are an upbeat assistant that writes beautifully.\", name: \"HaikuAgent\");\n\n// Once you have the agent, you can invoke it like any other AIAgent.\nConsole.WriteLine(await agent.RunAsync(\"Write a haiku about Microsoft Agent Framework.\"));\n</code></pre>",
+    "truncated": false,
+    "chars": 3341
+   },
+   "usage": {
+    "title": "More Examples & Samples",
+    "html": "<h5>Python</h5>\n<ul>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/python/samples/01-get-started\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Getting Started</a>: progressive tutorial from hello-world to workflows</li>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/python/samples/02-agents\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Agent Concepts</a>: deep-dive samples by topic (tools, middleware, providers, etc.)</li>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/python/samples/03-workflows\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Workflows</a>: workflow creation and integration with agents</li>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/python/samples/04-hosting\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Hosting</a>: A2A, self-hosted protocol helpers, and Foundry hosted agents. Durable Task and Azure Functions samples are in the <a href=\"https://github.com/microsoft/agent-framework-durable-extension/tree/main/python/samples\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Durable Agent Framework extension</a>.</li>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/python/samples/05-end-to-end\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">End-to-End</a>: full applications, evaluation, and demos</li>\n</ul>\n<h5>.NET</h5>\n<ul>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/dotnet/samples/01-get-started\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Getting Started</a>: progressive tutorial from hello agent to workflows</li>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/dotnet/samples/02-agents/Agents\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Agent Concepts</a>: basic agent creation and tool usage</li>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/dotnet/samples/02-agents/AgentProviders\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Agent Providers</a>: samples showing different agent providers</li>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/dotnet/samples/03-workflows\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Workflows</a>: advanced multi-agent patterns and workflow orchestration</li>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/dotnet/samples/04-hosting\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Hosting</a>: A2A and Foundry hosted agents. Durable agent and workflow samples are in the <a href=\"https://github.com/microsoft/agent-framework-durable-extension/tree/main/dotnet/samples\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Durable Agent Framework extension</a>.</li>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/dotnet/samples/05-end-to-end\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">End-to-End</a>: full applications and demos</li>\n</ul>",
+    "truncated": false,
+    "chars": 1432
+   },
+   "features": {
+    "title": "Key Features",
+    "html": "<p>Explore new MAF capabilities and real implementation patterns on the <a href=\"https://devblogs.microsoft.com/agent-framework/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">official blog</a>.</p>\n<ul>\n<li><strong>Python and C#/.NET Support</strong>: Full framework support for both Python and C#/.NET implementations with consistent APIs<ul>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/python/packages\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Python packages</a> | <a href=\"https://github.com/microsoft/agent-framework/blob/main/dotnet/src\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">.NET source</a></li>\n</ul>\n</li>\n<li><strong>Go Support</strong>: For the Go SDK, including its documentation, samples, contribution guidance, and issue tracker, visit <a href=\"https://github.com/microsoft/agent-framework-go/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">microsoft/agent-framework-go</a>.</li>\n<li><strong>Multiple Agent Provider Support</strong>: Support for various LLM providers with more being added continuously<ul>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/python/samples/02-agents/providers\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Python examples</a> | <a href=\"https://github.com/microsoft/agent-framework/blob/main/dotnet/samples/02-agents/AgentProviders\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">.NET examples</a></li>\n</ul>\n</li>\n<li><strong>Middleware</strong>: Flexible middleware system for request/response processing, exception handling, and custom pipelines<ul>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/python/samples/02-agents/middleware\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Python middleware</a> | <a href=\"https://github.com/microsoft/agent-framework/blob/main/dotnet/samples/02-agents/Agents/Agent_Step11_Middleware\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">.NET middleware</a></li>\n</ul>\n</li>\n<li><strong>Orchestration Patterns &amp; Workflows</strong>: Build multi-agent systems with graph-based workflows supporting sequential, concurrent, handoff, and group collaboration patterns; includes checkpointing, streaming, human-in-the-loop, and time-travel<ul>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/python/samples/03-workflows\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Python workflows</a> | <a href=\"https://github.com/microsoft/agent-framework/blob/main/dotnet/samples/03-workflows\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">.NET workflows</a></li>\n</ul>\n</li>\n<li><strong>Foundry Hosted Agents (new)</strong>: Deploy and host your agents to Foundry-hosted infrastructure with just 2 additional lines of code<ul>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/python/samples/04-hosting/foundry-hosted-agents\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Python samples</a> | <a href=\"https://github.com/microsoft/agent-framework/blob/main/dotnet/samples/04-hosting/FoundryHostedAgents\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">.NET samples</a></li>\n</ul>\n</li>\n<li><strong>Observability</strong>: Built-in OpenTelemetry integration for distributed tracing, monitoring, and debugging<ul>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/python/samples/02-agents/observability\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Python observability</a> | <a href=\"https://github.com/microsoft/agent-framework/blob/main/dotnet/samples/02-agents/AgentOpenTelemetry\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">.NET telemetry</a></li>\n</ul>\n</li>\n<li><strong>Declarative Agents</strong>: Define agents using YAML for faster setup and versioning<ul>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/declarative-agents\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Declarative agent samples</a></li>\n</ul>\n</li>\n<li><strong>Agent Skills</strong>: Build domain-specific knowledge bases from multiple sources—files, inline code, class libraries—for agents to discover and use<ul>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/docs/decisions/0030-agent-skills-design.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Skills design</a></li>\n</ul>\n</li>\n<li><strong>AF Labs</strong>: Experimental packages for cutting-edge features including benchmarking, reinforcement learning, and research initiatives<ul>\n<li><a href=\"https://github.com/microsoft/agent-framework/blob/main/python/packages/lab\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Labs directory</a></li>\n</ul>\n</li>\n<li><strong>DevUI</strong>: Interactive developer UI for agent development, testing, and debugging workflows<ul>\n<li><a href=\"https://www.youtube.com/watch?v=mOAaGY4WPvc\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">See the DevUI in action</a></li>\n</ul>\n</li>\n</ul>",
+    "truncated": false,
+    "chars": 2595
+   }
+  },
+  "headings": 20,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:13.529Z",
+  "checked_at": "2026-11-17T02:19:13.529Z"
+ },
+ "contributors": {
+  "count": 342,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:18.860Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:13.529Z"
+}

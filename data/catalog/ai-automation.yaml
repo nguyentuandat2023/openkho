@@ -1,0 +1,186 @@
+# Danh mục: AI Automation & Workflow — xem cấu trúc trường trong data/README.md
+- repo: n8n-io/n8n
+  tags: [workflow, automation, ai-agent, integrations, zapier-alternative]
+  summary: "Nền tảng tự động hóa quy trình kéo-thả với hơn 400 tích hợp và node AI Agent — 'Zapier tự host' được dân marketing và doanh nghiệp dùng nhiều nhất."
+  use_cases: ["Tự động lấy lead từ form về Google Sheets/CRM", "Chatbot AI trả lời khách qua Telegram, email", "Đăng nội dung đa kênh theo lịch"]
+  pros: ["Hơn 400 tích hợp sẵn; nối API bất kỳ qua node HTTP Request", "Node AI Agent kết nối OpenAI, Claude, Gemini, Ollama", "Kho mẫu quy trình cộng đồng khổng lồ"]
+  cons: ["Giấy phép fair-code, không phải nguồn mở chuẩn OSI", "Quy trình phức tạp cần hiểu biết về API/JSON", "Tự host phải tự lo sao lưu và bảo mật"]
+  platforms: [docker, windows, macos, linux, web]
+  deploy: [self-host, cloud, local]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  license_note: "Sustainable Use License (fair-code): miễn phí dùng nội bộ và tự host cho doanh nghiệp của bạn; KHÔNG được bán lại n8n dưới dạng dịch vụ. Tính năng doanh nghiệp cần giấy phép riêng."
+  quick_start: |
+    # Cách 1 – cần Node.js:
+    npx n8n
+    # Cách 2 – Docker:
+    docker volume create n8n_data
+    docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+    # Mở http://localhost:5678
+  applicability: 5
+  featured: true
+  license_override:
+    class: source-available
+    name: Sustainable Use License (fair-code)
+- repo: langgenius/dify
+  also: [chatbot-llm]
+  tags: [llm-app, rag, agent, chatbot, workflow]
+  summary: "Nền tảng xây ứng dụng AI (chatbot, agent, quy trình RAG) bằng giao diện trực quan, quản lý kho tri thức, xuất bản API ngay."
+  use_cases: ["Chatbot tư vấn sản phẩm từ tài liệu công ty", "Trợ lý nội bộ tra cứu quy trình", "Quy trình AI tạo nội dung hàng loạt"]
+  pros: ["Tạo chatbot tri thức từ tài liệu trong vài phút", "Hỗ trợ hàng trăm mô hình (OpenAI, Claude, Gemini, Ollama…)", "Giao diện thân thiện, có nhiều ngôn ngữ"]
+  cons: ["Giấy phép có điều kiện khi làm dịch vụ SaaS", "Cần Docker và máy chủ đủ RAM", "Phiên bản thay đổi nhanh"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  requirements: "Docker; CPU ≥ 2 nhân, RAM ≥ 4 GB (theo README)."
+  license_note: "Giấy phép dựa trên Apache 2.0 kèm điều kiện: không vận hành dịch vụ nhiều khách thuê (multi-tenant SaaS) khi chưa có giấy phép thương mại, không gỡ logo/bản quyền Dify trên giao diện."
+  quick_start: |
+    git clone https://github.com/langgenius/dify.git
+    cd dify/docker
+    cp .env.example .env
+    docker compose up -d
+    # Mở http://localhost/install
+  applicability: 5
+  featured: true
+  license_override:
+    class: source-available
+    name: Dify Open Source License (Apache-2.0 + điều kiện)
+- repo: langflow-ai/langflow
+  tags: [llm-app, agent, visual-builder, mcp]
+  summary: "Trình xây ứng dụng AI và agent kéo-thả bằng Python, xuất ra API hoặc máy chủ MCP — có bản desktop."
+  use_cases: ["Nguyên mẫu chatbot/agent nhanh", "Quy trình RAG tùy biến"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [desktop, local, self-host, cloud]
+  difficulty: medium
+  pricing: free
+  needs_api_key: optional
+  applicability: 4
+- repo: infiniflow/ragflow
+  also: [chatbot-llm]
+  tags: [rag, document-ai, chatbot]
+  summary: "Công cụ RAG hiểu sâu tài liệu (PDF, bảng, ảnh scan) để xây chatbot trả lời có trích dẫn từ kho tài liệu doanh nghiệp."
+  use_cases: ["Chatbot tra cứu hợp đồng, quy định", "Hỏi đáp trên catalogue, tài liệu kỹ thuật"]
+  platforms: [docker]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: optional
+  requirements: "Docker; CPU ≥ 4 nhân, RAM ≥ 16 GB, ổ trống ≥ 50 GB (theo README)."
+  applicability: 4
+- repo: activepieces/activepieces
+  tags: [workflow, automation, zapier-alternative, mcp]
+  summary: "Nền tảng tự động hóa kiểu Zapier mã nguồn mở, giao diện dễ dùng cho người không chuyên, có 'pieces' tích hợp AI và MCP."
+  use_cases: ["Tự động hóa marketing, bán hàng", "Kết nối ứng dụng không cần code"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  license_note: "Bản cộng đồng MIT; thư mục tính năng doanh nghiệp dùng giấy phép thương mại (GitHub hiển thị NOASSERTION)."
+  applicability: 4
+  license_override:
+    spdx: MIT
+    name: MIT + giấy phép enterprise (ee)
+- repo: n8n-io/self-hosted-ai-starter-kit
+  tags: [n8n, ollama, qdrant, docker-compose, offline-ai]
+  summary: "Bộ khởi tạo chính thức của n8n dựng sẵn môi trường AI tự host bằng Docker Compose: n8n + Ollama + Qdrant + PostgreSQL."
+  use_cases: ["Tự động hóa có AI chạy hoàn toàn trên máy riêng", "Thử nghiệm RAG không tốn phí API"]
+  platforms: [docker]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  requirements: "Docker; GPU NVIDIA giúp chạy mô hình nhanh hơn (không bắt buộc)."
+  applicability: 5
+- repo: Zie619/n8n-workflows
+  also: [learning]
+  tags: [n8n, templates, workflow]
+  summary: "Kho hơn 2.000 quy trình n8n mẫu đã phân loại, có giao diện tìm kiếm — tải về và nhập vào n8n để dùng."
+  use_cases: ["Tìm mẫu quy trình có sẵn thay vì làm từ đầu", "Học cách dựng quy trình n8n"]
+  deploy: [content]
+  difficulty: easy
+  pricing: free
+  needs_api_key: optional
+  note: "Mẫu do cộng đồng thu thập — kiểm tra kỹ trước khi chạy với dữ liệu thật."
+  applicability: 4
+- repo: enescingoz/awesome-n8n-templates
+  also: [learning]
+  tags: [n8n, templates, workflow]
+  summary: "Bộ sưu tập mẫu quy trình n8n miễn phí theo chủ đề: Gmail, Telegram, Google Drive, mạng xã hội, AI…"
+  use_cases: ["Khởi đầu nhanh các quy trình tự động phổ biến"]
+  deploy: [content]
+  difficulty: easy
+  pricing: free
+  needs_api_key: optional
+  applicability: 4
+  docs: none
+- repo: simstudioai/sim
+  tags: [agent-workflow, visual-builder]
+  summary: "Nền tảng mã nguồn mở xây dựng và triển khai quy trình AI agent trên giao diện canvas trực quan."
+  use_cases: ["Dựng agent nhiều bước bằng kéo-thả", "Tự động hóa nghiệp vụ với LLM"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 4
+- repo: huginn/huginn
+  tags: [agents, monitoring, rss, ifttt-alternative]
+  summary: "Tạo các 'agent' tự động theo dõi web, RSS, email… và hành động thay bạn — như IFTTT/Zapier chạy trên máy chủ riêng."
+  use_cases: ["Theo dõi tin tức, giá cả", "Cảnh báo khi website đối thủ thay đổi"]
+  platforms: [docker, linux]
+  deploy: [self-host]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: node-red/node-red
+  tags: [flow-based, iot, low-code]
+  summary: "Lập trình dạng luồng (flow) kéo-thả để kết nối thiết bị IoT, API và dịch vụ trực tuyến — dự án của OpenJS Foundation."
+  use_cases: ["Tự động hóa nhà xưởng, cảm biến", "Kết nối API nhanh"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [local, self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: windmill-labs/windmill
+  tags: [scripts, workflow, internal-tools]
+  summary: "Biến script (Python, TypeScript, SQL, Bash…) thành quy trình tự động, công cụ nội bộ và lịch chạy định kỳ."
+  use_cases: ["Chạy báo cáo dữ liệu theo lịch", "Công cụ nội bộ từ script sẵn có"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  license_note: "Bản cộng đồng AGPL-3.0; tính năng doanh nghiệp cần giấy phép riêng (GitHub hiển thị NOASSERTION)."
+  applicability: 3
+  license_override:
+    spdx: AGPL-3.0
+    name: AGPL-3.0 + giấy phép enterprise
+- repo: kestra-io/kestra
+  also: [data-bi]
+  tags: [orchestration, yaml, data-pipeline]
+  summary: "Nền tảng điều phối quy trình dữ liệu và tự động hóa khai báo bằng YAML, có giao diện trực quan và hàng trăm plugin."
+  use_cases: ["Pipeline dữ liệu định kỳ", "Tự động hóa hạ tầng"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: hard
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+- repo: FlowiseAI/Flowise
+  tags: [llm-app, visual-builder, langchain]
+  summary: "Trình xây AI agent và chatbot kéo-thả trên nền LangChain."
+  use_cases: ["Nguyên mẫu chatbot bằng kéo-thả"]
+  platforms: [docker, windows, macos, linux]
+  deploy: [self-host, local]
+  difficulty: medium
+  pricing: free
+  needs_api_key: optional
+  note: "Toàn bộ tổ chức FlowiseAI trên GitHub đã chuyển sang chế độ lưu trữ (archived) — không còn nhận cập nhật, vá lỗi. Dự án mới nên cân nhắc Langflow hoặc Dify."
+  alternatives: [langflow-ai/langflow, langgenius/dify]
+  applicability: 2

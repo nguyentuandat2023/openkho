@@ -1,0 +1,168 @@
+# Danh mục: AI Agents & Autonomous Agents — xem cấu trúc trường trong data/README.md
+- repo: browser-use/browser-use
+  also: [ai-automation]
+  tags: [browser-automation, python, llm]
+  summary: "Cho AI điều khiển trình duyệt như người thật: tự mở trang, bấm, điền form và trích dữ liệu theo yêu cầu bằng lời."
+  use_cases: ["Tự động điền form, đăng ký, đặt hàng", "Thu thập dữ liệu từ nhiều website", "Kiểm thử website tự động"]
+  pros: ["Mô tả việc cần làm bằng ngôn ngữ tự nhiên", "Dùng được nhiều LLM (OpenAI, Claude, Gemini, mô hình local)", "Cộng đồng rất lớn, cập nhật liên tục"]
+  cons: ["Cần biết Python cơ bản", "Chi phí API tăng theo độ dài tác vụ", "Website có captcha/chống bot có thể chặn"]
+  platforms: [windows, macos, linux]
+  deploy: [library, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 5
+  featured: true
+- repo: openclaw/openclaw
+  tags: [personal-assistant, messaging, agent]
+  summary: "Trợ lý AI cá nhân tự host, làm việc qua ứng dụng nhắn tin quen thuộc và có thể tự thực hiện tác vụ trên máy tính của bạn."
+  use_cases: ["Giao việc cho AI qua tin nhắn", "Tự động hóa tác vụ lặp lại trên máy tính"]
+  platforms: [macos, linux, windows]
+  deploy: [self-host, cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: optional
+  note: "Agent có quyền chạy lệnh và truy cập dữ liệu trên máy: chỉ cài skill từ nguồn tin cậy, không mở cổng điều khiển ra Internet, xem kỹ hướng dẫn bảo mật của dự án."
+  applicability: 4
+- repo: anomalyco/opencode
+  also: [dev-tools]
+  tags: [coding-agent, terminal, llm]
+  summary: "Agent lập trình chạy trong terminal, dùng được với nhiều nhà cung cấp mô hình (Claude, GPT, Gemini, mô hình local)."
+  use_cases: ["Viết và sửa code bằng câu lệnh tự nhiên", "Tự động hóa tác vụ lập trình lặp lại"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: optional
+  applicability: 3
+- repo: openai/codex
+  also: [dev-tools]
+  tags: [coding-agent, terminal, openai]
+  summary: "Agent lập trình của OpenAI chạy ngay trên máy: đọc, sửa và chạy code trong thư mục dự án."
+  use_cases: ["Sửa lỗi, viết tính năng mới", "Giải thích mã nguồn lạ"]
+  platforms: [windows, macos, linux]
+  deploy: [cli, extension]
+  difficulty: medium
+  pricing: free
+  needs_api_key: required
+  requirements: "Đăng nhập bằng tài khoản ChatGPT (gói trả phí) hoặc khóa API OpenAI."
+  applicability: 3
+- repo: google-gemini/gemini-cli
+  also: [dev-tools]
+  tags: [coding-agent, terminal, gemini]
+  summary: "Agent AI của Google trong terminal dùng mô hình Gemini — có hạn mức miễn phí khi đăng nhập bằng tài khoản Google cá nhân."
+  use_cases: ["Viết code, script tự động", "Hỏi đáp, tóm tắt tài liệu ngay trong terminal"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: optional
+  applicability: 4
+- repo: OpenHands/OpenHands
+  also: [dev-tools]
+  tags: [coding-agent, software-engineer, docker]
+  summary: "Nền tảng 'kỹ sư phần mềm AI': agent tự viết code, chạy lệnh, duyệt web để hoàn thành tác vụ lập trình."
+  use_cases: ["Giao các ticket lập trình cho AI", "Tạo nhanh nguyên mẫu ứng dụng"]
+  platforms: [docker, linux, macos, windows]
+  deploy: [self-host, cloud, cli]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 3
+- repo: bytedance/deer-flow
+  also: [ai-marketing]
+  tags: [deep-research, multi-agent, report]
+  summary: "Framework mã nguồn mở của ByteDance cho agent nghiên cứu chuyên sâu: tìm kiếm web, thu thập, chạy code và tổng hợp thành báo cáo."
+  use_cases: ["Báo cáo nghiên cứu thị trường, đối thủ", "Tổng hợp tài liệu cho bài viết chuyên sâu"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [local, self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: required
+  applicability: 4
+- repo: cline/cline
+  also: [dev-tools]
+  tags: [coding-agent, vscode, extension]
+  summary: "Agent lập trình tự động trong VS Code: lập kế hoạch, sửa nhiều file, chạy lệnh terminal — luôn hỏi bạn duyệt trước khi thực hiện."
+  use_cases: ["Lập trình cùng AI ngay trong VS Code", "Tự động hóa thay đổi lớn trên nhiều file"]
+  platforms: [windows, macos, linux]
+  deploy: [extension]
+  difficulty: easy
+  pricing: free
+  needs_api_key: optional
+  applicability: 3
+- repo: crewAIInc/crewAI
+  tags: [multi-agent, python, framework]
+  summary: "Framework Python tạo 'đội' AI agent nhập vai (nghiên cứu viên, biên tập viên, chuyên viên phân tích…) cùng phối hợp hoàn thành công việc."
+  use_cases: ["Quy trình viết nội dung nhiều bước", "Phân tích thị trường tự động", "Tự động hóa nghiệp vụ văn phòng"]
+  platforms: [windows, macos, linux]
+  deploy: [library, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 4
+- repo: microsoft/agent-framework
+  tags: [multi-agent, python, dotnet, framework]
+  summary: "Framework xây dựng AI agent và quy trình đa agent của Microsoft cho Python và .NET — thế hệ kế tiếp của AutoGen và Semantic Kernel."
+  use_cases: ["Agent doanh nghiệp tích hợp hệ sinh thái Microsoft", "Quy trình nhiều agent có kiểm soát"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: optional
+  applicability: 3
+- repo: langchain-ai/langgraph
+  tags: [agent, python, typescript, framework]
+  summary: "Thư viện xây agent có trạng thái, nhiều bước, có thể tạm dừng chờ người duyệt — dùng nhiều trong hệ thống agent sản xuất."
+  use_cases: ["Agent chăm sóc khách hàng nhiều bước", "Quy trình phê duyệt có AI hỗ trợ"]
+  platforms: [windows, macos, linux]
+  deploy: [library, cloud]
+  difficulty: hard
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 3
+- repo: Significant-Gravitas/AutoGPT
+  tags: [autonomous-agent, workflow, platform]
+  summary: "Nền tảng tạo và chạy AI agent tự động liên tục cho quy trình công việc, có trình dựng agent dạng khối."
+  use_cases: ["Agent chạy nền theo lịch", "Tự động hóa chuỗi tác vụ nhiều bước"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: hard
+  pricing: freemium
+  needs_api_key: required
+  license_note: "Phần nền tảng (autogpt_platform) dùng Polyform Shield License — hạn chế dùng để xây sản phẩm cạnh tranh; các phần còn lại MIT. GitHub hiển thị NOASSERTION."
+  applicability: 3
+  license_override:
+    class: custom
+    name: Polyform Shield (nền tảng) + MIT
+- repo: mem0ai/mem0
+  tags: [memory, agent, personalization]
+  summary: "Lớp 'bộ nhớ dài hạn' cho AI agent và chatbot — ghi nhớ sở thích, lịch sử người dùng qua các phiên trò chuyện."
+  use_cases: ["Chatbot chăm sóc khách nhớ khách hàng", "Trợ lý cá nhân hóa"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [library, cloud, self-host]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 3
+- repo: aaif-goose/goose
+  tags: [agent, desktop, mcp]
+  summary: "Agent AI mã nguồn mở chạy trên máy (ứng dụng desktop và CLI), tự động hóa tác vụ và kết nối mọi máy chủ MCP — khởi đầu từ Block, nay thuộc Agentic AI Foundation."
+  use_cases: ["Trợ lý AI trên desktop kết nối công cụ qua MCP", "Tự động hóa tác vụ kỹ thuật"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop, cli]
+  difficulty: easy
+  pricing: free
+  needs_api_key: optional
+  applicability: 4
+- repo: Skyvern-AI/skyvern
+  also: [ai-automation]
+  tags: [browser-automation, computer-vision, rpa]
+  summary: "Tự động hóa quy trình trên trình duyệt bằng LLM kết hợp thị giác máy tính — thao tác được cả trên website chưa từng thấy."
+  use_cases: ["Tải hóa đơn từ nhiều cổng thông tin", "Điền form hàng loạt", "Thay RPA truyền thống"]
+  platforms: [docker, windows, macos, linux]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 4

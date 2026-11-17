@@ -1,0 +1,123 @@
+{
+ "id": "ToolJet/ToolJet",
+ "github_id": 352933140,
+ "node_id": "MDEwOlJlcG9zaXRvcnkzNTI5MzMxNDA=",
+ "full_name": "ToolJet/ToolJet",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.971Z",
+ "meta": {
+  "name": "ToolJet",
+  "owner": "ToolJet",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/82193554?v=4",
+  "description": "Open-source foundation of ToolJet AI - the enterprise app generation platform for internal tools, dashboards, business applications, workflows and AI agents. Build visually, from a prompt, or from Claude Code, Codex and Cursor over MCP 🚀",
+  "homepage": "https://tooljet.com",
+  "html_url": "https://github.com/ToolJet/ToolJet",
+  "default_branch": "main",
+  "language": "HTML",
+  "languages": null,
+  "topics": [
+   "ai-app-builder",
+   "docker",
+   "internal-applications",
+   "internal-project",
+   "internal-tool",
+   "internal-tools",
+   "javascript",
+   "kubernetes",
+   "low-code",
+   "low-code-development-platform",
+   "low-code-framework",
+   "no-code",
+   "nodejs",
+   "reactjs",
+   "self-hosted",
+   "typescript",
+   "web-development-tools",
+   "workflow-automation"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 41235,
+  "forks": 5509,
+  "watchers": null,
+  "open_issues": 960,
+  "open_prs": null,
+  "created_at": "2021-03-30T08:51:34Z",
+  "pushed_at": "2026-11-17T01:44:48Z",
+  "updated_at": "2026-11-17T01:26:07Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 1791259,
+  "og_image": "https://opengraph.githubassets.com/1/ToolJet/ToolJet",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T15:06:40.000Z",
+  "commits_90d": 1322,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v3.20.257-lts",
+  "name": "v3.20.257-lts",
+  "published_at": "2026-11-12T02:20:57Z",
+  "url": "https://github.com/ToolJet/ToolJet/releases/tag/v3.20.257-lts",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v3.21.96-lts",
+  "name": "v3.21.96-lts",
+  "published_at": "2026-11-13T07:47:16Z",
+  "url": "https://github.com/ToolJet/ToolJet/releases/tag/v3.21.96-lts"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 9810,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quickstart",
+    "html": "<p>The easiest way to get started with ToolJet is by creating a <a href=\"https://tooljet.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ToolJet Cloud</a> account. ToolJet Cloud offers a hosted solution of ToolJet. If you want to self-host ToolJet, kindly proceed to <a href=\"https://docs.tooljet.com/docs/setup/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">deployment documentation</a>.</p>\n<h5>Try using Docker</h5>\n<p>Want to give ToolJet a quick spin on your local machine? You can run the following command from your terminal to have ToolJet up and running right away.</p>\n<pre><code class=\"language-bash\">docker run \\\n  --name tooljet \\\n  --restart unless-stopped \\\n  -p 80:80 \\\n  --platform linux/amd64 \\\n  -v tooljet_data:/var/lib/postgresql/13/main \\\n  tooljet/try:ee-lts-latest\n</code></pre>\n<p><em>For users upgrading their ToolJet version, we recommend choosing the LTS version over the latest version. The LTS version ensures stability with production bug fixes, security patches, and performance enhancements.</em></p>",
+    "truncated": false,
+    "chars": 861
+   },
+   "usage": {
+    "title": "Tutorials and examples",
+    "html": "<p><a href=\"https://docs.tooljet.com/docs/#quickstart-guide\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Time Tracker Application</a><br />\n<a href=\"https://blog.tooljet.com/build-cms-using-lowcode-and-mongodb/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Build your own CMS using low-code</a><br />\n<a href=\"https://blog.tooljet.com/build-an-aws-s3-broswer-with-tooljet/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AWS S3 Browser</a><br /></p>",
+    "truncated": false,
+    "chars": 271
+   },
+   "features": {
+    "title": "Features",
+    "html": "<h5>Community Edition (CE)</h5>\n<ul>\n<li><strong>Visual App Builder:</strong> 80+ responsive components (Tables, Charts, Forms, Lists, Progress Bars, and more).  </li>\n<li><strong>ToolJet Database:</strong> Built-in no-code database.  </li>\n<li><strong>Multi-page Apps &amp; Multiplayer Editing:</strong> Build complex apps collaboratively.  </li>\n<li><strong>90+ Data Sources:</strong> Connect to databases, APIs, cloud storage, and SaaS tools.  </li>\n<li><strong>Flexible Deployment:</strong> Self-host with Docker, Kubernetes, AWS, GCP, Azure, and more.  </li>\n<li><strong>Collaboration Tools:</strong> Inline comments, mentions, and granular access control.  </li>\n<li><strong>Extensibility:</strong> Create plugins and connectors with the <a href=\"https://www.npmjs.com/package/@tooljet/cli\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ToolJet CLI</a>.  </li>\n<li><strong>Code Anywhere:</strong> Run JavaScript and Python inside your apps.  </li>\n<li><strong>Secure by Design:</strong> AES-256-GCM encryption, proxy-only data flow, SSO support.</li>\n</ul>\n<h5>ToolJet AI (Enterprise)</h5>\n<p>Everything in CE, plus:  </p>\n<ul>\n<li><strong>AI App Generation:</strong> Create apps instantly from natural language prompts.  </li>\n<li><strong>AI Query Builder:</strong> Generate and transform queries with AI assistance.  </li>\n<li><strong>AI Debugging:</strong> Identify and fix issues with one click.  </li>\n<li><strong>Agent Builder:</strong> Create intelligent agents to automate workflows and orchestrate processes.  </li>\n<li><strong>Workflows:</strong> Automate multi-step processes with branching logic, on a schedule or triggered by webhook.  </li>\n<li><strong>Modules:</strong> Build reusable units of UI and logic once, then use them across multiple apps.  </li>\n<li><strong>Enterprise-grade Security &amp; Compliance:</strong> SOC 2 and GDPR readiness, audit logs, and advanced access control.</li>\n<li><strong>User Management:</strong> Role-based access (RBAC), custom groups, SCIM provisioning, and granular app/data permissions.  </li>\n<li><strong>Multi-environment Management:</strong> Seamless dev/stage/prod environments.  </li>\n<li><strong>GitSync &amp; CI/CD:</strong> Integrate with GitHub/GitLab for version control, app version history, and streamlined deployments.  </li>\n<li><strong>Branding &amp; Customization:</strong> White-labeling, custom domains, and custom theming for organizational branding.  </li>\n<li><strong>Fine-Grained Access Control:</strong> Secure data and actions at the row, component, page, and query levels.  </li>\n<li><strong>Embedded Apps:</strong> Embed ToolJet apps securely within other applications or portals.  </li>\n<li><strong>Enterprise Support:</strong> SLAs, priority bug fixes, and onboarding assistance.</li>\n</ul>\n<hr />",
+    "truncated": false,
+    "chars": 2223
+   }
+  },
+  "headings": 16,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:38.836Z",
+  "checked_at": "2026-11-17T02:20:24.184Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:24.184Z"
+}

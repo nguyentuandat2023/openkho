@@ -1,0 +1,174 @@
+# Danh mục: Website & Web Development — xem cấu trúc trường trong data/README.md
+- repo: WordPress/WordPress
+  tags: [cms, blog, php, website]
+  summary: "Hệ thống quản trị nội dung (CMS) phổ biến nhất thế giới — làm website, blog, trang bán hàng (cùng WooCommerce); kho này là bản sao chính thức từ SVN."
+  use_cases: ["Website doanh nghiệp, blog", "Trang bán hàng với WooCommerce", "Landing page chiến dịch"]
+  pros: ["Hàng chục nghìn theme và plugin", "Dễ dùng cho người không biết code", "Hầu hết hosting tại Việt Nam hỗ trợ cài nhanh"]
+  cons: ["Nhiều plugin dễ làm web chậm và lộ lỗ hổng", "Phải cập nhật thường xuyên"]
+  platforms: [web, linux, docker]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  license_note: "GPL-2.0 trở lên (GitHub hiển thị NOASSERTION)."
+  note: "Đây là bản mirror — báo lỗi và đóng góp qua core.trac.wordpress.org."
+  applicability: 5
+  featured: true
+  license_override:
+    spdx: GPL-2.0
+    name: GPL-2.0-or-later
+- repo: vercel/next.js
+  tags: [react, framework, ssr, seo]
+  summary: "Framework React làm website/ứng dụng web nhanh, chuẩn SEO (kết xuất phía máy chủ, trang tĩnh) — chính thư viện này dùng Next.js."
+  use_cases: ["Website doanh nghiệp hiệu năng cao", "Ứng dụng web, cổng thông tin"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: TryGhost/Ghost
+  also: [marketing-seo]
+  tags: [publishing, newsletter, membership, cms]
+  summary: "Nền tảng xuất bản nội dung và newsletter có thu phí thành viên — thay Substack/Medium cho thương hiệu và nhà sáng tạo."
+  use_cases: ["Blog thương hiệu chuẩn SEO", "Newsletter trả phí", "Cộng đồng thành viên"]
+  platforms: [linux, docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: react/react
+  tags: [ui-library, javascript]
+  summary: "Thư viện giao diện người dùng phổ biến nhất thế giới, do Meta khởi xướng."
+  use_cases: ["Nền tảng giao diện cho website, ứng dụng web"]
+  platforms: [web]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: tailwindlabs/tailwindcss
+  tags: [css, framework, design-system]
+  summary: "Framework CSS 'utility-first' giúp dựng giao diện đẹp nhanh ngay trong HTML — được dùng cho website này."
+  use_cases: ["Dựng giao diện landing page nhanh"]
+  platforms: [web]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: shadcn-ui/ui
+  tags: [components, react, design-system]
+  summary: "Bộ component giao diện đẹp, dễ tùy biến, sao chép thẳng vào dự án React (không phải thư viện cài đặt)."
+  use_cases: ["Giao diện quản trị, dashboard đẹp nhanh"]
+  platforms: [web]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: withastro/astro
+  tags: [static-site, content, seo]
+  summary: "Framework làm website nội dung (blog, landing page, tài liệu) siêu nhanh, gửi ít JavaScript — điểm SEO/Lighthouse cao."
+  use_cases: ["Blog, landing page tải nhanh", "Trang tài liệu sản phẩm"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+  license_override:
+    spdx: MIT
+    name: MIT
+- repo: gohugoio/hugo
+  tags: [static-site, go, fast]
+  summary: "Trình tạo website tĩnh rất nhanh (viết bằng Go): build hàng nghìn trang trong vài giây, hợp làm blog, trang doanh nghiệp."
+  use_cases: ["Blog, website giới thiệu không cần máy chủ"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: strapi/strapi
+  tags: [headless-cms, nodejs, api]
+  summary: "Headless CMS mã nguồn mở hàng đầu (Node.js): tự thiết kế kiểu nội dung, có API REST/GraphQL cho website và ứng dụng."
+  use_cases: ["Quản trị nội dung cho website + app cùng lúc"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  license_note: "Bản cộng đồng MIT; tính năng Enterprise cần giấy phép (GitHub hiển thị NOASSERTION)."
+  applicability: 3
+  license_override:
+    spdx: MIT
+    name: MIT + giấy phép enterprise (ee)
+- repo: payloadcms/payload
+  tags: [headless-cms, nextjs, typescript]
+  summary: "CMS và framework ứng dụng chạy ngay trong Next.js — quản trị nội dung, xác thực, upload file, TypeScript đầy đủ."
+  use_cases: ["Website có trang quản trị nội dung riêng"]
+  platforms: [windows, macos, linux]
+  deploy: [library, self-host]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: stackblitz-labs/bolt.diy
+  also: [no-code]
+  tags: [ai-app-builder, full-stack, vibe-coding]
+  summary: "Bản mã nguồn mở của Bolt.new: mô tả ý tưởng bằng lời để AI dựng ứng dụng web full-stack, dùng được với nhiều LLM kể cả mô hình local."
+  use_cases: ["Dựng nguyên mẫu web/app nhanh không cần lập trình viên", "Landing page theo mô tả"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [local, self-host, desktop]
+  difficulty: medium
+  pricing: free
+  needs_api_key: optional
+  applicability: 4
+- repo: dyad-sh/dyad
+  also: [no-code]
+  tags: [ai-app-builder, local, lovable-alternative]
+  summary: "Trình tạo ứng dụng bằng AI chạy trên máy (thay Lovable, v0, Bolt): không khóa nền tảng, dùng khóa API của bạn hoặc mô hình local."
+  use_cases: ["Tự làm công cụ nội bộ bằng mô tả", "Nguyên mẫu sản phẩm"]
+  platforms: [windows, macos]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 4
+- repo: onlook-dev/onlook
+  also: [design]
+  tags: [visual-editor, react, ai]
+  summary: "Trình chỉnh sửa trực quan kiểu Figma cho ứng dụng React/Next.js có AI hỗ trợ — designer sửa giao diện, code tự cập nhật."
+  use_cases: ["Designer chỉnh trực tiếp giao diện web thật"]
+  platforms: [windows, macos, linux, web]
+  deploy: [desktop, cloud]
+  difficulty: medium
+  pricing: free
+  needs_api_key: optional
+  applicability: 3
+- repo: GrapesJS/grapesjs
+  also: [no-code]
+  tags: [page-builder, drag-and-drop, email-builder]
+  summary: "Framework dựng trình kéo-thả tạo trang web/email (no-code builder) để tích hợp vào sản phẩm của bạn."
+  use_cases: ["Tích hợp trình soạn landing page vào hệ thống", "Trình thiết kế email kéo-thả"]
+  platforms: [web]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+  license_override:
+    spdx: BSD-3-Clause
+    name: BSD-3-Clause
+- repo: twbs/bootstrap
+  tags: [css, framework, responsive]
+  summary: "Framework giao diện HTML/CSS/JS kinh điển để làm website responsive nhanh với các thành phần dựng sẵn."
+  use_cases: ["Website doanh nghiệp responsive nhanh"]
+  platforms: [web]
+  deploy: [library]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 3

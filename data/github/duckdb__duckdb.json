@@ -1,0 +1,95 @@
+{
+ "id": "duckdb/duckdb",
+ "github_id": 138754790,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxMzg3NTQ3OTA=",
+ "full_name": "duckdb/duckdb",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "duckdb",
+  "owner": "duckdb",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/82039556?v=4",
+  "description": "DuckDB is a high-performance analytical database system",
+  "homepage": "http://www.duckdb.org",
+  "html_url": "https://github.com/duckdb/duckdb",
+  "default_branch": "main",
+  "language": "C++",
+  "languages": null,
+  "topics": [
+   "analytics",
+   "database",
+   "embedded-database",
+   "olap",
+   "sql"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 43117,
+  "forks": 4214,
+  "watchers": null,
+  "open_issues": 1234,
+  "open_prs": null,
+  "created_at": "2018-06-26T15:04:45Z",
+  "pushed_at": "2026-11-17T00:19:47Z",
+  "updated_at": "2026-11-17T01:59:54Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 589180,
+  "og_image": "https://opengraph.githubassets.com/1/duckdb/duckdb",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T22:05:24.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.0.0",
+  "name": "DuckDB v2.0.0 &quot;Cyanoptera&quot;",
+  "published_at": "2026-10-21T13:11:38Z",
+  "url": "https://github.com/duckdb/duckdb/releases/tag/v2.0.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 5808,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>If you want to install DuckDB, please see <a href=\"https://duckdb.org/docs/installation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our installation page</a> for instructions.</p>",
+    "truncated": false,
+    "chars": 126
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 8,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:47.264Z",
+  "checked_at": "2026-11-17T02:19:47.264Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:47.264Z"
+}

@@ -1,0 +1,111 @@
+{
+ "id": "go-gitea/gitea",
+ "github_id": 72495579,
+ "node_id": "MDEwOlJlcG9zaXRvcnk3MjQ5NTU3OQ==",
+ "full_name": "go-gitea/gitea",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.325Z",
+ "meta": {
+  "name": "gitea",
+  "owner": "go-gitea",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/12724356?v=4",
+  "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+  "homepage": "https://gitea.com",
+  "html_url": "https://github.com/go-gitea/gitea",
+  "default_branch": "main",
+  "language": "Go",
+  "languages": null,
+  "topics": [
+   "bitbucket",
+   "cicd",
+   "devops",
+   "docker-registry-v2",
+   "git",
+   "git-gui",
+   "git-lfs",
+   "git-server",
+   "gitea",
+   "github",
+   "github-actions",
+   "gitlab",
+   "go",
+   "golang",
+   "hacktoberfest",
+   "maven-server",
+   "npm-registry",
+   "self-hosted",
+   "typescript",
+   "vue"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 59121,
+  "forks": 7409,
+  "watchers": null,
+  "open_issues": 2170,
+  "open_prs": null,
+  "created_at": "2016-11-01T02:13:26Z",
+  "pushed_at": "2026-11-17T00:34:30Z",
+  "updated_at": "2026-11-17T01:09:40Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 375546,
+  "og_image": "https://opengraph.githubassets.com/1/go-gitea/gitea",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T00:34:28.000Z",
+  "commits_90d": 535,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v28.4.0",
+  "name": "v28.4.0",
+  "published_at": "2026-11-15T19:39:47Z",
+  "url": "https://github.com/go-gitea/gitea/releases/tag/v28.4.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 10410,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "EM71-2uDAoY",
+    "url": "https://www.youtube.com/watch?v=EM71-2uDAoY"
+   }
+  ],
+  "sections": {
+   "install": null,
+   "usage": null,
+   "features": null
+  },
+  "headings": 24,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:04.802Z",
+  "checked_at": "2026-11-17T02:20:04.802Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:04.802Z"
+}

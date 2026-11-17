@@ -1,0 +1,121 @@
+{
+ "id": "Skyvern-AI/skyvern",
+ "github_id": 764723738,
+ "node_id": "R_kgDOLZTCGg",
+ "full_name": "Skyvern-AI/skyvern",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "skyvern",
+  "owner": "Skyvern-AI",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/141457985?v=4",
+  "description": "Automate browser based workflows with AI",
+  "homepage": "https://www.skyvern.com",
+  "html_url": "https://github.com/Skyvern-AI/skyvern",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "ai",
+   "api",
+   "automation",
+   "browser",
+   "browser-automation",
+   "computer",
+   "gpt",
+   "llm",
+   "playwright",
+   "powerautomate",
+   "puppeteer",
+   "python",
+   "rpa",
+   "selenium",
+   "vision",
+   "workflow"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 23435,
+  "forks": 2243,
+  "watchers": null,
+  "open_issues": 299,
+  "open_prs": null,
+  "created_at": "2024-02-28T15:45:19Z",
+  "pushed_at": "2026-11-17T02:12:15Z",
+  "updated_at": "2026-11-17T01:42:29Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 678792,
+  "og_image": "https://opengraph.githubassets.com/1/Skyvern-AI/skyvern",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T02:12:13.000Z",
+  "commits_90d": 2816,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.0.58",
+  "name": "Release v1.0.58",
+  "published_at": "2026-11-17T01:23:38Z",
+  "url": "https://github.com/Skyvern-AI/skyvern/releases/tag/v1.0.58",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 25820,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quickstart",
+    "html": "<h4>Skyvern Cloud</h4>\n<p><a href=\"https://app.skyvern.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Skyvern Cloud</a> is a managed cloud version of Skyvern that allows you to run Skyvern without worrying about the infrastructure. It allows you to run multiple Skyvern instances in parallel and comes bundled with anti-bot detection mechanisms, proxy network, and CAPTCHA solvers.</p>\n<p>If you'd like to try it out, navigate to <a href=\"https://app.skyvern.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">app.skyvern.com</a> and create an account.</p>\n<h4>Run Locally (UI + Server)</h4>\n<p>Choose your preferred setup method:</p>\n<blockquote>\n<p><strong>Database default</strong>: <code>skyvern quickstart</code> and <code>skyvern run server</code> default to a SQLite database at <code>~/.skyvern/data.db</code> so the pip path works without Postgres or Docker. To use Postgres instead, pass <code>--database-string</code> for an existing database (or omit <code>--no-postgres</code> so <code>quickstart</code> starts its own Postgres container). Docker Compose always uses the bundled Postgres service.</p>\n</blockquote>\n<h5>Option A: pip install (Recommended for Python-managed local setup)</h5>\n<p>Dependencies needed:</p>\n<ul>\n<li><a href=\"https://www.python.org/downloads/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Python 3.11, 3.12, or 3.13</a></li>\n</ul>\n<p>Additionally, for Windows:</p>\n<ul>\n<li><a href=\"https://rustup.rs/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Rust</a></li>\n<li>VS Code with C++ dev tools and Windows SDK</li>\n</ul>\n<h6>1. Install Skyvern</h6>\n<pre><code class=\"language-bash\">pip install \"skyvern[server]\"\n</code></pre>\n<p>The <code>server</code> extra installs the local API server. <code>pip install skyvern</code> without it installs only the client SDK. The pip package does not include the web UI; for the UI, use <a href=\"https://github.com/Skyvern-AI/skyvern#option-b-docker-compose\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker Compose</a> or a source checkout.</p>\n<h6>2. Run Skyvern</h6>\n<pre><code class=\"language-bash\">skyvern quickstart\n</code></pre>\n<p>The pip quickstart uses SQLite by default. To use a local Postgres container instead, run <code>skyvern quickstart</code> (Postgres container is started unless you pass <code>--no-postgres</code>), or connect to an existing database with <code>--database-string=postgresql+psycopg://user:pass@host:5432/dbname</code>.</p>\n<h5>Option B: Docker Compose</h5>\n<p>Use this option if you want everything containerized (Postgres, API, UI) and don't want to install Python/Node locally.</p>\n<ol>\n<li>Install <a href=\"https://www.docker.com/products/docker-desktop/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker Desktop</a></li>\n<li>Clone the repository:<pre><code class=\"language-bash\">git clone https://github.com/skyvern-ai/skyvern.git &amp;&amp; cd skyvern\n</code></pre>\n</li>\n<li>Configure your LLM provider in <code>.env</code> (the <code>quickstart --docker-compose</code> command below will create it from <code>.env.example</code> if missing):<pre><code class=\"language-bash\">cp .env.example .env  # if not already created\n# edit .env to add your LLM API key\n</code></pre>\n</li>\n<li>Start everything:<pre><code class=\"language-bash\">docker compose up -d\n</code></pre>\n</li>\n<li>Open <a href=\"http://localhost:8080\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:8080</a></li>\n</ol>\n<h5>Troubleshooting</h5>\n<p><strong><code>(sqlite3.OperationalError) table organizations already exists</code></strong> — You hit a known bug in <code>pip install skyvern==1.0.31</code>. Fix:</p>\n<pre><code class=\"language-bash\">rm ~/.skyvern/data.db   # remove the leftover SQLite file\npip install --upgrade skyvern   # 1.0.32+ contains the fix\nskyvern quickstart\n</code></pre>\n<p>If you are still on 1.0.31 and cannot upgrade, install via uv instead:</p>\n<pre><code class=\"language-bash\">uv pip install skyvern\n</code></pre>\n<p><strong><code>pip install skyvern</code> fails with ResolutionImpossible (litellm / fastmcp)</strong> — You hit a dependency-resolution conflict in 1.0.31. Either upgrade to 1.0.32+ or use uv: <code>uv pip install skyvern</code>.</p>\n<h4>SDK</h4>\n<p><strong>Skyvern is a Playwright extension that adds AI-powered browser automation.</strong> It gives you the full power of Playwright with additional AI capabilities—use natural language prompts to interact with elements, extract data, and automate complex multi-step workflows.</p>\n<p><strong>Installation:</strong></p>\n<ul>\n<li>Python SDK / cloud API: <code>pip install skyvern</code></li>\n<li>Python SDK with browser and page commands, including <code>Skyvern.local()</code>: <code>pip install \"skyvern[local]\"</code></li>\n<li>Local API server: <code>pip install \"skyvern[server]\"</code> then run <code>skyvern quickstart</code></li>\n<li>Local API server with your own Postgres: <code>pip install \"skyvern[server]\"</code> then run <code>skyvern quickstart --database-string=postgresql+psycopg://user:pass@host:5432/dbname</code></li>\n<li>Web UI: not included in the pip package. Use <a href=\"https://github.com/Skyvern-AI/skyvern#option-b-docker-compose\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker Compose</a>, or run <code>skyvern run ui</code> from a source checkout.</li>\n<li>TypeScript: <code>npm install @skyvern/client</code></li>\n</ul>\n<h5>AI-Powered Page Commands</h5>\n<p>Skyvern adds four core AI commands directly on the page object:</p>\n<table>\n<thead>\n<tr>\n<th>Command</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><code>page.act(prompt)</code></td>\n<td>Perform actions using natural language (e.g., \"Click the login button\")</td>\n</tr>\n<tr>\n<td><code>page.extract(prompt, schema)</code></td>\n<td>Extract structured data from the page with optional JSON schema</td>\n</tr>\n<tr>\n<td><code>page.validate(prompt)</code></td>\n<td>Validate page state, returns <code>bool</code> (e.g., \"Check if user is logged in\")</td>\n</tr>\n<tr>\n<td><code>page.prompt(prompt, schema)</code></td>\n<td>Send arbitrary prompts to the LLM with optional response schema</td>\n</tr>\n</tbody></table>\n<p>Additionally, <code>page.agent</code> provides higher-level workflow commands:</p>\n<table>\n<thead>\n<tr>\n<th>Command</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><code>page.agent.run_task(prompt)</code></td>\n<td>Execute complex multi-step tasks</td>\n</tr>\n<tr>\n<td><code>page.agent.login(credential_type, credential_id)</code></td>\n<td>Authenticate with stored credentials (Skyvern, Bitwarden, 1Password)</td>\n</tr>\n<tr>\n<td><code>page.agent.download_files(prompt)</code></td>\n<td>Navigate and download files</td>\n</tr>\n<tr>\n<td><code>page.agent.run_workflow(workflow_id)</code></td>\n<td>Execute pre-built workflows</td>\n</tr>\n</tbody></table>\n<h5>AI-Augmented Playwright Actions</h5>\n<p>All standard Playwright actions support an optional <code>prompt</code> parameter for AI-powered element location:</p>\n<table>\n<thead>\n<tr>\n<th>Action</th>\n<th>Playwright</th>\n<th>AI-Augmented</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Click</td>\n<td><code>page.click(\"#btn\")</code></td>\n<td><code>page.click(prompt=\"Click login button\")</code></td>\n</tr>\n<tr>\n<td>Fill</td>\n<td><code>page.fill(\"#email\", \"a@b.com\")</code></td>\n<td><code>page.fill(prompt=\"Email field\", value=\"a@b.com\")</code></td>\n</tr>\n<tr>\n<td>Select</td>\n<td><code>page.select_option(\"#country\", \"US\")</code></td>\n<td><code>page.select_option(prompt=\"Country dropdown\", value=\"US\")</code></td>\n</tr>\n<tr>\n<td>Upload</td>\n<td><code>page.upload_file(\"#file\", \"doc.pdf\")</code></td>\n<td><code>page.upload_file(prompt=\"Upload area\", files=\"doc.pdf\")</code></td>\n</tr>\n</tbody></table>\n<p><strong>Three interaction modes:</strong></p>\n<pre><code class=\"language-python\"># 1. Traditional Playwright - CSS/XPath selectors\nawait page.click(\"#submit-button\")\n\n# 2. AI-powered - natural language\nawait page.click(prompt=\"Click the green Submit button\")\n\n# 3. AI fallback - tries selector first, falls back to AI if it fails\nawait page.click(\"#submit-btn\", prompt=\"Click the Submit button\")\n</code></pre>\n<h5>Core AI Commands - Examples</h5>\n<pre><code class=\"language-python\"># act - Perform actions using natural language\nawait page.act(\"Click the login button and wait for the dashboard to load\")\n\n# extract - Extract structured data with optional JSON schema\nresult = await page.extract(\"Get the product name and price\")\nresult = await page.extract(\n    prompt=\"Extract order details\",\n    schema={\"order_id\": \"string\", \"total\": \"number\", \"items\": \"array\"}\n)\n\n# validate - Check page state (returns bool)\nis_logged_in = await page.validate(\"Check if the user is logged in\")\n\n# prompt - Send arbitrary prompts to the LLM\nsummary = await page.prompt(\"Summarize what's on this page\")\n</code></pre>\n<h5>Quick Start Examples</h5>\n<p><strong>Run via UI:</strong></p>\n<pre><code class=\"language-bash\">skyvern run all\n</code></pre>\n<p>From a source checkout, navigate to <a href=\"http://localhost:8080\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:8080</a> to run tasks through the web interface. A pip install does not include the web UI, so there <code>skyvern run all</code> starts only the API server at <a href=\"http://localhost:8000\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:8000</a>.</p>\n<p>To run only the UI against an existing Skyvern API, clone this repository, install Node.js, and set the\nenvironment variables below before running <code>skyvern run ui</code> from the repository root:</p>\n<ul>\n<li><code>VITE_API_BASE_URL</code> (e.g. <code>http://localhost:8000/api/v1</code>) — points the UI at your Skyvern API</li>\n<li><code>VITE_SKYVERN_API_KEY</code> — the API key if your API requires one</li>\n<li><code>VITE_WSS_BASE_URL</code> — WebSocket endpoint (inferred from <code>VITE_API_BASE_URL</code> if unset)</li>\n<li><code>VITE_ARTIFACT_API_BASE_URL</code> — base URL for artifact downloads</li>\n<li><code>VITE_BROWSER_STREAMING_MODE</code> — browser viewport streaming mode</li>\n</ul>\n<p><strong>Python SDK:</strong></p>\n<pre><code class=\"language-python\">from skyvern import Skyvern\n\n# Local mode\nskyvern = Skyvern.local()\n\n# Or connect to Skyvern Cloud\nskyvern = Skyvern(api_key=\"your-api-key\")\n\n# Launch browser and get page\nbrowser = await skyvern.launch_cloud_browser()\npage = await browser.get_working_page()\n\n# Mix Playwright with AI-powered actions\nawait page.goto(\"https://example.com\")\nawait page.click(\"#login-button\")  # Traditional Playwright\nawait page.agent.login(credential_type=\"skyvern\", credential_id=\"cred_123\")  # AI login\nawait page.click(prompt=\"Add first item to cart\")  # AI-augmented click\nawait page.agent.run_task(\"Complete checkout with: John Snow, 12345\")  # AI task\n</code></pre>\n<p><strong>TypeScript SDK:</strong></p>\n<pre><code class=\"language-typescript\">import { Skyvern } from \"@skyvern/client\";\n\nconst skyvern = new Skyvern({ apiKey: \"your-api-key\" });\nconst browser = await skyvern.launchCloudBrowser();\nconst page = await browser.getWorkingPage();\n\n// Mix Playwright with AI-powered actions\nawait page.goto(\"https://example.com\");\nawait page.click(\"#login-button\");  // Traditional Playwright\nawait page.agent.login(\"skyvern\", { credentialId: \"cred_123\" });  // AI login\nawait page.click({ prompt: \"Add first item to cart\" });  // AI-augmented click\nawait page.agent.runTask(\"Complete checkout with: John Snow, 12345\");  // AI task\n\nawait browser.close();\n</code></pre>\n<p><strong>Simple task execution:</strong></p>\n<pre><code class=\"language-python\">from skyvern import Skyvern\n\nskyvern = Skyvern()\ntask = await skyvern.run_task(prompt=\"Find the top post on hackernews today\")\nprint(task)\n</code></pre>\n<h4>Advanced Usage</h4>",
+    "truncated": true,
+    "chars": 8981
+   },
+   "usage": {
+    "title": "Core AI Commands - Examples",
+    "html": "<pre><code class=\"language-python\"># act - Perform actions using natural language\nawait page.act(\"Click the login button and wait for the dashboard to load\")\n\n# extract - Extract structured data with optional JSON schema\nresult = await page.extract(\"Get the product name and price\")\nresult = await page.extract(\n    prompt=\"Extract order details\",\n    schema={\"order_id\": \"string\", \"total\": \"number\", \"items\": \"array\"}\n)\n\n# validate - Check page state (returns bool)\nis_logged_in = await page.validate(\"Check if the user is logged in\")\n\n# prompt - Send arbitrary prompts to the LLM\nsummary = await page.prompt(\"Summarize what's on this page\")\n</code></pre>",
+    "truncated": false,
+    "chars": 625
+   },
+   "features": {
+    "title": "Skyvern Features",
+    "html": "<h4>Skyvern Tasks</h4>\n<p>Tasks are the fundamental building block inside Skyvern. Each task is a single request to Skyvern, instructing it to navigate through a website and accomplish a specific goal.</p>\n<p>Tasks require you to specify a <code>url</code>, <code>prompt</code>, and can optionally include a <code>data schema</code> (if you want the output to conform to a specific schema) and <code>error codes</code> (if you want Skyvern to stop running in specific situations).</p>\n<p>\n  <img src=\"https://raw.githubusercontent.com/Skyvern-AI/skyvern/main/.github/assets/readme/skyvern_2_0_screenshot.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n</p><h4>Skyvern Workflows</h4>\n<p>Workflows are a way to chain multiple tasks together to form a cohesive unit of work.</p>\n<p>For example, if you wanted to download all invoices newer than January 1st, you could create a workflow that first navigated to the invoices page, then filtered down to only show invoices newer than January 1st, extracted a list of all eligible invoices, and iterated through each invoice to download it.</p>\n<p>Another example is if you wanted to automate purchasing products from an e-commerce store, you could create a workflow that first navigated to the desired product, then added it to a cart. Second, it would navigate to the cart and validate the cart state. Finally, it would go through the checkout process to purchase the items.</p>\n<p>Supported workflow features include:</p>\n<ol>\n<li>Browser Task</li>\n<li>Browser Action</li>\n<li>Data Extraction</li>\n<li>Validation</li>\n<li>For Loops</li>\n<li>File parsing</li>\n<li>Sending emails</li>\n<li>Text Prompts</li>\n<li>HTTP Request Block</li>\n<li>Custom Code Block</li>\n<li>Uploading files to block storage</li>\n<li>(Coming soon) Conditionals</li>\n</ol>\n<p>\n  <img src=\"https://raw.githubusercontent.com/Skyvern-AI/skyvern/main/.github/assets/readme/block_example_v2.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n</p><h4>Livestreaming</h4>\n<p>Skyvern allows you to livestream the viewport of the browser to your local machine so that you can see exactly what Skyvern is doing on the web. This is useful for debugging and understanding how Skyvern is interacting with a website, and intervening when necessary</p>\n<h4>Form Filling</h4>\n<p>Skyvern is natively capable of filling out form inputs on websites. Passing in information via the <code>navigation_goal</code> will allow Skyvern to comprehend the information and fill out the form accordingly.</p>\n<h4>Data Extraction</h4>\n<p>Skyvern is also capable of extracting data from a website.</p>\n<p>You can also specify a <code>data_extraction_schema</code> directly within the main prompt to tell Skyvern exactly what data you'd like to extract from the website, in jsonc format. Skyvern's output will be structured in accordance to the supplied schema.</p>\n<h4>File Downloading</h4>\n<p>Skyvern is also capable of downloading files from a website. All downloaded files are automatically uploaded to block storage (if configured), and you can access them via the UI.</p>\n<h4>Authentication</h4>\n<p>Skyvern supports a number of different authentication methods to make it easier to automate tasks behind a login. If you'd like to try it out, please reach out to us <a href=\"mailto:founders@skyvern.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">via email</a> or <a href=\"https://discord.gg/fG2XXEuQX3\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">discord</a>.</p>\n<p>\n  <img src=\"https://raw.githubusercontent.com/Skyvern-AI/skyvern/main/.github/assets/readme/secure_password_task_example.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n</p><h5>🔐 2FA Support (TOTP)</h5>\n<p>Skyvern supports a number of different 2FA methods to allow you to automate workflows that require 2FA.</p>\n<p>Examples include:</p>\n<ol>\n<li>QR-based 2FA (e.g. Google Authenticator, Authy)</li>\n<li>Email based 2FA</li>\n<li>SMS based 2FA</li>\n</ol>\n<p>🔐 Learn more about 2FA support <a href=\"https://www.skyvern.com/docs/credentials/totp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>.</p>\n<h5>Password Manager Integrations</h5>\n<p>Skyvern currently supports the following password manager integrations:</p>\n<ul>\n<li> Bitwarden</li>\n<li> Custom Credential Service (HTTP API)</li>\n<li> 1Password</li>\n<li> LastPass</li>\n</ul>\n<h4>Model Context Protocol (MCP)</h4>\n<p>Skyvern supports the Model Context Protocol (MCP) to allow you to use any LLM that supports MCP.</p>\n<p>See the MCP documentation <a href=\"https://www.skyvern.com/docs/integrations/mcp#mcp-server\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a></p>\n<h4>Zapier / Make.com / N8N Integration</h4>\n<p>Skyvern supports Zapier, Make.com, and N8N to allow you to connect your Skyvern workflows to other apps.</p>\n<ul>\n<li><a href=\"https://www.skyvern.com/docs/integrations/zapier\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Zapier</a></li>\n<li><a href=\"https://www.skyvern.com/docs/integrations/make.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Make.com</a></li>\n<li><a href=\"https://www.skyvern.com/docs/integrations/n8n\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">N8N</a></li>\n</ul>\n<p>🔐 Learn more about 2FA support <a href=\"https://www.skyvern.com/docs/credentials/totp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>.</p>",
+    "truncated": false,
+    "chars": 4175
+   }
+  },
+  "headings": 50,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:16.702Z",
+  "checked_at": "2026-11-17T02:19:16.702Z"
+ },
+ "contributors": {
+  "count": 96,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:20.669Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:16.702Z"
+}

@@ -1,0 +1,203 @@
+# Danh mục: Marketing & SEO Tools — xem cấu trúc trường trong data/README.md
+- repo: umami-software/umami
+  tags: [web-analytics, privacy, google-analytics-alternative]
+  summary: "Phân tích truy cập website đơn giản, nhẹ, tôn trọng quyền riêng tư — thay Google Analytics, tự host miễn phí."
+  use_cases: ["Đo lượt truy cập, nguồn traffic, chiến dịch UTM", "Thống kê cho nhiều website khách hàng"]
+  pros: ["Giao diện rõ ràng, dễ hiểu hơn GA4", "Không dùng cookie — giảm thủ tục xin đồng ý cookie", "Script nhẹ, không làm chậm web"]
+  cons: ["Ít tính năng phân tích chuyên sâu hơn GA4", "Phải tự host hoặc trả phí bản cloud"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  quick_start: |
+    git clone https://github.com/umami-software/umami.git
+    cd umami
+    docker compose up -d
+    # Mở http://localhost:3000 – tài khoản mặc định: admin / umami (đổi ngay mật khẩu)
+  applicability: 5
+  featured: true
+- repo: mautic/mautic
+  tags: [marketing-automation, email-marketing, lead-scoring]
+  summary: "Nền tảng marketing automation mã nguồn mở lớn nhất: email hàng loạt, chấm điểm khách hàng tiềm năng, chiến dịch tự động, landing page, form."
+  use_cases: ["Chuỗi email nuôi dưỡng khách hàng", "Chấm điểm lead và chuyển cho sales", "Phân khúc danh sách khách hàng"]
+  pros: ["Thay HubSpot/ActiveCampaign, không tính phí theo số liên hệ", "Kịch bản chăm sóc tự động nhiều bước", "Cộng đồng lâu năm"]
+  cons: ["Cài đặt và cấu hình gửi email (SMTP/SES) khá phức tạp", "Giao diện chưa hiện đại"]
+  platforms: [linux, docker]
+  deploy: [self-host]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 5
+  featured: true
+  license_override:
+    spdx: GPL-3.0
+    name: GPL-3.0
+- repo: PostHog/posthog
+  also: [data-bi]
+  tags: [product-analytics, session-replay, ab-testing]
+  summary: "Bộ công cụ phân tích sản phẩm 'tất cả trong một': analytics, xem lại phiên người dùng, feature flag, A/B test, khảo sát."
+  use_cases: ["Phân tích hành vi người dùng website/app", "Thử nghiệm A/B landing page"]
+  platforms: [docker, web]
+  deploy: [cloud, self-host]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  license_note: "MIT cho phần lớn mã; thư mục ee dùng giấy phép thương mại (GitHub hiển thị NOASSERTION)."
+  applicability: 4
+  license_override:
+    spdx: MIT
+    name: MIT + giấy phép enterprise (ee)
+- repo: plausible/analytics
+  tags: [web-analytics, privacy, gdpr]
+  summary: "Phân tích website gọn nhẹ, không cookie, tuân thủ GDPR — bản Community Edition tự host miễn phí."
+  use_cases: ["Thống kê truy cập đơn giản cho website, blog"]
+  platforms: [docker]
+  deploy: [cloud, self-host]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: matomo-org/matomo
+  tags: [web-analytics, google-analytics-alternative, privacy]
+  summary: "Nền tảng phân tích web đầy đủ thay Google Analytics, bạn sở hữu 100% dữ liệu; heatmap và phễu chuyển đổi qua plugin."
+  use_cases: ["Phân tích chuyên sâu không phụ thuộc Google", "Báo cáo cho khách hàng agency"]
+  platforms: [linux, docker, web]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: knadh/listmonk
+  tags: [newsletter, email-marketing, mailing-list]
+  summary: "Quản lý danh sách và gửi newsletter hiệu năng cao (một file chạy + PostgreSQL), gửi hàng triệu email qua SMTP/SES của bạn."
+  use_cases: ["Bản tin định kỳ cho khách hàng", "Email khuyến mãi số lượng lớn chi phí thấp"]
+  platforms: [docker, linux, windows, macos]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: Billionmail/BillionMail
+  tags: [email-marketing, mail-server, newsletter]
+  summary: "Nền tảng email marketing tự host 'tất cả trong một': máy chủ mail, newsletter, chiến dịch và thống kê."
+  use_cases: ["Tự vận hành hệ thống email marketing", "Gửi bản tin không phụ thuộc dịch vụ trả phí"]
+  platforms: [docker, linux]
+  deploy: [self-host]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  note: "Tự vận hành máy chủ mail cần cấu hình SPF/DKIM/DMARC và địa chỉ IP sạch để email không vào spam."
+  applicability: 4
+- repo: dubinc/dub.link
+  also: [ecommerce]
+  tags: [link-shortener, attribution, affiliate]
+  summary: "Nền tảng link ngắn có thương hiệu, đo lường chuyển đổi và chương trình affiliate/đối tác."
+  use_cases: ["Link ngắn theo dõi chiến dịch", "Quản lý chương trình giới thiệu/affiliate"]
+  platforms: [web]
+  deploy: [cloud, self-host]
+  difficulty: hard
+  pricing: freemium
+  needs_api_key: none
+  license_note: "AGPL-3.0 cho phần lớn mã; thư mục ee có giấy phép thương mại (GitHub hiển thị NOASSERTION)."
+  applicability: 4
+  license_override:
+    spdx: AGPL-3.0
+    name: AGPL-3.0 + giấy phép thương mại (ee)
+- repo: GoogleChrome/lighthouse
+  tags: [seo-audit, performance, accessibility]
+  summary: "Công cụ kiểm tra chất lượng trang web của Google: điểm hiệu năng, SEO, khả năng truy cập — tích hợp sẵn trong Chrome DevTools."
+  use_cases: ["Audit SEO kỹ thuật", "Đo tốc độ trang trước/sau tối ưu"]
+  platforms: [windows, macos, linux]
+  deploy: [cli, extension]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: harlan-zw/unlighthouse
+  tags: [seo-audit, lighthouse, site-wide]
+  summary: "Chạy Lighthouse cho TOÀN BỘ các trang của website chỉ bằng một lệnh, xem kết quả trên giao diện trực quan."
+  use_cases: ["Tìm trang chậm, lỗi SEO trên cả website"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  quick_start: |
+    npx unlighthouse --site https://ten-mien-cua-ban.vn
+  applicability: 4
+- repo: AgriciDaniel/claude-seo
+  also: [mcp-ai-tools]
+  tags: [agent-skills, claude-code, seo-audit]
+  summary: "Bộ kỹ năng SEO cho Claude Code: kiểm tra kỹ thuật, nội dung, schema, tốc độ… với nhiều sub-agent chuyên trách."
+  use_cases: ["Audit SEO website bằng AI", "Đề xuất tối ưu nội dung"]
+  platforms: [windows, macos, linux]
+  deploy: [skill]
+  difficulty: easy
+  pricing: free
+  needs_api_key: required
+  requirements: "Claude Code."
+  applicability: 4
+- repo: every-app/open-seo
+  tags: [seo, keyword-research, semrush-alternative]
+  summary: "Công cụ SEO mã nguồn mở hướng tới thay thế Semrush/Ahrefs."
+  use_cases: ["Nghiên cứu từ khóa", "Theo dõi SEO website"]
+  pricing: free
+  applicability: 4
+- repo: towfiqi/serpbear
+  tags: [rank-tracker, keywords, google-search-console]
+  summary: "Theo dõi thứ hạng từ khóa trên Google cho nhiều website, gửi báo cáo email, kết nối Google Search Console."
+  use_cases: ["Theo dõi thứ hạng từ khóa hằng ngày", "Báo cáo SEO cho khách hàng"]
+  platforms: [docker]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: required
+  requirements: "Khóa API của một dịch vụ lấy kết quả tìm kiếm (một số dịch vụ có gói miễn phí)."
+  applicability: 4
+- repo: formbricks/formbricks
+  tags: [surveys, feedback, typeform-alternative]
+  summary: "Khảo sát và thu thập phản hồi khách hàng (trên web, trong app, qua link) — thay Typeform/Qualtrics, tự host được."
+  use_cases: ["Khảo sát mức độ hài lòng (NPS)", "Thu thập phản hồi sản phẩm"]
+  platforms: [docker]
+  deploy: [cloud, self-host]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+  license_override:
+    spdx: AGPL-3.0
+    name: AGPL-3.0 + giấy phép enterprise (ee)
+- repo: growthbook/growthbook
+  tags: [ab-testing, feature-flags, experimentation]
+  summary: "Nền tảng A/B testing và feature flag mã nguồn mở, phân tích thống kê ngay trên kho dữ liệu của bạn."
+  use_cases: ["Thử nghiệm giá, thông điệp, giao diện"]
+  platforms: [docker]
+  deploy: [cloud, self-host]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+  license_override:
+    spdx: MIT
+    name: MIT + giấy phép enterprise
+- repo: YOURLS/YOURLS
+  tags: [link-shortener, php, analytics]
+  summary: "Bộ rút gọn link tự host bằng PHP với tên miền riêng, thống kê click, nhiều plugin — chạy được trên hosting giá rẻ."
+  use_cases: ["Link ngắn thương hiệu cho chiến dịch", "Theo dõi click từ ấn phẩm in (QR)"]
+  platforms: [web, linux, docker]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: dgtlmoon/changedetection.io
+  tags: [website-monitoring, price-tracking, alerts]
+  summary: "Theo dõi thay đổi website (giá đối thủ, tồn kho, tin tức, chính sách) và báo ngay qua email, Telegram, Discord…"
+  use_cases: ["Theo dõi giá và khuyến mãi của đối thủ", "Cảnh báo khi trang sản phẩm thay đổi"]
+  platforms: [docker, windows, macos, linux]
+  deploy: [self-host, cloud]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4

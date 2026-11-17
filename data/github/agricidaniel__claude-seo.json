@@ -1,0 +1,113 @@
+{
+ "id": "AgriciDaniel/claude-seo",
+ "github_id": 1152014594,
+ "node_id": "R_kgDORKpZAg",
+ "full_name": "AgriciDaniel/claude-seo",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:56.641Z",
+ "meta": {
+  "name": "claude-seo",
+  "owner": "AgriciDaniel",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/223140489?v=4",
+  "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+  "homepage": "skool.com/ai-marketing-hub-pro",
+  "html_url": "https://github.com/AgriciDaniel/claude-seo",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "ai",
+   "ai-seo",
+   "claude-code",
+   "claude-code-skill",
+   "marketing-automation",
+   "open-source",
+   "seo"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 30069,
+  "forks": 3782,
+  "watchers": null,
+  "open_issues": 58,
+  "open_prs": null,
+  "created_at": "2026-02-07T08:17:38Z",
+  "pushed_at": "2026-11-16T06:16:01Z",
+  "updated_at": "2026-11-17T02:11:38Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 9782,
+  "og_image": "https://opengraph.githubassets.com/1/AgriciDaniel/claude-seo",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-15T09:53:01.000Z",
+  "commits_90d": 1032,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.6.2",
+  "name": "v2.6.2: Shopify and PostHog extensions, local proxy opt-in, 36 community pull requests",
+  "published_at": "2026-11-15T10:10:37Z",
+  "url": "https://github.com/AgriciDaniel/claude-seo/releases/tag/v2.6.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 23537,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "1VQvcKMcVsk",
+    "url": "https://www.youtube.com/watch?v=1VQvcKMcVsk"
+   },
+   {
+    "type": "youtube",
+    "id": "COMnNlUakQk",
+    "url": "https://www.youtube.com/watch?v=COMnNlUakQk"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Install",
+    "html": "<img src=\"https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/assets/readme/v3/install.svg\" alt=\"Installing Claude SEO: add the marketplace, install the plugin, 29 skills and 20 agents arrive, /seo setup readies the browser, then /seo audit starts the first level.\" loading=\"lazy\" decoding=\"async\" width=\"1200\" height=\"420\" /><p>You need <a href=\"https://claude.com/product/claude-code\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Claude Code</a> 1.0.33 or newer. Run these three commands inside it:</p>\n<pre><code class=\"language-bash\">/plugin marketplace add AgriciDaniel/claude-seo\n/plugin install claude-seo@agricidaniel-claude-seo\n/seo setup\n</code></pre>\n<p><code>/seo setup</code> prepares everything Claude SEO needs (its own Python environment and a headless browser) without touching the rest of your system. Run <code>/seo doctor</code> any time to check it.</p>\n<details>\n<summary><b>Manual install: macOS and Linux</b></summary>\n<br /><img src=\"https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/assets/readme/v3/plat-unix.svg\" alt=\"Manual install: macOS and Linux: the install typed out in a terminal\" loading=\"lazy\" decoding=\"async\" width=\"1200\" height=\"260\" /><pre><code class=\"language-bash\">git clone --depth 1 https://github.com/AgriciDaniel/claude-seo.git\nbash claude-seo/install.sh\n</code></pre>\n<p>One-liner (curl, review then run):</p>\n<pre><code class=\"language-bash\">curl -fsSL https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/install.sh &gt; install.sh\ncat install.sh        # review before running\nbash install.sh\nrm install.sh\n</code></pre>\n</details><details>\n<summary><b>Manual install: Windows (PowerShell)</b></summary>\n<br /><img src=\"https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/assets/readme/v3/plat-win.svg\" alt=\"Manual install: Windows (PowerShell): the install typed out in a terminal\" loading=\"lazy\" decoding=\"async\" width=\"1200\" height=\"260\" /><pre><code class=\"language-powershell\">git clone --depth 1 https://github.com/AgriciDaniel/claude-seo.git\npowershell -ExecutionPolicy Bypass -File claude-seo\\install.ps1\n</code></pre>\n<blockquote>\n<p><strong>Why <code>git clone</code> instead of <code>irm | iex</code>?</strong> Claude Code's own security guardrails flag <code>irm ... | iex</code> as a supply chain risk: downloading and executing remote code without verification. The <code>git clone</code> approach lets you inspect <code>claude-seo\\install.ps1</code> before running it.</p>\n</blockquote>\n</details><blockquote>\n<p><strong>Two versions.</strong> This public version is MIT licensed and free for everyone. <a href=\"https://www.skool.com/ai-marketing-hub-pro\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AI Marketing Hub Pro</a> members also get a private version with early access to new features. Members install it with:</p>\n<pre><code class=\"language-bash\">/plugin marketplace add AI-Marketing-Hub/claude-seo\n/plugin install claude-seo@ai-marketing-hub-claude-seo\n/seo setup\n</code></pre>\n</blockquote>\n<p><strong>Your first audit:</strong></p>\n<pre><code class=\"language-bash\">claude                                   # start Claude Code\n\n/seo audit https://example.com           # full site audit with a prioritized plan\n/seo page https://example.com/pricing    # one page, in depth\n/seo geo https://example.com             # how ready you are for AI search\n/seo schema https://example.com          # check and generate structured data\n/seo local https://example.com           # local SEO and Google Business Profile\n</code></pre>",
+    "truncated": false,
+    "chars": 2767
+   },
+   "usage": {
+    "title": "Commands",
+    "html": "<img src=\"https://raw.githubusercontent.com/AgriciDaniel/claude-seo/main/assets/readme/v3/map.svg\" alt=\"The six groups of SEO commands on a map: audits, technical SEO, content, schema and AI search, local and commerce, and extensions. The crew walks the path and each of the 30 commands is ticked off.\" loading=\"lazy\" decoding=\"async\" width=\"1200\" height=\"420\" /><p>30 core and extension commands in six groups. Open one to see what is inside; a few more extension commands are in the <a href=\"https://github.com/AgriciDaniel/claude-seo/blob/main/docs/COMMANDS.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">full command reference</a>.</p>\n<details>\n<summary><b>Audits and Planning</b> (5 commands)</summary>\n<ul><li><code>/seo setup</code>: Create or refresh the isolated Python runtime and Chromium</li><li><code>/seo doctor</code>: Check runtime readiness without changing the system</li><li><code>/seo audit &lt;url&gt;</code>: Full website audit with parallel agents</li><li><code>/seo page &lt;url&gt;</code>: Deep single-page analysis</li><li><code>/seo plan &lt;type&gt;</code>: Strategic SEO planning (saas, local, ecommerce, publisher, agency)</li></ul>\n</details>\n<details>\n<summary><b>Technical SEO</b> (7 commands)</summary>\n<ul><li><code>/seo technical &lt;url&gt;</code>: Technical SEO audit across 9 categories</li><li><code>/seo sitemap &lt;url | generate&gt;</code>: Analyze or generate XML sitemaps</li><li><code>/seo images &lt;url&gt;</code>: Image optimization analysis</li><li><code>/seo hreflang &lt;url&gt;</code>: Hreflang and i18n SEO audit and generation</li><li><code>/seo programmatic &lt;url&gt;</code>: Programmatic SEO analysis and planning</li><li><code>/seo google [command]</code>: Google SEO APIs: GSC, PageSpeed, CrUX, Indexing, GA4, PDF reports</li><li><code>/seo drift baseline | compare | history &lt;url&gt;</code>: SEO drift monitoring with SQLite snapshots</li></ul>\n</details>\n<details>\n<summary><b>Content and E-E-A-T</b> (6 commands)</summary>\n<ul><li><code>/seo content &lt;url&gt;</code>: E-E-A-T and content quality analysis</li><li><code>/seo content-brief &lt;topic&gt;</code>: Content brief: target keywords, outline, internal links</li><li><code>/seo cluster &lt;keyword&gt;</code>: SERP-based semantic clustering</li><li><code>/seo sxo &lt;url&gt;</code>: Search Experience Optimization: page type, user stories, personas</li><li><code>/seo flow [stage]</code>: FLOW framework prompts (CC BY 4.0, evidence-led)</li><li><code>/seo competitor-pages &lt;url&gt;</code>: Competitor comparison page generation</li></ul>\n</details>\n<details>\n<summary><b>Schema and AI Search</b> (3 commands)</summary>\n<ul><li><code>/seo schema &lt;url&gt;</code>: Detect, validate and generate Schema.org markup</li><li><code>/seo geo &lt;url&gt;</code>: AI Overviews and Generative Engine Optimization</li><li><code>/seo agentic &lt;url&gt;</code>: Agent readiness: Lighthouse Agentic Browsing X/N, AI agent access, llms.txt, Markdown, WebMCP</li></ul>\n</details>\n<details>\n<summary><b>Local, Links, Commerce</b> (4 commands)</summary>\n<ul><li><code>/seo local &lt;url&gt;</code>: Local SEO: GBP, citations, reviews, map pack</li><li><code>/seo maps [command]</code>: Maps intelligence: geo-grid, GBP audit, reviews, competitors</li><li><code>/seo backlinks &lt;url&gt;</code>: Backlink profile analysis (Moz, Bing, Common Crawl)</li><li><code>/seo ecommerce &lt;url&gt;</code>: E-commerce SEO and marketplace intelligence</li></ul>\n</details>\n<details>\n<summary><b>Extensions</b> (5 commands)</summary>\n<ul><li><code>/seo image-gen [use-case]</code>: AI image generation for SEO assets</li><li><code>/seo seranking [command]</code>: AI Share-of-Voice across ChatGPT, Gemini, Perplexity, AI Overviews, AI Mode</li><li><code>/seo profound [command]</code>: LLM citation tracking with time-series data</li><li><code>/seo bing [command] &lt;url&gt;</code>: Bing Webmaster Tools + IndexNow URL submission</li><li><code>/seo unlighthouse &lt;url&gt;</code>: Multi-page Lighthouse runner, runs locally</li></ul>\n</details>",
+    "truncated": false,
+    "chars": 3848
+   },
+   "features": null
+  },
+  "headings": 14,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:34.923Z",
+  "checked_at": "2026-11-16T07:03:34.924Z"
+ },
+ "details_checked_at": "2026-11-16T07:03:34.924Z",
+ "contributors": null
+}

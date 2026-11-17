@@ -1,0 +1,108 @@
+{
+ "id": "ChromeDevTools/chrome-devtools-mcp",
+ "github_id": 1054793726,
+ "node_id": "R_kgDOPt7f_g",
+ "full_name": "ChromeDevTools/chrome-devtools-mcp",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:56.641Z",
+ "meta": {
+  "name": "chrome-devtools-mcp",
+  "owner": "ChromeDevTools",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/11260967?v=4",
+  "description": "Chrome DevTools for coding agents",
+  "homepage": "https://developer.chrome.com/docs/devtools/agents",
+  "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "browser",
+   "chrome",
+   "chrome-devtools",
+   "debugging",
+   "devtools",
+   "mcp",
+   "mcp-server",
+   "puppeteer"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 57719,
+  "forks": 4853,
+  "watchers": null,
+  "open_issues": 128,
+  "open_prs": null,
+  "created_at": "2025-09-11T10:39:55Z",
+  "pushed_at": "2026-11-16T17:21:41Z",
+  "updated_at": "2026-11-17T02:17:51Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 13522,
+  "og_image": "https://opengraph.githubassets.com/1/ChromeDevTools/chrome-devtools-mcp",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T17:14:19.000Z",
+  "commits_90d": 332,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "chrome-devtools-mcp-v1.13.0",
+  "name": "chrome-devtools-mcp: v1.13.0",
+  "published_at": "2026-11-11T12:40:09Z",
+  "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/releases/tag/chrome-devtools-mcp-v1.13.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 9583,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting started",
+    "html": "<p>Add the following config to your MCP client:</p>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"chrome-devtools\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"chrome-devtools-mcp@latest\"]\n    }\n  }\n}\n</code></pre>\n<blockquote>\n<p>[!NOTE]\nUsing <code>chrome-devtools-mcp@latest</code> ensures that your MCP client will always use the latest version of the Chrome DevTools MCP server.</p>\n</blockquote>\n<h5>MCP Client configuration</h5>\n<p>For setup instructions specific to your editor or agent (e.g. Antigravity, Claude Code, Cursor, VS Code), please see our <a href=\"https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/docs/client-configurations.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Client Configurations Guide</a>.</p>\n<h5>Your first prompt</h5>\n<p>Enter the following prompt in your MCP Client to check if everything is working:</p>\n<pre><code>Check the performance of https://developers.chrome.com\n</code></pre>\n<p>Your MCP client should open the browser and record a performance trace.</p>\n<blockquote>\n<p>[!NOTE]\nThe MCP server will start the browser automatically once the MCP client uses a tool that requires a running browser instance. Connecting to the Chrome DevTools MCP server on its own will not automatically start the browser.</p>\n</blockquote>",
+    "truncated": false,
+    "chars": 1031
+   },
+   "usage": {
+    "title": "Usage statistics",
+    "html": "<p>Google collects usage statistics (such as tool invocation success rates, latency, and environment information) to improve the reliability and performance of Chrome DevTools MCP.</p>\n<p>Data collection is <strong>enabled by default</strong>. You can opt-out by passing the <code>--no-usage-statistics</code> flag when starting the server:</p>\n<pre><code class=\"language-json\">\"args\": [\"-y\", \"chrome-devtools-mcp@latest\", \"--no-usage-statistics\"]\n</code></pre>\n<p>Google handles this data in accordance with the <a href=\"https://policies.google.com/privacy\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Google Privacy Policy</a>.</p>\n<p>Google's collection of usage statistics for Chrome DevTools MCP is independent from the Chrome browser's usage statistics. Opting out of Chrome metrics does not automatically opt you out of this tool, and vice-versa.</p>\n<p>Collection is disabled if <code>CHROME_DEVTOOLS_MCP_NO_USAGE_STATISTICS</code> or <code>CI</code> env variables are set.</p>",
+    "truncated": false,
+    "chars": 823
+   },
+   "features": {
+    "title": "Key features",
+    "html": "<ul>\n<li><strong>Get performance insights</strong>: Uses <a href=\"https://github.com/ChromeDevTools/devtools-frontend\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Chrome\nDevTools</a> to record\ntraces and extract actionable performance insights.</li>\n<li><strong>Advanced browser debugging</strong>: Analyze network requests, take screenshots and\ncheck browser console messages (with source-mapped stack traces).</li>\n<li><strong>Reliable automation</strong>. Uses\n<a href=\"https://github.com/puppeteer/puppeteer\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">puppeteer</a> to automate actions in\nChrome and automatically wait for action results.</li>\n</ul>",
+    "truncated": false,
+    "chars": 487
+   }
+  },
+  "headings": 18,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:36.734Z",
+  "checked_at": "2026-11-17T02:20:20.048Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:20.048Z"
+}

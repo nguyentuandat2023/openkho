@@ -1,0 +1,115 @@
+{
+ "id": "firecrawl/firecrawl-mcp-server",
+ "github_id": 899407931,
+ "node_id": "R_kgDONZvgOw",
+ "full_name": "firecrawl/firecrawl-mcp-server",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.971Z",
+ "meta": {
+  "name": "firecrawl-mcp-server",
+  "owner": "firecrawl",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/135057108?v=4",
+  "description": "Official Firecrawl MCP server, the context API for AI agents: search, scrape, and interact with the web, plus parse, crawl, map, Agent and Monitor, from any MCP client.",
+  "homepage": "https://firecrawl.dev",
+  "html_url": "https://github.com/firecrawl/firecrawl-mcp-server",
+  "default_branch": "main",
+  "language": "JavaScript",
+  "languages": null,
+  "topics": [
+   "batch-processing",
+   "claude",
+   "content-extraction",
+   "data-collection",
+   "firecrawl",
+   "firecrawl-ai",
+   "gemini-cli-extension",
+   "javascript-rendering",
+   "llm-tools",
+   "mcp",
+   "mcp-server",
+   "model-context-protocol",
+   "search-api",
+   "web-crawler",
+   "web-scraping"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 7842,
+  "forks": 939,
+  "watchers": null,
+  "open_issues": 194,
+  "open_prs": null,
+  "created_at": "2024-12-06T07:50:27Z",
+  "pushed_at": "2026-11-16T22:07:26Z",
+  "updated_at": "2026-11-16T21:02:14Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 8500,
+  "og_image": "https://opengraph.githubassets.com/1/firecrawl/firecrawl-mcp-server",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T21:00:04.000Z",
+  "commits_90d": 298,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v3.36.1",
+  "name": "v3.36.1",
+  "published_at": "2026-11-03T19:15:58Z",
+  "url": "https://github.com/firecrawl/firecrawl-mcp-server/releases/tag/v3.36.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 84829,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<h5>Hosted MCP (keyless free tier)</h5>\n<p>Connect to the remote hosted server with no setup:</p>\n<pre><code>https://mcp.firecrawl.dev/v2/mcp\n</code></pre>\n<p>On the keyless free tier, <code>scrape</code>, <code>search</code>, and <code>parse</code> work without an API key (rate-limited). Other tools such as <code>crawl</code>, <code>map</code>, and <code>agent</code> still need a key.</p>\n<p>Prefer OAuth or an API key whenever the human can sign up. It unlocks the full tool set and higher limits.</p>\n<p>For an interactive account connection, configure your MCP client to use this server URL. This is an MCP endpoint, <strong>not a browser page</strong>; use the client's account-connection flow and do not add a second Firecrawl server entry when reconnecting:</p>\n<pre><code>https://mcp.firecrawl.dev/v2/mcp-oauth\n</code></pre>\n<p>For an API-key connection (for example, an unattended integration), keep the server URL as:</p>\n<pre><code>https://mcp.firecrawl.dev/v2/mcp\n</code></pre>\n<p>Then configure the client's secure header or secret setting with:</p>\n<pre><code>Authorization: Bearer &lt;FIRECRAWL_API_KEY&gt;\n</code></pre>\n<p>Never put an API key in the server URL. Never put an API key in an agent chat. Configure it directly in the client or secret manager. See the <a href=\"https://docs.firecrawl.dev/mcp-server\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">hosted MCP setup guide</a> and the <a href=\"https://www.firecrawl.dev/agent-onboarding/SKILL.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">agent onboarding guide</a> for client-specific instructions.</p>\n<h6>Naming your integration</h6>\n<p>An integration that connects over HTTP can name itself with an <code>X-Firecrawl-Origin</code> header, for example <code>X-Firecrawl-Origin: my-agent</code>. The server reports it to Firecrawl as the request origin <code>mcp-my-agent@&lt;server version&gt;</code>, in place of the client name or User-Agent it would otherwise report. Use letters, digits and dashes: each run of other characters becomes one dash, leading and trailing dashes are dropped, and the name is cut at 48 characters. Tool results are unaffected; only the origin sent to the Firecrawl API (and passed to an embedder's <code>beforeKeylessRequest</code>) changes.</p>\n<h6>Search-only endpoint</h6>\n<p>A fixed-scope search surface is also hosted at:</p>\n<pre><code>https://mcp.firecrawl.dev/v2/mcp-search\n</code></pre>\n<p>It exposes a fixed set of twelve tools: <code>firecrawl_search</code>, <code>firecrawl_developer_search</code>, <code>firecrawl_gov_search</code>, the four <code>firecrawl_research_*</code> paper tools, the two Alexandria tools <code>firecrawl_find_tools</code> and <code>firecrawl_scrape</code>, and the <a href=\"https://github.com/firecrawl/firecrawl-mcp-server#15b-enrich-tools\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">enrich tools</a> <code>people_company_search</code> and <code>people_company_enrich</code>, and the <a href=\"https://github.com/firecrawl/firecrawl-mcp-server#15c-jobs-tool-jobs_search\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">jobs tool</a> <code>jobs_search</code>. Its <code>firecrawl_search</code> fetches no page content.</p>\n<h5>Running with npx</h5>\n<pre><code class=\"language-bash\">env FIRECRAWL_API_KEY=fc-YOUR_API_KEY npx -y firecrawl-mcp\n</code></pre>\n<h5>Manual Installation</h5>\n<pre><code class=\"language-bash\">npm install -g firecrawl-mcp\n</code></pre>\n<h5>Running on Cursor</h5>\n<p>Configuring Cursor 🖥️\nNote: Requires Cursor version 0.45.6+\nFor the most up-to-date configuration instructions, please refer to the official Cursor documentation on configuring MCP servers:\n<a href=\"https://docs.cursor.com/context/model-context-protocol#configuring-mcp-servers\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Cursor MCP Server Configuration Guide</a></p>\n<p>To configure Firecrawl MCP in Cursor <strong>v0.48.6</strong></p>\n<ol>\n<li>Open Cursor Settings</li>\n<li>Go to Features &gt; MCP Servers</li>\n<li>Click \"+ Add new global MCP server\"</li>\n<li>Enter the following code:<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"firecrawl-mcp\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"firecrawl-mcp\"],\n      \"env\": {\n        \"FIRECRAWL_API_KEY\": \"YOUR-API-KEY\"\n      }\n    }\n  }\n}\n</code></pre>\n</li>\n</ol>\n<p>To configure Firecrawl MCP in Cursor <strong>v0.45.6</strong></p>\n<ol>\n<li>Open Cursor Settings</li>\n<li>Go to Features &gt; MCP Servers</li>\n<li>Click \"+ Add New MCP Server\"</li>\n<li>Enter the following:<ul>\n<li>Name: \"firecrawl-mcp\" (or your preferred name)</li>\n<li>Type: \"command\"</li>\n<li>Command: <code>env FIRECRAWL_API_KEY=your-api-key npx -y firecrawl-mcp</code></li>\n</ul>\n</li>\n</ol>\n<blockquote>\n<p>If you are using Windows and are running into issues, try <code>cmd /c \"set FIRECRAWL_API_KEY=your-api-key &amp;&amp; npx -y firecrawl-mcp\"</code></p>\n</blockquote>\n<p>Replace <code>your-api-key</code> with your Firecrawl API key. If you don't have one yet, you can create an account and get it from <a href=\"https://www.firecrawl.dev/app/api-keys\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://www.firecrawl.dev/app/api-keys</a></p>\n<p>After adding, refresh the MCP server list to see the new tools. The Composer Agent will automatically use Firecrawl MCP when appropriate, but you can explicitly request it by describing what you need from the web. Access the Composer via Command+L (Mac), select \"Agent\" next to the submit button, and enter your query.</p>\n<h5>Running on Windsurf</h5>\n<p>Add this to your <code>./codeium/windsurf/model_config.json</code>:</p>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"mcp-server-firecrawl\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"firecrawl-mcp\"],\n      \"env\": {\n        \"FIRECRAWL_API_KEY\": \"YOUR_API_KEY\"\n      }\n    }\n  }\n}\n</code></pre>\n<h5>Running with Streamable HTTP Local Mode</h5>\n<p>To run the server using Streamable HTTP locally instead of the default stdio transport:</p>\n<pre><code class=\"language-bash\">env HTTP_STREAMABLE_SERVER=true FIRECRAWL_API_KEY=fc-YOUR_API_KEY npx -y firecrawl-mcp\n</code></pre>\n<p>Use the url: <a href=\"http://localhost:3000/mcp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:3000/mcp</a></p>\n<p>In this mode the server only answers requests addressed to <code>localhost</code>, <code>127.0.0.1</code> or <code>[::1]</code> (on any port), plus the address in <code>HOST</code> when it isn't <code>0.0.0.0</code> or <code>::</code>. A request whose <code>Host</code> header names another host, or whose <code>Origin</code> header names another site, gets <code>403</code>, and CORS headers echo an allowed origin instead of <code>*</code>. <code>GET</code> and <code>HEAD</code> requests to <code>/health</code> are answered whatever the host, so health checks keep working, and the server logs a line naming <code>FIRECRAWL_MCP_ALLOWED_HOSTS</code> for every request it refuses. This stops web pages you visit from calling the local server through DNS rebinding or cross-origin requests and using its <code>FIRECRAWL_API_KEY</code>.</p>\n<p>To reach the server under another name or address, such as a hostname behind a reverse proxy or a LAN IP, list it in <code>FIRECRAWL_MCP_ALLOWED_HOSTS</code> (comma-separated; ports are ignored). The same list decides which browser origins may call the server. A reverse proxy on the same machine can keep the default bind address:</p>\n<pre><code class=\"language-bash\">env HTTP_STREAMABLE_SERVER=true FIRECRAWL_API_KEY=fc-YOUR_API_KEY \\\n  FIRECRAWL_MCP_ALLOWED_HOSTS=mcp.home.lan npx -y firecrawl-mcp\n</code></pre>\n<p>Clients on other machines also need the server to listen on a non-loopback address, so set <code>HOST</code> too. Every client that can reach the port is then served with the server's <code>FIRECRAWL_API_KEY</code>, so do this only on a network you trust:</p>\n<pre><code class=\"language-bash\">env HTTP_STREAMABLE_SERVER=true FIRECRAWL_API_KEY=fc-YOUR_API_KEY HOST=0.0.0.0 \\\n  FIRECRAWL_MCP_ALLOWED_HOSTS=192.168.1.20 npx -y firecrawl-mcp\n</code></pre>\n<p><code>FIRECRAWL_MCP_ALLOWED_HOSTS=*</code> turns the check off and restores the wildcard CORS header. Only do that when something in front of the server checks hosts and origins itself.</p>\n<h5>Running with Docker</h5>\n<p>The <code>ghcr.io/firecrawl/firecrawl-mcp-server</code> image runs the same server as <code>npx -y firecrawl-mcp</code>. Every build from <code>main</code> is tagged <code>latest</code>, <code>v&lt;package version&gt;</code> and <code>sha-&lt;commit sha&gt;</code>. <code>v&lt;package version&gt;</code> moves to the newest build of that version, so pin <code>sha-&lt;commit sha&gt;</code> (or a digest) when you need a fixed image.</p>\n<p>stdio (the default), for MCP clients that launch the server as a command:</p>\n<pre><code class=\"language-bash\">docker run -i --rm -e FIRECRAWL_API_KEY=fc-YOUR_API_KEY ghcr.io/firecrawl/firecrawl-mcp-server:latest\n</code></pre>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"firecrawl-mcp\": {\n      \"command\": \"docker\",\n      \"args\": [\"run\", \"-i\", \"--rm\", \"-e\", \"FIRECRAWL_API_KEY\", \"ghcr.io/firecrawl/firecrawl-mcp-server:latest\"],\n      \"env\": {\n        \"FIRECRAWL_API_KEY\": \"YOUR_API_KEY\"\n      }\n    }\n  }\n}\n</code></pre>\n<p>Streamable HTTP, served at <code>http://localhost:3000/mcp</code>:</p>\n<pre><code class=\"language-bash\">docker run --rm -p 127.0.0.1:3000:3000 \\\n  -e HTTP_STREAMABLE_SERVER=true \\\n  -e FIRECRAWL_API_KEY=fc-YOUR_API_KEY \\\n  ghcr.io/firecrawl/firecrawl-mcp-server:latest\n</code></pre>\n<p>The image sets <code>HOST=0.0.0.0</code> and <code>PORT=3000</code>; override <code>PORT</code> (and the <code>-p</code> mapping) to listen elsewhere. The server uses the container's <code>FIRECRAWL_API_KEY</code> for requests that don't send their own credential, so the example publishes the port on <code>127.0.0.1</code> only; don't expose it more widely unless clients must supply their own key. Set <code>FIRECRAWL_API_URL</code> to use a self-hosted Firecrawl API. The container runs as the unprivileged <code>node</code> user. The server answers only <code>localhost</code>, <code>127.0.0.1</code> and <code>[::1]</code> in the <code>Host</code> and <code>Origin</code> headers, so the <code>-p 127.0.0.1:3000:3000</code> mapping works as is; to reach it under another name, set <code>-e FIRECRAWL_MCP_ALLOWED_HOSTS=&lt;host&gt;</code> (see <a href=\"https://github.com/firecrawl/firecrawl-mcp-server#running-with-streamable-http-local-mode\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Streamable HTTP local mode</a>).</p>\n<h5>Running on VS Code</h5>\n<p>For one-click installation, click one of the install buttons below...</p>\n<p>For manual installation, add the following JSON block to your User Settings (JSON) file in VS Code. You can do this by pressing <code>Ctrl + Shift + P</code> and typing <code>Preferences: Open User Settings (JSON)</code>.</p>",
+    "truncated": true,
+    "chars": 8655
+   },
+   "usage": {
+    "title": "Usage with Claude Desktop",
+    "html": "<p>Add this to your <code>claude_desktop_config.json</code>:</p>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"mcp-server-firecrawl\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"firecrawl-mcp\"],\n      \"env\": {\n        \"FIRECRAWL_API_KEY\": \"YOUR_API_KEY_HERE\"\n      }\n    }\n  }\n}\n</code></pre>",
+    "truncated": false,
+    "chars": 260
+   },
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li>Search the web, optionally with full page content for each result</li>\n<li>Search indexes for developer sources (GitHub issues, merged pull requests, READMEs, and docs), US government sources, and scientific papers (PubMed, bioRxiv, medRxiv, arXiv)</li>\n<li>Look up a protein's curated subcellular location and function in UniProtKB/Swiss-Prot, with the evidence and papers behind each statement</li>\n<li>Scrape any URL into clean Markdown</li>\n<li>Parse PDFs and documents</li>\n<li>Crawl a site for content from many pages, or map it to discover its URLs</li>\n<li>Interact with pages in a real browser: click, type, fill forms, and navigate dynamic pages</li>\n<li>Run Agent jobs for multi-source research that returns structured data</li>\n<li>Monitor pages and get notified when their content changes</li>\n<li>Check current and historical Firecrawl credit usage</li>\n<li>Automatic retries and rate limiting</li>\n<li>Cloud and self-hosted support</li>\n<li>SSE support</li>\n</ul>\n<blockquote>\n<p>Play around with <a href=\"https://mcp.so/playground?server=firecrawl-mcp-server\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our MCP Server on MCP.so's playground</a> or on <a href=\"https://www.klavis.ai/mcp-servers\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Klavis AI</a>.</p>\n</blockquote>",
+    "truncated": false,
+    "chars": 1058
+   }
+  },
+  "headings": 60,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:22.242Z",
+  "checked_at": "2026-11-17T02:20:22.242Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:22.242Z"
+}

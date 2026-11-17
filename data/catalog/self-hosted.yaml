@@ -1,0 +1,180 @@
+# Danh mục: Self-hosted Applications — xem cấu trúc trường trong data/README.md
+- repo: immich-app/immich
+  tags: [photos, google-photos-alternative, backup, ai-search]
+  summary: "Lưu trữ ảnh/video tự host thay Google Photos: tự sao lưu từ điện thoại, nhận diện khuôn mặt, tìm ảnh bằng mô tả (AI)."
+  use_cases: ["Kho ảnh sản phẩm, sự kiện của công ty", "Sao lưu ảnh gia đình"]
+  pros: ["Trải nghiệm gần giống Google Photos", "Ứng dụng di động tự sao lưu", "Tìm ảnh bằng mô tả, khuôn mặt"]
+  cons: ["Cần máy chủ có ổ cứng lớn", "Phải tự lo sao lưu dự phòng"]
+  platforms: [docker]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  note: "Luôn giữ thêm một bản sao lưu khác — đừng để Immich là nơi lưu ảnh duy nhất."
+  applicability: 4
+  featured: true
+- repo: coollabsio/coolify
+  also: [dev-tools]
+  tags: [paas, deployment, vercel-alternative]
+  summary: "Nền tảng tự host thay Vercel/Netlify/Heroku: triển khai website, ứng dụng, cơ sở dữ liệu lên máy chủ riêng bằng giao diện web."
+  use_cases: ["Triển khai n8n, website, database trên VPS", "Quản lý nhiều dự án trên một máy chủ"]
+  platforms: [linux]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: louislam/uptime-kuma
+  tags: [monitoring, uptime, alerts]
+  summary: "Giám sát website/dịch vụ hoạt động 24/7 với giao diện đẹp, báo động qua Telegram, Discord, email… khi web sập."
+  use_cases: ["Biết ngay khi website bán hàng ngừng hoạt động", "Trang trạng thái dịch vụ công khai"]
+  platforms: [docker, windows, linux]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 5
+- repo: nextcloud/server
+  tags: [file-sync, collaboration, google-drive-alternative]
+  summary: "Nền tảng cộng tác tự host thay Google Drive/Microsoft 365: lưu trữ file, lịch, danh bạ, văn phòng trực tuyến, chat."
+  use_cases: ["Ổ lưu trữ nội bộ của công ty", "Chia sẻ file với khách hàng"]
+  platforms: [docker, linux, web]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: dani-garcia/vaultwarden
+  tags: [password-manager, bitwarden, lightweight]
+  summary: "Máy chủ Bitwarden viết lại bằng Rust, siêu nhẹ — tự host trình quản lý mật khẩu cho gia đình/công ty, dùng ứng dụng Bitwarden chính thức."
+  use_cases: ["Quản lý mật khẩu dùng chung của đội nhóm"]
+  platforms: [docker]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  note: "Dự án không chính thức, không liên kết với Bitwarden Inc."
+  applicability: 4
+- repo: syncthing/syncthing
+  tags: [file-sync, p2p, privacy]
+  summary: "Đồng bộ file liên tục giữa máy tính và điện thoại trực tiếp ngang hàng, mã hóa, không qua máy chủ trung gian."
+  use_cases: ["Đồng bộ thư mục dự án giữa các máy", "Sao lưu ảnh từ điện thoại"]
+  platforms: [windows, macos, linux, android]
+  deploy: [desktop, self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: home-assistant/core
+  tags: [smart-home, iot, automation]
+  summary: "Nền tảng nhà thông minh mã nguồn mở hàng đầu: điều khiển hàng nghìn thiết bị, tự động hóa, chạy cục bộ không phụ thuộc cloud."
+  use_cases: ["Tự động hóa văn phòng, cửa hàng (đèn, điều hòa, camera)"]
+  platforms: [docker, linux]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+- repo: jellyfin/jellyfin
+  tags: [media-server, streaming, plex-alternative]
+  summary: "Máy chủ phát media tự host thay Plex: quản lý và xem phim, nhạc, video trên mọi thiết bị, không thu phí."
+  use_cases: ["Kho video đào tạo nội bộ", "Thư viện media gia đình"]
+  platforms: [docker, windows, macos, linux]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: IceWhaleTech/CasaOS
+  tags: [home-server, app-store, beginner]
+  summary: "Hệ điều hành 'đám mây tại nhà' đơn giản cho người mới: cài trên máy cũ/mini PC, giao diện kho ứng dụng một cú nhấp."
+  use_cases: ["Biến máy tính cũ thành máy chủ tự host", "Cài Immich, Jellyfin… bằng một cú nhấp"]
+  platforms: [linux]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: 1Panel-dev/1Panel
+  tags: [server-panel, docker, website-management]
+  summary: "Bảng điều khiển quản lý máy chủ Linux hiện đại: website, cơ sở dữ liệu, Docker, chứng chỉ SSL, cửa hàng ứng dụng — có tích hợp AI."
+  use_cases: ["Quản lý VPS không cần dòng lệnh", "Cài WordPress, n8n… trên máy chủ riêng"]
+  platforms: [linux]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: Dokploy/dokploy
+  tags: [paas, docker, deployment]
+  summary: "Nền tảng PaaS tự host thay Vercel/Heroku dùng Docker, triển khai ứng dụng và cơ sở dữ liệu dễ dàng."
+  use_cases: ["Triển khai ứng dụng trên VPS riêng"]
+  platforms: [linux]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  license_note: "GitHub hiển thị NOASSERTION — đọc file LICENSE để biết điều kiện sử dụng."
+  applicability: 3
+- repo: portainer/portainer
+  tags: [docker-gui, container-management]
+  summary: "Giao diện web quản lý Docker/Kubernetes: xem, khởi động, cập nhật container mà không cần dòng lệnh."
+  use_cases: ["Quản lý các ứng dụng tự host qua trình duyệt"]
+  platforms: [docker]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: NginxProxyManager/nginx-proxy-manager
+  tags: [reverse-proxy, ssl, domain]
+  summary: "Quản lý tên miền, reverse proxy và chứng chỉ SSL miễn phí (Let's Encrypt) qua giao diện web — không cần sửa cấu hình Nginx."
+  use_cases: ["Gắn tên miền và HTTPS cho n8n, Umami… tự host"]
+  platforms: [docker]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: rclone/rclone
+  also: [productivity]
+  tags: [cloud-storage, sync, backup]
+  summary: "'rsync cho cloud': sao chép, đồng bộ, mã hóa dữ liệu giữa hơn 70 dịch vụ lưu trữ (Google Drive, OneDrive, S3…)."
+  use_cases: ["Sao lưu dữ liệu công ty lên cloud", "Chuyển dữ liệu giữa Google Drive và OneDrive"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: BookStackApp/BookStack
+  tags: [wiki, documentation, knowledge-base]
+  summary: "Nền tảng wiki/tài liệu nội bộ tổ chức theo Kệ → Sách → Chương → Trang, dễ dùng cho mọi nhân viên."
+  use_cases: ["Sổ tay quy trình, hướng dẫn nhân viên mới", "Kho tri thức sản phẩm"]
+  platforms: [docker, linux, web]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: jitsi/jitsi-meet
+  tags: [video-conferencing, zoom-alternative]
+  summary: "Họp video trực tuyến mã nguồn mở, bảo mật — dùng ngay trên meet.jit.si hoặc tự host thay Zoom/Google Meet."
+  use_cases: ["Họp nội bộ, tư vấn khách hàng trực tuyến"]
+  platforms: [web, docker, linux, android, ios]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: FreshRSS/FreshRSS
+  also: [marketing-seo]
+  tags: [rss, news-reader, monitoring]
+  summary: "Trình đọc tin RSS tự host: theo dõi blog, báo, đối thủ, kênh YouTube ở một nơi — nhẹ, nhiều người dùng."
+  use_cases: ["Theo dõi tin tức ngành và đối thủ", "Nguồn ý tưởng nội dung"]
+  platforms: [docker, web, linux]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 3

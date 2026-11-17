@@ -1,0 +1,107 @@
+{
+ "id": "mautic/mautic",
+ "github_id": 12204147,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxMjIwNDE0Nw==",
+ "full_name": "mautic/mautic",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:56.641Z",
+ "meta": {
+  "name": "mautic",
+  "owner": "mautic",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/5257677?v=4",
+  "description": "Mautic: Open Source Marketing Automation Software.",
+  "homepage": "https://www.mautic.org",
+  "html_url": "https://github.com/mautic/mautic",
+  "default_branch": "7.x",
+  "language": "PHP",
+  "languages": null,
+  "topics": [
+   "digital-experience-platform",
+   "digitalexperienceplatform",
+   "dxp",
+   "email-marketing",
+   "email-marketing-automation",
+   "email-marketing-software",
+   "hacktoberfest",
+   "marketing-automation",
+   "marketing-tools",
+   "mautic",
+   "open-source",
+   "php"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 10994,
+  "forks": 3542,
+  "watchers": null,
+  "open_issues": 359,
+  "open_prs": null,
+  "created_at": "2013-08-19T00:36:28Z",
+  "pushed_at": "2026-11-16T22:09:44Z",
+  "updated_at": "2026-11-16T19:25:51Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 328705,
+  "og_image": "https://opengraph.githubassets.com/1/mautic/mautic",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T21:46:52.000Z",
+  "commits_90d": 510,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "7.2.2",
+  "name": "Mautic Community 7.2.2",
+  "published_at": "2026-10-26T10:40:08Z",
+  "url": "https://github.com/mautic/mautic/releases/tag/7.2.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 89332,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<blockquote>\n<p>[!WARNING]\n<sub><em>Install from GitHub only if you are comfortable using the command line and are working locally. You'll be required to use various CLI commands to get Mautic working and keep it working. If the source/database schema gets out of sync with Mautic releases, the release updater may not work and will require manual updates. For production, we recommend installing with Composer, or using the pre-packaged Mautic which is available at <a href=\"https://www.mautic.org/download\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">mautic.org/download</a>.</em>\n<em>Also note that source code outside of a <a href=\"https://github.com/mautic/mautic/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">tagged release</a> should be considered ‘alpha’. It may contain bugs, cause unexpected results, data corruption or loss, and is not recommended for use in a production environment. Use at your own risk.</em></sub></p>\n</blockquote>",
+    "truncated": false,
+    "chars": 759
+   },
+   "usage": {
+    "title": "Using Mautic",
+    "html": "<h5>☁️ Deploy instantly with our Trials</h5>\n<p><a href=\"https://mautic.org/start-using-mautic/try-mautic/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Request a trial</a> filling up a form to deploy in minutes and test Mautic now.</p>\n<h5>🚀 Self-host completely free, forever</h5>\n<p>Please check the latest supported versions on the <a href=\"https://www.mautic.org/mautic-releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Mautic Releases</a> page.</p>\n<p>The GitHub version is recommended for both development and testing. The production package (including all libraries) is available at <a href=\"https://www.mautic.org/download\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">mautic.org/download</a>.</p>\n<p>Check out the <a href=\"https://mautic.org/mautic-requirements/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">requirements for installation</a> and <a href=\"https://mautic.org/releases/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">supported versions</a>.</p>\n<h5>Installation</h5>\n<blockquote>\n<p>[!WARNING]\n<sub><em>Install from GitHub only if you are comfortable using the command line and are working locally. You'll be required to use various CLI commands to get Mautic working and keep it working. If the source/database schema gets out of sync with Mautic releases, the release updater may not work and will require manual updates. For production, we recommend installing with Composer, or using the pre-packaged Mautic which is available at <a href=\"https://www.mautic.org/download\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">mautic.org/download</a>.</em>\n<em>Also note that source code outside of a <a href=\"https://github.com/mautic/mautic/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">tagged release</a> should be considered ‘alpha’. It may contain bugs, cause unexpected results, data corruption or loss, and is not recommended for use in a production environment. Use at your own risk.</em></sub></p>\n</blockquote>\n<h5>How to install Mautic</h5>\n<p>You must already have <a href=\"http://getcomposer.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Composer</a> available on your computer because this is a development release and you'll need Composer to download the vendor packages.</p>\n<p>Also note that if you have DDEV installed, you can run 'ddev start' as a DDEV project’s configuration is present in the repo. This will kick off the Mautic first-run process which will automatically install dependencies and configure Mautic for use. ✨ 🚀 Read more <a href=\"https://kb.mautic.org/article/how-to-set-up-a-mautic-instance-for-testing-locally-with-ddev.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a></p>\n<p>We recommend installing via Composer following the documentation at the <a href=\"https://docs.mautic.org/en/5.2/getting_started/how_to_install_mautic.html#installing-with-composer\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">command line</a>.</p>\n<p>If you must install from the zip file, it's a three-step process:</p>\n<ol>\n<li><a href=\"https://github.com/mautic/mautic/archive/refs/heads/5.2.zip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download the repository zip</a> then extract the zip to your web root, or pull it in through Composer at the .</li>\n<li>Run the <code>composer install</code> command to install the required packages.</li>\n<li>Open your browser and complete the installation through the web installer.</li>\n</ol>\n<p>You must already have <a href=\"http://getcomposer.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Composer</a> available on your computer because this is a development release and you'll need Composer to download the vendor packages.</p>\n<p>Also note that if you have DDEV installed, you can run 'ddev config' followed by 'ddev start'. This will kick off the Mautic first-run process which will automatically install dependencies and configure Mautic for use. ✨ 🚀 Read more <a href=\"https://kb.mautic.org/article/how-to-set-up-a-mautic-instance-for-testing-locally-with-ddev.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a></p>",
+    "truncated": false,
+    "chars": 2688
+   },
+   "features": null
+  },
+  "headings": 11,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:15.683Z",
+  "checked_at": "2026-11-17T02:20:15.683Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:15.683Z"
+}

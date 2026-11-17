@@ -1,0 +1,108 @@
+{
+ "id": "argosopentech/argos-translate",
+ "github_id": 253849484,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyNTM4NDk0ODQ=",
+ "full_name": "argosopentech/argos-translate",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.971Z",
+ "meta": {
+  "name": "argos-translate",
+  "owner": "argosopentech",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/48267258?v=4",
+  "description": "Open-source offline translation library written in Python",
+  "homepage": "https://www.argosopentech.com",
+  "html_url": "https://github.com/argosopentech/argos-translate",
+  "default_branch": "master",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "language-models",
+   "linux",
+   "machine-translation",
+   "nlp",
+   "open-source",
+   "python",
+   "transformers",
+   "translation"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 6662,
+  "forks": 511,
+  "watchers": null,
+  "open_issues": 171,
+  "open_prs": null,
+  "created_at": "2020-04-07T16:22:23Z",
+  "pushed_at": "2026-11-14T13:45:34Z",
+  "updated_at": "2026-11-17T02:11:49Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 3932,
+  "og_image": "https://opengraph.githubassets.com/1/argosopentech/argos-translate",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-14T13:45:04.000Z",
+  "commits_90d": 12,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.4.0",
+  "name": "v1.4.0",
+  "published_at": null,
+  "url": "https://github.com/argosopentech/argos-translate/releases/tag/v1.4.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v1.11.0",
+  "name": "v1.11.0: Argos Translate 1.11",
+  "published_at": "2026-02-02T13:22:17Z",
+  "url": "https://github.com/argosopentech/argos-translate/releases/tag/v1.11.0"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 9978,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<h5>Install with Python</h5>\n<p>Argos Translate is available from <a href=\"https://pypi.org/project/argostranslate/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PyPI</a> and can be installed with <a href=\"https://pip.pypa.io/en/stable/installation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">pip</a>.</p>\n<pre><code>python -m pip install argostranslate\n</code></pre>\n<p>The unit-test workflow uses Python 3.11 on Ubuntu. Other platforms depend on native dependency wheel availability; see <a href=\"https://opennmt.net/CTranslate2/installation.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CTranslate2 requirements</a>. Install models separately for each translation direction. First use may download sentence-splitting resources; see <a href=\"https://argos-translate.readthedocs.io/en/latest/source/troubleshooting.html#offline-translation\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">offline preparation</a>.</p>\n<p>Install <a href=\"https://github.com/argosopentech/argos-translate-gui\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GUI</a>:</p>\n<pre><code>pip install argostranslategui\n</code></pre>\n<h5>Python source installation into virtualenv</h5>\n<p>Download a copy of this repo and install with pip.</p>\n<pre><code>git clone https://github.com/argosopentech/argos-translate.git\ncd argos-translate\npython -m venv env\nsource env/bin/activate\npython -m pip install -e .\n</code></pre>\n<p>On Windows PowerShell, use <code>env\\Scripts\\Activate.ps1</code> to activate the environment.</p>",
+    "truncated": false,
+    "chars": 1120
+   },
+   "usage": {
+    "title": "Examples",
+    "html": "<h5><a href=\"https://argos-translate.readthedocs.io/en/latest/source/examples.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Python</a></h5>\n<pre><code class=\"language-python\">import argostranslate.package\nimport argostranslate.translate\n\nfrom_code = \"en\"\nto_code = \"es\"\n\n# Download and install Argos Translate package\nargostranslate.package.update_package_index()\navailable_packages = argostranslate.package.get_available_packages()\npackage_to_install = next(\n    filter(\n        lambda x: x.from_code == from_code and x.to_code == to_code, available_packages\n    )\n)\nargostranslate.package.install_from_path(package_to_install.download())\n\n# Translate\ntranslated_text = argostranslate.translate.translate(\"Hello World\", from_code, to_code)\nprint(translated_text)\n# '¡Hola Mundo!'\n</code></pre>\n<h5>Command Line Interface</h5>\n<pre><code>argospm update\nargospm install translate-en_de\nargos-translate --from-lang en --to-lang de \"Hello World!\"\n# Hallo Welt!\n</code></pre>\n<p>Install all translation packages (requires substantial bandwidth and storage):</p>\n<pre><code>argospm install translate\n</code></pre>\n<h5><a href=\"https://github.com/LibreTranslate/LibreTranslate\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LibreTranslate</a> Web App (<a href=\"https://libretranslate.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Demo</a>)</h5>\n<p><img src=\"https://raw.githubusercontent.com/argosopentech/argos-translate/master/img/WebAppScreenshot.png\" alt=\"Web App Screenshot\" loading=\"lazy\" decoding=\"async\" /></p>\n<h5>LibreTranslate API</h5>\n<p>See the <a href=\"https://docs.libretranslate.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LibreTranslate API documentation</a> for hosting, endpoints, authentication, and examples. Hosted APIs send text to a remote server; they are separate from local Argos translation.</p>\n<h6>Graphical user interface</h6>\n<p>The GUI code is in a <a href=\"https://github.com/argosopentech/argos-translate-gui\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">separate repository</a>.</p>\n<p><img src=\"https://raw.githubusercontent.com/argosopentech/argos-translate/master/img/Screenshot.png\" alt=\"Screenshot\" loading=\"lazy\" decoding=\"async\" />\n<img src=\"https://raw.githubusercontent.com/argosopentech/argos-translate/master/img/Screenshot2.png\" alt=\"Screenshot2\" loading=\"lazy\" decoding=\"async\" /></p>",
+    "truncated": false,
+    "chars": 1592
+   },
+   "features": null
+  },
+  "headings": 25,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:29.888Z",
+  "checked_at": "2026-11-16T05:09:29.888Z"
+ },
+ "details_checked_at": "2026-11-16T05:07:14.364Z",
+ "contributors": null
+}

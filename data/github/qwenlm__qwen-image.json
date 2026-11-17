@@ -1,0 +1,86 @@
+{
+ "id": "QwenLM/Qwen-Image",
+ "github_id": 1031256025,
+ "node_id": "R_kgDOPXe32Q",
+ "full_name": "QwenLM/Qwen-Image",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.074Z",
+ "meta": {
+  "name": "Qwen-Image",
+  "owner": "QwenLM",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/141221163?v=4",
+  "description": "Qwen-Image is a powerful image generation foundation model capable of complex text rendering and precise image editing.",
+  "homepage": null,
+  "html_url": "https://github.com/QwenLM/Qwen-Image",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 8486,
+  "forks": 568,
+  "watchers": null,
+  "open_issues": 241,
+  "open_prs": null,
+  "created_at": "2025-08-03T11:03:25Z",
+  "pushed_at": "2026-02-10T07:37:37Z",
+  "updated_at": "2026-11-16T21:01:20Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 17913,
+  "og_image": "https://opengraph.githubassets.com/1/QwenLM/Qwen-Image",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-02-10T07:37:32.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 37577,
+  "cjk_ratio": 0.09,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<ol>\n<li><p>Make sure your transformers&gt;=4.51.3 (Supporting Qwen2.5-VL)</p>\n</li>\n<li><p>Install the latest version of diffusers</p>\n</li>\n</ol>\n<pre><code>pip install git+https://github.com/huggingface/diffusers\n</code></pre>\n<h5>Qwen-Image-2512 (for Text to Image generation, better character realism/texture quality)</h5>\n<p>We recommand use the latest prompt enhancing tools for Qwen-Image-2512, please check <code>src/examples/tools/prompt_utils_2512.py</code></p>\n<pre><code class=\"language-python\">from diffusers import QwenImagePipeline\nimport torch\n# Load the pipeline\nif torch.cuda.is_available():\n    torch_dtype = torch.bfloat16\n    device = \"cuda\"\nelse:\n    torch_dtype = torch.float32\n    device = \"cpu\"\n\npipe = QwenImagePipeline.from_pretrained(\"Qwen/Qwen-Image-2512\", torch_dtype=torch_dtype).to(device)\n\n# Generate image\nprompt = '''A 20-year-old East Asian girl with delicate, charming features and large, bright brown eyes—expressive and lively, with a cheerful or subtly smiling expression. Her naturally wavy long hair is either loose or tied in twin ponytails. She has fair skin and light makeup accentuating her youthful freshness. She wears a modern, cute dress or relaxed outfit in bright, soft colors—lightweight fabric, minimalist cut. She stands indoors at an anime convention, surrounded by banners, posters, or stalls. Lighting is typical indoor illumination—no staged lighting—and the image resembles a casual iPhone snapshot: unpretentious composition, yet brimming with vivid, fresh, youthful charm.'''\n\nnegative_prompt = \"低分辨率，低画质，肢体畸形，手指畸形，画面过饱和，蜡像感，人脸无细节，过度光滑，画面具有AI感。构图混乱。文字模糊，扭曲。\"\n\n\n# Generate with different aspect ratios\naspect_ratios = {\n    \"1:1\": (1328, 1328),\n    \"16:9\": (1664, 928),\n    \"9:16\": (928, 1664),\n    \"4:3\": (1472, 1104),\n    \"3:4\": (1104, 1472),\n    \"3:2\": (1584, 1056),\n    \"2:3\": (1056, 1584),\n}\n\nwidth, height = aspect_ratios[\"16:9\"]\n\nimage = pipe(\n    prompt=prompt,\n    negative_prompt=negative_prompt,\n    width=width,\n    height=height,\n    num_inference_steps=50,\n    true_cfg_scale=4.0,\n    generator=torch.Generator(device=\"cuda\").manual_seed(42)\n).images[0]\n\nimage.save(\"example.png\")\n</code></pre>\n<h5>Qwen-Image-Edit-2511 (for Image Editing, Multiple Image Support and Improved Consistency)</h5>\n<pre><code class=\"language-python\">import os\nimport torch\nfrom PIL import Image\nfrom diffusers import QwenImageEditPlusPipeline\nfrom io import BytesIO\nimport requests\n\npipeline = QwenImageEditPlusPipeline.from_pretrained(\"Qwen/Qwen-Image-Edit-2511\", torch_dtype=torch.bfloat16)\nprint(\"pipeline loaded\")\n\npipeline.to('cuda')\npipeline.set_progress_bar_config(disable=None)\nimage1 = Image.open(BytesIO(requests.get(\"https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/Qwen-Image/edit2511/edit2511input.png\").content))\nprompt = \"这个女生看着面前的电视屏幕，屏幕上面写着“阿里巴巴”\"\ninputs = {\n    \"image\": [image1],\n    \"prompt\": prompt,\n    \"generator\": torch.manual_seed(0),\n    \"true_cfg_scale\": 4.0,\n    \"negative_prompt\": \" \",\n    \"num_inference_steps\": 40,\n    \"guidance_scale\": 1.0,\n    \"num_images_per_prompt\": 1,\n}\nwith torch.inference_mode():\n    output = pipeline(**inputs)\n    output_image = output.images[0]\n    output_image.save(\"output_image_edit_2511.png\")\n    print(\"image saved at\", os.path.abspath(\"output_image_edit_2511.png\"))\n</code></pre>\n<details>\n<summary> Previous Version </summary><h5>Qwen-Image (for Text-to-Image)</h5>\n<p>The following contains a code snippet illustrating how to use the model to generate images based on text prompts:</p>\n<pre><code class=\"language-python\">from diffusers import DiffusionPipeline\nimport torch\n\nmodel_name = \"Qwen/Qwen-Image\"\n\n# Load the pipeline\nif torch.cuda.is_available():\n    torch_dtype = torch.bfloat16\n    device = \"cuda\"\nelse:\n    torch_dtype = torch.float32\n    device = \"cpu\"\n\npipe = DiffusionPipeline.from_pretrained(model_name, torch_dtype=torch_dtype).to(device)\n\npositive_magic = {\n    \"en\": \", Ultra HD, 4K, cinematic composition.\", # for english prompt\n    \"zh\": \", 超清，4K，电影级构图.\" # for chinese prompt\n}\n\n# Generate image\nprompt = '''A coffee shop entrance features a chalkboard sign reading \"Qwen Coffee 😊 $2 per cup,\" with a neon light beside it displaying \"通义千问\". Next to it hangs a poster showing a beautiful Chinese woman, and beneath the poster is written \"π≈3.1415926-53589793-23846264-33832795-02384197\".'''\n\nnegative_prompt = \" \" # Recommended if you don't use a negative prompt.\n\n\n# Generate with different aspect ratios\naspect_ratios = {\n    \"1:1\": (1328, 1328),\n    \"16:9\": (1664, 928),\n    \"9:16\": (928, 1664),\n    \"4:3\": (1472, 1104),\n    \"3:4\": (1104, 1472),\n    \"3:2\": (1584, 1056),\n    \"2:3\": (1056, 1584),\n}\n\nwidth, height = aspect_ratios[\"16:9\"]\n\nimage = pipe(\n    prompt=prompt + positive_magic[\"en\"],\n    negative_prompt=negative_prompt,\n    width=width,\n    height=height,\n    num_inference_steps=50,\n    true_cfg_scale=4.0,\n    generator=torch.Generator(device=\"cuda\").manual_seed(42)\n).images[0]\n\nimage.save(\"example.png\")\n</code></pre>\n<h5>Qwen-Image-Edit (for Image Editing, Only Support Single Image Input)</h5>\n<blockquote>\n<p>[!NOTE]\nQwen-Image-Edit-2509 has better consistency than Qwen-Image-Edit; it is recommended to use Qwen-Image-Edit-2509 directly，for both single image input and multiple image inputs.</p>\n</blockquote>\n<pre><code class=\"language-python\">import os\nfrom PIL import Image\nimport torch\n\nfrom diffusers import QwenImageEditPipeline\n\npipeline = QwenImageEditPipeline.from_pretrained(\"Qwen/Qwen-Image-Edit\")\nprint(\"pipeline loaded\")\npipeline.to(torch.bfloat16)\npipeline.to(\"cuda\")\npipeline.set_progress_bar_config(disable=None)\n\nimage = Image.open(\"./input.png\").convert(\"RGB\")\nprompt = \"Change the rabbit's color to purple, with a flash light background.\"\n\n\ninputs = {\n    \"image\": image,\n    \"prompt\": prompt,\n    \"generator\": torch.manual_seed(0),\n    \"true_cfg_scale\": 4.0,\n    \"negative_prompt\": \" \",\n    \"num_inference_steps\": 50,\n}\n\nwith torch.inference_mode():\n    output = pipeline(**inputs)\n    output_image = output.images[0]\n    output_image.save(\"output_image_edit.png\")\n    print(\"image saved at\", os.path.abspath(\"output_image_edit.png\"))\n</code></pre>\n<blockquote>\n<p>[!NOTE]\nWe have observed that editing results may become unstable if prompt rewriting is not used. Therefore, we strongly recommend applying prompt rewriting to improve the stability of editing tasks. For reference, please see our official <a href=\"https://github.com/QwenLM/Qwen-Image/blob/main/src/examples/tools/prompt_utils.py\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">demo script</a> or Advanced Usage below, which includes example system prompts. Qwen-Image-Edit is actively evolving with ongoing development. Stay tuned for future enhancements!</p>\n</blockquote>\n<h5>Qwen-Image-Edit-2509 (for Image Editing, Multiple Image Support and Improved Consistency)</h5>\n<pre><code class=\"language-python\">import os\nimport torch\nfrom PIL import Image\nfrom diffusers import QwenImageEditPlusPipeline\nfrom io import BytesIO\nimport requests\n\npipeline = QwenImageEditPlusPipeline.from_pretrained(\"Qwen/Qwen-Image-Edit-2509\", torch_dtype=torch.bfloat16)\nprint(\"pipeline loaded\")\n\npipeline.to('cuda')\npipeline.set_progress_bar_config(disable=None)\nimage1 = Image.open(BytesIO(requests.get(\"https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-Image/edit2509/edit2509_1.jpg\").content))\nimage2 = Image.open(BytesIO(requests.get(\"https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen-Image/edit2509/edit2509_2.jpg\").content))\nprompt = \"The magician bear is on the left, the alchemist bear is on the right, facing each other in the central park square.\"\ninputs = {\n    \"image\": [image1, image2],\n    \"prompt\": prompt,\n    \"generator\": torch.manual_seed(0),\n    \"true_cfg_scale\": 4.0,\n    \"negative_prompt\": \" \",\n    \"num_inference_steps\": 40,\n    \"guidance_scale\": 1.0,\n    \"num_images_per_prompt\": 1,\n}\nwith torch.inference_mode():\n    output = pipeline(**inputs)\n    output_image = output.images[0]\n    output_image.save(\"output_image_edit_plus.png\")\n    print(\"image saved at\", os.path.abspath(\"output_image_edit_plus.png\"))\n</code></pre>\n</details><h5>Advanced Usage</h5>\n<h6>Prompt Enhance for Text-to-Image</h6>\n<p>For enhanced prompt optimization and multi-language support, we recommend using our official Prompt Enhancement Tool powered by Qwen-Plus .</p>\n<p>You can integrate it directly into your code:</p>\n<pre><code class=\"language-python\">from tools.prompt_utils import rewrite\nprompt = rewrite(prompt)\n</code></pre>\n<p>Alternatively, run the example script from the command line:</p>\n<pre><code class=\"language-bash\">cd src\nDASHSCOPE_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx python examples/generate_w_prompt_enhance.py\n</code></pre>\n<h6>Prompt Enhance for Image Edit</h6>\n<p>For enhanced stability, we recommend using our official Prompt Enhancement Tool powered by Qwen-VL-Max.</p>\n<p>You can integrate it directly into your code:</p>\n<pre><code class=\"language-python\">from tools.prompt_utils import polish_edit_prompt\nprompt = polish_edit_prompt(prompt, pil_image)\n</code></pre>",
+    "truncated": false,
+    "chars": 8474
+   },
+   "usage": {
+    "title": "Advanced Usage",
+    "html": "<h6>Prompt Enhance for Text-to-Image</h6>\n<p>For enhanced prompt optimization and multi-language support, we recommend using our official Prompt Enhancement Tool powered by Qwen-Plus .</p>\n<p>You can integrate it directly into your code:</p>\n<pre><code class=\"language-python\">from tools.prompt_utils import rewrite\nprompt = rewrite(prompt)\n</code></pre>\n<p>Alternatively, run the example script from the command line:</p>\n<pre><code class=\"language-bash\">cd src\nDASHSCOPE_API_KEY=sk-xxxxxxxxxxxxxxxxxxxx python examples/generate_w_prompt_enhance.py\n</code></pre>\n<h6>Prompt Enhance for Image Edit</h6>\n<p>For enhanced stability, we recommend using our official Prompt Enhancement Tool powered by Qwen-VL-Max.</p>\n<p>You can integrate it directly into your code:</p>\n<pre><code class=\"language-python\">from tools.prompt_utils import polish_edit_prompt\nprompt = polish_edit_prompt(prompt, pil_image)\n</code></pre>",
+    "truncated": false,
+    "chars": 774
+   },
+   "features": null
+  },
+  "headings": 28,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:03.532Z",
+  "checked_at": "2026-11-16T05:08:03.532Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:17.093Z",
+ "contributors": null
+}

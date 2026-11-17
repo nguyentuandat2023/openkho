@@ -1,0 +1,103 @@
+{
+ "id": "janhq/jan",
+ "github_id": 679506386,
+ "node_id": "R_kgDOKIBx0g",
+ "full_name": "janhq/jan",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.074Z",
+ "meta": {
+  "name": "jan",
+  "owner": "janhq",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/102363196?v=4",
+  "description": "Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.",
+  "homepage": "https://jan.ai/",
+  "html_url": "https://github.com/janhq/jan",
+  "default_branch": "main",
+  "language": "Rust",
+  "languages": null,
+  "topics": [
+   "chatgpt",
+   "gpt",
+   "llamacpp",
+   "llm",
+   "localai",
+   "open-source",
+   "self-hosted",
+   "tauri"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 45748,
+  "forks": 3179,
+  "watchers": null,
+  "open_issues": 581,
+  "open_prs": null,
+  "created_at": "2023-08-17T02:17:10Z",
+  "pushed_at": "2026-11-16T12:07:48Z",
+  "updated_at": "2026-11-17T00:09:54Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 1582946,
+  "og_image": "https://opengraph.githubassets.com/1/janhq/jan",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T12:07:45.000Z",
+  "commits_90d": 395,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.8.8",
+  "name": "0.8.8",
+  "published_at": "2026-10-28T03:35:16Z",
+  "url": "https://github.com/janhq/jan/releases/tag/v0.8.8",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 7164,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>\n  </p><table>\n    <tr><pre><code>  &lt;td align=\"center\" valign=\"middle\"&gt;\n    &lt;a href=\"https://apps.microsoft.com/detail/xpdcnfn5cpzlqb\"&gt;\n      &lt;img height=\"60\"\n        width=\"200\"\n           alt=\"Get it from Microsoft Store\"\n           src=\"https://get.microsoft.com/images/en-us%20dark.svg\"/&gt;\n    &lt;/a&gt;\n  &lt;/td&gt;\n  \n  &lt;td width=\"20\"&gt;&lt;/td&gt;\n  \n  &lt;td align=\"center\" valign=\"middle\"&gt;\n    \n  &lt;/td&gt;\n&lt;/tr&gt;\n</code></pre>\n  </tr></table>\n<p></p><p>The easiest way to get started is by downloading one of the following versions for your respective operating system:</p>\n<table>\n  <tr>\n    <td><b>Platform</b></td>\n    <td><b>Download</b></td>\n  </tr>\n  <tr>\n    <td><b>Windows</b></td>\n    <td><a href=\"https://app.jan.ai/download/latest/win-x64\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">jan.exe</a></td>\n  </tr>\n  <tr>\n    <td><b>macOS</b></td>\n    <td><a href=\"https://app.jan.ai/download/latest/mac-universal\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">jan.dmg</a></td>\n  </tr>\n  <tr>\n    <td><b>Linux (deb)</b></td>\n    <td><a href=\"https://app.jan.ai/download/latest/linux-amd64-deb\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">jan.deb</a></td>\n  </tr>\n  <tr>\n    <td><b>Linux (AppImage)</b></td>\n    <td><a href=\"https://app.jan.ai/download/latest/linux-amd64-appimage\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">jan.AppImage</a></td>\n  </tr>\n  <tr>\n    <td><b>Linux (Arm64)</b></td>\n    <td><a href=\"https://github.com/janhq/jan/issues/4543#issuecomment-4142429792\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">How-to</a></td>\n  </tr>\n</table><p>Download from <a href=\"https://jan.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">jan.ai</a> or <a href=\"https://github.com/janhq/jan/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GitHub Releases</a>.</p>",
+    "truncated": false,
+    "chars": 1473
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li><strong>Local AI Models</strong>: Download and run LLMs (Llama, Gemma, Qwen, GPT-oss etc.) from HuggingFace</li>\n<li><strong>Cloud Integration</strong>: Connect to GPT models via OpenAI, Claude models via Anthropic, Mistral, Groq, MiniMax, and others</li>\n<li><strong>Custom Assistants</strong>: Create specialized AI assistants for your tasks</li>\n<li><strong>OpenAI-Compatible API</strong>: Local server at <code>localhost:1337</code> for other applications</li>\n<li><strong>Model Context Protocol</strong>: MCP integration for agentic capabilities</li>\n<li><strong>Privacy First</strong>: Everything runs locally when you want it to</li>\n</ul>",
+    "truncated": false,
+    "chars": 517
+   }
+  },
+  "headings": 15,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:14.244Z",
+  "checked_at": "2026-11-17T02:19:34.418Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:34.418Z"
+}

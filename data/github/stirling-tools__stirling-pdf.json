@@ -1,0 +1,108 @@
+{
+ "id": "Stirling-Tools/Stirling-PDF",
+ "github_id": 594155488,
+ "node_id": "R_kgDOI2oX4A",
+ "full_name": "Stirling-Tools/Stirling-PDF",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.972Z",
+ "meta": {
+  "name": "Stirling-PDF",
+  "owner": "Stirling-Tools",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/139791695?v=4",
+  "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+  "homepage": "https://stirling.com",
+  "html_url": "https://github.com/Stirling-Tools/Stirling-PDF",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "docker",
+   "hacktoberfest",
+   "java",
+   "pdf",
+   "pdf-converter",
+   "pdf-editor",
+   "pdf-manipulation",
+   "pdf-merger",
+   "pdf-ocr",
+   "pdf-tools",
+   "pdf-web-apps",
+   "pdfmerger",
+   "self-hosted"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 96781,
+  "forks": 9365,
+  "watchers": null,
+  "open_issues": 462,
+  "open_prs": null,
+  "created_at": "2023-01-27T18:22:42Z",
+  "pushed_at": "2026-11-16T23:20:31Z",
+  "updated_at": "2026-11-17T02:04:21Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 697416,
+  "og_image": "https://opengraph.githubassets.com/1/Stirling-Tools/Stirling-PDF",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-15T20:32:48.000Z",
+  "commits_90d": 493,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v3.3.0",
+  "name": "3.3.0 Conversion upgrades, bug fixes and several minor improvements",
+  "published_at": "2026-11-05T08:55:56Z",
+  "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/tag/v3.3.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 3193,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<pre><code class=\"language-bash\">docker run -p 8080:8080 docker.stirlingpdf.com/stirlingtools/stirling-pdf\n</code></pre>\n<p>Then open: <a href=\"http://localhost:8080\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:8080</a></p>\n<p>For full installation options (including desktop and Kubernetes), see our <a href=\"https://docs.stirlingpdf.com/#documentation-guide\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Documentation Guide</a>.</p>",
+    "truncated": false,
+    "chars": 272
+   },
+   "usage": null,
+   "features": {
+    "title": "Key Capabilities",
+    "html": "<ul>\n<li><strong>Everywhere you work</strong> - Desktop client, browser UI, and self-hosted server with a private API.</li>\n<li><strong>50+ PDF tools</strong> - Edit, merge, split, sign, redact, convert, OCR, compress, and more.</li>\n<li><strong>Automation &amp; workflows</strong> - No-code pipelines direct in UI with APIs to process millions of PDFs.</li>\n<li><strong>Enterprise‑grade</strong> - SSO, auditing, and flexible on‑prem deployments.</li>\n<li><strong>Developer platform</strong> - REST APIs available for nearly all tools to integrate into your existing systems.</li>\n<li><strong>Global UI</strong> - Interface available in 40+ languages.</li>\n</ul>\n<p>For a full feature list, see the docs: <strong><a href=\"https://docs.stirlingpdf.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://docs.stirlingpdf.com</a></strong></p>",
+    "truncated": false,
+    "chars": 605
+   }
+  },
+  "headings": 7,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:42.297Z",
+  "checked_at": "2026-11-17T02:20:31.556Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:31.556Z"
+}

@@ -1,0 +1,106 @@
+{
+ "id": "RVC-Boss/GPT-SoVITS",
+ "github_id": 743230067,
+ "node_id": "R_kgDOLEzKcw",
+ "full_name": "RVC-Boss/GPT-SoVITS",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "GPT-SoVITS",
+  "owner": "RVC-Boss",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/129054828?v=4",
+  "description": "1 min voice data can also be used to train a good TTS model! (few shot voice cloning)",
+  "homepage": null,
+  "html_url": "https://github.com/RVC-Boss/GPT-SoVITS",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "text-to-speech",
+   "tts",
+   "vits",
+   "voice-clone",
+   "voice-cloneai",
+   "voice-cloning"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 65231,
+  "forks": 6809,
+  "watchers": null,
+  "open_issues": 912,
+  "open_prs": null,
+  "created_at": "2024-01-14T18:05:21Z",
+  "pushed_at": "2026-11-11T16:26:18Z",
+  "updated_at": "2026-11-17T02:17:15Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 14906,
+  "og_image": "https://opengraph.githubassets.com/1/RVC-Boss/GPT-SoVITS",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-11T16:26:17.000Z",
+  "commits_90d": 19,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "20250606v2pro",
+  "name": "20250606v2pro",
+  "published_at": "2025-06-06T03:04:27Z",
+  "url": "https://github.com/RVC-Boss/GPT-SoVITS/releases/tag/20250606v2pro",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 21933,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>For users in China, you can <a href=\"https://www.codewithgpu.com/i/RVC-Boss/GPT-SoVITS/GPT-SoVITS-Official\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">click here</a> to use AutoDL Cloud Docker to experience the full functionality online.</p>\n<h5>Tested Environments</h5>\n<table>\n<thead>\n<tr>\n<th>Python Version</th>\n<th>PyTorch Version</th>\n<th>Device</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Python 3.10</td>\n<td>PyTorch 2.5.1</td>\n<td>CUDA 12.4</td>\n</tr>\n<tr>\n<td>Python 3.11</td>\n<td>PyTorch 2.5.1</td>\n<td>CUDA 12.4</td>\n</tr>\n<tr>\n<td>Python 3.11</td>\n<td>PyTorch 2.7.0</td>\n<td>CUDA 12.8</td>\n</tr>\n<tr>\n<td>Python 3.9</td>\n<td>PyTorch 2.8.0dev</td>\n<td>CUDA 12.8</td>\n</tr>\n<tr>\n<td>Python 3.12</td>\n<td>PyTorch 2.7.1</td>\n<td>CUDA 11.8</td>\n</tr>\n<tr>\n<td>Python 3.12</td>\n<td>PyTorch 2.7.1</td>\n<td>CUDA 12.8</td>\n</tr>\n<tr>\n<td>Python 3.9</td>\n<td>PyTorch 2.5.1</td>\n<td>Apple silicon</td>\n</tr>\n<tr>\n<td>Python 3.11</td>\n<td>PyTorch 2.7.0</td>\n<td>Apple silicon</td>\n</tr>\n<tr>\n<td>Python 3.9</td>\n<td>PyTorch 2.2.2</td>\n<td>CPU</td>\n</tr>\n</tbody></table>\n<h5>Windows</h5>\n<p>If you are a Windows user (tested with win&gt;=10), you can <a href=\"https://huggingface.co/lj1995/GPT-SoVITS-windows-package/resolve/main/GPT-SoVITS-v3lora-20250228.7z?download=true\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">download the integrated package</a> and double-click on <em>go-webui.bat</em> to start GPT-SoVITS-WebUI.</p>\n<p><strong>Users in China can <a href=\"https://www.yuque.com/baicaigongchang1145haoyuangong/ib3g1e/dkxgpiy9zb96hob4#KTvnO\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">download the package here</a>.</strong></p>\n<p>Install the program by running the following commands:</p>\n<pre><code class=\"language-pwsh\">conda create -n GPTSoVits python=3.10\nconda activate GPTSoVits\npwsh -F install.ps1 --Device &lt;CU126|CU128|CPU&gt; --Source &lt;HF|HF-Mirror|ModelScope&gt; [--DownloadUVR5]\n</code></pre>\n<h5>Linux</h5>\n<pre><code class=\"language-bash\">conda create -n GPTSoVits python=3.10\nconda activate GPTSoVits\nbash install.sh --device &lt;CU126|CU128|ROCM|CPU&gt; --source &lt;HF|HF-Mirror|ModelScope&gt; [--download-uvr5]\n</code></pre>\n<h5>macOS</h5>\n<p><strong>Note: The models trained with GPUs on Macs result in significantly lower quality compared to those trained on other devices, so we are temporarily using CPUs instead.</strong></p>\n<p>Install the program by running the following commands:</p>\n<pre><code class=\"language-bash\">conda create -n GPTSoVits python=3.10\nconda activate GPTSoVits\nbash install.sh --device &lt;MPS|CPU&gt; --source &lt;HF|HF-Mirror|ModelScope&gt; [--download-uvr5]\n</code></pre>\n<h5>Install Manually</h5>\n<h6>Install Dependences</h6>\n<pre><code class=\"language-bash\">conda create -n GPTSoVits python=3.10\nconda activate GPTSoVits\n\npip install -r extra-req.txt --no-deps\npip install -r requirements.txt\n</code></pre>\n<h6>Install FFmpeg</h6>\n<h6>Conda Users</h6>\n<pre><code class=\"language-bash\">conda activate GPTSoVits\nconda install ffmpeg\n</code></pre>\n<h6>Ubuntu/Debian Users</h6>\n<pre><code class=\"language-bash\">sudo apt install ffmpeg\nsudo apt install libsox-dev\n</code></pre>\n<h6>Windows Users</h6>\n<p>Download and place <a href=\"https://huggingface.co/lj1995/VoiceConversionWebUI/blob/main/ffmpeg.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ffmpeg.exe</a> and <a href=\"https://huggingface.co/lj1995/VoiceConversionWebUI/blob/main/ffprobe.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ffprobe.exe</a> in the GPT-SoVITS root</p>\n<p>Install <a href=\"https://aka.ms/vs/17/release/vc_redist.x86.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Visual Studio 2017</a></p>\n<h6>MacOS Users</h6>\n<pre><code class=\"language-bash\">brew install ffmpeg\n</code></pre>\n<h5>Running GPT-SoVITS with Docker</h5>\n<h6>Docker Image Selection</h6>\n<p>Due to rapid development in the codebase and a slower Docker image release cycle, please:</p>\n<ul>\n<li>Check <a href=\"https://hub.docker.com/r/xxxxrt666/gpt-sovits\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker Hub</a> for the latest available image tags</li>\n<li>Choose an appropriate image tag for your environment</li>\n<li><code>Lite</code> means the Docker image <strong>does not include</strong> ASR models and UVR5 models. You can manually download the UVR5 models, while the program will automatically download the ASR models as needed</li>\n<li>The appropriate architecture image (amd64/arm64) will be automatically pulled during Docker Compose</li>\n<li>Docker Compose will mount <strong>all files</strong> in the current directory. Please switch to the project root directory and <strong>pull the latest code</strong> before using the Docker image</li>\n<li>Optionally, build the image locally using the provided Dockerfile for the most up-to-date changes</li>\n</ul>\n<h6>Environment Variables</h6>\n<ul>\n<li><code>is_half</code>: Controls whether half-precision (fp16) is enabled. Set to <code>true</code> if your GPU supports it to reduce memory usage.</li>\n</ul>\n<h6>Shared Memory Configuration</h6>\n<p>On Windows (Docker Desktop), the default shared memory size is small and may cause unexpected behavior. Increase <code>shm_size</code> (e.g., to <code>16g</code>) in your Docker Compose file based on your available system memory.</p>\n<h6>Choosing a Service</h6>\n<p>The <code>docker-compose.yaml</code> defines two services:</p>\n<ul>\n<li><code>GPT-SoVITS-CU126</code> &amp; <code>GPT-SoVITS-CU128</code>: Full version with all features.</li>\n<li><code>GPT-SoVITS-CU126-Lite</code> &amp; <code>GPT-SoVITS-CU128-Lite</code>: Lightweight version with reduced dependencies and functionality.</li>\n</ul>\n<p>To run a specific service with Docker Compose, use:</p>\n<pre><code class=\"language-bash\">docker compose run --service-ports &lt;GPT-SoVITS-CU126-Lite|GPT-SoVITS-CU128-Lite|GPT-SoVITS-CU126|GPT-SoVITS-CU128&gt;\n</code></pre>\n<h6>Building the Docker Image Locally</h6>\n<p>If you want to build the image yourself, use:</p>\n<pre><code class=\"language-bash\">bash docker_build.sh --cuda &lt;12.6|12.8&gt; [--lite]\n</code></pre>\n<h6>Accessing the Running Container (Bash Shell)</h6>\n<p>Once the container is running in the background, you can access it using:</p>\n<pre><code class=\"language-bash\">docker exec -it &lt;GPT-SoVITS-CU126-Lite|GPT-SoVITS-CU128-Lite|GPT-SoVITS-CU126|GPT-SoVITS-CU128&gt; bash\n</code></pre>",
+    "truncated": false,
+    "chars": 4927
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<ol>\n<li><p><strong>Zero-shot TTS:</strong> Input a 5-second vocal sample and experience instant text-to-speech conversion.</p>\n</li>\n<li><p><strong>Few-shot TTS:</strong> Fine-tune the model with just 1 minute of training data for improved voice similarity and realism.</p>\n</li>\n<li><p><strong>Cross-lingual Support:</strong> Inference in languages different from the training dataset, currently supporting English, Japanese, Korean, Cantonese and Chinese.</p>\n</li>\n<li><p><strong>WebUI Tools:</strong> Integrated tools include voice accompaniment separation, automatic training set segmentation, Chinese ASR, and text labeling, assisting beginners in creating training datasets and GPT/SoVITS models.</p>\n</li>\n</ol>\n<p><strong>Check out our <a href=\"https://www.bilibili.com/video/BV12g4y1m7Uw\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">demo video</a> here!</strong></p>\n<p>Unseen speakers few-shot fine-tuning demo:</p>\n<p><a href=\"https://github.com/RVC-Boss/GPT-SoVITS/assets/129054828/05bee1fa-bdd8-4d85-9350-80c060ab47fb\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://github.com/RVC-Boss/GPT-SoVITS/assets/129054828/05bee1fa-bdd8-4d85-9350-80c060ab47fb</a></p>\n<p><strong>RTF(inference speed) of GPT-SoVITS v2 ProPlus</strong>:\n0.028 tested in 4060Ti, 0.014 tested in 4090 (1400words~=4min, inference time is 3.36s), 0.526 in M4 CPU. You can test our <a href=\"https://lj1995-gpt-sovits-proplus.hf.space/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">huggingface demo</a> (half H200) to experience high-speed inference .</p>\n<p>请不要尬黑GPT-SoVITS推理速度慢，谢谢！</p>\n<p><strong>User guide: <a href=\"https://www.yuque.com/baicaigongchang1145haoyuangong/ib3g1e\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">简体中文</a> | <a href=\"https://rentry.co/GPT-SoVITS-guide#/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">English</a></strong></p>\n<p><strong>Zero-Shot TTS Speaker Similarity Comparison Image on SeedTTS Eval Testset_CN2020</strong></p>\n<img src=\"https://github.com/user-attachments/assets/8c2a0e0a-7212-4b77-b5ef-2d192e09127f\" alt=\"v5pro-seedtts-img-v1\" loading=\"lazy\" decoding=\"async\" width=\"2400\" height=\"1650\" />",
+    "truncated": false,
+    "chars": 1514
+   }
+  },
+  "headings": 44,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:33.888Z",
+  "checked_at": "2026-11-16T04:33:33.888Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:13.194Z",
+ "contributors": {
+  "count": 101,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:22.968Z"
+ }
+}

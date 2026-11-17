@@ -1,0 +1,99 @@
+{
+ "id": "astral-sh/uv",
+ "github_id": 699532645,
+ "node_id": "R_kgDOKbIFZQ",
+ "full_name": "astral-sh/uv",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.796Z",
+ "meta": {
+  "name": "uv",
+  "owner": "astral-sh",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/115962839?v=4",
+  "description": "An extremely fast Python package and project manager, written in Rust.",
+  "homepage": "https://docs.astral.sh/uv",
+  "html_url": "https://github.com/astral-sh/uv",
+  "default_branch": "main",
+  "language": "Rust",
+  "languages": null,
+  "topics": [
+   "packaging",
+   "python",
+   "resolver",
+   "uv"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 92041,
+  "forks": 3859,
+  "watchers": null,
+  "open_issues": 3087,
+  "open_prs": null,
+  "created_at": "2023-10-02T20:24:11Z",
+  "pushed_at": "2026-11-17T00:25:32Z",
+  "updated_at": "2026-11-17T02:13:43Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 231273,
+  "og_image": "https://opengraph.githubassets.com/1/astral-sh/uv",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T22:35:55.000Z",
+  "commits_90d": 391,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "0.13.8",
+  "name": "0.13.8",
+  "published_at": "2026-11-12T17:03:07Z",
+  "url": "https://github.com/astral-sh/uv/releases/tag/0.13.8",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 9853,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>Install uv with our standalone installers:</p>\n<pre><code class=\"language-bash\"># On macOS and Linux.\ncurl -LsSf https://astral.sh/uv/install.sh | sh\n</code></pre>\n<pre><code class=\"language-bash\"># On Windows.\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\n</code></pre>\n<p>Or, from <a href=\"https://pypi.org/project/uv/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PyPI</a>:</p>\n<pre><code class=\"language-bash\"># With pip.\npip install uv\n</code></pre>\n<pre><code class=\"language-bash\"># Or pipx.\npipx install uv\n</code></pre>\n<p>If installed via the standalone installer, uv can update itself to the latest version:</p>\n<pre><code class=\"language-bash\">uv self update\n</code></pre>\n<p>See the <a href=\"https://docs.astral.sh/uv/getting-started/installation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">installation documentation</a> for\ndetails and alternative installation methods.</p>",
+    "truncated": false,
+    "chars": 628
+   },
+   "usage": null,
+   "features": {
+    "title": "Highlights",
+    "html": "<ul>\n<li>A single tool to replace <code>pip</code>, <code>pip-tools</code>, <code>pipx</code>, <code>poetry</code>, <code>pyenv</code>, <code>twine</code>, <code>virtualenv</code>, and\nmore.</li>\n<li><a href=\"https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">10-100x faster</a> than <code>pip</code>.</li>\n<li>Provides <a href=\"https://github.com/astral-sh/uv#projects\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">comprehensive project management</a>, with a\n<a href=\"https://docs.astral.sh/uv/concepts/projects/layout#the-lockfile\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">universal lockfile</a>.</li>\n<li><a href=\"https://github.com/astral-sh/uv#scripts\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Runs scripts</a>, with support for\n<a href=\"https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">inline dependency metadata</a>.</li>\n<li><a href=\"https://github.com/astral-sh/uv#python-versions\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Installs and manages</a> Python versions.</li>\n<li><a href=\"https://github.com/astral-sh/uv#tools\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Runs and installs</a> tools published as Python packages.</li>\n<li>Includes a <a href=\"https://github.com/astral-sh/uv#the-pip-interface\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">pip-compatible interface</a> for a performance boost with a familiar\nCLI.</li>\n<li>Supports Cargo-style <a href=\"https://docs.astral.sh/uv/concepts/projects/workspaces\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">workspaces</a> for\nscalable projects.</li>\n<li>Disk-space efficient, with a <a href=\"https://docs.astral.sh/uv/concepts/cache\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">global cache</a> for\ndependency deduplication.</li>\n<li>Installable without Rust or Python via <code>curl</code> or <code>pip</code>.</li>\n<li>Supports macOS, Linux, and Windows.</li>\n</ul>\n<p>uv is backed by <a href=\"https://astral.sh\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Astral</a>, the creators of\n<a href=\"https://github.com/astral-sh/ruff\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Ruff</a> and <a href=\"https://github.com/astral-sh/ty\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ty</a>.</p>",
+    "truncated": false,
+    "chars": 1216
+   }
+  },
+  "headings": 18,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:02.065Z",
+  "checked_at": "2026-11-17T02:20:02.065Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:02.065Z"
+}

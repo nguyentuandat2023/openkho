@@ -1,0 +1,98 @@
+{
+ "id": "harlan-zw/unlighthouse",
+ "github_id": 423079536,
+ "node_id": "R_kgDOGTeucA",
+ "full_name": "harlan-zw/unlighthouse",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:56.641Z",
+ "meta": {
+  "name": "unlighthouse",
+  "owner": "harlan-zw",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/5326365?v=4",
+  "description": "Run Google Lighthouse on your entire site.",
+  "homepage": "https://unlighthouse.dev",
+  "html_url": "https://github.com/harlan-zw/unlighthouse",
+  "default_branch": "main",
+  "language": "JavaScript",
+  "languages": null,
+  "topics": [
+   "google-lighthouse",
+   "puppeteer",
+   "site-audit"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 4952,
+  "forks": 183,
+  "watchers": null,
+  "open_issues": 33,
+  "open_prs": null,
+  "created_at": "2021-10-31T07:14:30Z",
+  "pushed_at": "2026-10-27T03:50:57Z",
+  "updated_at": "2026-11-16T23:45:42Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 36215,
+  "og_image": "https://opengraph.githubassets.com/1/harlan-zw/unlighthouse",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-10-23T11:54:01.000Z",
+  "commits_90d": 38,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.19.1",
+  "name": "v0.19.1",
+  "published_at": "2026-10-03T05:18:48Z",
+  "url": "https://github.com/harlan-zw/unlighthouse/releases/tag/v0.19.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v1.0.0-beta.0",
+  "name": "v1.0.0-beta.0: perf(v1): download audit dependencies on demand (#423)",
+  "published_at": "2026-10-03T10:57:08Z",
+  "url": "https://github.com/harlan-zw/unlighthouse/releases/tag/v1.0.0-beta.0"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 3268,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<p>Install instructions for all integrations can be found on the <a href=\"https://unlighthouse.dev/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs</a> site.</p>\n<p>Need a hand? Join the <a href=\"https://discord.gg/275MBUBvgP\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Discord</a> for one-on-one help.</p>\n<h5>gitignore</h5>\n<p>Unlighthouse will save your reports in <code>outputDir</code>,\nit's recommended you .gitignore these files.</p>\n<pre><code class=\"language-shell\">.unlighthouse\n</code></pre>\n<h6>Debugging</h6>\n<p>If you run into any issues with Unlighthouse, the first step should be to re-run the scan with debugging enabled.</p>\n<pre><code class=\"language-bash\"># NPM\nnpx unlighthouse --site unlighthouse.dev --debug\n# or PNPM\npnpm dlx unlighthouse --site unlighthouse.dev --debug\n</code></pre>",
+    "truncated": false,
+    "chars": 594
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 8,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:10.334Z",
+  "checked_at": "2026-11-16T05:09:10.334Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:31.394Z",
+ "contributors": null
+}

@@ -1,0 +1,101 @@
+{
+ "id": "pandas-dev/pandas",
+ "github_id": 858127,
+ "node_id": "MDEwOlJlcG9zaXRvcnk4NTgxMjc=",
+ "full_name": "pandas-dev/pandas",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "pandas",
+  "owner": "pandas-dev",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/21206976?v=4",
+  "description": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more",
+  "homepage": "https://pandas.pydata.org",
+  "html_url": "https://github.com/pandas-dev/pandas",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "alignment",
+   "data-analysis",
+   "data-science",
+   "flexible",
+   "pandas",
+   "python"
+  ],
+  "license": {
+   "spdx": "BSD-3-Clause",
+   "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+  },
+  "stars": 50543,
+  "forks": 20746,
+  "watchers": null,
+  "open_issues": 1854,
+  "open_prs": null,
+  "created_at": "2010-08-24T01:37:33Z",
+  "pushed_at": "2026-11-16T21:57:14Z",
+  "updated_at": "2026-11-17T01:20:08Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 426394,
+  "og_image": "https://opengraph.githubassets.com/1/pandas-dev/pandas",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T21:57:13.000Z",
+  "commits_90d": 1262,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v3.1.1",
+  "name": "pandas 3.1.1",
+  "published_at": "2026-11-04T15:46:25Z",
+  "url": "https://github.com/pandas-dev/pandas/releases/tag/v3.1.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 9911,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation from sources",
+    "html": "<p>See the full instructions for <a href=\"https://pandas.pydata.org/docs/dev/development/contributing_environment.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">installing from source</a>.</p>",
+    "truncated": false,
+    "chars": 137
+   },
+   "usage": null,
+   "features": {
+    "title": "Main Features",
+    "html": "<p>Here are just a few of the things that pandas does well:</p>\n<ul>\n<li>Easy handling of <a href=\"https://pandas.pydata.org/docs/user_guide/missing_data.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>missing data</strong></a> (represented as\n<code>NaN</code>, <code>NA</code>, or <code>NaT</code>) in floating point as well as non-floating point data</li>\n<li>Size mutability: columns can be <a href=\"https://pandas.pydata.org/docs/user_guide/dsintro.html#column-selection-addition-deletion\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>inserted and\ndeleted</strong></a> from DataFrame and higher dimensional\nobjects</li>\n<li>Automatic and explicit <a href=\"https://pandas.pydata.org/docs/user_guide/dsintro.html?highlight=alignment#intro-to-data-structures\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>data alignment</strong></a>: objects can\nbe explicitly aligned to a set of labels, or the user can simply\nignore the labels and let <code>Series</code>, <code>DataFrame</code>, etc. automatically\nalign the data for you in computations</li>\n<li>Powerful, flexible <a href=\"https://pandas.pydata.org/docs/user_guide/groupby.html#group-by-split-apply-combine\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>group by</strong></a> functionality to perform\nsplit-apply-combine operations on data sets, for both aggregating\nand transforming data</li>\n<li>Make it <a href=\"https://pandas.pydata.org/docs/user_guide/dsintro.html#dataframe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>easy to convert</strong></a> ragged,\ndifferently-indexed data in other Python and NumPy data structures\ninto DataFrame objects</li>\n<li>Intelligent label-based <a href=\"https://pandas.pydata.org/docs/user_guide/indexing.html#slicing-ranges\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>slicing</strong></a>, <a href=\"https://pandas.pydata.org/docs/user_guide/advanced.html#advanced\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>fancy\nindexing</strong></a>, and <a href=\"https://pandas.pydata.org/docs/user_guide/indexing.html#boolean-indexing\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>subsetting</strong></a> of\nlarge data sets</li>\n<li>Intuitive <a href=\"https://pandas.pydata.org/docs/user_guide/merging.html#merge\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>merging</strong></a> and <a href=\"https://pandas.pydata.org/docs/user_guide/merging.html#dataframe-join\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>joining</strong></a> data\nsets</li>\n<li>Flexible <a href=\"https://pandas.pydata.org/docs/user_guide/reshaping.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>reshaping</strong></a> and <a href=\"https://pandas.pydata.org/docs/user_guide/reshaping.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>pivoting</strong></a> of\ndata sets</li>\n<li><a href=\"https://pandas.pydata.org/docs/user_guide/advanced.html#hierarchical-indexing-multiindex\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Hierarchical</strong></a> labeling of axes (possible to have multiple\nlabels per tick)</li>\n<li>Robust I/O tools for loading data from <a href=\"https://pandas.pydata.org/docs/user_guide/io.html#csv-text-files\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>flat files</strong></a>\n(CSV and delimited), <a href=\"https://pandas.pydata.org/docs/user_guide/io.html#excel-files\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Excel files</strong></a>, <a href=\"https://pandas.pydata.org/docs/user_guide/io.html#sql-queries\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>databases</strong></a>,\nand saving/loading data from the ultrafast <a href=\"https://pandas.pydata.org/docs/user_guide/io.html#hdf5-pytables\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>HDF5 format</strong></a></li>\n<li><a href=\"https://pandas.pydata.org/docs/user_guide/timeseries.html#time-series-date-functionality\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Time series</strong></a>-specific functionality: date range\ngeneration and frequency conversion, moving window statistics,\ndate shifting and lagging</li>\n</ul>",
+    "truncated": false,
+    "chars": 3282
+   }
+  },
+  "headings": 13,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:44.675Z",
+  "checked_at": "2026-11-17T02:19:44.675Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:44.675Z"
+}

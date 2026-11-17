@@ -1,0 +1,104 @@
+{
+ "id": "OpenHands/OpenHands",
+ "github_id": 771302083,
+ "node_id": "R_kgDOLfkiww",
+ "full_name": "OpenHands/OpenHands",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "OpenHands",
+  "owner": "OpenHands",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/225919603?v=4",
+  "description": "🙌 OpenHands: AI-Driven Development",
+  "homepage": "https://openhands.dev",
+  "html_url": "https://github.com/OpenHands/OpenHands",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "agent",
+   "artificial-intelligence",
+   "chatgpt",
+   "claude-ai",
+   "cli",
+   "developer-tools",
+   "gpt",
+   "llm",
+   "openai"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 93609,
+  "forks": 12537,
+  "watchers": null,
+  "open_issues": 1197,
+  "open_prs": null,
+  "created_at": "2024-03-13T03:33:31Z",
+  "pushed_at": "2026-11-17T02:13:28Z",
+  "updated_at": "2026-11-17T02:06:43Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 684957,
+  "og_image": "https://opengraph.githubassets.com/1/OpenHands/OpenHands",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T20:28:53.000Z",
+  "commits_90d": 935,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.41.0",
+  "name": "v1.41.0",
+  "published_at": "2026-11-16T20:55:32Z",
+  "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.41.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 15402,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quickstart",
+    "html": "<p>You can install OpenHands to run agents on any machine: on your laptop, on a dedicated computer like a Mac Mini,\nor on a server in the cloud.</p>\n<p>The most powerful way to run OpenHands is on a server in the cloud. This allows your agents to continue running\neven when your laptop is shut, and makes it easier to trigger your agents through third-party services\nlike Slack, GitHub, and Datadog. See <a href=\"https://github.com/OpenHands/OpenHands/blob/main/docs/SELF_HOSTING.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SELF_HOSTING.md</a> for details, especially with respect to security hardening.</p>\n<p>Notably, you can run the backend in <em>multiple different environments</em>, and switch between\nthem from the same Agent Canvas frontend. E.g. you can share an Agent Server with your team for agents doing\ncode review and dependency updates, then have your personal agents running on your laptop.</p>\n<h5>Option 1: Without a Sandbox</h5>\n<blockquote>\n<p>[!WARNING]\nThis runs the agent-server directly on the machine you're installing on — the agent will have full access to your filesystem!</p>\n</blockquote>\n<p><strong>Prerequisites</strong>: <a href=\"https://nodejs.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Node.js</a> 24 or later, <code>uv</code></p>\n<pre><code class=\"language-sh\">npm install -g @openhands/agent-canvas\nagent-canvas\n</code></pre>\n<p>The <code>agent-canvas</code> command starts the full local stack by default. You can also split it when you want to run pieces separately:</p>\n<pre><code class=\"language-sh\">agent-canvas --frontend-only  # static frontend + ingress only\nagent-canvas --backend-only   # agent server + automation backend + ingress only\n</code></pre>\n<h5>Option 2: With a Docker Sandbox</h5>\n<p>Install Docker Desktop on macOS/Windows, or Docker Engine/Docker Desktop on Linux.\nWindows users can follow the <a href=\"https://github.com/OpenHands/OpenHands/blob/main/README.windows.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PowerShell quickstart</a>.</p>\n<p>The steps below are for macOS and Linux. A named Docker volume stores settings,\nsecrets, and conversations; projects are mounted at <code>/projects</code>.</p>\n<p><strong>1. Prepare a workspace</strong></p>\n<pre><code class=\"language-sh\">export PROJECTS_PATH=\"$HOME/projects\"  # directory containing your project folders\nmkdir -p \"$PROJECTS_PATH\"\n</code></pre>\n<p>On <strong>Linux Docker Engine</strong>, uid 10001 inside the container must be able to read\nand write the workspace and its existing files. Grant that user access using\nappropriate ownership or ACLs for your system. For a dedicated workspace you are\ncomfortable sharing with all local users, the following is another option:</p>\n<pre><code class=\"language-sh\">find \"$PROJECTS_PATH\" -type d -exec chmod a+rwX {} +\nfind \"$PROJECTS_PATH\" -type f -exec chmod a+rw {} +\n</code></pre>\n<p>These commands grant all host users access to the workspace. Keep it separate\nfrom <code>~/.openhands</code> and other sensitive data. Docker Desktop on macOS/Windows\nhandles bind-mount permissions, so those commands are normally unnecessary.</p>\n<p><strong>2. Start Agent Canvas</strong></p>\n<pre><code class=\"language-sh\">docker run -it --rm \\\n  -p 127.0.0.1:8000:8000 \\\n  -e AGENT_CANVAS_ALLOW_LAN_SESSION_KEY=true \\\n  -v openhands-state:/home/openhands/.openhands \\\n  -v \"${PROJECTS_PATH}:/projects\" \\\n  ghcr.io/openhands/agent-canvas:1.41.0 # x-release-please-version\n</code></pre>\n<p>Open <a href=\"http://localhost:8000/canvas\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:8000/canvas</a>. Reuse\n<code>openhands-state</code> to retain state across container removals. A fresh volume does\nnot contain existing <code>~/.openhands</code> data; inspect or back it up with\n<code>docker volume inspect openhands-state</code>.</p>\n<details>\n<summary>Linux permission troubleshooting and existing state</summary><p>If startup reports <code>Permission denied</code>, check access to the path named in the\nerror. On SELinux hosts, check whether the bind mount needs a <code>:z</code> or <code>:Z</code> label.\nIf you bind-mount existing <code>~/.openhands</code> state instead of the named volume,\nuid 10001 needs access to its directories, existing key files and automation\ndatabase. Grant access using ownership or ACLs while keeping keys private.\nMaking state directories writable by all users can let another local user\nreplace the session key; do not use recursive world-writable permissions there.</p>\n<p>Keep the default container user. An override can make the browser configuration\ndirectory inaccessible. If you override the user, configure a writable\n<code>XDG_CONFIG_HOME</code> and ensure state and workspace mounts are accessible.</p>\n</details><blockquote>\n<p>[!NOTE]\nThe entrypoint stops the container with exit code 1 when the Agent Server stops answering\nits <code>/alive</code> check for about 30 seconds, so a crash or hang fails visibly instead of leaving\na container that returns 502 for every request.\nAutomatic recovery needs a restart policy: use <code>--restart unless-stopped</code> instead of\n<code>--rm</code>, or <code>restart: unless-stopped</code> in Docker Compose.</p>\n</blockquote>\n<p>The agent will be able to access any project under <code>PROJECTS_PATH</code>.</p>\n<h5>Option 3: With Multiple Docker Sandboxes</h5>\n<p>Run each new conversation in its own Docker container, with its own Agent Server and tools. This is useful for running several agents concurrently. Canvas and the outer Agent Server run on your host and route conversation requests to the containers.</p>\n<p><strong>Prerequisites</strong>: Node.js 24 or later, <code>uv</code>, and a running Docker Desktop (macOS) or Docker Engine/Desktop (Linux). The user starting Canvas must be able to run <code>docker</code> commands.</p>\n<p><strong>macOS / Linux:</strong></p>\n<pre><code class=\"language-sh\">npm install -g @openhands/agent-canvas\nOH_CONVERSATION_RUNTIME=docker agent-canvas\n</code></pre>\n<p>Open <a href=\"http://localhost:8000\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:8000</a> and start a new conversation. Existing local conversations are not converted. Each container mounts its conversation's workspace and persisted state, so workspace files and conversation history survive container replacement. Conversations using the same host workspace still share those files; choose separate directories or worktrees to avoid conflicting edits.</p>\n<p>This setting isolates conversation execution; it does not move the entire Canvas or automation service into a sandbox. For Windows, see <a href=\"https://github.com/OpenHands/OpenHands/blob/main/README.windows.md#option-3-with-multiple-docker-sandboxes-wsl-2\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">README.windows.md</a>.</p>\n<h5>Option 4: From Source</h5>\n<blockquote>\n<p>[!WARNING]\nThis runs the agent-server directly on the machine you're installing on — the agent will have full access to your filesystem!</p>\n</blockquote>\n<p><strong>Prerequisites</strong>: <a href=\"https://nodejs.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Node.js</a> 24 or later, npm 11.12.1 (the repository pin), <code>uv</code> (for running the agent server via <code>uvx</code>)</p>\n<p>Check <code>npm --version</code> before resolving dependencies. The seven-day release-age\nfilter (<code>npm install --min-release-age=7</code>) requires npm &gt;=11.10; older versions\ndo not enforce it. Use <code>npm ci</code> to replay the committed lockfile. This npm\nrequirement is for contributor dependency resolution, not for installing the\npublished Canvas package.</p>\n<pre><code class=\"language-sh\">git clone https://github.com/OpenHands/OpenHands.git\ncd OpenHands\nnpm ci\nnpm run dev\n</code></pre>\n<hr />\n<p>Access the UI at <a href=\"http://localhost:8000\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:8000</a> for the npm/source launchers, or <a href=\"http://localhost:8000/canvas\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:8000/canvas</a> for the Docker image. You can add additional backends directly from the UI.</p>\n<p>Local (<code>npx</code> / <code>npm run dev</code>) listeners bind <strong>loopback only</strong> (<code>127.0.0.1</code>) so the auto-injected session key is not reachable from other machines on the network. To listen on all interfaces, pass <code>--host 0.0.0.0</code> (or set <code>OH_BIND_HOST</code>); the session key is then <strong>not</strong> injected and the UI uses the same API-key entry screen as <code>--public</code>.</p>\n<p>Docker listens on all container interfaces so port publishing works, but does not inject its session key into HTML by default. The quickstart above explicitly enables injection while publishing the host port on <code>127.0.0.1</code> only. If you publish Docker on a LAN or public interface, omit <code>AGENT_CANVAS_ALLOW_LAN_SESSION_KEY</code> and enter the API key in the UI. Set <code>LOCAL_BACKEND_API_KEY</code> to a strong value, or retrieve the generated value with <code>docker exec &lt;container&gt; sh -c 'cat \"$STATE_DIR/api-key.txt\"'</code>. For internet-facing installs, follow <a href=\"https://github.com/OpenHands/OpenHands/blob/main/docs/SELF_HOSTING.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">self-hosting</a>.</p>",
+    "truncated": false,
+    "chars": 7555
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 8,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:11.452Z",
+  "checked_at": "2026-11-17T02:19:11.452Z"
+ },
+ "contributors": {
+  "count": 598,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:17.437Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:11.452Z"
+}

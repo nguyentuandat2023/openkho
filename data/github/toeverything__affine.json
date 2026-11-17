@@ -1,0 +1,118 @@
+{
+ "id": "toeverything/AFFiNE",
+ "github_id": 519859998,
+ "node_id": "R_kgDOHvxvHg",
+ "full_name": "toeverything/AFFiNE",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:03.703Z",
+ "meta": {
+  "name": "AFFiNE",
+  "owner": "toeverything",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/78728988?v=4",
+  "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+  "homepage": "https://affine.pro",
+  "html_url": "https://github.com/toeverything/AFFiNE",
+  "default_branch": "canary",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "app",
+   "crdt",
+   "editor",
+   "electron",
+   "knowledge-base",
+   "markdown",
+   "miro",
+   "notes",
+   "notion",
+   "notion-alternative",
+   "rust",
+   "rust-lang",
+   "rust-language",
+   "table",
+   "tableview",
+   "whiteboard",
+   "wiki",
+   "workspace"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 74587,
+  "forks": 5529,
+  "watchers": null,
+  "open_issues": 836,
+  "open_prs": null,
+  "created_at": "2022-07-31T18:45:21Z",
+  "pushed_at": "2026-11-16T17:18:40Z",
+  "updated_at": "2026-11-17T01:33:34Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 457622,
+  "og_image": "https://opengraph.githubassets.com/1/toeverything/AFFiNE",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T17:09:14.000Z",
+  "commits_90d": 159,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.27.4",
+  "name": "v0.27.4",
+  "published_at": null,
+  "url": "https://github.com/toeverything/AFFiNE/releases/tag/v0.27.4",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v0.27.5-beta.3",
+  "name": "0.27.5-beta.3",
+  "published_at": "2026-11-16T18:22:30Z",
+  "url": "https://github.com/toeverything/AFFiNE/releases/tag/v0.27.5-beta.3"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 16255,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting started & staying tuned with us.",
+    "html": "<p>Star us, and you will receive all release notifications from GitHub without any delay!</p>\n<img src=\"https://user-images.githubusercontent.com/79301703/230891830-0110681e-8c7e-483b-b6d9-9e42b291b9ef.gif\" alt=\"\" loading=\"lazy\" decoding=\"async\" />",
+    "truncated": false,
+    "chars": 226
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<p><strong>A true canvas for blocks in any form. Docs and whiteboard are now fully merged.</strong></p>\n<ul>\n<li>Many editor apps claim to be a canvas for productivity, but AFFiNE is one of the very few which allows you to put any building block on an edgeless canvas -- rich text, sticky notes, any embedded web pages, multi-view databases, linked pages, shapes and even slides. We have it all.</li>\n</ul>\n<p><strong>Multimodal AI partner ready to kick in any work</strong></p>\n<ul>\n<li>Write up professional work report? Turn an outline into expressive and presentable slides? Summary an article into a well-structured mindmap? Sorting your job plan and backlog for tasks? Or... draw and code prototype apps and web pages directly all with one prompt? With you, <a href=\"https://affine.pro/ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AFFiNE AI</a> pushes your creativity to the edge of your imagination, just like <a href=\"https://affine.pro/blog/best-canvas-ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Canvas AI</a> to generate mind map for brainstorming.</li>\n</ul>\n<p><strong>Local-first &amp; Real-time collaborative</strong></p>\n<ul>\n<li>We love the idea of local-first that you always own your data on your disk, in spite of the cloud. Furthermore, AFFiNE supports real-time sync and collaborations on web and cross-platform clients.</li>\n</ul>\n<p><strong>Self-host &amp; Shape your own AFFiNE</strong></p>\n<ul>\n<li>You have the freedom to manage, self-host, fork and build your own AFFiNE. Plugin community and third-party blocks are coming soon. More tractions on <a href=\"https://blocksuite.io\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Blocksuite</a>. Check there to learn how to <a href=\"https://docs.affine.pro/self-host-affine\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">self-host AFFiNE</a>.</li>\n</ul>",
+    "truncated": false,
+    "chars": 1460
+   }
+  },
+  "headings": 18,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:30.970Z",
+  "checked_at": "2026-11-17T02:20:30.970Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:30.970Z"
+}

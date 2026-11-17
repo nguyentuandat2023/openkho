@@ -1,0 +1,93 @@
+{
+ "id": "zylon-ai/private-gpt",
+ "github_id": 635240594,
+ "node_id": "R_kgDOJd0Akg",
+ "full_name": "zylon-ai/private-gpt",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.074Z",
+ "meta": {
+  "name": "private-gpt",
+  "owner": "zylon-ai",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/143802295?v=4",
+  "description": "Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server.",
+  "homepage": "https://www.zylon.ai/private-gpt",
+  "html_url": "https://github.com/zylon-ai/private-gpt",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "ai",
+   "ai-tools",
+   "on-premise"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 57641,
+  "forks": 7628,
+  "watchers": null,
+  "open_issues": 19,
+  "open_prs": null,
+  "created_at": "2023-05-02T09:15:31Z",
+  "pushed_at": "2026-11-16T18:57:53Z",
+  "updated_at": "2026-11-16T23:53:15Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 226760,
+  "og_image": "https://opengraph.githubassets.com/1/zylon-ai/private-gpt",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-13T15:50:51.000Z",
+  "commits_90d": 97,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.0.1",
+  "name": "v1.0.1",
+  "published_at": "2026-06-18T13:56:24Z",
+  "url": "https://github.com/zylon-ai/private-gpt/releases/tag/v1.0.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 12613,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quickstart",
+    "html": "<blockquote>\n<p>For Docker, full installation options, and model configuration see the <a href=\"https://docs.privategpt.dev/getting-started/quickstart\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">full Quickstart guide</a>.</p>\n</blockquote>\n<p><strong>Prerequisites:</strong> You need a running OpenAI-compatible LLM server. <a href=\"https://docs.privategpt.dev/providers/ollama\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Ollama</a> is the easiest starting point.</p>\n<p><strong>1. Install PrivateGPT</strong></p>\n<pre><code class=\"language-bash\"># macOS\nbrew tap zylon-ai/tap\nbrew install private-gpt\n</code></pre>\n<pre><code class=\"language-bash\"># Linux\ncurl -LsSf https://astral.sh/uv/install.sh | sh\n\nuv tool install --python 3.11 \\\n  --find-links https://wheels.privategpt.dev/packages/ \\\n  \"private-gpt[core]\"\n</code></pre>\n<pre><code class=\"language-powershell\"># Windows\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\n\nuv tool install --python 3.11 `\n  --find-links https://wheels.privategpt.dev/packages/ `\n  \"private-gpt[core]\"\n</code></pre>\n<p><strong>2. Start your LLM server</strong></p>\n<pre><code class=\"language-bash\"># Example with Ollama\nollama pull qwen3.5:35b         # LLM (~24 GB)\nollama pull mxbai-embed-large   # Embeddings (~670 MB)\nollama serve\n</code></pre>\n<p><strong>3. Run PrivateGPT</strong></p>\n<pre><code class=\"language-bash\"># macOS / Linux\nOPENAI_API_BASE=http://localhost:&lt;llm-port&gt;/v1 \\\n  OPENAI_EMBEDDING_API_BASE=http://localhost:&lt;embedding-port&gt;/v1 \\\n  private-gpt serve\n</code></pre>\n<pre><code class=\"language-powershell\"># Windows (PowerShell)\n$env:OPENAI_API_BASE = \"http://localhost:&lt;llm-port&gt;/v1\"\n$env:OPENAI_EMBEDDING_API_BASE = \"http://localhost:&lt;embedding-port&gt;/v1\"\nprivate-gpt serve\n</code></pre>\n<p><strong>4. Open the UI</strong></p>\n<p>Go to <a href=\"http://localhost:8080/ui\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:8080/ui</a>. The API is at <code>http://localhost:8080</code> and follows the <a href=\"https://docs.privategpt.dev/api-reference/api-reference\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Anthropic API</a> spec.</p>\n<img src=\"https://raw.githubusercontent.com/zylon-ai/private-gpt/main/fern/docs/assets/ui.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" /><p>The UI is useful for:</p>\n<ul>\n<li>Sending messages.</li>\n<li>Selecting models from /v1/models.</li>\n<li>Uploading documents.</li>\n<li>Testing retrieval with citations.</li>\n<li>Enabling tools per chat.</li>\n<li>Configuring databases, MCP connectors, skills, and custom tools.</li>\n<li>Inspecting requests and responses through the API Debugger.</li>\n</ul>\n<p>This UI is a demonstrator, not the core product. Developers are expected to build their own applications on top of the API. That said, the UI is intentionally polished enough for demos, videos, internal pilots, and quick local usage.</p>\n<hr />",
+    "truncated": false,
+    "chars": 2158
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 10,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:36.091Z",
+  "checked_at": "2026-11-17T02:19:36.091Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:36.091Z"
+}

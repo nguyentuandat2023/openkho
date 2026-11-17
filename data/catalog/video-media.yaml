@@ -1,0 +1,195 @@
+# Danh mục: Video Editing & Media Processing — xem cấu trúc trường trong data/README.md
+- repo: obsproject/obs-studio
+  tags: [livestream, screen-recording, broadcasting]
+  summary: "Phần mềm quay màn hình và livestream miễn phí chuẩn ngành: phát lên YouTube, Facebook, TikTok… với nhiều cảnh, nhiều nguồn, hiệu ứng chuyển cảnh."
+  use_cases: ["Livestream bán hàng, sự kiện", "Quay video hướng dẫn, webinar", "Ghi hình podcast nhiều camera"]
+  pros: ["Miễn phí hoàn toàn, không watermark", "Plugin phong phú (cả quay khung dọc)", "Dùng card đồ họa để mã hóa, nhẹ máy"]
+  cons: ["Nhiều thiết lập cho người mới", "Cần cấu hình bitrate phù hợp đường truyền"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  quick_start: |
+    Tải tại obsproject.com → chạy Auto-Configuration Wizard → thêm nguồn (màn hình, webcam) → Start Streaming / Start Recording
+  applicability: 5
+  featured: true
+- repo: OpenCut-app/OpenCut
+  tags: [video-editor, capcut-alternative, web]
+  summary: "Trình dựng video mã nguồn mở thay CapCut: chạy trên trình duyệt, timeline nhiều lớp, không watermark, ưu tiên quyền riêng tư."
+  use_cases: ["Dựng video ngắn cho mạng xã hội"]
+  platforms: [web]
+  deploy: [local, self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: mifi/lossless-cut
+  tags: [video-cutting, lossless, ffmpeg-gui]
+  summary: "Cắt, ghép, tách video/âm thanh KHÔNG giảm chất lượng và cực nhanh (không mã hóa lại) — giao diện đơn giản."
+  use_cases: ["Cắt nhanh đoạn hay từ video livestream dài", "Ghép nhiều clip camera"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 5
+- repo: yt-dlp/yt-dlp
+  tags: [video-downloader, cli, youtube]
+  summary: "Tải video/âm thanh từ YouTube và hàng nghìn trang khác qua dòng lệnh — chọn chất lượng, phụ đề, chỉ lấy âm thanh."
+  use_cases: ["Lưu trữ video của chính kênh bạn", "Tải tư liệu được phép sử dụng"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  quick_start: |
+    pip install -U yt-dlp
+    yt-dlp "https://www.youtube.com/watch?v=..."
+  note: "Chỉ tải nội dung bạn có quyền sử dụng; tải nội dung có bản quyền để đăng lại có thể vi phạm luật và điều khoản nền tảng."
+  applicability: 4
+- repo: FFmpeg/FFmpeg
+  tags: [video-processing, transcoding, cli]
+  summary: "'Dao Thụy Sĩ' xử lý âm thanh/video: chuyển đổi mọi định dạng, cắt ghép, nén, trích âm thanh — nền tảng của hầu hết phần mềm video."
+  use_cases: ["Chuyển định dạng, nén video hàng loạt", "Tự động hóa xử lý media bằng script"]
+  platforms: [windows, macos, linux]
+  deploy: [cli, library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  license_note: "LGPL-2.1 hoặc GPL tùy cách biên dịch (GitHub hiển thị NOASSERTION)."
+  note: "Kho GitHub là bản mirror của dự án."
+  applicability: 4
+  license_override:
+    spdx: LGPL-2.1
+    name: LGPL-2.1 / GPL (tùy cách biên dịch)
+- repo: heygen-com/hyperframes
+  tags: [html-to-video, motion-graphics, agent]
+  summary: "Công cụ của HeyGen biến HTML/CSS thành video — dành cho AI agent và lập trình viên dựng video motion graphics bằng code."
+  use_cases: ["Video motion graphics tự động từ dữ liệu", "AI agent dựng video quảng cáo"]
+  platforms: [windows, macos, linux]
+  deploy: [cli, library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: jub0t/Concat
+  tags: [video-editor, capcut-alternative, mcp]
+  summary: "Trình dựng video desktop mã nguồn mở thay CapCut, có máy chủ MCP để AI agent điều khiển việc dựng phim."
+  use_cases: ["Dựng video thủ công kết hợp AI agent"]
+  platforms: [windows]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: mltframework/shotcut
+  tags: [video-editor, cross-platform]
+  summary: "Phần mềm dựng video miễn phí đa nền tảng: hỗ trợ hàng trăm định dạng, bộ lọc, chỉnh màu, timeline nhiều track."
+  use_cases: ["Dựng video quảng cáo, vlog"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: KDE/kdenlive
+  tags: [video-editor, subtitles, professional]
+  summary: "Phần mềm dựng phim chuyên nghiệp của KDE: nhiều track, hiệu ứng, chỉnh màu, tạo phụ đề tự động bằng nhận dạng giọng nói."
+  use_cases: ["Dựng phim, video sự kiện", "Video có phụ đề tự động"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  note: "Kho GitHub là bản mirror; phát triển chính tại invent.kde.org."
+  applicability: 4
+- repo: HandBrake/HandBrake
+  tags: [video-converter, compression]
+  summary: "Chuyển đổi và nén video sang MP4/MKV với preset sẵn cho điện thoại, web — giảm dung lượng mà vẫn giữ chất lượng."
+  use_cases: ["Nén video trước khi gửi/đăng", "Chuyển video cũ sang MP4"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop, cli]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+  license_override:
+    spdx: GPL-2.0
+    name: GPL-2.0
+- repo: jianchang512/pyvideotrans
+  also: [ai-audio]
+  tags: [video-translation, dubbing, subtitles]
+  summary: "Dịch và lồng tiếng video tự động: nhận dạng giọng nói, dịch phụ đề, tạo giọng đọc ngôn ngữ mới rồi ghép lại video — có bản dựng sẵn cho Windows."
+  use_cases: ["Bản địa hóa video quảng cáo sang nhiều thứ tiếng", "Phụ đề tiếng Việt cho video nước ngoài"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop, local]
+  difficulty: easy
+  pricing: free
+  needs_api_key: optional
+  applicability: 5
+- repo: Huanshere/VideoLingo
+  also: [ai-audio]
+  tags: [subtitles, translation, dubbing]
+  summary: "Dịch phụ đề và lồng tiếng video chất lượng cao: cắt câu thông minh, dịch theo ngữ cảnh, phụ đề một dòng, lồng tiếng AI."
+  use_cases: ["Phụ đề song ngữ cho video", "Lồng tiếng video đào tạo"]
+  platforms: [windows, macos, linux]
+  deploy: [local]
+  difficulty: medium
+  pricing: free
+  needs_api_key: required
+  applicability: 4
+- repo: SubtitleEdit/subtitleedit
+  tags: [subtitles, editor, whisper]
+  summary: "Trình chỉnh sửa phụ đề mạnh mẽ: đồng bộ thời gian, sửa lỗi tự động, tạo phụ đề bằng Whisper, hỗ trợ hàng trăm định dạng."
+  use_cases: ["Chỉnh phụ đề cho video marketing", "Tạo phụ đề tự động rồi sửa"]
+  platforms: [windows, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: WyattBlue/auto-editor
+  tags: [silence-removal, jump-cut, cli]
+  summary: "Tự động cắt các đoạn im lặng trong video — dựng nhanh video nói chuyện, bài giảng; xuất dự án sang Premiere, DaVinci Resolve, Final Cut."
+  use_cases: ["Rút gọn video talking-head", "Sơ dựng trước khi chỉnh tay"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: audacity/audacity
+  also: [ai-audio]
+  tags: [audio-editor, recording, noise-reduction]
+  summary: "Phần mềm ghi âm và chỉnh sửa âm thanh miễn phí phổ biến nhất: cắt ghép, khử ồn, chuẩn hóa âm lượng, hiệu ứng."
+  use_cases: ["Thu âm lời đọc quảng cáo", "Làm sạch âm thanh podcast"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+  license_override:
+    spdx: GPL-3.0
+    name: GPL-3.0
+- repo: ManimCommunity/manim
+  tags: [animation, python, explainer]
+  summary: "Thư viện Python tạo video hoạt hình giải thích/toán học (phong cách kênh 3Blue1Brown) bằng code — bản cộng đồng."
+  use_cases: ["Video giải thích số liệu, khái niệm"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: Zulko/moviepy
+  tags: [python, video-editing, automation]
+  summary: "Thư viện Python dựng video bằng code: cắt, ghép, chèn chữ, hiệu ứng — tạo video hàng loạt tự động."
+  use_cases: ["Tạo hàng loạt video giới thiệu sản phẩm theo mẫu"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3

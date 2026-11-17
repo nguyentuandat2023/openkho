@@ -1,0 +1,107 @@
+{
+ "id": "Anjok07/ultimatevocalremovergui",
+ "github_id": 281229404,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyODEyMjk0MDQ=",
+ "full_name": "Anjok07/ultimatevocalremovergui",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "ultimatevocalremovergui",
+  "owner": "Anjok07",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/68268275?v=4",
+  "description": " GUI for a Vocal Remover that uses Deep Neural Networks.",
+  "homepage": null,
+  "html_url": "https://github.com/Anjok07/ultimatevocalremovergui",
+  "default_branch": "master",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "audio",
+   "instrumental",
+   "karaoke",
+   "kareokee",
+   "music",
+   "pytorch",
+   "separation",
+   "source",
+   "spectrogram",
+   "vocal",
+   "vocal-remover",
+   "vocals"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 27201,
+  "forks": 2092,
+  "watchers": null,
+  "open_issues": 1581,
+  "open_prs": null,
+  "created_at": "2020-07-20T21:29:01Z",
+  "pushed_at": "2026-10-06T22:39:26Z",
+  "updated_at": "2026-11-17T01:56:49Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 560939,
+  "og_image": "https://opengraph.githubassets.com/1/Anjok07/ultimatevocalremovergui",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-10-06T22:39:25.000Z",
+  "commits_90d": 1,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v5.6",
+  "name": "v5.6 - UVR GUI",
+  "published_at": "2026-10-06T22:40:23Z",
+  "url": "https://github.com/Anjok07/ultimatevocalremovergui/releases/tag/v5.6",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 13922,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>These bundles contain the UVR interface, Python, PyTorch, and other dependencies needed to run the application effectively. No prerequisites are required.</p>\n<h5>Windows Installation</h5>\n<ul>\n<li><p>Please Note:</p>\n<ul>\n<li>This installer is intended for those running Windows 10 or higher. </li>\n<li>Application functionality for systems running Windows 7 or lower is not guaranteed.</li>\n<li>Application functionality for Intel Pentium &amp; Celeron CPUs systems is not guaranteed.</li>\n<li>You must install UVR to the main C:\\ drive. Installing UVR to a secondary drive will cause instability.</li>\n</ul>\n</li>\n<li><p>Download the UVR installer for Windows via the link below:</p>\n<ul>\n<li><a href=\"https://github.com/Anjok07/ultimatevocalremovergui/releases/download/v5.6/UVR_v5.6.0_setup.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Main Download Link</a></li>\n<li><a href=\"https://www.mediafire.com/file_premium/jiatpgp0ljou52p/UVR_v5.6.0_setup.exe/file\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Main Download Link mirror</a></li>\n</ul>\n</li>\n<li><p>If you use an <strong>AMD Radeon or Intel Arc graphics card</strong>, you can try the DirectML version:</p>\n<ul>\n<li><a href=\"https://github.com/Anjok07/ultimatevocalremovergui/releases/download/v5.6/UVR_1_15_25_22_30_BETA_full.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">DirectML Version - Main Download Link</a></li>\n</ul>\n</li>\n<li><p>Update Package instructions for those who have UVR already installed:</p>\n<ul>\n<li>If you already have UVR installed you can install this package over it or download it straight from the application or <a href=\"https://github.com/Anjok07/ultimatevocalremovergui/releases/download/v5.6/UVR_Patch_10_6_23_4_27.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">click here for the patch</a>.</li>\n</ul>\n</li>\n</ul>\n<details>\n  <summary>Windows Manual Installation</summary><h5>Manual Windows Installation</h5>\n<ul>\n<li>Download and extract the repository <a href=\"https://github.com/Anjok07/ultimatevocalremovergui/archive/refs/heads/master.zip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a></li>\n<li>Download and install Python <a href=\"https://www.python.org/ftp/python/3.9.8/python-3.9.8-amd64.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a><ul>\n<li>Make sure to check \"Add python.exe to PATH\" during the install</li>\n</ul>\n</li>\n<li>Run the following commands from the extracted repo directory:</li>\n</ul>\n<pre><code>python.exe -m pip install -r requirements.txt\n</code></pre>\n<p>If you have a compatible Nvidia GPU, run the following command:</p>\n<pre><code>python.exe -m pip install --upgrade torch --extra-index-url https://download.pytorch.org/whl/cu117\n</code></pre>\n<p>If you do not have FFmpeg or Rubber Band installed and want to avoid going through the process of installing them the long way, follow the instructions below.</p>\n<p><strong>FFmpeg Installation</strong></p>\n<ul>\n<li>Download the precompiled build <a href=\"https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a></li>\n<li>From the archive, extract the following file to the UVR application directory:<ul>\n<li><code>ffmpeg-5.1.2-essentials_build/bin/ffmpeg.exe</code></li>\n</ul>\n</li>\n</ul>\n<p><strong>Rubber Band Installation</strong></p>\n<p>In order to use the Time Stretch or Change Pitch tool, you'll need Rubber Band.</p>\n<ul>\n<li>Download the precompiled build <a href=\"https://breakfastquay.com/files/releases/rubberband-3.1.2-gpl-executable-windows.zip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a></li>\n<li>From the archive, extract the following files to the UVR application directory:<ul>\n<li><code>rubberband-3.1.2-gpl-executable-windows/rubberband.exe</code></li>\n<li><code>rubberband-3.1.2-gpl-executable-windows/sndfile.dll</code></li>\n</ul>\n</li>\n</ul>\n</details><h5>MacOS Installation</h5>\n<ul>\n<li><p>Please Note:</p>\n<ul>\n<li>The MacOS Sonoma mouse clicking issue has been fixed.</li>\n<li>MPS (GPU) acceleration for Mac M1 has been expanded to work with Demucs v4 and all MDX-Net models.</li>\n<li>This bundle is intended for those running macOS Big Sur and above.</li>\n<li>Application functionality for systems running macOS Catalina or lower is not guaranteed.</li>\n<li>Application functionality for older or budget Mac systems is not guaranteed.</li>\n<li>Once everything is installed, the application may take up to 5-10 minutes to start for the first time (depending on your Macbook).</li>\n</ul>\n</li>\n<li><p>Download the UVR dmg for MacOS via one of the links below:</p>\n<ul>\n<li><p>Mac M1 (arm64) users:</p>\n<ul>\n<li><a href=\"https://github.com/Anjok07/ultimatevocalremovergui/releases/download/v5.6/Ultimate_Vocal_Remover_v5_6_MacOS_arm64.dmg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Main Download Link</a></li>\n<li><a href=\"https://www.mediafire.com/file_premium/u3rk54wsqadpy93/Ultimate_Vocal_Remover_v5_6_MacOS_arm64.dmg/file\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Main Download Link mirror</a></li>\n</ul>\n</li>\n<li><p>Mac Intel (x86_64) users:</p>\n<ul>\n<li><a href=\"https://github.com/Anjok07/ultimatevocalremovergui/releases/download/v5.6/Ultimate_Vocal_Remover_v5_6_MacOS_x86_64.dmg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Main Download Link</a></li>\n<li><a href=\"https://www.mediafire.com/file_premium/2gf1werx5ly5ylz/Ultimate_Vocal_Remover_v5_6_MacOS_x86_64.dmg/file\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Main Download Link mirror</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<details>\n  <summary>MacOS Users: Having Trouble Opening UVR?</summary><blockquote>\n<p>Due to Apples strict application security, you may need to follow these steps to open UVR.</p>\n<p>First, run the following command via Terminal.app to allow applications to run from all sources (it's recommended that you re-enable this once UVR opens properly.)</p>\n<pre><code class=\"language-bash\">sudo spctl --master-disable\n</code></pre>\n<p>Second, run the following command to bypass Notarization: </p>\n<pre><code class=\"language-bash\">sudo xattr -rd com.apple.quarantine /Applications/Ultimate\\ Vocal\\ Remover.app\n</code></pre>\n</blockquote>\n</details><details>\n  <summary>Manual MacOS Installation</summary><h5>Manual MacOS Installation</h5>\n<ul>\n<li>Download and save this repository <a href=\"https://github.com/Anjok07/ultimatevocalremovergui/archive/refs/heads/master.zip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a></li>\n<li>Download and install Python 3.10 <a href=\"https://www.python.org/ftp/python/3.10.9/python-3.10.9-macos11.pkg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a></li>\n<li>From the saved directory run the following -</li>\n</ul>\n<pre><code>pip3 install -r requirements.txt\n</code></pre>\n<ul>\n<li>If your Mac is running with an M1, please run the following command next. If not, skip this step. -</li>\n</ul>\n<pre><code>cp /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_soundfile_data/libsndfile_arm64.dylib /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/_soundfile_data/libsndfile.dylib\n</code></pre>\n<p><strong>FFmpeg Installation</strong></p>\n<ul>\n<li>Once everything is done installing, download the correct FFmpeg binary for your system <a href=\"http://www.osxexperts.net\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a> and place it into the main application directory.</li>\n</ul>\n<p><strong>Rubber Band Installation</strong></p>\n<p>In order to use the Time Stretch or Change Pitch tool, you'll need Rubber Band.</p>\n<ul>\n<li>Download the precompiled build <a href=\"https://breakfastquay.com/files/releases/rubberband-3.1.2-gpl-executable-windows.zip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a></li>\n<li>From the archive, extract the following files to the UVR/lib_v5 application directory:<ul>\n<li><code>rubberband-3.1.2-gpl-executable-macos/rubberband</code></li>\n</ul>\n</li>\n</ul>\n<p>This process has been tested on a MacBook Pro 2021 (using M1) and a MacBook Air 2017 and is confirmed to be working on both.</p>\n</details><h5>Linux Installation (Updated Instructions)</h5>\n<details>\n  <summary>See Linux Installation Instructions</summary><br /><p><strong>These installation instructions are for Debian &amp; Arch-based Linux systems.</strong></p>\n<hr />\n<h6><strong>Step 1: Download the Repository</strong></h6>\n<ul>\n<li>Download and save this repository from <a href=\"https://github.com/Anjok07/ultimatevocalremovergui/archive/refs/heads/master.zip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GitHub</a>.</li>\n<li>Extract the downloaded file to a directory of your choice.</li>\n</ul>\n<hr />\n<h6><strong>Step 2: Install Dependencies</strong></h6>\n<p>Use the following commands based on your system type:</p>\n<p><strong>For Debian-based systems (Ubuntu, Mint, etc.):</strong></p>\n<pre><code class=\"language-bash\">sudo apt update &amp;&amp; sudo apt upgrade\nsudo apt-get install -y ffmpeg python3-pip python3-tk\n</code></pre>\n<p><strong>For Arch-based systems (EndeavourOS):</strong></p>\n<pre><code class=\"language-bash\">sudo pacman -Syu\nsudo pacman -S ffmpeg python-pip tk\n</code></pre>\n<hr />\n<h6><strong>Step 3: Set Up a Virtual Environment (Recommended)</strong></h6>\n<p>Setting up a virtual environment (venv) ensures that the program's dependencies do not interfere with system-wide Python packages.</p>\n<ol>\n<li><p><strong>Navigate to the extracted repository directory:</strong></p>\n<pre><code class=\"language-bash\">cd /path/to/ultimatevocalremovergui\n</code></pre>\n</li>\n<li><p><strong>Create a virtual environment:</strong></p>\n<pre><code class=\"language-bash\">python3 -m venv venv\n</code></pre>\n</li>\n<li><p><strong>Activate the virtual environment:</strong></p>\n<ul>\n<li>For <strong>Debian-based and Arch-based systems:</strong><pre><code class=\"language-bash\">source venv/bin/activate\n</code></pre>\n</li>\n</ul>\n</li>\n<li><p><strong>Install dependencies in the virtual environment:</strong></p>\n<pre><code class=\"language-bash\">pip install -r requirements.txt\n</code></pre>\n</li>\n</ol>\n<hr />\n<h6><strong>Step 4: Run the Application</strong></h6>\n<p>While the virtual environment is activated, start the application:</p>\n<pre><code class=\"language-bash\">python UVR.py\n</code></pre>\n<hr />\n<h6><strong>Important Notes</strong></h6>\n<ol>\n<li><p><strong>Avoid Modifying System Files:</strong><br />Previous instructions suggested deleting the <code>/usr/lib/python3.11/EXTERNALLY-MANAGED</code> file, which is dangerous and can break Python package management. Do <strong>NOT</strong> delete this file.</p>\n</li>\n<li><p><strong>Why Use Virtual Environments?</strong><br />Virtual environments isolate the program's dependencies, preventing conflicts with system Python packages. More information is available <a href=\"https://stackoverflow.com/questions/75602063/pip-install-r-requirements-txt-is-failing-this-environment-is-externally-mana/75696359#75696359\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>.</p>\n</li>\n<li><p><strong>Known Issues and Discussions:</strong>  </p>\n<ul>\n<li><a href=\"https://github.com/Anjok07/ultimatevocalremovergui/issues/1578\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Issue #1578</a>  </li>\n<li><a href=\"https://github.com/Anjok07/ultimatevocalremovergui/pull/1068\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Pull Request #1068</a></li>\n</ul>\n</li>\n</ol>\n<hr />\n<p>If you encounter issues, refer to the <a href=\"https://github.com/Anjok07/ultimatevocalremovergui/issues\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GitHub Issues</a> page for help. </p>\n</details><h5>Other Application Notes</h5>",
+    "truncated": true,
+    "chars": 8984
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 23,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:35.950Z",
+  "checked_at": "2026-11-16T04:33:35.950Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:13.194Z",
+ "contributors": {
+  "count": 8,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:24.807Z"
+ }
+}

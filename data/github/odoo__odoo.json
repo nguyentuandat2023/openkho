@@ -1,0 +1,94 @@
+{
+ "id": "odoo/odoo",
+ "github_id": 19745004,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxOTc0NTAwNA==",
+ "full_name": "odoo/odoo",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "odoo",
+  "owner": "odoo",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/6368483?v=4",
+  "description": "Odoo. Open Source Apps To Grow Your Business.",
+  "homepage": "https://www.odoo.com",
+  "html_url": "https://github.com/odoo/odoo",
+  "default_branch": "20.0",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "apps",
+   "business",
+   "erp",
+   "management",
+   "odoo",
+   "odoo-apps",
+   "python"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 55845,
+  "forks": 34325,
+  "watchers": null,
+  "open_issues": 11369,
+  "open_prs": null,
+  "created_at": "2014-05-13T15:38:58Z",
+  "pushed_at": "2026-11-17T02:16:21Z",
+  "updated_at": "2026-11-17T01:49:09Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 18530217,
+  "og_image": "https://opengraph.githubassets.com/1/odoo/odoo",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T22:22:12.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": {
+  "tag": "5.0.0-2-addons",
+  "name": "5.0.0-2-addons: 5.0.0",
+  "published_at": "2009-02-06T20:21:35Z",
+  "url": "https://github.com/odoo/odoo/releases/tag/5.0.0-2-addons"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 2044,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting started with Odoo",
+    "html": "<p>For a standard installation please follow the <a href=\"https://www.odoo.com/documentation/master/administration/install/install.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Setup instructions</a>\nfrom the documentation.</p>\n<p>To learn the software, we recommend the <a href=\"https://www.odoo.com/slides\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Odoo eLearning</a>,\nor <a href=\"https://www.odoo.com/page/scale-up-business-game\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Scale-up, the business game</a>.\nDevelopers can start with <a href=\"https://www.odoo.com/documentation/master/developer/howtos.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">the developer tutorials</a>.</p>",
+    "truncated": false,
+    "chars": 463
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 3,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:16.044Z",
+  "checked_at": "2026-11-17T02:19:37.240Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:37.240Z"
+}

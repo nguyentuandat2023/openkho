@@ -1,0 +1,108 @@
+{
+ "id": "docusealco/docuseal",
+ "github_id": 661850205,
+ "node_id": "R_kgDOJ3MIXQ",
+ "full_name": "docusealco/docuseal",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "docuseal",
+  "owner": "docusealco",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/138379721?v=4",
+  "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+  "homepage": "https://www.docuseal.com",
+  "html_url": "https://github.com/docusealco/docuseal",
+  "default_branch": "master",
+  "language": "Ruby",
+  "languages": null,
+  "topics": [
+   "document-signing",
+   "documents",
+   "e-signature",
+   "hotwired-turbo",
+   "open-source",
+   "pdf",
+   "pdf-sign",
+   "pdf-signature",
+   "ruby-on-rails",
+   "self-hosted",
+   "tailwindcss",
+   "vue",
+   "webpack"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 19057,
+  "forks": 1957,
+  "watchers": null,
+  "open_issues": 133,
+  "open_prs": null,
+  "created_at": "2023-07-03T19:54:54Z",
+  "pushed_at": "2026-11-16T10:31:58Z",
+  "updated_at": "2026-11-17T01:38:12Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 8195,
+  "og_image": "https://opengraph.githubassets.com/1/docusealco/docuseal",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T10:28:11.000Z",
+  "commits_90d": 272,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "3.3.7",
+  "name": "3.3.7",
+  "published_at": "2026-11-16T10:31:59Z",
+  "url": "https://github.com/docusealco/docuseal/releases/tag/3.3.7",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 5788,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Deploy",
+    "html": "<table>\n<thead>\n<tr>\n<th align=\"center\">Heroku</th>\n<th align=\"center\">Railway</th>\n</tr>\n</thead>\n<tbody><tr>\n<td align=\"center\"><a href=\"https://heroku.com/deploy?template=https://github.com/docusealco/docuseal-heroku\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://www.herokucdn.com/deploy/button.svg\" alt=\"Deploy on Heroku\" loading=\"lazy\" decoding=\"async\" height=\"40\" /></a></td>\n<td align=\"center\"><a href=\"https://railway.com/deploy/IGoDnc?referralCode=ruU7JR\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://railway.app/button.svg\" alt=\"Deploy on Railway\" loading=\"lazy\" decoding=\"async\" height=\"40\" /></a></td>\n</tr>\n<tr>\n<td align=\"center\"><strong>DigitalOcean</strong></td>\n<td align=\"center\"><strong>Render</strong></td>\n</tr>\n<tr>\n<td align=\"center\"><a href=\"https://cloud.digitalocean.com/apps/new?repo=https://github.com/docusealco/docuseal-digitalocean/tree/master&amp;refcode=421d50f53990\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://www.deploytodo.com/do-btn-blue.svg\" alt=\"Deploy on DigitalOcean\" loading=\"lazy\" decoding=\"async\" height=\"40\" /></a></td>\n<td align=\"center\"><a href=\"https://render.com/deploy?repo=https://github.com/docusealco/docuseal-render\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Render\" loading=\"lazy\" decoding=\"async\" height=\"40\" /></a></td>\n</tr>\n</tbody></table>\n<h6>Docker</h6>\n<pre><code class=\"language-sh\">docker run --name docuseal -p 3000:3000 -v.:/data docuseal/docuseal\n</code></pre>\n<p>By default DocuSeal docker container uses an SQLite database to store data and configurations. Alternatively, it is possible to use PostgreSQL or MySQL databases by specifying the <code>DATABASE_URL</code> env variable.</p>\n<h6>Docker Compose</h6>\n<p>Download docker-compose.yml into your private server:</p>\n<pre><code class=\"language-sh\">curl https://raw.githubusercontent.com/docusealco/docuseal/master/docker-compose.yml &gt; docker-compose.yml\n</code></pre>\n<p>Run the app under a custom domain over https using docker compose (make sure your DNS points to the server to automatically issue ssl certs with Caddy):</p>\n<pre><code class=\"language-sh\">sudo HOST=your-domain-name.com docker compose up\n</code></pre>",
+    "truncated": false,
+    "chars": 1500
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li>PDF form fields builder (WYSIWYG)</li>\n<li>12 field types available (Signature, Date, File, Checkbox etc.)</li>\n<li>Multiple submitters per document</li>\n<li>Automated emails via SMTP</li>\n<li>Files storage on disk or AWS S3, Google Storage, Azure Cloud</li>\n<li>Automatic PDF eSignature</li>\n<li>PDF signature verification</li>\n<li>User management</li>\n<li>Mobile-optimized signing</li>\n<li>7 UI languages with signing available in 14 languages</li>\n<li>API and Webhooks for integrations</li>\n<li>Easy to deploy in minutes</li>\n<li>Mobile apps for <a href=\"https://apps.apple.com/us/app/docuseal-e-signature/id6823564236\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">iOS</a> and <a href=\"https://play.google.com/store/apps/details?id=com.docuseal.app\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Android</a></li>\n</ul>",
+    "truncated": false,
+    "chars": 617
+   }
+  },
+  "headings": 9,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:38.722Z",
+  "checked_at": "2026-11-17T02:19:38.722Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:38.722Z"
+}

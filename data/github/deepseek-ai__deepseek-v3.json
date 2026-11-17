@@ -1,0 +1,94 @@
+{
+ "id": "deepseek-ai/DeepSeek-V3",
+ "github_id": 908531752,
+ "node_id": "R_kgDONicYKA",
+ "full_name": "deepseek-ai/DeepSeek-V3",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "DeepSeek-V3",
+  "owner": "deepseek-ai",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/148330874?v=4",
+  "description": null,
+  "homepage": null,
+  "html_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 104852,
+  "forks": 16749,
+  "watchers": null,
+  "open_issues": 334,
+  "open_prs": null,
+  "created_at": "2024-12-26T09:52:40Z",
+  "pushed_at": "2025-08-28T03:24:37Z",
+  "updated_at": "2026-11-17T02:01:09Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 1768,
+  "og_image": "https://opengraph.githubassets.com/1/deepseek-ai/DeepSeek-V3",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2025-08-28T03:24:26.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.0.0",
+  "name": "v1.0.0",
+  "published_at": "2025-06-27T08:46:37Z",
+  "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 20841,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "How to Run Locally",
+    "html": "<p>DeepSeek-V3 can be deployed locally using the following hardware and open-source community software:</p>\n<ol>\n<li><strong>DeepSeek-Infer Demo</strong>: We provide a simple and lightweight demo for FP8 and BF16 inference.</li>\n<li><strong>SGLang</strong>: Fully support the DeepSeek-V3 model in both BF16 and FP8 inference modes, with Multi-Token Prediction <a href=\"https://github.com/sgl-project/sglang/issues/2591\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">coming soon</a>.</li>\n<li><strong>LMDeploy</strong>: Enables efficient FP8 and BF16 inference for local and cloud deployment.</li>\n<li><strong>TensorRT-LLM</strong>: Currently supports BF16 inference and INT4/8 quantization, with FP8 support coming soon.</li>\n<li><strong>vLLM</strong>: Support DeepSeek-V3 model with FP8 and BF16 modes for tensor parallelism and pipeline parallelism.</li>\n<li><strong>LightLLM</strong>: Supports efficient single-node or multi-node deployment for FP8 and BF16.</li>\n<li><strong>AMD GPU</strong>: Enables running the DeepSeek-V3 model on AMD GPUs via SGLang in both BF16 and FP8 modes.</li>\n<li><strong>Huawei Ascend NPU</strong>: Supports running DeepSeek-V3 on Huawei Ascend devices in both INT8 and BF16.</li>\n</ol>\n<p>Since FP8 training is natively adopted in our framework, we only provide FP8 weights. If you require BF16 weights for experimentation, you can use the provided conversion script to perform the transformation.</p>\n<p>Here is an example of converting FP8 weights to BF16:</p>\n<pre><code class=\"language-shell\">cd inference\npython fp8_cast_bf16.py --input-fp8-hf-path /path/to/fp8_weights --output-bf16-hf-path /path/to/bf16_weights\n</code></pre>\n<blockquote>\n<p>[!NOTE]\nHugging Face's Transformers has not been directly supported yet.</p>\n</blockquote>\n<h5>6.1 Inference with DeepSeek-Infer Demo (example only)</h5>\n<h6>System Requirements</h6>\n<blockquote>\n<p>[!NOTE] \nLinux with Python 3.10 only. Mac and Windows are not supported.</p>\n</blockquote>\n<p>Dependencies:</p>\n<pre><code class=\"language-pip-requirements\">torch==2.4.1\ntriton==3.0.0\ntransformers==4.46.3\nsafetensors==0.4.5\n</code></pre>\n<h6>Model Weights &amp; Demo Code Preparation</h6>\n<p>First, clone our DeepSeek-V3 GitHub repository:</p>\n<pre><code class=\"language-shell\">git clone https://github.com/deepseek-ai/DeepSeek-V3.git\n</code></pre>\n<p>Navigate to the <code>inference</code> folder and install dependencies listed in <code>requirements.txt</code>. Easiest way is to use a package manager like <code>conda</code> or <code>uv</code> to create a new virtual environment and install the dependencies.</p>\n<pre><code class=\"language-shell\">cd DeepSeek-V3/inference\npip install -r requirements.txt\n</code></pre>\n<p>Download the model weights from Hugging Face, and put them into <code>/path/to/DeepSeek-V3</code> folder.</p>\n<h6>Model Weights Conversion</h6>\n<p>Convert Hugging Face model weights to a specific format:</p>\n<pre><code class=\"language-shell\">python convert.py --hf-ckpt-path /path/to/DeepSeek-V3 --save-path /path/to/DeepSeek-V3-Demo --n-experts 256 --model-parallel 16\n</code></pre>\n<h6>Run</h6>\n<p>Then you can chat with DeepSeek-V3:</p>\n<pre><code class=\"language-shell\">torchrun --nnodes 2 --nproc-per-node 8 --node-rank $RANK --master-addr $ADDR generate.py --ckpt-path /path/to/DeepSeek-V3-Demo --config configs/config_671B.json --interactive --temperature 0.7 --max-new-tokens 200\n</code></pre>\n<p>Or batch inference on a given file:</p>\n<pre><code class=\"language-shell\">torchrun --nnodes 2 --nproc-per-node 8 --node-rank $RANK --master-addr $ADDR generate.py --ckpt-path /path/to/DeepSeek-V3-Demo --config configs/config_671B.json --input-file $FILE\n</code></pre>\n<h5>6.2 Inference with SGLang (recommended)</h5>\n<p><a href=\"https://github.com/sgl-project/sglang\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SGLang</a> currently supports <a href=\"https://lmsys.org/blog/2024-09-04-sglang-v0-3/#deepseek-multi-head-latent-attention-mla-throughput-optimizations\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MLA optimizations</a>, <a href=\"https://lmsys.org/blog/2024-12-04-sglang-v0-4/#data-parallelism-attention-for-deepseek-models\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">DP Attention</a>, FP8 (W8A8), FP8 KV Cache, and Torch Compile, delivering state-of-the-art latency and throughput performance among open-source frameworks.</p>\n<p>Notably, <a href=\"https://github.com/sgl-project/sglang/releases/tag/v0.4.1\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SGLang v0.4.1</a> fully supports running DeepSeek-V3 on both <strong>NVIDIA and AMD GPUs</strong>, making it a highly versatile and robust solution.</p>\n<p>SGLang also supports <a href=\"https://github.com/sgl-project/sglang/tree/main/benchmark/deepseek_v3#example-serving-with-2-h208\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">multi-node tensor parallelism</a>, enabling you to run this model on multiple network-connected machines.</p>\n<p>Multi-Token Prediction (MTP) is in development, and progress can be tracked in the <a href=\"https://github.com/sgl-project/sglang/issues/2591\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">optimization plan</a>.</p>\n<p>Here are the launch instructions from the SGLang team: <a href=\"https://github.com/sgl-project/sglang/tree/main/benchmark/deepseek_v3\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://github.com/sgl-project/sglang/tree/main/benchmark/deepseek_v3</a></p>\n<h5>6.3 Inference with LMDeploy (recommended)</h5>\n<p><a href=\"https://github.com/InternLM/lmdeploy\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LMDeploy</a>, a flexible and high-performance inference and serving framework tailored for large language models, now supports DeepSeek-V3. It offers both offline pipeline processing and online deployment capabilities, seamlessly integrating with PyTorch-based workflows.</p>\n<p>For comprehensive step-by-step instructions on running DeepSeek-V3 with LMDeploy, please refer to here: <a href=\"https://github.com/InternLM/lmdeploy/issues/2960\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://github.com/InternLM/lmdeploy/issues/2960</a></p>\n<h5>6.4 Inference with TRT-LLM (recommended)</h5>\n<p><a href=\"https://github.com/NVIDIA/TensorRT-LLM\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">TensorRT-LLM</a> now supports the DeepSeek-V3 model, offering precision options such as BF16 and INT4/INT8 weight-only. Support for FP8 is currently in progress and will be released soon. You can access the custom branch of TRTLLM specifically for DeepSeek-V3 support through the following link to experience the new features directly: <a href=\"https://github.com/NVIDIA/TensorRT-LLM/tree/main/examples/deepseek_v3\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://github.com/NVIDIA/TensorRT-LLM/tree/main/examples/deepseek_v3</a>. </p>\n<h5>6.5 Inference with vLLM (recommended)</h5>\n<p><a href=\"https://github.com/vllm-project/vllm\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">vLLM</a> v0.6.6 supports DeepSeek-V3 inference for FP8 and BF16 modes on both NVIDIA and AMD GPUs. Aside from standard techniques, vLLM offers <em>pipeline parallelism</em> allowing you to run this model on multiple machines connected by networks. For detailed guidance, please refer to the <a href=\"https://docs.vllm.ai/en/latest/serving/distributed_serving.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">vLLM instructions</a>. Please feel free to follow <a href=\"https://github.com/vllm-project/vllm/issues/11539\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">the enhancement plan</a> as well.</p>\n<h5>6.6 Inference with LightLLM (recommended)</h5>\n<p><a href=\"https://github.com/ModelTC/lightllm/tree/main\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LightLLM</a> v1.0.1 supports single-machine and multi-machine tensor parallel deployment for DeepSeek-R1 (FP8/BF16) and provides mixed-precision deployment, with more quantization modes continuously integrated. For more details, please refer to <a href=\"https://lightllm-en.readthedocs.io/en/latest/getting_started/quickstart.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LightLLM instructions</a>. Additionally, LightLLM offers PD-disaggregation deployment for DeepSeek-V2, and the implementation of PD-disaggregation for DeepSeek-V3 is in development.</p>\n<h5>6.7 Recommended Inference Functionality with AMD GPUs</h5>\n<p>In collaboration with the AMD team, we have achieved Day-One support for AMD GPUs using SGLang, with full compatibility for both FP8 and BF16 precision. For detailed guidance, please refer to the <a href=\"https://github.com/deepseek-ai/DeepSeek-V3#63-inference-with-lmdeploy-recommended\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SGLang instructions</a>.</p>\n<h5>6.8 Recommended Inference Functionality with Huawei Ascend NPUs</h5>\n<p>The <a href=\"https://www.hiascend.com/en/software/mindie\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MindIE</a> framework from the Huawei Ascend community has successfully adapted the BF16 version of DeepSeek-V3. For step-by-step guidance on Ascend NPUs, please follow the <a href=\"https://modelers.cn/models/MindIE/deepseekv3\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">instructions here</a>.</p>",
+    "truncated": false,
+    "chars": 7072
+   },
+   "usage": {
+    "title": "Inference with DeepSeek-Infer Demo (example only)",
+    "html": "<h6>System Requirements</h6>\n<blockquote>\n<p>[!NOTE] \nLinux with Python 3.10 only. Mac and Windows are not supported.</p>\n</blockquote>\n<p>Dependencies:</p>\n<pre><code class=\"language-pip-requirements\">torch==2.4.1\ntriton==3.0.0\ntransformers==4.46.3\nsafetensors==0.4.5\n</code></pre>\n<h6>Model Weights &amp; Demo Code Preparation</h6>\n<p>First, clone our DeepSeek-V3 GitHub repository:</p>\n<pre><code class=\"language-shell\">git clone https://github.com/deepseek-ai/DeepSeek-V3.git\n</code></pre>\n<p>Navigate to the <code>inference</code> folder and install dependencies listed in <code>requirements.txt</code>. Easiest way is to use a package manager like <code>conda</code> or <code>uv</code> to create a new virtual environment and install the dependencies.</p>\n<pre><code class=\"language-shell\">cd DeepSeek-V3/inference\npip install -r requirements.txt\n</code></pre>\n<p>Download the model weights from Hugging Face, and put them into <code>/path/to/DeepSeek-V3</code> folder.</p>\n<h6>Model Weights Conversion</h6>\n<p>Convert Hugging Face model weights to a specific format:</p>\n<pre><code class=\"language-shell\">python convert.py --hf-ckpt-path /path/to/DeepSeek-V3 --save-path /path/to/DeepSeek-V3-Demo --n-experts 256 --model-parallel 16\n</code></pre>\n<h6>Run</h6>\n<p>Then you can chat with DeepSeek-V3:</p>\n<pre><code class=\"language-shell\">torchrun --nnodes 2 --nproc-per-node 8 --node-rank $RANK --master-addr $ADDR generate.py --ckpt-path /path/to/DeepSeek-V3-Demo --config configs/config_671B.json --interactive --temperature 0.7 --max-new-tokens 200\n</code></pre>\n<p>Or batch inference on a given file:</p>\n<pre><code class=\"language-shell\">torchrun --nnodes 2 --nproc-per-node 8 --node-rank $RANK --master-addr $ADDR generate.py --ckpt-path /path/to/DeepSeek-V3-Demo --config configs/config_671B.json --input-file $FILE\n</code></pre>",
+    "truncated": false,
+    "chars": 1497
+   },
+   "features": null
+  },
+  "headings": 28,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:13.001Z",
+  "checked_at": "2026-11-16T05:08:13.001Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:20.793Z",
+ "contributors": null
+}

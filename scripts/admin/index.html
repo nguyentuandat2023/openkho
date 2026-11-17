@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quản trị OpenKho</title>
+<style>
+  :root { color-scheme: light; --bg:#fff; --surface:#f6f4f1; --s2:#ece8e2; --line:#e5ded5; --line2:#d2c6b8; --ink:#261a14; --ink2:#66564a; --ink3:#8a7a6d; --accent:#6b2b1d; --accent-ink:#fff6ec; --gold:#8a5f12; --ok:#2b7550; --ok-s:#e2f0e7; --warn:#a5520e; --warn-s:#f8e9da; --danger:#b0372a; --danger-s:#f8e1dc; --info:#2c5a8e; --info-s:#e1eaf5; --code:#1c1410; }
+  @media (prefers-color-scheme: dark) { :root { color-scheme: dark; --bg:#1a1310; --surface:#211813; --s2:#2b201a; --line:#3a2c23; --line2:#4f3d31; --ink:#f2eadf; --ink2:#c4b3a2; --ink3:#9b8877; --accent:#d8b36a; --accent-ink:#1a1310; --gold:#e1bf7a; --ok:#7fc89f; --ok-s:#1d3125; --warn:#eca061; --warn-s:#3a2616; --danger:#ef7660; --danger-s:#3d1e19; --info:#98bce4; --info-s:#1c2938; --code:#120d0a; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.55 "Be Vietnam Pro", "Segoe UI", system-ui, sans-serif; }
+  header { position: sticky; top: 0; z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+  .top { display: flex; align-items: center; gap: 16px; min-height: 60px; flex-wrap: wrap; }
+  .brand { font-weight: 800; font-size: 18px; display: flex; gap: 8px; align-items: center; }
+  nav[role=tablist] { display: flex; gap: 2px; flex-wrap: wrap; }
+  nav button { background: none; border: 0; color: var(--ink2); padding: 8px 12px; border-radius: 8px; font: inherit; font-weight: 600; cursor: pointer; }
+  nav button[aria-selected=true] { background: var(--s2); color: var(--ink); }
+  main { padding: 24px 0 80px; }
+  h1 { font-size: 24px; margin: 0 0 4px; } h2 { font-size: 18px; margin: 28px 0 10px; } p { margin: 6px 0; }
+  .muted { color: var(--ink2); } .small { font-size: 13px; } .tnum { font-variant-numeric: tabular-nums; }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
+  .card b { display: block; font-size: 22px; }
+  .btn { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0 12px; border-radius: 9px; border: 1px solid var(--line2); background: var(--bg); color: var(--ink); font: inherit; font-weight: 600; cursor: pointer; text-decoration: none; }
+  .btn:hover { background: var(--s2); } .btn.primary { background: var(--accent); color: var(--accent-ink); border-color: transparent; } .btn.danger { color: var(--danger); }
+  .btn:disabled { opacity: .5; cursor: default; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  input, select, textarea { font: inherit; color: var(--ink); background: var(--bg); border: 1px solid var(--line2); border-radius: 9px; padding: 7px 10px; width: 100%; }
+  textarea { min-height: 70px; resize: vertical; }
+  label.f { display: grid; gap: 4px; font-size: 13px; font-weight: 600; color: var(--ink2); }
+  .form { display: grid; gap: 14px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .form .full { grid-column: 1 / -1; }
+  @media (max-width: 720px) { .form { grid-template-columns: 1fr; } }
+  .checks { display: flex; flex-wrap: wrap; gap: 6px 14px; font-weight: 500; color: var(--ink); }
+  .checks label { display: inline-flex; gap: 6px; align-items: center; } .checks input { width: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 12px; color: var(--ink2); background: var(--surface); position: sticky; top: 60px; }
+  .tag { display: inline-block; padding: 1px 8px; border-radius: 6px; font-size: 12px; font-weight: 600; }
+  .ok { color: var(--ok); background: var(--ok-s); } .warn { color: var(--warn); background: var(--warn-s); } .danger { color: var(--danger); background: var(--danger-s); } .info { color: var(--info); background: var(--info-s); }
+  .notice { padding: 10px 14px; border-radius: 10px; margin: 10px 0; }
+  pre.log { background: var(--code); color: #efe6d9; border-radius: 10px; padding: 12px; max-height: 60vh; overflow: auto; font: 12.5px/1.5 ui-monospace, Consolas, monospace; white-space: pre-wrap; }
+  .preview { display: flex; gap: 12px; align-items: flex-start; }
+  .preview img { width: 48px; height: 48px; border-radius: 10px; }
+  a { color: var(--gold); }
+  .hidden { display: none !important; }
+  .bar { height: 8px; border-radius: 6px; background: var(--s2); overflow: hidden; } .bar > i { display: block; height: 100%; background: var(--gold); }
+  .kv { display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; font-size: 14px; } .kv dt { color: var(--ink2); }
+  .login { max-width: 360px; margin: 12vh auto; }
+  td .row .btn { min-height: 30px; padding: 0 9px; font-size: 13px; }
+  #toast { position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); padding: 10px 16px; border-radius: 10px; background: var(--ink); color: var(--bg); font-weight: 600; z-index: 9; max-width: 92vw; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap top">
+    <div class="brand"><svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true"><rect x="2.5" y="4.5" width="27" height="23" rx="4.5" fill="var(--accent)"/><rect x="8.5" y="9.5" width="15" height="6.5" rx="1.2" fill="none" stroke="var(--accent-ink)" stroke-width="1.7"/><rect x="12" y="20.5" width="8" height="2.6" rx="1.3" fill="var(--accent-ink)"/></svg>Quản trị OpenKho</div>
+    <nav role="tablist" aria-label="Khu vực quản trị">
+      <button role="tab" data-tab="overview" aria-selected="true">Tổng quan</button>
+      <button role="tab" data-tab="add">Thêm repo</button>
+      <button role="tab" data-tab="repos">Danh sách repo</button>
+      <button role="tab" data-tab="cats">Danh mục</button>
+      <button role="tab" data-tab="discover">Khám phá</button>
+      <button role="tab" data-tab="auto">Tự động hóa</button>
+      <button role="tab" data-tab="radar">Radar</button>
+      <button role="tab" data-tab="config">Lịch &amp; trọng số</button>
+      <button role="tab" data-tab="check">Kiểm tra</button>
+      <button role="tab" data-tab="log">Nhật ký</button>
+      <button id="logoutBtn" class="hidden" style="margin-left:6px">Đăng xuất</button>
+    </nav>
+  </div>
+</header>
+<main class="wrap" id="app"><p class="muted">Đang tải…</p></main>
+<div id="toast" class="hidden" role="status"></div>
+<script>
+const H = { 'Content-Type': 'application/json', 'X-OpenKho-Admin': '1' };
+const $ = (s, el = document) => el.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const fmt = (n) => (n === null || n === undefined ? '—' : Number(n).toLocaleString('vi-VN'));
+const dt = (iso) => (iso ? new Date(iso).toLocaleString('vi-VN', { hour: '2-digit', minute: '2-digit', day: '2-digit', month: '2-digit', year: 'numeric' }) : '—');
+const L = {
+  platforms: { windows: 'Windows', macos: 'macOS', linux: 'Linux', docker: 'Docker', web: 'Trình duyệt', android: 'Android', ios: 'iOS' },
+  deploy: { desktop: 'Ứng dụng desktop', local: 'Chạy trên máy', 'self-host': 'Tự host', cli: 'Dòng lệnh', library: 'Thư viện', extension: 'Tiện ích mở rộng', skill: 'Skill AI', cloud: 'Có bản cloud', content: 'Tài liệu/danh sách' },
+  difficulty: { easy: 'Dễ', medium: 'Trung bình', hard: 'Khó' },
+  pricing: { free: 'Miễn phí', freemium: 'Miễn phí + bản trả phí', 'paid-license': 'Cần mua giấy phép' },
+  needs_api_key: { none: 'Không cần', optional: 'Tùy chọn', required: 'Bắt buộc' },
+  tier: { excellent: 'Xuất sắc', good: 'Tốt', potential: 'Tiềm năng', review: 'Cần kiểm tra' },
+  license_class: { permissive: 'Dễ dãi', 'weak-copyleft': 'Copyleft yếu', copyleft: 'Copyleft', content: 'Nội dung CC', 'source-available': 'Hạn chế', noncommercial: 'Phi thương mại', custom: 'Tùy chỉnh', none: 'Không có' },
+};
+const ICONS = ['brain', 'bot', 'megaphone', 'workflow', 'clapperboard', 'audio-lines', 'message-square', 'plug', 'globe', 'blocks', 'trending-up', 'bar-chart', 'zap', 'film', 'palette', 'shopping-cart', 'handshake', 'server', 'terminal', 'database', 'graduation-cap', 'sparkles'];
+let S = null;
+let tab = 'overview';
+let editing = null; // repo đang sửa
+let addPrefill = null;
+let lookup = null;
+let currentJob = null;
+let es = null;
+
+async function api(path, opts = {}) {
+  const r = await fetch(path, { ...opts, headers: { ...H, ...(opts.headers || {}) } });
+  const j = await r.json().catch(() => ({}));
+  if (r.status === 401 && j.login) { showLogin(); throw new Error('Cần đăng nhập'); }
+  if (!r.ok) throw new Error(j.error || `Lỗi ${r.status}`);
+  return j;
+}
+function showLogin(msg = '') {
+  $('#app').innerHTML = `<form class="login card" id="loginForm"><h1>Đăng nhập quản trị</h1><p class="muted small">Mật khẩu đặt trong biến ADMIN_PASSWORD (.env.local).</p>
+    <label class="f">Mật khẩu<input type="password" name="password" autocomplete="current-password" required autofocus></label>
+    ${msg ? `<p class="notice danger small">${esc(msg)}</p>` : ''}<p style="margin-top:12px"><button class="btn primary">Đăng nhập</button></p></form>`;
+  $('#loginForm').addEventListener('submit', async (ev) => {
+    ev.preventDefault();
+    const r = await fetch('/api/login', { method: 'POST', headers: H, body: JSON.stringify({ password: new FormData(ev.target).get('password') }) });
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) return showLogin(j.error || 'Đăng nhập thất bại');
+    $('#logoutBtn').classList.remove('hidden');
+    load();
+  });
+}
+function toast(msg, ms = 3200) { const t = $('#toast'); t.textContent = msg; t.classList.remove('hidden'); clearTimeout(t._t); t._t = setTimeout(() => t.classList.add('hidden'), ms); }
+async function load() { S = await api('/api/state'); render(); }
+function setTab(t) { tab = t; document.querySelectorAll('nav [role=tab]').forEach((b) => b.setAttribute('aria-selected', b.dataset.tab === t)); render(); }
+document.querySelectorAll('nav [role=tab]').forEach((b) => b.addEventListener('click', () => { if (b.dataset.tab === 'add') { editing = null; } setTab(b.dataset.tab); }));
+$('#logoutBtn').setAttribute('class', 'btn hidden');
+
+function render() {
+  const app = $('#app');
+  if (!S) return;
+  if (['auto', 'radar', 'config', 'check'].includes(tab)) { app.innerHTML = '<p class="muted">Đang tải…</p>'; return AUTO[tab](app).catch((e) => { app.innerHTML = `<div class="notice danger">${esc(e.message)}</div>`; }); }
+  app.innerHTML = ({ overview, add: form, repos, cats, discover: disc, log })[tab]();
+  bind[tab]?.(app);
+}
+
+// ---------------------------------------------------------------- Hệ thống tự động
+const JOBST = { success: ['ok', 'thành công'], failed: ['danger', 'thất bại'], timeout: ['danger', 'quá giờ'], interrupted: ['warn', 'bị gián đoạn'], deferred: ['warn', 'hoãn (hết hạn mức)'], skipped: ['info', 'bỏ qua (đang có job khác)'], running: ['info', 'đang chạy'] };
+const jtag = (st) => { const [c, t] = JOBST[st] || ['info', st || 'chưa chạy']; return `<span class="tag ${c}">${t}</span>`; };
+const dur = (ms) => (ms ? (ms >= 60000 ? `${Math.round(ms / 60000)} phút` : `${Math.round(ms / 1000)} giây`) : '');
+const AUTO = {
+  async auto(app) {
+    const D = await api('/api/dashboard');
+    const t = D.totals;
+    const sch = D.scheduler;
+    const lockTxt = sch.lock.held ? `${esc(sch.lock.lock?.job || '?')} (PID ${sch.lock.lock?.pid ?? '?'}, ${sch.lock.age_min} phút${sch.lock.stale ? ', <b>TREO</b>' : ''})` : 'trống';
+    const core = D.rate?.core; const search = D.rate?.search; const gql = D.rate?.graphql;
+    app.innerHTML = `
+      <h1>Tự động hóa</h1>
+      <p class="muted">Đồng bộ dữ liệu thành công gần nhất: <b>${dt(D.last_sync.data)}</b> · xếp hạng tính lúc ${dt(D.last_sync.ranking)} · dữ liệu website tạo lúc ${dt(D.last_sync.library_generated)}${D.last_sync.stale ? ' · <span class="tag warn">dữ liệu cũ</span>' : ''}</p>
+      ${D.settings_warnings.length ? `<div class="notice warn small">Cấu hình: ${D.settings_warnings.map(esc).join('; ')}</div>` : ''}
+      <div class="grid">
+        <div class="card"><span class="muted small">Repo catalog</span><b class="tnum">${fmt(t.curated)}</b></div>
+        <div class="card"><span class="muted small">Repo radar (tự phát hiện)</span><b class="tnum">${fmt(t.radar)}</b></div>
+        <div class="card"><span class="muted small">Mới phát hiện 24 giờ / 7 ngày</span><b class="tnum">${fmt(t.new_24h)} / ${fmt(t.new_7d)}</b></div>
+        <div class="card"><span class="muted small">Có trang chi tiết</span><b class="tnum">${fmt(t.published)}</b></div>
+        <div class="card"><span class="muted small">Có điểm xu hướng 24h / 7d / 30d</span><b class="tnum">${D.trending ? `${fmt(D.trending.d1.scored)} / ${fmt(D.trending.d7.scored)} / ${fmt(D.trending.d30.scored)}` : '—'}</b></div>
+        <div class="card"><span class="muted small">Ẩn · loại trừ · ghim · nghi spam</span><b class="tnum">${fmt(t.hidden)} · ${fmt(t.excluded)} · ${fmt(t.pinned)} · ${fmt(t.suppressed)}</b></div>
+      </div>
+      <h2>Bộ lập lịch</h2>
+      <dl class="kv">
+        <dt>Trạng thái</dt><dd>${sch.enabled ? '<span class="tag ok">BẬT</span>' : '<span class="tag warn">TẮT</span>'} <button class="btn" data-toggle="${sch.enabled ? 'off' : 'on'}">${sch.enabled ? 'Tắt tự động cập nhật' : 'Bật tự động cập nhật'}</button></dd>
+        <dt>Daemon trên máy này</dt><dd>${sch.daemon.running ? `đang chạy (PID ${sch.daemon.pid}, heartbeat ${dt(sch.daemon.heartbeat_at)})` : 'không chạy — khởi động bằng <code>npm run scheduler</code> (hoặc dùng GitHub Actions)'}</dd>
+        <dt>Khóa chống chạy trùng</dt><dd>${lockTxt} ${sch.lock.held ? `<button class="btn" data-unlock="${sch.lock.stale ? 0 : 1}">Gỡ khóa</button>` : ''}</dd>
+        <dt>Hạn mức GitHub API</dt><dd class="tnum">core ${core ? `${core.remaining}/${core.limit}` : '?'} · search ${search ? `${search.remaining}/${search.limit}` : '?'}/phút · graphql ${gql ? `${gql.remaining}/${gql.limit}` : '?'} · ${D.token ? 'có token' : '<span class="tag warn">không token</span>'}</dd>
+        <dt>Phân tích AI</dt><dd>${D.ai.ok ? '<span class="tag ok">sẵn sàng</span>' : `<span class="tag info">tắt</span> <span class="small muted">${esc(D.ai.reason)}</span>`}</dd>
+      </dl>
+      <div class="row" style="margin-top:10px"><button class="btn primary" data-rundue="1">Chạy các job đến hạn</button></div>
+      <div style="overflow-x:auto;margin-top:12px"><table><thead><tr><th>Job</th><th>Chu kỳ</th><th>Lần cuối</th><th>Thành công gần nhất</th><th>Lần tới</th><th></th></tr></thead><tbody>
+      ${D.jobs.map((j) => `<tr><td><b>${esc(j.label)}</b><div class="small muted">${esc(j.name)}${j.enabled ? '' : ' · <span class="tag warn">tắt</span>'}</div></td>
+        <td class="tnum">${j.interval_hours} giờ</td>
+        <td>${j.running ? jtag('running') : jtag(j.last_status)}<div class="small muted">${dt(j.last_finished_at)} ${dur(j.last_duration_ms)}</div>${j.last_error && j.last_status !== 'success' ? `<div class="small" style="color:var(--danger)">${esc(j.last_error).slice(0, 200)}</div>` : ''}${j.last_summary ? `<div class="small muted">${esc(j.last_summary)}</div>` : ''}</td>
+        <td class="small">${dt(j.last_success_at)}${j.consecutive_failures ? `<div class="tag danger">lỗi liên tiếp ${j.consecutive_failures}</div>` : ''}</td>
+        <td class="small">${j.due ? '<span class="tag warn">đến hạn</span>' : dt(j.next_at)}<div class="muted">${esc(j.note || '')}</div></td>
+        <td><button class="btn" data-run="${j.name}">Chạy ngay</button></td></tr>`).join('')}
+      </tbody></table></div>
+      <h2>Lịch sử chạy</h2>
+      <div style="overflow-x:auto"><table><thead><tr><th>Bắt đầu</th><th>Job</th><th>Kích hoạt</th><th>Kết quả</th><th>Thời gian</th><th>Tóm tắt / lỗi</th><th></th></tr></thead><tbody>
+      ${D.history.map((r) => `<tr><td class="small">${dt(r.started_at)}</td><td>${esc(r.job)}</td><td class="small">${esc(r.trigger || '')}</td><td>${jtag(r.status)}</td><td class="small">${dur(r.duration_ms)}</td><td class="small">${esc(r.summary || r.error || '')}</td><td>${r.id ? `<button class="btn" data-log="${esc(r.id)}">Nhật ký</button>` : ''}</td></tr>`).join('')}
+      </tbody></table></div>
+      <h2>Lỗi API gần đây</h2>
+      ${D.api_errors.length ? `<ul class="small">${D.api_errors.map((e) => `<li>${dt(e.at)} · ${esc(e.source)} · ${esc(e.status)}: ${esc(e.error).slice(0, 220)}</li>`).join('')}</ul>` : '<p class="muted small">Không có.</p>'}
+      <h2>Sức khỏe dữ liệu</h2>
+      <p class="small muted">Catalog: ${D.db_health.catalog.count} repo, ${D.db_health.catalog.errors} lỗi, ${D.db_health.catalog.warnings} cảnh báo · snapshot theo ngày: ${D.db_health.snapshot_months.join(', ') || 'chưa có'} · ${fmt(D.db_health.recent_points)} điểm đo gần đây</p>
+      <div style="overflow-x:auto"><table><thead><tr><th>File</th><th>Kích thước</th><th>Cập nhật</th><th>Trạng thái</th></tr></thead><tbody>
+      ${D.db_health.files.map((f) => `<tr><td class="small">${esc(f.path)}</td><td class="tnum small">${f.missing ? '—' : fmt(Math.round(f.bytes / 1024)) + ' KB'}</td><td class="small">${f.missing ? '—' : dt(f.modified)}</td><td>${f.missing ? '<span class="tag info">chưa có</span>' : f.valid_json ? '<span class="tag ok">hợp lệ</span>' : '<span class="tag danger">JSON hỏng</span>'}</td></tr>`).join('')}
+      </tbody></table></div>
+      <h2>Chất lượng dữ liệu</h2>
+      ${D.data_quality ? `<ul class="small">
+        <li>Repo catalog chưa có GitHub ID: ${D.data_quality.curated_missing_github_id.length}</li>
+        <li>Chưa có số người đóng góp: ${fmt(D.data_quality.missing_contributors)}</li>
+        <li>Độ phủ Quality Score dưới 70%: ${fmt(D.data_quality.low_quality_coverage)}</li>
+        <li>Số liệu cũ hơn 48 giờ: ${fmt(D.data_quality.stale_over_48h.length)}</li>
+        <li>Không còn truy cập được: ${D.data_quality.not_found.map((x) => esc(x.id)).join(', ') || 'không có'}</li>
+        <li>Đổi tên/chuyển chủ: ${D.data_quality.renamed.map((x) => `${esc(x.from)} → ${esc(x.to)}`).join(', ') || 'không có'}</li>
+        <li>Tín hiệu bất thường: ${D.data_quality.anomalies.length} repo</li>
+        <li>Cụm repo nhân bản bị loại tự động: ${(D.data_quality.suppressed_clusters || []).map((c) => `${esc(c.cluster)} (${c.repos.length})`).join(', ') || 'không có'}</li>
+      </ul>` : '<p class="muted small">Chưa có — chạy job rank.</p>'}
+      <h2>Theo lĩnh vực / danh mục</h2>
+      <p class="small">${D.areas.map((a) => `${esc(a.name)} <b class="tnum">${fmt(a.count)}</b>`).join(' · ')}</p>
+      <p class="small muted">${D.categories.map((c) => `${esc(c.name)} ${fmt(c.count)}`).join(' · ')}</p>`;
+    app.onclick = async (ev) => {
+      const b = ev.target.closest('button');
+      if (!b) return;
+      try {
+        if (b.dataset.run) follow((await api('/api/jobs/run', { method: 'POST', body: JSON.stringify({ job: b.dataset.run }) })).job);
+        if (b.dataset.rundue) follow((await api('/api/jobs/run-due', { method: 'POST', body: '{}' })).job);
+        if (b.dataset.toggle) { await api('/api/settings', { method: 'PUT', body: JSON.stringify({ patch: { scheduler: { enabled: b.dataset.toggle === 'on' } } }) }); toast('Đã lưu.'); render(); }
+        if (b.dataset.unlock !== undefined) { if (b.dataset.unlock === '1' && !confirm('Job vẫn có vẻ đang chạy. Gỡ khóa có thể gây chạy trùng. Tiếp tục?')) return; await api('/api/scheduler/unlock', { method: 'POST', body: JSON.stringify({ force: b.dataset.unlock === '1' }) }); toast('Đã gỡ khóa.'); render(); }
+        if (b.dataset.log) { const r = await api(`/api/run-log/${encodeURIComponent(b.dataset.log)}`); S._log = r.lines; setTab('log'); }
+      } catch (e) { toast(e.message, 6000); }
+    };
+  },
+  async radar(app) {
+    const st = S._radar || (S._radar = { q: '', filter: 'all', sort: 't7', page: 1 });
+    const R = await api(`/api/radar?q=${encodeURIComponent(st.q)}&filter=${st.filter}&sort=${st.sort}&page=${st.page}`);
+    const pages = Math.max(1, Math.ceil(R.total / R.size));
+    const flt = { all: 'Tất cả radar', published: 'Có trang', eligible: 'Đủ điều kiện, chưa có trang', new7: 'Mới thấy 7 ngày', gem: 'Viên ngọc ẩn', anomaly: 'Bất thường', suppressed: 'Nghi spam (tự loại)', hidden: 'Đã ẩn', excluded: 'Đã loại trừ', pinned: 'Đã ghim', missing: 'Không còn truy cập', curated: 'Repo catalog' };
+    const srt = { t1: 'Xu hướng 24h', t7: 'Xu hướng 7 ngày', t30: 'Xu hướng 30 ngày', q: 'Chất lượng', stars: 'Sao', new: 'Mới phát hiện', created: 'Mới tạo' };
+    app.innerHTML = `
+      <h1>Radar — repo tự phát hiện</h1>
+      <p class="muted small">Điểm tính lúc ${dt(R.computed_at)}. Ẩn = không hiển thị trên website; Loại trừ = không bao giờ thêm lại vào radar; Ghim = hiển thị ở mục “Biên tập viên ghim” (không đổi thứ hạng tự động).</p>
+      <form id="rf" class="row" style="margin:10px 0"><input name="q" value="${esc(st.q)}" placeholder="Tìm owner/name hoặc mô tả" style="max-width:320px">
+        <select name="filter" style="max-width:240px">${Object.entries(flt).map(([k, v]) => `<option value="${k}" ${st.filter === k ? 'selected' : ''}>${v}</option>`).join('')}</select>
+        <select name="sort" style="max-width:200px">${Object.entries(srt).map(([k, v]) => `<option value="${k}" ${st.sort === k ? 'selected' : ''}>${v}</option>`).join('')}</select>
+        <button class="btn primary">Lọc</button></form>
+      <form id="mf" class="row" style="margin:10px 0"><input name="target" placeholder="owner/name hoặc GitHub ID" style="max-width:260px"><input name="reason" placeholder="Lý do (ghi vào nhật ký)" style="max-width:280px">
+        <select name="action" style="max-width:200px"><option value="exclude">Loại trừ repo</option><option value="exclude_owner">Loại trừ cả chủ sở hữu</option><option value="hide">Ẩn repo</option><option value="pin">Ghim repo</option><option value="unexclude">Bỏ loại trừ</option><option value="unexclude_owner">Bỏ loại trừ chủ sở hữu</option><option value="unhide">Bỏ ẩn</option><option value="unpin">Bỏ ghim</option></select>
+        <button class="btn">Áp dụng</button></form>
+      <p class="small muted">${fmt(R.total)} repo · trang ${R.page}/${pages} ${R.page > 1 ? '<button class="btn" data-page="-1">Trước</button>' : ''} ${R.page < pages ? '<button class="btn" data-page="1">Sau</button>' : ''}</p>
+      <div style="overflow-x:auto"><table><thead><tr><th>Repo</th><th>Sao</th><th>24h/7d/30d</th><th>Chất lượng</th><th>Trạng thái</th><th></th></tr></thead><tbody>
+      ${R.items.map((r) => `<tr><td><a href="https://github.com/${esc(r.full_name)}" target="_blank" rel="noopener">${esc(r.full_name)}</a> <span class="small muted">#${esc(r.gid)}</span><div class="small muted">${esc(r.description)}</div><div class="small muted">${esc(r.areas.join(', '))}${r.seen_in.length ? ` · thấy trong: ${esc(r.seen_in.join(', '))}` : ''}</div></td>
+        <td class="tnum">${fmt(r.stars)}</td><td class="tnum small">${[r.t1, r.t7, r.t30].map((x) => (x == null ? '—' : Math.round(x))).join(' / ')}</td>
+        <td class="tnum small">${r.q ?? '—'}${r.qc != null ? ` <span class="muted">(${Math.round(r.qc * 100)}%)</span>` : ''}</td>
+        <td class="small">${r.publish?.published ? '<span class="tag ok">có trang</span> ' : r.publish?.eligible ? '<span class="tag info">đủ điều kiện</span> ' : ''}${r.gem ? '<span class="tag ok">gem</span> ' : ''}${r.pinned ? '<span class="tag info">ghim</span> ' : ''}${r.hidden ? '<span class="tag warn">ẩn</span> ' : ''}${r.excluded ? '<span class="tag danger">loại trừ</span> ' : ''}${r.suppressed ? `<span class="tag danger" title="${esc(r.suppressed)}">nghi spam</span> ` : ''}${r.anomaly ? `<span class="tag warn" title="${esc(r.anomaly.join('; '))}">bất thường</span>` : ''}${r.status !== 'ok' ? ` <span class="tag danger">${esc(r.status)}</span>` : ''}${!r.publish?.eligible && r.publish?.why?.length ? `<div class="muted">${esc(r.publish.why.join(', '))}</div>` : ''}</td>
+        <td><div class="row">
+          <button class="btn" data-mod="${r.hidden ? 'unhide' : 'hide'}" data-t="${esc(r.gid || r.full_name)}">${r.hidden ? 'Bỏ ẩn' : 'Ẩn'}</button>
+          <button class="btn" data-mod="${r.pinned ? 'unpin' : 'pin'}" data-t="${esc(r.gid || r.full_name)}">${r.pinned ? 'Bỏ ghim' : 'Ghim'}</button>
+          ${r.origin === 'radar' ? `<button class="btn danger" data-mod="${r.excluded ? 'unexclude' : 'exclude'}" data-t="${esc(r.gid)}">${r.excluded ? 'Bỏ loại trừ' : 'Loại trừ'}</button>
+          <button class="btn" data-promote="${esc(r.gid)}" data-name="${esc(r.full_name)}">Thêm vào thư viện</button>` : ''}
+        </div></td></tr>`).join('')}
+      </tbody></table></div>`;
+    $('#rf').onsubmit = (ev) => { ev.preventDefault(); const d = Object.fromEntries(new FormData(ev.target)); Object.assign(st, d, { page: 1 }); render(); };
+    $('#mf').onsubmit = async (ev) => { ev.preventDefault(); const d = Object.fromEntries(new FormData(ev.target)); try { await api('/api/moderation', { method: 'POST', body: JSON.stringify(d) }); toast('Đã lưu và cập nhật dữ liệu website.'); render(); } catch (e) { toast(e.message, 6000); } };
+    app.onclick = async (ev) => {
+      const b = ev.target.closest('button');
+      if (!b || b.form) return;
+      try {
+        if (b.dataset.page) { st.page += Number(b.dataset.page); render(); }
+        if (b.dataset.mod) { const reason = b.dataset.mod.startsWith('un') ? '' : (prompt('Lý do (ghi vào nhật ký):', '') ?? null); if (reason === null) return; await api('/api/moderation', { method: 'POST', body: JSON.stringify({ action: b.dataset.mod, target: b.dataset.t, reason }) }); toast('Đã lưu.'); render(); }
+        if (b.dataset.promote) {
+          const cat = prompt(`Thêm ${b.dataset.name} vào thư viện biên tập. Nhập slug danh mục chính (${S.categories.map((c) => c.slug).join(', ')}):`, '');
+          if (!cat) return;
+          follow((await api('/api/radar/promote', { method: 'POST', body: JSON.stringify({ gid: b.dataset.promote, category: cat.trim() }) })).job);
+        }
+      } catch (e) { toast(e.message, 6000); }
+    };
+  },
+  async config(app) {
+    const C = await api('/api/settings');
+    const s = C.settings;
+    const w = s.trending.weights;
+    const sum = C.components.reduce((a, c) => a + Number(w[c.key] || 0), 0);
+    app.innerHTML = `
+      <h1>Lịch chạy &amp; trọng số xếp hạng</h1>
+      ${C.warnings.length ? `<div class="notice warn small">${C.warnings.map(esc).join('<br>')}</div>` : ''}
+      <form id="cf">
+      <h2>Lịch chạy tự động</h2>
+      <p class="small muted">Áp dụng ngay cho daemon (<code>npm run scheduler</code>) và GitHub Actions (đọc file data/settings.json ở mỗi lần chạy). Chu kỳ tính bằng giờ (0,25–2160).</p>
+      <div style="overflow-x:auto"><table><thead><tr><th>Job</th><th>Bật</th><th>Chu kỳ (giờ)</th></tr></thead><tbody>
+      ${C.jobs.map((j) => `<tr><td>${esc(j.label)} <span class="small muted">${j.name}</span></td><td><input type="checkbox" name="en_${j.name}" ${s.scheduler.jobs[j.name].enabled ? 'checked' : ''} style="width:auto"></td><td><input type="number" step="0.25" min="0.25" max="2160" name="iv_${j.name}" value="${s.scheduler.jobs[j.name].interval_hours}" style="max-width:120px"></td></tr>`).join('')}
+      </tbody></table></div>
+      <div class="form" style="margin-top:12px">
+        <label class="f">Thời gian tối đa mỗi job (phút)<input type="number" name="max_job_minutes" min="5" max="240" value="${s.scheduler.max_job_minutes}"></label>
+        <label class="f">Dựng lại website sau job (daemon)<select name="site_rebuild">${['off', 'data', 'full'].map((x) => `<option value="${x}" ${s.scheduler.site_rebuild === x ? 'selected' : ''}>${{ off: 'Không', data: 'Chỉ dữ liệu', full: 'Toàn bộ website' }[x]}</option>`).join('')}</select></label>
+        <label class="f">Số lần thử lại khi lỗi tạm thời<input type="number" name="retry_attempts" min="1" max="6" value="${s.scheduler.retry.attempts}"></label>
+        <label class="f">Độ trễ thử lại cơ sở (giây, tăng gấp đôi mỗi lần)<input type="number" name="retry_base" min="5" max="600" value="${s.scheduler.retry.base_delay_seconds}"></label>
+      </div>
+      <h2>Trọng số Trending Score</h2>
+      <p class="small muted">Tổng hiện tại: <b class="tnum">${sum}</b> (luôn được quy về 100 khi tính). Thay đổi có hiệu lực ở lần xếp hạng kế tiếp và được ghi nhật ký.</p>
+      <div class="form">${C.components.map((c) => `<label class="f">${esc(c.label)} (mặc định ${C.defaults.trending.weights[c.key]})<input type="number" min="0" max="100" step="1" name="w_${c.key}" value="${w[c.key]}"></label>`).join('')}
+        <label class="f">Độ phủ dữ liệu tối thiểu để xếp hạng (0,3–1)<input type="number" step="0.05" min="0.3" max="1" name="min_coverage" value="${s.trending.min_coverage}"></label>
+        <label class="f">Hệ số giảm khi có tín hiệu bất thường (0–1)<input type="number" step="0.05" min="0" max="1" name="anomaly_damping" value="${s.trending.anomaly_damping}"></label>
+      </div>
+      <h2>Khám phá &amp; xuất bản</h2>
+      <div class="form">
+        <label class="f">Số repo radar tối đa<input type="number" name="max_radar_repos" min="50" max="5000" value="${s.discovery.max_radar_repos}"></label>
+        <label class="f">Số truy vấn tìm kiếm mỗi lượt<input type="number" name="max_queries_per_run" min="1" max="60" value="${s.discovery.max_queries_per_run}"></label>
+        <label class="f">Số sao tối thiểu để có trang chi tiết<input type="number" name="radar_detail_min_stars" min="10" max="100000" value="${s.publish.radar_detail_min_stars}"></label>
+        <label class="f">Số trang repo tự phát hiện tối đa<input type="number" name="radar_detail_max_pages" min="0" max="5000" value="${s.publish.radar_detail_max_pages}"></label>
+        <label class="f full">Topic khám phá (phân tách bằng dấu phẩy)<textarea name="topics">${esc(s.discovery.topics.join(', '))}</textarea></label>
+      </div>
+      <p style="margin-top:16px" class="row"><button class="btn primary">Lưu cấu hình</button><button type="button" class="btn" id="resetW">Khôi phục trọng số mặc định</button></p>
+      </form>`;
+    const save = async (patch) => { const r = await api('/api/settings', { method: 'PUT', body: JSON.stringify({ patch }) }); toast(r.warnings.length ? `Đã lưu (cảnh báo: ${r.warnings[0]})` : 'Đã lưu cấu hình.', 5000); render(); };
+    $('#resetW').onclick = () => save({ trending: { weights: C.defaults.trending.weights } }).catch((e) => toast(e.message, 6000));
+    $('#cf').onsubmit = async (ev) => {
+      ev.preventDefault();
+      const f = new FormData(ev.target);
+      const num = (k) => Number(f.get(k));
+      const jobs = {};
+      for (const j of C.jobs) jobs[j.name] = { enabled: f.get(`en_${j.name}`) === 'on', interval_hours: num(`iv_${j.name}`) };
+      const weights = Object.fromEntries(C.components.map((c) => [c.key, num(`w_${c.key}`)]));
+      try {
+        await save({
+          scheduler: { jobs, max_job_minutes: num('max_job_minutes'), site_rebuild: f.get('site_rebuild'), retry: { attempts: num('retry_attempts'), base_delay_seconds: num('retry_base') } },
+          trending: { weights, min_coverage: num('min_coverage'), anomaly_damping: num('anomaly_damping') },
+          discovery: { max_radar_repos: num('max_radar_repos'), max_queries_per_run: num('max_queries_per_run'), topics: String(f.get('topics')).split(',').map((x) => x.trim()).filter(Boolean) },
+          publish: { radar_detail_min_stars: num('radar_detail_min_stars'), radar_detail_max_pages: num('radar_detail_max_pages') },
+        });
+      } catch (e) { toast(e.message, 6000); }
+    };
+  },
+  async check(app) {
+    const [P, M] = await Promise.all([api('/api/prepublish'), api('/api/moderation')]);
+    const tone = { pass: 'ok', warn: 'warn', fail: 'danger' };
+    app.innerHTML = `
+      <h1>Kiểm tra trước khi xuất bản</h1>
+      <p class="muted small">Kiểm tra lúc ${dt(P.checked_at)} · ${P.ok ? '<span class="tag ok">Có thể xuất bản</span>' : '<span class="tag danger">Chưa đạt — sửa các mục đỏ trước</span>'}</p>
+      <table><tbody>${P.checks.map((c) => `<tr><td><span class="tag ${tone[c.status]}">${{ pass: 'Đạt', warn: 'Cảnh báo', fail: 'Lỗi' }[c.status]}</span></td><td><b>${esc(c.label)}</b><div class="small muted">${esc(c.detail)}</div></td></tr>`).join('')}</tbody></table>
+      <p class="row" style="margin-top:12px"><button class="btn primary" data-build="1" ${P.ok ? '' : 'disabled'}>Build website (sau khi đạt kiểm tra)</button><button class="btn" data-recheck="1">Kiểm tra lại</button></p>
+      <p class="small muted">Website không được tự động đưa lên production từ trang này. Để xuất bản: commit thư mục data/ rồi push lên GitHub (workflow sẽ build &amp; triển khai) — xem docs/04-HE-THONG-TU-DONG.md.</p>
+      <h2>Danh sách kiểm duyệt</h2>
+      <p class="small">Ẩn: ${Object.keys(M.hidden).map(esc).join(', ') || 'không có'}</p>
+      <p class="small">Loại trừ: ${Object.keys(M.excluded).map(esc).join(', ') || 'không có'} · chủ sở hữu: ${Object.keys(M.excluded_owners).map(esc).join(', ') || 'không có'}</p>
+      <p class="small">Ghim: ${Object.keys(M.pinned).map(esc).join(', ') || 'không có'}</p>
+      <h2>Nhật ký thao tác quản trị</h2>
+      ${M.audit.length ? `<table><thead><tr><th>Thời điểm</th><th>Thao tác</th><th>Đối tượng</th><th>Chi tiết</th></tr></thead><tbody>${M.audit.map((a) => `<tr><td class="small">${dt(a.at)}</td><td>${esc(a.action)}</td><td class="small">${esc(a.target)}</td><td class="small muted">${esc(JSON.stringify(a.details)).slice(0, 200)}</td></tr>`).join('')}</tbody></table>` : '<p class="muted small">Chưa có thao tác nào.</p>'}`;
+    app.onclick = async (ev) => {
+      const b = ev.target.closest('button');
+      if (!b) return;
+      try {
+        if (b.dataset.recheck) render();
+        if (b.dataset.build) follow((await api('/api/publish/build', { method: 'POST', body: '{}' })).job);
+      } catch (e) { toast(e.message, 6000); }
+    };
+  },
+};
+
+function statusTag(st) {
+  const m = { ok: ['ok', 'Bình thường'], archived: ['warn', 'Đã lưu trữ'], not_found: ['danger', 'Không còn tồn tại'], blocked: ['danger', 'Bị chặn'], unverified: ['info', 'Chưa kiểm tra lại'], pending: ['info', 'Chờ đồng bộ'] };
+  const [c, t] = m[st] || ['info', st || 'Chờ đồng bộ'];
+  return `<span class="tag ${c}">${t}</span>`;
+}
+
+function overview() {
+  const st = S.library?.stats || {};
+  const rep = S.report || {};
+  const core = S.rate?.core; const search = S.rate?.search;
+  const list = (arr, f) => (arr && arr.length ? `<ul>${arr.map(f).join('')}</ul>` : '<p class="muted small">Không có.</p>');
+  return `
+    <h1>Tổng quan</h1>
+    <p class="muted">Dữ liệu website tạo lúc ${dt(S.library?.generated_at)}. Số liệu GitHub mới nhất lúc ${dt(S.library?.synced_at)}. Bản build website: ${S.built ? dt(S.built) : 'chưa có'}.</p>
+    ${S.token ? '<div class="notice ok">Đã có GITHUB_TOKEN: đồng bộ chế độ đầy đủ (5.000 lượt/giờ).</div>' : '<div class="notice warn">Chưa có GITHUB_TOKEN: đang dùng chế độ không token (60 lượt REST/giờ, số người đóng góp cập nhật dần). Thêm token vào file <b>.env.local</b> rồi khởi động lại trang này — xem docs/03-HUONG-DAN-TRIEN-KHAI.md.</div>'}
+    <div class="grid">
+      <div class="card"><span class="muted small">Repo trong thư viện</span><b class="tnum">${fmt(st.repos)}</b></div>
+      <div class="card"><span class="muted small">Có số liệu</span><b class="tnum">${fmt(st.synced)}</b></div>
+      <div class="card"><span class="muted small">Chờ đồng bộ</span><b class="tnum">${fmt(st.pending)}</b></div>
+      <div class="card"><span class="muted small">Không còn tồn tại</span><b class="tnum">${fmt(st.deleted)}</b></div>
+      <div class="card"><span class="muted small">Đã lưu trữ</span><b class="tnum">${fmt(st.archived)}</b></div>
+      <div class="card"><span class="muted small">Có số người đóng góp</span><b class="tnum">${fmt(st.with_contributors)}</b></div>
+    </div>
+    <p class="small muted" style="margin-top:12px">Xếp loại: ${Object.entries(st.by_tier || {}).map(([k, v]) => `${L.tier[k]} ${v}`).join(', ')}. Hạn mức GitHub còn lại: REST ${core ? `${core.remaining}/${core.limit}` : '?'}, Search ${search ? `${search.remaining}/${search.limit}` : '?'} mỗi phút.</p>
+    <div class="row" style="margin-top:14px">
+      <button class="btn primary" data-act="sync">Đồng bộ toàn bộ từ GitHub</button>
+      <button class="btn" data-act="build">Build website</button>
+      <button class="btn" data-act="validate">Kiểm tra catalog</button>
+    </div>
+    <h2>Lần đồng bộ gần nhất</h2>
+    <p class="small">${rep.finished_at ? `Xong lúc ${dt(rep.finished_at)}, chế độ ${rep.mode === 'full' ? 'đầy đủ' : 'không token'}: ${Object.entries(rep.totals || {}).map(([k, v]) => `${k} ${v}`).join(', ')}` : 'Chưa có báo cáo.'}</p>
+    <h2>Cần xử lý</h2>
+    <h3 class="small">Repo đã đổi tên ${rep.renamed?.length ? '<button class="btn" data-act="fix-renames">Tự sửa tên trong catalog</button>' : ''}</h3>
+    ${list(rep.renamed, (x) => `<li>${esc(x.from)} → <a href="https://github.com/${esc(x.to)}" target="_blank" rel="noopener">${esc(x.to)}</a></li>`)}
+    <h3 class="small">Không còn tồn tại trên GitHub</h3>
+    ${list(rep.deleted, (x) => `<li>${esc(x.id)} <span class="muted small">(phát hiện ${dt(x.since)})</span></li>`)}
+    <h3 class="small">Đã lưu trữ (archived)</h3>
+    ${list(rep.archived, (x) => `<li>${esc(x)}</li>`)}
+    <h3 class="small">Chưa kiểm tra lại được (giữ số liệu cũ)</h3>
+    ${list(rep.unverified, (x) => `<li>${esc(x.id)} <span class="muted small">${esc(x.error || '')}</span></li>`)}`;
+}
+
+const lines = (v) => (Array.isArray(v) ? v.join('\n') : '');
+const commas = (v) => (Array.isArray(v) ? v.join(', ') : '');
+function checks(name, values, selected = []) {
+  return `<div class="checks">${values.map((v) => `<label><input type="checkbox" name="${name}" value="${esc(v)}" ${selected.includes(v) ? 'checked' : ''}> ${esc(L[name]?.[v] || v)}</label>`).join('')}</div>`;
+}
+function options(map, val, empty = '— Chưa chọn —') {
+  return `<option value="">${empty}</option>${Object.entries(map).map(([k, v]) => `<option value="${k}" ${k === val ? 'selected' : ''}>${esc(v)}</option>`).join('')}`;
+}
+
+function form() {
+  const e = editing || {};
+  const isEdit = Boolean(editing);
+  const cats = S.categories;
+  const pre = addPrefill || {};
+  const lo = e.license_override || {};
+  return `
+    <h1>${isEdit ? `Sửa ${esc(e.repo)}` : 'Thêm repo vào thư viện'}</h1>
+    <p class="muted">Chỉ cần đúng tên repo trên GitHub; mọi số liệu (sao, fork, giấy phép, ngày cập nhật…) được lấy tự động. Các trường còn lại là nội dung biên tập tiếng Việt.</p>
+    ${isEdit ? '' : `
+    <div class="row" style="margin:14px 0">
+      <input id="repoInput" placeholder="owner/ten-repo hoặc https://github.com/owner/ten-repo" value="${esc(pre.repo || '')}" style="max-width:520px">
+      <button class="btn" data-act="lookup">Kiểm tra trên GitHub</button>
+    </div>
+    <div id="lookupBox">${lookupHtml()}</div>`}
+    <form id="repoForm" class="form" ${!isEdit && !lookup?.ok ? 'hidden' : ''}>
+      <label class="f">Danh mục chính<select name="category" required>${cats.map((c) => `<option value="${c.slug}" ${c.slug === (e.category || pre.category || lookup?.suggest?.[0]) ? 'selected' : ''}>${esc(c.name)}</option>`).join('')}</select></label>
+      <label class="f">Tính ứng dụng (1–5)<select name="applicability">${options({ 5: '5 – Rất hữu ích', 4: '4', 3: '3', 2: '2', 1: '1 – Ít hữu ích' }, String(e.applicability || ''))}</select></label>
+      <div class="f full">Danh mục phụ<div class="checks">${cats.map((c) => `<label><input type="checkbox" name="also" value="${c.slug}" ${(e.also || []).includes(c.slug) ? 'checked' : ''}> ${esc(c.short)}</label>`).join('')}</div></div>
+      <label class="f full">Mô tả ngắn tiếng Việt (1–2 câu)<textarea name="summary" required>${esc(e.summary || '')}</textarea></label>
+      <label class="f">Ứng dụng thực tế (mỗi dòng một ý)<textarea name="use_cases">${esc(lines(e.use_cases))}</textarea></label>
+      <label class="f">Tính năng nổi bật (mỗi dòng một ý — để trống sẽ trích từ README)<textarea name="features">${esc(lines(e.features))}</textarea></label>
+      <label class="f">Ưu điểm (mỗi dòng một ý)<textarea name="pros">${esc(lines(e.pros))}</textarea></label>
+      <label class="f">Nhược điểm (mỗi dòng một ý)<textarea name="cons">${esc(lines(e.cons))}</textarea></label>
+      <div class="f">Nền tảng hỗ trợ${checks('platforms', S.enums.platforms, e.platforms)}</div>
+      <div class="f">Cách sử dụng${checks('deploy', S.enums.deploy, e.deploy)}</div>
+      <label class="f">Độ khó cài đặt<select name="difficulty">${options(L.difficulty, e.difficulty)}</select></label>
+      <label class="f">Chi phí<select name="pricing">${options(L.pricing, e.pricing)}</select></label>
+      <label class="f">Cần khóa API dịch vụ AI<select name="needs_api_key">${options(L.needs_api_key, e.needs_api_key)}</select></label>
+      <label class="f">Từ khóa (cách nhau bằng dấu phẩy)<input name="tags" value="${esc(commas(e.tags))}"></label>
+      <label class="f full">Yêu cầu cấu hình<input name="requirements" value="${esc(e.requirements || '')}"></label>
+      <label class="f full">Lệnh cài nhanh (tùy chọn)<textarea name="quick_start" style="font-family:ui-monospace,Consolas,monospace">${esc(e.quick_start || '')}</textarea></label>
+      <label class="f">Ghi chú giấy phép<textarea name="license_note">${esc(e.license_note || '')}</textarea></label>
+      <label class="f">Cảnh báo/ghi chú biên tập<textarea name="note">${esc(e.note || '')}</textarea></label>
+      <label class="f">Link tài liệu (https://)<input name="docs" value="${esc(e.docs || '')}"></label>
+      <label class="f">Link demo chính thức (https://)<input name="demo" value="${esc(e.demo || '')}"></label>
+      <label class="f">Video demo YouTube (https://)<input name="video" value="${esc(e.video || '')}"></label>
+      <label class="f">Gợi ý thay thế (owner/repo, cách nhau dấu phẩy)<input name="alternatives" value="${esc(commas(e.alternatives))}"></label>
+      <fieldset class="full card"><legend class="small muted">Ghi đè phân loại giấy phép (chỉ dùng khi GitHub hiển thị NOASSERTION/sai)</legend>
+        <div class="form">
+          <label class="f">Mã SPDX<input name="lo_spdx" value="${esc(lo.spdx || '')}" placeholder="vd. MIT, GPL-3.0"></label>
+          <label class="f">Nhóm<select name="lo_class">${options(L.license_class, lo.class, '— Theo SPDX —')}</select></label>
+          <label class="f full">Tên hiển thị<input name="lo_name" value="${esc(lo.name || '')}"></label>
+        </div>
+      </fieldset>
+      <label class="f full" style="display:flex;gap:8px;align-items:center"><input type="checkbox" name="featured" ${e.featured ? 'checked' : ''} style="width:auto"> Hiện ở mục “Biên tập chọn” trang chủ</label>
+      <div class="full row">
+        <button class="btn primary" type="submit">${isEdit ? 'Lưu thay đổi' : 'Thêm và đồng bộ số liệu'}</button>
+        ${isEdit ? '<button class="btn" type="button" data-act="cancel-edit">Hủy</button>' : ''}
+      </div>
+    </form>`;
+}
+
+function lookupHtml() {
+  if (!lookup) return '';
+  if (!lookup.ok) return `<div class="notice danger">${esc(lookup.error)}</div>`;
+  const r = lookup.repo;
+  return `<div class="card preview">
+    <img src="${esc(r.avatar_url)}" alt="">
+    <div><b>${esc(r.full_name)}</b> ${r.archived ? '<span class="tag warn">Đã lưu trữ</span>' : ''} ${lookup.exists ? '<span class="tag danger">Đã có trong thư viện</span>' : ''} ${lookup.renamed ? '<span class="tag info">Đã đổi tên</span>' : ''}
+      <p class="small">${esc(r.description || '')}</p>
+      <p class="small muted tnum">${fmt(r.stars)} sao, ${fmt(r.forks)} fork, giấy phép ${esc(r.license || 'không có')}, ngôn ngữ ${esc(r.language || '—')}, commit gần nhất ${dt(r.pushed_at)}. Gợi ý danh mục: ${esc(lookup.suggest.join(', ') || '—')}</p>
+    </div></div>`;
+}
+
+function collect(f) {
+  const fd = new FormData(f);
+  const arr = (k) => fd.getAll(k);
+  const ln = (k) => String(fd.get(k) || '').split('\n').map((s) => s.trim()).filter(Boolean);
+  const cm = (k) => String(fd.get(k) || '').split(',').map((s) => s.trim()).filter(Boolean);
+  const lo = { spdx: String(fd.get('lo_spdx') || '').trim(), class: fd.get('lo_class') || '', name: String(fd.get('lo_name') || '').trim() };
+  const fields = {
+    also: arr('also').filter((s) => s !== fd.get('category')), summary: String(fd.get('summary') || '').trim(), use_cases: ln('use_cases'), features: ln('features'), pros: ln('pros'), cons: ln('cons'),
+    platforms: arr('platforms'), deploy: arr('deploy'), difficulty: fd.get('difficulty'), pricing: fd.get('pricing'), needs_api_key: fd.get('needs_api_key'),
+    tags: cm('tags'), requirements: String(fd.get('requirements') || '').trim(), quick_start: String(fd.get('quick_start') || '').trimEnd(),
+    license_note: String(fd.get('license_note') || '').trim(), note: String(fd.get('note') || '').trim(), docs: String(fd.get('docs') || '').trim(), demo: String(fd.get('demo') || '').trim(),
+    video: String(fd.get('video') || '').trim(), alternatives: cm('alternatives'), applicability: fd.get('applicability') ? Number(fd.get('applicability')) : null, featured: fd.get('featured') ? true : null,
+    license_override: lo.spdx || lo.class || lo.name ? Object.fromEntries(Object.entries(lo).filter(([, v]) => v)) : null,
+  };
+  return { category: fd.get('category'), fields };
+}
+
+function repos() {
+  const q = (S._q || '').toLowerCase();
+  const cat = S._cat || '';
+  const rows = S.entries.filter((e) => (!cat || e.category === cat) && (!q || `${e.repo} ${e.summary || ''}`.toLowerCase().includes(q)));
+  return `
+    <h1>Danh sách repo <span class="muted tnum">(${rows.length}/${S.entries.length})</span></h1>
+    <div class="row" style="margin:12px 0">
+      <input id="fq" placeholder="Lọc theo tên hoặc mô tả" value="${esc(S._q || '')}" style="max-width:320px">
+      <select id="fc" style="max-width:260px"><option value="">Tất cả danh mục</option>${S.categories.map((c) => `<option value="${c.slug}" ${c.slug === cat ? 'selected' : ''}>${esc(c.name)}</option>`).join('')}</select>
+    </div>
+    <div style="overflow-x:auto"><table>
+      <thead><tr><th>Repo</th><th>Danh mục</th><th>Điểm</th><th>Sao</th><th>Trạng thái</th><th>Đồng bộ lúc</th><th></th></tr></thead>
+      <tbody>${rows.map((e) => `<tr>
+        <td><a href="https://github.com/${esc(e.live?.full_name || e.repo)}" target="_blank" rel="noopener">${esc(e.repo)}</a><div class="small muted">${esc((e.summary || '').slice(0, 90))}</div></td>
+        <td class="small">${esc(e.category)}</td>
+        <td class="tnum">${e.live?.score ?? '—'}<div class="small muted">${esc(L.tier[e.live?.tier] || '')}</div></td>
+        <td class="tnum">${fmt(e.live?.stars)}</td>
+        <td>${statusTag(e.live?.status)}</td>
+        <td class="small tnum">${dt(e.live?.fetched_at)}</td>
+        <td><div class="row"><button class="btn" data-edit="${esc(e.repo)}">Sửa</button><button class="btn" data-sync="${esc(e.repo)}">Đồng bộ</button><button class="btn danger" data-del="${esc(e.repo)}">Xóa</button></div></td>
+      </tr>`).join('')}</tbody></table></div>`;
+}
+
+function cats() {
+  const count = (slug) => S.entries.filter((e) => e.category === slug || (e.also || []).includes(slug)).length;
+  return `
+    <h1>Danh mục</h1>
+    <p class="muted">Thứ tự ở đây là thứ tự hiển thị trên website. Slug là địa chỉ trang (/danh-muc/slug) — không nên đổi sau khi đã xuất bản.</p>
+    <div style="overflow-x:auto"><table>
+      <thead><tr><th></th><th>Slug</th><th>Tên</th><th>Tên ngắn</th><th>Mô tả</th><th>Biểu tượng</th><th>Màu</th><th>Repo</th><th></th></tr></thead>
+      <tbody>${S.categories.map((c, i) => `<tr data-slug="${c.slug}">
+        <td><div class="row"><button class="btn" data-up="${i}" ${i === 0 ? 'disabled' : ''} aria-label="Lên">↑</button><button class="btn" data-down="${i}" ${i === S.categories.length - 1 ? 'disabled' : ''} aria-label="Xuống">↓</button></div></td>
+        <td class="small">${esc(c.slug)}</td>
+        <td><input data-k="name" value="${esc(c.name)}"></td>
+        <td><input data-k="short" value="${esc(c.short || '')}"></td>
+        <td><textarea data-k="description">${esc(c.description || '')}</textarea></td>
+        <td><select data-k="icon">${ICONS.map((ic) => `<option ${ic === c.icon ? 'selected' : ''}>${ic}</option>`).join('')}</select></td>
+        <td><input data-k="hue" type="number" min="0" max="360" value="${c.hue ?? 210}" style="width:80px"><div style="height:6px;border-radius:3px;margin-top:4px;background:oklch(0.65 0.12 ${c.hue ?? 210})"></div></td>
+        <td class="tnum">${count(c.slug)}</td>
+        <td><div class="row"><button class="btn" data-savecat="${c.slug}">Lưu</button><button class="btn danger" data-delcat="${c.slug}" ${count(c.slug) ? 'disabled title="Còn repo trong danh mục"' : ''}>Xóa</button></div></td>
+      </tr>`).join('')}</tbody></table></div>
+    <h2>Thêm danh mục</h2>
+    <form id="newCat" class="form">
+      <label class="f">Slug (vd. ai-education)<input name="slug" required pattern="[a-z0-9]+(-[a-z0-9]+)*"></label>
+      <label class="f">Tên đầy đủ<input name="name" required></label>
+      <label class="f">Tên ngắn<input name="short"></label>
+      <label class="f">Biểu tượng<select name="icon">${ICONS.map((ic) => `<option>${ic}</option>`).join('')}</select></label>
+      <label class="f full">Mô tả<textarea name="description"></textarea></label>
+      <label class="f">Màu (0–360)<input name="hue" type="number" min="0" max="360" value="210"></label>
+      <div class="full"><button class="btn primary">Thêm danh mục</button></div>
+    </form>`;
+}
+
+function disc() {
+  const items = S._found || S.candidates || [];
+  return `
+    <h1>Khám phá repo mới</h1>
+    <p class="muted">Tìm qua GitHub Search API (không token: 10 lượt/phút). Kết quả chỉ là ứng viên — bạn duyệt rồi mới thêm vào thư viện.</p>
+    <div class="row" style="margin:12px 0">${S.presets.map((p) => `<button class="btn" data-q="${esc(p.q)}">${esc(p.label)}</button>`).join('')}</div>
+    <form id="dq" class="row"><input name="q" placeholder="Truy vấn GitHub, vd. topic:seo stars:>500 pushed:>2026-06-01" style="max-width:560px"><button class="btn primary">Tìm</button></form>
+    <p class="small muted" style="margin-top:12px">${S._found ? `${items.length} kết quả mới` : `Ứng viên đã lưu: ${items.length}`}</p>
+    <div style="overflow-x:auto"><table><thead><tr><th>Repo</th><th>Sao</th><th>Giấy phép</th><th>Gợi ý danh mục</th><th></th></tr></thead><tbody>
+      ${items.map((r) => `<tr><td><a href="${esc(r.html_url || `https://github.com/${r.full_name}`)}" target="_blank" rel="noopener">${esc(r.full_name)}</a><div class="small muted">${esc((r.description || '').slice(0, 140))}</div></td>
+        <td class="tnum">${fmt(r.stars)}</td><td class="small">${esc(r.license || 'không có')}</td><td class="small">${esc((r.suggest || []).join(', '))}</td>
+        <td><div class="row"><button class="btn primary" data-add="${esc(r.full_name)}" data-cat="${esc((r.suggest || [])[0] || '')}">Thêm</button><button class="btn" data-dismiss="${esc(r.full_name)}">Bỏ qua</button></div></td></tr>`).join('')}
+    </tbody></table></div>`;
+}
+
+function log() {
+  const jobs = S.jobs || [];
+  return `
+    <h1>Nhật ký tác vụ</h1>
+    ${jobs.length ? `<p class="small muted">${jobs.map((j) => `${esc(j.label)}: ${j.status === 'running' ? 'đang chạy' : j.status === 'done' ? 'xong' : 'lỗi'} (${dt(j.startedAt)})`).join(' — ')}</p>` : '<p class="muted">Chưa có tác vụ nào trong phiên này.</p>'}
+    <pre class="log" id="logbox">${esc((S._log || []).join('\n'))}</pre>
+    <p class="small muted">Sau khi đồng bộ, bấm “Build website” ở tab Tổng quan rồi xem thử bằng <b>npm start</b> (hoặc file 3_MO_WEBSITE.bat). Để đưa lên mạng: commit và push lên GitHub — GitHub Actions sẽ tự build và triển khai.</p>`;
+}
+
+function follow(jobId) {
+  currentJob = jobId;
+  S._log = [];
+  setTab('log');
+  if (es) es.close();
+  es = new EventSource(`/api/jobs/${jobId}/stream`);
+  es.onmessage = (ev) => { S._log.push(JSON.parse(ev.data)); const b = $('#logbox'); if (b) { b.textContent = S._log.join('\n'); b.scrollTop = b.scrollHeight; } };
+  es.addEventListener('end', async () => { es.close(); const log = S._log; await load(); S._log = log; render(); toast('Tác vụ đã kết thúc.'); });
+}
+
+const bind = {
+  overview(app) {
+    app.addEventListener('click', async (ev) => {
+      const act = ev.target.closest('[data-act]')?.dataset.act;
+      try {
+        if (act === 'sync') follow((await api('/api/jobs/sync', { method: 'POST', body: '{}' })).job);
+        if (act === 'fix-renames') follow((await api('/api/jobs/sync', { method: 'POST', body: JSON.stringify({ fixRenames: true }) })).job);
+        if (act === 'build') follow((await api('/api/jobs/build', { method: 'POST', body: '{}' })).job);
+        if (act === 'validate') { const v = await api('/api/jobs/validate', { method: 'POST', body: '{}' }); toast(v.errors.length ? `${v.errors.length} lỗi: ${v.errors[0]}` : `Catalog hợp lệ (${v.count} repo, ${v.warnings.length} cảnh báo).`, 6000); }
+      } catch (e) { toast(e.message, 6000); }
+    });
+  },
+  add(app) {
+    app.addEventListener('click', async (ev) => {
+      const act = ev.target.closest('[data-act]')?.dataset.act;
+      if (act === 'lookup') {
+        const v = $('#repoInput').value;
+        $('#lookupBox').innerHTML = '<p class="muted">Đang kiểm tra trên GitHub…</p>';
+        try { lookup = await api(`/api/lookup?repo=${encodeURIComponent(v)}`); } catch (e) { lookup = { ok: false, error: e.message }; }
+        addPrefill = { repo: v, category: addPrefill?.category };
+        render();
+      }
+      if (act === 'cancel-edit') { editing = null; setTab('repos'); }
+    });
+    const f = $('#repoForm');
+    f?.addEventListener('submit', async (ev) => {
+      ev.preventDefault();
+      const { category, fields } = collect(f);
+      try {
+        if (editing) {
+          await api(`/api/repos/${editing.repo.split('/').map(encodeURIComponent).join('/')}`, { method: 'PUT', body: JSON.stringify({ category, fields }) });
+          toast('Đã lưu. Bấm “Build website” để cập nhật trang.');
+          editing = null; await load(); setTab('repos');
+        } else {
+          if (lookup?.exists) return toast('Repo đã có trong thư viện.');
+          const r = await api('/api/repos', { method: 'POST', body: JSON.stringify({ repo: lookup.repo.full_name, category, fields }) });
+          lookup = null; addPrefill = null;
+          toast(`Đã thêm ${r.repo}, đang đồng bộ số liệu…`);
+          follow(r.job);
+        }
+      } catch (e) { toast(e.message, 6000); }
+    });
+  },
+  repos(app) {
+    $('#fq').addEventListener('input', (e) => { S._q = e.target.value; const pos = e.target.selectionStart; render(); const n = $('#fq'); n.focus(); n.setSelectionRange(pos, pos); });
+    $('#fc').addEventListener('change', (e) => { S._cat = e.target.value; render(); });
+    app.addEventListener('click', async (ev) => {
+      const t = ev.target.closest('button');
+      if (!t) return;
+      try {
+        if (t.dataset.edit) { editing = S.entries.find((e) => e.repo === t.dataset.edit); setTab('add'); }
+        if (t.dataset.sync) follow((await api('/api/jobs/sync', { method: 'POST', body: JSON.stringify({ only: t.dataset.sync }) })).job);
+        if (t.dataset.del && confirm(`Xóa ${t.dataset.del} khỏi thư viện? (Không ảnh hưởng repo trên GitHub)`)) {
+          await api(`/api/repos/${t.dataset.del.split('/').map(encodeURIComponent).join('/')}`, { method: 'DELETE' });
+          toast('Đã xóa.'); await load();
+        }
+      } catch (e) { toast(e.message, 6000); }
+    });
+  },
+  cats(app) {
+    app.addEventListener('click', async (ev) => {
+      const t = ev.target.closest('button');
+      if (!t) return;
+      try {
+        if (t.dataset.savecat) {
+          const tr = t.closest('tr');
+          const data = { slug: t.dataset.savecat };
+          tr.querySelectorAll('[data-k]').forEach((el) => { data[el.dataset.k] = el.value; });
+          await api('/api/categories', { method: 'POST', body: JSON.stringify(data) });
+          toast('Đã lưu danh mục.'); await load();
+        }
+        if (t.dataset.delcat && confirm(`Xóa danh mục ${t.dataset.delcat}?`)) { await api(`/api/categories/${t.dataset.delcat}`, { method: 'DELETE' }); toast('Đã xóa.'); await load(); }
+        if (t.dataset.up || t.dataset.down) {
+          const i = Number(t.dataset.up ?? t.dataset.down);
+          const j = t.dataset.up ? i - 1 : i + 1;
+          const slugs = S.categories.map((c) => c.slug);
+          [slugs[i], slugs[j]] = [slugs[j], slugs[i]];
+          await api('/api/categories/reorder', { method: 'POST', body: JSON.stringify({ slugs }) });
+          await load();
+        }
+      } catch (e) { toast(e.message, 6000); }
+    });
+    $('#newCat').addEventListener('submit', async (ev) => {
+      ev.preventDefault();
+      const data = Object.fromEntries(new FormData(ev.target));
+      try { await api('/api/categories', { method: 'POST', body: JSON.stringify(data) }); toast('Đã thêm danh mục.'); await load(); } catch (e) { toast(e.message, 6000); }
+    });
+  },
+  discover(app) {
+    const run = async (q) => {
+      toast('Đang tìm trên GitHub…');
+      try { S._found = (await api('/api/discover', { method: 'POST', body: JSON.stringify({ query: q }) })).items; render(); } catch (e) { toast(e.message, 6000); }
+    };
+    app.addEventListener('click', async (ev) => {
+      const t = ev.target.closest('button');
+      if (!t) return;
+      if (t.dataset.q) run(t.dataset.q);
+      if (t.dataset.add) {
+        addPrefill = { repo: t.dataset.add, category: t.dataset.cat };
+        editing = null;
+        try { lookup = await api(`/api/lookup?repo=${encodeURIComponent(t.dataset.add)}`); } catch (e) { lookup = { ok: false, error: e.message }; }
+        setTab('add');
+      }
+      if (t.dataset.dismiss) { await api('/api/candidates/dismiss', { method: 'POST', body: JSON.stringify({ full_name: t.dataset.dismiss }) }); if (S._found) S._found = S._found.filter((x) => x.full_name !== t.dataset.dismiss); await load(); }
+    });
+    $('#dq').addEventListener('submit', (ev) => { ev.preventDefault(); const q = new FormData(ev.target).get('q'); if (q) run(String(q)); });
+  },
+};
+
+$('#logoutBtn').addEventListener('click', async () => { await fetch('/api/logout', { method: 'POST', headers: H }); location.reload(); });
+fetch('/api/session').then((r) => r.json()).then((s) => {
+  if (s.required) $('#logoutBtn').classList.remove('hidden');
+  if (s.required && !s.ok) return showLogin();
+  return load();
+}).catch((e) => { $('#app').innerHTML = `<div class="notice danger">Không tải được dữ liệu: ${esc(e.message)}</div>`; });
+</script>
+</body>
+</html>

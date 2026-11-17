@@ -1,0 +1,121 @@
+{
+ "id": "bagisto/bagisto",
+ "github_id": 148129143,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxNDgxMjkxNDM=",
+ "full_name": "bagisto/bagisto",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.325Z",
+ "meta": {
+  "name": "bagisto",
+  "owner": "bagisto",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/43133047?v=4",
+  "description": "Open Source eCommerce & Multi-Vendor Marketplace Platform Built with Laravel for Enterprise-Scale Commerce, Supporting 10M+ SKUs",
+  "homepage": "https://bagisto.com",
+  "html_url": "https://github.com/bagisto/bagisto",
+  "default_branch": "2.5",
+  "language": "PHP",
+  "languages": null,
+  "topics": [
+   "b2b-ecommerce",
+   "blockchain-ecommerce",
+   "ecommerce",
+   "ecommerce-framework",
+   "ecommerce-platform",
+   "hacktoberfest",
+   "headless-commerce",
+   "laravel",
+   "laravel-application",
+   "laravel-ecommerce",
+   "laravel-package",
+   "multi-tenancy-plugin",
+   "multi-tenant",
+   "multi-vendor-ecommerce",
+   "multivendor-ecommerce",
+   "nft-marketplace",
+   "open-source",
+   "opensource-ecommerce",
+   "php",
+   "php-ecommerce"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 28377,
+  "forks": 3389,
+  "watchers": null,
+  "open_issues": 25,
+  "open_prs": null,
+  "created_at": "2018-09-10T09:12:41Z",
+  "pushed_at": "2026-11-16T15:41:58Z",
+  "updated_at": "2026-11-16T18:25:39Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 431562,
+  "og_image": "https://opengraph.githubassets.com/1/bagisto/bagisto",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T15:39:18.000Z",
+  "commits_90d": 808,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.5.1",
+  "name": "v2.5.1",
+  "published_at": "2026-11-06T07:27:14Z",
+  "url": "https://github.com/bagisto/bagisto/releases/tag/v2.5.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 15691,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "OHbte7hdxYU",
+    "url": "https://www.youtube.com/watch?v=OHbte7hdxYU"
+   },
+   {
+    "type": "youtube",
+    "id": "s_DhQrjK8Tw",
+    "url": "https://www.youtube.com/watch?v=s_DhQrjK8Tw"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<p><img src=\"https://raw.githubusercontent.com/bagisto/temp-media/master/geting-starded.png\" alt=\"Getting Started\" loading=\"lazy\" decoding=\"async\" /></p>\n<p><a href=\"https://devdocs.bagisto.com/getting-started/installation.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Install Bagisto</a> with or without Composer (Check <a href=\"https://bagisto.com/en/download/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Requirement Details</a>)</p>\n<p>Follow the <a href=\"https://www.youtube.com/watch?v=s_DhQrjK8Tw&amp;list=PLe30vg_FG4OS3BU8rHUKQZ2mnX45xwSMc\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Getting Started with Bagisto</a> Tutorial</p>\n<p>You can browse through the Free <a href=\"https://demo.bagisto.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Live Demo</a></p>\n<h4>🐳 Run with Docker</h4>\n<p>A single command gives you a fully installed store — migrations, seed data and search indexes are all baked into the image, so there is no first-run setup.</p>\n<pre><code class=\"language-bash\">docker run -d --name bagisto -p 80:80 webkul/bagisto:latest\n</code></pre>\n<p>Images are published for each web server and each database, so you can match whatever you already run:</p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>MySQL 8.0</th>\n<th>MariaDB 10.11</th>\n<th>PostgreSQL 16</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><strong>Nginx</strong></td>\n<td><code>:latest</code> · <code>:latest-nginx</code> · <code>:latest-nginx-mysql</code></td>\n<td><code>:latest-nginx-mariadb</code></td>\n<td><code>:latest-nginx-postgres</code></td>\n</tr>\n<tr>\n<td><strong>Apache</strong></td>\n<td><code>:latest-apache</code> · <code>:latest-apache-mysql</code></td>\n<td><code>:latest-apache-mariadb</code></td>\n<td><code>:latest-apache-postgres</code></td>\n</tr>\n<tr>\n<td><strong>OpenLiteSpeed</strong></td>\n<td><code>:latest-litespeed</code> · <code>:latest-litespeed-mysql</code></td>\n<td><code>:latest-litespeed-mariadb</code></td>\n<td><code>:latest-litespeed-postgres</code></td>\n</tr>\n</tbody></table>\n<p>Pin a release by swapping <code>latest</code> for the version, e.g. <code>webkul/bagisto:2.5.0-nginx-postgres</code>. Setting <code>DB_HOST</code> to an external server skips the bundled database entirely. Full details in <a href=\"https://github.com/bagisto/bagisto/blob/2.5/docker/production/README.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>docker/production/README.md</code></a>.</p>\n<h4>☁️ Bagisto Cloud Hosting</h4>\n<p>Deploy and scale your Bagisto store effortlessly with <a href=\"https://bagisto.com/en/cloud-hosting/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Bagisto Cloud Hosting</a>  a fully managed, optimized hosting solution built specifically for Bagisto. Enjoy automatic scaling, built-in security, one-click updates, and expert support so you can focus on growing your business.</p>\n<p><a href=\"https://bagisto.com/en/cloud-hosting/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Deploy Bagisto on Cloud Hosting</strong></a></p>\n<a href=\"https://bagisto.com/en/cloud-hosting/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">\n    <img src=\"https://raw.githubusercontent.com/bagisto/temp-media/master/bagisto_cloud.webp\" alt=\"Deploy Bagisto on Cloud Hosting\" loading=\"lazy\" decoding=\"async\" />\n</a><h4>☁️ Cloud Installation via Amazon AMI</h4>\n<p>You can also deploy Bagisto quickly using our pre-configured Amazon Machine Image (AMI) available on the AWS Marketplace:</p>\n<p>👉 <a href=\"https://aws.amazon.com/marketplace/pp/prodview-r3xv62axcqkpa\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Launch Bagisto on AWS</strong></a></p>\n<p>This AMI allows you to get started with Bagisto on a cloud environment without manual setup. Ideal for scalable production or testing environments.</p>",
+    "truncated": false,
+    "chars": 2538
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 23,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:33.182Z",
+  "checked_at": "2026-11-17T02:20:08.033Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:08.033Z"
+}

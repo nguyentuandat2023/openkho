@@ -1,0 +1,103 @@
+{
+ "id": "monicahq/monica",
+ "github_id": 82238168,
+ "node_id": "MDEwOlJlcG9zaXRvcnk4MjIzODE2OA==",
+ "full_name": "monicahq/monica",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "monica",
+  "owner": "monicahq",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/25832602?v=4",
+  "description": "Personal CRM. Remember everything about your friends, family and business relationships.",
+  "homepage": "https://beta.monicahq.com",
+  "html_url": "https://github.com/monicahq/monica",
+  "default_branch": "main",
+  "language": "PHP",
+  "languages": null,
+  "topics": [
+   "crm",
+   "family",
+   "friends",
+   "hacktoberfest",
+   "laravel",
+   "php",
+   "prm",
+   "social"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 25790,
+  "forks": 2641,
+  "watchers": null,
+  "open_issues": 797,
+  "open_prs": null,
+  "created_at": "2017-02-17T00:02:58Z",
+  "pushed_at": "2026-10-28T22:30:13Z",
+  "updated_at": "2026-11-17T01:52:07Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 152668,
+  "og_image": "https://opengraph.githubassets.com/1/monicahq/monica",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-10-28T22:30:10.000Z",
+  "commits_90d": 4,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v4.1.2",
+  "name": "v4.1.2",
+  "published_at": "2024-05-04T08:09:01Z",
+  "url": "https://github.com/monicahq/monica/releases/tag/v4.1.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v5.0.0-beta.5",
+  "name": "v5.0.0-beta.5",
+  "published_at": "2025-04-21T22:48:40Z",
+  "url": "https://github.com/monicahq/monica/releases/tag/v5.0.0-beta.5"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 10033,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": null,
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li>Add and manage contacts</li>\n<li>Define relationships between contacts</li>\n<li>Reminders</li>\n<li>Automatic reminders for birthdays</li>\n<li>Ability to add notes to a contact</li>\n<li>Ability to record how you met someone</li>\n<li>Management of activities with a contact</li>\n<li>Management of tasks</li>\n<li>Management of addresses and all the different ways to contact someone</li>\n<li>Management of contact field types</li>\n<li>Management of a contact’s pets</li>\n<li>Top of the art diary to keep track of what’s happening in your life</li>\n<li>Ability to record how your day went</li>\n<li>Upload documents and photos</li>\n<li>Ability to define custom genders</li>\n<li>Ability to define custom activity types</li>\n<li>Ability to favorite contacts</li>\n<li>Multiple vaults and users</li>\n<li>Labels to organize contacts</li>\n<li>Ability to define what section should appear on the contact sheet</li>\n<li>Multiple currencies</li>\n<li>Translated in 27 languages</li>\n</ul>",
+    "truncated": false,
+    "chars": 821
+   }
+  },
+  "headings": 19,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:21.174Z",
+  "checked_at": "2026-11-16T05:08:21.174Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:20.793Z",
+ "contributors": null
+}

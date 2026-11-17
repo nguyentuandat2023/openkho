@@ -1,0 +1,113 @@
+{
+ "id": "bytedance/deer-flow",
+ "github_id": 979115477,
+ "node_id": "R_kgDOOlwd1Q",
+ "full_name": "bytedance/deer-flow",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "deer-flow",
+  "owner": "bytedance",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/4158466?v=4",
+  "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+  "homepage": "https://deerflow.tech",
+  "html_url": "https://github.com/bytedance/deer-flow",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "agent",
+   "agentic",
+   "agentic-framework",
+   "agentic-workflow",
+   "ai",
+   "ai-agents",
+   "deep-research",
+   "harness",
+   "langchain",
+   "langgraph",
+   "langmanus",
+   "llm",
+   "multi-agent",
+   "nodejs",
+   "podcast",
+   "python",
+   "superagent",
+   "typescript"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 85408,
+  "forks": 12044,
+  "watchers": null,
+  "open_issues": 1116,
+  "open_prs": null,
+  "created_at": "2025-05-07T02:50:19Z",
+  "pushed_at": "2026-11-17T02:10:30Z",
+  "updated_at": "2026-11-17T01:08:18Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 106009,
+  "og_image": "https://opengraph.githubassets.com/1/bytedance/deer-flow",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T02:10:29.000Z",
+  "commits_90d": 1139,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.2.0",
+  "name": "DeerFlow 2.2.0",
+  "published_at": "2026-11-04T12:56:57Z",
+  "url": "https://github.com/bytedance/deer-flow/releases/tag/v2.2.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 10920,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<pre><code class=\"language-bash\">git clone https://github.com/bytedance/deer-flow.git\ncd deer-flow\nmake setup          # interactive wizard: writes config.yaml and .env (about 2 minutes)\n</code></pre>\n<p>Then start DeerFlow with Docker (recommended) or run it locally:</p>\n<pre><code class=\"language-bash\"># Docker\nmake docker-init    # pull the sandbox image (once, or when the image updates)\nmake docker-start   # start services\n</code></pre>\n<pre><code class=\"language-bash\"># Local development\nmake check          # verifies Node.js 22+, pnpm, uv, nginx\nmake install\nmake dev\n</code></pre>\n<p>The local commands use the pnpm version pinned in <code>frontend/package.json</code>. If a\ndifferent global pnpm is on <code>PATH</code>, they use Corepack when available; otherwise\nthey report the version mismatch before installing frontend dependencies.</p>\n<p>Run <code>make doctor</code> after setting model credentials. It reports obvious placeholder\nAPI keys as incomplete configuration; replace them with real keys before testing\nmodel calls.</p>\n<p>Open <a href=\"http://localhost:2026\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:2026</a>.</p>\n<ul>\n<li>All configuration options, providers and manual setup: <a href=\"https://github.com/bytedance/deer-flow/blob/main/docs/guide/configuration.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Configuration</a></li>\n<li>Docker details, sizing, upgrades, startup modes and production deployment: <a href=\"https://github.com/bytedance/deer-flow/blob/main/docs/guide/deployment.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Running the Application</a></li>\n<li>Running on a server or exposing it beyond localhost: read the <a href=\"https://github.com/bytedance/deer-flow/blob/main/docs/guide/security.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Security Notice</a> first</li>\n</ul>",
+    "truncated": false,
+    "chars": 1273
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 16,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:12.088Z",
+  "checked_at": "2026-11-17T02:19:12.088Z"
+ },
+ "contributors": {
+  "count": 674,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:17.815Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:12.088Z"
+}

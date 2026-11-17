@@ -1,0 +1,110 @@
+{
+ "id": "caddyserver/caddy",
+ "github_id": 29207621,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyOTIwNzYyMQ==",
+ "full_name": "caddyserver/caddy",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.325Z",
+ "meta": {
+  "name": "caddy",
+  "owner": "caddyserver",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/12955528?v=4",
+  "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+  "homepage": "https://caddyserver.com",
+  "html_url": "https://github.com/caddyserver/caddy",
+  "default_branch": "master",
+  "language": "Go",
+  "languages": null,
+  "topics": [
+   "acme",
+   "automatic-https",
+   "caddy",
+   "caddyfile",
+   "go",
+   "golang",
+   "http",
+   "http-server",
+   "http3",
+   "https",
+   "privacy",
+   "reverse-proxy",
+   "security",
+   "tls",
+   "web-server"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 79108,
+  "forks": 5274,
+  "watchers": null,
+  "open_issues": 279,
+  "open_prs": null,
+  "created_at": "2015-01-13T19:45:03Z",
+  "pushed_at": "2026-11-14T16:45:15Z",
+  "updated_at": "2026-11-17T01:57:10Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 21915,
+  "og_image": "https://opengraph.githubassets.com/1/caddyserver/caddy",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-14T16:45:12.000Z",
+  "commits_90d": 404,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.11.9",
+  "name": "v2.11.9",
+  "published_at": "2026-11-05T01:30:24Z",
+  "url": "https://github.com/caddyserver/caddy/releases/tag/v2.11.9",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 12657,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Install",
+    "html": "<p>The simplest, cross-platform way to get started is to download Caddy from <a href=\"https://github.com/caddyserver/caddy/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GitHub Releases</a> and place the executable file in your PATH.</p>\n<p>See <a href=\"https://caddyserver.com/docs/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our online documentation</a> for other install instructions.</p>",
+    "truncated": false,
+    "chars": 288
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li><strong>Easy configuration</strong> with the <a href=\"https://caddyserver.com/docs/caddyfile\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Caddyfile</a></li>\n<li><strong>Powerful configuration</strong> with its <a href=\"https://caddyserver.com/docs/json/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">native JSON config</a></li>\n<li><strong>Dynamic configuration</strong> with the <a href=\"https://caddyserver.com/docs/api\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">JSON API</a></li>\n<li><a href=\"https://caddyserver.com/docs/config-adapters\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Config adapters</strong></a> if you don't like JSON</li>\n<li><strong>Automatic HTTPS</strong> by default<ul>\n<li><a href=\"https://zerossl.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ZeroSSL</a> and <a href=\"https://letsencrypt.org\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Let's Encrypt</a> for public names</li>\n<li>Fully-managed local CA for internal names &amp; IPs</li>\n<li>Can coordinate with other Caddy instances in a cluster</li>\n<li>Multi-issuer fallback</li>\n<li>Encrypted ClientHello (ECH) support</li>\n</ul>\n</li>\n<li><strong>Stays up when other servers go down</strong> due to TLS/OCSP/certificate-related issues</li>\n<li><strong>Production-ready</strong> after serving trillions of requests and managing millions of TLS certificates</li>\n<li><strong>Scales to hundreds of thousands of sites</strong> as proven in production</li>\n<li><strong>HTTP/1.1, HTTP/2, and HTTP/3</strong> all supported by default</li>\n<li><strong>Highly extensible</strong> <a href=\"https://caddyserver.com/docs/architecture\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">modular architecture</a> lets Caddy do anything without bloat</li>\n<li><strong>Runs anywhere</strong> with <strong>no external dependencies</strong> (not even libc)</li>\n<li>Written in Go, a language with higher <strong>memory safety guarantees</strong> than other servers</li>\n<li>Actually <strong>fun to use</strong></li>\n<li>So much more to <a href=\"https://caddyserver.com/features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">discover</a></li>\n</ul>",
+    "truncated": false,
+    "chars": 1352
+   }
+  },
+  "headings": 12,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:52.087Z",
+  "checked_at": "2026-11-16T05:08:52.087Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:27.964Z",
+ "contributors": null
+}

@@ -1,0 +1,89 @@
+{
+ "id": "pgvector/pgvector",
+ "github_id": 359952601,
+ "node_id": "MDEwOlJlcG9zaXRvcnkzNTk5NTI2MDE=",
+ "full_name": "pgvector/pgvector",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "pgvector",
+  "owner": "pgvector",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/98363230?v=4",
+  "description": "Open-source vector similarity search for Postgres",
+  "homepage": null,
+  "html_url": "https://github.com/pgvector/pgvector",
+  "default_branch": "master",
+  "language": "C",
+  "languages": null,
+  "topics": [
+   "approximate-nearest-neighbor-search",
+   "nearest-neighbor-search"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 23699,
+  "forks": 1395,
+  "watchers": null,
+  "open_issues": 18,
+  "open_prs": null,
+  "created_at": "2021-04-20T21:13:52Z",
+  "pushed_at": "2026-11-17T02:11:51Z",
+  "updated_at": "2026-11-17T02:14:36Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 2323,
+  "og_image": "https://opengraph.githubassets.com/1/pgvector/pgvector",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T02:10:19.000Z",
+  "commits_90d": 222,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": {
+  "tag": "v0.8.7",
+  "name": "v0.8.7",
+  "published_at": "2026-10-01T17:26:23Z",
+  "url": "https://github.com/pgvector/pgvector/releases/tag/v0.8.7"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 42227,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<h5>Linux and Mac</h5>\n<p>Compile and install the extension (supports Postgres 13+)</p>\n<pre><code class=\"language-sh\">cd /tmp\ngit clone --branch v0.8.7 https://github.com/pgvector/pgvector.git\ncd pgvector\nmake\nmake install # may need sudo\n</code></pre>\n<p>See the <a href=\"https://github.com/pgvector/pgvector#installation-notes---linux-and-mac\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">installation notes</a> if you run into issues</p>\n<p>You can also install it with <a href=\"https://github.com/pgvector/pgvector#docker\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker</a>, <a href=\"https://github.com/pgvector/pgvector#homebrew\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Homebrew</a>, <a href=\"https://github.com/pgvector/pgvector#pgxn\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PGXN</a>, <a href=\"https://github.com/pgvector/pgvector#apt\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">APT</a>, <a href=\"https://github.com/pgvector/pgvector#yum\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Yum</a>, <a href=\"https://github.com/pgvector/pgvector#pkg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">pkg</a>, <a href=\"https://github.com/pgvector/pgvector#apk\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">APK</a>, or <a href=\"https://github.com/pgvector/pgvector#conda-forge\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">conda-forge</a>, and it comes preinstalled with <a href=\"https://github.com/pgvector/pgvector#postgresapp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Postgres.app</a> and many <a href=\"https://github.com/pgvector/pgvector#hosted-postgres\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">hosted providers</a>. There are also instructions for <a href=\"https://github.com/pgvector/setup-pgvector\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GitHub Actions</a>.</p>\n<h5>Windows</h5>\n<p>Ensure <a href=\"https://learn.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=msvc-170#download-and-install-the-tools\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">C++ support in Visual Studio</a> is installed and run <code>x64 Native Tools Command Prompt for VS [version]</code> as administrator. Then use <code>nmake</code> to build:</p>\n<pre><code class=\"language-cmd\">set \"PGROOT=C:\\Program Files\\PostgreSQL\\18\"\ncd %TEMP%\ngit clone --branch v0.8.7 https://github.com/pgvector/pgvector.git\ncd pgvector\nnmake /F Makefile.win\nnmake /F Makefile.win install\n</code></pre>\n<p>See the <a href=\"https://github.com/pgvector/pgvector#installation-notes---windows\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">installation notes</a> if you run into issues</p>\n<p>You can also install it with <a href=\"https://github.com/pgvector/pgvector#docker\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker</a> or <a href=\"https://github.com/pgvector/pgvector#conda-forge\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">conda-forge</a>.</p>",
+    "truncated": false,
+    "chars": 1323
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 96,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:50.036Z",
+  "checked_at": "2026-11-17T02:19:50.036Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:50.036Z"
+}

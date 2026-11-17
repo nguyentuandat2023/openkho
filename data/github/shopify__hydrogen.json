@@ -1,0 +1,95 @@
+{
+ "id": "Shopify/hydrogen",
+ "github_id": 538665344,
+ "node_id": "R_kgDOIBthgA",
+ "full_name": "Shopify/hydrogen",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.326Z",
+ "meta": {
+  "name": "hydrogen",
+  "owner": "Shopify",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/8085?v=4",
+  "description": "Shopify commerce primitives in your framework",
+  "homepage": "https://hydrogen.shopify.dev",
+  "html_url": "https://github.com/Shopify/hydrogen",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "hydrogen",
+   "nextjs",
+   "react",
+   "remix",
+   "shopify"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 2179,
+  "forks": 463,
+  "watchers": null,
+  "open_issues": 120,
+  "open_prs": null,
+  "created_at": "2022-09-19T19:28:49Z",
+  "pushed_at": "2026-11-16T22:38:59Z",
+  "updated_at": "2026-11-16T11:44:22Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 101276,
+  "og_image": "https://opengraph.githubassets.com/1/Shopify/hydrogen",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T17:23:43.000Z",
+  "commits_90d": 329,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "@shopify/mini-oxygen@4.3.0",
+  "name": "@shopify/mini-oxygen@4.3.0",
+  "published_at": "2026-11-10T17:13:20Z",
+  "url": "https://github.com/Shopify/hydrogen/releases/tag/%40shopify%2Fmini-oxygen%404.3.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 11480,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Get started",
+    "html": "<p>You need a Shopify store with Storefront API access from the <a href=\"https://shopify.dev/docs/storefronts/headless/building-with-the-storefront-api/manage-headless-channels\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Headless channel</a>. Until you connect one, the template and the setup skill fall back to <a href=\"https://mock.shop\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">mock.shop</a>, a public Storefront API with demo data.</p>\n<h5>Deploy a template</h5>\n<p><strong>React Router on Oxygen.</strong> Shopify's starter template, <a href=\"https://github.com/Shopify/hydrogen/blob/main/templates/react-router\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>templates/react-router</code></a>, deployed to <a href=\"https://shopify.dev/docs/storefronts/hydrogen/deploy/oxygen\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Oxygen</a> from your Shopify admin.</p>\n<p><a href=\"https://admin.shopify.com/hydrogen/new?template=react-router\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/Shopify/hydrogen/main/.github/images/deploy-to-oxygen.svg\" alt=\"Deploy to Oxygen\" loading=\"lazy\" decoding=\"async\" width=\"182\" height=\"46\" /></a></p>\n<p><strong>Next.js on Vercel.</strong> <a href=\"https://github.com/vercel/shop\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Vercel Shop</a> is a Next.js storefront built on Hydrogen and maintained by Vercel.</p>\n<p><a href=\"https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fshop&amp;project-name=shop&amp;repository-name=shop&amp;demo-title=Vercel+Shop&amp;demo-url=https%3A%2F%2Ftemplate.vercel.shop&amp;stores=%5B%7B%22type%22%3A%22integration%22%2C%22integrationSlug%22%3A%22shopify%22%2C%22productSlug%22%3A%22shopify%22%2C%22protocol%22%3A%22other%22%7D%5D\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://vercel.com/button\" alt=\"Deploy with Vercel\" loading=\"lazy\" decoding=\"async\" width=\"129\" height=\"40\" /></a></p>\n<h5>Add Hydrogen to your project</h5>\n<p>From your project's root directory, run:</p>\n<pre><code class=\"language-bash\">npx @shopify/hydrogen@latest setup\n</code></pre>\n<p><code>setup</code> installs <code>@shopify/hydrogen</code> with your project's package manager, and copies Hydrogen's agent skills into <code>.claude/skills</code> (read by Claude Code) and <code>.agents/skills</code> (read by Codex, Cursor, and OpenCode), matched to the installed version. In an empty directory, it offers to create a project from the React Router template.</p>\n<p>Then ask your coding agent to build the storefront:</p>\n<pre><code class=\"language-text\">Set up my store with Shopify.\n</code></pre>\n<p>The agent follows the <code>hydrogen-setup</code> skill. It adds a Storefront API client and request handlers, then builds a home page, collection and search pages, a product page, a cart page and cart drawer, an account page, and consent-gated analytics. It runs your typecheck after each step and smoke-tests the storefront at the end.</p>\n<h5>After you upgrade Hydrogen</h5>\n<p>Skills describe the API of the installed version, so sync them after each upgrade:</p>\n<pre><code class=\"language-bash\">npx @shopify/hydrogen skills sync\n</code></pre>\n<p><code>npx @shopify/hydrogen skills check</code> exits non-zero when the skills are out of date, so you can run it in CI. See <a href=\"https://github.com/Shopify/hydrogen/blob/main/packages/hydrogen/README.md#keeping-skills-in-sync\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Keeping skills in sync</a>.</p>",
+    "truncated": false,
+    "chars": 2569
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 14,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:12.101Z",
+  "checked_at": "2026-11-17T02:20:12.101Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:12.101Z"
+}

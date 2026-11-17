@@ -1,0 +1,98 @@
+{
+ "id": "TryGhost/Ghost",
+ "github_id": 9852918,
+ "node_id": "MDEwOlJlcG9zaXRvcnk5ODUyOTE4",
+ "full_name": "TryGhost/Ghost",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:06.954Z",
+ "meta": {
+  "name": "Ghost",
+  "owner": "TryGhost",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/2178663?v=4",
+  "description": "Independent technology for modern publishing, memberships, subscriptions and newsletters.",
+  "homepage": "https://ghost.org",
+  "html_url": "https://github.com/TryGhost/Ghost",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "blogging",
+   "cms",
+   "ghost",
+   "javascript",
+   "journalism",
+   "nodejs",
+   "publishing",
+   "web-application"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 55833,
+  "forks": 12141,
+  "watchers": null,
+  "open_issues": 231,
+  "open_prs": null,
+  "created_at": "2013-05-04T11:09:13Z",
+  "pushed_at": "2026-11-17T02:12:48Z",
+  "updated_at": "2026-11-16T22:42:05Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 637158,
+  "og_image": "https://opengraph.githubassets.com/1/TryGhost/Ghost",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T22:06:13.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v6.77.0",
+  "name": "v6.77.0",
+  "published_at": "2026-11-11T21:54:20Z",
+  "url": "https://github.com/TryGhost/Ghost/releases/tag/v6.77.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 6241,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quickstart install",
+    "html": "<p>If you want to run your own instance of Ghost, in most cases the best way is to use our <strong>CLI tool</strong></p>\n<pre><code>npm install ghost-cli -g\n</code></pre>\n<p> </p>\n<p>Then, if installing locally add the <code>local</code> flag to get up and running in under a minute - <a href=\"https://docs.ghost.org/install/local/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Local install docs</a></p>\n<pre><code>ghost install local\n</code></pre>\n<p> </p>\n<p>or on a server run the full install, including automatic SSL setup using LetsEncrypt - <a href=\"https://docs.ghost.org/install/ubuntu/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Production install docs</a></p>\n<pre><code>ghost install\n</code></pre>\n<p> </p>\n<p>Check out our <a href=\"https://docs.ghost.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">official documentation</a> for more information about our <a href=\"https://docs.ghost.org/hosting/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">recommended hosting stack</a> &amp; properly <a href=\"https://docs.ghost.org/update/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">upgrading Ghost</a>, plus everything you need to develop your own Ghost <a href=\"https://docs.ghost.org/themes/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">themes</a> or work with <a href=\"https://docs.ghost.org/content-api/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our API</a>.</p>\n<h5>Contributors &amp; advanced developers</h5>\n<p>To contribute to Ghost, start with the\n<a href=\"https://github.com/TryGhost/Ghost/blob/main/.github/CONTRIBUTING.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">contributing guide</a>. To work on the monorepo, see the\n<a href=\"https://github.com/TryGhost/Ghost/blob/main/docs/README.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">codebase documentation</a>.</p>\n<p> </p>",
+    "truncated": false,
+    "chars": 1102
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 5,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:46.252Z",
+  "checked_at": "2026-11-17T02:20:46.252Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:46.252Z"
+}

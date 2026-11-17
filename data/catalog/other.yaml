@@ -1,0 +1,108 @@
+# Danh mục: Other Useful Projects (ưu tiên công cụ cho người Việt) — xem cấu trúc trường trong data/README.md
+- repo: undertheseanlp/underthesea
+  also: [ai-ml]
+  tags: [vietnamese, nlp, python]
+  summary: "Bộ công cụ xử lý ngôn ngữ tự nhiên tiếng Việt: tách từ, gán nhãn từ loại, nhận diện thực thể, phân loại văn bản, phân tích cảm xúc."
+  use_cases: ["Phân tích cảm xúc bình luận khách hàng tiếng Việt", "Phân loại phản hồi, ticket hỗ trợ"]
+  pros: ["Chuyên cho tiếng Việt", "Cài bằng pip, dùng ngay", "Giấy phép Apache-2.0"]
+  cons: ["Cần biết Python cơ bản", "Một số mô hình kém các LLM lớn với văn bản phức tạp"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+  featured: true
+- repo: tuyenvm/OpenKey
+  tags: [vietnamese, input-method, keyboard]
+  summary: "Bộ gõ tiếng Việt mã nguồn mở cho Windows, macOS, Linux: Telex, VNI, gõ tắt, chuyển mã — thay Unikey/EVKey."
+  use_cases: ["Gõ tiếng Việt trên máy tính công ty"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: thanglequoc/vietnamese-provinces-database
+  also: [database-backend, ecommerce]
+  tags: [vietnamese, administrative-units, sql, gis]
+  summary: "Cơ sở dữ liệu đơn vị hành chính Việt Nam dạng SQL/JSON kèm dữ liệu bản đồ GIS — dùng cho form địa chỉ, CRM, giao hàng."
+  use_cases: ["Ô chọn Tỉnh/Thành – Phường/Xã trên website", "Chuẩn hóa địa chỉ khách hàng"]
+  deploy: [content, library]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  note: "Kiểm tra dữ liệu đã cập nhật theo đợt sắp xếp đơn vị hành chính mới nhất trước khi dùng."
+  applicability: 4
+- repo: VinAIResearch/PhoBERT
+  also: [ai-ml]
+  tags: [vietnamese, bert, nlp]
+  summary: "Mô hình ngôn ngữ BERT huấn luyện riêng cho tiếng Việt của VinAI — nền tảng cho phân loại văn bản, cảm xúc, NER tiếng Việt."
+  use_cases: ["Phân loại văn bản tiếng Việt chính xác"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: VinAIResearch/PhoGPT
+  also: [chatbot-llm]
+  tags: [vietnamese, llm, generative]
+  summary: "Mô hình sinh văn bản tiếng Việt khoảng 4 tỷ tham số của VinAI (PhoGPT-4B và bản chat PhoGPT-4B-Chat)."
+  use_cases: ["Nghiên cứu LLM tiếng Việt"]
+  platforms: [linux]
+  deploy: [library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: bigdargon/hostsVN
+  tags: [vietnamese, ad-blocking, hosts]
+  summary: "Danh sách chặn quảng cáo, mã độc nhắm vào người dùng Việt Nam — dùng với AdGuard Home, Pi-hole hoặc trình chặn quảng cáo."
+  use_cases: ["Chặn quảng cáo cho cả mạng văn phòng"]
+  deploy: [content]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: ventoy/Ventoy
+  tags: [bootable-usb, iso, utility]
+  summary: "Tạo USB khởi động đa hệ điều hành: chỉ cần chép file ISO (Windows, Linux…) vào USB là boot được, không cần format lại."
+  use_cases: ["Cài lại Windows/Linux cho máy văn phòng"]
+  platforms: [windows, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: godotengine/godot
+  tags: [game-engine, 2d, 3d]
+  summary: "Game engine 2D/3D mã nguồn mở hoàn toàn miễn phí (MIT), không thu phí bản quyền — làm game, ứng dụng tương tác."
+  use_cases: ["Mini game quảng bá thương hiệu", "Ứng dụng tương tác cho sự kiện"]
+  platforms: [windows, macos, linux, android, ios, web]
+  deploy: [desktop]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: argosopentech/argos-translate
+  also: [ai-ml]
+  tags: [translation, offline, python]
+  summary: "Thư viện dịch máy offline bằng Python (nền tảng của LibreTranslate): cài gói ngôn ngữ và dịch không cần Internet."
+  use_cases: ["Dịch văn bản trong quy trình tự động không gửi dữ liệu ra ngoài"]
+  platforms: [windows, macos, linux]
+  deploy: [library, cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: reactive-resume/reactive-resume
+  tags: [resume, cv-builder, privacy]
+  summary: "Tạo CV đẹp miễn phí, tôn trọng quyền riêng tư, nhiều mẫu, xuất PDF — tự host hoặc dùng trực tiếp."
+  use_cases: ["CV cho nhân sự, hồ sơ năng lực cá nhân"]
+  platforms: [web, docker]
+  deploy: [cloud, self-host]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 3

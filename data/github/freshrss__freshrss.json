@@ -1,0 +1,99 @@
+{
+ "id": "FreshRSS/FreshRSS",
+ "github_id": 6322699,
+ "node_id": "MDEwOlJlcG9zaXRvcnk2MzIyNjk5",
+ "full_name": "FreshRSS/FreshRSS",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:03.703Z",
+ "meta": {
+  "name": "FreshRSS",
+  "owner": "FreshRSS",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/9414285?v=4",
+  "description": "A free, self-hostable news aggregator…",
+  "homepage": "https://freshrss.org",
+  "html_url": "https://github.com/FreshRSS/FreshRSS",
+  "default_branch": "edge",
+  "language": "PHP",
+  "languages": null,
+  "topics": [
+   "feed",
+   "freshrss",
+   "news-aggregator",
+   "php",
+   "rss",
+   "rss-aggregator",
+   "rss-reader",
+   "self-hosted",
+   "websub"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 16606,
+  "forks": 1348,
+  "watchers": null,
+  "open_issues": 681,
+  "open_prs": null,
+  "created_at": "2012-10-21T16:48:50Z",
+  "pushed_at": "2026-11-16T22:26:18Z",
+  "updated_at": "2026-11-17T01:08:07Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 37412,
+  "og_image": "https://opengraph.githubassets.com/1/FreshRSS/FreshRSS",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T22:26:18.000Z",
+  "commits_90d": 231,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "1.30.4",
+  "name": "FreshRSS 1.30.4",
+  "published_at": "2026-10-21T20:45:47Z",
+  "url": "https://github.com/FreshRSS/FreshRSS/releases/tag/1.30.4",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 25066,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>If you want a rolling release with the newest features and security fixes,\nor want to help testing or developing the next release,\nyou can use <a href=\"https://github.com/FreshRSS/FreshRSS/tree/edge/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">the <code>edge</code> branch</a>.</p>\n<p>If you prefer fewer updates, you can use <a href=\"https://github.com/FreshRSS/FreshRSS/tree/latest/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">the <code>latest</code> branch</a>.\nIt is more stable but at the price of less security and more known bugs,\nas fixes are not backported to older versions.\nNew versions are published a few times a year.\nSee the <a href=\"https://github.com/FreshRSS/FreshRSS/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">latest release</a>\nand the <a href=\"https://github.com/FreshRSS/FreshRSS/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">list of releases</a>.</p>\n<h4>Automated install</h4>\n<table>\n<thead>\n<tr>\n<th></th>\n<th></th>\n<th></th>\n</tr>\n</thead>\n<tbody><tr>\n<td><a href=\"https://github.com/FreshRSS/FreshRSS/blob/edge/Docker\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://www.docker.com/app/uploads/2022/03/horizontal-logo-monochromatic-white.png\" alt=\"Docker\" loading=\"lazy\" decoding=\"async\" width=\"160\" /></a></td>\n<td><a href=\"https://install-app.yunohost.org/?app=freshrss\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://install-app.yunohost.org/install-with-yunohost.png\" alt=\"YunoHost\" loading=\"lazy\" decoding=\"async\" width=\"160\" /></a></td>\n<td><a href=\"https://elest.io/open-source/freshrss\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://elest.io/images/logos/deploy-to-elestio-btn.png\" alt=\"Elestio\" loading=\"lazy\" decoding=\"async\" width=\"160\" /></a></td>\n</tr>\n<tr>\n<td><a href=\"https://www.cloudron.io/button.html?app=org.freshrss.cloudronapp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://www.cloudron.io/img/button.svg\" alt=\"Cloudron\" loading=\"lazy\" decoding=\"async\" width=\"160\" /></a></td>\n<td><a href=\"https://www.pikapods.com/pods?run=freshrss\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://www.pikapods.com/static/run-button-34.svg\" alt=\"PikaPods\" loading=\"lazy\" decoding=\"async\" width=\"160\" /></a></td>\n<td><a href=\"https://zenavo.app/templates/freshrss\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://zenavo.app/deploy-button.svg\" alt=\"Zenavo\" loading=\"lazy\" decoding=\"async\" width=\"160\" /></a></td>\n</tr>\n<tr>\n<td><a href=\"https://template.run.claw.cloud/?openapp=system-fastdeploy%3FtemplateName%3Dfreshrss\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ClawCloud/Run-Template/refs/heads/main/Run-on-ClawCloud.svg\" alt=\"ClawCloud\" loading=\"lazy\" decoding=\"async\" width=\"160\" /></a></td>\n<td><a href=\"https://www.hostinger.com/docker-hosting?compose_url=https://github.com/FreshRSS/FreshRSS/blob/edge/Docker/freshrss/docker-compose.yml\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://assets.hostinger.com/vps/deploy.svg\" alt=\"Hostinger\" loading=\"lazy\" decoding=\"async\" width=\"160\" /></a></td>\n<td></td>\n</tr>\n</tbody></table>\n<p>For more cloud hosting options, see the <a href=\"https://freshrss.org/cloud-providers.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">list of cloud providers</a> or <a href=\"https://www.chatons.org/search/by-service?field_software_target_id=269\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Chatons</a> (a directory of ethical hosting providers).</p>\n<h4>Manual install</h4>\n<ol>\n<li>Get FreshRSS with git or <a href=\"https://github.com/FreshRSS/FreshRSS/archive/refs/heads/latest.zip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">by downloading the archive</a></li>\n<li>Put the application somewhere on your server (expose only the <code>./p/</code> folder to the Web)</li>\n<li>Add write access to the <code>./data/</code> folder for the webserver user</li>\n<li>Access FreshRSS with your browser and follow the installation process<ul>\n<li>or use the <a href=\"https://github.com/FreshRSS/FreshRSS/blob/edge/cli/README.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Command-Line Interface</a></li>\n</ul>\n</li>\n<li>Everything should be working :) If you encounter any problems, feel free to <a href=\"https://github.com/FreshRSS/FreshRSS/issues\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">contact us</a>.</li>\n<li>Advanced configuration settings can be found in <a href=\"https://github.com/FreshRSS/FreshRSS/blob/edge/config.default.php\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">config.default.php</a> and modified in <code>data/config.php</code>.</li>\n<li>When using Apache, enable <a href=\"https://httpd.apache.org/docs/trunk/mod/core.html#allowencodedslashes\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>AllowEncodedSlashes</code></a> for better compatibility with mobile clients.</li>\n</ol>\n<p>More detailed information about installation and server configuration can be found in <a href=\"https://freshrss.github.io/FreshRSS/en/admins/03_Installation.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our documentation</a>.</p>",
+    "truncated": false,
+    "chars": 3268
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 17,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:40.177Z",
+  "checked_at": "2026-11-17T02:20:40.177Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:40.177Z"
+}

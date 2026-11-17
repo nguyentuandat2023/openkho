@@ -1,0 +1,107 @@
+{
+ "id": "teableio/teable",
+ "github_id": 560299175,
+ "node_id": "R_kgDOIWV8pw",
+ "full_name": "teableio/teable",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.971Z",
+ "meta": {
+  "name": "teable",
+  "owner": "teableio",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/113977713?v=4",
+  "description": "✨ AI Spreadsheet for Business",
+  "homepage": "https://teable.ai",
+  "html_url": "https://github.com/teableio/teable",
+  "default_branch": "develop",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "ai-agent",
+   "airtable",
+   "airtable-alternative",
+   "app-builder",
+   "database",
+   "internal-tool",
+   "low-code",
+   "no-code",
+   "postgres",
+   "postgresql",
+   "sandbox",
+   "spreadsheet"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 21997,
+  "forks": 1366,
+  "watchers": null,
+  "open_issues": 150,
+  "open_prs": null,
+  "created_at": "2022-11-01T07:02:49Z",
+  "pushed_at": "2026-11-17T02:11:10Z",
+  "updated_at": "2026-11-16T17:50:31Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 92232,
+  "og_image": "https://opengraph.githubassets.com/1/teableio/teable",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-13T13:42:26.000Z",
+  "commits_90d": 18,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "release.2026-11-16T11-45-17Z.3934",
+  "name": "release.2026-11-16T11-45-17Z.3934",
+  "published_at": "2026-11-17T00:59:35Z",
+  "url": "https://github.com/teableio/teable/releases/tag/release.2026-11-16T11-45-17Z.3934",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 9940,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Deploy",
+    "html": "<p>Three ways to run Teable — pick by what you need (full comparison in the\n<a href=\"https://help.teable.ai/en/deploy/choose\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Deployment guide</a>):</p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th><strong>Teable Cloud</strong></th>\n<th><strong>Full-featured self-host</strong></th>\n<th><strong>Standalone self-host</strong></th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Tables, collaboration, API, automation</td>\n<td>✅</td>\n<td>✅</td>\n<td>✅</td>\n</tr>\n<tr>\n<td>AI features (chat, agents)</td>\n<td>✅</td>\n<td>✅</td>\n<td>❌</td>\n</tr>\n<tr>\n<td>App Builder (build &amp; deploy apps)</td>\n<td>✅</td>\n<td>✅</td>\n<td>❌</td>\n</tr>\n<tr>\n<td>Start here</td>\n<td><a href=\"https://teable.ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">teable.ai</a></td>\n<td><a href=\"https://github.com/teableio/teable-deployment\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">teableio/teable-deployment</a></td>\n<td><a href=\"https://help.teable.ai/en/deploy/docker\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker guide</a></td>\n</tr>\n</tbody></table>\n<p>Prefer not to deploy by hand? <strong>Hand <a href=\"https://github.com/teableio/teable-deployment\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">teableio/teable-deployment</a>\nto your AI agent</strong> (Claude Code, Codex, …) together with a domain, a DNS token,\nand access to the target machine or cluster — it can take the deployment end\nto end.</p>\n<p>Already running standalone Teable? The runtime plane installs next to it and\nyour data stays in place: <a href=\"https://github.com/teableio/teable-deployment/blob/main/migration/2026-07-basic-to-full-featured.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">migration guide</a>.</p>",
+    "truncated": false,
+    "chars": 1905
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<h5>🤖 AI-native</h5>\n<ul>\n<li><strong>AI Chat</strong> — ask, analyze, and operate on your data in natural language.</li>\n<li><strong>App Builder</strong> — describe the app you need; an agent builds it in an isolated sandbox and deploys it to its own URL in one click.</li>\n<li><strong>AI automations</strong> — react to record changes, schedules, and webhooks, with AI steps doing the reasoning.</li>\n<li><strong>AI field filling</strong> — generate and enrich field values in bulk.</li>\n</ul>\n<h5>🍺 Everything you need, out of the box</h5>\n<p>Grid, Form, Kanban, Gallery, and Calendar views; formulas, field conversion,\nfiltering, grouping, sorting, and aggregation; comments, record history,\nundo/redo, and real-time collaboration; attachments preview, batch editing,\nimport/export, search, validation, charts, plugins, SQL query — and millions\nof rows without breaking a sweat.</p>\n<p>Grid views can group button fields by click count. Unclicked or reset buttons\nremain in the empty group; each stored count has its own group header.</p>\n<p>More features land all the time — see the <a href=\"https://help.teable.ai/en/changelog\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Changelog</a>.</p>",
+    "truncated": false,
+    "chars": 1057
+   }
+  },
+  "headings": 13,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:39.388Z",
+  "checked_at": "2026-11-17T02:20:25.589Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:25.589Z"
+}

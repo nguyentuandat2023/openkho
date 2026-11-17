@@ -1,0 +1,23 @@
+# Thư viện & bản build
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Dữ liệu sinh tự động khi build (tạo lại bằng `npm run data`)
+src/generated/
+public/data/
+
+# Cache HTTP/ETag của script đồng bộ, ảnh chụp kiểm thử
+.cache/
+test-results/
+
+# Bí mật – KHÔNG đưa token lên Git
+.env
+.env.local
+.env.*.local
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db

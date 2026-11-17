@@ -1,0 +1,149 @@
+# Danh mục: AI Marketing & Content Creation — xem cấu trúc trường trong data/README.md
+- repo: coreyhaines31/marketingskills
+  also: [mcp-ai-tools]
+  tags: [agent-skills, claude-code, copywriting, seo, cro]
+  summary: "Bộ 'kỹ năng' (Agent Skills) marketing cho Claude Code và các AI agent: tối ưu chuyển đổi (CRO), viết copy, SEO, phân tích số liệu, chiến lược tăng trưởng."
+  use_cases: ["Viết landing page, email, quảng cáo theo khung chuyên nghiệp", "Audit trang web theo tiêu chí CRO/SEO", "Lập kế hoạch nội dung"]
+  pros: ["Tập trung đúng nghiệp vụ marketing", "Dùng ngay trong AI agent bạn đang có", "Giấy phép MIT"]
+  cons: ["Cần tài khoản AI agent hỗ trợ Agent Skills (thường trả phí)", "Nội dung tiếng Anh — cần yêu cầu AI trả lời bằng tiếng Việt"]
+  platforms: [windows, macos, linux]
+  deploy: [skill]
+  difficulty: easy
+  pricing: free
+  needs_api_key: required
+  requirements: "Claude Code hoặc AI agent hỗ trợ Agent Skills."
+  applicability: 5
+  featured: true
+- repo: harry0703/MoneyPrinterTurbo
+  also: [ai-video-image]
+  tags: [short-video, tiktok, youtube-shorts, automation]
+  summary: "Tạo video ngắn tự động từ một chủ đề: AI viết kịch bản, ghép video nền miễn phí bản quyền, lồng tiếng, phụ đề và nhạc nền."
+  use_cases: ["Sản xuất video TikTok/Reels/Shorts số lượng lớn", "Video giới thiệu chủ đề, mẹo vặt nhanh"]
+  pros: ["Một chủ đề → video hoàn chỉnh", "Hỗ trợ khung dọc 9:16 và ngang 16:9", "Chọn được nhiều nhà cung cấp LLM"]
+  cons: ["Video nền stock chung chung, thiếu bản sắc thương hiệu", "Giọng đọc phụ thuộc dịch vụ TTS trực tuyến", "Cần kiểm tra bản quyền nhạc nền trước khi đăng"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [local, self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: required
+  requirements: "Khóa API của một LLM (OpenAI, DeepSeek, Gemini…) và khóa Pexels/Pixabay (miễn phí) để lấy video nền."
+  applicability: 5
+  featured: true
+- repo: gitroomhq/postiz-app
+  also: [marketing-seo]
+  tags: [social-media, scheduling, ai-writing]
+  summary: "Lên lịch và quản lý bài đăng mạng xã hội có AI hỗ trợ viết nội dung — thay Buffer/Hootsuite, tự host được."
+  use_cases: ["Lên lịch đăng bài đa kênh (Facebook, Instagram, TikTok, YouTube, LinkedIn, X…)", "Duyệt bài theo nhóm", "Theo dõi hiệu quả bài đăng"]
+  pros: ["Quản lý nhiều kênh, nhiều khách hàng trong một nơi", "Có AI gợi ý nội dung và hình ảnh", "Tự host miễn phí, không giới hạn số kênh"]
+  cons: ["Phải tạo ứng dụng developer trên từng mạng xã hội để kết nối", "Tự host cần Docker và tên miền"]
+  platforms: [docker, web]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 5
+  featured: true
+- repo: firecrawl/firecrawl
+  also: [ai-automation]
+  tags: [web-scraping, crawler, llm-ready, api]
+  summary: "Biến website thành Markdown/JSON sạch cho AI: crawl toàn site, trích dữ liệu có cấu trúc, tìm kiếm web."
+  use_cases: ["Nghiên cứu đối thủ, bảng giá", "Đưa nội dung website vào chatbot", "Theo dõi nội dung thị trường"]
+  platforms: [docker, linux, macos, windows]
+  deploy: [cloud, self-host, library]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  note: "Bản tự host có ít tính năng hơn bản cloud trả phí. Tôn trọng robots.txt và điều khoản của website khi thu thập dữ liệu."
+  applicability: 4
+- repo: unclecode/crawl4ai
+  also: [ai-automation]
+  tags: [web-scraping, crawler, python, llm-ready]
+  summary: "Trình thu thập web mã nguồn mở thân thiện với LLM: xuất Markdown sạch, trích dữ liệu theo schema, chạy trên máy bạn."
+  use_cases: ["Thu thập bài viết, sản phẩm cho phân tích", "Chuẩn bị dữ liệu web cho RAG"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [library, self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  quick_start: |
+    pip install -U crawl4ai
+    crawl4ai-setup
+  note: "Tôn trọng robots.txt và điều khoản của website khi thu thập dữ liệu."
+  applicability: 4
+- repo: D4Vinci/Scrapling
+  tags: [web-scraping, python]
+  summary: "Thư viện thu thập dữ liệu web 'thích nghi': tự tìm lại phần tử khi website đổi giao diện, nhiều chế độ tải trang (HTTP nhanh hoặc trình duyệt thật)."
+  use_cases: ["Theo dõi giá, tồn kho đối thủ", "Thu thập dữ liệu nghiên cứu"]
+  platforms: [windows, macos, linux]
+  deploy: [library, cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  note: "Tôn trọng robots.txt và điều khoản của website khi thu thập dữ liệu."
+  applicability: 3
+- repo: OpenMontageInc/OpenMontage
+  also: [video-media]
+  tags: [ai-video, video-production, agent]
+  summary: "Hệ thống dựng video tự động bằng AI agent — từ kịch bản, giọng đọc, hình ảnh tới video hoàn chỉnh, chạy trên máy cá nhân."
+  use_cases: ["Sản xuất video quảng cáo/giới thiệu sản phẩm theo kịch bản", "Tự động hóa dựng video số lượng lớn"]
+  platforms: [windows, macos, linux]
+  deploy: [local]
+  difficulty: hard
+  pricing: free
+  needs_api_key: optional
+  applicability: 4
+- repo: assafelovic/gpt-researcher
+  also: [ai-agents]
+  tags: [deep-research, report, agent]
+  summary: "Agent nghiên cứu tự động: tìm hàng chục nguồn web và tài liệu rồi viết báo cáo chi tiết có trích dẫn."
+  use_cases: ["Báo cáo nghiên cứu thị trường", "Tổng hợp xu hướng ngành", "Tư liệu cho bài viết chuyên sâu"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [local, library, self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: required
+  requirements: "Khóa API LLM và dịch vụ tìm kiếm web (ví dụ Tavily có gói miễn phí)."
+  applicability: 5
+- repo: stanford-oval/storm
+  tags: [long-form, research, writing]
+  summary: "Hệ thống của Đại học Stanford tự nghiên cứu và viết bài dài kiểu Wikipedia có trích dẫn nguồn từ một chủ đề."
+  use_cases: ["Bản nháp bài viết chuyên sâu, whitepaper", "Tổng quan một chủ đề mới"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: required
+  applicability: 3
+- repo: linyqh/NarratoAI
+  also: [video-media]
+  tags: [video-commentary, narration, ai-video]
+  summary: "Tự động làm video bình luận/thuyết minh: AI phân tích video gốc, viết lời bình, lồng tiếng và ghép phụ đề."
+  use_cases: ["Video review, tóm tắt nội dung", "Thuyết minh video sản phẩm"]
+  platforms: [windows, macos, linux]
+  deploy: [local]
+  difficulty: medium
+  pricing: free
+  needs_api_key: required
+  note: "Chỉ dùng với video bạn có quyền sử dụng."
+  applicability: 3
+- repo: FujiwaraChoki/MoneyPrinterV2
+  also: [ecommerce]
+  tags: [automation, youtube-shorts, affiliate, twitter]
+  summary: "Bộ tự động hóa kiếm tiền online: bot đăng X/Twitter, tạo và đăng YouTube Shorts, tiếp thị liên kết, tìm khách hàng doanh nghiệp địa phương."
+  use_cases: ["Thử nghiệm kênh nội dung tự động", "Tự động hóa tiếp thị liên kết"]
+  platforms: [windows, macos, linux]
+  deploy: [local]
+  difficulty: hard
+  pricing: free
+  needs_api_key: required
+  note: "Tự động đăng bài/nhắn tin hàng loạt có thể vi phạm điều khoản nền tảng và quy định chống spam — dùng có trách nhiệm."
+  applicability: 3
+- repo: ATH-MaaS/Pixelle-Video
+  also: [ai-video-image]
+  tags: [short-video, ai-video, automation]
+  summary: "Công cụ tạo video ngắn hoàn toàn tự động bằng AI: nhập chủ đề, AI viết kịch bản, tạo hình ảnh/cảnh quay, giọng đọc và dựng thành video."
+  use_cases: ["Sản xuất video ngắn hàng loạt", "Video minh họa cho bài viết"]
+  deploy: [local]
+  difficulty: medium
+  pricing: free
+  applicability: 4

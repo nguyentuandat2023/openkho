@@ -1,0 +1,214 @@
+# Danh mục: AI Video & Image Generation — xem cấu trúc trường trong data/README.md
+- repo: Comfy-Org/ComfyUI
+  tags: [stable-diffusion, flux, video-generation, node-based]
+  summary: "Giao diện dạng node mạnh nhất để tạo ảnh và video bằng AI (Stable Diffusion, FLUX, Wan, Qwen-Image…) ngay trên máy bạn, kiểm soát từng bước xử lý."
+  use_cases: ["Ảnh sản phẩm, banner quảng cáo", "Video AI từ ảnh/văn bản", "Quy trình chỉnh ảnh hàng loạt"]
+  pros: ["Hỗ trợ gần như mọi mô hình ảnh/video mở mới nhất", "Quy trình lưu và chia sẻ được dưới dạng file", "Hệ sinh thái custom node khổng lồ"]
+  cons: ["Giao diện node khó với người mới", "Custom node bên thứ ba có thể chứa mã độc — chỉ cài từ nguồn tin cậy", "Cần GPU mạnh để làm video"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop, local]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  requirements: "Khuyến nghị GPU NVIDIA ≥ 8 GB VRAM; có hỗ trợ AMD, Apple Silicon và chế độ CPU (rất chậm)."
+  license_note: "Mã nguồn GPL-3.0. Mỗi mô hình (checkpoint) có giấy phép riêng — ví dụ FLUX.1-dev chỉ cho phép phi thương mại; kiểm tra trước khi dùng cho công việc thương mại."
+  quick_start: |
+    Windows: tải bản portable ở trang Releases → giải nén → chạy run_nvidia_gpu.bat
+    Hoặc cài ứng dụng ComfyUI Desktop từ trang chủ comfy.org
+  applicability: 5
+  featured: true
+- repo: pinokiocomputer/pinokio
+  also: [productivity]
+  tags: [one-click-installer, local-ai, launcher]
+  summary: "'Trình duyệt AI' cài và chạy hàng trăm ứng dụng AI mã nguồn mở bằng một cú nhấp — không cần dòng lệnh, tự lo Python, Git, FFmpeg."
+  use_cases: ["Cài ComfyUI, WanGP, Ollama… không cần kỹ thuật", "Thử nhanh ứng dụng AI mới"]
+  pros: ["Không cần biết lập trình", "Mỗi ứng dụng một môi trường riêng, dễ gỡ bỏ", "Thư viện ứng dụng phong phú"]
+  cons: ["Tốn nhiều dung lượng ổ cứng", "Script cộng đồng có thể lỗi khi ứng dụng gốc cập nhật"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  note: "Script cài đặt do cộng đồng cung cấp — ưu tiên script đã được xác minh."
+  applicability: 5
+  featured: true
+- repo: upscayl/upscayl
+  also: [design]
+  tags: [upscaling, image-enhancement, desktop]
+  summary: "Phần mềm phóng to và làm nét ảnh bằng AI cho Windows, macOS, Linux — cài là dùng, chạy hoàn toàn offline."
+  use_cases: ["Nâng cấp ảnh sản phẩm độ phân giải thấp", "Phục hồi ảnh cũ", "Phóng to ảnh để in ấn"]
+  pros: ["Rất dễ dùng", "Xử lý hàng loạt cả thư mục ảnh", "Miễn phí, không cần Internet"]
+  cons: ["Cần GPU hỗ trợ Vulkan", "Ảnh khuôn mặt có thể bị 'bịa' chi tiết"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  requirements: "GPU hỗ trợ Vulkan (đa số card rời và card tích hợp đời mới)."
+  quick_start: |
+    Tải bộ cài ở trang Releases → mở ảnh → chọn mô hình → bấm Upscayl
+  applicability: 5
+  featured: true
+- repo: danielgatis/rembg
+  also: [design, ecommerce]
+  tags: [background-removal, python, cli]
+  summary: "Tách nền ảnh tự động bằng AI qua dòng lệnh, thư viện Python hoặc máy chủ HTTP — xử lý hàng loạt ảnh sản phẩm."
+  use_cases: ["Ảnh sản phẩm nền trắng cho sàn TMĐT", "Ghép ảnh quảng cáo"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [cli, library, self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  quick_start: |
+    pip install "rembg[cpu,cli]"
+    rembg i anh-goc.jpg anh-tach-nen.png
+  applicability: 5
+- repo: AUTOMATIC1111/stable-diffusion-webui
+  tags: [stable-diffusion, webui]
+  summary: "Giao diện web Stable Diffusion phổ biến nhất một thời, rất nhiều tiện ích mở rộng — nay cập nhật chậm, cộng đồng dần chuyển sang ComfyUI."
+  use_cases: ["Tạo ảnh từ mô tả với các mô hình SD 1.5/SDXL", "Inpaint, img2img"]
+  platforms: [windows, linux, macos]
+  deploy: [local]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  requirements: "GPU NVIDIA ≥ 4–6 GB VRAM."
+  applicability: 3
+- repo: lllyasviel/Fooocus
+  tags: [image-generation, sdxl, beginner]
+  summary: "Tạo ảnh AI chất lượng cao kiểu Midjourney với cài đặt tối giản — gõ mô tả là ra ảnh, hợp với người mới."
+  use_cases: ["Ảnh minh họa bài viết", "Ý tưởng hình ảnh quảng cáo"]
+  platforms: [windows, linux, macos]
+  deploy: [local]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  requirements: "GPU NVIDIA ≥ 4 GB VRAM, RAM ≥ 8 GB (theo README)."
+  note: "Theo README, dự án chỉ còn hỗ trợ dài hạn ở mức sửa lỗi và không hỗ trợ các mô hình mới như FLUX."
+  applicability: 4
+- repo: invoke-ai/InvokeAI
+  tags: [image-generation, canvas, professional]
+  summary: "Bộ công cụ sáng tạo ảnh AI chuyên nghiệp: canvas vẽ/inpaint, quản lý mô hình, quy trình node — có trình cài đặt cho Windows, macOS, Linux."
+  use_cases: ["Thiết kế key visual, concept", "Chỉnh sửa ảnh có kiểm soát"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop, local]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: LykosAI/StabilityMatrix
+  tags: [package-manager, stable-diffusion, launcher]
+  summary: "Trình quản lý 'một cú nhấp' cho các giao diện AI tạo ảnh (ComfyUI, Forge, Fooocus, InvokeAI…): cài đặt, cập nhật, dùng chung thư viện mô hình."
+  use_cases: ["Quản lý nhiều giao diện AI trên một máy", "Tiết kiệm dung lượng mô hình dùng chung"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 5
+- repo: huggingface/diffusers
+  also: [ai-ml]
+  tags: [diffusion, python, library]
+  summary: "Thư viện Hugging Face để chạy và tinh chỉnh mô hình khuếch tán tạo ảnh, video, âm thanh bằng Python."
+  use_cases: ["Tích hợp tạo ảnh AI vào ứng dụng", "Huấn luyện LoRA theo phong cách thương hiệu"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: Wan-Video/Wan2.2
+  tags: [video-generation, text-to-video, image-to-video]
+  summary: "Mô hình tạo video mở của Alibaba (văn bản → video, ảnh → video); bản 5B chạy được trên GPU cỡ RTX 4090."
+  use_cases: ["Video quảng cáo ngắn từ ảnh sản phẩm", "Cảnh quay minh họa"]
+  platforms: [linux, windows]
+  deploy: [library, local]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  requirements: "GPU NVIDIA dung lượng lớn (24 GB cho bản 5B theo README); dùng ComfyUI hoặc WanGP để chạy dễ hơn."
+  applicability: 4
+- repo: deepbeepmeep/WanGP
+  tags: [video-generation, low-vram, webui]
+  summary: "Chạy các mô hình video AI mới (Wan, Hunyuan Video, LTX Video…) trên GPU ít VRAM với giao diện web đơn giản — 'video AI cho người ít GPU'."
+  use_cases: ["Tạo video AI trên máy tính cá nhân", "Thử nhiều mô hình video trong một công cụ"]
+  platforms: [windows, linux]
+  deploy: [local]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  requirements: "GPU NVIDIA; một số mô hình chạy được từ 6 GB VRAM (theo README)."
+  license_note: "Giấy phép riêng của dự án (GitHub hiển thị NOASSERTION); các mô hình đi kèm có giấy phép riêng."
+  applicability: 5
+- repo: Lightricks/LTX-Video
+  tags: [video-generation, fast]
+  summary: "Mô hình tạo video của Lightricks nổi bật về tốc độ, tạo video chất lượng tốt nhanh trên GPU cao cấp; tích hợp sẵn trong ComfyUI."
+  use_cases: ["Video ngắn cho mạng xã hội", "Chuyển ảnh tĩnh thành video chuyển động"]
+  platforms: [windows, linux]
+  deploy: [library, local]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  license_note: "Mã Apache-2.0; trọng số mô hình có giấy phép riêng — đọc điều kiện dùng thương mại trên trang mô hình."
+  applicability: 4
+- repo: lllyasviel/FramePack
+  tags: [video-generation, image-to-video, low-vram]
+  summary: "Tạo video dài từ một ảnh tĩnh trên GPU chỉ 6 GB VRAM (laptop cũng chạy được), xem trước từng đoạn khi đang tạo."
+  use_cases: ["Làm ảnh sản phẩm chuyển động", "Video từ ảnh nhân vật"]
+  platforms: [windows, linux]
+  deploy: [local, desktop]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  requirements: "GPU NVIDIA RTX từ 6 GB VRAM (theo README)."
+  applicability: 4
+- repo: Acly/krita-ai-diffusion
+  also: [design]
+  tags: [krita, plugin, inpainting]
+  summary: "Plugin đưa AI tạo ảnh vào phần mềm vẽ Krita: inpaint, mở rộng ảnh, phác thảo → ảnh hoàn chỉnh; dùng ComfyUI làm nền và cài tự động."
+  use_cases: ["Chỉnh sửa ảnh quảng cáo bằng AI trong phần mềm vẽ", "Họa sĩ dùng AI hỗ trợ phác thảo"]
+  platforms: [windows, macos, linux]
+  deploy: [extension]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  requirements: "Khuyến nghị GPU NVIDIA ≥ 6 GB VRAM, hoặc kết nối máy chủ ComfyUI từ xa."
+  applicability: 4
+- repo: QwenLM/Qwen-Image
+  tags: [image-generation, text-rendering, image-editing]
+  summary: "Mô hình tạo ảnh của Alibaba Qwen, nổi bật khả năng viết chữ trong ảnh chính xác và chỉnh sửa ảnh theo mô tả."
+  use_cases: ["Poster, banner có chữ", "Chỉnh sửa ảnh theo câu lệnh"]
+  platforms: [linux, windows]
+  deploy: [library, local]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  requirements: "GPU dung lượng lớn; dùng qua ComfyUI với bản lượng tử hóa để giảm VRAM."
+  applicability: 4
+- repo: Tencent-Hunyuan/HunyuanVideo
+  tags: [video-generation, text-to-video]
+  summary: "Mô hình tạo video chất lượng cao từ văn bản của Tencent Hunyuan."
+  use_cases: ["Nghiên cứu, thử nghiệm tạo video chất lượng cao"]
+  platforms: [linux]
+  deploy: [library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  requirements: "Bản gốc cần GPU rất lớn (hàng chục GB VRAM); bản lượng tử hóa qua ComfyUI/WanGP nhẹ hơn."
+  license_note: "Tencent Hunyuan Community License: không áp dụng tại Liên minh châu Âu, Vương quốc Anh và Hàn Quốc; sản phẩm có lượng người dùng cực lớn phải xin giấy phép riêng."
+  applicability: 3
+  license_override:
+    class: source-available
+    name: Tencent Hunyuan Community License
+- repo: KlingAIResearch/LivePortrait
+  tags: [portrait-animation, face]
+  summary: "Làm chuyển động khuôn mặt chân dung (ảnh → video biểu cảm) theo video mẫu, tốc độ rất nhanh."
+  use_cases: ["Nghiên cứu, thử nghiệm hoạt hình khuôn mặt"]
+  platforms: [windows, linux, macos]
+  deploy: [local]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  license_note: "Phụ thuộc mô hình nhận diện khuôn mặt InsightFace chỉ cho phép dùng phi thương mại — không phù hợp cho công việc thương mại."
+  note: "Chỉ dùng với ảnh bạn có quyền và được người trong ảnh đồng ý; không dùng để giả mạo người khác."
+  applicability: 2

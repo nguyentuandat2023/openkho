@@ -1,0 +1,127 @@
+{
+ "id": "HKUDS/LightRAG",
+ "github_id": 866513204,
+ "node_id": "R_kgDOM6XxNA",
+ "full_name": "HKUDS/LightRAG",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.073Z",
+ "meta": {
+  "name": "LightRAG",
+  "owner": "HKUDS",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/118165258?v=4",
+  "description": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation",
+  "homepage": "https://arxiv.org/abs/2410.05779",
+  "html_url": "https://github.com/HKUDS/LightRAG",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "docling",
+   "genai",
+   "gpt",
+   "graphrag",
+   "knowledge-graph",
+   "large-language-models",
+   "llm",
+   "mineru",
+   "rag",
+   "ragas",
+   "retrieval-augmented-generation"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 40726,
+  "forks": 5784,
+  "watchers": null,
+  "open_issues": 325,
+  "open_prs": null,
+  "created_at": "2024-10-02T11:57:54Z",
+  "pushed_at": "2026-11-16T18:52:18Z",
+  "updated_at": "2026-11-17T02:12:48Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 124870,
+  "og_image": "https://opengraph.githubassets.com/1/HKUDS/LightRAG",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T18:52:17.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.5.8rc1",
+  "name": "v1.5.8rc1",
+  "published_at": "2026-11-15T13:03:37Z",
+  "url": "https://github.com/HKUDS/LightRAG/releases/tag/v1.5.8rc1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 57297,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "oageL-1I0GE",
+    "url": "https://www.youtube.com/watch?v=oageL-1I0GE"
+   },
+   {
+    "type": "youtube",
+    "id": "g21royNJ4fw",
+    "url": "https://www.youtube.com/watch?v=g21royNJ4fw"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p><strong>💡 Using uv for Package Management</strong>: This project uses <a href=\"https://docs.astral.sh/uv/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">uv</a> for fast and reliable Python package management. Install uv first: <code>curl -LsSf https://astral.sh/uv/install.sh | sh</code> (Unix/macOS) or <code>powershell -c \"irm https://astral.sh/uv/install.ps1 | iex\"</code> (Windows)</p>\n<blockquote>\n<p><strong>Note</strong>: You can also use pip if you prefer, but uv is recommended for better performance and more reliable dependency management.</p>\n<p><strong>📦 Offline Deployment</strong>: For offline or air-gapped environments, see the <a href=\"https://github.com/HKUDS/LightRAG/blob/main/docs/OfflineDeployment.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Offline Deployment Guide</a> for instructions on pre-installing all dependencies and cache files.</p>\n</blockquote>\n<blockquote>\n<p>[!WARNING]\n<strong>Secure the server before you start it on a shared network.</strong> <code>lightrag-server</code> binds to all interfaces (<code>HOST=0.0.0.0</code>) and ships with authentication off, so on a cloud host every endpoint is public — and spends your LLM quota. Before the first start, either bind to a private address in <code>.env</code> (<code>HOST=127.0.0.1</code>, or a VPN / tunnel address), or configure authentication: <code>LIGHTRAG_API_KEY</code>, or <code>AUTH_ACCOUNTS</code> together with <code>TOKEN_SECRET</code> (generate one with <code>openssl rand -hex 32</code>). Once <code>LIGHTRAG_API_KEY</code> is set, the Ollama-compatible <code>/api/*</code> routes require it too (Ollama clients send it as <code>Authorization: Bearer &lt;key&gt;</code>); without a key they stay open for client compatibility. This applies to every installation method below.</p>\n</blockquote>\n<h5>Install from PyPI</h5>\n<p>The PyPI package ships a prebuilt WebUI, so no frontend build is needed.</p>\n<pre><code class=\"language-bash\"># Install LightRAG Server as a tool using uv (recommended)\nuv tool install \"lightrag-hku[api]\"\n\n# Or using pip inside a virtual environment\n# python -m venv .venv\n# source .venv/bin/activate  # Windows: .venv\\Scripts\\activate\n# pip install \"lightrag-hku[api]\"\n\n# Get the configuration template and edit it (see \"Minimum .env Changes\" below)\ncurl -O https://raw.githubusercontent.com/HKUDS/LightRAG/main/env.example\ncp env.example .env\n\nlightrag-server\n</code></pre>\n<h5>Install from Source</h5>\n<p><strong>Prerequisites</strong></p>\n<table>\n<thead>\n<tr>\n<th>Tool</th>\n<th>Used for</th>\n<th>How to install</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>git</td>\n<td>Cloning the repository</td>\n<td>Your system package manager</td>\n</tr>\n<tr>\n<td><a href=\"https://docs.astral.sh/uv/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">uv</a></td>\n<td>Virtual environment and Python dependencies. Downloads a suitable Python (3.11+) if the system has none</td>\n<td>See the uv note above</td>\n</tr>\n<tr>\n<td><a href=\"https://bun.sh/docs/installation\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">bun</a></td>\n<td>Building the WebUI</td>\n<td><code>curl -fsSL https://bun.sh/install | bash</code> (Windows: <code>powershell -c \"irm bun.sh/install.ps1 | iex\"</code>). The Linux script needs <code>unzip</code>, which minimal Debian / Ubuntu images lack: <code>sudo apt-get install -y unzip</code></td>\n</tr>\n<tr>\n<td>make</td>\n<td>Optional: the <code>make dev</code> shortcut and the <code>make env-*</code> setup wizard</td>\n<td>Your system package manager</td>\n</tr>\n</tbody></table>\n<p><strong>Step 1 — Clone the repository</strong></p>\n<pre><code class=\"language-bash\">git clone https://github.com/HKUDS/LightRAG.git\ncd LightRAG\n</code></pre>\n<p><strong>Step 2 — Install the Python dependencies.</strong> Pick <strong>one</strong> of the two options:</p>\n<pre><code class=\"language-bash\"># Option A: just run the server (API + WebUI) — the smallest install\nuv sync --extra api\n</code></pre>\n<pre><code class=\"language-bash\"># Option B: contributing — the test toolchain plus every storage backend\n# and LLM provider integration\nuv sync --extra test --extra offline\n</code></pre>\n<p><code>uv sync</code> creates the virtual environment in <code>.venv/</code>. Activate it with <code>source .venv/bin/activate</code> (Windows: <code>.venv\\Scripts\\activate</code>). With pip instead of uv: <code>python -m venv .venv</code>, activate it, then <code>pip install -e \".[api]\"</code> (or <code>pip install -e \".[test,offline]\"</code>).</p>\n<p><strong>Step 3 — Build the WebUI</strong></p>\n<pre><code class=\"language-bash\">cd lightrag_webui\nbun install --frozen-lockfile\nbun run build\ncd ..\n</code></pre>\n<blockquote>\n<p><code>make dev</code> runs Step 2 Option B and Step 3 in one command. If you used it, continue with Step 4.</p>\n</blockquote>\n<p><strong>Step 4 — Create <code>.env</code>.</strong> Either run the interactive wizard, <code>make env-base</code> (see <a href=\"https://github.com/HKUDS/LightRAG#create-env-file-with-setup-tool\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Create .env File With Setup Tool</a>), or copy the template and edit it by hand (see <a href=\"https://github.com/HKUDS/LightRAG#minimum-env-changes\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Minimum .env Changes</a>):</p>\n<pre><code class=\"language-bash\">cp env.example .env\n</code></pre>\n<p><strong>Step 5 — Start the server</strong></p>\n<pre><code class=\"language-bash\">lightrag-server\n</code></pre>\n<p>Open <code>http://localhost:9621/webui</code> for the WebUI. The interactive REST API docs are at <code>http://localhost:9621/docs</code>. Replace the host and port if you changed <code>HOST</code> / <code>PORT</code>.</p>\n<p><strong>Updating after <code>git pull</code>.</strong> Re-sync with the extras you installed in Step 2, plus <code>--locked --inexact</code>. For Option B:</p>\n<pre><code class=\"language-bash\">git pull\nuv sync --locked --inexact --extra test --extra offline   # Option A: --locked --inexact --extra api\n</code></pre>\n<ul>\n<li><strong>Same extras every time.</strong> A package that only an omitted extra needs stops being kept at its locked version, and a sync without <code>--inexact</code> uninstalls it.</li>\n<li><strong><code>--locked</code></strong> installs exactly what <code>uv.lock</code> pins. If <code>uv.lock</code> is out of date with <code>pyproject.toml</code>, it stops with an error instead of rewriting <code>uv.lock</code>.</li>\n<li><strong><code>--inexact</code></strong> keeps packages that are not in <code>uv.lock</code>, such as the spaCy models from <code>lightrag-download-cache --spacy-install</code>. A plain <code>uv sync</code> removes them.</li>\n</ul>\n<p>If the pull changed <code>lightrag_webui/</code>, repeat Step 3 as well.</p>\n<h5>Launch with Docker Compose</h5>\n<pre><code class=\"language-bash\">git clone https://github.com/HKUDS/LightRAG.git\ncd LightRAG\ncp env.example .env  # edit it first: see \"Minimum .env Changes\" below\ndocker compose up\n</code></pre>\n<blockquote>\n<p>Historical versions of LightRAG docker images can be found here: <a href=\"https://github.com/HKUDS/LightRAG/pkgs/container/lightrag\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LightRAG Docker Images</a></p>\n<p>Official GHCR images published by GitHub Actions are signed with Sigstore Cosign using GitHub OIDC. See <a href=\"https://github.com/HKUDS/LightRAG/blob/main/docs/DockerDeployment.md#verify-official-ghcr-images-with-cosign\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs/DockerDeployment.md</a> for verification commands.</p>\n<p>On Apple Silicon (macOS 26) without Docker Desktop, you can run the same Postgres/Neo4j/Milvus storage stack on Apple's native <code>container</code> runtime — see <a href=\"https://github.com/HKUDS/LightRAG/blob/main/docs/AppleContainerSetup.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs/AppleContainerSetup.md</a>.</p>\n</blockquote>\n<h5>Minimum .env Changes</h5>\n<p><code>env.example</code> works out of the box with local file-based storage, no reranker, and the built-in document parser, so no database or extra service is needed. Only the model settings need attention. With the default OpenAI models:</p>\n<table>\n<thead>\n<tr>\n<th>Variable</th>\n<th>What to do</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><code>LLM_BINDING_API_KEY</code></td>\n<td><strong>Required.</strong> Set your OpenAI API key</td>\n</tr>\n<tr>\n<td><code>EMBEDDING_BINDING_API_KEY</code></td>\n<td><strong>Required.</strong> Set your OpenAI API key (it can be the same key)</td>\n</tr>\n<tr>\n<td><code>OPENAI_LLM_REASONING_EFFORT</code></td>\n<td><strong>Recommended.</strong> Uncomment it and keep <code>low</code>. The default model <code>gpt-6-luna</code> is a reasoning model whose API default effort is <code>medium</code>, which makes entity extraction — one LLM call per text chunk — noticeably slower and more expensive</td>\n</tr>\n</tbody></table>\n<p>Using another provider? Also set <code>LLM_BINDING_HOST</code> and <code>LLM_MODEL</code> (keep <code>LLM_BINDING=openai</code> for any OpenAI-compatible API), and <code>EMBEDDING_BINDING_HOST</code>, <code>EMBEDDING_MODEL</code> and <code>EMBEDDING_DIM</code>. <code>EMBEDDING_DIM</code> must equal the embedding model's output dimension. See <a href=\"https://github.com/HKUDS/LightRAG#key-configuration-guide\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Key Configuration Guide</a> for model choices.</p>\n<blockquote>\n<p><strong>Settle the embedding model before your first upload.</strong> Changing it later means re-indexing every document (see <a href=\"https://github.com/HKUDS/LightRAG#embedding-models\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Embedding Models</a>).</p>\n</blockquote>\n<p><strong>Next step:</strong> once the server runs, <a href=\"https://github.com/HKUDS/LightRAG/blob/main/docs/ExploreLightRAG.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Exploring LightRAG</a> (<a href=\"https://github.com/HKUDS/LightRAG/blob/main/docs/ExploreLightRAG-zh.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">🇨🇳</a>) walks through enabling the rest, one step at a time and with measured results: PostgreSQL storage, authentication, role-specific LLMs, reranking, image analysis, Word smart headings, MinerU and concurrency tuning.</p>\n<h5>Create .env File With Setup Tool</h5>\n<p>Instead of editing <code>env.example</code> by hand, use the interactive setup wizard to generate a configured <code>.env</code> and, when needed, <code>docker-compose.final.yml</code>:</p>\n<pre><code class=\"language-bash\">make env-base           # Required first step: LLM, embedding, reranker\nmake env-storage        # Optional: storage backends and database services\nmake env-server         # Optional: server port, auth, and SSL\nmake env-base-rewrite   # Optional: force-regenerate wizard-managed compose services\nmake env-storage-rewrite # Optional: force-regenerate wizard-managed compose services\nmake env-security-check # Optional: audit the current .env for security risks\n</code></pre>\n<p>For full description of every target see <a href=\"https://github.com/HKUDS/LightRAG/blob/main/docs/InteractiveSetup.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs/InteractiveSetup.md</a>.</p>\n<h5>Optional: spaCy Models for docx smart_heading</h5>\n<p>The native docx parser's opt-in <code>smart_heading</code> engine parameter uses spaCy for sentence/NER heuristics. The spaCy runtime is already included in the <code>api</code> extra — only the two pinned language models (<code>zh_core_web_sm</code> / <code>en_core_web_sm</code> 3.8.0, GitHub release wheels not published on PyPI) need one extra step:</p>\n<pre><code class=\"language-bash\">lightrag-download-cache --spacy-install\n</code></pre>\n<blockquote>\n<p>In a <code>uv sync</code> environment (which has no pip) the command installs through <code>uv pip install</code> instead. The models are not in <code>uv.lock</code>, so a plain <code>uv sync</code> removes them again; use <code>uv sync --inexact</code> afterwards to keep them.</p>\n</blockquote>\n<p>Enable smart_heading per file/rule (e.g. <code>LIGHTRAG_PARSER=docx:native(smart_heading=true)</code>), or globally in <code>.env</code>:</p>\n<pre><code class=\"language-bash\"># .docx files routed to the native engine get smart_heading by default;\n# opt a file back out with an explicit native(smart_heading=false) rule/hint.\nDOCX_SMART_HEADING=true\n</code></pre>",
+    "truncated": true,
+    "chars": 8963
+   },
+   "usage": {
+    "title": "Using LightRAG As SDK",
+    "html": "<blockquote>\n<p>⚠️ <strong>For integration into your project, we strongly recommend using the REST API provided by the LightRAG Server.</strong> The LightRAG SDK is primarily intended for embedded applications or academic research and evaluation purposes.</p>\n</blockquote>\n<h5>Install LightRAG SDK</h5>\n<ul>\n<li>Install from source code</li>\n</ul>\n<pre><code class=\"language-bash\">cd LightRAG\n# 注意: uv sync 会自动在 .venv/ 目录创建虚拟环境\nuv sync\nsource .venv/bin/activate  # 激活虚拟环境 (Linux/macOS)\n# Windows 系统: .venv\\Scripts\\activate\n\n# 或: pip install -e .\n</code></pre>\n<ul>\n<li>Install from PyPI</li>\n</ul>\n<pre><code class=\"language-bash\">uv pip install lightrag-hku\n# 或: pip install lightrag-hku\n</code></pre>\n<h5>LightRAG SDK Sample Code</h5>\n<p>To get started with LightRAG core, refer to the sample codes available in the <code>examples</code> folder. Additionally, a <a href=\"https://www.youtube.com/watch?v=g21royNJ4fw\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">video demo</a> demonstration is provided to guide you through the local setup process. If you already possess an OpenAI API key, you can run the demo right away:</p>\n<pre><code class=\"language-bash\">### you should run the demo code with project folder\ncd LightRAG\n### provide your API-KEY for OpenAI\nexport OPENAI_API_KEY=\"sk-...your_opeai_key...\"\n### download the demo document of \"A Christmas Carol\" by Charles Dickens\ncurl https://raw.githubusercontent.com/gusye1234/nano-graphrag/main/tests/mock_data.txt &gt; ./book.txt\n### run the demo code\npython examples/lightrag_openai_demo.py\n</code></pre>\n<p>For a streaming response implementation example, please see <code>examples/lightrag_openai_compatible_demo.py</code>. Prior to execution, ensure you modify the sample code's LLM and embedding configurations accordingly.</p>\n<p><strong>Note 1</strong>: When running the demo program, please be aware that different test scripts may use different embedding models. Vectors written by one model are unusable by another, so switching models requires rebuilding them. For the <strong>demo</strong> data specifically, the simplest route is to delete the demo directory (<code>./dickens</code>) and re-run — the corpus is small and disposable; keep <code>kv_store_llm_response_cache.json</code> if you want the LLM cache. For a <strong>real deployment, do not delete the working directory</strong>: it holds the knowledge graph and the text chunks, and deleting it turns a re-embedding job into a full re-ingestion of every document. Run <code>lightrag-rebuild-vdb</code> instead — see <a href=\"https://github.com/HKUDS/LightRAG/blob/main/docs/ProgramingWithCore.md#switching-embedding-models\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Switching embedding models</a>.</p>\n<p><strong>Note 2</strong>: Only <code>lightrag_openai_demo.py</code> and <code>lightrag_openai_compatible_demo.py</code> are officially supported sample codes. Other sample files are community contributions that haven't undergone full testing and optimization.</p>\n<h5><strong>Notes on SDK Usage</strong></h5>\n<p>For detailed instructions on using the SDK, please refer to <strong><a href=\"https://github.com/HKUDS/LightRAG/blob/main/docs/ProgramingWithCore.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs/ProgramingWithCore.md</a></strong>. Some LightRAG features are not exposed via the REST API and are accessible only through the SDK. These features are typically experimental and may not be compatible with future versions.</p>",
+    "truncated": false,
+    "chars": 2846
+   },
+   "features": {
+    "title": "Features & Advantages",
+    "html": "<ul>\n<li><strong>Deep Contextual Understanding:</strong> Through graph-structured indexing, LightRAG captures complex semantic dependencies between entities, overcoming the fragmented context limitations typical of traditional chunk-based retrieval methods. Its generation quality and context awareness are particularly outstanding in vertical domains (e.g., legal, financial) that require global comprehension or logical reasoning.</li>\n<li><strong>Exceptional Comprehensiveness &amp; Diversity:</strong> LightRAG’s dual-level retrieval mechanism allows it to integrate detailed facts and abstract concepts concurrently. This enables the system to achieve remarkable performance in query result comprehensiveness and diversity, making it highly effective at handling complex, cross-document queries.</li>\n<li><strong>Extreme Retrieval Efficiency &amp; Low Cost:</strong> LightRAG does not rely on inefficient community reports or multi-hop reasoning for complex queries. This drastically reduces the number of LLM calls required during both the indexing and querying phases, significantly lowering response latency and LLM computational costs.</li>\n<li><strong>Incremental Updates &amp; Selective Deletion:</strong> LightRAG addresses the challenges of incrementally updating and selectively deleting content from graph-based knowledge bases, keeping them current in dynamic data environments. When a document is deleted, the system can use the LLM cache created during indexing to quickly rebuild the affected entities and relationships, substantially improving update efficiency.</li>\n<li><strong>Multiple Document Parsing Engines:</strong> LightRAG's document processing pipeline supports MinerU, Docling, and Native and can be extended with third-party parsers. LightRAG's Native engine efficiently parses images, tables, and formulas in Word and Markdown documents, making it especially suitable for documents rich in multimodal content. The Native engine also automatically detects and corrects section headings in Word documents, improving content extraction from documents with inconsistent outlines and laying the foundation for section-aware text chunking.</li>\n<li><strong>Multiple Text Chunking Strategies:</strong> LightRAG supports four text chunking strategies: <code>Fixed-length (F)</code>, <code>Recursive character (R)</code>, <code>Vector semantic (V)</code>, and <code>Paragraph semantic (P)</code>. The LightRAG-native <code>Paragraph semantic (P)</code> strategy <strong>aligns chunk boundaries with the document's native semantic boundaries</strong>—headings, paragraphs, and tables—as closely as possible. This reduces problems such as mismatched headings and content or missing header rows when long tables are split.</li>\n<li><strong>Multiple Storage Backends:</strong> LightRAG's default KV, vector, and graph stores are in-memory databases with local file persistence — suitable only for small-scale testing and evaluation, <strong>not for production</strong>. LightRAG also supports a wide range of commonly used storage backends (PostgreSQL recommended) for production deployments with large datasets.</li>\n</ul>",
+    "truncated": false,
+    "chars": 2904
+   }
+  },
+  "headings": 38,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:09.464Z",
+  "checked_at": "2026-11-17T02:19:28.176Z"
+ },
+ "contributors": {
+  "count": 392,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T02:20:53.117Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:28.176Z"
+}

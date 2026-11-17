@@ -1,0 +1,96 @@
+{
+ "id": "ggml-org/llama.cpp",
+ "github_id": 612354784,
+ "node_id": "R_kgDOJH_K4A",
+ "full_name": "ggml-org/llama.cpp",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.074Z",
+ "meta": {
+  "name": "llama.cpp",
+  "owner": "ggml-org",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/134263123?v=4",
+  "description": "LLM inference in C/C++",
+  "homepage": "https://llama.app",
+  "html_url": "https://github.com/ggml-org/llama.cpp",
+  "default_branch": "master",
+  "language": "C++",
+  "languages": null,
+  "topics": [
+   "ggml"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 135374,
+  "forks": 25661,
+  "watchers": null,
+  "open_issues": 2625,
+  "open_prs": null,
+  "created_at": "2023-03-10T18:58:00Z",
+  "pushed_at": "2026-11-17T01:38:30Z",
+  "updated_at": "2026-11-17T02:10:20Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 503470,
+  "og_image": "https://opengraph.githubassets.com/1/ggml-org/llama.cpp",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T23:29:02.000Z",
+  "commits_90d": 3344,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.0.0",
+  "name": "v1.0.0",
+  "published_at": null,
+  "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "b12447",
+  "name": "b12447",
+  "published_at": "2026-11-16T14:16:13Z",
+  "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12447"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 6250,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick start",
+    "html": "<p>A few options to get <code>llama.cpp</code> installed on your machine:</p>\n<pre><code class=\"language-bash\"># curl\ncurl -LsSf https://llama.app/install.sh | sh\n\n# powershell\nirm https://llama.app/install.ps1 | iex\n</code></pre>\n<ul>\n<li>Visit <a href=\"https://llama.app\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://llama.app</a> and follow the instructions</li>\n<li>Run with Docker - see our <a href=\"https://github.com/ggml-org/llama.cpp/blob/master/docs/docker.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker documentation</a></li>\n<li>Download pre-built binaries from the <a href=\"https://github.com/ggml-org/llama.cpp/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">releases page</a></li>\n<li>Build from source by cloning this repository - check out <a href=\"https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our build guide</a></li>\n</ul>\n<p>Once installed:</p>\n<pre><code class=\"language-sh\"># Download and run a model directly from Hugging Face\nllama cli -hf ggml-org/Qwen3.5-0.8B-GGUF\n\n# Launch OpenAI-compatible API server\nllama serve -hf ggml-org/Qwen3.5-0.8B-GGUF\n</code></pre>\n<table>\n    <tr>\n        <td align=\"center\">\n            <img src=\"https://github.com/user-attachments/assets/88726b48-1713-48aa-a525-95a02e78afc4\" alt=\"VLM session with `llama cli`\" loading=\"lazy\" decoding=\"async\" width=\"1310\" height=\"888\" />\n            <i>VLM session with <b>llama cli</b></i>\n        </td>\n        <td align=\"center\">\n            <img src=\"https://github.com/user-attachments/assets/b402f972-2e32-4def-8771-8d849f08cf2e\" alt=\"Llama Chat, the built-in chat app, against `llama serve` running Qwen 3.6\" loading=\"lazy\" decoding=\"async\" width=\"1392\" height=\"958\" />\n            <i>Llama Chat, the built-in chat app, against <b>llama serve</b></i>\n        </td>\n    </tr>\n<table></table></table>",
+    "truncated": false,
+    "chars": 1362
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 8,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:32.339Z",
+  "checked_at": "2026-11-17T02:19:32.339Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:32.339Z"
+}

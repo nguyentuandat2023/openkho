@@ -1,0 +1,103 @@
+{
+ "id": "1Panel-dev/1Panel",
+ "github_id": 515647260,
+ "node_id": "R_kgDOHrwnHA",
+ "full_name": "1Panel-dev/1Panel",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:03.703Z",
+ "meta": {
+  "name": "1Panel",
+  "owner": "1Panel-dev",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/109613420?v=4",
+  "description": "🔥 1Panel is a modern, open-source Linux server management panel and a lightweight AI management platform. 1Panel 是专门为 AI 服务器打造的管理面板。",
+  "homepage": "https://1panel.cn",
+  "html_url": "https://github.com/1Panel-dev/1Panel",
+  "default_branch": "dev-v2",
+  "language": "Go",
+  "languages": null,
+  "topics": [
+   "agent",
+   "deepseek-harness",
+   "docker",
+   "docker-ui",
+   "hermes",
+   "hermes-agent",
+   "linux",
+   "lnmp",
+   "ollama",
+   "openclaw",
+   "openresty",
+   "qwenpaw",
+   "webmin"
+  ],
+  "license": {
+   "spdx": "GPL-3.0",
+   "name": "GNU General Public License v3.0"
+  },
+  "stars": 37457,
+  "forks": 3409,
+  "watchers": null,
+  "open_issues": 351,
+  "open_prs": null,
+  "created_at": "2022-07-19T15:44:52Z",
+  "pushed_at": "2026-11-16T08:44:36Z",
+  "updated_at": "2026-11-17T02:17:32Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 122600,
+  "og_image": "https://opengraph.githubassets.com/1/1Panel-dev/1Panel",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T07:33:21.000Z",
+  "commits_90d": 404,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.5.1",
+  "name": "v2.5.1",
+  "published_at": "2026-11-12T08:42:59Z",
+  "url": "https://github.com/1Panel-dev/1Panel/releases/tag/v2.5.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 6332,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<p>Prepare your Linux server and run the following script:</p>\n<pre><code class=\"language-bash\">bash -c \"$(curl -sSL https://resource.1panel.pro/v2/quick_start.sh)\"\n</code></pre>\n<p>After installation, open <code>http://&lt;your-server-ip&gt;:&lt;port&gt;/&lt;security-path&gt;</code> in your browser.<br />Run <code>1pctl user-info</code> via SSH if you need to retrieve your access credentials.</p>",
+    "truncated": false,
+    "chars": 314
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 8,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:44.053Z",
+  "checked_at": "2026-11-17T02:20:36.966Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:36.966Z"
+}

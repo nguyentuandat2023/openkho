@@ -1,0 +1,108 @@
+{
+ "id": "tensorflow/tensorflow",
+ "github_id": 45717250,
+ "node_id": "MDEwOlJlcG9zaXRvcnk0NTcxNzI1MA==",
+ "full_name": "tensorflow/tensorflow",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "tensorflow",
+  "owner": "tensorflow",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/15658638?v=4",
+  "description": "An Open Source Machine Learning Framework for Everyone",
+  "homepage": "https://tensorflow.org",
+  "html_url": "https://github.com/tensorflow/tensorflow",
+  "default_branch": "master",
+  "language": "C++",
+  "languages": null,
+  "topics": [
+   "deep-learning",
+   "deep-neural-networks",
+   "distributed",
+   "machine-learning",
+   "ml",
+   "neural-network",
+   "python",
+   "tensorflow"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 201607,
+  "forks": 77968,
+  "watchers": null,
+  "open_issues": 3440,
+  "open_prs": null,
+  "created_at": "2015-11-07T01:19:20Z",
+  "pushed_at": "2026-11-17T02:11:55Z",
+  "updated_at": "2026-11-17T01:04:53Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 1436329,
+  "og_image": "https://opengraph.githubassets.com/1/tensorflow/tensorflow",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T02:04:53.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.21.0",
+  "name": "TensorFlow 2.21.0",
+  "published_at": "2026-03-06T19:48:15Z",
+  "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.21.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v2.22.0-rc1",
+  "name": "TensorFlow 2.22.0-rc1",
+  "published_at": "2026-11-17T01:34:09Z",
+  "url": "https://github.com/tensorflow/tensorflow/releases/tag/v2.22.0-rc1"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 7736,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Install",
+    "html": "<p>See the <a href=\"https://www.tensorflow.org/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">TensorFlow install guide</a> for the\n<a href=\"https://www.tensorflow.org/install/pip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">pip package</a>, to\n<a href=\"https://www.tensorflow.org/install/gpu\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">enable GPU support</a>, use a\n<a href=\"https://www.tensorflow.org/install/docker\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker container</a>, and\n<a href=\"https://www.tensorflow.org/install/source\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">build from source</a>.</p>\n<p>To install the current release, which includes support for\n<a href=\"https://www.tensorflow.org/install/gpu\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CUDA-enabled GPU cards</a> <em>(Ubuntu and\nWindows)</em>:</p>\n<pre><code> pip install tensorflow\n</code></pre>\n<p>Other devices (DirectX and MacOS-metal) are supported using\n<a href=\"https://www.tensorflow.org/install/gpu_plugins#available_devices\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Device Plugins</a>.</p>\n<p>A smaller CPU-only TensorFlow package is also available:</p>\n<pre><code> pip install tensorflow-cpu\n</code></pre>\n<p>To update TensorFlow to the latest version, add the <code>--upgrade</code> flag to the\ncommands above.</p>\n<p><em>Nightly binaries are available for testing using the\n<a href=\"https://pypi.python.org/pypi/tf-nightly\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">tf-nightly</a> and\n<a href=\"https://pypi.python.org/pypi/tf-nightly-cpu\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">tf-nightly-cpu</a> packages on PyPI.</em></p>\n<h6><em>Try your first TensorFlow program</em></h6>\n<pre><code class=\"language-shell\">$ python\n</code></pre>\n<pre><code class=\"language-python\">&gt;&gt;&gt; import tensorflow as tf\n&gt;&gt;&gt; tf.add(1, 2).numpy()\n3\n&gt;&gt;&gt; hello = tf.constant('Hello, TensorFlow!')\n&gt;&gt;&gt; hello.numpy()\nb'Hello, TensorFlow!'\n</code></pre>\n<p>For more examples, see the\n<a href=\"https://www.tensorflow.org/tutorials/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">TensorFlow Tutorials</a>.</p>",
+    "truncated": false,
+    "chars": 1360
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 9,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:06.098Z",
+  "checked_at": "2026-11-17T02:19:22.745Z"
+ },
+ "contributors": {
+  "count": 5446,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T07:03:46.816Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:22.745Z"
+}

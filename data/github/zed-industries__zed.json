@@ -1,0 +1,99 @@
+{
+ "id": "zed-industries/zed",
+ "github_id": 340547520,
+ "node_id": "MDEwOlJlcG9zaXRvcnkzNDA1NDc1MjA=",
+ "full_name": "zed-industries/zed",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.325Z",
+ "meta": {
+  "name": "zed",
+  "owner": "zed-industries",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/79345384?v=4",
+  "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+  "homepage": "https://zed.dev",
+  "html_url": "https://github.com/zed-industries/zed",
+  "default_branch": "main",
+  "language": "Rust",
+  "languages": null,
+  "topics": [
+   "gpui",
+   "rust-lang",
+   "text-editor",
+   "zed"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 95175,
+  "forks": 11735,
+  "watchers": null,
+  "open_issues": 3082,
+  "open_prs": null,
+  "created_at": "2021-02-20T03:01:06Z",
+  "pushed_at": "2026-11-16T21:36:12Z",
+  "updated_at": "2026-11-17T02:05:13Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 556445,
+  "og_image": "https://opengraph.githubassets.com/1/zed-industries/zed",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T20:50:25.000Z",
+  "commits_90d": 1646,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.28.1",
+  "name": "v1.28.1",
+  "published_at": "2026-11-11T19:08:27Z",
+  "url": "https://github.com/zed-industries/zed/releases/tag/v1.28.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "nightly",
+  "name": "nightly: editor: Don&#39;t write empty selections to the primary selection (#66986)",
+  "published_at": "2026-11-16T13:59:16Z",
+  "url": "https://github.com/zed-industries/zed/releases/tag/nightly"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 2852,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>On macOS, Linux, and Windows you can <a href=\"https://zed.dev/download\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">download Zed directly</a> or install Zed via your local package manager (<a href=\"https://zed.dev/docs/installation#macos\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">macOS</a>/<a href=\"https://zed.dev/docs/linux#installing-via-a-package-manager\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Linux</a>/<a href=\"https://zed.dev/docs/windows#package-managers\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Windows</a>).</p>\n<p>Other platforms are not yet available:</p>\n<ul>\n<li>Web (<a href=\"https://github.com/zed-industries/zed/discussions/26195\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">tracking discussion</a>)</li>\n</ul>",
+    "truncated": false,
+    "chars": 442
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 6,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:29.288Z",
+  "checked_at": "2026-11-17T02:20:03.685Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:03.686Z"
+}

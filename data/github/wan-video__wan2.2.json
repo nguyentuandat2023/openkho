@@ -1,0 +1,84 @@
+{
+ "id": "Wan-Video/Wan2.2",
+ "github_id": 1027579552,
+ "node_id": "R_kgDOPT-eoA",
+ "full_name": "Wan-Video/Wan2.2",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.073Z",
+ "meta": {
+  "name": "Wan2.2",
+  "owner": "Wan-Video",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/200620180?v=4",
+  "description": "Wan: Open and Advanced Large-Scale Video Generative Models",
+  "homepage": "https://wan.video",
+  "html_url": "https://github.com/Wan-Video/Wan2.2",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "aigc",
+   "video-generation"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 18706,
+  "forks": 2503,
+  "watchers": null,
+  "open_issues": 341,
+  "open_prs": null,
+  "created_at": "2025-07-28T08:17:01Z",
+  "pushed_at": "2026-09-21T06:16:22Z",
+  "updated_at": "2026-11-17T01:14:30Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 8346,
+  "og_image": "https://opengraph.githubassets.com/1/Wan-Video/Wan2.2",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-09-21T06:16:22.000Z",
+  "commits_90d": 2,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 35544,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>Clone the repo:</p>\n<pre><code class=\"language-sh\">git clone https://github.com/Wan-Video/Wan2.2.git\ncd Wan2.2\n</code></pre>\n<p>Install dependencies:</p>\n<pre><code class=\"language-sh\"># Ensure torch &gt;= 2.4.0\n# If the installation of `flash_attn` fails, try installing the other packages first and install `flash_attn` last\npip install -r requirements.txt\n# If you want to use CosyVoice to synthesize speech for Speech-to-Video Generation, please install requirements_s2v.txt additionally\npip install -r requirements_s2v.txt\n</code></pre>",
+    "truncated": false,
+    "chars": 461
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 27,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:01.670Z",
+  "checked_at": "2026-11-16T05:08:01.670Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:17.093Z",
+ "contributors": null
+}

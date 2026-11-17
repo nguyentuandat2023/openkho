@@ -1,0 +1,110 @@
+{
+ "id": "lobehub/lobehub",
+ "github_id": 643445235,
+ "node_id": "R_kgDOJlox8w",
+ "full_name": "lobehub/lobehub",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.074Z",
+ "meta": {
+  "name": "lobehub",
+  "owner": "lobehub",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/131470832?v=4",
+  "description": "🤯 LobeHub - Super-Agents on Your Team. Add super-agents to the chats your team already uses.They take on work by themselves and get better every week.",
+  "homepage": "https://lobehub.com",
+  "html_url": "https://github.com/lobehub/lobehub",
+  "default_branch": "canary",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "agent",
+   "agent-collaboration",
+   "agent-harness",
+   "loop-engineering",
+   "mcp",
+   "personal-assistant",
+   "proactive-agent",
+   "skills",
+   "super-agent",
+   "task-management"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 85651,
+  "forks": 16344,
+  "watchers": null,
+  "open_issues": 1377,
+  "open_prs": null,
+  "created_at": "2023-05-21T07:19:12Z",
+  "pushed_at": "2026-11-17T02:10:40Z",
+  "updated_at": "2026-11-17T02:12:06Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 629720,
+  "og_image": "https://opengraph.githubassets.com/1/lobehub/lobehub",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T02:19:22.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.3.3",
+  "name": "v2.3.3",
+  "published_at": null,
+  "url": "https://github.com/lobehub/lobehub/releases/tag/v2.3.3",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v0.0.0-nightly.pr23101.39711",
+  "name": "PR Build v0.0.0-nightly.pr23101.39711",
+  "published_at": "2026-11-16T06:26:47Z",
+  "url": "https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23101.39711"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 31710,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting Started & Join Our Community",
+    "html": "<p>We are a group of e/acc design-engineers, hoping to provide modern design components and tools for AIGC.</p>\n<p>Whether for users or professional developers, LobeHub will be your AI Agent playground. Please be aware that LobeHub is currently under active development, and feedback is welcome for any <a href=\"https://img.shields.io/github/issues/lobehub/lobehub.svg?style=flat\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">issues</a> encountered.</p>\n<table>\n<thead>\n<tr>\n<th align=\"left\"></th>\n<th align=\"left\">We are live on Product Hunt! We are thrilled to bring LobeHub to the world. If you believe in a future where humans and agents co-evolve, please support our journey.</th>\n</tr>\n</thead>\n<tbody><tr>\n<td align=\"left\"><a href=\"https://discord.gg/AYFPHvv2jT\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://img.shields.io/discord/1127171173982154893?color=5865F2&amp;label=discord&amp;labelColor=black&amp;logo=discord&amp;logoColor=white&amp;style=for-the-badge\" alt=\"\" loading=\"lazy\" decoding=\"async\" /></a></td>\n<td align=\"left\">Join our Discord community! This is where you can connect with developers and other enthusiastic users of LobeHub.</td>\n</tr>\n</tbody></table>\n<blockquote>\n<p>[!IMPORTANT]</p>\n<p><strong>Star Us</strong>, You will receive all release notifications from GitHub without any delay ~ ⭐️</p>\n</blockquote>\n<p><a href=\"https://github.com/lobehub/lobehub/stargazers\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://hub-apac-1.lobeobjects.space/blog/assets/893e882a8231960b5a729d691b8a40b3.webp\" alt=\"\" loading=\"lazy\" decoding=\"async\" /></a></p>\n<details>\n  <summary><kbd>Star History</kbd></summary>\n  \n    \n    <img src=\"https://api.star-history.com/svg?repos=lobehub%2Flobehub&amp;type=Date\" alt=\"\" loading=\"lazy\" decoding=\"async\" width=\"100%\" />\n  \n</details>",
+    "truncated": false,
+    "chars": 1844
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<div><h5>From new hire to one of the team</h5>\n<p>See what Lobe AI gets done, from its first day in your team chat onward.</p>\n<p><sub>WHAT MAKES A SUPER-AGENT</sub></p>\n</div><table>\n  <tr>\n    <td>\n      <b>🔌 Flexible access</b><br />\n      Plug in any IM app, agent or model, all in one place.\n    </td>\n    <td>\n      <b>⚡ Parallel work</b><br />\n      Runs several tasks at once, so you don't have to chase each one.\n    </td>\n  </tr>\n  <tr>\n    <td>\n      <b>🙋 Finds its own work</b><br />\n      Takes on the tasks that suit it, without someone passing messages along.\n    </td>\n    <td>\n      <b>📈 Gets more expert</b><br />\n      The more you use it, the faster an agent builds up its expertise.\n    </td>\n  </tr>\n</table><h5><code>Day 1</code> Welcome to the team</h5>\n<p>You add it to your team chat and ask it to read up. By lunch it has gone through the history and said hello to everyone.</p>\n<p><img src=\"https://hub-apac-1.lobeobjects.space/blog/assets/ed6fc1ef1e21e4add545c1e83c32fcb4.webp\" alt=\"Before it starts, it reads up\" loading=\"lazy\" decoding=\"async\" /></p>\n<p><img src=\"https://hub-apac-1.lobeobjects.space/blog/assets/a1c721a3cbe9cb8ec0f515217322b514.webp\" alt=\"Lobe AI's IM Bots settings, its team badge and its Day 1 checklist\" loading=\"lazy\" decoding=\"async\" /></p>\n<div><p><a href=\"https://github.com/lobehub/lobehub#readme-top\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square\" alt=\"\" loading=\"lazy\" decoding=\"async\" /></a></p>\n</div><h5><code>Week 1</code> Its first task</h5>\n<p>Someone posts a feature request in Discord and nobody assigns it. Lobe AI takes it on, and you only step in once, to accept the result.</p>\n<p><img src=\"https://hub-apac-1.lobeobjects.space/blog/assets/b0c761a9084a5958d4205e5d056fa3ae.webp\" alt=\"Picks it up: nobody tags it, and it takes the request anyway\" loading=\"lazy\" decoding=\"async\" /></p>\n<p><img src=\"https://hub-apac-1.lobeobjects.space/blog/assets/b8635a2bf3b600697068d70690a62438.webp\" alt=\"Hands it in: you check the evidence, accept, and the PR merges\" loading=\"lazy\" decoding=\"async\" /></p>\n<p><img src=\"https://hub-apac-1.lobeobjects.space/blog/assets/3e187a7e1fd004238163b58e20c59817.webp\" alt=\"Reports back: it replies in the original thread\" loading=\"lazy\" decoding=\"async\" /></p>\n<div><p><a href=\"https://github.com/lobehub/lobehub#readme-top\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square\" alt=\"\" loading=\"lazy\" decoding=\"async\" /></a></p>\n</div><h5><code>Month 1–2</code> Settling in as the team grows</h5>\n<p>Everyone now has their own agent, and design, releases and docs each have a dedicated one. Lobe AI is still learning when to speak up and when to stay quiet.</p>\n<p><img src=\"https://hub-apac-1.lobeobjects.space/blog/assets/c4e5bac0c35f840d9476256996e93e49.webp\" alt=\"One brief every morning\" loading=\"lazy\" decoding=\"async\" /></p>\n<p><img src=\"https://hub-apac-1.lobeobjects.space/blog/assets/bc065ed83d1ab0862aea98a7216ff787.webp\" alt=\"It's learning when to speak up\" loading=\"lazy\" decoding=\"async\" /></p>\n<div><p><a href=\"https://github.com/lobehub/lobehub#readme-top\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square\" alt=\"\" loading=\"lazy\" decoding=\"async\" /></a></p>\n</div><h5><code>Month 3</code> It passes its review</h5>\n<p>When it started, it got about half of these right. Now it rarely misses, and every correction you gave it has become a lesson it keeps.</p>\n<p><img src=\"https://hub-apac-1.lobeobjects.space/blog/assets/82c6818a9dc6fa27cf5aea75a092b448.webp\" alt=\"What it has learned\" loading=\"lazy\" decoding=\"async\" /></p>\n<div><p><a href=\"https://github.com/lobehub/lobehub#readme-top\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square\" alt=\"\" loading=\"lazy\" decoding=\"async\" /></a></p>\n</div><div><h5>Bring them onto your team</h5>\n<p>Start with one, and add more when you need them.</p>\n<p><a href=\"https://app.lobehub.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Try LobeHub Cloud</strong></a> · <a href=\"https://github.com/lobehub/lobehub#-self-hosting\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Self-host it</strong></a></p>\n<p><img src=\"https://github.com/user-attachments/assets/ff924737-7d3f-410e-a310-d1f44291e7c7\" alt=\"enterprise\" loading=\"lazy\" decoding=\"async\" /></p>\n<p>Contact: <a href=\"mailto:business@lobehub.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">business@lobehub.com</a></p>\n</div><div><p><a href=\"https://github.com/lobehub/lobehub#readme-top\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square\" alt=\"\" loading=\"lazy\" decoding=\"async\" /></a></p>\n</div>",
+    "truncated": false,
+    "chars": 3241
+   }
+  },
+  "headings": 19,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:12.062Z",
+  "checked_at": "2026-11-17T02:19:33.365Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:33.365Z"
+}

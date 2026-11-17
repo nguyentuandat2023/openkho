@@ -1,0 +1,116 @@
+{
+ "id": "FreeCAD/FreeCAD",
+ "github_id": 5736080,
+ "node_id": "MDEwOlJlcG9zaXRvcnk1NzM2MDgw",
+ "full_name": "FreeCAD/FreeCAD",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "FreeCAD",
+  "owner": "FreeCAD",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/2306237?v=4",
+  "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
+  "homepage": "https://www.freecad.org",
+  "html_url": "https://github.com/FreeCAD/FreeCAD",
+  "default_branch": "main",
+  "language": "C++",
+  "languages": null,
+  "topics": [
+   "3d",
+   "3d-printing",
+   "architecture",
+   "bim",
+   "cad",
+   "cam",
+   "civil-engineering",
+   "coin",
+   "engineering",
+   "fem",
+   "freecad",
+   "linux",
+   "macos",
+   "mechanical-engineering",
+   "opencascade",
+   "windows"
+  ],
+  "license": {
+   "spdx": "LGPL-2.1",
+   "name": "GNU Lesser General Public License v2.1"
+  },
+  "stars": 35515,
+  "forks": 6417,
+  "watchers": null,
+  "open_issues": 4071,
+  "open_prs": null,
+  "created_at": "2012-09-09T08:25:02Z",
+  "pushed_at": "2026-11-16T21:30:30Z",
+  "updated_at": "2026-11-17T02:07:45Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 3009774,
+  "og_image": "https://opengraph.githubassets.com/1/FreeCAD/FreeCAD",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T19:37:32.000Z",
+  "commits_90d": 483,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "1.1.4",
+  "name": "1.1.4",
+  "published_at": null,
+  "url": "https://github.com/FreeCAD/FreeCAD/releases/tag/1.1.4",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "weekly-2026.11.11",
+  "name": "Development Build weekly-2026.11.11",
+  "published_at": "2026-11-11T17:54:07Z",
+  "url": "https://github.com/FreeCAD/FreeCAD/releases/tag/weekly-2026.11.11"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 5352,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installing",
+    "html": "<p>Precompiled packages for stable releases are available for Windows, macOS and Linux on the\n<a href=\"https://github.com/FreeCAD/FreeCAD/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">latest releases page</a>.</p>\n<p>On most Linux distributions, FreeCAD is also directly installable from the \nsoftware center application.</p>\n<p>For weekly development releases visit the <a href=\"https://github.com/FreeCAD/FreeCAD/releases/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">releases page</a>.</p>\n<p>Other options are described on the <a href=\"https://wiki.freecad.org/Download\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">wiki Download page</a>.</p>",
+    "truncated": false,
+    "chars": 475
+   },
+   "usage": {
+    "title": "Usage & Getting Help",
+    "html": "<p>The FreeCAD wiki contains documentation on general usage and Python scripting.\nView these pages for more information:</p>\n<ul>\n<li><a href=\"https://wiki.freecad.org/Getting_started\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Getting started</a></li>\n<li><a href=\"https://wiki.freecad.org/Feature_list\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Features list</a></li>\n<li><a href=\"https://wiki.freecad.org/FAQ/en\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Frequent questions</a></li>\n<li><a href=\"https://wiki.freecad.org/Workbenches\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Workbenches</a></li>\n<li><a href=\"https://wiki.freecad.org/Power_users_hub\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Scripting</a></li>\n<li><a href=\"https://freecad.github.io/DevelopersHandbook/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Developers Handbook</a></li>\n</ul>\n<p>The <a href=\"https://forum.freecad.org\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">FreeCAD forum</a> is a great place\nto find help and solve specific problems when learning to use FreeCAD.</p>\n<hr />\n<p>This project receives generous infrastructure support from\n  <a href=\"https://www.digitalocean.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">\n    <img src=\"https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n  </a> and <a href=\"https://www.kipro-pcb.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">KiCad Services Corp.</a>\n</p>",
+    "truncated": false,
+    "chars": 933
+   },
+   "features": null
+  },
+  "headings": 7,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:56.969Z",
+  "checked_at": "2026-11-17T02:19:56.969Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:56.969Z"
+}

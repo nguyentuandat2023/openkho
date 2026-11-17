@@ -1,0 +1,116 @@
+{
+ "id": "gitroomhq/postiz-app",
+ "github_id": 664013991,
+ "node_id": "R_kgDOJ5QMpw",
+ "full_name": "gitroomhq/postiz-app",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "postiz-app",
+  "owner": "gitroomhq",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/128401275?v=4",
+  "description": "📨 The ultimate agentic social media scheduling tool 🤖",
+  "homepage": "https://postiz.com",
+  "html_url": "https://github.com/gitroomhq/postiz-app",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "nextjs",
+   "open-source",
+   "open-source-social-media-scheduling-tool",
+   "oss",
+   "postiz-cloud",
+   "postiz-hosted",
+   "redis",
+   "scheduling-tool",
+   "social-media-scheduling-tool",
+   "typescript"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 41752,
+  "forks": 7974,
+  "watchers": null,
+  "open_issues": 207,
+  "open_prs": null,
+  "created_at": "2023-07-08T17:24:22Z",
+  "pushed_at": "2026-11-16T14:31:28Z",
+  "updated_at": "2026-11-17T02:17:05Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 67538,
+  "og_image": "https://opengraph.githubassets.com/1/gitroomhq/postiz-app",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T13:19:36.000Z",
+  "commits_90d": 785,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.26.0",
+  "name": "Encrypted channel tokens, connect links, Amazon SES &amp; 40+ fixes",
+  "published_at": "2026-11-13T18:28:23Z",
+  "url": "https://github.com/gitroomhq/postiz-app/releases/tag/v2.26.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 12049,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "BdsCVvEYgHU",
+    "url": "https://www.youtube.com/watch?v=BdsCVvEYgHU"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<p>To have the project up and running, please follow the <a href=\"https://docs.postiz.com/quickstart\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Quick Start Guide</a></p>",
+    "truncated": false,
+    "chars": 113
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<table>\n<thead>\n<tr>\n<th><img src=\"https://github.com/user-attachments/assets/a27ee220-beb7-4c7e-8c1b-2c44301f82ef\" alt=\"Image 1\" loading=\"lazy\" decoding=\"async\" /></th>\n<th><img src=\"https://github.com/user-attachments/assets/eb5f5f15-ed90-47fc-811c-03ccba6fa8a2\" alt=\"Image 2\" loading=\"lazy\" decoding=\"async\" /></th>\n</tr>\n</thead>\n<tbody><tr>\n<td><img src=\"https://github.com/user-attachments/assets/d51786ee-ddd8-4ef8-8138-5192e9cfe7c3\" alt=\"Image 3\" loading=\"lazy\" decoding=\"async\" /></td>\n<td><img src=\"https://github.com/user-attachments/assets/91f83c89-22f6-43d6-b7aa-d2d3378289fb\" alt=\"Image 4\" loading=\"lazy\" decoding=\"async\" /></td>\n</tr>\n</tbody></table>\n<h5>Our Sponsors</h5>\n<table>\n<thead>\n<tr>\n<th>Sponsor</th>\n<th align=\"center\">Logo</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><a href=\"https://www.hostinger.com/vps/docker/postiz?ref=postiz\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Hostinger</a></td>\n<td align=\"center\"><img src=\"https://raw.githubusercontent.com/gitroomhq/postiz-app/main/.github/sponsors/hostinger.png\" alt=\"Hostinger\" loading=\"lazy\" decoding=\"async\" width=\"500\" /></td>\n<td>Hostinger is on a mission to make online success possible for anyone – from developers to aspiring bloggers and business owners</td>\n</tr>\n<tr>\n<td><a href=\"https://dev.virlo.ai/?ref=postiz\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Virlo</a></td>\n<td align=\"center\"><img src=\"https://github.com/user-attachments/assets/25182598-5344-45fc-b9cd-e4cfa16aabfd\" alt=\"Virlo\" loading=\"lazy\" decoding=\"async\" width=\"500\" /></td>\n<td>Virlo is the #1 social media trend spotting and all-in-one GTM tool for teams leveraging short-form video</td>\n</tr>\n<tr>\n<td><a href=\"https://chatbotx.io/?ref=postiz\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ChatbotX</a></td>\n<td align=\"center\"><img src=\"https://github.com/user-attachments/assets/0aa6b058-9a64-46d3-bc26-337abc51737d\" alt=\"ChatbotX\" loading=\"lazy\" decoding=\"async\" width=\"500\" /></td>\n<td>The ManyChat alternative that you can self-host, white-label, and resell to your clients. Bring your own OpenClaw, Hermes, or Claude agents!</td>\n</tr>\n<tr>\n<td><a href=\"https://www.rapidproxy.io/?ref=postiz\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">RapidProxy</a></td>\n<td align=\"center\"><img src=\"https://github.com/user-attachments/assets/6cf5b2c9-2687-4181-8964-2e7b90eace4f\" alt=\"WP-PROXY-THUMBNAIL-41\" loading=\"lazy\" decoding=\"async\" width=\"700\" height=\"412\" /></td>\n<td>RapidProxy provides 90M+ residential IPs for social media, browser automation, and AI workflows, with smart rotation and stable sessions. From $0.55/GB; use RAPID10 for 10% off.</td>\n</tr>\n</tbody></table>",
+    "truncated": false,
+    "chars": 2046
+   }
+  },
+  "headings": 10,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:21.610Z",
+  "checked_at": "2026-11-17T02:19:21.610Z"
+ },
+ "contributors": {
+  "count": 75,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:33.938Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:21.610Z"
+}

@@ -1,0 +1,100 @@
+{
+ "id": "run-llama/llama_index",
+ "github_id": 560704231,
+ "node_id": "R_kgDOIWuq5w",
+ "full_name": "run-llama/llama_index",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.074Z",
+ "meta": {
+  "name": "llama_index",
+  "owner": "run-llama",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/130722866?v=4",
+  "description": "LlamaIndex is the document processing platform for AI",
+  "homepage": "https://developers.llamaindex.ai",
+  "html_url": "https://github.com/run-llama/llama_index",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "agents",
+   "application",
+   "data",
+   "fine-tuning",
+   "framework",
+   "llamaindex",
+   "llm",
+   "multi-agents",
+   "rag",
+   "vector-database"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 52924,
+  "forks": 8570,
+  "watchers": null,
+  "open_issues": 1458,
+  "open_prs": null,
+  "created_at": "2022-11-02T04:24:54Z",
+  "pushed_at": "2026-11-14T02:26:05Z",
+  "updated_at": "2026-11-16T19:57:01Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 529211,
+  "og_image": "https://opengraph.githubassets.com/1/run-llama/llama_index",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-14T02:10:23.000Z",
+  "commits_90d": 40,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.14.26",
+  "name": "v0.14.26",
+  "published_at": "2026-11-13T22:38:15Z",
+  "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.26",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 11566,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": null,
+   "usage": {
+    "title": "Example Usage",
+    "html": "<pre><code class=\"language-sh\"># custom selection of integrations to work with core\npip install llama-index-core\npip install llama-index-llms-openai\npip install llama-index-llms-ollama\npip install llama-index-embeddings-huggingface\n</code></pre>\n<p>Examples are in the <code>docs/examples</code> folder. Indices are in the <code>indices</code> folder (see list of indices below).</p>\n<p>To build a simple vector store index using OpenAI:</p>\n<pre><code class=\"language-python\">import os\n\nos.environ[\"OPENAI_API_KEY\"] = \"YOUR_OPENAI_API_KEY\"\n\nfrom llama_index.core import VectorStoreIndex, SimpleDirectoryReader\n\ndocuments = SimpleDirectoryReader(\"YOUR_DATA_DIRECTORY\").load_data()\nindex = VectorStoreIndex.from_documents(documents)\n</code></pre>\n<p>To build a simple vector store index using non-OpenAI LLMs, e.g. LLMs hosted through Ollama:</p>\n<pre><code class=\"language-python\">from llama_index.core import Settings, VectorStoreIndex, SimpleDirectoryReader\nfrom llama_index.embeddings.huggingface import HuggingFaceEmbedding\nfrom llama_index.llms.ollama import Ollama\nfrom transformers import AutoTokenizer\n\n# set the LLM\nSettings.llm = Ollama(\n    model=\"llama-3.1:latest\",\n    request_timeout=360.0,\n)\n\n# set tokenizer to match LLM\nSettings.tokenizer = AutoTokenizer.from_pretrained(\n    \"meta-llama/Llama-3.1-8B-Instruct\"\n)\n\n# set the embed model\nSettings.embed_model = HuggingFaceEmbedding(\n    model_name=\"BAAI/bge-small-en-v1.5\"\n)\n\ndocuments = SimpleDirectoryReader(\"YOUR_DATA_DIRECTORY\").load_data()\nindex = VectorStoreIndex.from_documents(\n    documents,\n)\n</code></pre>\n<p>To query:</p>\n<pre><code class=\"language-python\">query_engine = index.as_query_engine()\nquery_engine.query(\"YOUR_QUESTION\")\n</code></pre>\n<p>By default, data is stored in-memory.\nTo persist to disk (under <code>./storage</code>):</p>\n<pre><code class=\"language-python\">index.storage_context.persist()\n</code></pre>\n<p>To reload from disk:</p>\n<pre><code class=\"language-python\">from llama_index.core import StorageContext, load_index_from_storage\n\n# rebuild storage context\nstorage_context = StorageContext.from_defaults(persist_dir=\"./storage\")\n# load index\nindex = load_index_from_storage(storage_context)\n</code></pre>",
+    "truncated": false,
+    "chars": 1936
+   },
+   "features": null
+  },
+  "headings": 11,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:12.448Z",
+  "checked_at": "2026-11-16T05:08:12.448Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:17.093Z",
+ "contributors": null
+}

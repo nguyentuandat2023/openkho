@@ -1,0 +1,94 @@
+{
+ "id": "actualbudget/actual",
+ "github_id": 486815039,
+ "node_id": "R_kgDOHQQ1Pw",
+ "full_name": "actualbudget/actual",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:03.703Z",
+ "meta": {
+  "name": "actual",
+  "owner": "actualbudget",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/37879538?v=4",
+  "description": "A local-first personal finance app",
+  "homepage": "https://actualbudget.org",
+  "html_url": "https://github.com/actualbudget/actual",
+  "default_branch": "master",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "budgeting",
+   "finance",
+   "money",
+   "personal-finance"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 30317,
+  "forks": 3325,
+  "watchers": null,
+  "open_issues": 223,
+  "open_prs": null,
+  "created_at": "2022-04-29T02:41:34Z",
+  "pushed_at": "2026-11-16T22:55:27Z",
+  "updated_at": "2026-11-17T02:18:03Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 677618,
+  "og_image": "https://opengraph.githubassets.com/1/actualbudget/actual",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T21:24:50.000Z",
+  "commits_90d": 313,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v26.11.0",
+  "name": "v26.11.0",
+  "published_at": "2026-11-02T01:54:02Z",
+  "url": "https://github.com/actualbudget/actual/releases/tag/v26.11.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 4375,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<p>Actual is a local-first personal finance tool. It is 100% free and open-source, written in NodeJS, it has a synchronization element so that all your changes can move between devices without any heavy lifting.</p>\n<p>If you are interested in contributing, or want to know how development works, see our <a href=\"https://actualbudget.org/docs/contributing/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">contributing</a> document we would love to have you.</p>\n<p>Want to say thanks? Click the ⭐ at the top of the page.</p>",
+    "truncated": false,
+    "chars": 452
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 12,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:33.560Z",
+  "checked_at": "2026-11-17T02:20:33.560Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:33.560Z"
+}

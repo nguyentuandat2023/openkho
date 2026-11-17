@@ -1,0 +1,109 @@
+{
+ "id": "gradio-app/gradio",
+ "github_id": 162405963,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxNjI0MDU5NjM=",
+ "full_name": "gradio-app/gradio",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "gradio",
+  "owner": "gradio-app",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/51063788?v=4",
+  "description": "Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!",
+  "homepage": "http://www.gradio.app",
+  "html_url": "https://github.com/gradio-app/gradio",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "data-analysis",
+   "data-science",
+   "data-visualization",
+   "deep-learning",
+   "deploy",
+   "gradio",
+   "gradio-interface",
+   "interface",
+   "machine-learning",
+   "models",
+   "python",
+   "python-notebook",
+   "ui",
+   "ui-components"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 44071,
+  "forks": 3675,
+  "watchers": null,
+  "open_issues": 119,
+  "open_prs": null,
+  "created_at": "2018-12-19T08:24:04Z",
+  "pushed_at": "2026-11-16T17:30:16Z",
+  "updated_at": "2026-11-17T02:06:58Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 132104,
+  "og_image": "https://opengraph.githubassets.com/1/gradio-app/gradio",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-13T18:01:54.000Z",
+  "commits_90d": 68,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "gradio@6.32.0",
+  "name": "gradio@6.32.0",
+  "published_at": "2026-11-12T19:31:56Z",
+  "url": "https://github.com/gradio-app/gradio/releases/tag/gradio%406.32.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 13723,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p><strong>Prerequisite</strong>: Gradio requires <a href=\"https://www.python.org/downloads/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Python 3.10 or higher</a>.</p>\n<p>We recommend installing Gradio using <code>pip</code>, which is included by default in Python. Run this in your terminal or command prompt:</p>\n<pre><code class=\"language-bash\">pip install --upgrade gradio\n</code></pre>\n<blockquote>\n<p>[!TIP]\nIt is best to install Gradio in a virtual environment. Detailed installation instructions for all common operating systems <a href=\"https://www.gradio.app/main/guides/installing-gradio-in-a-virtual-environment\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">are provided here</a>. </p>\n</blockquote>",
+    "truncated": false,
+    "chars": 519
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 14,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:25.861Z",
+  "checked_at": "2026-11-17T02:19:25.861Z"
+ },
+ "contributors": {
+  "count": 504,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T07:03:48.396Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:25.861Z"
+}

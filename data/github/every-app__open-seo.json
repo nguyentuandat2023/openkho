@@ -1,0 +1,101 @@
+{
+ "id": "every-app/open-seo",
+ "github_id": 1168753718,
+ "node_id": "R_kgDORanENg",
+ "full_name": "every-app/open-seo",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:56.641Z",
+ "meta": {
+  "name": "open-seo",
+  "owner": "every-app",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/240383020?v=4",
+  "description": "Open source alternative to Semrush and Ahrefs",
+  "homepage": "https://openseo.so",
+  "html_url": "https://github.com/every-app/open-seo",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "backlink-analysis",
+   "google-search-console-mcp",
+   "keyword-research",
+   "mcp",
+   "seo",
+   "seo-agent",
+   "seo-audit",
+   "seo-automation",
+   "seo-skills",
+   "seo-tools",
+   "site-audit"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 27973,
+  "forks": 3937,
+  "watchers": null,
+  "open_issues": 137,
+  "open_prs": null,
+  "created_at": "2026-02-27T18:57:41Z",
+  "pushed_at": "2026-11-13T09:01:14Z",
+  "updated_at": "2026-11-17T02:18:43Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 39421,
+  "og_image": "https://opengraph.githubassets.com/1/every-app/open-seo",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-13T08:10:53.000Z",
+  "commits_90d": 417,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.1.27",
+  "name": "v0.1.27",
+  "published_at": "2026-11-11T18:20:47Z",
+  "url": "https://github.com/every-app/open-seo/releases/tag/v0.1.27",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 4315,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Self-Hosting",
+    "html": "<p>OpenSEO supports two self-hosting paths. Both use email and password accounts: the first visitor creates the admin account, teammates join from invitation links, and MCP clients (Claude, ChatGPT, Codex, Cursor) sign in with the same accounts.</p>\n<ul>\n<li><strong>Docker</strong> - On your own server or computer, with a prebuilt image that is ready in seconds. Works with Compose-based platforms such as Coolify, Portainer and Dokploy. See <a href=\"https://github.com/every-app/open-seo/blob/main/docs/SELF_HOSTING_DOCKER.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>docs/SELF_HOSTING_DOCKER.md</code></a>.<ul>\n<li>Running the older single-container image? It keeps getting updates; <a href=\"https://github.com/every-app/open-seo/blob/main/docs/SELF_HOSTING_DOCKER.md#move-from-the-old-docker-image\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">move to the new setup</a> when you are ready, data included.</li>\n</ul>\n</li>\n<li><strong>Cloudflare</strong> - No server to run: one deploy command puts OpenSEO on your own Cloudflare account (works on the free plan). See <a href=\"https://github.com/every-app/open-seo/blob/main/docs/SELF_HOSTING_CLOUDFLARE.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>docs/SELF_HOSTING_CLOUDFLARE.md</code></a>.</li>\n</ul>\n<p>For security-conscious setups, two advanced options replace the accounts with your own network controls:</p>\n<ul>\n<li><strong>Cloudflare Access</strong> in front of the Cloudflare deploy, so Cloudflare checks every request before it reaches OpenSEO. See <a href=\"https://github.com/every-app/open-seo/blob/main/docs/SELF_HOSTING_CLOUDFLARE.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>docs/SELF_HOSTING_CLOUDFLARE.md</code></a>.</li>\n<li><strong>No sign-in on Docker</strong>, behind Tailscale, a private network or your own authenticating proxy. See <a href=\"https://github.com/every-app/open-seo/blob/main/docs/SELF_HOSTING_DOCKER.md#without-sign-in-advanced\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Without sign-in</a>.</li>\n</ul>\n<p>Either way, you need a DataForSEO API key to get SEO data. See <a href=\"https://github.com/every-app/open-seo/blob/main/docs/DATAFORSEO_API_KEY.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>docs/DATAFORSEO_API_KEY.md</code></a>.</p>",
+    "truncated": false,
+    "chars": 1487
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 11,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:10.757Z",
+  "checked_at": "2026-11-16T05:09:10.757Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:31.394Z",
+ "contributors": null
+}

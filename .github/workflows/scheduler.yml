@@ -1,0 +1,131 @@
+# Bộ lập lịch tự động — chạy trên máy chủ GitHub Actions (KHÔNG chạy trên trình duyệt).
+# Mỗi giờ kiểm tra job nào đến hạn theo data/settings.json (mặc định: khám phá 3 giờ, cập nhật số liệu 6 giờ,
+# xếp hạng 24 giờ, đánh giá lại 7 ngày, dọn dẹp 30 ngày), chạy job, lưu dữ liệu vào repo, kiểm thử, build và triển khai.
+# Không có job đến hạn → dừng sau vài giây (gần như không tốn phút chạy).
+name: Tự động khám phá và cập nhật
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "Chạy ngay một job (để trống = chạy các job đến hạn)"
+        type: choice
+        options: ["", "discover", "refresh", "rank", "reevaluate", "cleanup", "ai_analyze"]
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Dùng chung nhóm với sync-deploy.yml → hai workflow không bao giờ chạy song song (không job trùng, không ghi đè dữ liệu)
+concurrency:
+  group: openkho-data
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Có job đến hạn?
+        id: due
+        env:
+          JOB: ${{ inputs.job }}
+        # cli.mjs due không cần cài thư viện; mã thoát 10 = không có job đến hạn
+        run: |
+          if [ -n "$JOB" ]; then echo "any=1" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if node scripts/scheduler/cli.mjs due; then echo "any=1" >> "$GITHUB_OUTPUT"; else echo "any=0" >> "$GITHUB_OUTPUT"; fi
+
+      - if: steps.due.outputs.any == '1'
+        run: npm ci
+
+      - name: Khôi phục cache ETag (giảm lượt gọi API)
+        if: steps.due.outputs.any == '1'
+        uses: actions/cache@v6
+        with:
+          path: .cache
+          key: openkho-cache-${{ github.run_id }}
+          restore-keys: openkho-cache-
+
+      - name: Chạy job
+        id: jobs
+        if: steps.due.outputs.any == '1'
+        continue-on-error: true
+        env:
+          # SYNC_TOKEN (tùy chọn): token cá nhân 5.000 lượt/giờ; mặc định dùng token có sẵn của Actions.
+          GITHUB_TOKEN: ${{ secrets.SYNC_TOKEN || github.token }}
+          # Chỉ cần khi bật phân tích AI trong data/settings.json (ai.enabled) — mặc định tắt.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          JOB: ${{ inputs.job }}
+        run: |
+          if [ -n "$JOB" ]; then
+            node scripts/scheduler/cli.mjs run "$JOB" --trigger actions-manual
+          else
+            node scripts/scheduler/cli.mjs run-due --trigger actions --max-jobs 3
+          fi
+
+      - name: Lưu dữ liệu vào repo (kể cả trạng thái job khi thất bại)
+        id: commit
+        if: steps.due.outputs.any == '1'
+        run: |
+          git config user.name "openkho-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "changed=0" >> "$GITHUB_OUTPUT"
+            echo "Không có thay đổi dữ liệu."
+          else
+            git commit -m "Tự động cập nhật dữ liệu $(date -u +%Y-%m-%dT%H:%MZ)"
+            for i in 1 2 3; do git pull --rebase --autostash && git push && break; sleep 5; done
+            echo "changed=1" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Kiểm thử
+        if: steps.commit.outputs.changed == '1'
+        run: npm test
+
+      - name: Cấu hình GitHub Pages
+        if: steps.commit.outputs.changed == '1'
+        id: pages
+        uses: actions/configure-pages@v6
+
+      - name: Build website
+        if: steps.commit.outputs.changed == '1'
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: npm run build
+
+      - if: steps.commit.outputs.changed == '1'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: out
+
+      - name: Báo lỗi job (sau khi đã lưu trạng thái)
+        if: steps.jobs.outcome == 'failure'
+        run: |
+          echo "::error::Có job thất bại — xem data/jobs/history.json hoặc tab Tự động hóa trong trang quản trị."
+          exit 1
+
+  deploy:
+    needs: run
+    # Vẫn triển khai phần dữ liệu đã cập nhật thành công dù có job khác thất bại (bước build/kiểm thử lỗi thì không có bản để triển khai)
+    if: always() && needs.run.result != 'cancelled' && needs.run.outputs.changed == '1'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

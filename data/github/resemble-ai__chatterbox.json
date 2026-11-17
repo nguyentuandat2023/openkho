@@ -1,0 +1,99 @@
+{
+ "id": "resemble-ai/chatterbox",
+ "github_id": 971241545,
+ "node_id": "R_kgDOOeP4SQ",
+ "full_name": "resemble-ai/chatterbox",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "chatterbox",
+  "owner": "resemble-ai",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/49844015?v=4",
+  "description": "SoTA open-source TTS",
+  "homepage": "https://resemble-ai.github.io/chatterbox_demopage/",
+  "html_url": "https://github.com/resemble-ai/chatterbox",
+  "default_branch": "master",
+  "language": "Python",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 27872,
+  "forks": 3749,
+  "watchers": null,
+  "open_issues": 384,
+  "open_prs": null,
+  "created_at": "2025-04-23T08:16:38Z",
+  "pushed_at": "2026-11-04T18:48:12Z",
+  "updated_at": "2026-11-17T00:10:30Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 1557,
+  "og_image": "https://opengraph.githubassets.com/1/resemble-ai/chatterbox",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-04T18:48:10.000Z",
+  "commits_90d": 1,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.1.2",
+  "name": "v0.1.2",
+  "published_at": "2025-06-13T14:42:01Z",
+  "url": "https://github.com/resemble-ai/chatterbox/releases/tag/v0.1.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 15770,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<pre><code class=\"language-shell\">pip install chatterbox-tts\n</code></pre>\n<p>Alternatively, you can install from source:</p>\n<pre><code class=\"language-shell\"># conda create -yn chatterbox python=3.11\n# conda activate chatterbox\n\ngit clone https://github.com/resemble-ai/chatterbox.git\ncd chatterbox\npip install -e .\n</code></pre>\n<p>We developed and tested Chatterbox on Python 3.11 on Debian 11 OS; the versions of the dependencies are pinned in <code>pyproject.toml</code> to ensure consistency. You can modify the code or dependencies in this installation mode.</p>",
+    "truncated": false,
+    "chars": 478
+   },
+   "usage": {
+    "title": "Usage",
+    "html": "<h6>Chatterbox-Turbo</h6>\n<pre><code class=\"language-python\">import torchaudio as ta\nimport torch\nfrom chatterbox.tts_turbo import ChatterboxTurboTTS\n\n# Load the Turbo model\nmodel = ChatterboxTurboTTS.from_pretrained(device=\"cuda\")\n\n# Generate with Paralinguistic Tags\ntext = \"Hi there, Sarah here from MochaFone calling you back [chuckle], have you got one minute to chat about the billing issue?\"\n\n# Generate audio (requires a reference clip for voice cloning)\nwav = model.generate(text, audio_prompt_path=\"your_10s_ref_clip.wav\")\n\nta.save(\"test-turbo.wav\", wav, model.sr)\n</code></pre>\n<h6>Chatterbox-Nano</h6>\n<p>Nano shares Turbo's architecture and is loaded through the same <code>ChatterboxTurboTTS</code> class by passing <code>nano=True</code>:</p>\n<pre><code class=\"language-python\">import torchaudio as ta\nimport torch\nfrom chatterbox.tts_turbo import ChatterboxTurboTTS\n\n# Load the Nano model (also runs on CPU: device=\"cpu\")\nmodel = ChatterboxTurboTTS.from_pretrained(device=\"cuda\", nano=True)\n\n# Generate with Paralinguistic Tags\ntext = \"Hi there, Sarah here from MochaFone calling you back [chuckle], have you got one minute to chat about the billing issue?\"\n\n# Generate audio (requires a reference clip for voice cloning)\nwav = model.generate(text, audio_prompt_path=\"your_10s_ref_clip.wav\")\n\nta.save(\"test-nano.wav\", wav, model.sr)\n</code></pre>\n<h6>Chatterbox and Chatterbox-Multilingual</h6>\n<pre><code class=\"language-python\">\nimport torchaudio as ta\nfrom chatterbox.tts import ChatterboxTTS\nfrom chatterbox.mtl_tts import ChatterboxMultilingualTTS\n\ndevice = \"cuda\"  # or \"cpu\" / \"mps\"\n\n# English example\nmodel = ChatterboxTTS.from_pretrained(device=device)\n\ntext = \"Ezreal and Jinx teamed up with Ahri, Yasuo, and Teemo to take down the enemy's Nexus in an epic late-game pentakill.\"\nwav = model.generate(text)\nta.save(\"test-english.wav\", wav, model.sr)\n\n# Multilingual V3 examples\nmultilingual_model = ChatterboxMultilingualTTS.from_pretrained(device=device, t3_model=\"v3\")\n# To use the legacy V2 multilingual checkpoint, omit t3_model or pass t3_model=\"v2\".\n\nfrench_text = \"Bonjour, comment ça va? Ceci est le modèle de synthèse vocale multilingue Chatterbox, il prend en charge 23 langues.\"\nwav_french = multilingual_model.generate(french_text, language_id=\"fr\")\nta.save(\"test-french.wav\", wav_french, multilingual_model.sr)\n\nchinese_text = \"你好，今天天气真不错，希望你有一个愉快的周末。\"\nwav_chinese = multilingual_model.generate(chinese_text, language_id=\"zh\")\nta.save(\"test-chinese.wav\", wav_chinese, multilingual_model.sr)\n\n# If you want to synthesize with a different voice, specify the audio prompt\nAUDIO_PROMPT_PATH = \"YOUR_FILE.wav\"\nwav = model.generate(text, audio_prompt_path=AUDIO_PROMPT_PATH)\nta.save(\"test-2.wav\", wav, model.sr)\n</code></pre>\n<p>See <code>example_tts.py</code>, <code>example_tts_turbo.py</code>, <code>example_tts_nano.py</code>, and <code>example_vc.py</code> for more examples.</p>",
+    "truncated": false,
+    "chars": 2732
+   },
+   "features": null
+  },
+  "headings": 18,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:34.461Z",
+  "checked_at": "2026-11-16T04:33:34.461Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:13.194Z",
+ "contributors": {
+  "count": 17,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:23.306Z"
+ }
+}

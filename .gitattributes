@@ -1,0 +1,6 @@
+# Chuẩn hóa xuống dòng: lưu LF trong Git; file .bat luôn CRLF để chạy được trên Windows
+* text=auto
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.ico binary

@@ -1,0 +1,984 @@
+{
+ "computed_at": "2026-11-17T02:23:10.342Z",
+ "curated_missing_github_id": [],
+ "missing_contributors": 3229,
+ "stale_over_48h": [],
+ "low_quality_coverage": 2780,
+ "insufficient_trending": 0,
+ "not_found": [
+  {
+   "id": "DevedevT/FFmpeg-GUI-Editor-Windows",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "trackboatwrightplan/GitHub-Copilot-app",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "trackboatwrightplan/ai--manus2.0",
+   "origin": "radar",
+   "status": "not_found"
+  }
+ ],
+ "renamed": [
+  {
+   "from": "sahenjp/RustXNG",
+   "to": "RustXNG/RustXNG"
+  }
+ ],
+ "anomalies": [
+  {
+   "id": "browser-use/jev-ultrafast",
+   "reasons": [
+    "rất ít người đóng góp (1) so với tốc độ tăng sao"
+   ]
+  },
+  {
+   "id": "Folkbench/folkbench",
+   "reasons": [
+    "repo mới với 3.923 sao nhưng gần như không có fork (19) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "google-research/harness2",
+   "reasons": [
+    "rất ít người đóng góp (11) so với tốc độ tăng sao"
+   ]
+  },
+  {
+   "id": "wheresryan22/anatomy",
+   "reasons": [
+    "rất ít người đóng góp (13) so với tốc độ tăng sao"
+   ]
+  },
+  {
+   "id": "byted-technologies/.github",
+   "reasons": [
+    "repo mới với 3.999 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "deepseek-ai/DeepInfer",
+   "reasons": [
+    "rất ít người đóng góp (5) so với tốc độ tăng sao"
+   ]
+  },
+  {
+   "id": "Zagitta/gpu-unlock",
+   "reasons": [
+    "rất ít người đóng góp (9) so với tốc độ tăng sao"
+   ]
+  },
+  {
+   "id": "Cattmonkey/ChaosIntelligence",
+   "reasons": [
+    "repo mới với 482 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "ccch1mneyyy/dsh-Go",
+   "reasons": [
+    "rất ít người đóng góp (1) so với tốc độ tăng sao"
+   ]
+  },
+  {
+   "id": "AhmadHassan-BTed/RainGen-RainGenerator",
+   "reasons": [
+    "+1.604 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "deepseek-ai/dsh-superagent-prototype",
+   "reasons": [
+    "rất ít người đóng góp (1) so với tốc độ tăng sao"
+   ]
+  },
+  {
+   "id": "bipro45/actual-multi-display-configurator",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "abdulmannanmalik13-wq/adobe-substance-3d-studio",
+   "reasons": [
+    "repo mới với 1.210 sao nhưng gần như không có fork (2) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "AbhiKamane/ai-app-builder-open",
+   "reasons": [
+    "+384 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "hembramneeraj3-create/aida-64-extreme",
+   "reasons": [
+    "repo mới với 1.209 sao nhưng gần như không có fork (1) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Arda313131882/aion-2-trainer-tool",
+   "reasons": [
+    "repo mới với 1.199 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "App-MonicaWEB/auslogics-audio-studio-desktop",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Leno27-Adr/autodesk-revit-2026-standalone",
+   "reasons": [
+    "repo mới với 1.104 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "theonlyoneexocctical-beep/cellebrite-ufed-setup",
+   "reasons": [
+    "repo mới với 1.104 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "angelonyn/chimera-desktop-suite",
+   "reasons": [
+    "repo mới với 1.104 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "woo20080623-cell/cinebench-desktop",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "ayanprob/coreldraw-desktop-installer",
+   "reasons": [
+    "+1.104 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "sajawal-12/cubase-studio-desktop",
+   "reasons": [
+    "repo mới với 1.202 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "IsaiaR09/daemon-pro-desktop",
+   "reasons": [
+    "repo mới với 1.198 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "kcgeekedup-hash/delta-force-trainer-tool",
+   "reasons": [
+    "repo mới với 1.197 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "tss878/delta-executor-toolkit",
+   "reasons": [
+    "repo mới với 1.199 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Elegantic/designcenter-nx-desktop",
+   "reasons": [
+    "repo mới với 1.182 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "ebtsamalhakmy-sketch/desktop-backup-suite",
+   "reasons": [
+    "repo mới với 1.199 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Vesuvio1/display-fusion",
+   "reasons": [
+    "repo mới với 1.175 sao nhưng gần như không có fork (1) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Sanidhya0510/dvd-creator-game-enhancement",
+   "reasons": [
+    "repo mới với 1.155 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "RyoTheOne/dxo-photolab-10-config",
+   "reasons": [
+    "repo mới với 1.144 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Luk177Master/easy-worship-desktop",
+   "reasons": [
+    "repo mới với 1.113 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "farhodzodatojiddin5-cpu/exitlag-optimizer",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (1) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Gacktadactle/fortnite-skin-swapper-enhancement",
+   "reasons": [
+    "+1.103 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "robertsjunior/fonetrans-desktop-setup",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "shayannazar84-hero/honkai-star-rail-companion-suite",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "hayfa1234/honkai-star-rail-enhancement-suite",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "uchihamx999-beep/imei-repair-toolkit",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "leanislizarzado/ibm-spss-desktop-suite",
+   "reasons": [
+    "repo mới với 1.104 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "dikshantghimire321-droid/kontakt-8-config",
+   "reasons": [
+    "repo mới với 1.104 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "RolandoV3/metatrader-5-bot",
+   "reasons": [
+    "+1.114 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "daiphu2708-crypto/melodyne-5-desktop-setup",
+   "reasons": [
+    "repo mới với 1.105 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "ilsa99/microsoft-365-desktop",
+   "reasons": [
+    "+1.103 sao nhưng chỉ +1 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "pastebin2019/multiaccountmanager-enhancement",
+   "reasons": [
+    "repo mới với 1.104 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "blockacc12345/music-maker-unlimited",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "janitoff0/ninjatrader-bot",
+   "reasons": [
+    "repo mới với 1.105 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "ethangangasingh-crypto/musicmakerunlimited",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Eriazeri/on1-photo-raw-max-config",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "vishnu05-codes/ozone-12-advanced",
+   "reasons": [
+    "repo mới với 1.105 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "shahnawaz0786/payday-3-enhancement-toolkit",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "SnehalSukale27/power-director",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "tianjanahary05-source/reason-14-installer",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "xavier442/pump-fun-desktop",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "rdeepak-wq121/quicken-deluxe-installer",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Marcian15350/mt5-tradeprotocol",
+   "reasons": [
+    "repo mới với 1.106 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "21041979/rufus-usb-formatter",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "SK-Dev666/rust-external-trainer-tool",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "farhatullah0006-art/rx-11-audio-editor-config",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "SirBonney/scrcpy-mirror-control",
+   "reasons": [
+    "repo mới với 1.104 sao nhưng gần như không có fork (1) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "mahmoudtawfik1998/secure-pdf-document-processor",
+   "reasons": [
+    "repo mới với 1.213 sao nhưng gần như không có fork (2) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "pravinpote1985/serato-dj-pro-2026",
+   "reasons": [
+    "repo mới với 1.102 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Malik-825/sketchup-pro-desktop",
+   "reasons": [
+    "repo mới với 1.104 sao nhưng gần như không có fork (1) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "manjushree-iyer/soundpad-audio-suite",
+   "reasons": [
+    "repo mới với 1.104 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "muddinenilakshmilalithaksh-create/sp-flash-tool",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "FarhanNaem/startall-back",
+   "reasons": [
+    "repo mới với 1.102 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "RafliAbdulHaliim/sylenth-1-enhancement-suite",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Forgavin/ultra-iso-desktop-setup",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "arthurrossetocampos1-crypto/uttorent-desktop",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "parthkshirsagar2456-blip/voicemod-desktop-edition",
+   "reasons": [
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "shivsupratik/windows-optimizer",
+   "reasons": [
+    "repo mới với 1.104 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "ariamitchell54/cubase-studio-desktop",
+   "reasons": [
+    "repo mới với 362 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "alex-wells-65/iobit-driver-booster-desktop",
+   "reasons": [
+    "repo mới với 360 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "angela-cook-1988/vegas-pro-23-desktop",
+   "reasons": [
+    "repo mới với 359 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "amber-lance-72/xeno-roblox-desktop",
+   "reasons": [
+    "repo mới với 361 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "ava25-thompson/fishstrap-roblox-fps-booster-desktop",
+   "reasons": [
+    "repo mới với 357 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "azure-teal-slope/windows-optimizer-desktop",
+   "reasons": [
+    "repo mới với 360 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "azuresail195/wondershare-recoverit-desktop",
+   "reasons": [
+    "repo mới với 360 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "ben-kennedy-81/xfer-serum-desktop",
+   "reasons": [
+    "repo mới với 360 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "ben-cook-42/kontakt-8-desktop",
+   "reasons": [
+    "repo mới với 360 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "ben14-dunn/native-instruments-kontakt-desktop",
+   "reasons": [
+    "repo mới với 360 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "ben-miller-23/dxo-photolab-10-desktop",
+   "reasons": [
+    "repo mới với 362 sao nhưng gần như không có fork (1) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "brave-plum-co/leonardo-ai-desktop",
+   "reasons": [
+    "repo mới với 359 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "brave-shell-07/izotope-rx-11-desktop",
+   "reasons": [
+    "repo mới với 360 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "bradburns2001/topaz-video-ai-desktop",
+   "reasons": [
+    "repo mới với 360 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "briskember13/adobe-acrobat-pdf-desktop",
+   "reasons": [
+    "repo mới với 359 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "brisk-thrush-husky/malware-defender-desktop",
+   "reasons": [
+    "repo mới với 361 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "hikaku-io/hikaku-extension",
+   "reasons": [
+    "repo mới với 397 sao nhưng gần như không có fork (1) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "TorrentArrow/IPTV_Player_2.0",
+   "reasons": [
+    "+376 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "TurtleReside/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "VisionWormStudio/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Violetnyudress/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "TypeTyrantScheme/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "TrooperFilter/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Visionbeyondtrack/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "VortexHostFeel/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Watchlespeed/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "WerewolfEmuHub/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "weldbladesmithwharf/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "weightcashiercupola/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "WestLocksmithSpout/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "WharfBoulderColander/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "WindGatorRise37/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "WinnerSpecialist/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "WingDataVacuum/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "WindowStaffGate11/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "WireProvostPucker/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "WyrmClimberManacle/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "wisemeadowlarkspike/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "YellowLaborerMarket/Gemini-Config-Checker-",
+   "reasons": [
+    "repo mới với 474 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  }
+ ],
+ "published_changes": {
+  "added": [
+   {
+    "gid": "1455006582",
+    "full_name": "deepseek-ai/chat-demo"
+   },
+   {
+    "gid": "1435672472",
+    "full_name": "haydenschmitty/floorplan"
+   },
+   {
+    "gid": "1449231124",
+    "full_name": "tangerineturtle1/NX2navi"
+   },
+   {
+    "gid": "1442385098",
+    "full_name": "expo/exact"
+   },
+   {
+    "gid": "1435475558",
+    "full_name": "modelflare-ai/AnyModelBot"
+   },
+   {
+    "gid": "1426240325",
+    "full_name": "JoasASantos/REA-Prompts"
+   },
+   {
+    "gid": "1431830406",
+    "full_name": "t3dotgg/tstack"
+   },
+   {
+    "gid": "1349122168",
+    "full_name": "ZJU-REAL/Easel"
+   },
+   {
+    "gid": "1408294296",
+    "full_name": "storytold/deckcraft"
+   },
+   {
+    "gid": "1341090959",
+    "full_name": "AhmadHassan-BTed/ShopifyAutoAuth"
+   },
+   {
+    "gid": "1408486424",
+    "full_name": "storytold/soundcraft"
+   },
+   {
+    "gid": "1401744296",
+    "full_name": "vAPI-Network/vapi-network"
+   },
+   {
+    "gid": "1396591019",
+    "full_name": "BlueHeisenberg/SCSKiller"
+   },
+   {
+    "gid": "1400080206",
+    "full_name": "lucasmarkes/hairline"
+   },
+   {
+    "gid": "1366969284",
+    "full_name": "linguo2625469/workbuddy2api-panel"
+   },
+   {
+    "gid": "1350713137",
+    "full_name": "crmne/zapfast"
+   },
+   {
+    "gid": "1418204810",
+    "full_name": "InukaAsith/TwinDesk"
+   },
+   {
+    "gid": "1340508826",
+    "full_name": "hardbeat920/monocode"
+   },
+   {
+    "gid": "1354059245",
+    "full_name": "tigerless-labs/agent-memory"
+   },
+   {
+    "gid": "1410961834",
+    "full_name": "BaaRai/ARTEX"
+   },
+   {
+    "gid": "1401469171",
+    "full_name": "Folkbench/folkbench"
+   },
+   {
+    "gid": "1408465463",
+    "full_name": "nullmoth/nvidia-macos-driver"
+   },
+   {
+    "gid": "1372164083",
+    "full_name": "OffGridPete/Fieldwatch"
+   },
+   {
+    "gid": "1408082051",
+    "full_name": "Jakeschincariol/founder-skill"
+   },
+   {
+    "gid": "1343167809",
+    "full_name": "vladelaina/BongoCat"
+   },
+   {
+    "gid": "1388594776",
+    "full_name": "feitangyuan/onetake"
+   },
+   {
+    "gid": "1416386910",
+    "full_name": "Arekejoker/qwen21-nsfw-pose-skill"
+   },
+   {
+    "gid": "1386355153",
+    "full_name": "tobi/disktree"
+   },
+   {
+    "gid": "1357699236",
+    "full_name": "ashemag/human-atlas"
+   },
+   {
+    "gid": "1404840859",
+    "full_name": "thtbee/nectarlink"
+   },
+   {
+    "gid": "1422883896",
+    "full_name": "aicodeking/leanrea"
+   },
+   {
+    "gid": "1406482535",
+    "full_name": "obsidianmd/pele"
+   },
+   {
+    "gid": "1422474621",
+    "full_name": "Revivedx/SavageWindRecomp"
+   },
+   {
+    "gid": "1396636077",
+    "full_name": "yangbin1322/hongguo-player"
+   },
+   {
+    "gid": "1399236672",
+    "full_name": "deadinside28/bloodborne_pc"
+   },
+   {
+    "gid": "1394045721",
+    "full_name": "nykooi1/vibe-wise"
+   },
+   {
+    "gid": "1386391454",
+    "full_name": "mexicat/pdoom-video"
+   },
+   {
+    "gid": "1345185947",
+    "full_name": "amosblomqvist/learn"
+   }
+  ],
+  "removed": [],
+  "kept": 137
+ },
+ "suppressed_clusters": [
+  {
+   "cluster": "campaign-2026-11-06-1102",
+   "reason": "Một trong 52 repo khác tên do 52 tài khoản tạo gần như cùng lúc, cùng khoảng 1.102–1.209 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "repos": [
+    "bipro45/actual-multi-display-configurator",
+    "hembramneeraj3-create/aida-64-extreme",
+    "Arda313131882/aion-2-trainer-tool",
+    "App-MonicaWEB/auslogics-audio-studio-desktop",
+    "Leno27-Adr/autodesk-revit-2026-standalone",
+    "theonlyoneexocctical-beep/cellebrite-ufed-setup",
+    "angelonyn/chimera-desktop-suite",
+    "woo20080623-cell/cinebench-desktop",
+    "sajawal-12/cubase-studio-desktop",
+    "IsaiaR09/daemon-pro-desktop",
+    "kcgeekedup-hash/delta-force-trainer-tool",
+    "tss878/delta-executor-toolkit",
+    "Elegantic/designcenter-nx-desktop",
+    "ebtsamalhakmy-sketch/desktop-backup-suite",
+    "Vesuvio1/display-fusion",
+    "Sanidhya0510/dvd-creator-game-enhancement",
+    "RyoTheOne/dxo-photolab-10-config",
+    "Luk177Master/easy-worship-desktop",
+    "farhodzodatojiddin5-cpu/exitlag-optimizer",
+    "robertsjunior/fonetrans-desktop-setup",
+    "shayannazar84-hero/honkai-star-rail-companion-suite",
+    "hayfa1234/honkai-star-rail-enhancement-suite",
+    "uchihamx999-beep/imei-repair-toolkit",
+    "leanislizarzado/ibm-spss-desktop-suite",
+    "dikshantghimire321-droid/kontakt-8-config",
+    "daiphu2708-crypto/melodyne-5-desktop-setup",
+    "pastebin2019/multiaccountmanager-enhancement",
+    "blockacc12345/music-maker-unlimited",
+    "janitoff0/ninjatrader-bot",
+    "ethangangasingh-crypto/musicmakerunlimited",
+    "Eriazeri/on1-photo-raw-max-config",
+    "vishnu05-codes/ozone-12-advanced",
+    "shahnawaz0786/payday-3-enhancement-toolkit",
+    "SnehalSukale27/power-director",
+    "tianjanahary05-source/reason-14-installer",
+    "xavier442/pump-fun-desktop",
+    "rdeepak-wq121/quicken-deluxe-installer",
+    "Marcian15350/mt5-tradeprotocol",
+    "21041979/rufus-usb-formatter",
+    "SK-Dev666/rust-external-trainer-tool",
+    "farhatullah0006-art/rx-11-audio-editor-config",
+    "SirBonney/scrcpy-mirror-control",
+    "pravinpote1985/serato-dj-pro-2026",
+    "Malik-825/sketchup-pro-desktop",
+    "manjushree-iyer/soundpad-audio-suite",
+    "muddinenilakshmilalithaksh-create/sp-flash-tool",
+    "FarhanNaem/startall-back",
+    "RafliAbdulHaliim/sylenth-1-enhancement-suite",
+    "Forgavin/ultra-iso-desktop-setup",
+    "arthurrossetocampos1-crypto/uttorent-desktop",
+    "parthkshirsagar2456-blip/voicemod-desktop-edition",
+    "shivsupratik/windows-optimizer"
+   ]
+  },
+  {
+   "cluster": "campaign-2026-11-13-357",
+   "reason": "Một trong 16 repo khác tên do 16 tài khoản tạo gần như cùng lúc, cùng khoảng 357–362 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "repos": [
+    "ariamitchell54/cubase-studio-desktop",
+    "alex-wells-65/iobit-driver-booster-desktop",
+    "angela-cook-1988/vegas-pro-23-desktop",
+    "amber-lance-72/xeno-roblox-desktop",
+    "ava25-thompson/fishstrap-roblox-fps-booster-desktop",
+    "azure-teal-slope/windows-optimizer-desktop",
+    "azuresail195/wondershare-recoverit-desktop",
+    "ben-kennedy-81/xfer-serum-desktop",
+    "ben-cook-42/kontakt-8-desktop",
+    "ben14-dunn/native-instruments-kontakt-desktop",
+    "ben-miller-23/dxo-photolab-10-desktop",
+    "brave-plum-co/leonardo-ai-desktop",
+    "brave-shell-07/izotope-rx-11-desktop",
+    "bradburns2001/topaz-video-ai-desktop",
+    "briskember13/adobe-acrobat-pdf-desktop",
+    "brisk-thrush-husky/malware-defender-desktop"
+   ]
+  },
+  {
+   "cluster": "ai-manus2-0",
+   "reason": "Một trong 10 repo cùng tên \"ai-manus2-0\" do 10 tài khoản khác nhau tạo gần như cùng lúc, số liệu giống hệt nhau — dấu hiệu spam/sao ảo. Tự động loại khỏi xếp hạng.",
+   "repos": [
+    "topapothecarycanal/ai--manus2.0",
+    "topconstableinlet67/ai--manus2.0",
+    "toppatronweave/ai--manus2.0",
+    "Tonephorepair/ai--manus2.0",
+    "trackboatwrightplan/ai--manus2.0",
+    "trackersnailgrip/ai--manus2.0",
+    "taboospecialistblade/ai--manus2.0",
+    "TrapBladesmith/ai--manus2.0",
+    "Ultimateakiln/ai--manus2.0",
+    "violetkomodolimit/ai--manus2.0"
+   ]
+  },
+  {
+   "cluster": "github-copilot-app",
+   "reason": "Một trong 8 repo cùng tên \"github-copilot-app\" do 8 tài khoản khác nhau tạo gần như cùng lúc, số liệu giống hệt nhau — dấu hiệu spam/sao ảo. Tự động loại khỏi xếp hạng.",
+   "repos": [
+    "trackboatwrightplan/GitHub-Copilot-app",
+    "trackersnailgrip/GitHub-Copilot-app",
+    "TrapBladesmith/GitHub-Copilot-app",
+    "Trapkrostride/GitHub-Copilot-app",
+    "topconstableinlet67/GitHub-Copilot-app",
+    "TarantulaCorrect/GitHub-Copilot-app",
+    "toppatronweave/GitHub-Copilot-app",
+    "TurquoiseConsultant/GitHub-Copilot-app"
+   ]
+  },
+  {
+   "cluster": "gemini-config-checker",
+   "reason": "Một trong 21 repo cùng tên \"gemini-config-checker\" do 21 tài khoản khác nhau tạo gần như cùng lúc, số liệu giống hệt nhau — dấu hiệu spam/sao ảo. Tự động loại khỏi xếp hạng.",
+   "repos": [
+    "TurtleReside/Gemini-Config-Checker-",
+    "VisionWormStudio/Gemini-Config-Checker-",
+    "Violetnyudress/Gemini-Config-Checker-",
+    "TypeTyrantScheme/Gemini-Config-Checker-",
+    "TrooperFilter/Gemini-Config-Checker-",
+    "Visionbeyondtrack/Gemini-Config-Checker-",
+    "VortexHostFeel/Gemini-Config-Checker-",
+    "Watchlespeed/Gemini-Config-Checker-",
+    "WerewolfEmuHub/Gemini-Config-Checker-",
+    "weldbladesmithwharf/Gemini-Config-Checker-",
+    "weightcashiercupola/Gemini-Config-Checker-",
+    "WestLocksmithSpout/Gemini-Config-Checker-",
+    "WharfBoulderColander/Gemini-Config-Checker-",
+    "WindGatorRise37/Gemini-Config-Checker-",
+    "WinnerSpecialist/Gemini-Config-Checker-",
+    "WingDataVacuum/Gemini-Config-Checker-",
+    "WindowStaffGate11/Gemini-Config-Checker-",
+    "WireProvostPucker/Gemini-Config-Checker-",
+    "WyrmClimberManacle/Gemini-Config-Checker-",
+    "wisemeadowlarkspike/Gemini-Config-Checker-",
+    "YellowLaborerMarket/Gemini-Config-Checker-"
+   ]
+  }
+ ]
+}

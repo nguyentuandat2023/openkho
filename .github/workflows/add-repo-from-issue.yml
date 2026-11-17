@@ -1,0 +1,61 @@
+# Thêm repo được đề xuất qua form "Đề xuất repository" khi quản trị viên gắn nhãn "duyet" cho issue.
+# Nội dung issue là dữ liệu không tin cậy: chỉ đọc qua biến môi trường trong script Node, không chèn vào lệnh shell.
+name: Thêm repo từ đề xuất
+
+on:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: write
+  issues: write
+  actions: write
+
+jobs:
+  add:
+    if: github.event.label.name == 'duyet'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Đọc đề xuất và thêm vào catalog
+        id: add
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/add-from-issue.mjs
+
+      - name: Lưu thay đổi
+        if: steps.add.outputs.added == 'true'
+        env:
+          REPO_NAME: ${{ steps.add.outputs.repo }}
+        run: |
+          git config user.name "openkho-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "Thêm $REPO_NAME từ đề xuất"
+          git push
+
+      - name: Chạy đồng bộ và triển khai
+        if: steps.add.outputs.added == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run sync-deploy.yml
+
+      - name: Phản hồi trên issue
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MESSAGE: ${{ steps.add.outputs.message }}
+          ADDED: ${{ steps.add.outputs.added }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$ISSUE" --body "${MESSAGE:-Không xử lý được đề xuất, xem log của workflow.}"
+          if [ "$ADDED" = "true" ]; then gh issue close "$ISSUE" --reason completed; fi

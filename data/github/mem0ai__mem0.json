@@ -1,0 +1,119 @@
+{
+ "id": "mem0ai/mem0",
+ "github_id": 656099147,
+ "node_id": "R_kgDOJxtHSw",
+ "full_name": "mem0ai/mem0",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "mem0",
+  "owner": "mem0ai",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/137054526?v=4",
+  "description": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
+  "homepage": "https://mem0.ai",
+  "html_url": "https://github.com/mem0ai/mem0",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "agentic-memory",
+   "agentic-memory-system",
+   "agents",
+   "ai",
+   "ai-agents",
+   "chatgpt",
+   "genai",
+   "llm",
+   "long-term-memory",
+   "memory",
+   "memory-management",
+   "python",
+   "rag",
+   "state-management"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 69084,
+  "forks": 8223,
+  "watchers": null,
+  "open_issues": 956,
+  "open_prs": null,
+  "created_at": "2023-06-20T08:58:36Z",
+  "pushed_at": "2026-11-06T16:53:07Z",
+  "updated_at": "2026-11-17T02:12:51Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 69859,
+  "og_image": "https://opengraph.githubassets.com/1/mem0ai/mem0",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-06T16:53:06.000Z",
+  "commits_90d": 35,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "ts-v3.3.1",
+  "name": "Mem0 Node SDK (v3.3.1)",
+  "published_at": "2026-09-25T17:36:35Z",
+  "url": "https://github.com/mem0ai/mem0/releases/tag/ts-v3.3.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 12266,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quickstart Guide",
+    "html": "<h5>Sign up as an agent</h5>\n<p>AI agents can mint a working Mem0 API key in under five seconds — no email, no dashboard, no OTP. Four commands end-to-end:</p>\n<pre><code class=\"language-bash\"># 1. Install\nnpm install -g @mem0/cli      # or: pip install mem0-cli\n\n# 2. Sign up as an agent (replace `claude-code` with your name)\nmem0 init --agent --agent-caller claude-code\n\n# 3. Add a memory\nmem0 add \"I am using mem0\"\n\n# 4. Search\nmem0 search \"am I using mem0\"\n</code></pre>\n<p>The human owner can claim the account later with <code>mem0 init --email &lt;their-email&gt;</code> — same key, memories preserved. Full guide: <a href=\"https://docs.mem0.ai/platform/agent-signup\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Sign up as an agent</a>.</p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>Library</th>\n<th>Self-Hosted Server</th>\n<th>Cloud Platform</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><strong>Best for</strong></td>\n<td>Testing, prototyping</td>\n<td>Teams running on their own infrastructure</td>\n<td>Zero-ops production use</td>\n</tr>\n<tr>\n<td><strong>Setup</strong></td>\n<td><code>pip install mem0ai</code></td>\n<td><code>docker compose up</code></td>\n<td>Sign up at <a href=\"https://app.mem0.ai?utm_source=oss&amp;utm_medium=readme\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">app.mem0.ai</a></td>\n</tr>\n<tr>\n<td><strong>Dashboard</strong></td>\n<td>--</td>\n<td><a href=\"https://docs.mem0.ai/open-source/setup\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Yes</a></td>\n<td>Yes</td>\n</tr>\n<tr>\n<td><strong>Auth &amp; API Keys</strong></td>\n<td>--</td>\n<td>Yes</td>\n<td>Yes</td>\n</tr>\n<tr>\n<td><strong>Advanced Features</strong></td>\n<td>--</td>\n<td>Teasers</td>\n<td>All included</td>\n</tr>\n</tbody></table>\n<p>Just testing? Use the library. Building for a team? Self-hosted. Want zero ops? Cloud.</p>\n<h5>Library (pip / npm)</h5>\n<pre><code class=\"language-bash\">pip install mem0ai\n</code></pre>\n<p>For enhanced hybrid search with BM25 keyword matching and entity extraction, install with NLP support:</p>\n<pre><code class=\"language-bash\">pip install mem0ai[nlp]\npython -m spacy download en_core_web_sm\n</code></pre>\n<p>Install sdk via npm:</p>\n<pre><code class=\"language-bash\">npm install mem0ai\n</code></pre>\n<h5>Self-Hosted Server</h5>\n<blockquote>\n<p><strong>Note:</strong> Self-hosted auth is on by default. Upgrading from a pre-auth build? Set <code>ADMIN_API_KEY</code>, register an admin through the wizard, or <code>AUTH_DISABLED=true</code> for local dev only. See <a href=\"https://docs.mem0.ai/open-source/setup#upgrade-notes\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">upgrade notes</a>.</p>\n</blockquote>\n<pre><code class=\"language-bash\"># Recommended: one command — start the stack, create an admin, issue the first API key.\ncd server &amp;&amp; make bootstrap\n\n# Manual: start the stack and finish setup via the browser wizard.\ncd server &amp;&amp; docker compose up -d    # http://localhost:3000\n</code></pre>\n<p>See the <a href=\"https://docs.mem0.ai/open-source/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">self-hosted docs</a> for configuration.</p>\n<h5>Cloud Platform</h5>\n<ol>\n<li>Sign up on <a href=\"https://app.mem0.ai?utm_source=oss&amp;utm_medium=readme\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Mem0 Platform</a></li>\n<li>Embed the memory layer via SDK or API keys</li>\n<li>Using hosted Qdrant vectors? See the <a href=\"https://docs.mem0.ai/migration/oss-to-platform\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Platform migration guide</a> to import them into Mem0 Platform.</li>\n</ol>\n<h5>CLI</h5>\n<p>Manage memories from your terminal:</p>\n<pre><code class=\"language-bash\">npm install -g @mem0/cli   # or: pip install mem0-cli\n\nmem0 init\nmem0 add \"Prefers dark mode and vim keybindings\" --user-id alice\nmem0 search \"What does Alice prefer?\" --user-id alice\n</code></pre>\n<p>See the <a href=\"https://docs.mem0.ai/platform/cli\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CLI documentation</a> for the full command reference.</p>\n<h5>Agent Skills</h5>\n<p>Teach your AI coding assistant (Claude Code, Codex, Cursor, Windsurf, OpenCode, OpenClaw, and any tool that supports the skills standard) how to build with Mem0. Two categories:</p>\n<p><strong>Reference skills — always on</strong> (SDK knowledge loaded into the assistant's context):</p>\n<pre><code class=\"language-bash\">npx skills add https://github.com/mem0ai/mem0 --skill mem0\nnpx skills add https://github.com/mem0ai/mem0 --skill mem0-cli\nnpx skills add https://github.com/mem0ai/mem0 --skill mem0-vercel-ai-sdk\n</code></pre>\n<p><strong>Pipeline skills — run on demand</strong> (execute an end-to-end workflow in an existing repo):</p>\n<pre><code class=\"language-bash\">npx skills add https://github.com/mem0ai/mem0 --skill mem0-integrate\nnpx skills add https://github.com/mem0ai/mem0 --skill mem0-test-integration\nnpx skills add https://github.com/mem0ai/mem0 --skill mem0-oss-to-platform\n</code></pre>\n<p>Use <code>/mem0-integrate</code> to wire Mem0 into an existing repo via a test-first pipeline, then <code>/mem0-test-integration</code> to verify. Use <code>/mem0-oss-to-platform</code> to migrate an existing project from Mem0 OSS to the hosted Platform SDK. See the <a href=\"https://github.com/mem0ai/mem0/blob/main/skills\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">skills catalog</a> or <a href=\"https://docs.mem0.ai/vibecoding\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Vibecoding with Mem0</a> for the full picture.</p>\n<h5>Basic Usage</h5>\n<p>Mem0 requires an LLM to function, with <code>gpt-5-mini</code> from OpenAI as the default. However, it supports a variety of LLMs; for details, refer to our <a href=\"https://docs.mem0.ai/components/llms/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Supported LLMs documentation</a>.</p>\n<p>Mem0 uses <code>text-embedding-3-small</code> from OpenAI as the default embedding model. For best results with hybrid search (semantic + keyword + entity boosting), we recommend using at least <a href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen2-1.5B-instruct\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Qwen 600M</a> or a comparable embedding model. See <a href=\"https://docs.mem0.ai/components/embedders/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Supported Embeddings</a> for configuration details.</p>\n<p>First step is to instantiate the memory:</p>\n<pre><code class=\"language-python\">from openai import OpenAI\nfrom mem0 import Memory\n\nopenai_client = OpenAI()\nmemory = Memory()\n\ndef chat_with_memories(message: str, user_id: str = \"default_user\") -&gt; str:\n    # Retrieve relevant memories\n    relevant_memories = memory.search(query=message, filters={\"user_id\": user_id}, top_k=3)\n    memories_str = \"\\n\".join(f\"- {entry['memory']}\" for entry in relevant_memories[\"results\"])\n\n    # Generate Assistant response\n    system_prompt = f\"You are a helpful AI. Answer the question based on query and memories.\\nUser Memories:\\n{memories_str}\"\n    messages = [{\"role\": \"system\", \"content\": system_prompt}, {\"role\": \"user\", \"content\": message}]\n    response = openai_client.chat.completions.create(model=\"gpt-5-mini\", messages=messages)\n    assistant_response = response.choices[0].message.content\n\n    # Create new memories from the conversation\n    messages.append({\"role\": \"assistant\", \"content\": assistant_response})\n    memory.add(messages, user_id=user_id)\n\n    return assistant_response\n\ndef main():\n    print(\"Chat with AI (type 'exit' to quit)\")\n    while True:\n        user_input = input(\"You: \").strip()\n        if user_input.lower() == 'exit':\n            print(\"Goodbye!\")\n            break\n        print(f\"AI: {chat_with_memories(user_input)}\")\n\nif __name__ == \"__main__\":\n    main()\n</code></pre>\n<p>For detailed integration steps, see the <a href=\"https://docs.mem0.ai/quickstart\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Quickstart</a> and <a href=\"https://docs.mem0.ai/api-reference\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">API Reference</a>.</p>",
+    "truncated": false,
+    "chars": 6114
+   },
+   "usage": {
+    "title": "Basic Usage",
+    "html": "<p>Mem0 requires an LLM to function, with <code>gpt-5-mini</code> from OpenAI as the default. However, it supports a variety of LLMs; for details, refer to our <a href=\"https://docs.mem0.ai/components/llms/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Supported LLMs documentation</a>.</p>\n<p>Mem0 uses <code>text-embedding-3-small</code> from OpenAI as the default embedding model. For best results with hybrid search (semantic + keyword + entity boosting), we recommend using at least <a href=\"https://huggingface.co/Alibaba-NLP/gte-Qwen2-1.5B-instruct\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Qwen 600M</a> or a comparable embedding model. See <a href=\"https://docs.mem0.ai/components/embedders/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Supported Embeddings</a> for configuration details.</p>\n<p>First step is to instantiate the memory:</p>\n<pre><code class=\"language-python\">from openai import OpenAI\nfrom mem0 import Memory\n\nopenai_client = OpenAI()\nmemory = Memory()\n\ndef chat_with_memories(message: str, user_id: str = \"default_user\") -&gt; str:\n    # Retrieve relevant memories\n    relevant_memories = memory.search(query=message, filters={\"user_id\": user_id}, top_k=3)\n    memories_str = \"\\n\".join(f\"- {entry['memory']}\" for entry in relevant_memories[\"results\"])\n\n    # Generate Assistant response\n    system_prompt = f\"You are a helpful AI. Answer the question based on query and memories.\\nUser Memories:\\n{memories_str}\"\n    messages = [{\"role\": \"system\", \"content\": system_prompt}, {\"role\": \"user\", \"content\": message}]\n    response = openai_client.chat.completions.create(model=\"gpt-5-mini\", messages=messages)\n    assistant_response = response.choices[0].message.content\n\n    # Create new memories from the conversation\n    messages.append({\"role\": \"assistant\", \"content\": assistant_response})\n    memory.add(messages, user_id=user_id)\n\n    return assistant_response\n\ndef main():\n    print(\"Chat with AI (type 'exit' to quit)\")\n    while True:\n        user_input = input(\"You: \").strip()\n        if user_input.lower() == 'exit':\n            print(\"Goodbye!\")\n            break\n        print(f\"AI: {chat_with_memories(user_input)}\")\n\nif __name__ == \"__main__\":\n    main()\n</code></pre>\n<p>For detailed integration steps, see the <a href=\"https://docs.mem0.ai/quickstart\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Quickstart</a> and <a href=\"https://docs.mem0.ai/api-reference\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">API Reference</a>.</p>",
+    "truncated": false,
+    "chars": 2129
+   },
+   "features": {
+    "title": "Key Features & Use Cases",
+    "html": "<p><strong>Core Capabilities:</strong></p>\n<ul>\n<li><strong>Multi-Level Memory</strong>: Seamlessly retains User, Session, and Agent state with adaptive personalization</li>\n<li><strong>Developer-Friendly</strong>: Intuitive API, cross-platform SDKs, and a fully managed service option</li>\n</ul>\n<p><strong>Applications:</strong></p>\n<ul>\n<li><strong>AI Assistants</strong>: Consistent, context-rich conversations</li>\n<li><strong>Customer Support</strong>: Recall past tickets and user history for tailored help</li>\n<li><strong>Healthcare</strong>: Track patient preferences and history for personalized care</li>\n<li><strong>Productivity &amp; Gaming</strong>: Adaptive workflows and environments based on user behavior</li>\n</ul>",
+    "truncated": false,
+    "chars": 553
+   }
+  },
+  "headings": 16,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:28.137Z",
+  "checked_at": "2026-11-16T04:33:28.137Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:13.194Z",
+ "contributors": {
+  "count": 410,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:19.936Z"
+ }
+}

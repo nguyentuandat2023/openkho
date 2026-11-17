@@ -1,0 +1,94 @@
+{
+ "id": "SubtitleEdit/subtitleedit",
+ "github_id": 16473585,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxNjQ3MzU4NQ==",
+ "full_name": "SubtitleEdit/subtitleedit",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:06.954Z",
+ "meta": {
+  "name": "subtitleedit",
+  "owner": "SubtitleEdit",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/3008853?v=4",
+  "description": "the subtitle editor :)",
+  "homepage": "http://www.nikse.dk/SubtitleEdit/Help",
+  "html_url": "https://github.com/SubtitleEdit/subtitleedit",
+  "default_branch": "main",
+  "language": "C#",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 15023,
+  "forks": 1381,
+  "watchers": null,
+  "open_issues": 201,
+  "open_prs": null,
+  "created_at": "2014-02-03T08:17:41Z",
+  "pushed_at": "2026-11-16T18:41:59Z",
+  "updated_at": "2026-11-17T01:54:42Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 291707,
+  "og_image": "https://opengraph.githubassets.com/1/SubtitleEdit/subtitleedit",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T18:41:59.000Z",
+  "commits_90d": 2208,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v5.4.0",
+  "name": "Subtitle Edit v5.4.0",
+  "published_at": "2026-11-06T05:39:40Z",
+  "url": "https://github.com/SubtitleEdit/subtitleedit/releases/tag/v5.4.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v5.5.0-beta7",
+  "name": "Subtitle Edit v5.5.0-beta7",
+  "published_at": "2026-11-16T07:07:40Z",
+  "url": "https://github.com/SubtitleEdit/subtitleedit/releases/tag/v5.5.0-beta7"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 3507,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installing Subtitle Edit on macOS",
+    "html": "<p>As of <strong>v5.2.0</strong>, the <code>.dmg</code> is signed with an Apple Developer ID and notarized by Apple, so it opens normally — no Terminal quarantine-removal step is needed:</p>\n<ol>\n<li><strong>Download</strong> and <strong>double-click</strong> the <code>.dmg</code> file to mount it.</li>\n<li>In the window that appears, <strong>drag <code>Subtitle Edit.app</code> into your <code>Applications</code> folder</strong>.</li>\n<li>Open <strong>Subtitle Edit</strong> from Applications (or Launchpad).</li>\n</ol>",
+    "truncated": false,
+    "chars": 383
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 16,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:45.320Z",
+  "checked_at": "2026-11-17T02:20:43.086Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:43.086Z"
+}

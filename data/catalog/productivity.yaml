@@ -1,0 +1,180 @@
+# Danh mục: Automation & Productivity — xem cấu trúc trường trong data/README.md
+- repo: microsoft/PowerToys
+  tags: [windows, utilities, ocr, window-manager]
+  summary: "Bộ tiện ích miễn phí của Microsoft cho Windows: đổi tên hàng loạt, chỉnh kích thước ảnh, trích chữ từ màn hình, chia vùng cửa sổ, tìm kiếm nhanh…"
+  use_cases: ["Đổi tên và resize hàng loạt ảnh sản phẩm", "Copy chữ từ ảnh/màn hình (Text Extractor)", "Sắp xếp cửa sổ khi làm việc đa màn hình"]
+  pros: ["Hàng chục tiện ích trong một bộ cài", "Từ chính Microsoft, cập nhật đều đặn", "Hoàn toàn miễn phí"]
+  cons: ["Chỉ dành cho Windows 10/11", "Một số tiện ích chạy nền tốn RAM"]
+  platforms: [windows]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  quick_start: |
+    winget install Microsoft.PowerToys --source winget
+  applicability: 5
+  featured: true
+- repo: Stirling-Tools/Stirling-PDF
+  tags: [pdf, ocr, self-hosted, acrobat-alternative]
+  summary: "Bộ công cụ PDF tự host chạy trên trình duyệt: gộp, tách, nén, chuyển đổi, OCR, ký, đóng dấu… dữ liệu không rời máy chủ của bạn."
+  use_cases: ["Xử lý hợp đồng, báo giá PDF hằng ngày", "Nén PDF gửi email", "OCR tài liệu scan"]
+  pros: ["Hơn 50 thao tác PDF trong một giao diện", "Thay Adobe Acrobat cho nhu cầu văn phòng", "Dữ liệu nhạy cảm không gửi lên dịch vụ ngoài"]
+  cons: ["Bản Docker đầy đủ khá nặng", "Một số tính năng doanh nghiệp tính phí"]
+  platforms: [docker, windows, macos, linux]
+  deploy: [self-host, desktop]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  license_note: "Phần lớn mã MIT; một số tính năng nâng cao (Pro/Enterprise) có giấy phép riêng (GitHub hiển thị NOASSERTION)."
+  quick_start: |
+    docker run -d -p 8080:8080 --name stirling-pdf stirlingtools/stirling-pdf:latest
+    # Mở http://localhost:8080
+  applicability: 5
+  featured: true
+  license_override:
+    spdx: MIT
+    name: MIT + tính năng Pro có giấy phép riêng
+- repo: localsend/localsend
+  tags: [file-transfer, airdrop-alternative, cross-platform]
+  summary: "Gửi file, tin nhắn giữa điện thoại và máy tính trong cùng mạng Wi-Fi — thay AirDrop cho mọi hệ điều hành, không cần Internet."
+  use_cases: ["Chuyển ảnh/video từ điện thoại sang máy tính", "Chia sẻ file trong văn phòng"]
+  platforms: [windows, macos, linux, android, ios]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 5
+- repo: rustdesk/rustdesk
+  tags: [remote-desktop, teamviewer-alternative]
+  summary: "Phần mềm điều khiển máy tính từ xa thay TeamViewer/AnyDesk, có thể tự host máy chủ trung gian để bảo mật."
+  use_cases: ["Hỗ trợ kỹ thuật từ xa cho nhân viên", "Truy cập máy văn phòng từ nhà"]
+  platforms: [windows, macos, linux, android, ios]
+  deploy: [desktop, self-host]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  applicability: 5
+- repo: AppFlowy-IO/AppFlowy
+  tags: [notion-alternative, notes, project-management, ai]
+  summary: "Không gian làm việc AI thay Notion: ghi chú, tài liệu, wiki, bảng dự án — dữ liệu do bạn kiểm soát, có bản desktop và di động."
+  use_cases: ["Wiki nội bộ, quy trình công ty", "Quản lý kế hoạch nội dung"]
+  platforms: [windows, macos, linux, android, ios]
+  deploy: [desktop, self-host, cloud]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 4
+- repo: toeverything/AFFiNE
+  tags: [notion-alternative, whiteboard, local-first]
+  summary: "Không gian làm việc kết hợp tài liệu, bảng trắng và cơ sở dữ liệu — thay Notion + Miro, ưu tiên lưu cục bộ."
+  use_cases: ["Brainstorm chiến dịch trên bảng trắng", "Ghi chú và tài liệu nhóm"]
+  platforms: [windows, macos, linux, web]
+  deploy: [desktop, self-host, cloud]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 4
+- repo: makeplane/plane
+  tags: [project-management, jira-alternative, sprint]
+  summary: "Quản lý dự án thay Jira/Linear/Asana: công việc, chu kỳ (sprint), lộ trình, trang tài liệu — tự host hoặc dùng cloud."
+  use_cases: ["Quản lý dự án marketing, sản phẩm", "Theo dõi công việc đội nhóm"]
+  platforms: [docker, web]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: laurent22/joplin
+  tags: [notes, encryption, evernote-alternative]
+  summary: "Ứng dụng ghi chú và việc cần làm mã hóa đầu-cuối, đồng bộ qua Dropbox/OneDrive/Nextcloud, nhập được từ Evernote."
+  use_cases: ["Ghi chú cá nhân an toàn", "Lưu trữ kiến thức, tài liệu"]
+  platforms: [windows, macos, linux, android, ios]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: usememos/memos
+  tags: [notes, self-hosted, microblog]
+  summary: "Ứng dụng ghi chú nhanh dạng dòng thời gian, tự host, nhẹ và riêng tư — như 'Twitter cá nhân' cho ý tưởng."
+  use_cases: ["Ghi nhanh ý tưởng nội dung", "Nhật ký công việc"]
+  platforms: [docker]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: hiroi-sora/Umi-OCR
+  tags: [ocr, windows, offline, batch]
+  summary: "Phần mềm OCR miễn phí, offline cho Windows: nhận dạng chữ trong ảnh, ảnh chụp màn hình, PDF hàng loạt, đọc mã QR."
+  use_cases: ["Lấy chữ từ ảnh chụp tài liệu", "OCR hàng loạt thư mục ảnh"]
+  platforms: [windows, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: paperless-ngx/paperless-ngx
+  tags: [document-management, ocr, paperless]
+  summary: "Hệ thống số hóa và quản lý tài liệu: scan giấy tờ, OCR, tự gắn thẻ, tìm kiếm toàn văn — văn phòng không giấy."
+  use_cases: ["Lưu trữ hóa đơn, hợp đồng", "Tìm nhanh tài liệu cũ"]
+  platforms: [docker]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: ShareX/ShareX
+  also: [video-media]
+  tags: [screenshot, screen-recording, windows]
+  summary: "Chụp màn hình, quay màn hình (GIF/video), chú thích, OCR và tải lên tự động — công cụ chụp màn hình mạnh nhất cho Windows."
+  use_cases: ["Ảnh hướng dẫn sử dụng có chú thích", "Quay video thao tác ngắn"]
+  platforms: [windows]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 5
+- repo: espanso/espanso
+  tags: [text-expander, snippets, automation]
+  summary: "Gõ tắt văn bản: gõ một từ khóa ngắn để bung thành cả đoạn văn — tiết kiệm thời gian trả lời tin nhắn, email khách hàng."
+  use_cases: ["Mẫu trả lời khách hàng", "Chèn nhanh thông tin công ty, chữ ký"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: AutoHotkey/AutoHotkey
+  tags: [windows, automation, hotkeys, scripting]
+  summary: "Ngôn ngữ kịch bản tự động hóa Windows: tạo phím tắt, gõ tắt, tự động thao tác chuột/bàn phím lặp lại."
+  use_cases: ["Tự động hóa thao tác nhập liệu lặp lại", "Phím tắt riêng cho phần mềm hay dùng"]
+  platforms: [windows]
+  deploy: [desktop]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: keepassxreboot/keepassxc
+  tags: [password-manager, offline, security]
+  summary: "Trình quản lý mật khẩu offline mã hóa mạnh, đa nền tảng, tương thích định dạng KeePass."
+  use_cases: ["Quản lý mật khẩu tài khoản quảng cáo, mạng xã hội an toàn"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+  license_override:
+    spdx: GPL-3.0
+    name: GPL-2.0/3.0
+- repo: actualbudget/actual
+  tags: [budgeting, personal-finance, local-first]
+  summary: "Quản lý ngân sách cá nhân/gia đình theo phương pháp phong bì (envelope), ưu tiên lưu cục bộ, đồng bộ tùy chọn."
+  use_cases: ["Theo dõi chi tiêu cá nhân", "Ngân sách dự án nhỏ"]
+  platforms: [windows, macos, linux, web, docker]
+  deploy: [desktop, self-host]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 3

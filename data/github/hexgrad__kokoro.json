@@ -1,0 +1,91 @@
+{
+ "id": "hexgrad/kokoro",
+ "github_id": 915054134,
+ "node_id": "R_kgDONoqeNg",
+ "full_name": "hexgrad/kokoro",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "kokoro",
+  "owner": "hexgrad",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/166769057?v=4",
+  "description": "https://hf.co/hexgrad/Kokoro-82M",
+  "homepage": null,
+  "html_url": "https://github.com/hexgrad/kokoro",
+  "default_branch": "main",
+  "language": "JavaScript",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 10170,
+  "forks": 1149,
+  "watchers": null,
+  "open_issues": 224,
+  "open_prs": null,
+  "created_at": "2025-01-10T21:37:05Z",
+  "pushed_at": "2025-08-06T22:28:53Z",
+  "updated_at": "2026-11-17T02:16:51Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 29122,
+  "og_image": "https://opengraph.githubassets.com/1/hexgrad/kokoro",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2025-08-06T22:28:53.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 7818,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Windows Installation",
+    "html": "<p>To install espeak-ng on Windows:</p>\n<ol>\n<li>Go to <a href=\"https://github.com/espeak-ng/espeak-ng/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">espeak-ng releases</a></li>\n<li>Click on <strong>Latest release</strong> </li>\n<li>Download the appropriate <code>*.msi</code> file (e.g. <strong>espeak-ng-20191129-b702b03-x64.msi</strong>)</li>\n<li>Run the downloaded installer</li>\n</ol>\n<p>For advanced configuration and usage on Windows, see the <a href=\"https://github.com/espeak-ng/espeak-ng/blob/master/docs/guide.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">official espeak-ng Windows guide</a></p>",
+    "truncated": false,
+    "chars": 423
+   },
+   "usage": {
+    "title": "Usage",
+    "html": "<p>You can run this basic cell on <a href=\"https://colab.research.google.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Google Colab</a>. <a href=\"https://huggingface.co/hexgrad/Kokoro-82M/blob/main/SAMPLES.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Listen to samples</a>.</p>\n<pre><code class=\"language-py\">!pip install -q kokoro&gt;=0.9.4 soundfile\n!apt-get -qq -y install espeak-ng &gt; /dev/null 2&gt;&amp;1\nfrom kokoro import KPipeline\nfrom IPython.display import display, Audio\nimport soundfile as sf\nimport torch\npipeline = KPipeline(lang_code='a')\ntext = '''\n[Kokoro](/kˈOkəɹO/) is an open-weight TTS model with 82 million parameters. Despite its lightweight architecture, it delivers comparable quality to larger models while being significantly faster and more cost-efficient. With Apache-licensed weights, [Kokoro](/kˈOkəɹO/) can be deployed anywhere from production environments to personal projects.\n'''\ngenerator = pipeline(text, voice='af_heart')\nfor i, (gs, ps, audio) in enumerate(generator):\n    print(i, gs, ps)\n    display(Audio(data=audio, rate=24000, autoplay=i==0))\n    sf.write(f'{i}.wav', audio, 24000)\n</code></pre>\n<p>Under the hood, <code>kokoro</code> uses <a href=\"https://pypi.org/project/misaki/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>misaki</code></a>, a G2P library at <a href=\"https://github.com/hexgrad/misaki\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://github.com/hexgrad/misaki</a></p>",
+    "truncated": false,
+    "chars": 1113
+   },
+   "features": null
+  },
+  "headings": 7,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:34.907Z",
+  "checked_at": "2026-11-16T04:33:34.907Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:13.194Z",
+ "contributors": {
+  "count": 22,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:23.670Z"
+ }
+}

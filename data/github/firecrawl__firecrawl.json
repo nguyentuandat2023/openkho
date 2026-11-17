@@ -1,0 +1,119 @@
+{
+ "id": "firecrawl/firecrawl",
+ "github_id": 787076358,
+ "node_id": "R_kgDOLunVBg",
+ "full_name": "firecrawl/firecrawl",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "firecrawl",
+  "owner": "firecrawl",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/135057108?v=4",
+  "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+  "homepage": "https://firecrawl.dev",
+  "html_url": "https://github.com/firecrawl/firecrawl",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "ai",
+   "ai-agents",
+   "ai-crawler",
+   "ai-scraping",
+   "ai-search",
+   "crawler",
+   "data-extraction",
+   "html-to-markdown",
+   "llm",
+   "markdown",
+   "scraper",
+   "scraping",
+   "web-crawler",
+   "web-data",
+   "web-data-extraction",
+   "web-scraper",
+   "web-scraping",
+   "web-search",
+   "webscraping"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 202376,
+  "forks": 10605,
+  "watchers": null,
+  "open_issues": 806,
+  "open_prs": null,
+  "created_at": "2024-04-15T21:02:29Z",
+  "pushed_at": "2026-11-17T01:41:55Z",
+  "updated_at": "2026-11-17T02:08:24Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 191771,
+  "og_image": "https://opengraph.githubassets.com/1/firecrawl/firecrawl",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T23:55:11.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.11.0",
+  "name": "v2.11.0",
+  "published_at": null,
+  "url": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v2.11.762",
+  "name": "v2.11.762",
+  "published_at": "2026-11-17T00:02:50Z",
+  "url": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.762"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 25871,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<p>Sign up at <a href=\"https://firecrawl.dev\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">firecrawl.dev</a> to get your API key. Try the <a href=\"https://firecrawl.dev/playground\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">playground</a> to test it out.</p>\n<h5>Search</h5>\n<p>Search the web and get full content from results.</p>\n<pre><code class=\"language-python\">from firecrawl import Firecrawl\n\napp = Firecrawl(api_key=\"fc-YOUR_API_KEY\")\n\nsearch_result = app.search(\"firecrawl\", limit=5)\n</code></pre>\n<details>\n<summary><b>Node.js / cURL / CLI</b></summary><p><strong>Node.js</strong></p>\n<pre><code class=\"language-javascript\">import { Firecrawl } from 'firecrawl';\n\nconst app = new Firecrawl({apiKey: \"fc-YOUR_API_KEY\"});\n\napp.search(\"firecrawl\", { limit: 5 })\n</code></pre>\n<p><strong>cURL</strong></p>\n<pre><code class=\"language-bash\">curl -X POST 'https://api.firecrawl.dev/v2/search' \\\n-H 'Authorization: Bearer fc-YOUR_API_KEY' \\\n-H 'Content-Type: application/json' \\\n-d '{\n  \"query\": \"firecrawl\",\n  \"limit\": 5\n}'\n</code></pre>\n<p><strong>CLI</strong></p>\n<pre><code class=\"language-bash\">firecrawl search \"firecrawl\" --limit 5\n</code></pre>\n</details><p>Output:</p>\n<pre><code class=\"language-json\">[\n  {\n    \"url\": \"https://firecrawl.dev\",\n    \"title\": \"Firecrawl\",\n    \"markdown\": \"Turn websites into...\"\n  },\n  {\n    \"url\": \"https://docs.firecrawl.dev\",\n    \"title\": \"Firecrawl Docs\",\n    \"markdown\": \"# Getting Started...\"\n  }\n]\n</code></pre>\n<h5>Scrape</h5>\n<p>Get LLM-ready context from any website — markdown, JSON, screenshots, and more.</p>\n<pre><code class=\"language-python\">from firecrawl import Firecrawl\n\napp = Firecrawl(api_key=\"fc-YOUR_API_KEY\")\n\nresult = app.scrape('firecrawl.dev')\n</code></pre>\n<details>\n<summary><b>Node.js / cURL / CLI</b></summary><p><strong>Node.js</strong></p>\n<pre><code class=\"language-javascript\">import { Firecrawl } from 'firecrawl';\n\nconst app = new Firecrawl({ apiKey: \"fc-YOUR_API_KEY\" });\n\napp.scrape('firecrawl.dev')\n</code></pre>\n<p><strong>cURL</strong></p>\n<pre><code class=\"language-bash\">curl -X POST 'https://api.firecrawl.dev/v2/scrape' \\\n-H 'Authorization: Bearer fc-YOUR_API_KEY' \\\n-H 'Content-Type: application/json' \\\n-d '{\n  \"url\": \"firecrawl.dev\"\n}'\n</code></pre>\n<p><strong>CLI</strong></p>\n<pre><code class=\"language-bash\">firecrawl scrape https://firecrawl.dev\nfirecrawl https://firecrawl.dev --only-main-content\n</code></pre>\n</details><p>Output:</p>\n<pre><code># Firecrawl\n\nFirecrawl helps AI agents search, scrape, and interact with the web.\n\n## Features\n- Search: Find information across the web\n- Scrape: Clean data from any page\n- Interact: Click, navigate, and operate pages\n- Agent: Autonomous data gathering\n</code></pre>\n<h5>Interact</h5>\n<p>Scrape a page, then interact with it using AI prompts or code.</p>\n<pre><code class=\"language-python\">from firecrawl import Firecrawl\n\napp = Firecrawl(api_key=\"fc-YOUR_API_KEY\")\n\nresult = app.scrape(\"https://amazon.com\")\nscrape_id = result.metadata.scrape_id\n\napp.interact(scrape_id, prompt=\"Search for 'mechanical keyboard'\")\napp.interact(scrape_id, prompt=\"Click the first result\")\n</code></pre>\n<details>\n<summary><b>Node.js / cURL / CLI</b></summary><p><strong>Node.js</strong></p>\n<pre><code class=\"language-javascript\">import { Firecrawl } from 'firecrawl';\n\nconst app = new Firecrawl({apiKey: \"fc-YOUR_API_KEY\"});\n\nconst result = await app.scrape(\"https://amazon.com\");\n\nawait app.interact(result.metadata.scrapeId, {\n  prompt: \"Search for 'mechanical keyboard'\"\n});\nawait app.interact(result.metadata.scrapeId, {\n  prompt: \"Click the first result\"\n});\n</code></pre>\n<p><strong>cURL</strong></p>\n<pre><code class=\"language-bash\"># 1. Scrape the page\ncurl -X POST 'https://api.firecrawl.dev/v2/scrape' \\\n-H 'Authorization: Bearer fc-YOUR_API_KEY' \\\n-H 'Content-Type: application/json' \\\n-d '{\"url\": \"https://amazon.com\"}'\n\n# 2. Interact with the page (use scrapeId from step 1)\ncurl -X POST 'https://api.firecrawl.dev/v2/scrape/SCRAPE_ID/interact' \\\n-H 'Authorization: Bearer fc-YOUR_API_KEY' \\\n-H 'Content-Type: application/json' \\\n-d '{\"prompt\": \"Search for mechanical keyboard\"}'\n</code></pre>\n<p><strong>CLI</strong></p>\n<pre><code class=\"language-bash\">firecrawl scrape https://amazon.com\nfirecrawl interact exec --prompt \"Search for 'mechanical keyboard'\"\nfirecrawl interact exec --prompt \"Click the first result\"\n</code></pre>\n</details><p>Output:</p>\n<pre><code class=\"language-json\">{\n  \"success\": true,\n  \"output\": \"Keyboard available at $100\",\n  \"liveViewUrl\": \"https://liveview.firecrawl.dev/...\"\n}\n</code></pre>\n<hr />",
+    "truncated": false,
+    "chars": 3740
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 39,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:21.316Z",
+  "checked_at": "2026-11-17T02:19:21.316Z"
+ },
+ "contributors": {
+  "count": 180,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:34.288Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:21.316Z"
+}

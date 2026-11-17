@@ -1,0 +1,99 @@
+{
+ "id": "lllyasviel/Fooocus",
+ "github_id": 676676006,
+ "node_id": "R_kgDOKFVBpg",
+ "full_name": "lllyasviel/Fooocus",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.073Z",
+ "meta": {
+  "name": "Fooocus",
+  "owner": "lllyasviel",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/19834515?v=4",
+  "description": "Focus on prompting and generating",
+  "homepage": null,
+  "html_url": "https://github.com/lllyasviel/Fooocus",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "GPL-3.0",
+   "name": "GNU General Public License v3.0"
+  },
+  "stars": 53938,
+  "forks": 8623,
+  "watchers": null,
+  "open_issues": 316,
+  "open_prs": null,
+  "created_at": "2023-08-09T18:43:40Z",
+  "pushed_at": "2025-12-01T19:17:07Z",
+  "updated_at": "2026-11-16T23:21:30Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 34158,
+  "og_image": "https://opengraph.githubassets.com/1/lllyasviel/Fooocus",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2025-09-02T20:28:40.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.5.5",
+  "name": "v2.5.5",
+  "published_at": "2024-08-12T06:12:31Z",
+  "url": "https://github.com/lllyasviel/Fooocus/releases/tag/v2.5.5",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "readme.md",
+  "length": 33281,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Download",
+    "html": "<h5>Windows</h5>\n<p>You can directly download Fooocus with:</p>\n<p><strong><a href=\"https://github.com/lllyasviel/Fooocus/releases/download/v2.5.0/Fooocus_win64_2-5-0.7z\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">&gt;&gt;&gt; Click here to download &lt;&lt;&lt;</a></strong></p>\n<p>After you download the file, please uncompress it and then run the \"run.bat\".</p>\n<p><img src=\"https://github.com/lllyasviel/Fooocus/assets/19834515/c49269c4-c274-4893-b368-047c401cc58c\" alt=\"image\" loading=\"lazy\" decoding=\"async\" /></p>\n<p>The first time you launch the software, it will automatically download models:</p>\n<ol>\n<li>It will download <a href=\"https://github.com/lllyasviel/Fooocus#models\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">default models</a> to the folder \"Fooocus\\models\\checkpoints\" given different presets. You can download them in advance if you do not want automatic download.</li>\n<li>Note that if you use inpaint, at the first time you inpaint an image, it will download <a href=\"https://huggingface.co/lllyasviel/fooocus_inpaint/resolve/main/inpaint_v26.fooocus.patch\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Fooocus's own inpaint control model from here</a> as the file \"Fooocus\\models\\inpaint\\inpaint_v26.fooocus.patch\" (the size of this file is 1.28GB).</li>\n</ol>\n<p>After Fooocus 2.1.60, you will also have <code>run_anime.bat</code> and <code>run_realistic.bat</code>. They are different model presets (and require different models, but they will be automatically downloaded). <a href=\"https://github.com/lllyasviel/Fooocus/discussions/679\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Check here for more details</a>.</p>\n<p>After Fooocus 2.3.0 you can also switch presets directly in the browser. Keep in mind to add these arguments if you want to change the default behavior:</p>\n<ul>\n<li>Use <code>--disable-preset-selection</code> to disable preset selection in the browser.</li>\n<li>Use <code>--always-download-new-model</code> to download missing models on preset switch. Default is fallback to <code>previous_default_models</code> defined in the corresponding preset, also see terminal output.</li>\n</ul>\n<p><img src=\"https://github.com/lllyasviel/Fooocus/assets/19834515/d386f817-4bd7-490c-ad89-c1e228c23447\" alt=\"image\" loading=\"lazy\" decoding=\"async\" /></p>\n<p>If you already have these files, you can copy them to the above locations to speed up installation.</p>\n<p>Note that if you see <strong>\"MetadataIncompleteBuffer\" or \"PytorchStreamReader\"</strong>, then your model files are corrupted. Please download models again.</p>\n<p>Below is a test on a relatively low-end laptop with <strong>16GB System RAM</strong> and <strong>6GB VRAM</strong> (Nvidia 3060 laptop). The speed on this machine is about 1.35 seconds per iteration. Pretty impressive – nowadays laptops with 3060 are usually at very acceptable price.</p>\n<p><img src=\"https://github.com/lllyasviel/Fooocus/assets/19834515/938737a5-b105-4f19-b051-81356cb7c495\" alt=\"image\" loading=\"lazy\" decoding=\"async\" /></p>\n<p>Besides, recently many other software report that Nvidia driver above 532 is sometimes 10x slower than Nvidia driver 531. If your generation time is very long, consider download <a href=\"https://www.nvidia.com/download/driverResults.aspx/199991/en-us/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Nvidia Driver 531 Laptop</a> or <a href=\"https://www.nvidia.com/download/driverResults.aspx/199990/en-us/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Nvidia Driver 531 Desktop</a>.</p>\n<p>Note that the minimal requirement is <strong>4GB Nvidia GPU memory (4GB VRAM)</strong> and <strong>8GB system memory (8GB RAM)</strong>. This requires using Microsoft’s Virtual Swap technique, which is automatically enabled by your Windows installation in most cases, so you often do not need to do anything about it. However, if you are not sure, or if you manually turned it off (would anyone really do that?), or <strong>if you see any \"RuntimeError: CPUAllocator\"</strong>, you can enable it here:</p>\n<details>\n<summary>Click here to see the image instructions. </summary><p><img src=\"https://github.com/lllyasviel/Fooocus/assets/19834515/2a06b130-fe9b-4504-94f1-2763be4476e9\" alt=\"image\" loading=\"lazy\" decoding=\"async\" /></p>\n<p><strong>And make sure that you have at least 40GB free space on each drive if you still see \"RuntimeError: CPUAllocator\" !</strong></p>\n</details><p>Please open an issue if you use similar devices but still cannot achieve acceptable performances.</p>\n<p>Note that the <a href=\"https://github.com/lllyasviel/Fooocus#minimal-requirement\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">minimal requirement</a> for different platforms is different.</p>\n<p>See also the common problems and troubleshoots <a href=\"https://github.com/lllyasviel/Fooocus/blob/main/troubleshoot.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>.</p>\n<h5>Colab</h5>\n<p>(Last tested - 2024 Aug 12 by <a href=\"https://github.com/mashb1t\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">mashb1t</a>)</p>\n<table>\n<thead>\n<tr>\n<th>Colab</th>\n<th>Info</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><a href=\"https://colab.research.google.com/github/lllyasviel/Fooocus/blob/main/fooocus_colab.ipynb\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\" loading=\"lazy\" decoding=\"async\" /></a></td>\n<td>Fooocus Official</td>\n</tr>\n</tbody></table>\n<p>In Colab, you can modify the last line to <code>!python entry_with_update.py --share --always-high-vram</code> or <code>!python entry_with_update.py --share --always-high-vram --preset anime</code> or <code>!python entry_with_update.py --share --always-high-vram --preset realistic</code> for Fooocus Default/Anime/Realistic Edition.</p>\n<p>You can also change the preset in the UI. Please be aware that this may lead to timeouts after 60 seconds. If this is the case, please wait until the download has finished, change the preset to initial and back to the one you've selected or reload the page.</p>\n<p>Note that this Colab will disable refiner by default because Colab free's resources are relatively limited (and some \"big\" features like image prompt may cause free-tier Colab to disconnect). We make sure that basic text-to-image is always working on free-tier Colab.</p>\n<p>Using <code>--always-high-vram</code> shifts resource allocation from RAM to VRAM and achieves the overall best balance between performance, flexibility and stability on the default T4 instance. Please find more information <a href=\"https://github.com/lllyasviel/Fooocus/pull/1710#issuecomment-1989185346\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>.</p>\n<p>Thanks to <a href=\"https://github.com/camenduru\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">camenduru</a> for the template!</p>\n<h5>Linux (Using Anaconda)</h5>\n<p>If you want to use Anaconda/Miniconda, you can</p>\n<pre><code>git clone https://github.com/lllyasviel/Fooocus.git\ncd Fooocus\nconda env create -f environment.yaml\nconda activate fooocus\npip install -r requirements_versions.txt\n</code></pre>\n<p>Then download the models: download <a href=\"https://github.com/lllyasviel/Fooocus#models\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">default models</a> to the folder \"Fooocus\\models\\checkpoints\". <strong>Or let Fooocus automatically download the models</strong> using the launcher:</p>\n<pre><code>conda activate fooocus\npython entry_with_update.py\n</code></pre>\n<p>Or, if you want to open a remote port, use</p>\n<pre><code>conda activate fooocus\npython entry_with_update.py --listen\n</code></pre>\n<p>Use <code>python entry_with_update.py --preset anime</code> or <code>python entry_with_update.py --preset realistic</code> for Fooocus Anime/Realistic Edition.</p>\n<h5>Linux (Using Python Venv)</h5>\n<p>Your Linux needs to have <strong>Python 3.10</strong> installed, and let's say your Python can be called with the command <strong>python3</strong> with your venv system working; you can</p>\n<pre><code>git clone https://github.com/lllyasviel/Fooocus.git\ncd Fooocus\npython3 -m venv fooocus_env\nsource fooocus_env/bin/activate\npip install -r requirements_versions.txt\n</code></pre>\n<p>See the above sections for model downloads. You can launch the software with:</p>\n<pre><code>source fooocus_env/bin/activate\npython entry_with_update.py\n</code></pre>\n<p>Or, if you want to open a remote port, use</p>\n<pre><code>source fooocus_env/bin/activate\npython entry_with_update.py --listen\n</code></pre>\n<p>Use <code>python entry_with_update.py --preset anime</code> or <code>python entry_with_update.py --preset realistic</code> for Fooocus Anime/Realistic Edition.</p>\n<h5>Linux (Using native system Python)</h5>\n<p>If you know what you are doing, and your Linux already has <strong>Python 3.10</strong> installed, and your Python can be called with the command <strong>python3</strong> (and Pip with <strong>pip3</strong>), you can</p>\n<pre><code>git clone https://github.com/lllyasviel/Fooocus.git\ncd Fooocus\npip3 install -r requirements_versions.txt\n</code></pre>\n<p>See the above sections for model downloads. You can launch the software with:</p>\n<pre><code>python3 entry_with_update.py\n</code></pre>\n<p>Or, if you want to open a remote port, use</p>\n<pre><code>python3 entry_with_update.py --listen\n</code></pre>\n<p>Use <code>python entry_with_update.py --preset anime</code> or <code>python entry_with_update.py --preset realistic</code> for Fooocus Anime/Realistic Edition.</p>\n<h5>Linux (AMD GPUs)</h5>\n<p>Note that the <a href=\"https://github.com/lllyasviel/Fooocus#minimal-requirement\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">minimal requirement</a> for different platforms is different.</p>\n<p>Same with the above instructions. You need to change torch to the AMD version</p>\n<pre><code>pip uninstall torch torchvision torchaudio torchtext functorch xformers \npip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm5.6\n</code></pre>\n<p>AMD is not intensively tested, however. The AMD support is in beta.</p>\n<p>Use <code>python entry_with_update.py --preset anime</code> or <code>python entry_with_update.py --preset realistic</code> for Fooocus Anime/Realistic Edition.</p>\n<h5>Windows (AMD GPUs)</h5>\n<p>Note that the <a href=\"https://github.com/lllyasviel/Fooocus#minimal-requirement\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">minimal requirement</a> for different platforms is different.</p>\n<p>Same with Windows. Download the software and edit the content of <code>run.bat</code> as:</p>\n<pre><code>.\\python_embeded\\python.exe -m pip uninstall torch torchvision torchaudio torchtext functorch xformers -y\n.\\python_embeded\\python.exe -m pip install torch-directml\n.\\python_embeded\\python.exe -s Fooocus\\entry_with_update.py --directml\npause\n</code></pre>\n<p>Then run the <code>run.bat</code>.</p>\n<p>AMD is not intensively tested, however. The AMD support is in beta.</p>\n<p>For AMD, use <code>.\\python_embeded\\python.exe Fooocus\\entry_with_update.py --directml --preset anime</code> or <code>.\\python_embeded\\python.exe Fooocus\\entry_with_update.py --directml --preset realistic</code> for Fooocus Anime/Realistic Edition.</p>\n<h5>Mac</h5>\n<p>Note that the <a href=\"https://github.com/lllyasviel/Fooocus#minimal-requirement\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">minimal requirement</a> for different platforms is different.</p>",
+    "truncated": true,
+    "chars": 8956
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<p>Below is a quick list using Midjourney's examples:</p>\n<table>\n<thead>\n<tr>\n<th>Midjourney</th>\n<th>Fooocus</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>High-quality text-to-image without needing much prompt engineering or parameter tuning. <br /> (Unknown method)</td>\n<td>High-quality text-to-image without needing much prompt engineering or parameter tuning. <br /> (Fooocus has an offline GPT-2 based prompt processing engine and lots of sampling improvements so that results are always beautiful, no matter if your prompt is as short as “house in garden” or as long as 1000 words)</td>\n</tr>\n<tr>\n<td>V1 V2 V3 V4</td>\n<td>Input Image -&gt; Upscale or Variation -&gt; Vary (Subtle) / Vary (Strong)</td>\n</tr>\n<tr>\n<td>U1 U2 U3 U4</td>\n<td>Input Image -&gt; Upscale or Variation -&gt; Upscale (1.5x) / Upscale (2x)</td>\n</tr>\n<tr>\n<td>Inpaint / Up / Down / Left / Right (Pan)</td>\n<td>Input Image -&gt; Inpaint or Outpaint -&gt; Inpaint / Up / Down / Left / Right <br /> (Fooocus uses its own inpaint algorithm and inpaint models so that results are more satisfying than all other software that uses standard SDXL inpaint method/model)</td>\n</tr>\n<tr>\n<td>Image Prompt</td>\n<td>Input Image -&gt; Image Prompt <br /> (Fooocus uses its own image prompt algorithm so that result quality and prompt understanding are more satisfying than all other software that uses standard SDXL methods like standard IP-Adapters or Revisions)</td>\n</tr>\n<tr>\n<td>--style</td>\n<td>Advanced -&gt; Style</td>\n</tr>\n<tr>\n<td>--stylize</td>\n<td>Advanced -&gt; Advanced -&gt; Guidance</td>\n</tr>\n<tr>\n<td>--niji</td>\n<td><a href=\"https://github.com/lllyasviel/Fooocus/discussions/679\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Multiple launchers: \"run.bat\", \"run_anime.bat\", and \"run_realistic.bat\".</a> <br /> Fooocus support SDXL models on Civitai <br /> (You can google search “Civitai” if you do not know about it)</td>\n</tr>\n<tr>\n<td>--quality</td>\n<td>Advanced -&gt; Quality</td>\n</tr>\n<tr>\n<td>--repeat</td>\n<td>Advanced -&gt; Image Number</td>\n</tr>\n<tr>\n<td>Multi Prompts (::)</td>\n<td>Just use multiple lines of prompts</td>\n</tr>\n<tr>\n<td>Prompt Weights</td>\n<td>You can use \" I am (happy:1.5)\". <br /> Fooocus uses A1111's reweighting algorithm so that results are better than ComfyUI if users directly copy prompts from Civitai. (Because if prompts are written in ComfyUI's reweighting, users are less likely to copy prompt texts as they prefer dragging files) <br /> To use embedding, you can use \"(embedding:file_name:1.1)\"</td>\n</tr>\n<tr>\n<td>--no</td>\n<td>Advanced -&gt; Negative Prompt</td>\n</tr>\n<tr>\n<td>--ar</td>\n<td>Advanced -&gt; Aspect Ratios</td>\n</tr>\n<tr>\n<td>InsightFace</td>\n<td>Input Image -&gt; Image Prompt -&gt; Advanced -&gt; FaceSwap</td>\n</tr>\n<tr>\n<td>Describe</td>\n<td>Input Image -&gt; Describe</td>\n</tr>\n</tbody></table>\n<p>Below is a quick list using LeonardoAI's examples:</p>\n<table>\n<thead>\n<tr>\n<th>LeonardoAI</th>\n<th>Fooocus</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Prompt Magic</td>\n<td>Advanced -&gt; Style -&gt; Fooocus V2</td>\n</tr>\n<tr>\n<td>Advanced Sampler Parameters (like Contrast/Sharpness/etc)</td>\n<td>Advanced -&gt; Advanced -&gt; Sampling Sharpness / etc</td>\n</tr>\n<tr>\n<td>User-friendly ControlNets</td>\n<td>Input Image -&gt; Image Prompt -&gt; Advanced</td>\n</tr>\n</tbody></table>\n<p>Also, <a href=\"https://github.com/lllyasviel/Fooocus/discussions/117\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">click here to browse the advanced features.</a></p>",
+    "truncated": false,
+    "chars": 2710
+   }
+  },
+  "headings": 30,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:07:59.436Z",
+  "checked_at": "2026-11-16T05:07:59.436Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:17.093Z",
+ "contributors": {
+  "count": 59,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T02:20:54.189Z"
+ }
+}

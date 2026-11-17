@@ -1,0 +1,105 @@
+{
+ "id": "jitsi/jitsi-meet",
+ "github_id": 15225670,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxNTIyNTY3MA==",
+ "full_name": "jitsi/jitsi-meet",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:03.703Z",
+ "meta": {
+  "name": "jitsi-meet",
+  "owner": "jitsi",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/3671647?v=4",
+  "description": "Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.",
+  "homepage": "https://jitsi.org/meet",
+  "html_url": "https://github.com/jitsi/jitsi-meet",
+  "default_branch": "master",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "debian",
+   "deep-video",
+   "jitsi",
+   "jitsi-meet",
+   "scalable-video-conferences",
+   "sfu",
+   "video",
+   "video-communication",
+   "video-conferencing",
+   "webrtc"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 30244,
+  "forks": 8133,
+  "watchers": null,
+  "open_issues": 202,
+  "open_prs": null,
+  "created_at": "2013-12-16T12:51:09Z",
+  "pushed_at": "2026-11-17T01:20:12Z",
+  "updated_at": "2026-11-16T20:46:30Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 391115,
+  "og_image": "https://opengraph.githubassets.com/1/jitsi/jitsi-meet",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T18:00:55.000Z",
+  "commits_90d": 420,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "stable/jitsi-meet_11509",
+  "name": "2.0.11509",
+  "published_at": "2026-11-16T14:28:46Z",
+  "url": "https://github.com/jitsi/jitsi-meet/releases/tag/stable%2Fjitsi-meet_11509",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "jitsi-meet_11518",
+  "name": "jitsi-meet_11518",
+  "published_at": "2026-11-17T01:20:09Z",
+  "url": "https://github.com/jitsi/jitsi-meet/releases/tag/jitsi-meet_11518"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 3599,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": null,
+   "usage": {
+    "title": "Using Jitsi Meet",
+    "html": "<p>Using Jitsi Meet is straightforward, as it's browser based. Head over to <a href=\"https://meet.jit.si\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">meet.jit.si</a> and give it a try. It's scalable and free to use. All you need is a Google, Facebook or GitHub account in order to start a meeting. All browsers are supported!</p>\n<p>Using mobile? No problem, you can either use your mobile web browser or our fully-featured\nmobile apps:</p>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Android</th>\n<th align=\"center\">Android (F-Droid)</th>\n<th align=\"center\">iOS</th>\n</tr>\n</thead>\n<tbody><tr>\n<td align=\"center\"><a href=\"https://play.google.com/store/apps/details?id=org.jitsi.meet\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/jitsi/jitsi-meet/master/resources/img/google-play-badge.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" height=\"50\" /></a></td>\n<td align=\"center\"><a href=\"https://f-droid.org/packages/org.jitsi.meet/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/jitsi/jitsi-meet/master/resources/img/f-droid-badge.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" height=\"50\" /></a></td>\n<td align=\"center\"><a href=\"https://itunes.apple.com/us/app/jitsi-meet/id1165103905\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/jitsi/jitsi-meet/master/resources/img/appstore-badge.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" height=\"50\" /></a></td>\n</tr>\n</tbody></table>\n<p>If you are feeling adventurous and want to get an early scoop of the features as they are being\ndeveloped you can also sign up for our open beta testing here:</p>\n<ul>\n<li><a href=\"https://play.google.com/apps/testing/org.jitsi.meet\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Android</a></li>\n<li><a href=\"https://testflight.apple.com/join/isy6ja7S\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">iOS</a></li>\n</ul>",
+    "truncated": false,
+    "chars": 1059
+   },
+   "features": null
+  },
+  "headings": 7,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:40.182Z",
+  "checked_at": "2026-11-17T02:20:40.182Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:40.182Z"
+}

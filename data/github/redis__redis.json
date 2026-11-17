@@ -1,0 +1,125 @@
+{
+ "id": "redis/redis",
+ "github_id": 156018,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxNTYwMTg=",
+ "full_name": "redis/redis",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "redis",
+  "owner": "redis",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1529926?v=4",
+  "description": "For developers, who are building real-time data-driven applications, Redis is the preferred, fastest, and most feature-rich cache, data structure server, and document and vector query engine.",
+  "homepage": "http://redis.io",
+  "html_url": "https://github.com/redis/redis",
+  "default_branch": "unstable",
+  "language": "C",
+  "languages": null,
+  "topics": [
+   "cache",
+   "caching",
+   "database",
+   "distributed-systems",
+   "in-memory",
+   "in-memory-database",
+   "json",
+   "key-value",
+   "key-value-store",
+   "message-broker",
+   "message-queue",
+   "no-sql",
+   "nosql",
+   "open-source",
+   "real-time",
+   "realtime",
+   "redis",
+   "time-series",
+   "vector-databases",
+   "vector-search"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 77512,
+  "forks": 25054,
+  "watchers": null,
+  "open_issues": 3112,
+  "open_prs": null,
+  "created_at": "2009-03-21T22:32:25Z",
+  "pushed_at": "2026-11-15T15:15:18Z",
+  "updated_at": "2026-11-17T01:08:12Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 221565,
+  "og_image": "https://opengraph.githubassets.com/1/redis/redis",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-15T15:15:18.000Z",
+  "commits_90d": 319,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "8.10.3",
+  "name": "8.10.3",
+  "published_at": "2026-10-26T12:00:45Z",
+  "url": "https://github.com/redis/redis/releases/tag/8.10.3",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "8.12-rc3",
+  "name": "8.12 RC3",
+  "published_at": "2026-11-12T09:32:11Z",
+  "url": "https://github.com/redis/redis/releases/tag/8.12-rc3"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 31203,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting started",
+    "html": "<p>If you want to get up and running with Redis quickly without needing to build from source, use one of the following methods:</p>\n<ul>\n<li><a href=\"https://cloud.redis.io/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Redis Cloud</strong></a></li>\n<li><a href=\"https://hub.docker.com/_/redis\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Official Redis Docker images (Alpine/Debian)</strong></a><pre><code class=\"language-sh\">docker run -d -p 6379:6379 redis:latest\n</code></pre>\n</li>\n<li><strong>Redis binary distributions</strong><ul>\n<li><a href=\"https://github.com/redis/redis-snap\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Snap</strong></a></li>\n<li><a href=\"https://github.com/redis/homebrew-redis\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Homebrew</strong></a></li>\n<li><a href=\"https://github.com/redis/redis-rpm\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>RPM</strong></a></li>\n<li><a href=\"https://github.com/redis/redis-debian\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Debian</strong></a></li>\n</ul>\n</li>\n<li><a href=\"https://redis.io/docs/latest/develop/get-started/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Redis quick start guides</strong></a></li>\n</ul>\n<p>If you prefer to <a href=\"https://github.com/redis/redis#build-redis-from-source\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">build Redis from source</a> - see instructions below.</p>\n<h5>Redis starter projects</h5>\n<p>To get started as quickly as possible in your language of choice, use one of the following starter projects:</p>\n<ul>\n<li><a href=\"https://github.com/redis-developer/redis-starter-python\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Python (redis-py)</strong></a></li>\n<li><a href=\"https://github.com/redis-developer/redis-starter-csharp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>C#/.NET (NRedisStack/StackExchange.Redis)</strong></a></li>\n<li><a href=\"https://github.com/redis-developer/redis-starter-go\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Go (go-redis)</strong></a></li>\n<li><a href=\"https://github.com/redis-developer/redis-starter-js\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>JavaScript (node-redis)</strong></a></li>\n<li><a href=\"https://github.com/redis-developer/redis-starter-java\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Java/Spring (Jedis)</strong></a></li>\n</ul>\n<h5>Using Redis with client libraries</h5>\n<p>To connect your application to Redis, you will need a client library. Redis has documented client libraries in most popular languages, with community-supported client libraries in additional languages.</p>\n<ul>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/redis-py/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Python (redis-py)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/integrate/redisvl/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Python (RedisVL)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/dotnet/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>C#/.NET (NRedisStack/StackExchange.Redis)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/nodejs/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>JavaScript (node-redis)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/jedis/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Java (Jedis)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/lettuce/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Java (Lettuce)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/go/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Go (go-redis)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/php/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>PHP (Predis)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/hiredis/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>C (hiredis)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Full list of client libraries</strong></a></li>\n</ul>\n<h5>Using Redis with redis-cli</h5>\n<p><a href=\"https://redis.io/docs/latest/develop/tools/cli/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>redis-cli</code></a> is Redis' command line interface. It is available as part of all the binary distributions and when you build Redis from source.</p>\n<p>You can start a redis-server instance, and then, in another terminal try the following:</p>\n<pre><code class=\"language-sh\">cd src\n./redis-cli\n</code></pre>\n<pre><code class=\"language-text\">redis&gt; ping\nPONG\nredis&gt; set foo bar\nOK\nredis&gt; get foo\n\"bar\"\nredis&gt; incr mycounter\n(integer) 1\nredis&gt; incr mycounter\n(integer) 2\nredis&gt;\n</code></pre>\n<h5>Using Redis with Redis Insight</h5>\n<p>For a more visual and user-friendly experience, use <a href=\"https://redis.io/docs/latest/develop/tools/insight/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Redis Insight</a> - a tool that lets you explore data, design, develop, and optimize your applications while also serving as a platform for Redis education and onboarding. Redis Insight integrates <a href=\"https://redis.io/chat\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Redis Copilot</a>, a natural language AI assistant that improves the experience when working with data and commands.</p>\n<ul>\n<li><a href=\"https://redis.io/docs/latest/develop/tools/insight/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Redis Insight documentation</strong></a></li>\n<li><a href=\"https://github.com/RedisInsight/RedisInsight\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Redis Insight GitHub repository</strong></a></li>\n</ul>",
+    "truncated": false,
+    "chars": 3505
+   },
+   "usage": {
+    "title": "Using Redis with client libraries",
+    "html": "<p>To connect your application to Redis, you will need a client library. Redis has documented client libraries in most popular languages, with community-supported client libraries in additional languages.</p>\n<ul>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/redis-py/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Python (redis-py)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/integrate/redisvl/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Python (RedisVL)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/dotnet/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>C#/.NET (NRedisStack/StackExchange.Redis)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/nodejs/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>JavaScript (node-redis)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/jedis/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Java (Jedis)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/lettuce/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Java (Lettuce)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/go/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Go (go-redis)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/php/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>PHP (Predis)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/hiredis/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>C (hiredis)</strong></a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/clients/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Full list of client libraries</strong></a></li>\n</ul>",
+    "truncated": false,
+    "chars": 1008
+   },
+   "features": {
+    "title": "Redis data types, processing engines, and capabilities",
+    "html": "<p>Redis provides a variety of data types, processing engines, and capabilities to support a wide range of use cases:</p>\n<ul>\n<li><a href=\"https://redis.io/docs/latest/develop/data-types/strings\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>String:</strong></a> Sequences of bytes, including text, serialized objects, and binary arrays used for caching, counters, and bitwise operations.</li>\n<li><a href=\"https://redis.io/docs/latest/develop/data-types/json/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>JSON:</strong></a> Nested JSON documents that are indexed and searchable using JSONPath expressions and with <a href=\"https://redis.io/docs/latest/develop/ai/search-and-query/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Redis Search</a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/data-types/arrays/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Array:</strong></a> Sparse, index-addressable collection of string values</li>\n<li><a href=\"https://redis.io/docs/latest/develop/data-types/hashes/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Hash:</strong></a> Field-value maps used to represent basic objects and store groupings of key-value pairs with support for <a href=\"https://redis.io/docs/latest/develop/data-types/hashes/#field-expiration\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">hash field expiration (TTL)</a></li>\n<li><a href=\"https://redis.io/docs/latest/develop/ai/search-and-query/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Redis Search:</strong></a> Use Redis as a document database, a vector database, a secondary index, and a search engine. Define indexes for hash and JSON documents and then use a rich query language for vector search, full-text search, geospatial queries, and aggregations.</li>\n<li><a href=\"https://redis.io/docs/latest/develop/data-types/lists/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>List:</strong></a> Linked lists of string values used as stacks, queues, and for queue management.</li>\n<li><a href=\"https://redis.io/docs/latest/develop/data-types/sets/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Set:</strong></a> Unordered collection of unique strings used for tracking unique items, relations, and common set operations (intersections, unions, differences).</li>\n<li><a href=\"https://redis.io/docs/latest/develop/data-types/sorted-sets/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Sorted set:</strong></a> Collection of unique strings ordered by an associated score used for leaderboards and rate limiters.</li>\n<li><a href=\"https://redis.io/docs/latest/develop/data-types/vector-sets/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Vector set (beta):</strong></a> Collection of vector embeddings used for semantic similarity search, semantic caching, semantic routing, and Retrieval Augmented Generation (RAG).</li>\n<li><a href=\"https://redis.io/docs/latest/develop/data-types/geospatial/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Geospatial indexes:</strong></a> Coordinates used for finding nearby points within a given radius or bounding box.</li>\n<li><a href=\"https://redis.io/docs/latest/develop/data-types/bitmaps/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Bitmap:</strong></a> A set of bit-oriented operations defined on the string type used for efficient set representations and object permissions.</li>\n<li><a href=\"https://redis.io/docs/latest/develop/data-types/bitfields/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Bitfield:</strong></a> Binary-encoded strings that let you set, increment, and get integer values of arbitrary bit length used for limited-range counters, numeric values, and multi-level object permissions such as role-based access control (RBAC)</li>\n<li><a href=\"https://redis.io/docs/latest/develop/data-types/probabilistic/hyperloglogs/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Hyperloglog:</strong></a> A probabilistic data structure for approximating the cardinality of a set used for analytics such as counting unique visits, form fills, etc.</li>\n<li>*<a href=\"https://redis.io/docs/latest/develop/data-types/probabilistic/bloom-filter/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Bloom filter:</strong></a> A probabilistic data structure to check if a given value is present in a set. Used for fraud detection, ad placement, and unique column (i.e. username/email/slug) checks.</li>\n<li>*<a href=\"https://redis.io/docs/latest/develop/data-types/probabilistic/cuckoo-filter/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Cuckoo filter:</strong></a> A probabilistic data structure for checking if a given value is present in a set while also allowing limited counting and deletions used in targeted advertising and coupon code validation.</li>\n<li>*<a href=\"https://redis.io/docs/latest/develop/data-types/probabilistic/t-digest/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>t-digest:</strong></a> A probabilistic data structure used for estimating the percentile of a large dataset without having to store and order all the data points. Used for hardware/software monitoring, online gaming, network traffic monitoring, and predictive maintenance.</li>\n<li>*<a href=\"https://redis.io/docs/latest/develop/data-types/probabilistic/top-k/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Top-k:</strong></a> A probabilistic data structure for finding the most frequent values in a data stream used for trend discovery.</li>\n<li>*<a href=\"https://redis.io/docs/latest/develop/data-types/probabilistic/count-min-sketch/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Count-min sketch:</strong></a> A probabilistic data structure for estimating how many times a given value appears in a data stream used for sales volume calculations.</li>\n<li><a href=\"https://redis.io/docs/latest/develop/data-types/timeseries/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Time series:</strong></a> Data points indexed in time order used for monitoring sensor data, asset\ntracking, and predictive analytics</li>\n<li><a href=\"https://redis.io/docs/latest/develop/interact/pubsub/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Pub/sub</strong>:</a> A lightweight messaging capability. Publishers send messages to a channel, and subscribers receive messages from that channel.</li>\n<li><a href=\"https://redis.io/docs/latest/develop/data-types/streams/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Stream</strong>:</a> An append-only log with random access capabilities and complex consumption strategies such as consumer groups. Used for event sourcing, sensor monitoring, and notifications.</li>\n<li><a href=\"https://redis.io/docs/latest/develop/interact/transactions/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Transaction:</strong></a> Allows the execution of a group of commands in a single step. A request sent by another client will never be served in the middle of the execution of a transaction. This guarantees that the commands are executed as a single isolated operation.</li>\n<li><a href=\"https://redis.io/docs/latest/develop/interact/programmability/eval-intro/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Programmability:</strong></a> Upload and execute Lua scripts on the server. Scripts can employ programmatic control structures and use most of the commands while executing to access the database. Because scripts are executed on the server, reading and writing data from scripts is very efficient.</li>\n</ul>",
+    "truncated": false,
+    "chars": 5659
+   }
+  },
+  "headings": 29,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:32.870Z",
+  "checked_at": "2026-11-16T05:08:32.870Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:24.366Z",
+ "contributors": null
+}

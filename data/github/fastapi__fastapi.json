@@ -1,0 +1,115 @@
+{
+ "id": "fastapi/fastapi",
+ "github_id": 160919119,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxNjA5MTkxMTk=",
+ "full_name": "fastapi/fastapi",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "fastapi",
+  "owner": "fastapi",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/156354296?v=4",
+  "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+  "homepage": "https://fastapi.tiangolo.com/",
+  "html_url": "https://github.com/fastapi/fastapi",
+  "default_branch": "master",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "api",
+   "async",
+   "fastapi",
+   "framework",
+   "json",
+   "json-schema",
+   "openapi",
+   "pydantic",
+   "python",
+   "rest",
+   "sse",
+   "streaming",
+   "web",
+   "websockets"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 104813,
+  "forks": 10314,
+  "watchers": null,
+  "open_issues": 49,
+  "open_prs": null,
+  "created_at": "2018-12-08T08:21:47Z",
+  "pushed_at": "2026-11-16T09:50:09Z",
+  "updated_at": "2026-11-17T02:11:31Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 60403,
+  "og_image": "https://opengraph.githubassets.com/1/fastapi/fastapi",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T09:50:07.000Z",
+  "commits_90d": 2556,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "0.163.1",
+  "name": "0.163.1",
+  "published_at": "2026-11-15T09:50:02Z",
+  "url": "https://github.com/fastapi/fastapi/releases/tag/0.163.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 22618,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "mpR8ngthqiE",
+    "url": "https://www.youtube.com/watch?v=mpR8ngthqiE"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>First, <a href=\"https://docs.astral.sh/uv/getting-started/installation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">install <code>uv</code></a>, and then add FastAPI to your project:</p>\n<div><pre><code class=\"language-console\">$ uv add \"fastapi[standard]\"\n\n---&gt; 100%\n</code></pre>\n</div><p><strong>Note</strong>: Make sure you put <code>\"fastapi[standard]\"</code> in quotes to ensure it works in all terminals.</p>\n<p>If you prefer to use <code>pip</code>, install <code>fastapi[standard]</code> inside a virtual environment. See the <a href=\"https://github.com/fastapi/fastapi/blob/master/tutorial#install-fastapi\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">installation guide</a> for the alternative steps.</p>",
+    "truncated": false,
+    "chars": 474
+   },
+   "usage": {
+    "title": "Example",
+    "html": "<h5>Create it</h5>\n<p>Create a file <code>main.py</code> with:</p>\n<pre><code class=\"language-Python\">from fastapi import FastAPI\n\napp = FastAPI()\n\n\n@app.get(\"/\")\ndef read_root():\n    return {\"Hello\": \"World\"}\n\n\n@app.get(\"/items/{item_id}\")\ndef read_item(item_id: int, q: str | None = None):\n    return {\"item_id\": item_id, \"q\": q}\n</code></pre>\n<details>\n<summary>Or use <code>async def</code>...</summary><p>If your code uses <code>async</code> / <code>await</code>, use <code>async def</code>:</p>\n<pre><code class=\"language-Python\">from fastapi import FastAPI\n\napp = FastAPI()\n\n\n@app.get(\"/\")\nasync def read_root():\n    return {\"Hello\": \"World\"}\n\n\n@app.get(\"/items/{item_id}\")\nasync def read_item(item_id: int, q: str | None = None):\n    return {\"item_id\": item_id, \"q\": q}\n</code></pre>\n<p><strong>Note</strong>:</p>\n<p>If you don't know, check the <em>\"In a hurry?\"</em> section about <a href=\"https://fastapi.tiangolo.com/async/#in-a-hurry\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>async</code> and <code>await</code> in the docs</a>.</p>\n</details><h5>Run it</h5>\n<p>Run the server with:</p>\n<div><pre><code class=\"language-console\">$ uv run fastapi dev\n\n ╭────────── FastAPI CLI - Development mode ───────────╮\n │                                                     │\n │  Serving at: http://127.0.0.1:8000                  │\n │                                                     │\n │  API docs: http://127.0.0.1:8000/docs               │\n │                                                     │\n │  Running in development mode, for production use:   │\n │                                                     │\n │  fastapi run                                        │\n │                                                     │\n ╰─────────────────────────────────────────────────────╯\n\nINFO:     Will watch for changes in these directories: ['/home/user/code/awesomeapp']\nINFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)\nINFO:     Started reloader process [2248755] using WatchFiles\nINFO:     Started server process [2248757]\nINFO:     Waiting for application startup.\nINFO:     Application startup complete.\n</code></pre>\n</div><details>\n<summary>About the command <code>fastapi dev</code>...</summary><p>The command <code>fastapi dev</code> reads your <code>main.py</code> file automatically, detects the <strong>FastAPI</strong> app in it, and starts a server using <a href=\"https://uvicorn.dev\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Uvicorn</a>.</p>\n<p>By default, <code>fastapi dev</code> will start with auto-reload enabled for local development.</p>\n<p>You can read more about it in the <a href=\"https://fastapi.tiangolo.com/fastapi-cli/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">FastAPI CLI docs</a>.</p>\n</details><h5>Check it</h5>\n<p>Open your browser at <a href=\"http://127.0.0.1:8000/items/5?q=somequery\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://127.0.0.1:8000/items/5?q=somequery</a>.</p>\n<p>You will see the JSON response as:</p>\n<pre><code class=\"language-JSON\">{\"item_id\": 5, \"q\": \"somequery\"}\n</code></pre>\n<p>You already created an API that:</p>\n<ul>\n<li>Receives HTTP requests in the <em>paths</em> <code>/</code> and <code>/items/{item_id}</code>.</li>\n<li>Both <em>paths</em> take <code>GET</code> <em>operations</em> (also known as HTTP <em>methods</em>).</li>\n<li>The <em>path</em> <code>/items/{item_id}</code> has a <em>path parameter</em> <code>item_id</code> that should be an <code>int</code>.</li>\n<li>The <em>path</em> <code>/items/{item_id}</code> has an optional <code>str</code> <em>query parameter</em> <code>q</code>.</li>\n</ul>\n<h5>Interactive API docs</h5>\n<p>Now go to <a href=\"http://127.0.0.1:8000/docs\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://127.0.0.1:8000/docs</a>.</p>\n<p>You will see the automatic interactive API documentation (provided by <a href=\"https://github.com/swagger-api/swagger-ui\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Swagger UI</a>):</p>\n<p><img src=\"https://fastapi.tiangolo.com/img/index/index-01-swagger-ui-simple.png\" alt=\"Swagger UI\" loading=\"lazy\" decoding=\"async\" /></p>\n<h5>Alternative API docs</h5>\n<p>And now, go to <a href=\"http://127.0.0.1:8000/redoc\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://127.0.0.1:8000/redoc</a>.</p>\n<p>You will see the alternative automatic documentation (provided by <a href=\"https://github.com/Redocly/redoc\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ReDoc</a>):</p>\n<p><img src=\"https://fastapi.tiangolo.com/img/index/index-02-redoc-simple.png\" alt=\"ReDoc\" loading=\"lazy\" decoding=\"async\" /></p>",
+    "truncated": false,
+    "chars": 3540
+   },
+   "features": null
+  },
+  "headings": 29,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:50.399Z",
+  "checked_at": "2026-11-17T02:19:50.399Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:50.399Z"
+}

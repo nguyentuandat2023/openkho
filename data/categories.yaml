@@ -1,0 +1,140 @@
+# Danh mục của thư viện.
+# Có thể sửa trực tiếp file này hoặc dùng trang Quản trị (npm run admin → http://localhost:4321).
+#   slug        : định danh dùng trên URL (chữ thường, không dấu, nối bằng gạch ngang) – KHÔNG đổi sau khi đã xuất bản
+#   name        : tên hiển thị
+#   short       : tên ngắn cho thẻ/nhãn
+#   description : mô tả 1–2 câu
+#   icon        : tên biểu tượng (xem src/components/Icon.tsx)
+#   hue         : màu nhấn (0–360, theo vòng màu HSL/OKLCH)
+- slug: ai-ml
+  name: AI & Machine Learning
+  short: AI & ML
+  description: Framework, thư viện và công cụ nền tảng để xây dựng mô hình AI — kèm các công cụ OCR và chuyển đổi tài liệu thành dữ liệu cho AI.
+  icon: brain
+  hue: 285
+- slug: ai-agents
+  name: AI Agents & Autonomous Agents
+  short: AI Agents
+  description: Tác tử AI tự lập kế hoạch và hành động thay bạn — duyệt web, viết code, nghiên cứu, điều khiển máy tính.
+  icon: bot
+  hue: 265
+- slug: ai-marketing
+  name: AI Marketing & Content Creation
+  short: AI Marketing
+  description: Công cụ AI cho người làm marketing — tạo video ngắn, viết nội dung, nghiên cứu đối thủ, lên lịch mạng xã hội.
+  icon: megaphone
+  hue: 330
+- slug: ai-automation
+  name: AI Automation & Workflow
+  short: Tự động hóa AI
+  description: Nền tảng kéo-thả để xây quy trình tự động có AI — kết nối hàng trăm ứng dụng, chatbot tri thức, RAG.
+  icon: workflow
+  hue: 20
+- slug: ai-video-image
+  name: AI Video & Image Generation
+  short: AI Video & Ảnh
+  description: Tạo và chỉnh sửa hình ảnh, video bằng AI chạy trên máy cá nhân — Stable Diffusion, ComfyUI, phóng to ảnh, tách nền.
+  icon: clapperboard
+  hue: 350
+- slug: ai-audio
+  name: AI Audio, Voice & Speech
+  short: Giọng nói AI
+  description: "Danh mục bổ sung: chuyển giọng nói thành chữ, đọc văn bản (TTS) — có giọng tiếng Việt, tách lời khỏi nhạc, tạo nhạc bằng AI."
+  icon: audio-lines
+  hue: 195
+- slug: chatbot-llm
+  name: Chatbot & LLM
+  short: Chatbot & LLM
+  description: Chạy mô hình ngôn ngữ lớn trên máy riêng, giao diện chat kiểu ChatGPT, chatbot hỏi đáp tài liệu doanh nghiệp.
+  icon: message-square
+  hue: 240
+- slug: mcp-ai-tools
+  name: MCP Servers & AI Tools
+  short: MCP & AI Tools
+  description: Máy chủ MCP (Model Context Protocol) giúp AI dùng công cụ thật — trình duyệt, GitHub, Figma, Excel — cùng bộ kỹ năng cho AI agent.
+  icon: plug
+  hue: 170
+- slug: web-dev
+  name: Website & Web Development
+  short: Website
+  description: Nền tảng làm website, CMS, framework giao diện và công cụ AI dựng web/app từ mô tả bằng lời.
+  icon: globe
+  hue: 210
+- slug: no-code
+  name: No-code & Low-code
+  short: No-code
+  description: Tạo ứng dụng nội bộ, cơ sở dữ liệu dạng bảng tính (thay Airtable) và website mà không cần viết nhiều code.
+  icon: blocks
+  hue: 45
+- slug: marketing-seo
+  name: Marketing & SEO Tools
+  short: Marketing & SEO
+  description: Phân tích website thay Google Analytics, email marketing, rút gọn link, khảo sát, kiểm tra SEO và theo dõi thứ hạng.
+  icon: trending-up
+  hue: 140
+- slug: data-bi
+  name: Data Analytics & Business Intelligence
+  short: Dữ liệu & BI
+  description: Dashboard, báo cáo kinh doanh, hỏi dữ liệu bằng ngôn ngữ tự nhiên, xử lý và trực quan hóa dữ liệu.
+  icon: bar-chart
+  hue: 225
+- slug: productivity
+  name: Automation & Productivity
+  short: Năng suất
+  description: Ứng dụng tăng năng suất cho cá nhân và văn phòng — PDF, ghi chú, quản lý dự án, OCR, truyền file, tự động hóa Windows.
+  icon: zap
+  hue: 55
+- slug: video-media
+  name: Video Editing & Media Processing
+  short: Dựng video
+  description: Dựng phim, livestream, cắt ghép không giảm chất lượng, phụ đề, lồng tiếng, chuyển đổi định dạng media.
+  icon: film
+  hue: 5
+- slug: design
+  name: Graphic Design & Creative Tools
+  short: Thiết kế
+  description: Thiết kế giao diện, đồ họa, ảnh, 3D, sơ đồ và kho biểu tượng — thay thế các phần mềm thương mại.
+  icon: palette
+  hue: 310
+- slug: ecommerce
+  name: E-commerce & Affiliate Marketing
+  short: TMĐT & Affiliate
+  description: Nền tảng bán hàng trực tuyến, headless commerce, thanh toán cho nhà sáng tạo và công cụ link affiliate.
+  icon: shopping-cart
+  hue: 95
+- slug: crm-sales
+  name: CRM & Sales Automation
+  short: CRM & Bán hàng
+  description: Quản lý khách hàng, ERP, chăm sóc khách hàng đa kênh, ký hợp đồng điện tử và đặt lịch hẹn.
+  icon: handshake
+  hue: 160
+- slug: self-hosted
+  name: Self-hosted Applications
+  short: Tự host
+  description: Ứng dụng tự cài trên máy chủ riêng thay dịch vụ đám mây — ảnh, file, mật khẩu, giám sát, triển khai web.
+  icon: server
+  hue: 185
+- slug: dev-tools
+  name: Developer Tools
+  short: Công cụ dev
+  description: Trình soạn thảo code, terminal, kiểm thử API, quản lý gói và framework làm ứng dụng desktop/di động.
+  icon: terminal
+  hue: 250
+- slug: database-backend
+  name: Database & Backend
+  short: Database
+  description: Cơ sở dữ liệu, backend dựng sẵn (BaaS), vector database cho AI và framework xây dựng API.
+  icon: database
+  hue: 200
+- slug: learning
+  name: Learning Resources & Awesome Lists
+  short: Học tập
+  description: "Danh mục bổ sung: khóa học AI miễn phí, kho prompt, sách và danh sách tuyển chọn (awesome lists) do cộng đồng duy trì."
+  icon: graduation-cap
+  hue: 75
+- slug: other
+  name: Other Useful Projects
+  short: Khác
+  description: Dự án hữu ích khác — đặc biệt các công cụ cho người Việt (xử lý tiếng Việt, bộ gõ, dữ liệu hành chính).
+  icon: sparkles
+  hue: 120

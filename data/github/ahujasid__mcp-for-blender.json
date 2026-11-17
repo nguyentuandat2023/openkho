@@ -1,0 +1,119 @@
+{
+ "id": "ahujasid/mcp-for-blender",
+ "github_id": 944414751,
+ "node_id": "R_kgDOOEqgHw",
+ "full_name": "ahujasid/mcp-for-blender",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.971Z",
+ "meta": {
+  "name": "mcp-for-blender",
+  "owner": "ahujasid",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/11807284?v=4",
+  "description": "Community plugin to control Blender 3D with any LLM of your choice. Not affiliated with the official Blender Foundation.",
+  "homepage": "https://www.mcp-for-blender.com/",
+  "html_url": "https://github.com/ahujasid/mcp-for-blender",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "3d-modeling",
+   "ai",
+   "blender",
+   "blender-addon",
+   "blender-mcp",
+   "claude",
+   "generative-ai",
+   "llm",
+   "mcp",
+   "model-context-protocol",
+   "python"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 34671,
+  "forks": 3168,
+  "watchers": null,
+  "open_issues": 64,
+  "open_prs": null,
+  "created_at": "2025-03-07T09:58:58Z",
+  "pushed_at": "2026-11-15T13:56:17Z",
+  "updated_at": "2026-11-17T02:05:04Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 2412,
+  "og_image": "https://opengraph.githubassets.com/1/ahujasid/mcp-for-blender",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-15T13:56:12.000Z",
+  "commits_90d": 96,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 39773,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "neoK_WMq92g",
+    "url": "https://www.youtube.com/watch?v=neoK_WMq92g"
+   },
+   {
+    "type": "youtube",
+    "id": "wgWsJshecac",
+    "url": "https://www.youtube.com/watch?v=wgWsJshecac"
+   },
+   {
+    "type": "youtube",
+    "id": "DqgKuLYUv00",
+    "url": "https://www.youtube.com/watch?v=DqgKuLYUv00"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Quickstart",
+    "html": "<blockquote>\n<p><strong>Note:</strong> the PyPI package <code>blender-mcp</code> is now <strong><code>mcp-for-blender</code></strong>. Existing setups\nkeep working — <code>uvx blender-mcp</code> still runs the server and <strong>no config change is\nrequired</strong>. New installs should use <code>mcp-for-blender</code>.\n<a href=\"https://github.com/ahujasid/mcp-for-blender/issues/366\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">What changed and why</a></p>\n</blockquote>\n<p><strong>One command</strong> sets up your AI apps and the Blender addon:</p>\n<p><strong>macOS / Linux</strong></p>\n<pre><code class=\"language-bash\">curl -LsSf https://www.mcp-for-blender.com/install.sh | sh\n</code></pre>\n<p><strong>Windows</strong> (PowerShell)</p>\n<pre><code class=\"language-powershell\">irm https://www.mcp-for-blender.com/install.ps1 | iex\n</code></pre>\n<p>From Command Prompt instead: <code>powershell -c \"irm https://www.mcp-for-blender.com/install.ps1 | iex\"</code></p>\n<p>Prefer not to run a script, or Windows Defender blocked it? Install uv with winget, open a new terminal, then run setup:</p>\n<pre><code class=\"language-powershell\">winget install --id=astral-sh.uv -e\nuvx mcp-for-blender setup\n</code></pre>\n<p>Already have uv? Run <code>uvx mcp-for-blender setup</code> instead.</p>\n<p>It installs <a href=\"https://docs.astral.sh/uv/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">uv</a> if needed, finds the MCP clients on your machine (Claude Desktop, Claude Code, Codex, Cursor, VS Code, Devin Desktop/Windsurf, OpenCode, Antigravity), and lets you pick which to set up. Then it installs the Blender addon and enables it. Your existing config is kept: it only adds a <code>blender</code> entry and saves a <code>.bak</code> of each file it changes.</p>\n<p>Then <strong>fully quit and reopen your AI app</strong> (on Windows, quit it from the system tray), open Blender, and ask it to build something. The addon starts its server when Blender opens.</p>\n<details>\n<summary><b>Manual setup, in case the automatic setup doesn't work</b></summary><p>Three steps: install <code>uv</code>, point your MCP client at the server, install the Blender addon.</p>\n<p><strong>1. Install uv</strong></p>\n<pre><code class=\"language-bash\"># macOS\nbrew install uv\n\n# Linux\ncurl -LsSf https://astral.sh/uv/install.sh | sh\n\n# Windows\nwinget install --id=astral-sh.uv -e\n# or, with uv's installer\npowershell -ExecutionPolicy ByPass -c \"irm https://astral.sh/uv/install.ps1 | iex\"\n</code></pre>\n<blockquote>\n<p><strong>Warning:</strong> Do not proceed before installing uv. Use the official installer — <em>not</em> <code>pip install uv</code>.</p>\n</blockquote>\n<p><strong>2. Add the MCP server to your client</strong></p>\n<details>\n<summary><b>Claude Desktop</b> — Settings → Developer → Edit Config</summary><pre><code class=\"language-json\">{\n    \"mcpServers\": {\n        \"blender\": {\n            \"command\": \"uvx\",\n            \"args\": [\"mcp-for-blender\"]\n        }\n    }\n}\n</code></pre>\n</details><details>\n<summary><b>Claude Code</b></summary><pre><code class=\"language-bash\">claude mcp add blender uvx mcp-for-blender\n</code></pre>\n</details><details>\n<summary><b>Codex</b></summary><pre><code class=\"language-bash\">codex mcp add blender -- uvx mcp-for-blender\n</code></pre>\n</details><details>\n<summary><b>Cursor / VS Code / OpenCode / Antigravity</b></summary><p>See <a href=\"https://github.com/ahujasid/mcp-for-blender#mcp-client-setup\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MCP Client Setup</a> below for per-client instructions and one-click install buttons.</p>\n</details><p><strong>3. Install the Blender addon</strong></p>\n<pre><code class=\"language-bash\">uvx mcp-for-blender install-addon\n</code></pre>\n<p>Then in Blender: <strong>Edit → Preferences → Add-ons</strong> → enable <strong>Interface: MCP for Blender</strong>.</p>\n<p><strong>4. Connect</strong></p>\n<p>The addon starts its server when Blender opens. To check, press <code>N</code> in the 3D viewport → open the <strong>MCP for Blender</strong> tab (click <strong>Start MCP Server</strong> if it isn't running). That's it — ask Claude to build something.</p>\n</details><blockquote>\n<p><strong>Note:</strong> Only run <strong>one</strong> instance of the MCP server (either Cursor or Claude Desktop), not both.</p>\n</blockquote>\n<hr />",
+    "truncated": false,
+    "chars": 3298
+   },
+   "usage": {
+    "title": "Usage",
+    "html": "<h5>Starting the Connection</h5>\n<p><img src=\"https://raw.githubusercontent.com/ahujasid/mcp-for-blender/main/assets/addon-instructions.png\" alt=\"MCP for Blender in the sidebar\" loading=\"lazy\" decoding=\"async\" /></p>\n<ol>\n<li>In Blender, go to the 3D View sidebar (press <kbd>N</kbd> if not visible)</li>\n<li>Find the <strong>MCP for Blender</strong> tab</li>\n<li>Turn on the checkboxes you'd like to use (see more under <a href=\"https://github.com/ahujasid/mcp-for-blender#capabilities\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Capabilities</a> below)</li>\n<li>Click <strong>Connect to Claude</strong></li>\n<li>Make sure the MCP server is running in your terminal</li>\n</ol>\n<h5>Using with Claude</h5>\n<p>Once the config file has been set on Claude, and the addon is running on Blender, you will see a hammer icon with tools for MCP for Blender.</p>\n<p><img src=\"https://raw.githubusercontent.com/ahujasid/mcp-for-blender/main/assets/hammer-icon.png\" alt=\"MCP for Blender in the sidebar\" loading=\"lazy\" decoding=\"async\" /></p>\n<h5>Capabilities</h5>\n<p>The AI writes Blender Python itself for modelling, layout, materials, animation, rigging and retopology. The MCP adds what Python can't do on its own, as nine tools:</p>\n<table>\n<thead>\n<tr>\n<th>Tool</th>\n<th>What it's for</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><code>execute_blender_code</code></td>\n<td>Run Python in your live Blender</td>\n</tr>\n<tr>\n<td><code>look</code></td>\n<td>See the result from the <code>viewport</code>, <code>camera</code>, <code>angles</code> (auto-framed multi-view sheet, any direction) or <code>frames</code> (animation strip), drawn <code>solid</code>, <code>material</code>, <code>rendered</code>, <code>wireframe</code> or <code>xray</code>; or show a render or image file</td>\n</tr>\n<tr>\n<td><code>get_scene_info</code></td>\n<td>Compact scene summary, one line per object with the fields you pick (placement, materials, topology, weights, ...); drill in with <code>root</code> or <code>query</code></td>\n</tr>\n<tr>\n<td><code>generate_3d</code></td>\n<td>One call to generate and import a model with Tripo, Hunyuan3D, Hyper3D Rodin or Meshy. Premium generators are preferred automatically</td>\n</tr>\n<tr>\n<td><code>generate_gaussian_world</code></td>\n<td>Generate a whole explorable environment with World Labs and import it as Gaussian splats (Blender 5.3+)</td>\n</tr>\n<tr>\n<td><code>search_assets</code> / <code>import_asset</code></td>\n<td><a href=\"https://polyhaven.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Poly Haven</a> HDRIs, textures and models, <a href=\"https://sketchfab.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Sketchfab</a> models, <a href=\"https://poly.pizza/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Poly Pizza</a> low-poly models</td>\n</tr>\n<tr>\n<td><code>get_addon_status</code></td>\n<td>Blender version, addon version, and which libraries and generators are switched on</td>\n</tr>\n<tr>\n<td><code>disable_telemetry</code>, <code>record_trajectory_feedback</code></td>\n<td>Data collection controls</td>\n</tr>\n</tbody></table>\n<h6>Hunyuan3D on Tencent Cloud (Official API mode)</h6>\n<p>Which Tencent Cloud service the addon must call depends on where your account lives:</p>\n<table>\n<thead>\n<tr>\n<th>Account</th>\n<th>Service the addon calls</th>\n<th>Region</th>\n<th>Sidebar toggle</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Mainland (cloud.tencent.com)</td>\n<td>AI3D 3.0 (<code>ai3d</code>, version <code>2025-05-13</code>)</td>\n<td><code>ap-guangzhou</code></td>\n<td>leave <strong>International (Pro) account</strong> off (default)</td>\n</tr>\n<tr>\n<td>International (tencentcloud.com), <em>Hunyuan-to-3D (Professional)</em></td>\n<td><code>hunyuan</code>, version <code>2023-09-01</code>, PBR enabled</td>\n<td><code>ap-singapore</code></td>\n<td>tick <strong>International (Pro) account</strong></td>\n</tr>\n</tbody></table>\n<p>International credentials sent to the mainland endpoint fail with <code>AuthFailure.SignatureFailure</code> or\n<code>ResourceUnavailable</code>, so tick the toggle when your SecretId/SecretKey come from tencentcloud.com.\nThe toggle sits under <strong>Tencent Hunyuan 3D → Official API</strong> in the sidebar.</p>\n<h6>Tripo</h6>\n<p><a href=\"https://www.tripo3d.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Tripo</a> generates textured 3D models from a text prompt or a reference image.\nIt runs through <a href=\"https://github.com/ahujasid/mcp-for-blender#premium\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Premium</a> with no key, or on your own Tripo API key.\nThrough Premium, text uses your default quality and an image counts as one high-quality generation.\n<a href=\"https://developers.tripo3d.ai/en/keys\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Get a Tripo API key</a>.\nTick <strong>Tripo</strong> under <strong>AI Model Generation</strong> in the sidebar, choose a <strong>Model</strong>, and paste the key.\nFor a <a href=\"https://www.tripo3d.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">tripo3d.com</a> (China) account, set <strong>Tripo Domain</strong> to <code>.com</code> in the add-on preferences.</p>\n<h6>Meshy</h6>\n<p><a href=\"https://www.meshy.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Meshy</a> generates textured 3D models from a text prompt or a reference image,\nsized to real-world height with the origin at the bottom, so models arrive standing on the ground at a plausible size.\nIt runs through <a href=\"https://github.com/ahujasid/mcp-for-blender#premium\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Premium</a> with no key, or on your own Meshy API key.\nThrough Premium, Meshy uses its latest model and each model counts as one standard generation.\nYour own API key needs a paid Meshy plan:\n<a href=\"https://www.meshy.ai/developers/keys?utm_source=mcp-for-blender&amp;utm_medium=integration&amp;utm_campaign=blender-addon\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">get a Meshy API key</a>.\nTick <strong>Meshy</strong> under <strong>AI Model Generation</strong> in the sidebar, choose a <strong>Model</strong>, and paste the key.\nOn your own key, ask for a character \"in an A-pose\" or \"in a T-pose\" and Meshy generates it in that pose, ready to rig.</p>\n<h6>World Labs</h6>\n<p><a href=\"https://www.worldlabs.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">World Labs</a> Marble generates a whole explorable world from a text prompt,\nan image or a 360° panorama. It arrives as Gaussian splats, with a hidden collision mesh for placing\nobjects and the panorama as the world background, in metres with the ground at z=0.\nIt needs Blender 5.3 or newer, which imports and renders splats; on older versions the option is greyed out.\nIt runs through <a href=\"https://github.com/ahujasid/mcp-for-blender#premium\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Premium</a> with no key, or on your own World Labs API key.\nThrough Premium, every world is Marble 1.1 and uses one high-quality generation (Pro and up).\nOn your own key it uses the sidebar's model: Marble 1.1 Plus (default, larger worlds) or Marble 1.1.\n<a href=\"https://platform.worldlabs.ai/api-keys\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Get a World Labs API key</a>; API credits are separate from Marble app credits.\nTick <strong>World Labs</strong> under <strong>Gaussian Worlds</strong> in the sidebar, choose a <strong>Model</strong>, and paste the key.\nOn your own key, a folder of up to 4 photos of one place, in name order going around it, makes one world.</p>\n<h6>Poly Haven</h6>\n<p><a href=\"https://polyhaven.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Poly Haven</a> publishes around 2,400 HDRIs, textures and models,\nall CC0 and free, funded by donations rather than by selling the assets. There is no API\nkey, no account and no rate limit worth worrying about.</p>\n<p>In the 3D View sidebar, tick <strong>Poly Haven</strong>. That is the whole setup.</p>\n<p>Worked example:</p>\n<blockquote>\n<p><em>\"Light the scene with an overcast afternoon HDRI and put a rusty metal texture on the wall\"</em></p>\n</blockquote>\n<p>Claude calls <code>search_assets(source=\"polyhaven\", query=\"overcast afternoon\", asset_type=\"hdris\")</code>,\nwhich understands the intent rather than matching keywords - \"couch\" finds sofas, and it\nworks in any language. <code>previews=3</code> attaches thumbnails of the top results before spending\nthe bandwidth, and <code>import_asset(source=\"polyhaven\", id=\"...\", asset_type=\"textures\", apply_to=[\"Wall\"])</code>\ndownloads a texture and applies it in one call.</p>\n<p>Searches can also filter on a category path or on attributes such as weather and time of\nday for HDRIs, or surface use and condition for textures; an unknown attribute errors with\nthe valid ones.</p>\n<p>Models are imported from the <code>.blend</code>, which is the file the artist authored - the glTF,\nFBX and USD versions are generated from it and lose material detail. Textures build a\nPrincipled material from the maps that drive it, and skip the repackings and alternate\nconventions that nothing reads. HDRIs are packed into the file, so the lighting survives\nbeing saved and reopened somewhere else, and arrive in a new world rather than overwriting\none you built.</p>\n<p><strong>Licence and attribution:</strong> every Poly Haven asset is CC0. You never have to credit\nanyone, for anything, commercial or not. Their\n<a href=\"https://github.com/Poly-Haven/Public-API/blob/master/ToS.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">API terms</a> do ask that\nsoftware built on the live API makes clear where the assets come from, so the search and\nimport responses name the source and link the asset's page. On import, <code>polyhaven_id</code>,\n<code>polyhaven_url</code>, <code>polyhaven_authors</code>, <code>polyhaven_resolution</code> and <code>polyhaven_licence</code> are\nwritten onto the imported objects, materials, images and world as custom properties, so\nwhoever opens the <code>.blend</code> later can still find the asset and the artist who made it.</p>\n<h6>Poly Pizza</h6>\n<p><a href=\"https://poly.pizza/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Poly Pizza</a> hosts roughly 10,600 free low-poly models, including the\nrescued Google Poly archive. It is the best source for stylised game assets: every model is\na single self-contained <code>.glb</code>, and the geometry is far lighter than Sketchfab's.</p>\n<ol>\n<li>Get a free API key at <a href=\"https://poly.pizza/settings/api\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">poly.pizza/settings/api</a></li>\n<li>In the 3D View sidebar, tick <strong>Use assets from Poly Pizza</strong></li>\n<li>Paste the key into the <strong>API Key</strong> field that appears (or store it permanently under\n<strong>Edit → Preferences → Add-ons → MCP for Blender</strong>)</li>\n</ol>\n<p>Worked example:</p>\n<blockquote>\n<p><em>\"Search Poly Pizza for a low-poly chair under a CC0 licence and import one at 1 metre tall\"</em></p>\n</blockquote>\n<p>Claude calls <code>search_assets(source=\"polypizza\", query=\"chair\", licence=\"CC0\")</code>, which returns each\nmatch with its licence and triangle count, then\n<code>import_asset(source=\"polypizza\", id=\"...\", target_size=1.0)</code>.</p>\n<p>You can also filter by category (<code>\"Animals\"</code>, <code>\"Furniture &amp; Decor\"</code>, <code>\"Transport\"</code>,\n<code>\"Nature\"</code>, <code>\"Buildings\"</code>, <code>\"People &amp; Characters\"</code>, <code>\"Food &amp; Drink\"</code>, <code>\"Weapons\"</code>,\n<code>\"Clutter\"</code>, <code>\"Objects\"</code>, <code>\"Scenes &amp; Levels\"</code>, <code>\"Other\"</code>) or ask for animated models only.</p>",
+    "truncated": true,
+    "chars": 8545
+   },
+   "features": {
+    "title": "Features",
+    "html": "<table>\n<thead>\n<tr>\n<th></th>\n<th></th>\n</tr>\n</thead>\n<tbody><tr>\n<td><strong>Two-way communication</strong></td>\n<td>Connect Claude AI to Blender through a socket-based server</td>\n</tr>\n<tr>\n<td><strong>Object manipulation</strong></td>\n<td>Create, modify, and delete 3D objects in Blender</td>\n</tr>\n<tr>\n<td><strong>Material control</strong></td>\n<td>Apply and modify materials and colors</td>\n</tr>\n<tr>\n<td><strong>Visual verification</strong></td>\n<td>Multi-angle, camera, wireframe, X-ray and animation-strip views, plus renders, so the AI checks its own work</td>\n</tr>\n<tr>\n<td><strong>Code execution</strong></td>\n<td>The AI writes Blender Python directly</td>\n</tr>\n<tr>\n<td><strong>Asset &amp; model generation</strong></td>\n<td>Poly Haven assets, Sketchfab models, Poly Pizza low-poly models, AI-generated 3D models via Meshy, Tripo, Hyper3D Rodin and Hunyuan3D, and whole Gaussian-splat worlds via World Labs</td>\n</tr>\n</tbody></table>",
+    "truncated": false,
+    "chars": 673
+   }
+  },
+  "headings": 48,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:17.957Z",
+  "checked_at": "2026-11-16T05:09:17.957Z"
+ },
+ "details_checked_at": "2026-11-16T05:07:14.364Z",
+ "contributors": null
+}

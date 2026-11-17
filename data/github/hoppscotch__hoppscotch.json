@@ -1,0 +1,113 @@
+{
+ "id": "hoppscotch/hoppscotch",
+ "github_id": 203587744,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyMDM1ODc3NDQ=",
+ "full_name": "hoppscotch/hoppscotch",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.325Z",
+ "meta": {
+  "name": "hoppscotch",
+  "owner": "hoppscotch",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/56705483?v=4",
+  "description": "Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia",
+  "homepage": "https://hoppscotch.io",
+  "html_url": "https://github.com/hoppscotch/hoppscotch",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "api",
+   "api-client",
+   "api-rest",
+   "api-testing",
+   "developer-tools",
+   "graphql",
+   "http",
+   "http-client",
+   "pwa",
+   "rest",
+   "rest-api",
+   "spa",
+   "testing",
+   "testing-tools",
+   "tools",
+   "vue",
+   "vuejs",
+   "websocket"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 80831,
+  "forks": 6244,
+  "watchers": null,
+  "open_issues": 906,
+  "open_prs": null,
+  "created_at": "2019-08-21T13:15:24Z",
+  "pushed_at": "2026-11-05T08:16:25Z",
+  "updated_at": "2026-11-16T14:53:36Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 100379,
+  "og_image": "https://opengraph.githubassets.com/1/hoppscotch/hoppscotch",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-04T05:41:52.000Z",
+  "commits_90d": 33,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "2026.10.1",
+  "name": "2026.10.1",
+  "published_at": "2026-11-05T08:15:08Z",
+  "url": "https://github.com/hoppscotch/hoppscotch/releases/tag/2026.10.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 11557,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": null,
+   "usage": {
+    "title": "Usage",
+    "html": "<ol>\n<li>Provide your API endpoint in the URL field</li>\n<li>Click \"Send\" to simulate the request</li>\n<li>View the response</li>\n</ol>",
+    "truncated": false,
+    "chars": 110
+   },
+   "features": {
+    "title": "Features",
+    "html": "<p>❤️ <strong>Lightweight:</strong> Crafted with minimalistic UI design.</p>\n<p>⚡️ <strong>Fast:</strong> Send requests and get responses in real time.</p>\n<p>🗄️ <strong>HTTP Methods:</strong> Request methods define the type of action you are requesting to be performed.</p>\n<ul>\n<li><code>GET</code> - Requests retrieve resource information</li>\n<li><code>POST</code> - The server creates a new entry in a database</li>\n<li><code>PUT</code> - Updates an existing resource</li>\n<li><code>PATCH</code> - Very similar to <code>PUT</code> but makes a partial update on a resource</li>\n<li><code>DELETE</code> - Deletes resource or related component</li>\n<li><code>HEAD</code> - Retrieve response headers identical to those of a GET request, but without the response body.</li>\n<li><code>CONNECT</code> - Establishes a tunnel to the server identified by the target resource</li>\n<li><code>OPTIONS</code> - Describe the communication options for the target resource</li>\n<li><code>TRACE</code> - Performs a message loop-back test along the path to the target resource</li>\n<li><code>&lt;custom&gt;</code> - Some APIs use custom request methods such as <code>LIST</code>. Type in your custom methods.</li>\n</ul>\n<p>🌈 <strong>Theming:</strong> Customizable combinations for background, foreground, and accent colors — <a href=\"https://hoppscotch.io/settings\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">customize now</a>.</p>\n<ul>\n<li>Choose a theme: System preference, Light, Dark, and Black</li>\n<li>Choose accent colors: Green, Teal, Blue, Indigo, Purple, Yellow, Orange, Red, and Pink</li>\n<li>Distraction-free Zen mode</li>\n</ul>\n<p><em>Customized themes are synced with your cloud/local session.</em></p>\n<p>🔥 <strong>PWA:</strong> Install as a <a href=\"https://web.dev/progressive-web-apps\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Progressive Web App</a> on your device.</p>\n<ul>\n<li>Instant loading with Service Workers</li>\n<li>Offline support</li>\n<li>Low RAM/memory and CPU usage</li>\n<li>Add to Home Screen</li>\n<li>Desktop PWA</li>\n</ul>\n<p>🚀 <strong>Request:</strong> Retrieve response from endpoint instantly.</p>\n<ol>\n<li>Choose <code>method</code></li>\n<li>Enter <code>URL</code></li>\n<li>Send</li>\n</ol>\n<ul>\n<li>Copy/share public \"Share URL\"</li>\n<li>Generate/copy request code snippets for 10+ languages and frameworks</li>\n<li>Import <code>cURL</code></li>\n<li>Label requests</li>\n</ul>\n<p>🔌 <strong>WebSocket:</strong> Establish full-duplex communication channels over a single TCP connection.</p>\n<p>📡 <strong>Server-Sent Events:</strong> Receive a stream of updates from a server over an HTTP connection without resorting to polling.</p>\n<p>🌩 <strong>Socket.IO:</strong> Send and Receive data with the SocketIO server.</p>\n<p>🦟 <strong>MQTT:</strong> Subscribe and Publish to topics of an MQTT Broker.</p>\n<p>🔮 <strong>GraphQL:</strong> GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data.</p>\n<ul>\n<li>Set endpoint and get schema</li>\n<li>Multi-column docs</li>\n<li>Set custom request headers</li>\n<li>Query schema</li>\n<li>Get query response</li>\n</ul>\n<p>🔐 <strong>Authorization:</strong> Allows to identify the end-user.</p>\n<ul>\n<li>None</li>\n<li>Basic</li>\n<li>Bearer Token</li>\n<li>OAuth 2.0</li>\n<li>OIDC Access Token/PKCE</li>\n</ul>\n<p>📢 <strong>Headers:</strong> Describes the format the body of your request is being sent in.</p>\n<p>📫 <strong>Parameters:</strong> Use request parameters to set varying parts in simulated requests.</p>\n<p>📃 <strong>Request Body:</strong> Used to send and receive data via the REST API.</p>\n<ul>\n<li>Set <code>Content Type</code></li>\n<li>FormData, JSON, and many more</li>\n<li>Toggle between key-value and RAW input parameter list</li>\n</ul>\n<p>📮 <strong>Response:</strong> Contains the status line, headers, and the message/response body.</p>\n<ul>\n<li>Copy the response to the clipboard</li>\n<li>Download the response as a file</li>\n<li>View response headers</li>\n<li>View raw and preview HTML, image, JSON, and XML responses</li>\n</ul>\n<p>⏰ <strong>History:</strong> Request entries are synced with your cloud/local session storage.</p>\n<p>📁 <strong>Collections:</strong> Keep your API requests organized with collections and folders. Reuse them with a single click.</p>\n<ul>\n<li>Unlimited collections, folders, and requests</li>\n<li>Nested folders</li>\n<li>Export and import as a file or GitHub gist</li>\n</ul>\n<p><em>Collections are synced with your cloud/local session storage.</em></p>\n<p>📜 <strong>Pre-Request Scripts:</strong> Snippets of code associated with a request that is executed before the request is sent.</p>\n<ul>\n<li>Set environment variables</li>\n<li>Include timestamp in the request headers</li>\n<li>Send a random alphanumeric string in the URL parameters</li>\n<li>Any JavaScript functions</li>\n</ul>\n<p>👨‍👩‍👧‍👦 <strong>Teams:</strong> Helps you collaborate across your teams to design, develop, and test APIs faster.</p>\n<ul>\n<li>Create unlimited teams</li>\n<li>Create unlimited shared collections</li>\n<li>Create unlimited team members</li>\n<li>Role-based access control</li>\n<li>Cloud sync</li>\n<li>Multiple devices</li>\n</ul>\n<p>👥 <strong>Workspaces:</strong> Organize your personal and team collections environments into workspaces. Easily switch between workspaces to manage multiple projects.</p>\n<ul>\n<li>Create unlimited workspaces</li>\n<li>Switch between personal and team workspaces</li>\n</ul>\n<p>⌨️ <strong>Keyboard Shortcuts:</strong> Optimized for efficiency.</p>\n<blockquote>\n<p><strong><a href=\"https://docs.hoppscotch.io/documentation/features/shortcuts\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Read our documentation on Keyboard Shortcuts</a></strong></p>\n</blockquote>\n<p>🌐 <strong>Proxy:</strong> Enable Proxy Mode from Settings to access blocked APIs.</p>\n<ul>\n<li>Hide your IP address</li>\n<li>Fixes <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>CORS</code></a> (Cross-Origin Resource Sharing) issues</li>\n<li>Access APIs served in non-HTTPS (<code>http://</code>) endpoints</li>\n<li>Use your Proxy URL</li>\n</ul>\n<p><em>Official proxy server is hosted by Hoppscotch - <strong><a href=\"https://github.com/hoppscotch/proxyscotch\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GitHub</a></strong> - <strong><a href=\"https://docs.hoppscotch.io/support/privacy\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Privacy Policy</a></strong>.</em></p>\n<p>🌎 <strong>i18n:</strong> Experience the app in your language.</p>\n<p>Help us to translate Hoppscotch. Please read <a href=\"https://github.com/hoppscotch/hoppscotch/blob/main/TRANSLATIONS.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>TRANSLATIONS</code></a> for details on our <a href=\"https://github.com/hoppscotch/hoppscotch/blob/main/CODE_OF_CONDUCT.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>CODE OF CONDUCT</code></a> and the process for submitting pull requests to us.</p>\n<p>☁️ <strong>Auth + Sync:</strong> Sign in and sync your data in real-time across all your devices.</p>\n<p><strong>Sign in with:</strong></p>\n<ul>\n<li>GitHub</li>\n<li>Google</li>\n<li>Microsoft</li>\n<li>Email</li>\n<li>SSO (Single Sign-On)[^EE]</li>\n</ul>\n<p><strong>🔄 Synchronize your data:</strong> Handoff to continue tasks on your other devices.</p>\n<ul>\n<li>Workspaces</li>\n<li>History</li>\n<li>Collections</li>\n<li>Environments</li>\n<li>Settings</li>\n</ul>\n<p>✅ <strong>Post-Request Tests:</strong> Write tests associated with a request that is executed after the request's response.</p>\n<ul>\n<li>Check the status code as an integer</li>\n<li>Filter response headers</li>\n<li>Parse the response data</li>\n<li>Set environment variables</li>\n<li>Write JavaScript code</li>\n</ul>\n<p>🌱 <strong>Environments:</strong> Environment variables allow you to store and reuse values in your requests and scripts.</p>\n<ul>\n<li>Unlimited environments and variables</li>\n<li>Initialize through the pre-request script</li>\n<li>Export as / import from GitHub gist</li>\n</ul>\n<details>\n  <summary><i>Use-cases</i></summary><hr />\n<ul>\n<li>By storing a value in a variable, you can reference it throughout your request section</li>\n<li>If you need to update the value, you only have to change it in one place</li>\n<li>Using variables increases your ability to work efficiently and minimizes the likelihood of error</li>\n</ul>\n<hr />\n</details><p>🚚 <strong>Bulk Edit:</strong> Edit key-value pairs in bulk.</p>\n<ul>\n<li>Entries are separated by newline</li>\n<li>Keys and values are separated by <code>:</code></li>\n<li>Prepend <code>#</code> to any row you want to add but keep disabled</li>\n</ul>\n<p>🎛️ <strong>Admin dashboard:</strong> Manage your team and invite members.</p>\n<ul>\n<li>Insights</li>\n<li>Manage users</li>\n<li>Manage teams</li>\n</ul>\n<p>📦 <strong>Add-ons:</strong> Official add-ons for hoppscotch.</p>\n<ul>\n<li><p><strong><a href=\"https://github.com/hoppscotch/hoppscotch/tree/main/packages/hoppscotch-cli\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Hoppscotch CLI</a></strong> - Command-line interface for Hoppscotch.</p>\n</li>\n<li><p><strong><a href=\"https://github.com/hoppscotch/proxyscotch\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Proxy</a></strong> - A simple proxy server created for Hoppscotch.</p>\n</li>\n<li><p><strong><a href=\"https://github.com/hoppscotch/hoppscotch-extension\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Browser Extensions</a></strong> - Browser extensions that enhance your Hoppscotch experience.</p>\n<p><a href=\"https://addons.mozilla.org/en-US/firefox/addon/hoppscotch\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_16x16.png\" alt=\"Firefox\" loading=\"lazy\" decoding=\"async\" /> <strong>Firefox</strong></a>  |  <a href=\"https://chrome.google.com/webstore/detail/hoppscotch-extension-for-c/amknoiejhlmhancpahfcfcfhllgkpbld\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_16x16.png\" alt=\"Chrome\" loading=\"lazy\" decoding=\"async\" /> <strong>Chrome</strong></a></p>\n<blockquote>\n<p><strong>Extensions fix <code>CORS</code> issues.</strong></p>\n</blockquote>\n</li>\n</ul>\n<p><em>Add-ons are developed and maintained under <strong><a href=\"https://github.com/hoppscotch\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Hoppscotch Organization</a></strong>.</em></p>\n<p><strong>For a complete list of features, please read our <a href=\"https://docs.hoppscotch.io\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">documentation</a>.</strong></p>",
+    "truncated": false,
+    "chars": 7589
+   }
+  },
+  "headings": 10,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:46.836Z",
+  "checked_at": "2026-11-16T05:08:46.836Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:27.964Z",
+ "contributors": null
+}

@@ -1,0 +1,174 @@
+# Danh mục: Developer Tools — xem cấu trúc trường trong data/README.md
+- repo: microsoft/vscode
+  tags: [code-editor, ide, extensions]
+  summary: "Trình soạn thảo code miễn phí phổ biến nhất (mã nguồn 'Code - OSS'): hàng chục nghìn extension, Git, terminal, AI tích hợp."
+  use_cases: ["Viết code, chỉnh file cấu hình", "Làm việc cùng AI agent (Claude Code, Cline…)"]
+  pros: ["Nhẹ, nhanh, đa nền tảng", "Kho extension khổng lồ", "Tích hợp sẵn Git và terminal"]
+  cons: ["Nhiều extension làm máy chậm", "Bản tải từ Microsoft có thu thập dữ liệu sử dụng (tắt được)"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  license_note: "Mã nguồn MIT; bản Visual Studio Code tải từ Microsoft có giấy phép sản phẩm riêng."
+  applicability: 4
+  featured: true
+- repo: notepad-plus-plus/notepad-plus-plus
+  tags: [text-editor, windows, lightweight]
+  summary: "Trình soạn thảo văn bản/code nhẹ, nhanh cho Windows, tô màu cú pháp hàng chục ngôn ngữ, nhiều plugin."
+  use_cases: ["Sửa nhanh file cấu hình, CSV, HTML"]
+  platforms: [windows]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  license_note: "GPL-3.0 (GitHub hiển thị NOASSERTION)."
+  applicability: 4
+  license_override:
+    spdx: GPL-3.0
+    name: GPL-3.0
+- repo: microsoft/winget-cli
+  tags: [package-manager, windows, cli]
+  summary: "Trình quản lý gói chính thức của Windows: cài và cập nhật phần mềm bằng một lệnh (winget install …)."
+  use_cases: ["Cài nhanh bộ phần mềm cho máy mới", "Cập nhật toàn bộ ứng dụng một lần"]
+  platforms: [windows]
+  deploy: [cli]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: microsoft/terminal
+  tags: [terminal, windows, powershell]
+  summary: "Windows Terminal: terminal hiện đại cho Windows với tab, nhiều shell (PowerShell, CMD, WSL), tùy biến giao diện."
+  use_cases: ["Chạy lệnh cài đặt công cụ AI, Docker"]
+  platforms: [windows]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: astral-sh/uv
+  tags: [python, package-manager, fast]
+  summary: "Trình quản lý gói và môi trường Python siêu nhanh (viết bằng Rust) thay pip/venv/pyenv — cài ứng dụng AI Python nhanh gọn."
+  use_cases: ["Cài công cụ AI Python không lo xung đột thư viện"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: nodejs/node
+  tags: [javascript, runtime]
+  summary: "Môi trường chạy JavaScript phía máy chủ — cần để chạy n8n, website này và rất nhiều công cụ AI."
+  use_cases: ["Chạy công cụ viết bằng JavaScript/TypeScript"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+  license_override:
+    spdx: MIT
+    name: MIT (kèm giấy phép thành phần bên thứ ba)
+- repo: zed-industries/zed
+  tags: [code-editor, rust, collaboration, ai]
+  summary: "Trình soạn thảo code hiệu năng cao viết bằng Rust, cộng tác thời gian thực, tích hợp AI agent."
+  use_cases: ["Viết code tốc độ cao cùng AI"]
+  platforms: [macos, linux, windows]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 3
+- repo: hoppscotch/hoppscotch
+  tags: [api-testing, postman-alternative, web]
+  summary: "Công cụ thử API (REST, GraphQL, WebSocket) chạy trên trình duyệt, nhẹ, thay Postman."
+  use_cases: ["Kiểm tra API trước khi nối vào n8n/website"]
+  platforms: [web, windows, macos, linux, docker]
+  deploy: [cloud, desktop, self-host]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+- repo: usebruno/bruno
+  tags: [api-testing, offline, git-friendly]
+  summary: "Ứng dụng thử API offline thay Postman: lưu bộ sưu tập dưới dạng file văn bản trong Git, không bắt buộc tài khoản cloud."
+  use_cases: ["Quản lý bộ request API cùng mã nguồn"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+- repo: go-gitea/gitea
+  also: [self-hosted]
+  tags: [git-hosting, self-hosted, ci]
+  summary: "Dịch vụ Git tự host nhẹ (như GitHub thu nhỏ): repo, issue, pull request, CI (Actions) cho đội nội bộ."
+  use_cases: ["Lưu mã nguồn nội bộ không dùng GitHub"]
+  platforms: [docker, windows, macos, linux]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: cli/cli
+  tags: [github, cli, automation]
+  summary: "GitHub CLI (gh): làm việc với GitHub từ terminal — repo, issue, pull request, Actions; tiện để cấp token đồng bộ cho thư viện này."
+  use_cases: ["Tạo repo và đẩy mã nguồn lên GitHub", "Lấy token cho script đồng bộ (gh auth token)"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: tauri-apps/tauri
+  tags: [desktop-apps, rust, web-tech]
+  summary: "Framework làm ứng dụng desktop/di động nhẹ bằng công nghệ web với lõi Rust — file cài nhỏ hơn Electron nhiều lần."
+  use_cases: ["Đóng gói công cụ web thành phần mềm desktop"]
+  platforms: [windows, macos, linux, android, ios]
+  deploy: [library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: flutter/flutter
+  tags: [mobile, cross-platform, dart]
+  summary: "Framework của Google làm ứng dụng di động, web, desktop từ một mã nguồn Dart duy nhất."
+  use_cases: ["App bán hàng, tích điểm cho khách hàng"]
+  platforms: [windows, macos, linux, android, ios, web]
+  deploy: [library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: continuedev/continue
+  tags: [ai-coding, vscode, jetbrains]
+  summary: "Trợ lý lập trình AI mã nguồn mở cho VS Code và JetBrains, dùng được mô hình bất kỳ kể cả Ollama chạy local."
+  use_cases: ["Lập trình với AI không phụ thuộc một nhà cung cấp"]
+  platforms: [windows, macos, linux]
+  deploy: [extension, cli]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 3
+- repo: caddyserver/caddy
+  tags: [web-server, https, reverse-proxy]
+  summary: "Máy chủ web tự động bật HTTPS (Let's Encrypt), cấu hình cực ngắn gọn — đưa website/ứng dụng ra Internet nhanh chóng."
+  use_cases: ["Gắn HTTPS cho ứng dụng tự host"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [cli, self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: github/spec-kit
+  also: [ai-agents]
+  tags: [spec-driven-development, ai-coding]
+  summary: "Bộ công cụ của GitHub cho phát triển hướng đặc tả (Spec-Driven Development) với AI agent: đặc tả → kế hoạch → tác vụ → code."
+  use_cases: ["Giao dự án phần mềm cho AI agent có kiểm soát"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: required
+  applicability: 3

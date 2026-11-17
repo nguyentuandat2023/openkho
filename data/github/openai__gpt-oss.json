@@ -1,0 +1,99 @@
+{
+ "id": "openai/gpt-oss",
+ "github_id": 1007222028,
+ "node_id": "R_kgDOPAj9DA",
+ "full_name": "openai/gpt-oss",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "gpt-oss",
+  "owner": "openai",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/14957082?v=4",
+  "description": "gpt-oss-120b and gpt-oss-20b are two open-weight language models by OpenAI",
+  "homepage": "https://openai.com/open-models",
+  "html_url": "https://github.com/openai/gpt-oss",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 20543,
+  "forks": 2198,
+  "watchers": null,
+  "open_issues": 171,
+  "open_prs": null,
+  "created_at": "2025-06-23T16:43:33Z",
+  "pushed_at": "2026-10-29T16:42:13Z",
+  "updated_at": "2026-11-17T01:55:29Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 10884,
+  "og_image": "https://opengraph.githubassets.com/1/openai/gpt-oss",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-10-29T16:42:12.000Z",
+  "commits_90d": 2,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.0.9",
+  "name": "v0.0.9",
+  "published_at": "2026-01-13T19:03:30Z",
+  "url": "https://github.com/openai/gpt-oss/releases/tag/v0.0.9",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 24418,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Setup",
+    "html": "<h5>Requirements</h5>\n<ul>\n<li>Python 3.12</li>\n<li>On macOS: Install the Xcode CLI tools --&gt; <code>xcode-select --install</code></li>\n<li>On Linux: These reference implementations require CUDA</li>\n<li>On Windows: These reference implementations have not been tested on Windows. Try using solutions like Ollama if you are trying to run the model locally.</li>\n</ul>\n<h5>Installation</h5>\n<p>If you want to try any of the code you can install it directly from <a href=\"https://pypi.org/project/gpt-oss/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PyPI</a></p>\n<pre><code class=\"language-shell\"># if you just need the tools\npip install gpt-oss\n# if you want to try the torch implementation\npip install gpt-oss[torch]\n# if you want to try the triton implementation\npip install gpt-oss[triton]\n</code></pre>\n<p>If you want to modify the code or try the metal implementation set the project up locally:</p>\n<pre><code class=\"language-shell\">git clone https://github.com/openai/gpt-oss.git\nGPTOSS_BUILD_METAL=1 pip install -e \".[metal]\"\n</code></pre>",
+    "truncated": false,
+    "chars": 857
+   },
+   "usage": {
+    "title": "Usage",
+    "html": "<p>To enable the browser tool, you'll have to place the definition into the <code>system</code> message of your harmony formatted prompt. You can either use the <code>with_browser_tool()</code> method if your tool implements the full interface or modify the definition using <code>with_tools()</code>. For example:</p>\n<pre><code class=\"language-python\">import datetime\nimport os\nfrom gpt_oss.tools.simple_browser import SimpleBrowserTool\nfrom gpt_oss.tools.simple_browser.backend import ExaBackend, YouComBackend\nfrom openai_harmony import SystemContent, Message, Conversation, Role, load_harmony_encoding, HarmonyEncodingName\n\nencoding = load_harmony_encoding(HarmonyEncodingName.HARMONY_GPT_OSS)\n\n# You.com is the default browser backend and requires YDC_API_KEY.\n# To use Exa instead, set BROWSER_BACKEND=exa and EXA_API_KEY.\ntool_backend = os.getenv(\"BROWSER_BACKEND\", \"youcom\")\nif tool_backend == \"youcom\":\n    backend = YouComBackend(source=\"web\")\nelif tool_backend == \"exa\":\n    backend = ExaBackend(source=\"web\")\nelse:\n    raise ValueError(f\"Invalid tool backend: {tool_backend}\")\nbrowser_tool = SimpleBrowserTool(backend=backend)\n\n# create a basic system prompt\nsystem_message_content = SystemContent.new().with_conversation_start_date(\n    datetime.datetime.now().strftime(\"%Y-%m-%d\")\n)\n\n# if you want to use the browser tool\nif use_browser_tool:\n    # enables the tool\n    system_message_content = system_message_content.with_tools(browser_tool.tool_config)\n    # alternatively you could use the following if your tool is not stateless\n    system_message_content = system_message_content.with_browser_tool()\n\n# construct the system message\nsystem_message = Message.from_role_and_content(Role.SYSTEM, system_message_content)\n\n# create the overall prompt\nmessages = [system_message, Message.from_role_and_content(Role.USER, \"What's the weather in SF?\")]\nconversation = Conversation.from_messages(messages)\n\n# convert to tokens\ntoken_ids = encoding.render_conversation_for_completion(conversation, Role.ASSISTANT)\n\n# perform inference\n# ...\n\n# parse the output\nmessages = encoding.parse_messages_from_completion_tokens(output_tokens, Role.ASSISTANT)\nlast_message = messages[-1]\nif last_message.recipient.startswith(\"browser\"):\n  # perform browser call\n  response_messages = await browser_tool.process(last_message)\n\n  # extend the current messages and run inference again\n  messages.extend(response_messages)\n</code></pre>",
+    "truncated": false,
+    "chars": 2361
+   },
+   "features": {
+    "title": "Highlights",
+    "html": "<ul>\n<li><strong>Permissive Apache 2.0 license:</strong> Build freely without copyleft restrictions or patent risk—ideal for experimentation, customization, and commercial deployment.</li>\n<li><strong>Configurable reasoning effort:</strong> Easily adjust the reasoning effort (low, medium, high) based on your specific use case and latency needs.</li>\n<li><strong>Full chain-of-thought:</strong> Provides complete access to the model's reasoning process, facilitating easier debugging and greater trust in outputs. This information is not intended to be shown to end users.</li>\n<li><strong>Fine-tunable:</strong> Fully customize models to your specific use case through parameter fine-tuning.</li>\n<li><strong>Agentic capabilities:</strong> Use the models' native capabilities for function calling, <a href=\"https://github.com/openai/gpt-oss#browser\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">web browsing</a>, <a href=\"https://github.com/openai/gpt-oss#python\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Python code execution</a>, and Structured Outputs.</li>\n<li><strong>MXFP4 quantization:</strong> The models were post-trained with MXFP4 quantization of the MoE weights, making <code>gpt-oss-120b</code> run on a single 80GB GPU (like NVIDIA H100 or AMD MI300X) and the <code>gpt-oss-20b</code> model run within 16GB of memory. All evals were performed with the same MXFP4 quantization.</li>\n</ul>",
+    "truncated": false,
+    "chars": 1080
+   }
+  },
+  "headings": 33,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:12.646Z",
+  "checked_at": "2026-11-16T05:08:12.646Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:20.793Z",
+ "contributors": null
+}

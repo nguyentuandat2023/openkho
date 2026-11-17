@@ -1,0 +1,94 @@
+{
+ "id": "jgraph/drawio-desktop",
+ "github_id": 92443980,
+ "node_id": "MDEwOlJlcG9zaXRvcnk5MjQ0Mzk4MA==",
+ "full_name": "jgraph/drawio-desktop",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "drawio-desktop",
+  "owner": "jgraph",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1769238?v=4",
+  "description": "Official electron build of draw.io",
+  "homepage": "https://www.diagrams.net",
+  "html_url": "https://github.com/jgraph/drawio-desktop",
+  "default_branch": "dev",
+  "language": "JavaScript",
+  "languages": null,
+  "topics": [
+   "diagram-editor",
+   "electron-app",
+   "graphics",
+   "javascript-applications"
+  ],
+  "license": {
+   "spdx": "GPL-3.0",
+   "name": "GNU General Public License v3.0"
+  },
+  "stars": 64025,
+  "forks": 5822,
+  "watchers": null,
+  "open_issues": 6,
+  "open_prs": null,
+  "created_at": "2017-05-25T20:58:42Z",
+  "pushed_at": "2026-11-05T07:55:32Z",
+  "updated_at": "2026-11-17T02:17:28Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 3571,
+  "og_image": "https://opengraph.githubassets.com/1/jgraph/drawio-desktop",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-05T07:55:31.000Z",
+  "commits_90d": 63,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v32.6.10",
+  "name": "32.6.10",
+  "published_at": "2026-11-04T20:41:08Z",
+  "url": "https://github.com/jgraph/drawio-desktop/releases/tag/v32.6.10",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 7543,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Windows installation",
+    "html": "<p>Three flavours of Windows download are published on the <a href=\"https://github.com/jgraph/drawio-desktop/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">releases page</a>:</p>\n<ul>\n<li><code>draw.io-&lt;version&gt;-windows-installer.exe</code> — NSIS installer. Installs <strong>per-machine</strong> into <code>Program Files</code> and <strong>requires administrator privileges</strong>.</li>\n<li><code>draw.io-&lt;version&gt;.msi</code> — MSI installer. Installs <strong>per-user</strong> into the user's profile and <strong>does not require administrator privileges</strong>. Use this one if you don't have admin rights on your machine.</li>\n<li><code>draw.io-&lt;version&gt;-windows.zip</code> — portable build. Extract the zip anywhere and run <code>draw.io.exe</code>, with no installation (and therefore without admin rights). File-type associations are not registered.</li>\n</ul>\n<p>The Microsoft Store (APPX) build is also installable per-user without admin rights via the Store.</p>\n<h5>Windows on Arm</h5>\n<p>draw.io Desktop is built natively for Windows on Arm (ARM64) and is supported on Windows 11 ARM64 devices. Two native ARM64 downloads are published with every release:</p>\n<ul>\n<li><code>draw.io-arm64-&lt;version&gt;-windows-arm64-installer.exe</code> — NSIS installer, per-machine, requires administrator privileges.</li>\n<li><code>draw.io-arm64-&lt;version&gt;-windows-arm64-no-installer.exe</code> — portable build, no installation or admin rights needed.</li>\n</ul>\n<p>The MSI and Microsoft Store builds are x64 only and run under emulation on ARM64 devices. ARM64 builds up to and including 31.4.4 were shipped with auto-update disabled; install a newer release manually once, after which the ARM64 installer build updates itself like x64.</p>",
+    "truncated": false,
+    "chars": 1483
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 9,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:37.332Z",
+  "checked_at": "2026-11-16T05:08:37.332Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:24.366Z",
+ "contributors": null
+}

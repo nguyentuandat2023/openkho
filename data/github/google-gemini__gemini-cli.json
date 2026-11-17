@@ -1,0 +1,112 @@
+{
+ "id": "google-gemini/gemini-cli",
+ "github_id": 968197216,
+ "node_id": "R_kgDOObWEYA",
+ "full_name": "google-gemini/gemini-cli",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "gemini-cli",
+  "owner": "google-gemini",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/161781182?v=4",
+  "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+  "homepage": "https://geminicli.com",
+  "html_url": "https://github.com/google-gemini/gemini-cli",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "ai",
+   "ai-agents",
+   "cli",
+   "gemini",
+   "gemini-api",
+   "mcp-client",
+   "mcp-server"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 108875,
+  "forks": 14956,
+  "watchers": null,
+  "open_issues": 729,
+  "open_prs": null,
+  "created_at": "2025-04-17T17:04:31Z",
+  "pushed_at": "2026-11-17T01:13:29Z",
+  "updated_at": "2026-11-17T02:14:19Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 105604,
+  "og_image": "https://opengraph.githubassets.com/1/google-gemini/gemini-cli",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T17:38:59.000Z",
+  "commits_90d": 248,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.68.0",
+  "name": "Release v0.68.0",
+  "published_at": "2026-11-10T21:17:07Z",
+  "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.68.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 13456,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>See\n<a href=\"https://www.geminicli.com/docs/get-started/installation\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Gemini CLI installation, execution, and releases</a>\nfor recommended system specifications and a detailed installation guide.</p>\n<h5>Quick Install</h5>\n<h6>Run instantly with npx</h6>\n<pre><code class=\"language-bash\"># Using npx (no installation required)\nnpx @google/gemini-cli\n</code></pre>\n<h6>Install globally with npm</h6>\n<pre><code class=\"language-bash\">npm install -g @google/gemini-cli\n</code></pre>\n<h6>Install globally with Homebrew (macOS/Linux)</h6>\n<pre><code class=\"language-bash\">brew install gemini-cli\n</code></pre>\n<h6>Install globally with MacPorts (macOS)</h6>\n<pre><code class=\"language-bash\">sudo port install gemini-cli\n</code></pre>\n<h6>Install with Anaconda (for restricted environments)</h6>\n<pre><code class=\"language-bash\"># Create and activate a new environment\nconda create -y -n gemini_env -c conda-forge nodejs\nconda activate gemini_env\n\n# Install Gemini CLI globally via npm (inside the environment)\nnpm install -g @google/gemini-cli\n</code></pre>",
+    "truncated": false,
+    "chars": 852
+   },
+   "usage": {
+    "title": "Basic Usage",
+    "html": "<h6>Start in current directory</h6>\n<pre><code class=\"language-bash\">gemini\n</code></pre>\n<h6>Include multiple directories</h6>\n<pre><code class=\"language-bash\">gemini --include-directories ../lib,../docs\n</code></pre>\n<h6>Use specific model</h6>\n<pre><code class=\"language-bash\">gemini -m gemini-2.5-flash\n</code></pre>\n<h6>Non-interactive mode for scripts</h6>\n<p>Get a simple text response:</p>\n<pre><code class=\"language-bash\">gemini -p \"Explain the architecture of this codebase\"\n</code></pre>\n<p>For more advanced scripting, including how to parse JSON and handle errors, use\nthe <code>--output-format json</code> flag to get structured output:</p>\n<pre><code class=\"language-bash\">gemini -p \"Explain the architecture of this codebase\" --output-format json\n</code></pre>\n<p>For real-time event streaming (useful for monitoring long-running operations),\nuse <code>--output-format stream-json</code> to get newline-delimited JSON events:</p>\n<pre><code class=\"language-bash\">gemini -p \"Run tests and deploy\" --output-format stream-json\n</code></pre>",
+    "truncated": false,
+    "chars": 800
+   },
+   "features": {
+    "title": "Key Features",
+    "html": "<h5>Code Understanding &amp; Generation</h5>\n<ul>\n<li>Query and edit large codebases</li>\n<li>Generate new apps from PDFs, images, or sketches using multimodal capabilities</li>\n<li>Debug issues and troubleshoot with natural language</li>\n</ul>\n<h5>Automation &amp; Integration</h5>\n<ul>\n<li>Automate operational tasks like querying pull requests or handling complex\nrebases</li>\n<li>Use MCP servers to connect new capabilities, including\n<a href=\"https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio/tree/main/experiments/mcp-genmedia\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">media generation with Imagen, Veo or Lyria</a></li>\n<li>Run non-interactively in scripts for workflow automation</li>\n</ul>",
+    "truncated": false,
+    "chars": 590
+   }
+  },
+  "headings": 40,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:10.677Z",
+  "checked_at": "2026-11-17T02:19:10.677Z"
+ },
+ "contributors": {
+  "count": 703,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:17.052Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:10.677Z"
+}

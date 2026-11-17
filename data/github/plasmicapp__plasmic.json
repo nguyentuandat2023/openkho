@@ -1,0 +1,116 @@
+{
+ "id": "plasmicapp/plasmic",
+ "github_id": 335402819,
+ "node_id": "MDEwOlJlcG9zaXRvcnkzMzU0MDI4MTk=",
+ "full_name": "plasmicapp/plasmic",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.971Z",
+ "meta": {
+  "name": "plasmic",
+  "owner": "plasmicapp",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/57023879?v=4",
+  "description": "Visual builder for React. Build apps, websites, and content. Integrate with your codebase.",
+  "homepage": "https://www.plasmic.app",
+  "html_url": "https://github.com/plasmicapp/plasmic",
+  "default_branch": "master",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "builder",
+   "cms",
+   "design",
+   "design-systems",
+   "design-tools",
+   "drag-drop",
+   "frontend",
+   "gatsby",
+   "headless",
+   "headless-cms",
+   "jamstack",
+   "lowcode",
+   "nextjs",
+   "nocode",
+   "page-builder",
+   "react",
+   "ui-builder",
+   "wysiwyg"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 7169,
+  "forks": 743,
+  "watchers": null,
+  "open_issues": 45,
+  "open_prs": null,
+  "created_at": "2021-02-02T19:37:59Z",
+  "pushed_at": "2026-11-16T15:21:41Z",
+  "updated_at": "2026-11-16T09:05:31Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": false,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 343503,
+  "og_image": "https://opengraph.githubassets.com/1/plasmicapp/plasmic",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T15:21:37.000Z",
+  "commits_90d": 375,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": {
+  "tag": "@plasmicpkgs/react-youtube@7.13.169",
+  "name": "@plasmicpkgs/react-youtube@7.13.169",
+  "published_at": "2023-10-01T04:04:48Z",
+  "url": "https://github.com/plasmicapp/plasmic/releases/tag/%40plasmicpkgs%2Freact-youtube%407.13.169"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 11925,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "itvbmgLZvcM",
+    "url": "https://www.youtube.com/watch?v=itvbmgLZvcM"
+   },
+   {
+    "type": "youtube",
+    "id": "rpdjrFuVMog",
+    "url": "https://www.youtube.com/watch?v=rpdjrFuVMog"
+   },
+   {
+    "type": "youtube",
+    "id": "rYqSpUEJSTw",
+    "url": "https://www.youtube.com/watch?v=rYqSpUEJSTw"
+   }
+  ],
+  "sections": {
+   "install": null,
+   "usage": null,
+   "features": null
+  },
+  "headings": 15,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:27.656Z",
+  "checked_at": "2026-11-17T02:20:27.656Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:27.656Z"
+}

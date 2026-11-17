@@ -1,0 +1,108 @@
+{
+ "id": "enescingoz/awesome-n8n-templates",
+ "github_id": 980205160,
+ "node_id": "R_kgDOOmy-aA",
+ "full_name": "enescingoz/awesome-n8n-templates",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "awesome-n8n-templates",
+  "owner": "enescingoz",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/60349121?v=4",
+  "description": "280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG   chatbots, email automation, social media, DevOps, and document processing. The largest open-source n8n template collection.",
+  "homepage": "https://n8n.partnerlinks.io/h1pwwf5m4toe",
+  "html_url": "https://github.com/enescingoz/awesome-n8n-templates",
+  "default_branch": "main",
+  "language": null,
+  "languages": null,
+  "topics": [
+   "ai-agents",
+   "ai-automation",
+   "automation",
+   "automation-templates",
+   "awesome",
+   "awesome-list",
+   "integration",
+   "low-code",
+   "n8n",
+   "n8n-automation",
+   "n8n-template",
+   "no-code-ai",
+   "no-code-automation",
+   "self-hosted",
+   "telegram-bot",
+   "workflow-automation"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 26443,
+  "forks": 6628,
+  "watchers": null,
+  "open_issues": 102,
+  "open_prs": null,
+  "created_at": "2025-05-08T18:34:01Z",
+  "pushed_at": "2026-09-12T13:00:32Z",
+  "updated_at": "2026-11-17T00:12:57Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 4639,
+  "og_image": "https://opengraph.githubassets.com/1/enescingoz/awesome-n8n-templates",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-09-12T13:00:32.000Z",
+  "commits_90d": 25,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 114844,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start How to Use These Templates",
+    "html": "<ol>\n<li><strong><a href=\"https://n8n.partnerlinks.io/h1pwwf5m4toe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Sign up for n8n</a></strong> (n8n Cloud trial available)<br />\n* Referral link — this project receives a commission on eligible purchases.</li>\n<li>Download any <code>.json</code> template file from this repository</li>\n<li>In n8n, go to <strong>Workflows → Import from File</strong> and select the JSON</li>\n<li>Configure your credentials for each connected service</li>\n<li>Activate the workflow and start automating!</li>\n</ol>\n<hr />",
+    "truncated": false,
+    "chars": 440
+   },
+   "usage": null,
+   "features": {
+    "title": "Why n8n?",
+    "html": "<p><a href=\"https://n8n.partnerlinks.io/h1pwwf5m4toe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">n8n</a> is a fair-code, source-available workflow automation platform that lets you connect services and systems. It can be self-hosted, giving you control over your data and infrastructure. Key advantages include:\n<br />\n* Referral link — this project receives a commission on eligible purchases.</p>\n<ul>\n<li><strong>Fair-code, source-available, and self-hostable</strong> -- run it on your own server with no vendor lock-in</li>\n<li><strong>400+ built-in integrations</strong> -- connect to virtually any service or API</li>\n<li><strong>Visual workflow editor</strong> -- build automations by dragging and dropping nodes, no coding required</li>\n<li><strong>AI-native capabilities</strong> -- built-in support for OpenAI, Claude, Gemini, LangChain, and vector databases</li>\n<li><strong>Deployment options</strong> -- use the n8n Cloud trial or self-host Community Edition under n8n's license</li>\n</ul>\n<p>Whether you are automating email workflows, building AI chatbots, processing documents, or orchestrating DevOps pipelines, n8n provides the foundation these templates run on.</p>\n<hr />",
+    "truncated": false,
+    "chars": 1032
+   }
+  },
+  "headings": 36,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:43.697Z",
+  "checked_at": "2026-11-16T04:33:43.697Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:16.512Z",
+ "contributors": {
+  "count": 60,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:29.710Z"
+ }
+}

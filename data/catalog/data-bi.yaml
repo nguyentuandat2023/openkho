@@ -1,0 +1,169 @@
+# Danh mục: Data Analytics & Business Intelligence — xem cấu trúc trường trong data/README.md
+- repo: metabase/metabase
+  tags: [bi, dashboard, reporting]
+  summary: "Công cụ BI dễ dùng cho doanh nghiệp: đặt câu hỏi với dữ liệu không cần SQL, tạo dashboard và gửi báo cáo định kỳ."
+  use_cases: ["Dashboard doanh số, marketing", "Báo cáo tự động gửi email hằng tuần"]
+  pros: ["Người không biết SQL cũng tạo được báo cáo", "Kết nối PostgreSQL, MySQL, BigQuery…", "Gửi dashboard qua email/Slack theo lịch"]
+  cons: ["Nhúng và phân quyền nâng cao thuộc bản trả phí", "Tốc độ phụ thuộc cơ sở dữ liệu nguồn"]
+  platforms: [docker, windows, macos, linux]
+  deploy: [self-host, cloud]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  license_note: "Bản mã nguồn mở theo AGPL; bản Pro/Enterprise trả phí (GitHub hiển thị NOASSERTION)."
+  quick_start: |
+    docker run -d -p 3000:3000 --name metabase metabase/metabase
+    # Mở http://localhost:3000
+  applicability: 5
+  featured: true
+  license_override:
+    spdx: AGPL-3.0
+    name: AGPL-3.0 + bản Pro/Enterprise trả phí
+- repo: apache/superset
+  tags: [bi, dashboard, sql]
+  summary: "Nền tảng BI và trực quan hóa dữ liệu cấp doanh nghiệp của Apache: dashboard, SQL Lab, hàng chục loại biểu đồ."
+  use_cases: ["Dashboard điều hành toàn công ty", "Phân tích dữ liệu lớn"]
+  platforms: [docker, linux]
+  deploy: [self-host]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: Canner/WrenAI
+  also: [chatbot-llm]
+  tags: [text-to-sql, genbi, ai]
+  summary: "GenBI: hỏi dữ liệu bằng ngôn ngữ tự nhiên, AI tự viết SQL và vẽ biểu đồ trên cơ sở dữ liệu của bạn."
+  use_cases: ["Sếp tự hỏi số liệu không cần nhờ IT", "Báo cáo nhanh bằng câu hỏi"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 4
+- repo: grafana/grafana
+  tags: [dashboard, monitoring, observability]
+  summary: "Nền tảng dashboard và giám sát: trực quan hóa số liệu từ hàng chục nguồn dữ liệu, cảnh báo theo thời gian thực."
+  use_cases: ["Theo dõi hệ thống, website", "Dashboard số liệu kinh doanh theo thời gian thực"]
+  platforms: [docker, windows, macos, linux]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+- repo: streamlit/streamlit
+  tags: [python, data-app, dashboard]
+  summary: "Biến script Python thành ứng dụng web dữ liệu tương tác trong vài phút — không cần biết frontend."
+  use_cases: ["Công cụ phân tích nội bộ", "Demo mô hình dự báo"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: duckdb/duckdb
+  tags: [sql, analytics, embedded]
+  summary: "Cơ sở dữ liệu phân tích nhúng siêu nhanh: truy vấn SQL trực tiếp trên file CSV, Excel, Parquet ngay trên laptop."
+  use_cases: ["Phân tích file dữ liệu lớn mà Excel không mở nổi", "Gộp nhiều file báo cáo"]
+  platforms: [windows, macos, linux]
+  deploy: [cli, library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: pandas-dev/pandas
+  tags: [python, dataframe, analysis]
+  summary: "Thư viện Python chuẩn để xử lý, làm sạch và phân tích dữ liệu dạng bảng."
+  use_cases: ["Làm sạch dữ liệu khách hàng", "Tổng hợp báo cáo từ nhiều file Excel"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: pola-rs/polars
+  tags: [dataframe, rust, performance]
+  summary: "Thư viện DataFrame viết bằng Rust, nhanh hơn pandas nhiều lần với dữ liệu lớn, dùng được từ Python."
+  use_cases: ["Xử lý hàng chục triệu dòng dữ liệu"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: getredash/redash
+  tags: [bi, sql, dashboard]
+  summary: "Kết nối nguồn dữ liệu, viết truy vấn SQL, tạo biểu đồ và dashboard chia sẻ cho cả nhóm."
+  use_cases: ["Dashboard cho đội phân tích dữ liệu"]
+  platforms: [docker]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: apache/echarts
+  also: [web-dev]
+  tags: [charts, javascript, visualization]
+  summary: "Thư viện biểu đồ JavaScript mạnh của Apache: hàng chục loại biểu đồ, bản đồ, hiệu năng cao với dữ liệu lớn."
+  use_cases: ["Biểu đồ trên website, dashboard tự làm"]
+  platforms: [web]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: airbytehq/airbyte
+  also: [ai-automation]
+  tags: [data-integration, etl, connectors]
+  summary: "Nền tảng tích hợp dữ liệu với hàng trăm connector: đồng bộ dữ liệu từ Facebook Ads, Google Ads, Shopify… về kho dữ liệu."
+  use_cases: ["Gom dữ liệu quảng cáo đa kênh về một nơi", "Đồng bộ dữ liệu bán hàng hằng ngày"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: hard
+  pricing: freemium
+  needs_api_key: none
+  license_note: "Lõi nền tảng dùng Elastic License 2.0 (không được cung cấp Airbyte như dịch vụ được quản lý); phần lớn connector dùng MIT."
+  applicability: 4
+  license_override:
+    class: source-available
+    name: Elastic License 2.0 (lõi) + MIT (connector)
+- repo: apache/airflow
+  tags: [orchestration, data-pipeline, python]
+  summary: "Nền tảng lập lịch và điều phối pipeline dữ liệu tiêu chuẩn ngành (Apache), viết quy trình bằng Python."
+  use_cases: ["Pipeline dữ liệu doanh nghiệp chạy theo lịch"]
+  platforms: [docker, linux]
+  deploy: [self-host]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: marimo-team/marimo
+  tags: [notebook, python, reactive]
+  summary: "Notebook Python thế hệ mới: tự cập nhật khi dữ liệu thay đổi, lưu dạng file .py, chạy như ứng dụng web."
+  use_cases: ["Phân tích dữ liệu tái lập được", "Biến notebook thành công cụ nội bộ"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: Kanaries/pygwalker
+  tags: [visualization, jupyter, tableau-alternative]
+  summary: "Biến DataFrame trong Jupyter thành giao diện kéo-thả khám phá dữ liệu kiểu Tableau chỉ với một dòng lệnh."
+  use_cases: ["Khám phá dữ liệu nhanh không cần viết code vẽ biểu đồ"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: pymc-labs/pymc-marketing
+  also: [marketing-seo]
+  tags: [marketing-mix-modeling, clv, bayesian]
+  summary: "Bộ công cụ thống kê Bayes cho marketing: mô hình Marketing Mix (MMM), giá trị vòng đời khách hàng (CLV), đo hiệu quả kênh quảng cáo."
+  use_cases: ["Phân bổ ngân sách quảng cáo theo hiệu quả thật", "Dự báo giá trị khách hàng"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 4

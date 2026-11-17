@@ -1,0 +1,109 @@
+{
+ "id": "freescout-help-desk/freescout",
+ "github_id": 138328462,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxMzgzMjg0NjI=",
+ "full_name": "freescout-help-desk/freescout",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "freescout",
+  "owner": "freescout-help-desk",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/152988407?v=4",
+  "description": "FreeScout — Free self-hosted omnichannel AI-powered helpdesk & shared mailbox",
+  "homepage": "https://freescout.net",
+  "html_url": "https://github.com/freescout-help-desk/freescout",
+  "default_branch": "dist",
+  "language": "PHP",
+  "languages": null,
+  "topics": [
+   "customer-support",
+   "help-desk",
+   "helpdesk",
+   "helpdesk-ticketing",
+   "helpscout",
+   "laravel",
+   "osticket-alternative",
+   "php",
+   "shared-mailboxes",
+   "support",
+   "ticketing",
+   "ticketing-system",
+   "zendesk",
+   "zendesk-alternative"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 4672,
+  "forks": 748,
+  "watchers": null,
+  "open_issues": 9,
+  "open_prs": null,
+  "created_at": "2018-06-22T17:08:50Z",
+  "pushed_at": "2026-11-16T12:14:09Z",
+  "updated_at": "2026-11-16T21:01:18Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 29840,
+  "og_image": "https://opengraph.githubassets.com/1/freescout-help-desk/freescout",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-14T06:54:59.000Z",
+  "commits_90d": 187,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "1.8.251",
+  "name": "1.8.251",
+  "published_at": "2026-11-14T06:58:29Z",
+  "url": "https://github.com/freescout-help-desk/freescout/releases/tag/1.8.251",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 6940,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p><a href=\"https://github.com/freescout-help-desk/freescout/wiki/Installation-Guide\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Installation Guide</a></p>",
+    "truncated": false,
+    "chars": 98
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li>Omnichannel — FreeScout centralizes in one place all customer conversations received by email, <a href=\"https://freescout.net/whatsapp/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">WhatsApp</a>, Telegram, Facebook, Slack, Live Chat and more.</li>\n<li><a href=\"https://github.com/freescout-help-desk/AiIntegration\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AI-powered</a> and super efficient.</li>\n<li>Unlimited support agents, tickets, mailboxes, etc.</li>\n<li><a href=\"https://freescout.net/security\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Secure</a> by design.</li>\n<li>Mobile-friendly.</li>\n<li>Multilingual (translated into 33 languages).</li>\n<li>Seamless email integration (via SMTP, IMAP, POP3, etc).</li>\n<li>Modern OAuth authentication for Microsoft Office 365 and Google Workspace.</li>\n<li><a href=\"https://freescout.net/progressive-app/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Progressive Web App</a> for phones and desktops (installable from browser and sending Web Push notifications).</li>\n<li>Native <a href=\"https://github.com/freescout-help-desk/S3Storage\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">S3 storage</a> support.</li>\n<li>Fully supports screen readers (for visually impaired).</li>\n<li>Web installer &amp; updater.</li>\n<li>Starred conversations.</li>\n<li>Push notifications.</li>\n<li>Following conversations.</li>\n<li>Auto replies.</li>\n<li>Internal notes.</li>\n<li>Forwarding / Merging / Moving conversations.</li>\n<li>Phone conversations.</li>\n<li>Sending new conversations to multiple recipients at once.</li>\n<li>Collision detection – notice is shown when two agents open the same conversation.</li>\n<li>Automatic refreshing of the conversations list without the need to reload the page.</li>\n<li>Pasting screenshots from the clipboard into the reply area.</li>\n<li>Flexible notifications for user agents.</li>\n<li>Open tracking.</li>\n<li>Powerful search.</li>\n</ul>\n<p>A full list of features is available <a href=\"https://freescout.net/#custom_html-3\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>.</p>\n<p>Need anything else? <a href=\"https://freescout.net/request-feature/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Suggest features</a>.</p>",
+    "truncated": false,
+    "chars": 1671
+   }
+  },
+  "headings": 13,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:41.761Z",
+  "checked_at": "2026-11-17T02:19:41.761Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:41.761Z"
+}

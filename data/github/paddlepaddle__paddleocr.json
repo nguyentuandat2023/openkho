@@ -1,0 +1,113 @@
+{
+ "id": "PaddlePaddle/PaddleOCR",
+ "github_id": 262296122,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyNjIyOTYxMjI=",
+ "full_name": "PaddlePaddle/PaddleOCR",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "PaddleOCR",
+  "owner": "PaddlePaddle",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/23534030?v=4",
+  "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+  "homepage": "https://www.paddleocr.com",
+  "html_url": "https://github.com/PaddlePaddle/PaddleOCR",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "ai4science",
+   "chineseocr",
+   "document-parsing",
+   "document-translation",
+   "kie",
+   "ocr",
+   "paddleocr-vl",
+   "pdf-extractor-rag",
+   "pdf-parser",
+   "pdf2markdown",
+   "pp-ocr",
+   "pp-structure",
+   "rag"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 92778,
+  "forks": 11657,
+  "watchers": null,
+  "open_issues": 266,
+  "open_prs": null,
+  "created_at": "2020-05-08T10:38:16Z",
+  "pushed_at": "2026-09-16T03:31:50Z",
+  "updated_at": "2026-11-17T02:12:06Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 1970859,
+  "og_image": "https://opengraph.githubassets.com/1/PaddlePaddle/PaddleOCR",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-09-16T03:30:53.000Z",
+  "commits_90d": 2,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v3.7.0",
+  "name": "v3.7.0",
+  "published_at": "2026-06-11T12:09:14Z",
+  "url": "https://github.com/PaddlePaddle/PaddleOCR/releases/tag/v3.7.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 25789,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<h5>Step 1: Try Online</h5>\n<p>PaddleOCR official website provides interactive <strong>Experience Center</strong> and <strong>APIs</strong>—no setup required, just one click to experience.</p>\n<p>👉 <a href=\"https://www.paddleocr.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Visit Official Website</a></p>\n<h5>Step 2: Local Deployment</h5>\n<p>For local usage, please refer to the following documentation based on your needs:</p>\n<ul>\n<li><strong>PP-OCR Series</strong>: See <a href=\"https://www.paddleocr.ai/latest/en/version3.x/pipeline_usage/OCR.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PP-OCR Documentation</a></li>\n<li><strong>PaddleOCR-VL Series</strong>: See <a href=\"https://www.paddleocr.ai/latest/en/version3.x/pipeline_usage/PaddleOCR-VL.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PaddleOCR-VL Documentation</a></li>\n<li><strong>PP-StructureV3</strong>: See <a href=\"https://www.paddleocr.ai/latest/en/version3.x/pipeline_usage/PP-StructureV3.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PP-StructureV3 Documentation</a></li>\n<li><strong>More Capabilities</strong>: See <a href=\"https://www.paddleocr.ai/latest/en/version3.x/pipeline_usage/pipeline_overview.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">More Capabilities Documentation</a></li>\n</ul>",
+    "truncated": false,
+    "chars": 874
+   },
+   "usage": null,
+   "features": {
+    "title": "Key Features",
+    "html": "<h5>📄 Intelligent Document Parsing (LLM-Ready)</h5>\n<blockquote>\n<p><em>Transforming messy visuals into structured data for the LLM era.</em></p>\n</blockquote>\n<ul>\n<li><strong>SOTA Document VLM</strong>: Featuring <strong>PaddleOCR-VL-1.6 (0.9B)</strong>, the industry's leading lightweight vision-language model for document parsing. It achieves 96.3% accuracy on OmniDocBench v1.6, leads in text, formula, and table recognition, and shows significantly enhanced capabilities in ancient documents, rare characters, seals, and charts, with structured outputs in <strong>Markdown</strong> and <strong>JSON</strong> formats.</li>\n<li><strong>Structure-Aware Conversion</strong>: Powered by <strong>PP-StructureV3</strong>, seamlessly convert complex PDFs and images into <strong>Markdown</strong> or <strong>JSON</strong>. Unlike the PaddleOCR-VL series models, it provides more fine-grained coordinate information, including table cell coordinates, text coordinates, and more.</li>\n<li><strong>Production-Ready Efficiency</strong>: Achieve commercial-grade accuracy with an ultra-small footprint. Outperforms numerous closed-source solutions in public benchmarks while remaining resource-efficient for edge/cloud deployment.</li>\n</ul>\n<h5>🔍 Universal Text Recognition (Scene OCR)</h5>\n<blockquote>\n<p><em>The global gold standard for high-speed, multilingual text spotting.</em></p>\n</blockquote>\n<ul>\n<li><strong>100+ Languages Supported</strong>: Native recognition for a vast global library. <strong>PP-OCRv6</strong> supports 50 languages with a single unified model (Chinese, English, Japanese, and 46 Latin-script languages) — no model switching needed for multilingual documents.</li>\n<li><strong>Complex Element Mastery</strong>: Beyond standard text recognition, we support <strong>natural scene text spotting</strong> across a wide range of environments, including IDs, street views, books, and industrial components</li>\n<li><strong>Performance Leap</strong>: PP-OCRv6 achieves <strong>+4.6% detection</strong> and <strong>+5.1% recognition</strong> accuracy over PP-OCRv5, surpassing mainstream Vision-Language Models. 5.2× CPU inference speedup end-to-end.</li>\n</ul>\n<div>\n  <p>\n      <img src=\"https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/main/images/paddleocr/README/Arch.jpg\" alt=\"PaddleOCR Architecture\" loading=\"lazy\" decoding=\"async\" width=\"100%\" />\n  </p>\n</div><h5>🛠️ Developer-Centric Ecosystem</h5>\n<ul>\n<li><strong>Seamless Integration</strong>: The premier choice for the AI Agent ecosystem—deeply integrated with <strong>Dify, RAGFlow, Pathway, and Cherry Studio</strong>.</li>\n<li><strong>LLM Data Flywheel</strong>: A complete pipeline to build high-quality datasets, providing a sustainable \"Data Engine\" for fine-tuning Large Language Models.</li>\n<li><strong>One-Click Deployment</strong>: Supports various hardware backends (NVIDIA GPU, Intel CPU, Kunlunxin XPU, and diverse AI Accelerators).</li>\n</ul>",
+    "truncated": false,
+    "chars": 2502
+   }
+  },
+  "headings": 22,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:07:51.180Z",
+  "checked_at": "2026-11-16T05:07:51.180Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:13.739Z",
+ "contributors": {
+  "count": 295,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T07:03:47.191Z"
+ }
+}

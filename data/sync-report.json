@@ -1,0 +1,46 @@
+{
+ "started_at": "2026-11-17T02:18:14.450Z",
+ "finished_at": "2026-11-17T02:20:55.509Z",
+ "mode": "lite",
+ "token": false,
+ "totals": {
+  "ok": 338,
+  "archived": 2
+ },
+ "renamed": [],
+ "deleted": [],
+ "archived": [
+  "FlowiseAI/Flowise",
+  "pocketbase/pocketbase"
+ ],
+ "unverified": [],
+ "errors": [],
+ "snapshots": 340,
+ "rate_limit": {
+  "core": {
+   "limit": 60,
+   "remaining": 46,
+   "reset": 1794885548000
+  },
+  "code_search": {
+   "limit": 60,
+   "remaining": 46,
+   "reset": 1794885548000
+  },
+  "graphql": {
+   "limit": 0,
+   "remaining": 0,
+   "reset": 1794885657000
+  },
+  "integration_manifest": {
+   "limit": 5000,
+   "remaining": 5000,
+   "reset": 1794885657000
+  },
+  "search": {
+   "limit": 10,
+   "remaining": 10,
+   "reset": 1794882117000
+  }
+ }
+}

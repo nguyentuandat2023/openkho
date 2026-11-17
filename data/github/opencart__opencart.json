@@ -1,0 +1,105 @@
+{
+ "id": "opencart/opencart",
+ "github_id": 2141186,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyMTQxMTg2",
+ "full_name": "opencart/opencart",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.326Z",
+ "meta": {
+  "name": "opencart",
+  "owner": "opencart",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/214225?v=4",
+  "description": "A free shopping cart system. OpenCart is an open source PHP-based online e-commerce solution.",
+  "homepage": "https://www.opencart.com",
+  "html_url": "https://github.com/opencart/opencart",
+  "default_branch": "master",
+  "language": "PHP",
+  "languages": null,
+  "topics": [
+   "cart",
+   "ecommerce-framework",
+   "html5",
+   "javascript",
+   "js",
+   "open-source",
+   "opencart",
+   "php",
+   "shopping",
+   "shopping-cart"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 8241,
+  "forks": 5067,
+  "watchers": null,
+  "open_issues": 255,
+  "open_prs": null,
+  "created_at": "2011-08-02T07:32:17Z",
+  "pushed_at": "2026-11-13T17:28:44Z",
+  "updated_at": "2026-11-16T17:06:11Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 230544,
+  "og_image": "https://opengraph.githubassets.com/1/opencart/opencart",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-11T09:27:15.000Z",
+  "commits_90d": 141,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "4.1.0.4",
+  "name": "4.1.0.4",
+  "published_at": "2026-08-11T11:00:08Z",
+  "url": "https://github.com/opencart/opencart/releases/tag/4.1.0.4",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 8747,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "How to install",
+    "html": "<p>Please read the <a href=\"https://github.com/opencart/opencart/blob/master/INSTALL.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">installation instructions</a> included in the repository or download file.</p>",
+    "truncated": false,
+    "chars": 104
+   },
+   "usage": {
+    "title": "Using Docker Compose Profiles for Optional Services",
+    "html": "<p>By default, only the core services (<code>apache</code>, <code>php</code>, <code>mysql</code>) are started. The <code>mysql</code> service runs MariaDB.\nOptional services such as <strong>Adminer</strong>, <strong>Redis</strong>, <strong>Memcached</strong>, and <strong>PostgreSQL</strong> can be enabled using <a href=\"https://docs.docker.com/compose/profiles/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker Compose profiles</a>.</p>\n<p>To enable one or more optional services, use the <code>--profile</code> flag and specify your env file:</p>\n<ul>\n<li><strong>Start with Adminer:</strong><pre><code class=\"language-bash\">make up profiles=\"adminer\"\n</code></pre>\n</li>\n<li><strong>Start with Redis and Memcached:</strong><pre><code class=\"language-bash\">make up profiles=\"redis memcached\"\n</code></pre>\n</li>\n<li><strong>Start all optional services:</strong><pre><code class=\"language-bash\">make up profiles=\"adminer redis memcached postgres\"\n</code></pre>\n</li>\n</ul>\n<blockquote>\n<p>[!TIP]</p>\n<p>You can combine any profiles as needed for your development workflow.</p>\n</blockquote>",
+    "truncated": false,
+    "chars": 750
+   },
+   "features": null
+  },
+  "headings": 16,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:56.605Z",
+  "checked_at": "2026-11-16T05:08:56.605Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:27.964Z",
+ "contributors": null
+}

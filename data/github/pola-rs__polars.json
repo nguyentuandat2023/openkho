@@ -1,0 +1,98 @@
+{
+ "id": "pola-rs/polars",
+ "github_id": 263727855,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyNjM3Mjc4NTU=",
+ "full_name": "pola-rs/polars",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "polars",
+  "owner": "pola-rs",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/83768144?v=4",
+  "description": "Extremely fast Query Engine for DataFrames, written in Rust",
+  "homepage": "https://docs.pola.rs",
+  "html_url": "https://github.com/pola-rs/polars",
+  "default_branch": "main",
+  "language": "Rust",
+  "languages": null,
+  "topics": [
+   "arrow",
+   "dataframe",
+   "dataframe-library",
+   "dataframes",
+   "out-of-core",
+   "polars",
+   "python",
+   "rust"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 40355,
+  "forks": 3242,
+  "watchers": null,
+  "open_issues": 2957,
+  "open_prs": null,
+  "created_at": "2020-05-13T19:45:33Z",
+  "pushed_at": "2026-11-16T23:59:36Z",
+  "updated_at": "2026-11-17T01:17:26Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 244535,
+  "og_image": "https://opengraph.githubassets.com/1/pola-rs/polars",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T18:31:40.000Z",
+  "commits_90d": 1268,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "py-2.1.0",
+  "name": "Python Polars 2.1.0",
+  "published_at": "2026-10-25T18:24:39Z",
+  "url": "https://github.com/pola-rs/polars/releases/tag/py-2.1.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 7095,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<h5>Python</h5>\n<p>Install the latest Polars version with:</p>\n<pre><code class=\"language-sh\">pip install polars\n</code></pre>\n<p>See the <a href=\"https://docs.pola.rs/user-guide/installation/#feature-flags\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">User Guide</a> for more details\non optional dependencies</p>\n<details>\n<summary><b>Compile Polars from source</b></summary><p>If you want a bleeding edge release you should compile Polars from source. Advanced users can also\ncompile for maximum performance for their architecture.</p>\n<p>This can be done by going through the following steps in sequence:</p>\n<ol>\n<li>Install the latest <a href=\"https://www.rust-lang.org/tools/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Rust compiler</a></li>\n<li>Install <a href=\"https://maturin.rs/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">maturin</a>: <code>pip install maturin</code></li>\n<li><code>cd py-polars</code> and choose one of the following:<ul>\n<li><code>make build</code>, slow binary with debug assertions and limited symbols, fast compile times</li>\n<li><code>make build-debug</code>, same as <code>make build</code>, but with all symbols, produces large binaries</li>\n<li><code>make build-release</code>, fast binary without debug assertions, minimal debug symbols, long compile\ntimes</li>\n<li><code>make build-nodebug-release</code>, same as build-release but without any debug symbols, slightly\nfaster to compile</li>\n<li><code>make build-debug-release</code>, same as build-release but with full debug symbols, slightly slower\nto compile</li>\n<li><code>make build-dist-release</code>, fastest binary, extreme compile times</li>\n</ul>\n</li>\n</ol>\n<p>By default the binary is compiled with optimizations turned on for a modern CPU. Specify <code>LTS_CPU=1</code>\nwith the command if your CPU is older and does not support e.g. AVX2.</p>\n<p>Note that the Rust crate implementing the Python bindings is called <code>py-polars</code> to distinguish from\nthe wrapped Rust crate <code>polars</code> itself. However, both the Python package and the Python module are\nnamed <code>polars</code>, so you can <code>pip install polars</code> and <code>import polars</code>.</p>\n</details><p>Check the <a href=\"https://docs.pola.rs/user-guide/installation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Installation guide</a> for more advanced\ninstallations. For example when you expect more than 2^32 (~4.2 billion) rows, run on an old CPU\n(e.g. dating from before 2011), or on an <code>x86-64</code> build of Python on Apple Silicon under Rosetta.</p>",
+    "truncated": false,
+    "chars": 2043
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 11,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:23.206Z",
+  "checked_at": "2026-11-17T02:19:47.095Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:47.095Z"
+}

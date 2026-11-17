@@ -1,0 +1,105 @@
+{
+ "id": "ocrmypdf/OCRmyPDF",
+ "github_id": 15333471,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxNTMzMzQ3MQ==",
+ "full_name": "ocrmypdf/OCRmyPDF",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "OCRmyPDF",
+  "owner": "ocrmypdf",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/96028099?v=4",
+  "description": "OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched",
+  "homepage": "http://ocrmypdf.readthedocs.io/",
+  "html_url": "https://github.com/ocrmypdf/OCRmyPDF",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "image-processing",
+   "ocr",
+   "pdf",
+   "python",
+   "tesseract"
+  ],
+  "license": {
+   "spdx": "MPL-2.0",
+   "name": "Mozilla Public License 2.0"
+  },
+  "stars": 35336,
+  "forks": 2458,
+  "watchers": null,
+  "open_issues": 66,
+  "open_prs": null,
+  "created_at": "2013-12-20T08:26:28Z",
+  "pushed_at": "2026-11-16T01:20:02Z",
+  "updated_at": "2026-11-17T00:13:01Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 72450,
+  "og_image": "https://opengraph.githubassets.com/1/ocrmypdf/OCRmyPDF",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T00:57:05.000Z",
+  "commits_90d": 228,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v17.14.2",
+  "name": "v17.14.2",
+  "published_at": "2026-11-16T01:20:40Z",
+  "url": "https://github.com/ocrmypdf/OCRmyPDF/releases/tag/v17.14.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 9993,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>Linux, Windows, macOS and FreeBSD are supported. Docker images are also available, for both x64 and ARM.</p>\n<table>\n<thead>\n<tr>\n<th>Operating system</th>\n<th>Install command</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Debian, Ubuntu</td>\n<td><code>apt install ocrmypdf</code></td>\n</tr>\n<tr>\n<td>Windows Subsystem for Linux</td>\n<td><code>apt install ocrmypdf</code></td>\n</tr>\n<tr>\n<td>Fedora</td>\n<td><code>dnf install ocrmypdf</code></td>\n</tr>\n<tr>\n<td>macOS (Homebrew)</td>\n<td><code>brew install ocrmypdf</code></td>\n</tr>\n<tr>\n<td>macOS (MacPorts)</td>\n<td><code>port install ocrmypdf</code></td>\n</tr>\n<tr>\n<td>macOS (nix)</td>\n<td><code>nix-env -i ocrmypdf</code></td>\n</tr>\n<tr>\n<td>LinuxBrew</td>\n<td><code>brew install ocrmypdf</code></td>\n</tr>\n<tr>\n<td>FreeBSD</td>\n<td><code>pkg install py-ocrmypdf</code></td>\n</tr>\n<tr>\n<td>OpenBSD</td>\n<td><code>pkg_add ocrmypdf</code></td>\n</tr>\n<tr>\n<td>Ubuntu Snap</td>\n<td><code>snap install ocrmypdf</code></td>\n</tr>\n</tbody></table>\n<p>For everyone else, <a href=\"https://ocrmypdf.readthedocs.io/en/latest/installation.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">see our documentation</a> for installation steps.</p>",
+    "truncated": false,
+    "chars": 1030
+   },
+   "usage": null,
+   "features": {
+    "title": "Main features",
+    "html": "<ul>\n<li>Generates a searchable <a href=\"https://en.wikipedia.org/?title=PDF/A\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PDF/A</a> file from a regular PDF</li>\n<li>Places OCR text accurately below the image to ease copy / paste</li>\n<li>Keeps the exact resolution of the original embedded images</li>\n<li>When possible, inserts OCR information as a \"lossless\" operation without disrupting any other content</li>\n<li>Optimizes PDF images, often producing files smaller than the input file</li>\n<li>If requested, deskews and/or cleans the image before performing OCR</li>\n<li>Validates input and output files</li>\n<li>Distributes work across all available CPU cores</li>\n<li>Uses <a href=\"https://github.com/tesseract-ocr/tesseract\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Tesseract OCR</a> engine to recognize more than <a href=\"https://github.com/tesseract-ocr/tessdata\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">100 languages</a></li>\n<li>Keeps your private data private.</li>\n<li>Scales properly to handle files with thousands of pages.</li>\n<li>Battle-tested on millions of PDFs.</li>\n</ul>\n<img src=\"https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/main/misc/screencast/demo.svg\" alt=\"Demo of OCRmyPDF in a terminal session\" loading=\"lazy\" decoding=\"async\" /><p>For details: please consult the <a href=\"https://ocrmypdf.readthedocs.io/en/latest/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">documentation</a>.</p>",
+    "truncated": false,
+    "chars": 1023
+   }
+  },
+  "headings": 12,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:07:52.108Z",
+  "checked_at": "2026-11-16T05:07:52.108Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:13.739Z",
+ "contributors": {
+  "count": 133,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T07:03:47.519Z"
+ }
+}

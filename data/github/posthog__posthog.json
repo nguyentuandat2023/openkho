@@ -1,0 +1,111 @@
+{
+ "id": "PostHog/posthog",
+ "github_id": 235901813,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyMzU5MDE4MTM=",
+ "full_name": "PostHog/posthog",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:56.641Z",
+ "meta": {
+  "name": "posthog",
+  "owner": "PostHog",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/60330232?v=4",
+  "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+  "homepage": "https://posthog.com",
+  "html_url": "https://github.com/PostHog/posthog",
+  "default_branch": "master",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "ab-testing",
+   "ai-analytics",
+   "analytics",
+   "cdp",
+   "data-warehouse",
+   "experiments",
+   "feature-flags",
+   "javascript",
+   "product-analytics",
+   "python",
+   "react",
+   "session-replay",
+   "surveys",
+   "typescript",
+   "web-analytics"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 40830,
+  "forks": 3690,
+  "watchers": null,
+  "open_issues": 4439,
+  "open_prs": null,
+  "created_at": "2020-01-23T22:46:58Z",
+  "pushed_at": "2026-11-17T02:18:05Z",
+  "updated_at": "2026-11-17T01:51:37Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 9405107,
+  "og_image": "https://opengraph.githubassets.com/1/PostHog/posthog",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T01:58:55.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "desktop-v0.61.1050",
+  "name": "desktop-v0.61.1050",
+  "published_at": "2026-11-17T01:42:55Z",
+  "url": "https://github.com/PostHog/posthog/releases/tag/desktop-v0.61.1050",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 13728,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "1FZji2L-LmM",
+    "url": "https://www.youtube.com/watch?v=1FZji2L-LmM"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Getting started with PostHog",
+    "html": "<h5>PostHog Cloud (Recommended)</h5>\n<p>The fastest and most reliable way to get started with PostHog is signing up for free to <a href=\"https://us.posthog.com/signup\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PostHog Cloud</a> or <a href=\"https://eu.posthog.com/signup\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PostHog Cloud EU</a>. Your first 1 million events, 5k recordings, 1M flag requests, 100k exceptions, 10GB of logs, and 1500 survey responses are free every month, after which you pay based on usage.</p>\n<h5>Self-hosting the open-source hobby deploy (Advanced)</h5>\n<p>If you want to self-host PostHog, you can deploy a hobby instance in one line on Linux with Docker (recommended 4GB memory):</p>\n<pre><code class=\"language-bash\">/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/posthog/posthog/HEAD/bin/deploy-hobby)\"\n</code></pre>\n<p>Open source deployments should scale to approximately 100k events per month, after which we recommend <a href=\"https://posthog.com/docs/migrate/migrate-to-cloud\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">migrating to a PostHog Cloud</a>.</p>\n<p>We <em>do not</em> provide customer support or offer guarantees for open source deployments. See our <a href=\"https://posthog.com/docs/self-host\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">self-hosting docs</a>, <a href=\"https://posthog.com/docs/self-host/deploy/troubleshooting\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">troubleshooting guide</a>, and <a href=\"https://posthog.com/docs/self-host/open-source/disclaimer\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">disclaimer</a> for more info.</p>",
+    "truncated": false,
+    "chars": 1213
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 10,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:35.047Z",
+  "checked_at": "2026-11-17T02:20:15.651Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:15.651Z"
+}

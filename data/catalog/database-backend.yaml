@@ -1,0 +1,198 @@
+# Danh mục: Database & Backend — xem cấu trúc trường trong data/README.md
+- repo: supabase/supabase
+  tags: [baas, postgres, firebase-alternative, auth]
+  summary: "Nền tảng backend thay Firebase trên PostgreSQL: cơ sở dữ liệu, xác thực, lưu file, realtime, API tự sinh, vector cho AI."
+  use_cases: ["Backend cho website/app không cần tự viết API", "Lưu trữ dữ liệu cho công cụ nội bộ", "Bản nâng cấp có tài khoản người dùng cho chính thư viện này"]
+  pros: ["Dựa trên PostgreSQL chuẩn, không bị khóa nền tảng", "Gói miễn phí đủ cho dự án nhỏ", "Có thể tự host"]
+  cons: ["Dự án miễn phí bị tạm dừng nếu lâu không hoạt động", "Tự host khá phức tạp"]
+  platforms: [docker, web]
+  deploy: [cloud, self-host]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 5
+  featured: true
+- repo: pocketbase/pocketbase
+  tags: [baas, sqlite, single-binary]
+  summary: "Backend gói trong MỘT file chạy: cơ sở dữ liệu SQLite, xác thực, lưu file, realtime, trang quản trị."
+  use_cases: ["Backend cho dự án nhỏ, nguyên mẫu"]
+  platforms: [windows, macos, linux]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  note: "Toàn bộ kho của tổ chức PocketBase trên GitHub đã được lưu trữ (archived) — kiểm tra pocketbase.io để biết kênh phát triển và bản cập nhật mới trước khi dùng cho dự án mới."
+  alternatives: [supabase/supabase, appwrite/appwrite]
+  applicability: 3
+- repo: appwrite/appwrite
+  tags: [baas, auth, storage, functions]
+  summary: "Nền tảng backend đầy đủ (BaaS) tự host: xác thực, cơ sở dữ liệu, lưu trữ, functions, nhắn tin, hosting web."
+  use_cases: ["Backend cho app di động/web"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: postgres/postgres
+  tags: [sql, relational-database]
+  summary: "PostgreSQL — hệ quản trị cơ sở dữ liệu quan hệ mã nguồn mở tiên tiến nhất; kho GitHub là bản mirror chính thức."
+  use_cases: ["Cơ sở dữ liệu cho mọi ứng dụng doanh nghiệp"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  license_note: "PostgreSQL License — giấy phép dễ dãi tương tự MIT/BSD (GitHub hiển thị NOASSERTION)."
+  applicability: 4
+  license_override:
+    spdx: PostgreSQL
+    name: PostgreSQL License
+- repo: pgvector/pgvector
+  tags: [vector-search, postgres, rag]
+  summary: "Tiện ích tìm kiếm vector ngay trong PostgreSQL — xây RAG mà không cần thêm cơ sở dữ liệu mới."
+  use_cases: ["Tìm kiếm ngữ nghĩa sản phẩm, tài liệu", "Kho tri thức cho chatbot"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  license_note: "PostgreSQL License (GitHub hiển thị NOASSERTION)."
+  applicability: 4
+  license_override:
+    spdx: PostgreSQL
+    name: PostgreSQL License
+- repo: meilisearch/meilisearch
+  tags: [search-engine, typo-tolerant, instant-search]
+  summary: "Công cụ tìm kiếm tức thì, gõ sai vẫn tìm đúng — thêm ô tìm kiếm thông minh cho website, cửa hàng."
+  use_cases: ["Tìm kiếm sản phẩm trên web bán hàng", "Tìm kiếm tài liệu nội bộ"]
+  platforms: [docker, windows, macos, linux]
+  deploy: [self-host, cloud]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  license_note: "Lõi MIT; tính năng enterprise theo giấy phép BUSL (GitHub hiển thị NOASSERTION)."
+  applicability: 4
+  license_override:
+    spdx: MIT
+    name: MIT + BUSL (enterprise)
+- repo: fastapi/fastapi
+  tags: [python, api, backend]
+  summary: "Framework Python hiện đại để xây API nhanh, tự sinh tài liệu (Swagger) — phổ biến cho backend ứng dụng AI."
+  use_cases: ["API cho chatbot, ứng dụng AI"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: dbeaver/dbeaver
+  tags: [database-gui, sql-client]
+  summary: "Công cụ quản lý cơ sở dữ liệu đa năng: kết nối MySQL, PostgreSQL, SQL Server, SQLite… duyệt bảng, viết SQL, xuất dữ liệu."
+  use_cases: ["Xem và xuất dữ liệu ra Excel", "Quản lý nhiều cơ sở dữ liệu"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: redis/redis
+  tags: [in-memory, cache, queue]
+  summary: "Cơ sở dữ liệu trong bộ nhớ siêu nhanh cho cache, hàng đợi, phiên đăng nhập, tìm kiếm vector."
+  use_cases: ["Tăng tốc website, hàng đợi tác vụ"]
+  platforms: [docker, linux, macos]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  license_note: "Từ Redis 8 (2025) có ba lựa chọn giấy phép: RSALv2, SSPLv1 hoặc AGPLv3 (GitHub hiển thị NOASSERTION). Cần giấy phép dễ dãi thì cân nhắc Valkey (BSD-3)."
+  alternatives: [valkey-io/valkey]
+  applicability: 3
+  license_override:
+    spdx: AGPL-3.0
+    name: RSALv2 / SSPLv1 / AGPLv3 (chọn một)
+- repo: valkey-io/valkey
+  tags: [in-memory, cache, redis-fork]
+  summary: "Nhánh mã nguồn mở của Redis do Linux Foundation quản lý (BSD-3), tương thích lệnh Redis."
+  use_cases: ["Cache, hàng đợi với giấy phép dễ dãi"]
+  platforms: [docker, linux, macos]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: ClickHouse/ClickHouse
+  also: [data-bi]
+  tags: [analytics-database, columnar, olap]
+  summary: "Cơ sở dữ liệu phân tích dạng cột cực nhanh: truy vấn hàng tỷ dòng trong vài giây cho báo cáo, log, analytics."
+  use_cases: ["Kho dữ liệu sự kiện, hành vi người dùng"]
+  platforms: [docker, linux, macos]
+  deploy: [self-host, cloud]
+  difficulty: hard
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+- repo: qdrant/qdrant
+  tags: [vector-database, rag, rust]
+  summary: "Cơ sở dữ liệu vector hiệu năng cao (Rust) cho tìm kiếm ngữ nghĩa và RAG."
+  use_cases: ["Kho tri thức cho chatbot AI", "Gợi ý sản phẩm tương tự"]
+  platforms: [docker, linux, macos, windows]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+- repo: prisma/orm
+  tags: [orm, typescript, database]
+  summary: "ORM TypeScript cú pháp dễ đọc: định nghĩa schema, tự sinh truy vấn an toàn kiểu, migration."
+  use_cases: ["Làm việc với cơ sở dữ liệu trong ứng dụng Node.js"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+- repo: django/django
+  tags: [python, web-framework, admin]
+  summary: "Framework web Python 'đầy đủ pin': ORM, trang quản trị tự động, xác thực, bảo mật — làm web nhanh và chắc chắn."
+  use_cases: ["Hệ thống quản lý nội bộ", "Website có trang quản trị"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: laravel/framework
+  tags: [php, web-framework]
+  summary: "Framework PHP phổ biến nhất, cú pháp thanh lịch, hệ sinh thái lớn — chạy được trên hosting PHP phổ thông."
+  use_cases: ["Website, hệ thống quản lý bằng PHP"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: nestjs/nest
+  tags: [nodejs, typescript, backend]
+  summary: "Framework Node.js/TypeScript có cấu trúc chặt chẽ để xây backend quy mô lớn."
+  use_cases: ["Backend cho ứng dụng lớn, nhiều module"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: mongodb/mongo
+  tags: [nosql, document-database]
+  summary: "MongoDB — cơ sở dữ liệu NoSQL dạng tài liệu phổ biến."
+  use_cases: ["Lưu dữ liệu linh hoạt, không cố định cấu trúc"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  license_note: "Server Side Public License (SSPL) — không phải giấy phép OSI; không được cung cấp MongoDB như dịch vụ cloud nếu không công khai toàn bộ mã dịch vụ (GitHub hiển thị NOASSERTION)."
+  applicability: 3
+  license_override:
+    spdx: SSPL-1.0
+    name: Server Side Public License

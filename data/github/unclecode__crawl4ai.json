@@ -1,0 +1,121 @@
+{
+ "id": "unclecode/crawl4ai",
+ "github_id": 798201435,
+ "node_id": "R_kgDOL5OWWw",
+ "full_name": "unclecode/crawl4ai",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "crawl4ai",
+  "owner": "unclecode",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/12494079?v=4",
+  "description": "Official Crawl4AI Cloud: a hosted web scraping, extraction, and search API for AI agents. Free API key, 1,000 credits a month, no card. Fully open source: this repo is the Apache-2.0 crawler that powers it, and you can self-host it.",
+  "homepage": "https://crawl4ai.com/?ref=github-about",
+  "html_url": "https://github.com/unclecode/crawl4ai",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "ai",
+   "ai-agents",
+   "crawl4ai-cloud",
+   "crawler",
+   "data-extraction",
+   "llm",
+   "markdown",
+   "mcp",
+   "open-source",
+   "playwright",
+   "python",
+   "rag",
+   "scraper",
+   "web-crawler",
+   "web-crawling",
+   "web-scraping"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 87453,
+  "forks": 9122,
+  "watchers": null,
+  "open_issues": 347,
+  "open_prs": null,
+  "created_at": "2024-05-09T09:48:50Z",
+  "pushed_at": "2026-11-13T13:32:17Z",
+  "updated_at": "2026-11-17T02:09:50Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 152019,
+  "og_image": "https://opengraph.githubassets.com/1/unclecode/crawl4ai",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-04T12:13:39.000Z",
+  "commits_90d": 55,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.9.5",
+  "name": "Release v0.9.5",
+  "published_at": "2026-10-14T10:25:39Z",
+  "url": "https://github.com/unclecode/crawl4ai/releases/tag/v0.9.5",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 28252,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<details>\n<summary>🐍 <strong>pip</strong></summary><pre><code class=\"language-bash\">pip install -U crawl4ai\ncrawl4ai-setup      # installs and sets up the browser\ncrawl4ai-doctor     # checks the installation\n</code></pre>\n<p>If the browser setup fails, install it by hand:</p>\n<pre><code class=\"language-bash\">python -m playwright install --with-deps chromium\n</code></pre>\n<p>Pre-release versions: <code>pip install crawl4ai --pre</code></p>\n<p><strong>Development install</strong>, for contributors:</p>\n<pre><code class=\"language-bash\">git clone https://github.com/unclecode/crawl4ai.git\ncd crawl4ai\npip install -e \".[all]\"     # or: pip install -e .   (the core only)\n</code></pre>\n</details><details>\n<summary>🐳 <strong>Docker server</strong></summary><p>The server needs a token. Without one it answers only inside its container.</p>\n<pre><code class=\"language-bash\">export CRAWL4AI_API_TOKEN=\"$(openssl rand -hex 32)\"\ndocker run -d -p 11235:11235 --name crawl4ai --shm-size=1g \\\n  -e CRAWL4AI_API_TOKEN=\"$CRAWL4AI_API_TOKEN\" \\\n  unclecode/crawl4ai:latest\n</code></pre>\n<p>Test it (allow about 10 seconds for the start):</p>\n<pre><code class=\"language-bash\">curl -s http://localhost:11235/md \\\n  -H \"Authorization: Bearer $CRAWL4AI_API_TOKEN\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"url\": \"https://news.ycombinator.com\"}' | jq -r .markdown\n</code></pre>\n<p>The dashboard is at <code>http://localhost:11235/dashboard</code>, the playground at <code>http://localhost:11235/playground</code>. LLM keys, MCP and every setting: <a href=\"https://docs.crawl4ai.com/core/self-hosting/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Self-hosting guide</a>.</p>\n</details><details>\n<summary>⌨️ <strong>Command line (`crwl`)</strong></summary><pre><code class=\"language-bash\"># A page as Markdown\ncrwl https://news.ycombinator.com -o markdown\n\n# Deep crawl, breadth first, at most 10 pages\ncrwl https://docs.crawl4ai.com --deep-crawl bfs --max-pages 10\n\n# Ask a question about a page (needs an LLM key: crwl config)\ncrwl https://www.example.com/products -q \"Extract all product prices\"\n</code></pre>\n</details>",
+    "truncated": false,
+    "chars": 1786
+   },
+   "usage": {
+    "title": "Advanced usage examples",
+    "html": "<p>More in <a href=\"https://github.com/unclecode/crawl4ai/tree/main/docs/examples\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs/examples</a>.</p>\n<details>\n<summary>📝 <strong>Clean and fit Markdown</strong></summary><pre><code class=\"language-python\">import asyncio\nfrom crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode\nfrom crawl4ai.content_filter_strategy import PruningContentFilterLXML\nfrom crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator\n\nasync def main():\n    run_config = CrawlerRunConfig(\n        cache_mode=CacheMode.BYPASS,\n        markdown_generator=DefaultMarkdownGenerator(\n            content_filter=PruningContentFilterLXML(threshold=0.48, threshold_type=\"fixed\", min_word_threshold=0)\n        ),\n    )\n    async with AsyncWebCrawler(config=BrowserConfig(headless=True)) as crawler:\n        result = await crawler.arun(url=\"https://en.wikipedia.org/wiki/Web_crawler\", config=run_config)\n        print(len(result.markdown.raw_markdown), \"characters of raw Markdown\")\n        print(len(result.markdown.fit_markdown), \"characters after the filter\")\n\nasyncio.run(main())\n</code></pre>\n</details><details>\n<summary>🖥️ <strong>A JavaScript page and structured data, without an LLM</strong></summary><pre><code class=\"language-python\">import asyncio, json\nfrom crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode, JsonCssExtractionStrategy\n\nschema = {\n    \"name\": \"Quotes\",\n    \"baseSelector\": \"div.quote\",\n    \"fields\": [\n        {\"name\": \"text\", \"selector\": \"span.text\", \"type\": \"text\"},\n        {\"name\": \"author\", \"selector\": \"small.author\", \"type\": \"text\"},\n        {\"name\": \"tags\", \"selector\": \"a.tag\", \"type\": \"list\", \"fields\": [{\"name\": \"tag\", \"type\": \"text\"}]},\n    ],\n}\n\nasync def main():\n    run_config = CrawlerRunConfig(\n        extraction_strategy=JsonCssExtractionStrategy(schema),\n        scan_full_page=True,   # scroll to the end, so the page loads every quote\n        scroll_delay=0.5,\n        cache_mode=CacheMode.BYPASS,\n    )\n    async with AsyncWebCrawler(config=BrowserConfig(headless=True)) as crawler:\n        result = await crawler.arun(url=\"https://quotes.toscrape.com/scroll\", config=run_config)\n        quotes = json.loads(result.extracted_content)\n        print(f\"Extracted {len(quotes)} quotes\")\n        print(json.dumps(quotes[0], indent=2))\n\nasyncio.run(main())\n</code></pre>\n</details><details>\n<summary>📚 <strong>Structured data with an LLM</strong></summary><pre><code class=\"language-python\">import os, asyncio\nfrom pydantic import BaseModel, Field\nfrom crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode, LLMConfig, LLMExtractionStrategy\n\nclass ModelFee(BaseModel):\n    model_name: str = Field(..., description=\"Name of the model.\")\n    input_fee: str = Field(..., description=\"Fee for input tokens.\")\n    output_fee: str = Field(..., description=\"Fee for output tokens.\")\n\nasync def main():\n    run_config = CrawlerRunConfig(\n        cache_mode=CacheMode.BYPASS,\n        extraction_strategy=LLMExtractionStrategy(\n            # any provider LiteLLM supports, e.g. \"ollama/llama3.3\" with api_token=\"no-token\"\n            llm_config=LLMConfig(provider=\"openai/gpt-4o-mini\", api_token=os.getenv(\"OPENAI_API_KEY\")),\n            schema=ModelFee.model_json_schema(),\n            extraction_type=\"schema\",\n            instruction=\"Extract every model name with its input and output token fee.\",\n        ),\n    )\n    async with AsyncWebCrawler() as crawler:\n        result = await crawler.arun(url=\"https://openai.com/api/pricing/\", config=run_config)\n        print(result.extracted_content)\n\nasyncio.run(main())\n</code></pre>\n</details><details>\n<summary>🤖 <strong>Your own browser with a saved profile</strong></summary><pre><code class=\"language-python\">import os, asyncio\nfrom pathlib import Path\nfrom crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode\n\nasync def main():\n    user_data_dir = os.path.join(Path.home(), \".crawl4ai\", \"browser_profile\")\n    os.makedirs(user_data_dir, exist_ok=True)\n    browser_config = BrowserConfig(headless=True, user_data_dir=user_data_dir, use_persistent_context=True)\n    run_config = CrawlerRunConfig(cache_mode=CacheMode.BYPASS, magic=True)\n    async with AsyncWebCrawler(config=browser_config) as crawler:\n        result = await crawler.arun(url=\"ADDRESS_OF_A_CHALLENGING_WEBSITE\", config=run_config)\n        print(result.success, len(result.markdown))\n\nasyncio.run(main())\n</code></pre>\n</details>",
+    "truncated": false,
+    "chars": 4313
+   },
+   "features": {
+    "title": "Features",
+    "html": "<details>\n<summary>📝 <strong>Markdown generation</strong></summary><ul>\n<li>🧹 <strong>Clean Markdown</strong>: headings, lists, tables and code blocks, in a structure an LLM reads well.</li>\n<li>🎯 <strong>Fit Markdown</strong>: filters remove menus, footers and boilerplate: <code>PruningContentFilterLXML</code>, <code>BM25ContentFilter</code> (for a query) and <code>LLMContentFilter</code>.</li>\n<li>🔗 <strong>Citations</strong>: page links become a numbered reference list.</li>\n<li>🛠️ <strong>Your own strategy</strong>: plug in a custom Markdown generator.</li>\n</ul>\n<p>☁️ Same in the cloud: <code>POST /scrape</code> returns this Markdown, with no browser to run. <a href=\"https://crawl4ai.com/docs?ref=readme#scrape\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docs →</a></p>\n</details><details>\n<summary>📊 <strong>Structured data extraction</strong></summary><ul>\n<li>🔎 <strong>CSS and XPath schemas</strong>: fast extraction with no LLM (<code>JsonCssExtractionStrategy</code>, <code>JsonXPathExtractionStrategy</code>, <code>RegexExtractionStrategy</code>).</li>\n<li>🪄 <strong>Schema generator</strong>: describe what you want once; <code>generate_schema</code> writes a reusable schema.</li>\n<li>🤖 <strong>LLM extraction</strong>: any LLM provider, open-source or hosted, into a typed JSON schema (<code>LLMExtractionStrategy</code>).</li>\n<li>🧱 <strong>Chunking</strong>: topic, regex and sentence chunking for long pages.</li>\n<li>🌌 <strong>Cosine similarity</strong>: find the chunks that match a query (<code>CosineStrategy</code>).</li>\n</ul>\n<p>☁️ Same in the cloud: <code>POST /extract</code>, with no LLM key of your own. <a href=\"https://crawl4ai.com/docs?ref=readme#extract\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docs →</a></p>\n</details><details>\n<summary>🌐 <strong>Browser control</strong></summary><ul>\n<li>🖥️ <strong>Your own browser</strong>: persistent profiles with saved logins, cookies and settings.</li>\n<li>🔄 <strong>Remote browsers</strong>: connect over the Chrome DevTools Protocol (CDP).</li>\n<li>🔒 <strong>Sessions</strong>: keep a browser state across multi-step crawls.</li>\n<li>🧩 <strong>Proxies</strong>: with authentication and rotation.</li>\n<li>🕶️ <strong>Stealth mode</strong>: <code>enable_stealth</code>, and an undetected-browser adapter for sites that detect automation.</li>\n<li>⚙️ <strong>Full control</strong>: headers, cookies, user agents, viewport.</li>\n<li>🌍 <strong>Chromium, Firefox and WebKit</strong>.</li>\n</ul>\n</details><details>\n<summary>🔎 <strong>Crawling and scraping</strong></summary><ul>\n<li>🕸️ <strong>Deep crawl</strong>: BFS, DFS and best-first strategies, with crash recovery (<code>resume_state</code>) for long crawls.</li>\n<li>🧠 <strong>Adaptive crawling</strong>: <code>AdaptiveCrawler</code> stops when it has learned enough to answer your query.</li>\n<li>🌱 <strong>URL discovery</strong>: <code>AsyncUrlSeeder</code> (sitemaps, Common Crawl) and <code>DomainMapper</code>; <code>prefetch=True</code> finds URLs 5 to 10 times faster.</li>\n<li>🚀 <strong>Dynamic pages</strong>: run JavaScript, wait for elements, scroll the full page (<code>scan_full_page</code>) for infinite scroll and lazy images.</li>\n<li>📸 <strong>Screenshots and PDFs</strong> of any page.</li>\n<li>🖼️ <strong>Media and links</strong>: images, audio, video, <code>srcset</code>, internal and external links, iframes, metadata.</li>\n<li>📂 <strong>Raw HTML and local files</strong>: <code>raw:</code> and <code>file://</code>.</li>\n<li>🛠️ <strong>Hooks</strong> at every step of a crawl.</li>\n<li>💾 <strong>Caching</strong> to skip repeated fetches.</li>\n<li>⚡ <strong>Many URLs at once</strong>: <code>arun_many</code> with a memory-adaptive dispatcher.</li>\n</ul>\n<p>☁️ Same in the cloud: up to 50 URLs in one streamed call, or 10,000 in a background job. <a href=\"https://crawl4ai.com/docs?ref=readme#batch\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docs →</a></p>\n</details><details>\n<summary>🐳 <strong>Self-hosting (Docker)</strong></summary><ul>\n<li>🔐 <strong>Secure by default</strong>: every endpoint needs your <code>CRAWL4AI_API_TOKEN</code>.</li>\n<li>🧰 <strong>REST API</strong>: <code>/md</code>, <code>/html</code>, <code>/crawl</code>, <code>/crawl/stream</code>, <code>/screenshot</code>, <code>/pdf</code>, <code>/execute_js</code>.</li>\n<li>🤖 <strong>MCP</strong>: connect Claude Code and other agents to your own server.</li>\n<li>📊 <strong>Monitoring dashboard and playground</strong>, a browser pool with pre-warmed pages.</li>\n<li>🏗️ <strong>AMD64 and ARM64</strong> images.</li>\n</ul>\n<p>☁️ Rather not run a server? The cloud is the same idea, hosted. <a href=\"https://crawl4ai.com/?ref=readme\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Get a key →</a></p>\n</details><details>\n<summary>☁️ <strong>What the cloud adds</strong></summary><ul>\n<li>🔍 <strong>Web search API</strong>: <code>GET /search</code>, browser-free, ranked and cleaned. <a href=\"https://crawl4ai.com/docs?ref=readme#search\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docs →</a></li>\n<li>📊 <strong>SERP API</strong>: <code>GET /serp</code>, Google's results page as data: true ranks, every block, localised to a place. Beta. <a href=\"https://crawl4ai.com/docs?ref=readme#serp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docs →</a></li>\n<li>💬 <strong>Answers</strong>: <code>GET /answer</code> gives a direct answer to a question (experimental). <a href=\"https://crawl4ai.com/docs?ref=readme#answer\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docs →</a></li>\n<li>🧪 <strong>Extraction without your own LLM key</strong>: <code>POST /extract</code>. <a href=\"https://crawl4ai.com/docs?ref=readme#extract\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docs →</a></li>\n<li>🧗 <strong>JS-heavy pages and bot walls</strong>: handled automatically; you never pick an engine. <a href=\"https://crawl4ai.com/docs?ref=readme#scrape\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docs →</a></li>\n<li>🤝 <strong>MCP for your agent</strong>: one line in Claude Code, Codex, Cursor or OpenCode. <a href=\"https://crawl4ai.com/docs?ref=readme#mcp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docs →</a></li>\n</ul>\n</details><p><a></a></p>",
+    "truncated": false,
+    "chars": 4490
+   }
+  },
+  "headings": 21,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:48.224Z",
+  "checked_at": "2026-11-16T04:33:48.224Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:16.512Z",
+ "contributors": {
+  "count": 104,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:34.621Z"
+ }
+}

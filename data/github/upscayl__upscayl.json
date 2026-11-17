@@ -1,0 +1,111 @@
+{
+ "id": "upscayl/upscayl",
+ "github_id": 519577891,
+ "node_id": "R_kgDOHvghIw",
+ "full_name": "upscayl/upscayl",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.073Z",
+ "meta": {
+  "name": "upscayl",
+  "owner": "upscayl",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/112148288?v=4",
+  "description": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
+  "homepage": "https://upscayl.org",
+  "html_url": "https://github.com/upscayl/upscayl",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "ai",
+   "electron",
+   "esrgan",
+   "gigapixel",
+   "gigapixel-images",
+   "image",
+   "image-upscaling",
+   "topaz",
+   "upscale",
+   "upscalerimage",
+   "upscayl"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 52778,
+  "forks": 2770,
+  "watchers": null,
+  "open_issues": 55,
+  "open_prs": null,
+  "created_at": "2022-07-30T17:19:20Z",
+  "pushed_at": "2026-11-14T13:53:09Z",
+  "updated_at": "2026-11-17T02:05:50Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 568505,
+  "og_image": "https://opengraph.githubassets.com/1/upscayl/upscayl",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-03-27T16:33:02.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.15.0",
+  "name": "2.15 New Year Update",
+  "published_at": "2025-01-17T17:25:58Z",
+  "url": "https://github.com/upscayl/upscayl/releases/tag/v2.15.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 12895,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<blockquote>\n<p>[!IMPORTANT]\nYou'll need a Vulkan compatible GPU (Graphics Card) to upscale images. Many iGPUs (integrated graphics) do not work but, no harm in trying :)</p>\n</blockquote>\n<h4>🐧 Linux</h4>\n  <a href=\"https://appimage.github.io/Upscayl/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">\n    <img src=\"https://user-images.githubusercontent.com/25067102/191270389-9de37c0f-39a8-41f1-a659-8dd4e7b8ac28.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n  </a>  <a href=\"https://aur.archlinux.org/packages/upscayl-bin\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">\n    <img src=\"https://user-images.githubusercontent.com/25067102/191269445-87050a77-c304-4284-9ea0-699721309c59.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n  </a>  <a href=\"https://github.com/MrPenguin07/ebuilds\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">\n    <img src=\"https://github.com/upscayl/upscayl/assets/25067102/322aebc5-91aa-4fc6-ac3a-d5a054449554\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n  </a><p>Upscayl should be available on the software listings of most Linux operating systems. Your distro's Store app might also support the <a href=\"https://flatpak.org/setup\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Flatpak</a> or Snap version.</p>\n<h5>💼 Portable Method</h5>\n<ol>\n<li>Go to <a href=\"https://github.com/upscayl/upscayl/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">releases section</a> or <a href=\"https://upscayl.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our official website</a>.</li>\n<li>Download the <code>upscayl-x.x.x-linux.AppImage</code> file.</li>\n<li>Right Click AppImage -&gt; Go to Permissions tab -&gt; Check 'allow file to execute' and then double click the file to run Upscayl.</li>\n</ol>\n<p><em>You can also choose to install using other formats like RPM (Fedora), DEB (Debian/Ubuntu based), and ZIP (Any x86 Linux OS).</em></p>\n<h4>🍎 macOS</h4>\n<p>(MacOS 12 and later)</p>\n<a href=\"https://apps.apple.com/us/app/upscayl/id6468265473?mt=12\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">\n  Link\n</a><ol>\n<li>Go to <a href=\"https://github.com/upscayl/upscayl/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">releases section</a> or <a href=\"https://upscayl.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our official website</a>.</li>\n<li>Download the <code>upscayl-x.x.x-mac.dmg</code> file.</li>\n<li>Double click dmg, drag Upscayl icon into Applications folder.</li>\n<li>Open Finder, click 'Applications' tab in the left sidebar. Find Upscayl and right click on it. Select 'Open'.</li>\n<li>In the window that appears, press 'Open' yet again.</li>\n</ol>\n<h5>🍺 Homebrew</h5>\n<p><code>brew install --cask upscayl</code></p>\n<h4>🐌 Windows</h4>\n<p>(Windows 10 and later)</p>\n<ol>\n<li>Go to <a href=\"https://github.com/upscayl/upscayl/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">releases section</a> or <a href=\"https://upscayl.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our official website</a>.</li>\n<li>Download the <code>upscayl-x.x.x-win.exe</code> file.</li>\n<li>Double click exe file to launch.</li>\n<li>If you get a SmartScreen warning - click 'More Info' and then 'Run Anyway' OR press 'YES' on the unverified publisher dialog.</li>\n<li>Follow the installation steps.</li>\n<li>Profit!</li>\n</ol>",
+    "truncated": false,
+    "chars": 2401
+   },
+   "usage": {
+    "title": "Documentation - Tutorials and Guides",
+    "html": "<p>Check out our Documentation <a href=\"https://docs.upscayl.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>.</p>\n<ul>\n<li><a href=\"https://github.com/upscayl/custom-models\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Try out even more new models!</a></li>\n<li><a href=\"https://github.com/upscayl/upscayl/wiki/%F0%9F%96%A5%EF%B8%8F-Model-Conversion---Create-more-AI-models!\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Convert your own models</a></li>\n<li><a href=\"https://github.com/upscayl/upscayl/wiki/Compatibility-List\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Compatibility List</a></li>\n<li><a href=\"https://github.com/upscayl/upscayl/wiki/Troubleshooting\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Troubleshooting</a></li>\n</ul>",
+    "truncated": false,
+    "chars": 436
+   },
+   "features": null
+  },
+  "headings": 19,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:00.211Z",
+  "checked_at": "2026-11-16T05:08:00.211Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:17.093Z",
+ "contributors": {
+  "count": 49,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T02:20:53.737Z"
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "id": "LinkStackOrg/LinkStack",
+ "github_id": 459095253,
+ "node_id": "R_kgDOG1081Q",
+ "full_name": "LinkStackOrg/LinkStack",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.326Z",
+ "meta": {
+  "name": "LinkStack",
+  "owner": "LinkStackOrg",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/113472924?v=4",
+  "description": "LinkStack - the ultimate solution for creating a personalized & professional profile page. Showcase all your important links in one place, forget the limitation of one link on social media. Set up your personal site on your own server with just a few clicks.",
+  "homepage": "https://linkstack.org",
+  "html_url": "https://github.com/LinkStackOrg/LinkStack",
+  "default_branch": "main",
+  "language": "PHP",
+  "languages": null,
+  "topics": [
+   "blade",
+   "hacktoberfest",
+   "laravel",
+   "linkstack",
+   "linktree",
+   "linktree-alternative",
+   "open-source",
+   "personal-website",
+   "php",
+   "privacy",
+   "self-hosted",
+   "webapp"
+  ],
+  "license": {
+   "spdx": "AGPL-3.0",
+   "name": "GNU Affero General Public License v3.0"
+  },
+  "stars": 3954,
+  "forks": 449,
+  "watchers": null,
+  "open_issues": 60,
+  "open_prs": null,
+  "created_at": "2022-02-14T09:29:22Z",
+  "pushed_at": "2026-10-26T11:40:29Z",
+  "updated_at": "2026-11-16T00:57:45Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 47781,
+  "og_image": "https://opengraph.githubassets.com/1/LinkStackOrg/LinkStack",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-10-22T07:10:48.000Z",
+  "commits_90d": 6,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v4.8.8",
+  "name": "v4.8.8",
+  "published_at": "2026-10-22T07:10:47Z",
+  "url": "https://github.com/LinkStackOrg/LinkStack/releases/tag/v4.8.8",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 14509,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<h5>Downloading and installing steps:</h5>\n<ul>\n<li><strong><a href=\"https://github.com/linkstackorg/linkstack/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></strong> the latest release of LinkStack and simply place the folder 'linkstack' or the contents of this folder in the root directory of your website.</li>\n</ul>\n<h5>That's it! No coding no command line setup just plug and play.</h5>\n<br />\t<h6>Go through the first setup page:</h6>\n<p>When accessing your instance for the first time, you will be greeted by the first setup page.</p>\n<p>\n<img src=\"https://raw.githubusercontent.com/LinkStackOrg/branding/main/marketing/setup_wizard.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" width=\"650\" />\n</p><br /><p><a></a></p>",
+    "truncated": false,
+    "chars": 626
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 28,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:58.835Z",
+  "checked_at": "2026-11-16T05:08:58.835Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:27.964Z",
+ "contributors": null
+}

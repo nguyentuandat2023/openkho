@@ -1,0 +1,109 @@
+{
+ "id": "tabler/tabler-icons",
+ "github_id": 243546335,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyNDM1NDYzMzU=",
+ "full_name": "tabler/tabler-icons",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "tabler-icons",
+  "owner": "tabler",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/35471246?v=4",
+  "description": "A set of over 6500 free MIT-licensed high-quality SVG icons for you to use in your web projects.",
+  "homepage": "https://tabler.io/icons",
+  "html_url": "https://github.com/tabler/tabler-icons",
+  "default_branch": "main",
+  "language": "JavaScript",
+  "languages": null,
+  "topics": [
+   "bootstrap-icons",
+   "components",
+   "css",
+   "icon",
+   "icon-pack",
+   "icons",
+   "icons-pack",
+   "iconset",
+   "quality-svg-icons",
+   "react",
+   "svelte",
+   "svg",
+   "svg-icons",
+   "tabler-icons"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 22700,
+  "forks": 1282,
+  "watchers": null,
+  "open_issues": 79,
+  "open_prs": null,
+  "created_at": "2020-02-27T15:10:04Z",
+  "pushed_at": "2026-11-16T12:07:14Z",
+  "updated_at": "2026-11-17T01:28:49Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 1147360,
+  "og_image": "https://opengraph.githubassets.com/1/tabler/tabler-icons",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T11:59:55.000Z",
+  "commits_90d": 214,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v3.52.0",
+  "name": "Release 3.52.0",
+  "published_at": "2026-11-14T14:26:35Z",
+  "url": "https://github.com/tabler/tabler-icons/releases/tag/v3.52.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 14110,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>Install the SVG package with your package manager of choice:</p>\n<pre><code class=\"language-sh\">npm install @tabler/icons\n</code></pre>\n<pre><code class=\"language-sh\">yarn add @tabler/icons\n</code></pre>\n<pre><code class=\"language-sh\">pnpm add @tabler/icons\n</code></pre>\n<p>Replace <code>@tabler/icons</code> with any package from the table above to install a framework-specific version.</p>\n<p>You can also <a href=\"https://github.com/tabler/tabler-icons/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">download the latest release from GitHub</a>.</p>",
+    "truncated": false,
+    "chars": 379
+   },
+   "usage": {
+    "title": "Usage",
+    "html": "<h5>SVG</h5>\n<p>All icons are plain SVG files, so you can use them as an <code>&lt;img&gt;</code> source, as a CSS <code>background-image</code>, or inline in your HTML.</p>\n<h6>HTML image</h6>\n<p>When you load an icon as an image, you can control its size with CSS.</p>\n<pre><code class=\"language-html\">&lt;img src=\"path/to/icon.svg\" alt=\"icon title\" /&gt;\n</code></pre>\n<h6>Inline SVG</h6>\n<p>Paste the content of the icon file directly into your HTML to render it inline.</p>\n<pre><code class=\"language-html\">&lt;svg\n  xmlns=\"http://www.w3.org/2000/svg\"\n  class=\"icon icon-tabler icons-tabler-outline icon-tabler-activity\"\n  width=\"24\"\n  height=\"24\"\n  viewBox=\"0 0 24 24\"\n  fill=\"none\"\n  stroke=\"currentColor\"\n  stroke-width=\"2\"\n  stroke-linecap=\"round\"\n  stroke-linejoin=\"round\"\n&gt;\n  &lt;path stroke=\"none\" d=\"M0 0h24v24H0z\" fill=\"none\" /&gt;\n  &lt;path d=\"M3 12h4l3 8l4 -16l3 8h4\" /&gt;\n&lt;/svg&gt;\n</code></pre>\n<p>Inline icons inherit <code>currentColor</code>, so you can change their size, color, and <code>stroke-width</code> with CSS.</p>\n<pre><code class=\"language-css\">.icon-tabler {\n  color: red;\n  width: 32px;\n  height: 32px;\n  stroke-width: 1.5;\n}\n</code></pre>\n<h5>SVG sprite</h5>\n<p>Install <a href=\"https://www.npmjs.com/package/@tabler/icons-sprite\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>@tabler/icons-sprite</code></a> and reference an icon by its name prefixed with <code>tabler-</code>. Replace <code>activity</code> in the example below with any valid icon name.</p>\n<pre><code class=\"language-html\">&lt;svg width=\"24\" height=\"24\"&gt;\n  &lt;use xlink:href=\"path/to/tabler-sprite.svg#tabler-activity\" /&gt;\n&lt;/svg&gt;\n</code></pre>\n<p>The package also ships <code>tabler-sprite-filled.svg</code> for filled icons and <code>tabler-sprite-nostroke.svg</code> for outline icons without a fixed stroke width.</p>\n<h5>Webfont</h5>\n<p>Install <a href=\"https://www.npmjs.com/package/@tabler/icons-webfont\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>@tabler/icons-webfont</code></a> and include one of the stylesheets from the <code>dist</code> directory.</p>\n<table>\n<thead>\n<tr>\n<th>Stylesheet</th>\n<th>Icons</th>\n<th>Stroke width</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><code>tabler-icons.css</code></td>\n<td>Outline</td>\n<td>2</td>\n</tr>\n<tr>\n<td><code>tabler-icons-300.css</code></td>\n<td>Outline</td>\n<td>1.5</td>\n</tr>\n<tr>\n<td><code>tabler-icons-200.css</code></td>\n<td>Outline</td>\n<td>1</td>\n</tr>\n<tr>\n<td><code>tabler-icons-filled.css</code></td>\n<td>Filled</td>\n<td>–</td>\n</tr>\n</tbody></table>\n<p>Minified variants with the <code>.min.css</code> suffix and SCSS sources are included as well.</p>\n<pre><code class=\"language-html\">&lt;link rel=\"stylesheet\" href=\"path/to/tabler-icons.min.css\"&gt;\n</code></pre>\n<p>Use an icon with the <code>ti</code> base class and the <code>ti-{name}</code> modifier:</p>\n<pre><code class=\"language-html\">&lt;i class=\"ti ti-brand-tabler\"&gt;&lt;/i&gt;\n</code></pre>\n<p>In CSS, use the icon's unicode value. In SCSS, use the generated variable:</p>\n<pre><code class=\"language-css\">content: '\\ec8f';\n</code></pre>\n<pre><code class=\"language-scss\">content: $ti-icon-brand-tabler;\n</code></pre>\n<h5>React</h5>\n<p>Components are available through the <a href=\"https://www.npmjs.com/package/@tabler/icons-react\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>@tabler/icons-react</code></a> package. The package is built with ES modules, so unused icons are tree-shaken from your bundle.</p>\n<pre><code class=\"language-jsx\">import { IconAward } from '@tabler/icons-react';\n\nconst MyComponent = () =&gt; {\n  return (\n    &lt;IconAward\n      size={36} // sets `width` and `height`\n      color=\"red\" // sets `stroke` color\n      stroke={3} // sets `stroke-width`\n      strokeLinejoin=\"miter\" // any other SVG attribute is passed through\n    /&gt;\n  );\n};\n</code></pre>\n<p><code>@tabler/icons-react</code> ships its own TypeScript declarations.</p>\n<p>The same API is available for <a href=\"https://www.npmjs.com/package/@tabler/icons-preact\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Preact</a>, <a href=\"https://www.npmjs.com/package/@tabler/icons-solidjs\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SolidJS</a>, and <a href=\"https://www.npmjs.com/package/@tabler/icons-react-native\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">React Native</a>:</p>\n<pre><code class=\"language-jsx\">import { IconArrowDown } from '@tabler/icons-preact';\nimport { IconArrowRight } from '@tabler/icons-solidjs';\nimport { IconArrowLeft } from '@tabler/icons-react-native';\n</code></pre>\n<h5>Vue</h5>\n<p>Components are available through the <a href=\"https://www.npmjs.com/package/@tabler/icons-vue\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>@tabler/icons-vue</code></a> package.</p>\n<pre><code class=\"language-vue\">&lt;script setup&gt;\nimport { IconHome } from '@tabler/icons-vue';\n&lt;/script&gt;\n\n&lt;template&gt;\n  \n  &lt;IconHome /&gt;\n\n  \n  &lt;IconHome color=\"red\" /&gt;\n\n  \n  &lt;IconHome size=\"36\" /&gt;\n\n  \n  &lt;IconHome stroke-width=\"1.5\" /&gt;\n&lt;/template&gt;\n</code></pre>\n<p>With the Options API, register the icon in <code>components</code>:</p>\n<pre><code class=\"language-vue\">&lt;script&gt;\nimport { IconHome } from '@tabler/icons-vue';\n\nexport default {\n  components: { IconHome },\n};\n&lt;/script&gt;\n</code></pre>\n<h5>Svelte</h5>\n<p>For Svelte 4 and earlier, use <a href=\"https://www.npmjs.com/package/@tabler/icons-svelte\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>@tabler/icons-svelte</code></a>:</p>\n<pre><code class=\"language-svelte\">&lt;script lang=\"ts\"&gt;\n  import { IconHeart } from '@tabler/icons-svelte';\n&lt;/script&gt;\n\n&lt;IconHeart size={48} stroke={1} /&gt;\n&lt;IconHeart color=\"crimson\" class=\"p-1\" size={96} stroke={2} /&gt;\n</code></pre>\n<p>For Svelte 5, use <a href=\"https://www.npmjs.com/package/@tabler/icons-svelte-runes\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>@tabler/icons-svelte-runes</code></a>, which is built with runes:</p>\n<pre><code class=\"language-svelte\">&lt;script lang=\"ts\"&gt;\n  import { IconHeart } from '@tabler/icons-svelte-runes';\n&lt;/script&gt;\n\n&lt;IconHeart size={48} stroke={1} /&gt;\n&lt;IconHeart color=\"crimson\" class=\"p-1\" size={96} stroke={2} /&gt;\n</code></pre>\n<h5>Astro</h5>\n<p>Components are available through the <a href=\"https://www.npmjs.com/package/@tabler/icons-astro\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>@tabler/icons-astro</code></a> package.</p>\n<pre><code class=\"language-astro\">---\nimport { IconArrowRight } from '@tabler/icons-astro';\n---\n\n&lt;IconArrowRight color=\"red\" size={48} /&gt;\n</code></pre>\n<h5>Angular</h5>\n<p>The official <a href=\"https://www.npmjs.com/package/@tabler/icons-angular\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>@tabler/icons-angular</code></a> package provides a standalone <code>TablerIconComponent</code>. Register the icons you need with <code>provideTablerIcons()</code>:</p>\n<pre><code class=\"language-ts\">import { bootstrapApplication } from '@angular/platform-browser';\nimport { provideTablerIcons, IconBrandAngular, IconHome } from '@tabler/icons-angular';\n\nbootstrapApplication(AppComponent, {\n  providers: [provideTablerIcons({ IconBrandAngular, IconHome })],\n});\n</code></pre>\n<p>Import <code>TablerIconComponent</code> in any component that renders icons, then reference icons by name in templates:</p>\n<pre><code class=\"language-html\">&lt;tabler-icon icon=\"brand-angular\" /&gt;\n&lt;tabler-icon icon=\"home\" [size]=\"48\" color=\"blue\" [stroke]=\"1.75\" /&gt;\n</code></pre>\n<p>See the <a href=\"https://github.com/tabler/tabler-icons/tree/main/packages/icons-angular\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">package documentation</a> for <code>NgModule</code> usage and global configuration.</p>",
+    "truncated": false,
+    "chars": 5610
+   },
+   "features": null
+  },
+  "headings": 26,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:58.560Z",
+  "checked_at": "2026-11-17T02:19:58.560Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:58.560Z"
+}

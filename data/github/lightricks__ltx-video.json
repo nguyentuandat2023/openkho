@@ -1,0 +1,98 @@
+{
+ "id": "Lightricks/LTX-Video",
+ "github_id": 891705470,
+ "node_id": "R_kgDONSZYfg",
+ "full_name": "Lightricks/LTX-Video",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.074Z",
+ "meta": {
+  "name": "LTX-Video",
+  "owner": "Lightricks",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/3170348?v=4",
+  "description": "Official repository for LTX-Video",
+  "homepage": "https://ltx.io/model",
+  "html_url": "https://github.com/Lightricks/LTX-Video",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "diffusion-models",
+   "dit",
+   "image-to-video",
+   "image-to-video-generation",
+   "text-to-video",
+   "text-to-video-generation"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 11408,
+  "forks": 1246,
+  "watchers": null,
+  "open_issues": 109,
+  "open_prs": null,
+  "created_at": "2024-11-20T20:06:28Z",
+  "pushed_at": "2026-11-02T19:25:43Z",
+  "updated_at": "2026-11-17T01:28:18Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 131,
+  "og_image": "https://opengraph.githubassets.com/1/Lightricks/LTX-Video",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-02T19:25:42.000Z",
+  "commits_90d": 2,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": {
+  "tag": "ltx-video-0.9.1",
+  "name": "ltx-video-0.9.1",
+  "published_at": "2024-12-19T17:37:26Z",
+  "url": "https://github.com/Lightricks/LTX-Video/releases/tag/ltx-video-0.9.1"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 26926,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start Guide",
+    "html": "<h4>Online inference</h4>\n<p>The model is accessible right away via the following links:</p>\n<ul>\n<li><a href=\"https://app.ltx.studio/motion-workspace?videoModel=ltxv-13b\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LTX-Studio image-to-video (13B-mix)</a></li>\n<li><a href=\"https://app.ltx.studio/motion-workspace?videoModel=ltxv\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LTX-Studio image-to-video (13B distilled)</a></li>\n<li><a href=\"https://fal.ai/models/fal-ai/ltx-video-13b-dev/image-to-video\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Fal.ai image-to-video (13B full)</a></li>\n<li><a href=\"https://fal.ai/models/fal-ai/ltx-video-13b-distilled/image-to-video\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Fal.ai image-to-video (13B distilled)</a></li>\n<li><a href=\"https://replicate.com/lightricks/ltx-video\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Replicate image-to-video</a></li>\n</ul>\n<h4>Run locally</h4>\n<h5>Installation</h5>\n<p>The codebase was tested with Python 3.10.5, CUDA version 12.2, and supports PyTorch &gt;= 2.1.2.\nOn macOS, MPS was tested with PyTorch 2.3.0, and should support PyTorch == 2.3 or &gt;= 2.6.</p>\n<pre><code class=\"language-bash\">git clone https://github.com/Lightricks/LTX-Video.git\ncd LTX-Video\n\n# create env\npython -m venv env\nsource env/bin/activate\npython -m pip install -e .\\[inference\\]\n</code></pre>\n<h6>FP8 Kernels (optional)</h6>\n<p><a href=\"https://github.com/Lightricks/LTXVideo-Q8-Kernels\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">FP8 kernels</a> developed for LTX-Video provide performance boost on supported graphics cards (Ada architecture and later). To install FP8 kernels, follow the instructions in that repository.</p>\n<h5>Inference</h5>\n<p>📝 <strong>Note:</strong> For best results, we recommend using our <a href=\"https://github.com/Lightricks/LTX-Video#comfyui-integration\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ComfyUI</a> workflow. We're working on updating the inference.py script to match the high quality and output fidelity of ComfyUI.</p>\n<p>To use our model, please follow the inference code in <a href=\"https://github.com/Lightricks/LTX-Video/blob/main/inference.py\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">inference.py</a>:</p>\n<h6>For image-to-video generation:</h6>\n<pre><code class=\"language-bash\">python inference.py --prompt \"PROMPT\" --conditioning_media_paths IMAGE_PATH --conditioning_start_frames 0 --height HEIGHT --width WIDTH --num_frames NUM_FRAMES --seed SEED --pipeline_config configs/ltxv-13b-0.9.8-distilled.yaml\n</code></pre>\n<h6>Extending a video:</h6>\n<p>📝 <strong>Note:</strong> Input video segments must contain a multiple of 8 frames plus 1 (e.g., 9, 17, 25, etc.), and the target frame number should be a multiple of 8.</p>\n<pre><code class=\"language-bash\">python inference.py --prompt \"PROMPT\" --conditioning_media_paths VIDEO_PATH --conditioning_start_frames START_FRAME --height HEIGHT --width WIDTH --num_frames NUM_FRAMES --seed SEED --pipeline_config configs/ltxv-13b-0.9.8-distilled.yaml\n</code></pre>\n<h6>For video generation with multiple conditions:</h6>\n<p>You can now generate a video conditioned on a set of images and/or short video segments.\nSimply provide a list of paths to the images or video segments you want to condition on, along with their target frame numbers in the generated video. You can also specify the conditioning strength for each item (default: 1.0).</p>\n<pre><code class=\"language-bash\">python inference.py --prompt \"PROMPT\" --conditioning_media_paths IMAGE_OR_VIDEO_PATH_1 IMAGE_OR_VIDEO_PATH_2 --conditioning_start_frames TARGET_FRAME_1 TARGET_FRAME_2 --height HEIGHT --width WIDTH --num_frames NUM_FRAMES --seed SEED --pipeline_config configs/ltxv-13b-0.9.8-distilled.yaml\n</code></pre>\n<h5>Using as a library</h5>\n<pre><code class=\"language-python\">from ltx_video.inference import infer, InferenceConfig\n\ninfer(\n    InferenceConfig(\n        pipeline_config=\"configs/ltxv-13b-0.9.8-distilled.yaml\",\n        prompt=PROMPT,\n        height=HEIGHT,\n        width=WIDTH,\n        num_frames=NUM_FRAMES,\n        output_path=\"output.mp4\",\n    )\n)\n</code></pre>\n<h4>ComfyUI Integration</h4>\n<p>To use our model with ComfyUI, please follow the instructions at <a href=\"https://github.com/Lightricks/ComfyUI-LTXVideo/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://github.com/Lightricks/ComfyUI-LTXVideo/</a>.</p>\n<h4>Diffusers Integration</h4>\n<p>To use our model with the Diffusers Python library, check out the <a href=\"https://huggingface.co/docs/diffusers/main/en/api/pipelines/ltx_video\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">official documentation</a>.</p>\n<p>Diffusers also support an 8-bit version of LTX-Video, <a href=\"https://github.com/Lightricks/LTX-Video#ltx-videoq8\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">see details below</a></p>",
+    "truncated": false,
+    "chars": 3725
+   },
+   "usage": {
+    "title": "Using as a library",
+    "html": "<pre><code class=\"language-python\">from ltx_video.inference import infer, InferenceConfig\n\ninfer(\n    InferenceConfig(\n        pipeline_config=\"configs/ltxv-13b-0.9.8-distilled.yaml\",\n        prompt=PROMPT,\n        height=HEIGHT,\n        width=WIDTH,\n        num_frames=NUM_FRAMES,\n        output_path=\"output.mp4\",\n    )\n)\n</code></pre>",
+    "truncated": false,
+    "chars": 306
+   },
+   "features": null
+  },
+  "headings": 46,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:02.154Z",
+  "checked_at": "2026-11-16T05:08:02.154Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:17.093Z",
+ "contributors": null
+}

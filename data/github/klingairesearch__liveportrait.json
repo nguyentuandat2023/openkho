@@ -1,0 +1,107 @@
+{
+ "id": "KlingAIResearch/LivePortrait",
+ "github_id": 823745702,
+ "node_id": "R_kgDOMRlcpg",
+ "full_name": "KlingAIResearch/LivePortrait",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.074Z",
+ "meta": {
+  "name": "LivePortrait",
+  "owner": "KlingAIResearch",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/168244549?v=4",
+  "description": "Bring portraits to life!",
+  "homepage": "https://liveportrait.github.io",
+  "html_url": "https://github.com/KlingAIResearch/LivePortrait",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "face-animation",
+   "image-animation",
+   "video-editing",
+   "video-generation"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 19507,
+  "forks": 2037,
+  "watchers": null,
+  "open_issues": 292,
+  "open_prs": null,
+  "created_at": "2024-07-03T16:15:03Z",
+  "pushed_at": "2026-06-01T17:25:09Z",
+  "updated_at": "2026-11-16T21:43:18Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 39665,
+  "og_image": "https://opengraph.githubassets.com/1/KlingAIResearch/LivePortrait",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-06-01T17:24:54.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "readme.md",
+  "length": 21450,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "xfzK_6cTs58",
+    "url": "https://www.youtube.com/watch?v=xfzK_6cTs58"
+   },
+   {
+    "type": "youtube",
+    "id": "59Y9ePAXTp0",
+    "url": "https://www.youtube.com/watch?v=59Y9ePAXTp0"
+   },
+   {
+    "type": "youtube",
+    "id": "fD0P6UWSu8I",
+    "url": "https://www.youtube.com/watch?v=fD0P6UWSu8I"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<h5>1. Clone the code and prepare the environment 🛠️</h5>\n<blockquote>\n<p>[!Note]\nMake sure your system has <a href=\"https://git-scm.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>git</code></a>, <a href=\"https://anaconda.org/anaconda/conda\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>conda</code></a>, and <a href=\"https://ffmpeg.org/download.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>FFmpeg</code></a> installed. For details on FFmpeg installation, see <a href=\"https://github.com/KlingAIResearch/LivePortrait/blob/main/assets/docs/how-to-install-ffmpeg.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>how to install FFmpeg</strong></a>.</p>\n</blockquote>\n<pre><code class=\"language-bash\">git clone https://github.com/KlingTeam/LivePortrait\ncd LivePortrait\n\n# create env using conda\nconda create -n LivePortrait python=3.10\nconda activate LivePortrait\n</code></pre>\n<h6>For Linux 🐧 or Windows 🪟 Users</h6>\n<p><a href=\"https://github.com/IDEA-Research/X-Pose\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">X-Pose</a>, required by Animals mode, is a dependency that needs to be installed. The step of <code>Check your CUDA versions</code> is <strong>optional</strong> if you only want to run Humans mode.</p>\n<details>\n  <summary>Check your CUDA versions</summary><p>  Firstly, check your current CUDA version by:</p>\n<pre><code class=\"language-bash\">nvcc -V # example versions: 11.1, 11.8, 12.1, etc.\n</code></pre>\n<p>  Then, install the corresponding torch version. Here are examples for different CUDA versions. Visit the <a href=\"https://pytorch.org/get-started/previous-versions\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PyTorch Official Website</a> for installation commands if your CUDA version is not listed:</p>\n<pre><code class=\"language-bash\"># for CUDA 11.1\npip install torch==1.10.1+cu111 torchvision==0.11.2 torchaudio==0.10.1 -f https://download.pytorch.org/whl/cu111/torch_stable.html\n# for CUDA 11.8\npip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu118\n# for CUDA 12.1\npip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu121\n# ...\n</code></pre>\n<p>  <strong>Note</strong>: On Windows systems, some higher versions of CUDA (such as 12.4, 12.6, etc.) may lead to unknown issues. You may consider downgrading CUDA to version 11.8 for stability. See the <a href=\"https://github.com/dimitribarbot/sd-webui-live-portrait/blob/main/assets/docs/how-to-install-xpose.md#cuda-toolkit-118\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">downgrade guide</a> by <a href=\"https://github.com/dimitribarbot\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@dimitribarbot</a>.</p>\n</details><p>Finally, install the remaining dependencies:</p>\n<pre><code class=\"language-bash\">pip install -r requirements.txt\n</code></pre>\n<h6>For macOS  with Apple Silicon Users</h6>\n<p>The <a href=\"https://github.com/IDEA-Research/X-Pose\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">X-Pose</a> dependency does not support macOS, so you can skip its installation. While Humans mode works as usual, Animals mode is not supported. Use the provided requirements file for macOS with Apple Silicon:</p>\n<pre><code class=\"language-bash\"># for macOS with Apple Silicon users\npip install -r requirements_macOS.txt\n</code></pre>\n<h5>2. Download pretrained weights 📥</h5>\n<p>The easiest way to download the pretrained weights is from HuggingFace:</p>\n<pre><code class=\"language-bash\"># !pip install -U \"huggingface_hub[cli]\"\nhuggingface-cli download KlingTeam/LivePortrait --local-dir pretrained_weights --exclude \"*.git*\" \"README.md\" \"docs\"\n</code></pre>\n<p>If you cannot access to Huggingface, you can use <a href=\"https://hf-mirror.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">hf-mirror</a> to download:</p>\n<pre><code class=\"language-bash\"># !pip install -U \"huggingface_hub[cli]\"\nexport HF_ENDPOINT=https://hf-mirror.com\nhuggingface-cli download KlingTeam/LivePortrait --local-dir pretrained_weights --exclude \"*.git*\" \"README.md\" \"docs\"\n</code></pre>\n<p>Alternatively, you can download all pretrained weights from <a href=\"https://drive.google.com/drive/folders/1UtKgzKjFAOmZkhNK-OYT0caJ_w2XAnib\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Google Drive</a> or <a href=\"https://pan.baidu.com/s/1MGctWmNla_vZxDbEp2Dtzw?pwd=z5cn\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Baidu Yun</a>. Unzip and place them in <code>./pretrained_weights</code>.</p>\n<p>Ensuring the directory structure is as or contains <a href=\"https://github.com/KlingAIResearch/LivePortrait/blob/main/assets/docs/directory-structure.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>this</strong></a>.</p>\n<h5>3. Inference 🚀</h5>\n<h6>Fast hands-on (humans) 👤</h6>\n<pre><code class=\"language-bash\"># For Linux and Windows users\npython inference.py\n\n# For macOS users with Apple Silicon (Intel is not tested). NOTE: this maybe 20x slower than RTX 4090\nPYTORCH_ENABLE_MPS_FALLBACK=1 python inference.py\n</code></pre>\n<p>If the script runs successfully, you will get an output mp4 file named <code>animations/s6--d0_concat.mp4</code>. This file includes the following results: driving video, input image or video, and generated result.</p>\n<p>\n  <img src=\"https://raw.githubusercontent.com/KlingAIResearch/LivePortrait/main/assets/docs/inference.gif\" alt=\"image\" loading=\"lazy\" decoding=\"async\" />\n</p><p>Or, you can change the input by specifying the <code>-s</code> and <code>-d</code> arguments:</p>\n<pre><code class=\"language-bash\"># source input is an image\npython inference.py -s assets/examples/source/s9.jpg -d assets/examples/driving/d0.mp4\n\n# source input is a video ✨\npython inference.py -s assets/examples/source/s13.mp4 -d assets/examples/driving/d0.mp4\n\n# more options to see\npython inference.py -h\n</code></pre>\n<h6>Fast hands-on (animals) 🐱🐶</h6>\n<p>Animals mode is ONLY tested on Linux and Windows with NVIDIA GPU.</p>\n<p>You need to build an OP named <code>MultiScaleDeformableAttention</code> first (refer to the <a href=\"https://github.com/KlingAIResearch/LivePortrait#for-linux--or-windows--users\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Check your CUDA versions</a> if needed), which is used by <a href=\"https://github.com/IDEA-Research/X-Pose\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">X-Pose</a>, a general keypoint detection framework.</p>\n<pre><code class=\"language-bash\">cd src/utils/dependencies/XPose/models/UniPose/ops\npython setup.py build install\ncd - # equal to cd ../../../../../../../\n</code></pre>\n<p>Then</p>\n<pre><code class=\"language-bash\">python inference_animals.py -s assets/examples/source/s39.jpg -d assets/examples/driving/wink.pkl --driving_multiplier 1.75 --no_flag_stitching\n</code></pre>\n<p>If the script runs successfully, you will get an output mp4 file named <code>animations/s39--wink_concat.mp4</code>.</p>\n<p>\n  <img src=\"https://raw.githubusercontent.com/KlingAIResearch/LivePortrait/main/assets/docs/inference-animals.gif\" alt=\"image\" loading=\"lazy\" decoding=\"async\" />\n</p><h6>Driving video auto-cropping 📢📢📢</h6>\n<blockquote>\n<p>[!IMPORTANT]\nTo use your own driving video, we <strong>recommend</strong>: ⬇️</p>\n<ul>\n<li>Crop it to a <strong>1:1</strong> aspect ratio (e.g., 512x512 or 256x256 pixels), or enable auto-cropping by <code>--flag_crop_driving_video</code>.</li>\n<li>Focus on the head area, similar to the example videos.</li>\n<li>Minimize shoulder movement.</li>\n<li>Make sure the first frame of driving video is a frontal face with <strong>neutral expression</strong>.</li>\n</ul>\n</blockquote>\n<p>Below is an auto-cropping case by <code>--flag_crop_driving_video</code>:</p>\n<pre><code class=\"language-bash\">python inference.py -s assets/examples/source/s9.jpg -d assets/examples/driving/d13.mp4 --flag_crop_driving_video\n</code></pre>\n<p>If you find the results of auto-cropping is not well, you can modify the <code>--scale_crop_driving_video</code>, <code>--vy_ratio_crop_driving_video</code> options to adjust the scale and offset, or do it manually.</p>\n<h6>Motion template making</h6>\n<p>You can also use the auto-generated motion template files ending with <code>.pkl</code> to speed up inference, and <strong>protect privacy</strong>, such as:</p>\n<pre><code class=\"language-bash\">python inference.py -s assets/examples/source/s9.jpg -d assets/examples/driving/d5.pkl # portrait animation\npython inference.py -s assets/examples/source/s13.mp4 -d assets/examples/driving/d5.pkl # portrait video editing\n</code></pre>\n<h5>4. Gradio interface 🤗</h5>\n<p>We also provide a Gradio  interface for a better experience, just run by:</p>\n<pre><code class=\"language-bash\"># For Linux and Windows users (and macOS with Intel??)\npython app.py # humans mode\n\n# For macOS with Apple Silicon users, Intel not supported, this maybe 20x slower than RTX 4090\nPYTORCH_ENABLE_MPS_FALLBACK=1 python app.py # humans mode\n</code></pre>\n<p>We also provide a Gradio interface of animals mode, which is only tested on Linux with NVIDIA GPU:</p>\n<pre><code class=\"language-bash\">python app_animals.py # animals mode 🐱🐶\n</code></pre>\n<p>You can specify the <code>--server_port</code>, <code>--share</code>, <code>--server_name</code> arguments to satisfy your needs!</p>\n<p>🚀 We also provide an acceleration option <code>--flag_do_torch_compile</code>. The first-time inference triggers an optimization process (about one minute), making subsequent inferences 20-30% faster. Performance gains may vary with different CUDA versions.</p>\n<pre><code class=\"language-bash\"># enable torch.compile for faster inference\npython app.py --flag_do_torch_compile\n</code></pre>\n<p><strong>Note</strong>: This method is not supported on Windows and macOS.</p>\n<p><strong>Or, try it out effortlessly on <a href=\"https://huggingface.co/spaces/KlingTeam/LivePortrait\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">HuggingFace</a> 🤗</strong></p>\n<h5>5. Inference speed evaluation 🚀🚀🚀</h5>\n<p>We have also provided a script to evaluate the inference speed of each module:</p>\n<pre><code class=\"language-bash\"># For NVIDIA GPU\npython speed.py\n</code></pre>\n<p>The results are <a href=\"https://github.com/KlingAIResearch/LivePortrait/blob/main/assets/docs/speed.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>here</strong></a>.</p>",
+    "truncated": false,
+    "chars": 7782
+   },
+   "usage": {
+    "title": "Video Tutorials",
+    "html": "<ul>\n<li><a href=\"https://youtu.be/xfzK_6cTs58?si=aYjgypeJBkhc46VL\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Workflow of LivePortrait Video to Video</a> by <a href=\"https://www.youtube.com/@curiousrefuge\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@curiousrefuge</a></li>\n<li><a href=\"https://youtu.be/59Y9ePAXTp0?si=KzEWhklBlporW7D8\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Google Colab tutorial</a> by <a href=\"https://www.youtube.com/@planetai217\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@Planet Ai</a></li>\n<li><a href=\"https://youtu.be/fD0P6UWSu8I?si=Vn5wxUa8qSu1jv4l\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Paper reading</a> by <a href=\"https://www.youtube.com/@TwoMinutePapers\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@TwoMinutePapers</a></li>\n<li><a href=\"https://youtu.be/q0Vf-ZZsbzI?si=nbs3npleH-dVCt28\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ComfyUI Advanced LivePortrait</a> by <a href=\"https://www.youtube.com/@TutoView\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">TutoView</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=vsvlbTEqgXQ\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LivePortarit exploration</a> and <a href=\"https://youtu.be/cucaEEDYmsw?si=AtPaDWc5G-a4E8dD\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">A deep dive into LivePortrait</a> by <a href=\"https://www.youtube.com/@TheoreticallyMedia\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">TheoreticallyMedia</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=uyjSTAOY7yI\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LivePortrait hands-on tutorial</a> by <a href=\"https://www.youtube.com/@theAIsearch\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@AI Search</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=8-IcDDmiUMM\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ComfyUI tutorial</a> by <a href=\"https://www.youtube.com/@sebastiankamph\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">@Sebastian Kamph</a></li>\n<li>A <a href=\"https://www.bilibili.com/video/BV1cf421i7Ly\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">tutorial</a> on BiliBili</li>\n</ul>\n<p>And so MANY amazing contributions from our community, too many to list them all 💖</p>",
+    "truncated": false,
+    "chars": 1198
+   },
+   "features": null
+  },
+  "headings": 24,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:03.796Z",
+  "checked_at": "2026-11-16T05:08:03.796Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:17.093Z",
+ "contributors": null
+}

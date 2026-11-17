@@ -1,0 +1,107 @@
+{
+ "id": "keepassxreboot/keepassxc",
+ "github_id": 52729242,
+ "node_id": "MDEwOlJlcG9zaXRvcnk1MjcyOTI0Mg==",
+ "full_name": "keepassxreboot/keepassxc",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:03.703Z",
+ "meta": {
+  "name": "keepassxc",
+  "owner": "keepassxreboot",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/22534815?v=4",
+  "description": "KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.",
+  "homepage": "https://keepassxc.org/",
+  "html_url": "https://github.com/keepassxreboot/keepassxc",
+  "default_branch": "develop",
+  "language": "C++",
+  "languages": null,
+  "topics": [
+   "cross-platform",
+   "hacktoberfest",
+   "keepass",
+   "keepassxc",
+   "linux",
+   "macos",
+   "password",
+   "password-manager",
+   "privacy",
+   "security",
+   "windows",
+   "yubikey"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 30024,
+  "forks": 2045,
+  "watchers": null,
+  "open_issues": 1019,
+  "open_prs": null,
+  "created_at": "2016-02-28T15:52:40Z",
+  "pushed_at": "2026-11-15T11:21:18Z",
+  "updated_at": "2026-11-17T01:39:24Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 83777,
+  "og_image": "https://opengraph.githubassets.com/1/keepassxreboot/keepassxc",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-15T11:21:14.000Z",
+  "commits_90d": 77,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "2.8.0",
+  "name": "Release 2.8.0",
+  "published_at": "2026-11-01T10:42:11Z",
+  "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.8.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 5574,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<p>The <a href=\"https://keepassxc.org/docs/KeePassXC_GettingStarted.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">QuickStart Guide</a> gets you started using KeePassXC on your Windows, macOS, or Linux computer using pre-compiled binaries from the <a href=\"https://keepassxc.org/download\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">downloads page</a>. Additionally, individual Linux distributions may ship their own versions, so please check your distribution's package list to see if KeePassXC is available. Detailed documentation is available in the <a href=\"https://keepassxc.org/docs/KeePassXC_UserGuide.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">User Guide</a>.</p>",
+    "truncated": false,
+    "chars": 513
+   },
+   "usage": null,
+   "features": {
+    "title": "Features List",
+    "html": "<p>KeePassXC has numerous features for novice and power users alike. Our goal is to create an application that can be used by anyone while still offering advanced features to those that need them.</p>\n<h5>Core Features</h5>\n<ul>\n<li>Create, open, and save databases in the KDBX format (KeePass-compatible with KDBX4 and KDBX3)</li>\n<li>All information is encrypted at rest and never exposed outside the program</li>\n<li>Store sensitive information in entries that are organized by groups</li>\n<li>Password generator</li>\n<li>Search for entries</li>\n<li>TOTP storage and generation</li>\n<li>YubiKey/OnlyKey challenge-response support</li>\n<li>Auto-Type passwords into applications</li>\n<li>Browser integration with Google Chrome, Mozilla Firefox, Microsoft Edge, Chromium, Vivaldi, Brave, and Tor-Browser</li>\n<li>Support for passkeys using the browser integration</li>\n<li>Entry icon download</li>\n<li>Import databases from CSV, 1Password, Bitwarden, Proton Pass, and KeePass1 formats</li>\n</ul>\n<h5>Advanced</h5>\n<ul>\n<li>Database reports (password health, HIBP, and statistics)</li>\n<li>Database export to CSV, XML, and HTML formats</li>\n<li>TOTP storage and generation</li>\n<li>Field references between entries</li>\n<li>File attachments and custom attributes</li>\n<li>Entry history and data restoration</li>\n<li>Command line interface (keepassxc-cli)</li>\n<li>SSH Agent integration</li>\n<li>FreeDesktop.org Secret Service (replace Gnome keyring, etc.)</li>\n<li>Additional encryption choices: Twofish and ChaCha20</li>\n</ul>\n<p>For a full list of changes, read the <a href=\"https://github.com/keepassxreboot/keepassxc/blob/develop/CHANGELOG.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CHANGELOG</a> document. <br />For a full list of keyboard shortcuts, see <a href=\"https://github.com/keepassxreboot/keepassxc/blob/develop/docs/topics/KeyboardShortcuts.adoc\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">KeyboardShortcuts.adoc</a></p>",
+    "truncated": false,
+    "chars": 1522
+   }
+  },
+  "headings": 9,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:37.415Z",
+  "checked_at": "2026-11-16T05:09:37.415Z"
+ },
+ "details_checked_at": "2026-11-16T05:07:17.738Z",
+ "contributors": null
+}

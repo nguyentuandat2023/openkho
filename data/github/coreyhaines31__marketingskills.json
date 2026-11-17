@@ -1,0 +1,120 @@
+{
+ "id": "coreyhaines31/marketingskills",
+ "github_id": 1135212071,
+ "node_id": "R_kgDOQ6n2Jw",
+ "full_name": "coreyhaines31/marketingskills",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "marketingskills",
+  "owner": "coreyhaines31",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/34802794?v=4",
+  "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+  "homepage": "https://marketing-skills.com",
+  "html_url": "https://github.com/coreyhaines31/marketingskills",
+  "default_branch": "main",
+  "language": "JavaScript",
+  "languages": null,
+  "topics": [
+   "agent-skills",
+   "ai-agents",
+   "ai-seo",
+   "claude",
+   "claude-code",
+   "claude-code-plugin",
+   "claude-skills",
+   "codex",
+   "content-marketing",
+   "conversion-rate-optimization",
+   "copywriting",
+   "cursor",
+   "email-marketing",
+   "generative-engine-optimization",
+   "growth-marketing",
+   "marketing",
+   "marketing-automation",
+   "saas-marketing",
+   "seo",
+   "skill-md"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 60835,
+  "forks": 8870,
+  "watchers": null,
+  "open_issues": 94,
+  "open_prs": null,
+  "created_at": "2026-01-15T19:45:23Z",
+  "pushed_at": "2026-11-11T17:49:23Z",
+  "updated_at": "2026-11-17T02:17:05Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 6728,
+  "og_image": "https://opengraph.githubassets.com/1/coreyhaines31/marketingskills",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-11T17:49:09.000Z",
+  "commits_90d": 287,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.14.12",
+  "name": "v2.14.12 — Skills install cleanly under regex skill scanners that block on prompt-injection phrases.",
+  "published_at": "2026-11-11T17:49:43Z",
+  "url": "https://github.com/coreyhaines31/marketingskills/releases/tag/v2.14.12",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 25222,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<h5>Option 1: CLI Install (Recommended)</h5>\n<p>Use <a href=\"https://github.com/vercel-labs/skills\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">npx skills</a> to install skills directly:</p>\n<pre><code class=\"language-bash\"># Install all skills\nnpx skills add coreyhaines31/marketingskills\n\n# Install specific skills\nnpx skills add coreyhaines31/marketingskills --skill cro copywriting\n\n# List available skills\nnpx skills add coreyhaines31/marketingskills --list\n</code></pre>\n<p>The CLI detects which agents you have installed and asks where to install. For Claude Code it installs into <code>.claude/skills/</code>; universal agents share <code>.agents/skills/</code>.</p>\n<blockquote>\n<p>[!TIP]\nIf you run the command from <strong>inside</strong> an agent session (e.g., asking Claude Code to install the skills for you), the CLI runs non-interactively and may only install to the universal <code>.agents/skills/</code> directory, which Claude Code does not read. Pass the agent explicitly:</p>\n<pre><code class=\"language-bash\">npx skills add coreyhaines31/marketingskills -a claude-code\n</code></pre>\n</blockquote>\n<h5>Option 2: Claude Code Plugin</h5>\n<p>Install via Claude Code's built-in plugin system:</p>\n<pre><code class=\"language-bash\"># Add the marketplace\n/plugin marketplace add coreyhaines31/marketingskills\n\n# Install all marketing skills\n/plugin install marketing-skills\n</code></pre>\n<blockquote>\n<p><strong>Note:</strong> <code>/plugin</code> is only available in an interactive Claude Code CLI session. It is <strong>not</strong> available in Claude Code on the web, GitHub Actions, or other non-interactive/remote environments — in those cases you'll see <code>/plugin isn't available in this environment</code>. Use <strong>Option 1 (<code>npx skills</code>)</strong> instead, or the equivalent CLI commands:</p>\n<pre><code class=\"language-bash\">claude plugin marketplace add coreyhaines31/marketingskills\nclaude plugin install marketing-skills@marketingskills\n</code></pre>\n</blockquote>\n<h5>Option 3: OpenAI Codex Plugin</h5>\n<p>Install via Codex's plugin system:</p>\n<pre><code class=\"language-bash\"># Add the marketplace\ncodex plugin marketplace add coreyhaines31/marketingskills\n\n# Then browse and install from inside a Codex session\n/plugins\n</code></pre>\n<p>Select <strong>marketing-skills</strong> to install all skills. To pick up new releases later, run <code>codex plugin marketplace upgrade</code>.</p>\n<h5>Option 4: Clone and Copy</h5>\n<p>Clone the entire repo and copy the skills folder:</p>\n<pre><code class=\"language-bash\">git clone https://github.com/coreyhaines31/marketingskills.git\ncp -r marketingskills/skills/* .agents/skills/\n</code></pre>\n<h5>Option 5: Git Submodule</h5>\n<p>Add as a submodule for easy updates:</p>\n<pre><code class=\"language-bash\">git submodule add https://github.com/coreyhaines31/marketingskills.git .agents/marketingskills\n</code></pre>\n<p>Then reference skills from <code>.agents/marketingskills/skills/</code>.</p>\n<h5>Option 6: Fork and Customize</h5>\n<ol>\n<li>Fork this repository</li>\n<li>Customize skills for your specific needs</li>\n<li>Clone your fork into your projects</li>\n</ol>\n<h5>Option 7: SkillKit (Multi-Agent)</h5>\n<p>Use <a href=\"https://github.com/rohitg00/skillkit\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SkillKit</a> to install skills across multiple AI agents (Claude Code, Cursor, Copilot, etc.):</p>\n<pre><code class=\"language-bash\"># Install all skills\nnpx skillkit install coreyhaines31/marketingskills\n\n# Install specific skills\nnpx skillkit install coreyhaines31/marketingskills --skill cro copywriting\n\n# List available skills\nnpx skillkit install coreyhaines31/marketingskills --list\n</code></pre>\n<h5>Option 8: Claude Web Skill ZIPs</h5>\n<p>Download the desired <code>&lt;name&gt;-claude-web.zip</code> from <a href=\"https://github.com/coreyhaines31/marketingskills/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Releases</a>, then use <strong>Customize → Skills → + Create skill → Upload a skill</strong> in Claude. Each archive contains one skill. Account permissions and code execution must allow skills.</p>\n<p>The web-target archive uses an explicitly reviewed shorter description; its instructions and resources are preserved. The attached web manifest lists any skills whose description still needs review; newly created release notes also summarize omissions. Installing a ZIP does not configure local CLIs, MCP servers, credentials, or related skills. See <a href=\"https://github.com/coreyhaines31/marketingskills/blob/main/docs/skill-release-packaging.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">release packaging and verification</a> for archive contents, source variants, and unverified client limitations.</p>\n<h5>Option 9: Perplexity Computer Skill ZIPs</h5>\n<p>Download the desired <code>&lt;name&gt;-perplexity.zip</code> from <a href=\"https://github.com/coreyhaines31/marketingskills/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Releases</a>, then in Perplexity Computer use <strong>Plugins → Add custom → Skill → Upload skill</strong>. These archives keep the original skill files with <code>SKILL.md</code> at the root, which Perplexity requires; the source and Claude web ZIPs nest the skill in a folder and won't upload there. Installing a ZIP doesn't configure local CLIs, MCP servers, or related skills.</p>",
+    "truncated": false,
+    "chars": 4360
+   },
+   "usage": {
+    "title": "Usage",
+    "html": "<p>Once installed, just ask your agent to help with marketing tasks:</p>\n<pre><code>\"Help me optimize this landing page for conversions\"\n→ Uses cro skill\n\n\"Write homepage copy for my SaaS\"\n→ Uses copywriting skill\n\n\"Set up GA4 tracking for signups\"\n→ Uses analytics skill\n\n\"Create a 5-email welcome sequence\"\n→ Uses emails skill\n</code></pre>\n<p>You can also invoke skills directly:</p>\n<pre><code>/cro\n/emails\n/seo-audit\n</code></pre>",
+    "truncated": false,
+    "chars": 394
+   },
+   "features": null
+  },
+  "headings": 31,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:46.655Z",
+  "checked_at": "2026-11-16T04:33:46.655Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:16.512Z",
+ "contributors": {
+  "count": 64,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:33.261Z"
+ }
+}

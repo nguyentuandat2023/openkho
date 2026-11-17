@@ -1,0 +1,105 @@
+# Đồng bộ số liệu catalog từ GitHub API, lưu dữ liệu mới vào repo, build website tĩnh và triển khai lên GitHub Pages.
+# Chạy: khi push lên nhánh main (biên tập viên sửa catalog) · bấm tay trong tab Actions.
+# Lịch tự động định kỳ (khám phá, cập nhật, xếp hạng…) nằm ở scheduler.yml.
+name: Đồng bộ dữ liệu và triển khai
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["docs/**", "**/*.md", ".github/ISSUE_TEMPLATE/**"]
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Đồng bộ lại toàn bộ (bỏ qua cache ETag)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: openkho-data
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Khôi phục cache ETag (giúp lần đồng bộ sau gần như không tốn lượt API)
+        uses: actions/cache@v6
+        with:
+          path: .cache
+          key: openkho-cache-${{ github.run_id }}
+          restore-keys: openkho-cache-
+
+      - name: Kiểm tra catalog
+        run: npm run validate
+
+      - name: Đồng bộ số liệu từ GitHub API
+        env:
+          # SYNC_TOKEN (tùy chọn): token cá nhân 5.000 lượt/giờ. Mặc định dùng token có sẵn của Actions (1.000 lượt/giờ).
+          GITHUB_TOKEN: ${{ secrets.SYNC_TOKEN || github.token }}
+          EVENT: ${{ github.event_name }}
+          FULL: ${{ inputs.full }}
+        run: |
+          ARGS="--fix-renames --no-build"
+          if [ "$EVENT" = "push" ]; then ARGS="$ARGS --max-age 20"; fi
+          if [ "$FULL" = "true" ]; then ARGS="$ARGS --force"; fi
+          node scripts/sync.mjs $ARGS
+
+      - name: Lưu số liệu mới vào repo
+        run: |
+          git config user.name "openkho-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Không có thay đổi dữ liệu."
+          else
+            git commit -m "Cập nhật số liệu GitHub $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - name: Kiểm thử
+        run: npm test
+
+      - name: Kiểm tra liên kết (link GitHub, link tải, link tài liệu)
+        # Không chặn triển khai: link tài liệu chết (404) sẽ tự bị ẩn khi build; link GitHub/tải hỏng được ghi trong log
+        if: github.event_name != 'push'
+        run: npm run check-links || echo "::warning::Có liên kết GitHub/tải về bị hỏng – xem log bước này"
+
+      - name: Cấu hình GitHub Pages
+        id: pages
+        uses: actions/configure-pages@v6
+
+      - name: Build website
+        env:
+          # configure-pages tự trả về đường dẫn con: "/<tên-repo>" với https://<tên>.github.io/<tên-repo>/, rỗng khi dùng tên miền riêng.
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: npm run build
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

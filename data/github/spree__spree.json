@@ -1,0 +1,110 @@
+{
+ "id": "spree/spree",
+ "github_id": 3314,
+ "node_id": "MDEwOlJlcG9zaXRvcnkzMzE0",
+ "full_name": "spree/spree",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.326Z",
+ "meta": {
+  "name": "spree",
+  "owner": "spree",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/56702?v=4",
+  "description": "Open Source Platform for DTC, B2B Commerce, Marketplaces & Omnichannel. REST APIs, TypeScript SDKs, and production-ready Next.js storefront. Self-host it. Own your data. No vendor lock-in. Zero platform fees.",
+  "homepage": "https://spreecommerce.org",
+  "html_url": "https://github.com/spree/spree",
+  "default_branch": "main",
+  "language": "Ruby",
+  "languages": null,
+  "topics": [
+   "b2b-commerce",
+   "e-commerce",
+   "ecommerce",
+   "ecommerce-api",
+   "ecommerce-framework",
+   "ecommerce-platform",
+   "headless",
+   "headless-commerce",
+   "headless-ecommerce",
+   "marketplace",
+   "multi-tenant",
+   "multi-vendor",
+   "multi-vendor-ecommerce",
+   "open-source",
+   "spree-commerce"
+  ],
+  "license": {
+   "spdx": "BSD-3-Clause",
+   "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+  },
+  "stars": 15844,
+  "forks": 5318,
+  "watchers": null,
+  "open_issues": 223,
+  "open_prs": null,
+  "created_at": "2008-03-10T14:45:35Z",
+  "pushed_at": "2026-11-16T20:54:05Z",
+  "updated_at": "2026-11-16T13:11:25Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 370153,
+  "og_image": "https://opengraph.githubassets.com/1/spree/spree",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T20:54:05.000Z",
+  "commits_90d": 773,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v6.0.5",
+  "name": "v6.0.5",
+  "published_at": "2026-11-16T14:19:46Z",
+  "url": "https://github.com/spree/spree/releases/tag/v6.0.5",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 17153,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<h5>Try it in a sandbox</h5>\n<p>The fastest way to see Spree is a <a href=\"https://console.spree.sh\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">free sandbox</a>: a hosted store with the admin dashboard and APIs, ready in your browser. Nothing to install — sign in, click <strong>Create store</strong>, and explore.</p>\n<h5>Install locally</h5>\n<p>Copy and paste the following command to your terminal to set up Spree locally in 5 minutes:</p>\n<pre><code class=\"language-bash\">npx create-spree-app@latest my-store\n</code></pre>\n<p>This sets up the Spree backend, the React Admin Dashboard, and optionally the <a href=\"https://github.com/spree/storefront\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Next.js storefront</a> in a monorepo. The storefront is built with Next.js 16, React 19, Tailwind CSS 4, and TypeScript. Admin dashboard uses Vite and TanStack.</p>\n<p>You need Node.js 24+, Git and Docker running. The backend runs as a Docker image, and you can configure it entirely with <a href=\"https://spreecommerce.org/docs/developer/deployment/environment_variables\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">environment variables</a>. Learn more in the <a href=\"https://spreecommerce.org/docs/developer/getting-started/quickstart\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">installation docs</a>.</p>\n<h5>Agentic Development</h5>\n<p>Spree comes with <a href=\"https://github.com/spree/agent-skills\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">agent skills</a>, which teach Claude Code, Codex, Cursor, Copilot and 60+ other tools Spree's conventions, customization patterns and upgrade flows. It also connects Claude Code, Cursor and VS Code to the <a href=\"https://spreecommerce.org/docs/developer/agentic/mcp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">documentation MCP server</a>, so your agent can search the latest docs. This is automatically set up for you when you run <code>npx create-spree-app</code> and can be added to existing projects with <code>spree add ai</code>. See the <a href=\"https://spreecommerce.org/docs/developer/agentic/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Agentic Development docs</a> for more details.</p>",
+    "truncated": false,
+    "chars": 1666
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<p>Everything below ships in this repository under the BSD 3-Clause license.</p>\n<ul>\n<li><strong><a href=\"https://spreecommerce.org/docs/api-reference/store-api/introduction\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">REST API &amp; TypeScript SDKs</a></strong> — REST APIs for storefronts, admins and sellers, with publishable keys, scoped secret keys, rate limiting and OpenAPI 3.0 specs. Each has its own TypeScript SDK.</li>\n<li><strong><a href=\"https://spreecommerce.org/docs/developer/dashboard/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">React Admin Dashboard</a></strong> — a Vite + React application built on TanStack Router and Query, shadcn/ui and Tailwind. Own it and customize without forking: <a href=\"https://spreecommerce.org/docs/developer/dashboard/customization/navigation\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">change navigation</a>, add/remove <a href=\"https://spreecommerce.org/docs/developer/dashboard/customization/routes\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">routes</a>, <a href=\"https://spreecommerce.org/docs/developer/dashboard/customization/tables\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">modify table columns</a> and <a href=\"https://spreecommerce.org/docs/developer/dashboard/customization/slots\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">insert your own UI widgets</a>. Ships with a matching <strong>Seller Panel</strong> for marketplace vendors.</li>\n<li><strong><a href=\"https://github.com/spree/storefront\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Next.js Storefront</a></strong> — open-source storefront built with Next.js 16, React 19, Tailwind CSS 4, and TypeScript. Full shopping experience, multi-region URL routing, Stripe payments (Apple Pay, Google Pay, Klarna, Affirm), customer accounts, and SEO built in. <a href=\"https://demo.spreecommerce.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Try the demo</a></li>\n<li><strong><a href=\"https://spreecommerce.org/docs/developer/cli/quickstart\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Spree CLI</a></strong> — manage projects from the terminal (boot, generate, migrate, upgrade) and call the Admin API directly with <code>spree api get/post/...</code> — zero-config in local dev, built for scripts and AI agents.</li>\n<li><strong><a href=\"https://spreecommerce.org/docs/developer/mcp/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MCP Server</a></strong> — built into the backend. Connect Claude, ChatGPT, Cursor or any MCP client to manage your store in natural language, limited to the permissions you approve.</li>\n<li><strong><a href=\"https://spreecommerce.org/docs/developer/core-concepts/sellers\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Marketplace &amp; Payouts</a></strong> — seller onboarding with a configurable requirements checklist, per-seller order splitting, a <a href=\"https://spreecommerce.org/docs/developer/core-concepts/commissions\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">commission engine</a> with EU commission taxation, and a payout ledger with Stripe Connect payouts.</li>\n<li><strong><a href=\"https://spreecommerce.org/docs/developer/how-to/build-a-b2b-store\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">B2B &amp; Wholesale</a></strong> — <a href=\"https://spreecommerce.org/docs/developer/core-concepts/pricing\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">price lists</a> with volume tiers and negotiated rates, <a href=\"https://spreecommerce.org/docs/user/customers/customer-groups\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">customer groups</a> for segmentation, <a href=\"https://spreecommerce.org/docs/developer/core-concepts/companies\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">companies</a> with locations, contacts and validated tax exemptions, and <a href=\"https://spreecommerce.org/docs/developer/core-concepts/catalogs\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">catalogs</a> for per-segment assortments.</li>\n<li><strong><a href=\"https://spreecommerce.org/docs/developer/core-concepts/payments\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Payments</a></strong> — provider-agnostic payment sessions that finish reliably even when a tab closes. Ships with <a href=\"https://spreecommerce.org/docs/integrations/payments/stripe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Stripe</a>, <a href=\"https://spreecommerce.org/docs/integrations/payments/adyen\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Adyen</a> and <a href=\"https://spreecommerce.org/docs/integrations/payments/paypal\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PayPal</a>. Add your own with the <a href=\"https://spreecommerce.org/docs/developer/how-to/custom-payment-method\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Payment Provider SDK</a>.</li>\n<li><strong><a href=\"https://spreecommerce.org/docs/developer/core-concepts/promotions\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Promotions &amp; Gift Cards</a></strong> — a rules-based <a href=\"https://spreecommerce.org/docs/developer/core-concepts/promotions\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">promotions engine</a> for percentage and fixed discounts, free shipping, BOGO offers and coupon codes, plus native <a href=\"https://spreecommerce.org/docs/developer/core-concepts/store-credits-gift-cards\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">store credits and gift cards</a>.</li>\n<li><strong><a href=\"https://spreecommerce.org/docs/developer/core-concepts/fulfillments\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Fulfillment</a></strong> — shipping, digital delivery and in-store pickup, <a href=\"https://spreecommerce.org/docs/developer/core-concepts/delivery-setup\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">delivery profiles and zones</a>, multi-location <a href=\"https://spreecommerce.org/docs/developer/core-concepts/inventory\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">inventory</a>, and <a href=\"https://spreecommerce.org/docs/developer/core-concepts/returns-exchanges-claims\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">returns, exchanges and claims</a>.</li>\n<li><strong><a href=\"https://spreecommerce.org/docs/developer/core-concepts/taxes\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Taxes &amp; Compliance</a></strong> — inclusive or added-on tax, automatic calculation via Avalara and Stripe Tax, cross-border <a href=\"https://spreecommerce.org/docs/developer/core-concepts/fees\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">customs fees &amp; duties</a>, and <a href=\"https://spreecommerce.org/docs/developer/core-concepts/data-privacy\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">data privacy</a> tooling for GDPR subject requests and EU Omnibus price history.</li>\n<li><strong>Products &amp; Catalog</strong> — <a href=\"https://spreecommerce.org/docs/developer/core-concepts/metafields\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">custom fields</a> on any record, <a href=\"https://spreecommerce.org/docs/developer/core-concepts/imports-exports\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CSV imports and exports</a>, digital products, product tags, a shared <a href=\"https://spreecommerce.org/docs/developer/core-concepts/media\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">media library</a> and bulk operations.</li>\n<li><strong><a href=\"https://spreecommerce.org/docs/developer/providers/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Provider Contracts</a></strong> — plug your existing stack in rather than replacing it: <a href=\"https://spreecommerce.org/docs/developer/providers/erp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ERP</a>, <a href=\"https://spreecommerce.org/docs/developer/providers/pim\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PIM</a>, <a href=\"https://spreecommerce.org/docs/developer/providers/fulfillment\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">WMS and carriers</a>, <a href=\"https://spreecommerce.org/docs/developer/providers/dam\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">DAM</a>, <a href=\"https://spreecommerce.org/docs/developer/providers/sso\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SSO</a> and <a href=\"https://spreecommerce.org/docs/developer/providers/payouts\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">payouts</a>.</li>\n<li><strong><a href=\"https://spreecommerce.org/docs/developer/providers/sso\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Security &amp; Identity</a></strong> — <a href=\"https://spreecommerce.org/docs/developer/providers/sso\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">OpenID Connect</a> single sign-on for staff and customers, <a href=\"https://spreecommerce.org/docs/developer/how-to/custom-api-authentication\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">custom auth adapters</a> for any JWT issuer, <a href=\"https://spreecommerce.org/docs/developer/customization/permissions\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">role-based permissions</a> scoped per store, and a <a href=\"https://spreecommerce.org/docs/developer/security/pci_compliance\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PCI-compliant</a> payment architecture where card data never touches your server.</li>\n<li><strong><a href=\"https://spreecommerce.org/docs/integrations/search/meilisearch\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MeiliSearch Integration</a></strong> — typo-tolerant product search and faceted filtering, or <a href=\"https://spreecommerce.org/docs/developer/how-to/custom-search-provider\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">bring your own search provider</a>.</li>\n<li><strong>Integrations &amp; Extensibility</strong> — <a href=\"https://spreecommerce.org/docs/developer/core-concepts/events\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Event Bus</a>, <a href=\"https://spreecommerce.org/docs/developer/core-concepts/webhooks\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Webhooks</a>, <a href=\"https://github.com/spree/spree/blob/main/spree/opentelemetry\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">OpenTelemetry</a> instrumentation, and native integrations (<a href=\"https://spreecommerce.org/docs/integrations/analytics/google-analytics\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GA4</a>, <a href=\"https://spreecommerce.org/docs/integrations/analytics/google-tag-manager\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GTM</a>, <a href=\"https://spreecommerce.org/docs/integrations/marketing/klaviyo\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Klaviyo</a>).</li>\n<li><strong><a href=\"https://spreecommerce.org/docs/developer/agentic/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Agentic Development</a></strong> — <a href=\"https://github.com/spree/agent-skills\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">agent skills</a> teaching AI coding agents Spree's conventions and a <a href=\"https://spreecommerce.org/docs/developer/agentic/mcp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs MCP server</a>, both set up with one command (<code>spree add ai</code>), plus <a href=\"https://spreecommerce.org/docs/developer/agentic/llm-docs\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LLM-ready documentation</a> (llms.txt, per-page Markdown, offline npm package), and a generated AGENTS.md/CLAUDE.md in every scaffolded project.</li>\n</ul>",
+    "truncated": false,
+    "chars": 7344
+   }
+  },
+  "headings": 15,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:10.518Z",
+  "checked_at": "2026-11-17T02:20:10.518Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:10.518Z"
+}

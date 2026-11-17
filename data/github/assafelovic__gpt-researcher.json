@@ -1,0 +1,116 @@
+{
+ "id": "assafelovic/gpt-researcher",
+ "github_id": 639835356,
+ "node_id": "R_kgDOJiMc3A",
+ "full_name": "assafelovic/gpt-researcher",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "gpt-researcher",
+  "owner": "assafelovic",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/13554167?v=4",
+  "description": "An autonomous agent that conducts deep research on any data using any LLM providers",
+  "homepage": "https://gptr.dev",
+  "html_url": "https://github.com/assafelovic/gpt-researcher",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "agent",
+   "ai",
+   "automation",
+   "deepresearch",
+   "llms",
+   "mcp",
+   "mcp-server",
+   "python",
+   "research",
+   "search",
+   "webscraping"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 30746,
+  "forks": 4233,
+  "watchers": null,
+  "open_issues": 54,
+  "open_prs": null,
+  "created_at": "2023-05-12T10:33:54Z",
+  "pushed_at": "2026-11-12T19:34:46Z",
+  "updated_at": "2026-11-17T02:06:42Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 54420,
+  "og_image": "https://opengraph.githubassets.com/1/assafelovic/gpt-researcher",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-09T15:17:18.000Z",
+  "commits_90d": 265,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v3.8.0",
+  "name": "New paper UI, detailed reports in 3:27, and 53 community fixes",
+  "published_at": "2026-11-09T15:12:43Z",
+  "url": "https://github.com/assafelovic/gpt-researcher/releases/tag/v3.8.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 19276,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Install as Claude Skill",
+    "html": "<p>Extend Claude's deep research capabilities by installing GPT Researcher as a <a href=\"https://skills.sh/assafelovic/gpt-researcher/gpt-researcher\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Claude Skill</a>:</p>\n<pre><code class=\"language-bash\">npx skills add assafelovic/gpt-researcher\n</code></pre>\n<p>Once installed, Claude can leverage GPT Researcher's deep research capabilities directly within your conversations.</p>",
+    "truncated": false,
+    "chars": 329
+   },
+   "usage": {
+    "title": "Example Usage",
+    "html": "<pre><code class=\"language-python\">...\nfrom gpt_researcher import GPTResearcher\n\nquery = \"why is Nvidia stock going up?\"\nresearcher = GPTResearcher(query=query)\n# Conduct research on the given query\nresearch_result = await researcher.conduct_research()\n# Write the report\nreport = await researcher.write_report()\n...\n</code></pre>\n<p><strong>For more examples and configurations, please refer to the <a href=\"https://docs.gptr.dev/docs/gpt-researcher/gptr/pip-package\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PIP documentation</a> page.</strong></p>",
+    "truncated": false,
+    "chars": 446
+   },
+   "features": {
+    "title": "Why GPT Researcher?",
+    "html": "<ul>\n<li>Objective conclusions for manual research can take weeks, requiring vast resources and time.</li>\n<li>LLMs trained on outdated information can hallucinate, becoming irrelevant for current research tasks.</li>\n<li>Current LLMs have token limitations, insufficient for generating long research reports.</li>\n<li>Limited web sources in existing services lead to misinformation and shallow results.</li>\n<li>Selective web sources can introduce bias into research tasks.</li>\n</ul>",
+    "truncated": false,
+    "chars": 443
+   }
+  },
+  "headings": 25,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:50.625Z",
+  "checked_at": "2026-11-16T04:33:50.625Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:16.512Z",
+ "contributors": {
+  "count": 319,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:35.603Z"
+ }
+}

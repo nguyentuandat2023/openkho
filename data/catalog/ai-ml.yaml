@@ -1,0 +1,193 @@
+# Danh mục: AI & Machine Learning — xem cấu trúc trường trong data/README.md
+- repo: microsoft/markitdown
+  tags: [markdown, pdf, office, rag, mcp]
+  summary: "Chuyển PDF, Word, Excel, PowerPoint, ảnh, audio… thành Markdown gọn gàng để đưa vào ChatGPT, Claude hoặc hệ thống RAG."
+  use_cases: ["Đưa tài liệu công ty vào chatbot AI", "Trích nội dung từ báo cáo, báo giá, hồ sơ năng lực", "Chuẩn bị dữ liệu cho RAG"]
+  pros: ["Hỗ trợ rất nhiều định dạng văn phòng", "Cài bằng một lệnh pip, dùng ngay qua dòng lệnh", "Có gói máy chủ MCP để dùng cùng Claude Desktop"]
+  cons: ["Bảng biểu phức tạp trong PDF có thể mất định dạng", "Nhận dạng chữ trong ảnh cần cấu hình thêm mô hình/LLM"]
+  platforms: [windows, macos, linux]
+  deploy: [cli, library]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  quick_start: |
+    pip install "markitdown[all]"
+    markitdown bao-cao.pdf > bao-cao.md
+  applicability: 5
+  featured: true
+- repo: huggingface/transformers
+  tags: [python, llm, nlp, computer-vision, huggingface]
+  summary: "Thư viện chuẩn để tải và chạy hàng trăm nghìn mô hình AI mở trên Hugging Face — văn bản, hình ảnh, âm thanh, đa phương thức."
+  use_cases: ["Chạy mô hình mở trong ứng dụng Python", "Tinh chỉnh mô hình với dữ liệu riêng", "Nền tảng cho nhiều công cụ AI khác"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: pytorch/pytorch
+  tags: [python, deep-learning, gpu]
+  summary: "Framework học sâu phổ biến nhất cho nghiên cứu và sản phẩm AI — nền tảng của phần lớn mô hình AI mở hiện nay."
+  use_cases: ["Huấn luyện và chạy mô hình học sâu", "Nền tảng cho Stable Diffusion, Whisper, LLM mở"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  license_note: "Giấy phép kiểu BSD; GitHub hiển thị NOASSERTION vì văn bản giấy phép có phần tùy chỉnh."
+  applicability: 3
+  license_override:
+    spdx: BSD-3-Clause
+    name: BSD-3-Clause (kiểu BSD)
+- repo: tensorflow/tensorflow
+  tags: [python, deep-learning, mobile]
+  summary: "Framework học máy của Google, mạnh về triển khai sản phẩm, trên di động (LiteRT/TensorFlow Lite) và trên web (TensorFlow.js)."
+  use_cases: ["Triển khai mô hình lên điện thoại, thiết bị nhúng", "Hệ thống học máy quy mô lớn"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: docling-project/docling
+  tags: [pdf, document-parsing, rag, ocr]
+  summary: "Bộ công cụ (khởi đầu từ IBM Research) chuyển PDF, DOCX, PPTX, HTML, ảnh thành Markdown/JSON có cấu trúc — hiểu bố cục trang, bảng, công thức."
+  use_cases: ["RAG trên tài liệu phức tạp", "Trích bảng số liệu từ PDF", "Số hóa tài liệu scan"]
+  platforms: [windows, macos, linux]
+  deploy: [cli, library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: opendatalab/MinerU
+  tags: [pdf, ocr, markdown, rag]
+  summary: "Chuyển PDF (kể cả tài liệu nhiều cột, công thức, bảng) thành Markdown/JSON chất lượng cao, có OCR đa ngôn ngữ."
+  use_cases: ["Đưa tài liệu kỹ thuật, catalogue vào AI", "Chuyển sách/tài liệu PDF sang văn bản chỉnh sửa được"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [cli, library, local]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  requirements: "Khuyến nghị GPU NVIDIA để xử lý nhanh; vẫn chạy được bằng CPU (chậm hơn)."
+  license_note: "Dự án dùng giấy phép riêng (GitHub hiển thị NOASSERTION) — đọc file LICENSE trước khi dùng thương mại."
+  applicability: 4
+- repo: PaddlePaddle/PaddleOCR
+  tags: [ocr, document-ai, multilingual]
+  summary: "Bộ OCR đa ngôn ngữ (có tiếng Việt) của Baidu: nhận dạng chữ in, bảng, bố cục tài liệu, trích thông tin từ chứng từ."
+  use_cases: ["Số hóa hóa đơn, chứng từ", "Trích chữ từ ảnh sản phẩm, biển hiệu", "Tiền xử lý tài liệu cho AI"]
+  platforms: [windows, macos, linux]
+  deploy: [library, cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: tesseract-ocr/tesseract
+  tags: [ocr, cli, vietnamese]
+  summary: "Công cụ OCR mã nguồn mở kinh điển, nhận dạng hơn 100 ngôn ngữ, có gói tiếng Việt (vie)."
+  use_cases: ["Nhận dạng chữ từ ảnh chụp, bản scan", "Làm 'động cơ' OCR cho phần mềm khác (OCRmyPDF, Paperless…)"]
+  platforms: [windows, macos, linux]
+  deploy: [cli, library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: ocrmypdf/OCRmyPDF
+  also: [productivity]
+  tags: [ocr, pdf, cli]
+  summary: "Thêm lớp chữ tìm kiếm được vào PDF scan (dùng Tesseract) — biến bản scan thành PDF tra cứu, sao chép được."
+  use_cases: ["Số hóa hợp đồng, hồ sơ giấy", "Tìm kiếm toàn văn trong kho PDF scan"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: unslothai/unsloth
+  tags: [fine-tuning, llm, gpu]
+  summary: "Tinh chỉnh (fine-tune) các LLM mở như Llama, Qwen, Gemma nhanh hơn và tốn ít VRAM hơn; có notebook miễn phí trên Google Colab."
+  use_cases: ["Dạy mô hình văn phong thương hiệu", "Tạo chatbot chuyên ngành từ dữ liệu riêng"]
+  platforms: [windows, linux]
+  deploy: [library]
+  difficulty: hard
+  pricing: freemium
+  needs_api_key: none
+  requirements: "GPU NVIDIA (hoặc dùng Google Colab miễn phí)."
+  applicability: 3
+- repo: hiyouga/LlamaFactory
+  tags: [fine-tuning, llm, webui]
+  summary: "Giao diện web (LlamaBoard) để tinh chỉnh hơn 100 mô hình ngôn ngữ và đa phương thức mà không cần viết code."
+  use_cases: ["Fine-tune mô hình bằng giao diện trực quan", "Thử nghiệm nhiều phương pháp huấn luyện (LoRA, QLoRA…)"]
+  platforms: [windows, linux, docker]
+  deploy: [local, cli]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  requirements: "GPU NVIDIA có đủ VRAM cho kích thước mô hình muốn tinh chỉnh."
+  applicability: 3
+- repo: ultralytics/ultralytics
+  tags: [yolo, computer-vision, object-detection]
+  summary: "YOLO — nhận diện, phân đoạn, theo dõi vật thể trong ảnh và video theo thời gian thực."
+  use_cases: ["Đếm sản phẩm trên kệ, khách ra vào", "Kiểm tra lỗi sản phẩm bằng camera", "Phân tích video giao thông, an ninh"]
+  platforms: [windows, macos, linux]
+  deploy: [library, cli]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  license_note: "AGPL-3.0: dùng trong sản phẩm đóng hoặc dịch vụ thương mại phải công khai mã nguồn hoặc mua Enterprise License của Ultralytics."
+  applicability: 3
+- repo: gradio-app/gradio
+  tags: [python, ui, demo]
+  summary: "Tạo giao diện web cho mô hình AI chỉ với vài dòng Python — cách nhanh nhất để demo và chia sẻ ứng dụng AI."
+  use_cases: ["Làm demo nội bộ cho mô hình AI", "Giao diện nhanh cho script xử lý dữ liệu"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: HKUDS/LightRAG
+  also: [chatbot-llm]
+  tags: [rag, knowledge-graph, llm]
+  summary: "Framework RAG kết hợp đồ thị tri thức, giúp chatbot trả lời trên kho tài liệu chính xác và có ngữ cảnh hơn RAG thông thường."
+  use_cases: ["Chatbot tra cứu tài liệu nội bộ", "Hỏi đáp trên bộ hồ sơ lớn, nhiều mối liên hệ"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [library, self-host]
+  difficulty: hard
+  pricing: free
+  needs_api_key: optional
+  applicability: 3
+- repo: microsoft/graphrag
+  also: [chatbot-llm]
+  tags: [rag, knowledge-graph, llm]
+  summary: "Phương pháp RAG dựa trên đồ thị tri thức của Microsoft Research — tóm tắt và trả lời các câu hỏi tổng quát trên kho dữ liệu lớn."
+  use_cases: ["Phân tích kho tài liệu/nghiên cứu lớn", "Trả lời câu hỏi cần tổng hợp toàn bộ dữ liệu"]
+  platforms: [windows, macos, linux]
+  deploy: [library, cli]
+  difficulty: hard
+  pricing: free
+  needs_api_key: required
+  note: "Bước lập chỉ mục gọi LLM rất nhiều lần — chi phí API có thể cao với dữ liệu lớn."
+  applicability: 3
+- repo: LibreTranslate/LibreTranslate
+  also: [self-hosted]
+  tags: [translation, api, offline]
+  summary: "API dịch máy tự host, không phụ thuộc Google/DeepL — dùng mô hình Argos Translate chạy offline."
+  use_cases: ["Dịch tự động nội dung website", "Dịch tài liệu nội bộ mà không gửi dữ liệu ra ngoài"]
+  platforms: [docker, windows, macos, linux]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  note: "Chất lượng dịch thường thấp hơn dịch vụ thương mại — nên thử với cặp ngôn ngữ bạn cần trước khi dùng."
+  applicability: 3
+- repo: scikit-learn/scikit-learn
+  also: [data-bi]
+  tags: [python, machine-learning, analytics]
+  summary: "Thư viện học máy cổ điển (phân loại, hồi quy, phân cụm) — chuẩn mực cho phân tích dữ liệu và dự báo kinh doanh."
+  use_cases: ["Dự báo doanh số", "Phân khúc khách hàng", "Chấm điểm khách hàng tiềm năng"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3

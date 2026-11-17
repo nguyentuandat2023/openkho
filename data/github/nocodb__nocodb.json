@@ -1,0 +1,109 @@
+{
+ "id": "nocodb/nocodb",
+ "github_id": 108761645,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxMDg3NjE2NDU=",
+ "full_name": "nocodb/nocodb",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.971Z",
+ "meta": {
+  "name": "nocodb",
+  "owner": "nocodb",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/50206778?v=4",
+  "description": "🔥 🔥 🔥 A Free & Self-hostable Airtable Alternative",
+  "homepage": "https://nocodb.com",
+  "html_url": "https://github.com/nocodb/nocodb",
+  "default_branch": "develop",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "airtable",
+   "airtable-alternative",
+   "automatic-api",
+   "hacktoberfest",
+   "low-code",
+   "no-code",
+   "no-code-database",
+   "no-code-platform",
+   "postgresql",
+   "rest-api",
+   "restful-api",
+   "spreadsheet",
+   "sqlite",
+   "swagger"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 65551,
+  "forks": 5140,
+  "watchers": null,
+  "open_issues": 554,
+  "open_prs": null,
+  "created_at": "2017-10-29T18:51:48Z",
+  "pushed_at": "2026-11-16T20:04:06Z",
+  "updated_at": "2026-11-17T01:17:57Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 1523266,
+  "og_image": "https://opengraph.githubassets.com/1/nocodb/nocodb",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T16:55:46.000Z",
+  "commits_90d": 2414,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "2026.10.1",
+  "name": "2026.10.1 : Bug Fix Release",
+  "published_at": "2026-10-29T11:19:16Z",
+  "url": "https://github.com/nocodb/nocodb/releases/tag/2026.10.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 8622,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<h4>Docker with SQLite</h4>\n<pre><code class=\"language-bash\">docker run -d \\\n  --name noco \\\n  -v \"$(pwd)\"/nocodb:/usr/app/data/ \\\n  -p 8080:8080 \\\n  nocodb/nocodb:latest\n</code></pre>\n<h4>Docker with PG</h4>\n<pre><code class=\"language-bash\">docker run -d \\\n  --name noco \\\n  -v \"$(pwd)\"/nocodb:/usr/app/data/ \\\n  -p 8080:8080 \\\n  -e NC_DB=\"pg://host.docker.internal:5432?u=root&amp;p=password&amp;d=d1\" \\\n  -e NC_AUTH_JWT_SECRET=\"569a1821-0a93-45e8-87ab-eb857f20a010\" \\\n  nocodb/nocodb:latest\n</code></pre>\n<h4>Auto-upstall</h4>\n<p>Auto-upstall is a single command that sets up NocoDB on a server for production usage.\nBehind the scenes it auto-generates docker-compose for you.</p>\n<pre><code class=\"language-bash\">bash &lt;(curl -sSL http://install.nocodb.com/noco.sh) &lt;(mktemp)\n</code></pre>\n<p>Auto-upstall does the following: 🕊</p>\n<ul>\n<li>🐳 Automatically installs all pre-requisites like docker, docker-compose</li>\n<li>🚀 Automatically installs NocoDB with PostgreSQL, Redis, Traefik gateway using Docker Compose. 🐘 🗄️ 🌐</li>\n<li>🔄 Automatically upgrades NocoDB to the latest version when you run the command again.</li>\n<li>🔒 Automatically setups SSL and also renews it. Needs a domain or subdomain as input while installation.</li>\n</ul>\n<blockquote>\n<p>install.nocodb.com/noco.sh script can be found <a href=\"https://raw.githubusercontent.com/nocodb/nocodb/develop/docker-compose/1_Auto_Upstall/noco.sh\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here in our github</a></p>\n</blockquote>\n<h4>Other Methods</h4>\n<blockquote>\n<p>Prebuilt binaries are no longer published. The <code>get.nocodb.com</code> download links have been discontinued; please use one of the Docker based methods above instead.</p>\n</blockquote>\n<p>For more installation methods such as Docker Compose, Kubernetes and Helm, please refer to <a href=\"https://nocodb.com/docs/self-hosting\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our docs</a></p>\n<blockquote>\n<p>When running locally access nocodb by visiting: <a href=\"http://localhost:8080/dashboard\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:8080/dashboard</a></p>\n</blockquote>",
+    "truncated": false,
+    "chars": 1687
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<h5>Rich Spreadsheet Interface</h5>\n<ul>\n<li>⚡  Basic Operations: Create, Read, Update and Delete Tables, Columns, and Rows</li>\n<li>⚡  Fields Operations: Sort, Filter, Group, Hide / Unhide Columns</li>\n<li>⚡  Multiple Views Types: Grid (By default), Gallery, Form, Kanban and Calendar View</li>\n<li>⚡  View Permissions Types: Collaborative Views, &amp; Locked Views</li>\n<li>⚡  Share Bases / Views: either Public or Private (with Password Protected)</li>\n<li>⚡  Variant Cell Types: ID, Links, Lookup, Rollup, SingleLineText, Attachment, Currency, Formula, User, etc</li>\n<li>⚡  Access Control with Roles: Fine-grained Access Control at different levels</li>\n<li>⚡  and more ...</li>\n</ul>\n<h5>App Store for Workflow Automations</h5>\n<p>We provide different integrations in three main categories. See <a href=\"https://docs.nocodb.com/account-settings/oss-specific-details/#app-store\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">App Store</a> for details.</p>\n<ul>\n<li>⚡  Chat: Slack, Discord, Mattermost, and etc</li>\n<li>⚡  Email: AWS SES, SMTP, MailerSend, and etc</li>\n<li>⚡  Storage: AWS S3, Google Cloud Storage, Minio, and etc</li>\n</ul>\n<h5>Programmatic Access</h5>\n<p>We provide the following ways to let users programmatically invoke actions. You can use a token (either JWT or Social Auth) to sign your requests for authorization to NocoDB.</p>\n<ul>\n<li>⚡  REST APIs</li>\n<li>⚡  NocoDB SDK</li>\n</ul>",
+    "truncated": false,
+    "chars": 1301
+   }
+  },
+  "headings": 16,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:38.393Z",
+  "checked_at": "2026-11-17T02:20:23.424Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:23.424Z"
+}

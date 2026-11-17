@@ -1,0 +1,123 @@
+{
+ "id": "Dokploy/dokploy",
+ "github_id": 788847937,
+ "node_id": "R_kgDOLwTdQQ",
+ "full_name": "Dokploy/dokploy",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:03.703Z",
+ "meta": {
+  "name": "dokploy",
+  "owner": "Dokploy",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/156882017?v=4",
+  "description": "Open Source Alternative to Vercel, Netlify and Heroku.",
+  "homepage": "https://dokploy.com/",
+  "html_url": "https://github.com/Dokploy/dokploy",
+  "default_branch": "canary",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "agents",
+   "ai",
+   "backend",
+   "backups",
+   "databases",
+   "deployment",
+   "deployments",
+   "devops",
+   "docker",
+   "frontend",
+   "mariadb",
+   "mongodb",
+   "mysql",
+   "nextjs",
+   "postgresql",
+   "self-hosted",
+   "vps"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 38556,
+  "forks": 3178,
+  "watchers": null,
+  "open_issues": 833,
+  "open_prs": null,
+  "created_at": "2024-04-19T07:49:30Z",
+  "pushed_at": "2026-11-17T01:34:19Z",
+  "updated_at": "2026-11-17T01:43:55Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 36027,
+  "og_image": "https://opengraph.githubassets.com/1/Dokploy/dokploy",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T01:34:19.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.31.3",
+  "name": "v0.31.3",
+  "published_at": "2026-11-16T22:56:37Z",
+  "url": "https://github.com/Dokploy/dokploy/releases/tag/v0.31.3",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 2931,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "mznYKPvhcfw",
+    "url": "https://www.youtube.com/watch?v=mznYKPvhcfw"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<p>To get started, run the following command on a VPS:</p>\n<p>Want to skip the installation process? <a href=\"https://app.dokploy.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Try the Dokploy Cloud</a>.</p>\n<pre><code class=\"language-bash\">curl -sSL https://dokploy.com/install.sh | bash\n</code></pre>\n<p>For detailed documentation, visit <a href=\"https://docs.dokploy.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs.dokploy.com</a>.</p>\n<p><a href=\"https://github.com/sponsors/Siumauricio\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Github Sponsors</a></p>\n<h5>Contributors 🤝</h5>\n<a href=\"https://github.com/dokploy/dokploy/graphs/contributors\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">\n  <img src=\"https://contrib.rocks/image?repo=dokploy/dokploy\" alt=\"Contributors\" loading=\"lazy\" decoding=\"async\" />\n</a>",
+    "truncated": false,
+    "chars": 525
+   },
+   "usage": {
+    "title": "Video Tutorial",
+    "html": "<a href=\"https://youtu.be/mznYKPvhcfw\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">\n  <img src=\"https://dokploy.com/banner.png\" alt=\"Watch the video\" loading=\"lazy\" decoding=\"async\" width=\"400\" />\n</a>",
+    "truncated": false,
+    "chars": 128
+   },
+   "features": {
+    "title": "Features",
+    "html": "<p>Dokploy includes multiple features to make your life easier.</p>\n<ul>\n<li><strong>Applications</strong>: Deploy any type of application (Node.js, PHP, Python, Go, Ruby, etc.).</li>\n<li><strong>Databases</strong>: Create and manage databases with support for MySQL, PostgreSQL, MongoDB, MariaDB, libsql, and Redis.</li>\n<li><strong>Backups</strong>: Automate backups for databases to an external storage destination.</li>\n<li><strong>Docker Compose</strong>: Native support for Docker Compose to manage complex applications.</li>\n<li><strong>Multi Node</strong>: Scale applications to multiple nodes using Docker Swarm to manage the cluster.</li>\n<li><strong>Templates</strong>: Deploy open-source templates (Plausible, Pocketbase, Calcom, etc.) with a single click +600 Templates.</li>\n<li><strong>Traefik Integration</strong>: Automatically integrates with Traefik for routing and load balancing.</li>\n<li><strong>Real-time Monitoring</strong>: Monitor CPU, memory, storage, and network usage for every resource.</li>\n<li><strong>Logs &amp; Metrics</strong>: Ship container logs and host/container metrics to Grafana (Loki, Prometheus/Mimir), Datadog, New Relic, InfluxDB, VictoriaMetrics, Better Stack, Elasticsearch/OpenSearch, Splunk, or AWS CloudWatch, tagged by project/environment/application.</li>\n<li><strong>Docker Management</strong>: Easily deploy and manage Docker containers.</li>\n<li><strong>CLI/API</strong>: Manage your applications and databases using the command line or through the API.</li>\n<li><strong>Notifications</strong>: Get notified when your deployments succeed or fail (via Slack, Discord, Telegram, Email, etc.).</li>\n<li><strong>Multi Server</strong>: Deploy and manage your applications remotely to external servers.</li>\n<li><strong>Self-Hosted</strong>: Self-host Dokploy on your VPS.</li>\n</ul>",
+    "truncated": false,
+    "chars": 1536
+   }
+  },
+  "headings": 5,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:44.128Z",
+  "checked_at": "2026-11-17T02:20:38.232Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:38.232Z"
+}

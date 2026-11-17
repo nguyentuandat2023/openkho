@@ -1,0 +1,103 @@
+{
+ "id": "gristlabs/grist-core",
+ "github_id": 266033395,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyNjYwMzMzOTU=",
+ "full_name": "gristlabs/grist-core",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.971Z",
+ "meta": {
+  "name": "grist-core",
+  "owner": "gristlabs",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/19978005?v=4",
+  "description": "Grist is the evolution of spreadsheets.",
+  "homepage": "https://www.getgrist.com",
+  "html_url": "https://github.com/gristlabs/grist-core",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "awesome",
+   "database",
+   "spreadsheet"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 12104,
+  "forks": 683,
+  "watchers": null,
+  "open_issues": 737,
+  "open_prs": null,
+  "created_at": "2020-05-22T06:16:02Z",
+  "pushed_at": "2026-11-16T20:41:38Z",
+  "updated_at": "2026-11-17T00:55:36Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 55663,
+  "og_image": "https://opengraph.githubassets.com/1/gristlabs/grist-core",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T16:35:04.000Z",
+  "commits_90d": 176,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.7.22",
+  "name": "v1.7.22",
+  "published_at": "2026-10-29T16:06:24Z",
+  "url": "https://github.com/gristlabs/grist-core/releases/tag/v1.7.22",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 56329,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Available Docker images",
+    "html": "<p>The default Docker image is <code>gristlabs/grist</code>. This contains all of\nthe Grist Community edition features, as well as extra extensions for the full edition of Grist. These\nextensions are not under a free or open-source license. These extensions becomes active only when\nthe edition in the Admin Panel is set to \"Full Grist\", and are inert and inactive when it is set\nto \"Community Grist\".</p>\n<p>If you would rather use an image that contains exclusively free and\nopen-source code, the <code>gristlabs/grist-oss</code> Docker image is available\nfor this purpose. It is functionally equivalent to the\n<code>gristlabs/grist</code> image whose edition is set to \"Community Grist\".</p>",
+    "truncated": false,
+    "chars": 652
+   },
+   "usage": {
+    "title": "Using Grist",
+    "html": "<p>To get the default version of <code>grist-core</code> running on your computer\nwith <a href=\"https://www.docker.com/get-started\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker</a>, do:</p>\n<pre><code class=\"language-sh\">docker pull gristlabs/grist\ndocker run -p 8484:8484 -it gristlabs/grist\n</code></pre>\n<p>Then visit <code>http://localhost:8484</code> in your browser.</p>\n<p>On a brand new install you'll land on a <strong>Quick setup</strong> page that walks\nyou through choosing an admin email, picking how people sign in, and\nsetting who can use the site. To get past the first screen, look in the\ncontainer's startup log for a line containing a generated boot key, and\npaste it in when prompted. Once you click <strong>Apply and go live!</strong> at the\nend of Quick setup, the site is open for business and you'll be able to\ncreate, edit, import, and export documents. There's a step-by-step\nwalkthrough at\n<a href=\"https://support.getgrist.com/install/first-run-setup/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">First-run setup</a>.</p>\n<p>If you'd rather skip Quick setup entirely and start with an open,\nsingle-user setup, set <code>GRIST_IN_SERVICE=true</code>. You can come back to\nthe same settings later from the <a href=\"https://github.com/gristlabs/grist-core#the-admin-panel\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Admin Panel</a>.</p>\n<p>To preserve your work across docker runs, share a directory as <code>/persist</code>:</p>\n<pre><code class=\"language-sh\">docker run -p 8484:8484 -v $PWD/persist:/persist -it gristlabs/grist\n</code></pre>\n<p>Get templates at <a href=\"https://templates.getgrist.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">templates.getgrist.com</a> for payroll,\ninventory management, invoicing, D&amp;D encounter tracking, and a lot\nmore, or use any document you've created on\n<a href=\"https://docs.getgrist.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs.getgrist.com</a>.</p>\n<p>If you need to change the port Grist runs on, set a <code>PORT</code> variable, don't just change the\nport mapping:</p>\n<pre><code>docker run --env PORT=9999 -p 9999:9999 -v $PWD/persist:/persist -it gristlabs/grist\n</code></pre>\n<p>To enable gVisor sandboxing, set <code>--env GRIST_SANDBOX_FLAVOR=gvisor</code>.\nThis should work with default docker settings, but may not work in all\nenvironments.</p>\n<p>You can find a lot more about configuring Grist, setting up authentication,\nand running it on a public server in our\n<a href=\"https://support.getgrist.com/self-managed/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Self-Managed Grist</a> documentation.</p>",
+    "truncated": false,
+    "chars": 2007
+   },
+   "features": {
+    "title": "Features in grist-core",
+    "html": "<p>To see exactly what is present in <code>grist-core</code>, you can run the <a href=\"https://github.com/gristlabs/grist-desktop\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">desktop app</a>, or use <a href=\"https://github.com/gristlabs/grist-core#using-grist\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>docker</code></a>. The absolute fastest way to try Grist out is to visit <a href=\"https://docs.getgrist.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs.getgrist.com</a> and play with a spreadsheet there immediately – though if you do, please read the list of <a href=\"https://github.com/gristlabs/grist-core#features-not-in-grist-core\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">additional features</a> that are not in <code>grist-core</code>.</p>\n<p>However you try it, you'll quickly see that Grist is a hybrid database/spreadsheet, meaning that:</p>\n<ul>\n<li>Columns work like they do in databases: they are named, and they hold one kind of data.</li>\n<li>Columns can be filled by formula, spreadsheet-style, with automatic updates when referenced cells change.</li>\n</ul>\n<p>This difference can confuse people coming directly from Excel or Google Sheets. Give it a chance! There's also a <a href=\"https://www.getgrist.com/blog/grist-for-spreadsheet-users/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Grist for Spreadsheet Users</a> article to help get you oriented. If you're coming from Airtable, you'll find the model familiar (and there's also our <a href=\"https://www.getgrist.com/blog/grist-v-airtable/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Grist vs Airtable</a> article for a direct comparison).</p>\n<p>Here are some specific feature highlights of Grist (🇫🇷 marks heavy French govt. contributions):</p>\n<ul>\n<li>Python formulas.<ul>\n<li>Full <a href=\"https://support.getgrist.com/formulas/#python\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Python syntax is supported</a>, including the standard library.</li>\n<li>Many <a href=\"https://support.getgrist.com/functions/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Excel functions</a> also available.</li>\n<li>An <a href=\"https://support.getgrist.com/ai-assistant-legacy/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AI Formula Assistant</a> specifically tuned for formula generation (works with OpenAI, <a href=\"https://ai.meta.com/llama/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Llama</a>, and many other models via <a href=\"https://openrouter.ai/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">OpenRouter</a> or any OpenAI-compatible endpoint).</li>\n<li>A <a href=\"https://support.getgrist.com/formula-timer/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">formula timer</a> for diagnosing slow formulas.</li>\n</ul>\n</li>\n<li>A portable, self-contained format.<ul>\n<li>Based on SQLite, the most widely deployed database engine.</li>\n<li>Any tool that can read SQLite can read numeric and text data from a Grist file.</li>\n<li>Enables <a href=\"https://support.getgrist.com/exports/#backing-up-an-entire-document\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">backups</a> that you can confidently restore in full.</li>\n<li>Great for moving between different hosts.</li>\n</ul>\n</li>\n<li>Can be displayed on a static website with <a href=\"https://github.com/gristlabs/grist-static\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>grist-static</code></a> – no special server needed.</li>\n<li>A self-contained desktop app for viewing and editing locally: <a href=\"https://github.com/gristlabs/grist-desktop\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>grist-desktop</code></a>.</li>\n<li>Convenient editing and formatting features.<ul>\n<li>Choices and <a href=\"https://support.getgrist.com/col-types/#choice-list-columns\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">choice lists</a>, for adding colorful tags to records.</li>\n<li><a href=\"https://support.getgrist.com/col-refs/#creating-a-new-reference-list-column\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">References</a> and reference lists, for cross-referencing records in other tables.</li>\n<li><a href=\"https://support.getgrist.com/col-refs/#two-way-references\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Two-way references</a> that automatically synchronize between tables.</li>\n<li><a href=\"https://support.getgrist.com/col-types/#attachment-columns\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Attachments</a>, to include media or document files in records.</li>\n<li>Dates and times, toggles, and special numerics such as currency all have specialized editors and formatting options.</li>\n<li><a href=\"https://support.getgrist.com/conditional-formatting/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Conditional Formatting</a>, letting you control the style of cells with formulas to draw attention to important information.</li>\n<li><a href=\"https://support.getgrist.com/col-types/#markdown\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Markdown formatting</a> in text cells.</li>\n</ul>\n</li>\n<li>Drag-and-drop dashboards.<ul>\n<li><a href=\"https://support.getgrist.com/widget-chart/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Charts</a>, <a href=\"https://support.getgrist.com/widget-card/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">card views</a> and a <a href=\"https://support.getgrist.com/widget-calendar/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">calendar widget</a> for visualization.</li>\n<li><a href=\"https://support.getgrist.com/summary-tables/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Summary tables</a> for summing and counting across groups.</li>\n<li><a href=\"https://support.getgrist.com/linking-widgets/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Widget linking</a> streamlines filtering and editing data.\nGrist has a unique approach to visualization, where you can lay out and link distinct widgets to show together,\nwithout cramming mixed material into a table.</li>\n<li><a href=\"https://support.getgrist.com/search-sort-filter/#pinning-filters\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Filter bar</a> for quick slicing and dicing.</li>\n<li>Duplicate widgets to quickly build variations of a view.</li>\n<li><a href=\"https://support.getgrist.com/copying-docs/#trying-out-changes\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Compare documents</a> to see what changed.</li>\n</ul>\n</li>\n<li><a href=\"https://support.getgrist.com/imports/#updating-existing-records\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Incremental imports</a>.<ul>\n<li>Import a CSV of the last three months activity from your bank...</li>\n<li>...and import new activity a month later without fuss or duplication.</li>\n</ul>\n</li>\n<li><a href=\"https://support.getgrist.com/widget-form/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Native forms</a>. Create forms that feed directly into your spreadsheet without fuss.<ul>\n<li>Supports file attachments, hidden fields, and pre-population via URL parameters.</li>\n</ul>\n</li>\n<li>Integrations.<ul>\n<li>A <a href=\"https://support.getgrist.com/api/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">REST API</a> with an interactive <a href=\"https://docs.getgrist.com/apiconsole\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">API console</a>, <a href=\"https://zapier.com/apps/grist/integrations\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Zapier actions/triggers</a>, and support from similar <a href=\"https://support.getgrist.com/integrators/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">integrators</a>.</li>\n<li>Import/export to Google Drive, Excel format, CSV. <a href=\"https://support.getgrist.com/imports/#import-from-airtable\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Import directly from Airtable.</a></li>\n<li>Link data with <a href=\"https://support.getgrist.com/widget-custom/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">custom widgets</a>, hosted externally.</li>\n<li>Configurable outgoing <a href=\"https://support.getgrist.com/webhooks/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">webhooks</a>, with support for authorization headers, column-specific triggers, and formula conditions.</li>\n<li><a href=\"https://support.getgrist.com/api/#tag/service-accounts\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Service accounts</a> for fine-tuned API access (🇫🇷).</li>\n<li><a href=\"https://support.getgrist.com/install/scim/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SCIM</a> for standard user and group provisioning (🇫🇷).</li>\n</ul>\n</li>\n<li><a href=\"https://templates.getgrist.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Many templates</a> to get you started, from investment research to organizing treasure hunts.</li>\n<li>Access control options.<ul>\n<li>(You'll need logins set up to make use of these options — see <a href=\"https://github.com/gristlabs/grist-core#logins\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Logins</a>)</li>\n<li>Share <a href=\"https://support.getgrist.com/sharing/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">individual documents</a>, workspaces, or <a href=\"https://support.getgrist.com/team-sharing/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">team sites</a>.</li>\n<li>Control access to <a href=\"https://support.getgrist.com/access-rules/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">individual rows, columns, and tables</a>.</li>\n<li>Control access based on cell values and user attributes.</li>\n</ul>\n</li>\n<li>Collaboration.<ul>\n<li><a href=\"https://support.getgrist.com/sharing/#comments\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Comments</a> on cells, with threaded replies and @-mentions.</li>\n<li>See who else is viewing a document in real time.</li>\n<li><a href=\"https://support.getgrist.com/sharing/#suggestions\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Suggest changes</a> for others to review and approve, inspired by source control workflows.</li>\n</ul>\n</li>\n<li>Self-maintainable.<ul>\n<li>Useful for intranet operation and specific compliance requirements.</li>\n<li><a href=\"https://support.getgrist.com/install/sign-in-with-grist/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Sign in with getgrist.com</a> for easy authentication without running your own auth server.</li>\n<li>Store <a href=\"https://support.getgrist.com/document-settings/#external-attachments\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">attachments externally</a> in S3-compatible storage to keep <code>.grist</code> files small (🇫🇷).</li>\n<li><a href=\"https://support.getgrist.com/newsletters/2024-04/#networking-improvements\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">HTTP long polling</a> as an alternative to WebSockets for restrictive network environments (🇫🇷).</li>\n</ul>\n</li>\n<li>Sandboxing options for untrusted documents.<ul>\n<li>On Linux or with Docker, you can enable <a href=\"https://github.com/google/gvisor\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">gVisor</a> sandboxing at the individual document level.</li>\n<li>On macOS, you can use native sandboxing.</li>\n<li>On any OS, including Windows, you can use a Wasm-based sandbox via <a href=\"https://deno.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Deno</a> and <a href=\"https://pyodide.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Pyodide</a>.</li>\n</ul>\n</li>\n<li>Translated to many languages (🇫🇷).</li>\n<li>A <a href=\"https://support.getgrist.com/newsletters/2025-05/#high-contrast-theme\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">high-contrast theme</a> meeting WCAG level AA requirements (🇫🇷).</li>\n<li><a href=\"https://support.getgrist.com/accessibility/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Accessibility</a> support, including screen readers and keyboard navigation across grid views, menus, and the page widget picker (🇫🇷).</li>\n<li><code>F1</code> key brings up some quick help. This used to go without saying, but in general Grist has good keyboard support (🇫🇷).</li>\n<li>We post progress on <a href=\"https://twitter.com/getgrist\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">𝕏 or Twitter or whatever</a> and publish <a href=\"https://support.getgrist.com/newsletters/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">monthly newsletters</a>.</li>\n</ul>\n<p>If you are curious about where Grist is heading, see <a href=\"https://github.com/gristlabs/grist-core/projects/1\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our roadmap</a>, drop a question in <a href=\"https://community.getgrist.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our forum</a>, or browse <a href=\"https://support.getgrist.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">our extensive documentation</a>.</p>",
+    "truncated": false,
+    "chars": 8584
+   }
+  },
+  "headings": 30,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:27.146Z",
+  "checked_at": "2026-11-17T02:20:27.146Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:27.146Z"
+}

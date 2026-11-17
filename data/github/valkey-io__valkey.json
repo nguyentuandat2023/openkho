@@ -1,0 +1,103 @@
+{
+ "id": "valkey-io/valkey",
+ "github_id": 775743011,
+ "node_id": "R_kgDOLjzmIw",
+ "full_name": "valkey-io/valkey",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "valkey",
+  "owner": "valkey-io",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/164458127?v=4",
+  "description": "A flexible distributed key-value database that is optimized for caching and other realtime workloads.",
+  "homepage": "https://valkey.io",
+  "html_url": "https://github.com/valkey-io/valkey",
+  "default_branch": "unstable",
+  "language": "C",
+  "languages": null,
+  "topics": [
+   "cache",
+   "database",
+   "key-value",
+   "key-value-store",
+   "nosql",
+   "redis",
+   "valkey",
+   "valkey-client"
+  ],
+  "license": {
+   "spdx": "BSD-3-Clause",
+   "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+  },
+  "stars": 27725,
+  "forks": 1537,
+  "watchers": null,
+  "open_issues": 1046,
+  "open_prs": null,
+  "created_at": "2024-03-22T00:42:17Z",
+  "pushed_at": "2026-11-17T02:17:13Z",
+  "updated_at": "2026-11-17T00:10:07Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 293521,
+  "og_image": "https://opengraph.githubassets.com/1/valkey-io/valkey",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T23:08:38.000Z",
+  "commits_90d": 415,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "9.1.3",
+  "name": "9.1.3",
+  "published_at": "2026-10-26T23:21:45Z",
+  "url": "https://github.com/valkey-io/valkey/releases/tag/9.1.3",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "9.2.0-rc2",
+  "name": "9.2.0-rc2",
+  "published_at": "2026-11-04T21:42:29Z",
+  "url": "https://github.com/valkey-io/valkey/releases/tag/9.2.0-rc2"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 14607,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installing Valkey",
+    "html": "<p>In order to install Valkey binaries into /usr/local/bin, just use:</p>\n<pre><code>% make install\n</code></pre>\n<p>You can use <code>make PREFIX=/some/other/directory install</code> if you wish to use a\ndifferent destination.</p>\n<p><em>Note</em>: For compatibility with Redis, we create symlinks from the Redis names (<code>redis-server</code>, <code>redis-cli</code>, etc.) to the Valkey binaries installed by <code>make install</code>.\nThe symlinks are created in same directory as the Valkey binaries.\nThe symlinks are removed when using <code>make uninstall</code>.\nThe creation of the symlinks can be skipped by setting the makefile variable <code>USE_REDIS_SYMLINKS=no</code>.</p>\n<p><code>make install</code> will just install binaries in your system, but will not configure\ninit scripts and configuration files in the appropriate place. This is not\nneeded if you just want to play a bit with Valkey, but if you are installing\nit the proper way for a production system, we have a script that does this\nfor Ubuntu and Debian systems:</p>\n<pre><code>% cd utils\n% ./install_server.sh\n</code></pre>\n<p><em>Note</em>: <code>install_server.sh</code> will not work on macOS; it is built for Linux only.</p>\n<p>The script will ask you a few questions and will setup everything you need\nto run Valkey properly as a background daemon that will start again on\nsystem reboots.</p>\n<p>You'll be able to stop and start Valkey using the script named\n<code>/etc/init.d/valkey_&lt;portnumber&gt;</code>, for instance <code>/etc/init.d/valkey_6379</code>.</p>",
+    "truncated": false,
+    "chars": 1346
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 22,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:52.190Z",
+  "checked_at": "2026-11-17T02:19:52.190Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:52.190Z"
+}

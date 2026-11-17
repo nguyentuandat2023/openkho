@@ -1,0 +1,163 @@
+# Danh mục: E-commerce & Affiliate Marketing — xem cấu trúc trường trong data/README.md
+- repo: woocommerce/woocommerce
+  tags: [wordpress, online-store, php]
+  summary: "Plugin bán hàng cho WordPress phổ biến nhất thế giới: sản phẩm, giỏ hàng, thanh toán, vận chuyển — hàng nghìn tiện ích mở rộng."
+  use_cases: ["Website bán hàng cho doanh nghiệp vừa và nhỏ", "Bán sản phẩm số, khóa học"]
+  pros: ["Tận dụng website WordPress sẵn có", "Có plugin cổng thanh toán và vận chuyển cho thị trường Việt Nam (của bên thứ ba)", "Cộng đồng rất lớn"]
+  cons: ["Cần hosting tốt khi nhiều sản phẩm/đơn hàng", "Chi phí plugin trả phí cộng dồn"]
+  platforms: [web, linux]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  applicability: 5
+  featured: true
+  license_override:
+    spdx: GPL-3.0
+    name: GPL-3.0
+- repo: medusajs/medusa
+  tags: [headless-commerce, nodejs, modular]
+  summary: "Nền tảng thương mại điện tử headless dạng mô-đun (Node.js): tùy biến sâu cho B2B, đa kênh, marketplace."
+  use_cases: ["Cửa hàng tùy biến cao", "Bán hàng đa kênh từ một hệ thống"]
+  platforms: [docker, linux, macos, windows]
+  deploy: [self-host, cloud]
+  difficulty: hard
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+  license_override:
+    spdx: MIT
+    name: MIT
+- repo: bagisto/bagisto
+  tags: [laravel, marketplace, multi-vendor]
+  summary: "Nền tảng bán hàng Laravel mã nguồn mở: đa kho, đa tiền tệ, marketplace nhiều người bán, có tích hợp AI."
+  use_cases: ["Sàn nhiều người bán", "Cửa hàng đa chi nhánh"]
+  platforms: [docker, linux]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: saleor/saleor
+  tags: [headless-commerce, graphql, python]
+  summary: "Nền tảng thương mại headless GraphQL (Python/Django) hiệu năng cao cho các thương hiệu lớn."
+  use_cases: ["Cửa hàng quốc tế đa tiền tệ, đa kênh"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: hard
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+- repo: PrestaShop/PrestaShop
+  tags: [online-store, php]
+  summary: "Phần mềm bán hàng trực tuyến PHP phổ biến tại châu Âu: quản lý sản phẩm, đơn hàng, hàng nghìn module."
+  use_cases: ["Cửa hàng trực tuyến truyền thống"]
+  platforms: [web, linux, docker]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  license_note: "OSL-3.0 (GitHub hiển thị NOASSERTION)."
+  applicability: 3
+  license_override:
+    spdx: OSL-3.0
+    name: OSL-3.0
+- repo: magento/magento2
+  tags: [online-store, enterprise, php]
+  summary: "Magento Open Source (bản mở của Adobe Commerce): nền tảng thương mại điện tử mạnh cho doanh nghiệp vừa và lớn."
+  use_cases: ["Cửa hàng quy mô lớn, nhiều SKU"]
+  platforms: [linux, docker]
+  deploy: [self-host]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: opencart/opencart
+  tags: [online-store, php, lightweight]
+  summary: "Phần mềm làm web bán hàng PHP gọn nhẹ, dễ cài trên hosting phổ thông."
+  use_cases: ["Cửa hàng nhỏ chi phí thấp"]
+  platforms: [web, linux]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+  license_override:
+    spdx: GPL-3.0
+    name: GPL-3.0
+- repo: spree/spree
+  tags: [ruby-on-rails, b2b, marketplace]
+  summary: "Nền tảng thương mại điện tử Ruby on Rails mã nguồn mở, hỗ trợ B2B, marketplace, nhiều cửa hàng."
+  use_cases: ["Cửa hàng B2B", "Nhiều thương hiệu trên một hệ thống"]
+  platforms: [docker, linux]
+  deploy: [self-host]
+  difficulty: hard
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+- repo: evershopcommerce/evershop
+  tags: [typescript, react, modular]
+  summary: "Nền tảng thương mại điện tử TypeScript/React hiện đại, mô-đun hóa, dễ mở rộng cho lập trình viên."
+  use_cases: ["Cửa hàng tùy biến bằng JavaScript"]
+  platforms: [docker, linux]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: vendurehq/vendure
+  tags: [headless-commerce, typescript, graphql]
+  summary: "Framework thương mại headless (TypeScript, NestJS, GraphQL) cho doanh nghiệp cần tùy biến cao."
+  use_cases: ["Nền tảng bán hàng B2B/B2C tùy biến"]
+  platforms: [docker, linux]
+  deploy: [self-host]
+  difficulty: hard
+  pricing: freemium
+  needs_api_key: none
+  license_note: "GitHub hiển thị NOASSERTION — dự án cấp phép kép (mã nguồn mở và thương mại), đọc file LICENSE."
+  applicability: 3
+  license_override:
+    spdx: GPL-3.0
+    name: GPL-3.0 hoặc giấy phép thương mại
+- repo: Sylius/Sylius
+  tags: [symfony, php, headless]
+  summary: "Nền tảng thương mại điện tử Symfony (PHP) dạng headless cho dự án tùy biến."
+  use_cases: ["Cửa hàng có quy trình đặc thù"]
+  platforms: [docker, linux]
+  deploy: [self-host]
+  difficulty: hard
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+- repo: polarsource/polar
+  tags: [payments, digital-products, merchant-of-record]
+  summary: "Nền tảng bán sản phẩm số, gói đăng ký, giấy phép phần mềm cho nhà sáng tạo — đóng vai 'merchant of record' lo thuế toàn cầu."
+  use_cases: ["Bán khóa học, ebook, phần mềm ra quốc tế", "Gói thành viên trả phí"]
+  platforms: [web]
+  deploy: [cloud]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3
+- repo: Shopify/hydrogen
+  tags: [shopify, headless, react-router]
+  summary: "Framework của Shopify để dựng cửa hàng Shopify headless tùy biến, tốc độ cao."
+  use_cases: ["Giao diện Shopify độc đáo theo thương hiệu"]
+  platforms: [web]
+  deploy: [library, cloud]
+  difficulty: hard
+  pricing: free
+  needs_api_key: required
+  requirements: "Cửa hàng Shopify (trả phí)."
+  applicability: 3
+- repo: LinkStackOrg/LinkStack
+  also: [marketing-seo]
+  tags: [link-in-bio, linktree-alternative, affiliate]
+  summary: "Trang 'link in bio' tự host thay Linktree: gom mọi liên kết (shop, mạng xã hội, affiliate) vào một trang, có thống kê."
+  use_cases: ["Trang liên kết cho TikTok/Instagram", "Tập hợp link affiliate"]
+  platforms: [docker, web]
+  deploy: [self-host]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4

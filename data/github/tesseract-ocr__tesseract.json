@@ -1,0 +1,102 @@
+{
+ "id": "tesseract-ocr/tesseract",
+ "github_id": 22887094,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyMjg4NzA5NA==",
+ "full_name": "tesseract-ocr/tesseract",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "tesseract",
+  "owner": "tesseract-ocr",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/8401422?v=4",
+  "description": "Tesseract Open Source OCR Engine (main repository)",
+  "homepage": "https://tesseract-ocr.github.io/",
+  "html_url": "https://github.com/tesseract-ocr/tesseract",
+  "default_branch": "main",
+  "language": "C++",
+  "languages": null,
+  "topics": [
+   "hacktoberfest",
+   "lstm",
+   "machine-learning",
+   "ocr",
+   "ocr-engine",
+   "tesseract",
+   "tesseract-ocr"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 77549,
+  "forks": 10912,
+  "watchers": null,
+  "open_issues": 490,
+  "open_prs": null,
+  "created_at": "2014-08-12T18:04:59Z",
+  "pushed_at": "2026-11-15T19:53:59Z",
+  "updated_at": "2026-11-17T00:54:39Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 55157,
+  "og_image": "https://opengraph.githubassets.com/1/tesseract-ocr/tesseract",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-15T19:53:59.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "5.5.4",
+  "name": "5.5.4",
+  "published_at": "2026-10-28T11:55:28Z",
+  "url": "https://github.com/tesseract-ocr/tesseract/releases/tag/5.5.4",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 8159,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installing Tesseract",
+    "html": "<p>You can either <a href=\"https://tesseract-ocr.github.io/tessdoc/Installation.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Install Tesseract via pre-built binary package</a>\nor <a href=\"https://tesseract-ocr.github.io/tessdoc/Compiling.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">build it from source</a>.</p>\n<p>Before building Tesseract from source, please check that your system has a compiler which is one of the <a href=\"https://tesseract-ocr.github.io/tessdoc/supported-compilers.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">supported compilers</a>.</p>",
+    "truncated": false,
+    "chars": 403
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 11,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:07:51.511Z",
+  "checked_at": "2026-11-16T05:07:51.511Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:13.739Z",
+ "contributors": {
+  "count": 251,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T07:03:47.522Z"
+ }
+}

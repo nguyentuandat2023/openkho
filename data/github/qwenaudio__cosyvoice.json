@@ -1,0 +1,121 @@
+{
+ "id": "QwenAudio/CosyVoice",
+ "github_id": 823430322,
+ "node_id": "R_kgDOMRSMsg",
+ "full_name": "QwenAudio/CosyVoice",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "CosyVoice",
+  "owner": "QwenAudio",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/167062371?v=4",
+  "description": "Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability.",
+  "homepage": "https://funaudiollm.github.io/cosyvoice3",
+  "html_url": "https://github.com/QwenAudio/CosyVoice",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "audio-generation",
+   "cantonese",
+   "chatbot",
+   "chatgpt",
+   "chinese",
+   "cosyvoice",
+   "cross-lingual",
+   "english",
+   "fine-grained",
+   "fine-tuning",
+   "gpt-4o",
+   "japanese",
+   "korean",
+   "multi-lingual",
+   "natural-language-generation",
+   "python",
+   "text-to-speech",
+   "tts",
+   "voice-cloning"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 24422,
+  "forks": 2785,
+  "watchers": null,
+  "open_issues": 628,
+  "open_prs": null,
+  "created_at": "2024-07-03T02:59:22Z",
+  "pushed_at": "2026-05-25T18:15:40Z",
+  "updated_at": "2026-11-16T22:43:20Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 2797,
+  "og_image": "https://opengraph.githubassets.com/1/QwenAudio/CosyVoice",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-05-25T18:15:40.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": {
+  "tag": "v2.0",
+  "name": "v2.0",
+  "published_at": "2025-07-07T06:52:12Z",
+  "url": "https://github.com/QwenAudio/CosyVoice/releases/tag/v2.0"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 13702,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Install",
+    "html": "<h5>Clone and install</h5>\n<ul>\n<li><p>Clone the repo</p>\n<pre><code class=\"language-sh\">git clone --recursive https://github.com/FunAudioLLM/CosyVoice.git\n# If you failed to clone the submodule due to network failures, please run the following command until success\ncd CosyVoice\ngit submodule update --init --recursive\n</code></pre>\n</li>\n<li><p>Install Conda: please see <a href=\"https://docs.conda.io/en/latest/miniconda.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://docs.conda.io/en/latest/miniconda.html</a></p>\n</li>\n<li><p>Create Conda env:</p>\n<pre><code class=\"language-sh\">conda create -n cosyvoice -y python=3.10\nconda activate cosyvoice\npip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/ --trusted-host=mirrors.aliyun.com\n\n# If you encounter sox compatibility issues\n# ubuntu\nsudo apt-get install sox libsox-dev\n# centos\nsudo yum install sox sox-devel\n</code></pre>\n</li>\n</ul>\n<h5>Model download</h5>\n<p>We strongly recommend that you download our pretrained <code>Fun-CosyVoice3-0.5B</code> <code>CosyVoice2-0.5B</code> <code>CosyVoice-300M</code> <code>CosyVoice-300M-SFT</code> <code>CosyVoice-300M-Instruct</code> model and <code>CosyVoice-ttsfrd</code> resource.</p>\n<pre><code class=\"language-python\"># modelscope SDK model download\nfrom modelscope import snapshot_download\nsnapshot_download('FunAudioLLM/Fun-CosyVoice3-0.5B-2512', local_dir='pretrained_models/Fun-CosyVoice3-0.5B')\nsnapshot_download('iic/CosyVoice2-0.5B', local_dir='pretrained_models/CosyVoice2-0.5B')\nsnapshot_download('iic/CosyVoice-300M', local_dir='pretrained_models/CosyVoice-300M')\nsnapshot_download('iic/CosyVoice-300M-SFT', local_dir='pretrained_models/CosyVoice-300M-SFT')\nsnapshot_download('iic/CosyVoice-300M-Instruct', local_dir='pretrained_models/CosyVoice-300M-Instruct')\nsnapshot_download('iic/CosyVoice-ttsfrd', local_dir='pretrained_models/CosyVoice-ttsfrd')\n\n# for oversea users, huggingface SDK model download\nfrom huggingface_hub import snapshot_download\nsnapshot_download('FunAudioLLM/Fun-CosyVoice3-0.5B-2512', local_dir='pretrained_models/Fun-CosyVoice3-0.5B')\nsnapshot_download('FunAudioLLM/CosyVoice2-0.5B', local_dir='pretrained_models/CosyVoice2-0.5B')\nsnapshot_download('FunAudioLLM/CosyVoice-300M', local_dir='pretrained_models/CosyVoice-300M')\nsnapshot_download('FunAudioLLM/CosyVoice-300M-SFT', local_dir='pretrained_models/CosyVoice-300M-SFT')\nsnapshot_download('FunAudioLLM/CosyVoice-300M-Instruct', local_dir='pretrained_models/CosyVoice-300M-Instruct')\nsnapshot_download('FunAudioLLM/CosyVoice-ttsfrd', local_dir='pretrained_models/CosyVoice-ttsfrd')\n</code></pre>\n<p>Optionally, you can unzip <code>ttsfrd</code> resource and install <code>ttsfrd</code> package for better text normalization performance.</p>\n<p>Notice that this step is not necessary. If you do not install <code>ttsfrd</code> package, we will use wetext by default.</p>\n<pre><code class=\"language-sh\">cd pretrained_models/CosyVoice-ttsfrd/\nunzip resource.zip -d .\npip install ttsfrd_dependency-0.1-py3-none-any.whl\npip install ttsfrd-0.4.2-cp310-cp310-linux_x86_64.whl\n</code></pre>\n<h5>Basic Usage</h5>\n<p>We strongly recommend using <code>Fun-CosyVoice3-0.5B</code> for better performance.\nFollow the code in <code>example.py</code> for detailed usage of each model.</p>\n<pre><code class=\"language-sh\">python example.py\n</code></pre>\n<h6>vLLM Usage</h6>\n<p>CosyVoice2/3 now supports <strong>vLLM 0.11.x+ (V1 engine)</strong> and <strong>vLLM 0.9.0 (legacy)</strong>.\nOlder vllm version(&lt;0.9.0) do not support CosyVoice inference, and versions in between (e.g., 0.10.x) are not tested.</p>\n<p>Notice that <code>vllm</code> has a lot of specific requirements. You can create a new env to in case your hardward do not support vllm and old env is corrupted.</p>\n<pre><code class=\"language-sh\">conda create -n cosyvoice_vllm --clone cosyvoice\nconda activate cosyvoice_vllm\n# for vllm==0.9.0\npip install vllm==v0.9.0 transformers==4.51.3 numpy==1.26.4 -i https://mirrors.aliyun.com/pypi/simple/ --trusted-host=mirrors.aliyun.com\n# for vllm&gt;=0.11.0\npip install vllm==v0.11.0 transformers==4.57.1 numpy==1.26.4 -i https://mirrors.aliyun.com/pypi/simple/ --trusted-host=mirrors.aliyun.com\npython vllm_example.py\n</code></pre>\n<h6>Start web demo</h6>\n<p>You can use our web demo page to get familiar with CosyVoice quickly.</p>\n<p>Please see the demo website for details.</p>\n<pre><code class=\"language-python\"># change iic/CosyVoice-300M-SFT for sft inference, or iic/CosyVoice-300M-Instruct for instruct inference\npython3 webui.py --port 50000 --model_dir pretrained_models/CosyVoice-300M\n</code></pre>\n<h6>Advanced Usage</h6>\n<p>For advanced users, we have provided training and inference scripts in <code>examples/libritts</code>.</p>\n<h6>Build for deployment</h6>\n<p>Optionally, if you want service deployment,\nYou can run the following steps.</p>\n<pre><code class=\"language-sh\">cd runtime/python\ndocker build -t cosyvoice:v1.0 .\n# change iic/CosyVoice-300M to iic/CosyVoice-300M-Instruct if you want to use instruct inference\n# for grpc usage\ndocker run -d --runtime=nvidia -p 50000:50000 cosyvoice:v1.0 /bin/bash -c \"cd /opt/CosyVoice/CosyVoice/runtime/python/grpc &amp;&amp; python3 server.py --port 50000 --max_conc 4 --model_dir iic/CosyVoice-300M &amp;&amp; sleep infinity\"\ncd grpc &amp;&amp; python3 client.py --port 50000 --mode &lt;sft|zero_shot|cross_lingual|instruct&gt;\n# for fastapi usage\ndocker run -d --runtime=nvidia -p 50000:50000 cosyvoice:v1.0 /bin/bash -c \"cd /opt/CosyVoice/CosyVoice/runtime/python/fastapi &amp;&amp; python3 server.py --port 50000 --model_dir iic/CosyVoice-300M &amp;&amp; sleep infinity\"\ncd fastapi &amp;&amp; python3 client.py --port 50000 --mode &lt;sft|zero_shot|cross_lingual|instruct&gt;\n</code></pre>\n<h6>Using Nvidia TensorRT-LLM for deployment</h6>\n<p>Using TensorRT-LLM to accelerate cosyvoice2 llm could give 4x acceleration comparing with huggingface transformers implementation.\nTo quick start:</p>\n<pre><code class=\"language-sh\">cd runtime/triton_trtllm\ndocker compose up -d\n</code></pre>\n<p>For more details, you could check <a href=\"https://github.com/FunAudioLLM/CosyVoice/tree/main/runtime/triton_trtllm\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a></p>",
+    "truncated": false,
+    "chars": 5466
+   },
+   "usage": {
+    "title": "Basic Usage",
+    "html": "<p>We strongly recommend using <code>Fun-CosyVoice3-0.5B</code> for better performance.\nFollow the code in <code>example.py</code> for detailed usage of each model.</p>\n<pre><code class=\"language-sh\">python example.py\n</code></pre>\n<h6>vLLM Usage</h6>\n<p>CosyVoice2/3 now supports <strong>vLLM 0.11.x+ (V1 engine)</strong> and <strong>vLLM 0.9.0 (legacy)</strong>.\nOlder vllm version(&lt;0.9.0) do not support CosyVoice inference, and versions in between (e.g., 0.10.x) are not tested.</p>\n<p>Notice that <code>vllm</code> has a lot of specific requirements. You can create a new env to in case your hardward do not support vllm and old env is corrupted.</p>\n<pre><code class=\"language-sh\">conda create -n cosyvoice_vllm --clone cosyvoice\nconda activate cosyvoice_vllm\n# for vllm==0.9.0\npip install vllm==v0.9.0 transformers==4.51.3 numpy==1.26.4 -i https://mirrors.aliyun.com/pypi/simple/ --trusted-host=mirrors.aliyun.com\n# for vllm&gt;=0.11.0\npip install vllm==v0.11.0 transformers==4.57.1 numpy==1.26.4 -i https://mirrors.aliyun.com/pypi/simple/ --trusted-host=mirrors.aliyun.com\npython vllm_example.py\n</code></pre>\n<h6>Start web demo</h6>\n<p>You can use our web demo page to get familiar with CosyVoice quickly.</p>\n<p>Please see the demo website for details.</p>\n<pre><code class=\"language-python\"># change iic/CosyVoice-300M-SFT for sft inference, or iic/CosyVoice-300M-Instruct for instruct inference\npython3 webui.py --port 50000 --model_dir pretrained_models/CosyVoice-300M\n</code></pre>\n<h6>Advanced Usage</h6>\n<p>For advanced users, we have provided training and inference scripts in <code>examples/libritts</code>.</p>\n<h6>Build for deployment</h6>\n<p>Optionally, if you want service deployment,\nYou can run the following steps.</p>\n<pre><code class=\"language-sh\">cd runtime/python\ndocker build -t cosyvoice:v1.0 .\n# change iic/CosyVoice-300M to iic/CosyVoice-300M-Instruct if you want to use instruct inference\n# for grpc usage\ndocker run -d --runtime=nvidia -p 50000:50000 cosyvoice:v1.0 /bin/bash -c \"cd /opt/CosyVoice/CosyVoice/runtime/python/grpc &amp;&amp; python3 server.py --port 50000 --max_conc 4 --model_dir iic/CosyVoice-300M &amp;&amp; sleep infinity\"\ncd grpc &amp;&amp; python3 client.py --port 50000 --mode &lt;sft|zero_shot|cross_lingual|instruct&gt;\n# for fastapi usage\ndocker run -d --runtime=nvidia -p 50000:50000 cosyvoice:v1.0 /bin/bash -c \"cd /opt/CosyVoice/CosyVoice/runtime/python/fastapi &amp;&amp; python3 server.py --port 50000 --model_dir iic/CosyVoice-300M &amp;&amp; sleep infinity\"\ncd fastapi &amp;&amp; python3 client.py --port 50000 --mode &lt;sft|zero_shot|cross_lingual|instruct&gt;\n</code></pre>\n<h6>Using Nvidia TensorRT-LLM for deployment</h6>\n<p>Using TensorRT-LLM to accelerate cosyvoice2 llm could give 4x acceleration comparing with huggingface transformers implementation.\nTo quick start:</p>\n<pre><code class=\"language-sh\">cd runtime/triton_trtllm\ndocker compose up -d\n</code></pre>\n<p>For more details, you could check <a href=\"https://github.com/FunAudioLLM/CosyVoice/tree/main/runtime/triton_trtllm\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a></p>",
+    "truncated": false,
+    "chars": 2691
+   },
+   "features": {
+    "title": "Key Features",
+    "html": "<ul>\n<li><strong>Language Coverage</strong>: Covers 9 common languages (Chinese, English, Japanese, Korean, German, Spanish, French, Italian, Russian), 18+ Chinese dialects/accents (Guangdong, Minnan, Sichuan, Dongbei, Shan3xi, Shan1xi, Shanghai, Tianjin, Shandong, Ningxia, Gansu, etc.) and meanwhile supports both multi-lingual/cross-lingual zero-shot voice cloning.</li>\n<li><strong>Content Consistency &amp; Naturalness</strong>: Achieves state-of-the-art performance in content consistency, speaker similarity, and prosody naturalness.</li>\n<li><strong>Pronunciation Inpainting</strong>: Supports pronunciation inpainting of Chinese Pinyin and English CMU phonemes, providing more controllability and thus suitable for production use.</li>\n<li><strong>Text Normalization</strong>: Supports reading of numbers, special symbols and various text formats without a traditional frontend module.</li>\n<li><strong>Bi-Streaming</strong>: Support both text-in streaming and audio-out streaming, and achieves latency as low as 150ms while maintaining high-quality audio output.</li>\n<li><strong>Instruct Support</strong>: Supports various instructions such as languages, dialects, emotions, speed, volume, etc.</li>\n</ul>",
+    "truncated": false,
+    "chars": 1084
+   }
+  },
+  "headings": 19,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:36.862Z",
+  "checked_at": "2026-11-16T04:33:36.862Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:13.194Z",
+ "contributors": {
+  "count": 51,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:25.828Z"
+ }
+}

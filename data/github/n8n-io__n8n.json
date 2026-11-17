@@ -1,0 +1,125 @@
+{
+ "id": "n8n-io/n8n",
+ "github_id": 193215554,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxOTMyMTU1NTQ=",
+ "full_name": "n8n-io/n8n",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "n8n",
+  "owner": "n8n-io",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/45487711?v=4",
+  "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+  "homepage": "https://n8n.io",
+  "html_url": "https://github.com/n8n-io/n8n",
+  "default_branch": "master",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "ai",
+   "apis",
+   "automation",
+   "cli",
+   "data-flow",
+   "development",
+   "integration-framework",
+   "integrations",
+   "ipaas",
+   "low-code",
+   "low-code-platform",
+   "mcp",
+   "mcp-client",
+   "mcp-server",
+   "n8n",
+   "no-code",
+   "self-hosted",
+   "typescript",
+   "workflow",
+   "workflow-automation"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 210677,
+  "forks": 61528,
+  "watchers": null,
+  "open_issues": 1280,
+  "open_prs": null,
+  "created_at": "2019-06-22T09:24:21Z",
+  "pushed_at": "2026-11-17T01:05:42Z",
+  "updated_at": "2026-11-17T01:29:34Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 827830,
+  "og_image": "https://opengraph.githubassets.com/1/n8n-io/n8n",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T18:48:03.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "n8n@2.47.7",
+  "name": "n8n@2.47.7",
+  "published_at": "2026-11-13T09:47:51Z",
+  "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.47.7",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v1",
+  "name": "v1: :rocket: Release 1.123.97 (#43969)",
+  "published_at": "2026-11-16T08:17:16Z",
+  "url": "https://github.com/n8n-io/n8n/releases/tag/v1"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 3978,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<p>Try n8n instantly with our install script (requires <a href=\"https://www.docker.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker</a>):</p>\n<pre><code class=\"language-sh\">curl -fsSL https://get.n8n.io | sh\n</code></pre>\n<p>Or deploy manually with <a href=\"https://docs.n8n.io/hosting/installation/docker/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker</a>:</p>\n<pre><code>docker volume create n8n_data\ndocker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n\n</code></pre>\n<p>Access the editor at <a href=\"http://localhost:5678\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:5678</a></p>",
+    "truncated": false,
+    "chars": 401
+   },
+   "usage": null,
+   "features": {
+    "title": "Key Capabilities",
+    "html": "<ul>\n<li><strong>AI-Native Automation Platform</strong>: Build and operationalize AI workflows and multi-step agents using your own data, models, and tools</li>\n<li><strong>Model Flexibility, No Lock-In</strong>: Connect to OpenAI, Anthropic, Google, or open-source models and switch providers without changing your architecture</li>\n<li><strong>From Prototype to Production</strong>: Design multi-step AI workflows with logic, tool use, human approvals, and full observability</li>\n<li><strong>Code When You Need It</strong>: Combine visual building with JavaScript, Python, and npm packages for advanced AI workflows</li>\n<li><strong>Enterprise-Ready AI</strong>: Self-host or deploy securely with role-based access, audit trails, and support for sensitive data</li>\n<li><strong>Leverage What Already Exists</strong>: 1500+ integrations and 9,000+ workflow <a href=\"https://n8n.io/workflows\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">templates</a> to connect AI with your existing systems</li>\n</ul>",
+    "truncated": false,
+    "chars": 821
+   }
+  },
+  "headings": 9,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:16.453Z",
+  "checked_at": "2026-11-17T02:19:16.453Z"
+ },
+ "contributors": {
+  "count": 864,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:27.038Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:16.453Z"
+}

@@ -1,0 +1,120 @@
+{
+ "id": "meilisearch/meilisearch",
+ "github_id": 130688011,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxMzA2ODgwMTE=",
+ "full_name": "meilisearch/meilisearch",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "meilisearch",
+  "owner": "meilisearch",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/43250847?v=4",
+  "description": "A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications.",
+  "homepage": "https://www.meilisearch.com",
+  "html_url": "https://github.com/meilisearch/meilisearch",
+  "default_branch": "main",
+  "language": "Rust",
+  "languages": null,
+  "topics": [
+   "ai",
+   "api",
+   "app-search",
+   "database",
+   "enterprise-search",
+   "faceting",
+   "full-text-search",
+   "fuzzy-search",
+   "geosearch",
+   "hybrid-search",
+   "instantsearch",
+   "search",
+   "search-as-you-type",
+   "search-engine",
+   "semantic-search",
+   "site-search",
+   "typo-tolerance",
+   "vector-database",
+   "vector-search",
+   "vectors"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 59877,
+  "forks": 2797,
+  "watchers": null,
+  "open_issues": 318,
+  "open_prs": null,
+  "created_at": "2018-04-23T11:45:28Z",
+  "pushed_at": "2026-11-16T17:19:42Z",
+  "updated_at": "2026-11-17T01:15:21Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 93704,
+  "og_image": "https://opengraph.githubassets.com/1/meilisearch/meilisearch",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T14:36:34.000Z",
+  "commits_90d": 401,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.57.0",
+  "name": "v1.57.0 🎯",
+  "published_at": "2026-11-16T09:53:30Z",
+  "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.57.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 26213,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick start",
+    "html": "<h5>1. Get a Meilisearch instance</h5>\n<p><strong>Option A: Meilisearch Cloud (recommended).</strong> No install. <a href=\"https://cloud.meilisearch.com/register?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=quick-start\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Start a 14-day trial</a>, then create a project and pick a region. Your project URL and API keys are on the project settings page.</p>\n<p><strong>Option B: Self-host.</strong> Run the open-source engine locally with Docker:</p>\n<pre><code class=\"language-sh\">docker run -it --rm \\\n  -p 7700:7700 \\\n  -v $(pwd)/meili_data:/meili_data \\\n  getmeili/meilisearch:latest\n</code></pre>\n<p>Prefer a binary? Run:</p>\n<pre><code class=\"language-sh\">curl -L https://install.meilisearch.com | sh\n./meilisearch\n</code></pre>\n<p>More options: <a href=\"https://www.meilisearch.com/docs/resources/self_hosting/getting_started/install_locally?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=quick-start\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">install Meilisearch locally</a>.</p>\n<h5>2. Add documents</h5>\n<pre><code class=\"language-sh\">curl -X POST \"https://ms-url-example.meilisearch.io/indexes/movies/documents\" \\\n  -H 'Content-Type: application/json' \\\n  -H \"Authorization: Bearer apiKey\" \\\n  --data-binary '[\n    { \"id\": 1, \"title\": \"Carol\", \"genres\": [\"Romance\", \"Drama\"] },\n    { \"id\": 2, \"title\": \"Wonder Woman\", \"genres\": [\"Action\", \"Adventure\"] },\n    { \"id\": 3, \"title\": \"Life of Pi\", \"genres\": [\"Adventure\", \"Drama\"] }\n  ]'\n</code></pre>\n<h5>3. Search, typo included</h5>\n<pre><code class=\"language-sh\">curl -X POST \"https://ms-url-example.meilisearch.io/indexes/movies/search\" \\\n  -H 'Content-Type: application/json' \\\n  -H \"Authorization: Bearer apiKey\" \\\n  --data-binary '{ \"q\": \"wondre woman\" }'\n</code></pre>\n<p>Meilisearch returns <em>Wonder Woman</em> despite the typo. Indexing is asynchronous, so if the search comes back empty, wait a moment and retry.</p>\n<p>Next steps: follow a 5-minute quick start for <a href=\"https://www.meilisearch.com/docs/getting_started/sdks/javascript?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=quick-start\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">JavaScript</a>, <a href=\"https://www.meilisearch.com/docs/getting_started/sdks/python?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=quick-start\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Python</a>, <a href=\"https://www.meilisearch.com/docs/getting_started/sdks/php?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=quick-start\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PHP</a>, <a href=\"https://www.meilisearch.com/docs/getting_started/sdks/ruby?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=quick-start\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Ruby</a>, <a href=\"https://www.meilisearch.com/docs/getting_started/sdks/go?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=quick-start\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Go</a>, <a href=\"https://www.meilisearch.com/docs/getting_started/sdks/rust?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=quick-start\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Rust</a>, or <a href=\"https://www.meilisearch.com/docs/getting_started/instant_meilisearch/react?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=quick-start\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">React</a>, or follow the <a href=\"https://www.meilisearch.com/docs/getting_started/first_project?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=quick-start\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Cloud getting started guide</a>.</p>",
+    "truncated": false,
+    "chars": 2976
+   },
+   "usage": {
+    "title": "Examples",
+    "html": "<ul>\n<li><a href=\"https://where2watch.meilisearch.com/?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=demos\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Media</strong></a> — Search movies and streaming platforms to watch them using <a href=\"https://www.meilisearch.com/solutions/hybrid-search?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=demos\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">hybrid search</a>.</li>\n<li><a href=\"https://what2watch.meilisearch.com/?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=demos\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Agentic search</strong></a> — Chat with an AI agent to recommend movies and streaming platforms.</li>\n<li><a href=\"https://flickr.meilisearch.com/?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=demos\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Flickr</strong></a> — Search and explore one hundred million Flickr images with semantic search.</li>\n<li><a href=\"https://ecommerce.meilisearch.com/?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=demos\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Ecommerce</strong></a> — Ecommerce website using disjunctive <a href=\"https://www.meilisearch.com/docs/learn/fine_tuning_results/faceted_search?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=demos\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">facets</a>, range and rating filtering, and pagination.</li>\n<li><a href=\"https://www.meilisearch.com/docs/resources/demos/home_booking?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=demos\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Home Booking</strong></a> - A conversational search demo for finding holiday rentals using natural language.</li>\n<li><a href=\"https://www.meilisearch.com/docs/resources/demos/playground?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=demos\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Search Playground</strong></a> — An interactive playground to explore Meilisearch search features.</li>\n<li><a href=\"https://www.meilisearch.com/docs/resources/demos/personalized_search?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=demos\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>Personalization</strong></a> — A demo showcasing personalized search results tailored to individual users.</li>\n<li><a href=\"https://saas.meilisearch.com/?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=demos\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><strong>SaaS</strong></a> — Search for contacts, deals, and companies in this <a href=\"https://www.meilisearch.com/docs/learn/security/multitenancy_tenant_tokens?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=demos\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">multi-tenant</a> CRM application.</li>\n</ul>\n<p>See the list of all our <a href=\"https://www.meilisearch.com/docs/resources/demos/overview?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=demos\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">interactive demos</a>.</p>",
+    "truncated": false,
+    "chars": 2375
+   },
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li><strong>Hybrid search:</strong> Combine the best of both <a href=\"https://www.meilisearch.com/docs/learn/experimental/vector_search?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">semantic</a> &amp; full-text search to get the most relevant results</li>\n<li><strong>Search-as-you-type:</strong> Find &amp; display results in less than 50 milliseconds to provide an intuitive experience</li>\n<li><strong><a href=\"https://www.meilisearch.com/docs/learn/relevancy/typo_tolerance_settings?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Typo tolerance</a>:</strong> get relevant matches even when queries contain typos and misspellings</li>\n<li><strong><a href=\"https://www.meilisearch.com/docs/learn/fine_tuning_results/filtering?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Filtering</a> and <a href=\"https://www.meilisearch.com/docs/learn/fine_tuning_results/faceted_search?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">faceted search</a>:</strong> enhance your users' search experience with custom filters and build a faceted search interface in a few lines of code</li>\n<li><strong><a href=\"https://www.meilisearch.com/docs/learn/fine_tuning_results/sorting?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Sorting</a>:</strong> sort results based on price, date, or pretty much anything else your users need</li>\n<li><strong><a href=\"https://www.meilisearch.com/docs/learn/relevancy/synonyms?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Synonym support</a>:</strong> configure synonyms to include more relevant content in your search results</li>\n<li><strong><a href=\"https://www.meilisearch.com/docs/learn/fine_tuning_results/geosearch?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Geosearch</a>:</strong> filter and sort documents based on geographic data</li>\n<li><strong><a href=\"https://www.meilisearch.com/docs/learn/what_is_meilisearch/language?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Extensive language support</a>:</strong> search datasets in any language, with optimized support for Chinese, Japanese, Hebrew, and languages using the Latin alphabet</li>\n<li><strong><a href=\"https://www.meilisearch.com/docs/learn/security/master_api_keys?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Security management</a>:</strong> control which users can access what data with API keys that allow fine-grained permissions handling</li>\n<li><strong><a href=\"https://www.meilisearch.com/docs/learn/security/multitenancy_tenant_tokens?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Multi-Tenancy</a>:</strong> personalize search results for any number of application tenants</li>\n<li><strong>Highly Customizable:</strong> customize Meilisearch to your specific needs or use our out-of-the-box and hassle-free presets</li>\n<li><strong><a href=\"https://www.meilisearch.com/docs/reference/api/overview?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">RESTful API</a>:</strong> integrate Meilisearch in your technical stack with our plugins and SDKs</li>\n<li><strong><a href=\"https://www.meilisearch.com/docs/capabilities/conversational_search/overview?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Conversational search</a>:</strong> let users ask questions in natural language and get AI-generated answers grounded in your search results</li>\n<li><strong><a href=\"https://www.meilisearch.com/docs/capabilities/personalization/overview?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Personalization</a>:</strong> tailor search results to individual users based on their preferences and behavior</li>\n<li><strong><a href=\"https://www.meilisearch.com/docs/capabilities/search_rules/overview?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Search rules</a>:</strong> define custom rules to dynamically adjust search behavior based on context</li>\n<li><strong><a href=\"https://www.meilisearch.com/docs/capabilities/indexing/how_to/document_relations?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Document relations</a>:</strong> link documents across indexes to enrich search results with related data</li>\n<li><strong><a href=\"https://www.meilisearch.com/docs/resources/self_hosting/sharding/overview?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Replication &amp; sharding</a>:</strong> scale horizontally by distributing your data across multiple nodes</li>\n<li><strong>AI-ready:</strong> works out of the box with LangChain and MCP (see <a href=\"https://github.com/meilisearch/meilisearch#-ai--llm-integrations\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AI &amp; LLM integrations</a>)</li>\n<li><strong>Easy to deploy and maintain:</strong> start in minutes on <a href=\"https://www.meilisearch.com/cloud?utm_campaign=oss&amp;utm_source=github&amp;utm_medium=meilisearch&amp;utm_content=features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Meilisearch Cloud</a> with no servers to manage, or self-host a single binary with Docker, cURL, Homebrew, or APT</li>\n</ul>",
+    "truncated": false,
+    "chars": 4662
+   }
+  },
+  "headings": 21,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:50.241Z",
+  "checked_at": "2026-11-17T02:19:50.241Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:50.241Z"
+}

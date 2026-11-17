@@ -1,0 +1,101 @@
+{
+ "id": "jianchang512/pyvideotrans",
+ "github_id": 699432836,
+ "node_id": "R_kgDOKbB_hA",
+ "full_name": "jianchang512/pyvideotrans",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:06.954Z",
+ "meta": {
+  "name": "pyvideotrans",
+  "owner": "jianchang512",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/3378335?v=4",
+  "description": "Translate the video from one language to another and embed dubbing & subtitles.",
+  "homepage": "https://pyvideotrans.com",
+  "html_url": "https://github.com/jianchang512/pyvideotrans",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "speech-to-text",
+   "stt",
+   "subtitle-translation",
+   "text-to-speech",
+   "tts",
+   "video-transition"
+  ],
+  "license": {
+   "spdx": "GPL-3.0",
+   "name": "GNU General Public License v3.0"
+  },
+  "stars": 19761,
+  "forks": 2460,
+  "watchers": null,
+  "open_issues": 8,
+  "open_prs": null,
+  "created_at": "2023-10-02T16:13:19Z",
+  "pushed_at": "2026-11-16T09:00:08Z",
+  "updated_at": "2026-11-17T01:23:43Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 500247,
+  "og_image": "https://opengraph.githubassets.com/1/jianchang512/pyvideotrans",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T09:00:07.000Z",
+  "commits_90d": 993,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v4.18",
+  "name": "windows-v4.18",
+  "published_at": "2026-11-09T18:07:13Z",
+  "url": "https://github.com/jianchang512/pyvideotrans/releases/tag/v4.18",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 12005,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start (Windows Users)",
+    "html": "<p>We provide a pre-packaged <code>.exe</code> version for Windows 10/11 users, requiring no Python environment configuration.</p>\n<ol>\n<li><strong>Download</strong>: <a href=\"https://github.com/jianchang512/pyvideotrans/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Click to download the latest pre-packaged version</a></li>\n<li><strong>Unzip</strong>: Extract the compressed file to a path without Chinese characters or spaces (e.g., <code>D:\\pyVideoTrans</code>).</li>\n<li><strong>Run</strong>: Double-click <code>sp.exe</code> inside the folder to launch.</li>\n</ol>\n<blockquote>\n<p><strong>Note</strong>:</p>\n<ul>\n<li>Do not run directly from within the compressed archive.</li>\n<li>To use GPU acceleration(NVIDIA GPU only), ensure <strong>CUDA 12.8</strong> and <strong>cuDNN 9.11</strong> are installed.</li>\n</ul>\n</blockquote>\n<hr />",
+    "truncated": false,
+    "chars": 599
+   },
+   "usage": null,
+   "features": {
+    "title": "Core Features",
+    "html": "<blockquote>\n<p><a href=\"https://github.com/jianchang512/pyvideotrans/blob/main/docs/architecture.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Technical Architecture and Principles</a></p>\n</blockquote>\n<ul>\n<li><strong>Fully Automatic Video Translation</strong>: One-click workflow: Speech Recognition (ASR) → Subtitle Translation → Speech Synthesis (TTS) → Video Synthesis.</li>\n<li><strong>Audio Transcription / Subtitle Generation</strong>: Batch convert audio/video to SRT subtitles, supporting <strong>Speaker Diarization</strong> to distinguish between different roles.</li>\n<li><strong>️Multi-Role AI Dubbing</strong>: Assign different AI dubbing voices to different speakers.</li>\n<li><strong>Voice Cloning</strong>: Integrates models like <strong>F5-TTS, CosyVoice, GPT-SoVITS</strong> for zero-shot voice cloning.</li>\n<li><strong>Powerful Model Support</strong>:<ul>\n<li><strong>ASR</strong>: Faster-Whisper (Local), OpenAI Whisper, Alibaba Qwen, ByteDance Volcano, Azure, Google, etc.</li>\n<li><strong>LLM Translation</strong>: DeepSeek, ChatGPT, Claude, Gemini, MiniMax, Ollama (Local), Alibaba Bailian, etc.</li>\n<li><strong>TTS</strong>: Edge-TTS (Free), OpenAI, Azure, Minimaxi, ChatTTS, ChatterBox, etc.</li>\n</ul>\n</li>\n<li><strong>️Interactive Editing</strong>: Supports pausing and manual proofreading at each stage (recognition, translation, dubbing) to ensure accuracy.</li>\n<li><strong>️Utility Toolkit</strong>: Includes auxiliary tools such as vocal separation, video/subtitle merging, audio-video alignment, and transcript matching.</li>\n<li><strong>Command Line Interface (CLI)</strong>: Supports headless operation, convenient for server deployment or batch processing.</li>\n<li><strong>Web Interface (WebUI)</strong>: Browser-based interface for remote access or internal network deployment.</li>\n</ul>\n<hr />",
+    "truncated": false,
+    "chars": 1422
+   }
+  },
+  "headings": 13,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:44.371Z",
+  "checked_at": "2026-11-17T02:20:44.371Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:44.371Z"
+}

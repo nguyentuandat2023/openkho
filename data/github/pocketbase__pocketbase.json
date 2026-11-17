@@ -1,0 +1,94 @@
+{
+ "id": "pocketbase/pocketbase",
+ "github_id": 510607652,
+ "node_id": "R_kgDOHm9BJA",
+ "full_name": "pocketbase/pocketbase",
+ "status": "archived",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "pocketbase",
+  "owner": "pocketbase",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/101000011?v=4",
+  "description": "Open Source realtime backend in 1 file",
+  "homepage": "https://pocketbase.io",
+  "html_url": "https://github.com/pocketbase/pocketbase",
+  "default_branch": "master",
+  "language": "Go",
+  "languages": null,
+  "topics": [
+   "authentication",
+   "backend",
+   "golang",
+   "realtime"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 61585,
+  "forks": 3770,
+  "watchers": null,
+  "open_issues": 1,
+  "open_prs": null,
+  "created_at": "2022-07-05T06:06:21Z",
+  "pushed_at": "2026-10-26T18:07:11Z",
+  "updated_at": "2026-11-16T19:33:14Z",
+  "archived": true,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 147003,
+  "og_image": "https://opengraph.githubassets.com/1/pocketbase/pocketbase",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-10-26T18:07:11.000Z",
+  "commits_90d": 37,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.40.6",
+  "name": "v0.40.6 Release",
+  "published_at": "2026-10-23T11:25:50Z",
+  "url": "https://github.com/pocketbase/pocketbase/releases/tag/v0.40.6",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 7075,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": null,
+   "usage": {
+    "title": "Building and running the repo main.go example",
+    "html": "<p>To build the minimal standalone executable, like the prebuilt ones in the releases page, you can simply run <code>go build</code> inside the <code>examples/base</code> directory:</p>\n<ol start=\"0\">\n<li><a href=\"https://go.dev/doc/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Install Go 1.27+</a> (<em>if you haven't already</em>)</li>\n<li>Clone/download the repo</li>\n<li>Navigate to <code>examples/base</code></li>\n<li>Run <code>CGO_ENABLED=0 go build</code> to build a binary for your current environment\n<em>(or to target other platforms use <code>GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build</code>; see <a href=\"https://go.dev/doc/install/source#environment\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://go.dev/doc/install/source#environment</a>)</em></li>\n<li>Start the created executable by running <code>./base serve</code>.</li>\n</ol>\n<p>Note that the supported build targets by the pure Go SQLite driver at the moment are:</p>\n<table>\n<thead>\n<tr>\n<th>GOOS</th>\n<th>GOARCH</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>darwin</td>\n<td>amd64</td>\n</tr>\n<tr>\n<td>darwin</td>\n<td>arm64</td>\n</tr>\n<tr>\n<td>freebsd</td>\n<td>386</td>\n</tr>\n<tr>\n<td>freebsd</td>\n<td>amd64</td>\n</tr>\n<tr>\n<td>freebsd</td>\n<td>arm</td>\n</tr>\n<tr>\n<td>freebsd</td>\n<td>arm64</td>\n</tr>\n<tr>\n<td>linux</td>\n<td>386</td>\n</tr>\n<tr>\n<td>linux</td>\n<td>amd64</td>\n</tr>\n<tr>\n<td>linux</td>\n<td>arm</td>\n</tr>\n<tr>\n<td>linux</td>\n<td>arm64</td>\n</tr>\n<tr>\n<td>linux</td>\n<td>loong64</td>\n</tr>\n<tr>\n<td>linux</td>\n<td>ppc64le</td>\n</tr>\n<tr>\n<td>linux</td>\n<td>riscv64</td>\n</tr>\n<tr>\n<td>linux</td>\n<td>s390x</td>\n</tr>\n<tr>\n<td>netbsd</td>\n<td>amd64</td>\n</tr>\n<tr>\n<td>openbsd</td>\n<td>amd64</td>\n</tr>\n<tr>\n<td>openbsd</td>\n<td>arm64</td>\n</tr>\n<tr>\n<td>windows</td>\n<td>386</td>\n</tr>\n<tr>\n<td>windows</td>\n<td>amd64</td>\n</tr>\n<tr>\n<td>windows</td>\n<td>arm64</td>\n</tr>\n</tbody></table>",
+    "truncated": false,
+    "chars": 1146
+   },
+   "features": null
+  },
+  "headings": 8,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:29.402Z",
+  "checked_at": "2026-11-16T05:08:29.402Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:20.793Z",
+ "contributors": null
+}

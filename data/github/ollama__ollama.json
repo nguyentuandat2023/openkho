@@ -1,0 +1,109 @@
+{
+ "id": "ollama/ollama",
+ "github_id": 658928958,
+ "node_id": "R_kgDOJ0Z1Pg",
+ "full_name": "ollama/ollama",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.074Z",
+ "meta": {
+  "name": "ollama",
+  "owner": "ollama",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/151674099?v=4",
+  "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "homepage": "https://ollama.com",
+  "html_url": "https://github.com/ollama/ollama",
+  "default_branch": "main",
+  "language": "Go",
+  "languages": null,
+  "topics": [
+   "deepseek",
+   "gemma",
+   "glm",
+   "go",
+   "golang",
+   "gpt-oss",
+   "llama",
+   "llm",
+   "llms",
+   "minimax",
+   "mistral",
+   "muse",
+   "ollama",
+   "qwen"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 187277,
+  "forks": 19114,
+  "watchers": null,
+  "open_issues": 4663,
+  "open_prs": null,
+  "created_at": "2023-06-26T19:39:32Z",
+  "pushed_at": "2026-11-16T18:14:32Z",
+  "updated_at": "2026-11-17T02:12:48Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 97755,
+  "og_image": "https://opengraph.githubassets.com/1/ollama/ollama",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T16:43:54.000Z",
+  "commits_90d": 176,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.40.16",
+  "name": "v0.40.16",
+  "published_at": "2026-11-09T23:45:36Z",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v0.40.17-rc1",
+  "name": "v0.40.17",
+  "published_at": "2026-11-16T19:02:48Z",
+  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 19431,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Download",
+    "html": "<h5>macOS</h5>\n<pre><code class=\"language-shell\">curl -fsSL https://ollama.com/install.sh | sh\n</code></pre>\n<p>or <a href=\"https://ollama.com/download/Ollama.dmg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">download manually</a></p>\n<h5>Windows</h5>\n<pre><code class=\"language-shell\">irm https://ollama.com/install.ps1 | iex\n</code></pre>\n<p>or <a href=\"https://ollama.com/download/OllamaSetup.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">download manually</a></p>\n<h5>Linux</h5>\n<pre><code class=\"language-shell\">curl -fsSL https://ollama.com/install.sh | sh\n</code></pre>\n<p><a href=\"https://docs.ollama.com/linux#manual-install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Manual install instructions</a></p>\n<h5>Docker</h5>\n<p>The official <a href=\"https://hub.docker.com/r/ollama/ollama\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Ollama Docker image</a> <code>ollama/ollama</code> is available on Docker Hub.</p>\n<h5>Libraries</h5>\n<ul>\n<li><a href=\"https://github.com/ollama/ollama-python\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ollama-python</a></li>\n<li><a href=\"https://github.com/ollama/ollama-js\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ollama-js</a></li>\n</ul>\n<h5>Community</h5>\n<ul>\n<li><a href=\"https://discord.gg/ollama\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Discord</a></li>\n<li><a href=\"https://x.com/ollama\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">𝕏 (Twitter)</a></li>\n<li><a href=\"https://reddit.com/r/ollama\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Reddit</a></li>\n</ul>",
+    "truncated": false,
+    "chars": 814
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 34,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:30.496Z",
+  "checked_at": "2026-11-17T02:19:30.496Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:30.496Z"
+}

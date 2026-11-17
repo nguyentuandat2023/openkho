@@ -1,0 +1,116 @@
+{
+ "id": "k2-fsa/sherpa-onnx",
+ "github_id": 531380835,
+ "node_id": "R_kgDOH6w6Yw",
+ "full_name": "k2-fsa/sherpa-onnx",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "sherpa-onnx",
+  "owner": "k2-fsa",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/71431748?v=4",
+  "description": "Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, RK NPU, Axera NPU, Ascend NPU, x86_64 servers, websocket server/client, support 12 programming languages",
+  "homepage": "https://k2-fsa.github.io/sherpa/onnx/index.html",
+  "html_url": "https://github.com/k2-fsa/sherpa-onnx",
+  "default_branch": "master",
+  "language": "C++",
+  "languages": null,
+  "topics": [
+   "aarch64",
+   "android",
+   "arm32",
+   "asr",
+   "cpp",
+   "csharp",
+   "dotnet",
+   "ios",
+   "lazarus",
+   "linux",
+   "macos",
+   "mfc",
+   "object-pascal",
+   "onnx",
+   "raspberry-pi",
+   "risc-v",
+   "speech-to-text",
+   "text-to-speech",
+   "vits",
+   "windows"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 15992,
+  "forks": 1881,
+  "watchers": null,
+  "open_issues": 650,
+  "open_prs": null,
+  "created_at": "2022-09-01T05:47:33Z",
+  "pushed_at": "2026-11-16T12:01:13Z",
+  "updated_at": "2026-11-17T00:58:52Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 19272,
+  "og_image": "https://opengraph.githubassets.com/1/k2-fsa/sherpa-onnx",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T09:57:22.000Z",
+  "commits_90d": 372,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "react-fa",
+  "name": "react-fa",
+  "published_at": "2026-11-17T01:01:29Z",
+  "url": "https://github.com/k2-fsa/sherpa-onnx/releases/tag/react-fa",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 60590,
+  "cjk_ratio": 0.02,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "KxPKkwxGWZs",
+    "url": "https://www.youtube.com/watch?v=KxPKkwxGWZs"
+   }
+  ],
+  "sections": {
+   "install": null,
+   "usage": null,
+   "features": null
+  },
+  "headings": 63,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:15.533Z",
+  "checked_at": "2026-11-17T02:19:15.533Z"
+ },
+ "contributors": {
+  "count": 279,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:24.086Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:15.533Z"
+}

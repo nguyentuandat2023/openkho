@@ -1,0 +1,120 @@
+{
+ "id": "onlook-dev/onlook",
+ "github_id": 820087727,
+ "node_id": "R_kgDOMOGLrw",
+ "full_name": "onlook-dev/onlook",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:06.955Z",
+ "meta": {
+  "name": "onlook",
+  "owner": "onlook-dev",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/157326433?v=4",
+  "description": "The Developer Tool for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your code with AI • World's best, top-most agent recommended #1 Developer tool for Designers and Visual Engineers to design with Real Code.",
+  "homepage": "https://onlook.com",
+  "html_url": "https://github.com/onlook-dev/onlook",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "ai",
+   "claude-code",
+   "codex",
+   "cursor",
+   "design",
+   "design-system",
+   "design-to-code",
+   "design-tool",
+   "figma",
+   "frontend",
+   "ide",
+   "nextjs",
+   "react",
+   "supabase",
+   "tailwindcss",
+   "typescript",
+   "ui",
+   "vibe-coding",
+   "vibecoding",
+   "visual-engineering"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 27233,
+  "forks": 2148,
+  "watchers": null,
+  "open_issues": 385,
+  "open_prs": null,
+  "created_at": "2024-06-25T19:16:02Z",
+  "pushed_at": "2026-11-17T01:38:13Z",
+  "updated_at": "2026-11-17T01:38:53Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 83030,
+  "og_image": "https://opengraph.githubassets.com/1/onlook-dev/onlook",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T01:38:08.000Z",
+  "commits_90d": 1,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.2.32",
+  "name": "Release - 0.2.32",
+  "published_at": "2025-07-17T18:36:21Z",
+  "url": "https://github.com/onlook-dev/onlook/releases/tag/v0.2.32",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v1-final",
+  "name": "v1-final",
+  "published_at": "2026-07-22T02:07:29Z",
+  "url": "https://github.com/onlook-dev/onlook/releases/tag/v1-final"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 10471,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<p>🖥️ <a href=\"https://www.onlook.com/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download the Desktop App</a> (Recommended) – The fastest way to get started with Onlook.</p>\n<ul>\n<li>macOS (Apple Silicon · Intel x64) → <a href=\"https://www.onlook.com/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></li>\n<li>Windows – Coming soon. Join the <a href=\"https://www.onlook.com/waitlist?os=windows\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Windows waitlist here</a> and be emailed when we have updates.</li>\n<li>Linux – No Linux artifact is published and we're still gauging demand for Linux. Join the <a href=\"https://www.onlook.com/waitlist?os=linux\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Linux waitlist here</a> and be emailed when we have updates.</li>\n</ul>\n<p>🧑‍💻 Run locally – Visit <a href=\"https://docs.onlook.com/developers\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs.onlook.com/developers</a> for details.</p>",
+    "truncated": false,
+    "chars": 644
+   },
+   "usage": {
+    "title": "An example workflow",
+    "html": "<ol>\n<li>Start a new empty project by clicking the \"New Draft\" button in the upper left corner of the projects page.</li>\n<li>Use the input box in the lower right corner of the screen to write what you'd like to be designed in Onlook.</li>\n<li>Answer clarifying questions from the agent, and wait for it to build</li>\n<li>Click to select individual frames for context in follow-up prompts, or double-click on a specific element to use the inline chat and guide the AI to edit that specific element.</li>\n<li>Prompt more ideas on one or multiple designs until you're ready to share your work with a colleague.</li>\n<li>Select the frame you'd like to share, and ask the agent to convert it into an Artifact for exporting.</li>\n<li>Export the artifact as HTML/CSS or as a PNG using the export button in the upper right corner of the frame. </li>\n<li>Paste the exported artifact in Slack, email, or any messaging tool.</li>\n</ol>",
+    "truncated": false,
+    "chars": 872
+   },
+   "features": null
+  },
+  "headings": 12,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:50.960Z",
+  "checked_at": "2026-11-17T02:20:50.960Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:50.960Z"
+}

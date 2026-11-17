@@ -1,0 +1,112 @@
+{
+ "id": "FlowiseAI/Flowise",
+ "github_id": 621803253,
+ "node_id": "R_kgDOJQ_29Q",
+ "full_name": "FlowiseAI/Flowise",
+ "status": "archived",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "Flowise",
+  "owner": "FlowiseAI",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/128289781?v=4",
+  "description": "Build AI Agents, Visually",
+  "homepage": "https://flowiseai.com",
+  "html_url": "https://github.com/FlowiseAI/Flowise",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "agentic-ai",
+   "agentic-workflow",
+   "agents",
+   "artificial-intelligence",
+   "chatbot",
+   "chatgpt",
+   "javascript",
+   "langchain",
+   "large-language-models",
+   "low-code",
+   "multiagent-systems",
+   "no-code",
+   "openai",
+   "rag",
+   "react",
+   "typescript",
+   "workflow-automation"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 55574,
+  "forks": 25095,
+  "watchers": null,
+  "open_issues": 1033,
+  "open_prs": null,
+  "created_at": "2023-03-31T12:23:09Z",
+  "pushed_at": "2026-08-13T12:38:19Z",
+  "updated_at": "2026-11-17T01:45:43Z",
+  "archived": true,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 82933,
+  "og_image": "https://opengraph.githubassets.com/1/FlowiseAI/Flowise",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-08-13T12:38:19.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "flowise@3.1.4",
+  "name": "flowise@3.1.4",
+  "published_at": "2026-07-29T15:51:25Z",
+  "url": "https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.1.4",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 7760,
+  "cjk_ratio": 0.01,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<p>Download and Install <a href=\"https://nodejs.org/en/download\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">NodeJS</a> &gt;= 20.0.0</p>\n<ol>\n<li><p>Install Flowise</p>\n<pre><code class=\"language-bash\">npm install -g flowise\n</code></pre>\n</li>\n<li><p>Start Flowise</p>\n<pre><code class=\"language-bash\">npx flowise start\n</code></pre>\n</li>\n<li><p>Open <a href=\"http://localhost:3000\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:3000</a></p>\n</li>\n</ol>",
+    "truncated": false,
+    "chars": 258
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 16,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:46.847Z",
+  "checked_at": "2026-11-16T04:33:46.847Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:16.512Z",
+ "contributors": {
+  "count": 332,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:32.903Z"
+ }
+}

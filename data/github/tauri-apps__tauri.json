@@ -1,0 +1,104 @@
+{
+ "id": "tauri-apps/tauri",
+ "github_id": 196701619,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxOTY3MDE2MTk=",
+ "full_name": "tauri-apps/tauri",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.325Z",
+ "meta": {
+  "name": "tauri",
+  "owner": "tauri-apps",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/54536011?v=4",
+  "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+  "homepage": "https://tauri.app",
+  "html_url": "https://github.com/tauri-apps/tauri",
+  "default_branch": "dev",
+  "language": "Rust",
+  "languages": null,
+  "topics": [
+   "app-framework",
+   "cross-platform",
+   "desktop",
+   "gui",
+   "high-performance",
+   "mobile",
+   "rust",
+   "web-frontend",
+   "webview"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 112933,
+  "forks": 4223,
+  "watchers": null,
+  "open_issues": 1523,
+  "open_prs": null,
+  "created_at": "2019-07-13T09:09:37Z",
+  "pushed_at": "2026-11-16T12:46:01Z",
+  "updated_at": "2026-11-17T02:15:02Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 113673,
+  "og_image": "https://opengraph.githubassets.com/1/tauri-apps/tauri",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T11:31:37.000Z",
+  "commits_90d": 227,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "tauri-cli-v2.12.5",
+  "name": "tauri-cli v2.12.5",
+  "published_at": "2026-11-16T12:55:14Z",
+  "url": "https://github.com/tauri-apps/tauri/releases/tag/tauri-cli-v2.12.5",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 6055,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<p>If you are interested in making a tauri app, please visit the <a href=\"https://tauri.app\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">documentation website</a>.</p>\n<p>The quickest way to get started is to install the <a href=\"https://v2.tauri.app/start/prerequisites/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">prerequisites</a> for your system and create a new project with <a href=\"https://github.com/tauri-apps/create-tauri-app/#usage\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>create-tauri-app</code></a>. For example with <code>npm</code>:</p>\n<pre><code class=\"language-sh\">npm create tauri-app@latest\n</code></pre>",
+    "truncated": false,
+    "chars": 405
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<p>The list of Tauri's features includes, but is not limited to:</p>\n<ul>\n<li>Built-in app bundler to create app bundles in formats like <code>.app</code>, <code>.dmg</code>, <code>.deb</code>, <code>.rpm</code>, <code>.AppImage</code> and Windows installers like <code>.exe</code> (via NSIS) and <code>.msi</code> (via WiX).</li>\n<li>Built-in self updater (desktop only)</li>\n<li>System tray icons</li>\n<li>Native notifications</li>\n<li>Native WebView Protocol (tauri doesn't create a localhost http(s) server to serve the WebView contents)</li>\n<li>GitHub action for streamlined CI</li>\n<li>VS Code extension</li>\n</ul>\n<h5>Platforms</h5>\n<p>Tauri currently supports development and distribution on the following platforms:</p>\n<table>\n<thead>\n<tr>\n<th align=\"left\">Platform</th>\n<th align=\"left\">Versions</th>\n</tr>\n</thead>\n<tbody><tr>\n<td align=\"left\">Windows</td>\n<td align=\"left\">10 and above</td>\n</tr>\n<tr>\n<td align=\"left\">macOS</td>\n<td align=\"left\">10.15 and above</td>\n</tr>\n<tr>\n<td align=\"left\">Linux</td>\n<td align=\"left\">webkit2gtk 4.0 for Tauri v1 (for example Ubuntu 18.04). webkit2gtk 4.1 for Tauri v2 (for example Ubuntu 22.04).</td>\n</tr>\n<tr>\n<td align=\"left\">iOS/iPadOS</td>\n<td align=\"left\">9 and above</td>\n</tr>\n<tr>\n<td align=\"left\">Android</td>\n<td align=\"left\">7 and above (currently 8 and above)</td>\n</tr>\n</tbody></table>",
+    "truncated": false,
+    "chars": 1484
+   }
+  },
+  "headings": 9,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:29.875Z",
+  "checked_at": "2026-11-17T02:20:05.062Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:05.062Z"
+}

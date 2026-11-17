@@ -1,0 +1,99 @@
+{
+ "id": "Zie619/n8n-workflows",
+ "github_id": 983345476,
+ "node_id": "R_kgDOOpypRA",
+ "full_name": "Zie619/n8n-workflows",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "n8n-workflows",
+  "owner": "Zie619",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/54673680?v=4",
+  "description": "all of the workflows of n8n i could find (also from the site itself)",
+  "homepage": null,
+  "html_url": "https://github.com/Zie619/n8n-workflows",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 57259,
+  "forks": 7703,
+  "watchers": null,
+  "open_issues": 44,
+  "open_prs": null,
+  "created_at": "2025-05-14T08:43:59Z",
+  "pushed_at": "2026-06-24T14:16:03Z",
+  "updated_at": "2026-11-17T00:32:20Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 52547,
+  "og_image": "https://opengraph.githubassets.com/1/Zie619/n8n-workflows",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-06-24T14:16:03.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "dmca-compliance-2025-08-14",
+  "name": "Repository History Rewrite - DMCA Compliance",
+  "published_at": "2025-08-14T08:22:52Z",
+  "url": "https://github.com/Zie619/n8n-workflows/releases/tag/dmca-compliance-2025-08-14",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 7174,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<pre><code class=\"language-bash\"># Clone the repository\ngit clone https://github.com/Zie619/n8n-workflows.git\ncd n8n-workflows\n\n# Install dependencies\npip install -r requirements.txt\n\n# Start the server\npython run.py\n\n# Open in browser\n# http://localhost:8000\n</code></pre>",
+    "truncated": false,
+    "chars": 240
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<table>\n<tr>\n<td><h5>By The Numbers</h5>\n<ul>\n<li><strong>4,343</strong> Production-Ready Workflows</li>\n<li><strong>365</strong> Unique Integrations</li>\n<li><strong>29,445</strong> Total Nodes</li>\n<li><strong>15</strong> Organized Categories</li>\n<li><strong>100%</strong> Import Success Rate</li>\n</ul>\n</td>\n<td><h5>Performance</h5>\n<ul>\n<li><strong>&lt; 100ms</strong> Search Response</li>\n<li><strong>&lt; 50MB</strong> Memory Usage</li>\n<li><strong>700x</strong> Smaller Than v1</li>\n<li><strong>10x</strong> Faster Load Times</li>\n<li><strong>40x</strong> Less RAM Usage</li>\n</ul>\n</td>\n</tr>\n</table><hr />",
+    "truncated": false,
+    "chars": 412
+   }
+  },
+  "headings": 27,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:43.175Z",
+  "checked_at": "2026-11-16T04:33:43.175Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:16.512Z",
+ "contributors": {
+  "count": 38,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:29.371Z"
+ }
+}

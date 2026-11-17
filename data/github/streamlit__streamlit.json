@@ -1,0 +1,108 @@
+{
+ "id": "streamlit/streamlit",
+ "github_id": 204086862,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyMDQwODY4NjI=",
+ "full_name": "streamlit/streamlit",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "streamlit",
+  "owner": "streamlit",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/45109972?v=4",
+  "description": "Streamlit — The agent-native framework for data apps and dashboards.",
+  "homepage": "https://streamlit.io",
+  "html_url": "https://github.com/streamlit/streamlit",
+  "default_branch": "develop",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "agents",
+   "business-intelligence",
+   "dashboards",
+   "data-analysis",
+   "data-apps",
+   "data-science",
+   "data-visualization",
+   "developer-tools",
+   "internal-tools",
+   "machine-learning",
+   "python",
+   "streamlit",
+   "web-apps"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 46396,
+  "forks": 4454,
+  "watchers": null,
+  "open_issues": 1200,
+  "open_prs": null,
+  "created_at": "2019-08-24T00:14:52Z",
+  "pushed_at": "2026-11-16T21:45:58Z",
+  "updated_at": "2026-11-17T01:10:56Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 1279393,
+  "og_image": "https://opengraph.githubassets.com/1/streamlit/streamlit",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T21:45:55.000Z",
+  "commits_90d": 510,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "1.67.0",
+  "name": "1.67.0",
+  "published_at": null,
+  "url": "https://github.com/streamlit/streamlit/releases/tag/1.67.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "1.67.1.dev20261115",
+  "name": "1.67.1.dev20261115",
+  "published_at": "2026-11-16T04:39:43Z",
+  "url": "https://github.com/streamlit/streamlit/releases/tag/1.67.1.dev20261115"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 11090,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Get started",
+    "html": "<pre><code class=\"language-bash\">pip install streamlit\n</code></pre>\n<h5>Build with your coding agent</h5>\n<p>Run <a href=\"https://docs.streamlit.io/develop/api-reference/cli/skills\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>streamlit skills</code></a> in\nyour project folder. It installs our expert skills for Claude Code and any agent that\nreads the shared <code>.agents</code> skills folder, matched to your Streamlit version. So your agent\nfollows current best practices instead of whatever it memorized two versions ago.</p>\n<p>Then ask, and mention Streamlit so the agent picks up the skills (in Claude Code,\n<code>/developing-with-streamlit</code> works too):</p>\n<blockquote>\n<p>Build a Streamlit app that forecasts demand from <code>sales.csv</code>, with what-if levers for\nprice and growth.</p>\n</blockquote>\n<h5>Or write it yourself</h5>\n<p>Here's a complete app: a demand forecast that planners can adjust and submit for sign-off.\nSave it as <code>streamlit_app.py</code> and run <code>streamlit run streamlit_app.py</code>:</p>\n<pre><code class=\"language-python\">import sqlite3\n\nimport numpy as np\nimport pandas as pd\nimport streamlit as st\n\nst.title(\"Demand plan\")\n\n\n@st.cache_data\ndef load_actuals() -&gt; pd.DataFrame:\n    # Swap in your own query, e.g. st.connection(\"snowflake\").query(\"...\")\n    months = pd.date_range(\"2025-01-01\", periods=12, freq=\"MS\")\n    units = 1_000 + 40 * np.arange(12) + np.random.default_rng(0).normal(0, 50, 12)\n    return pd.DataFrame({\"month\": months, \"actual\": units.round()})\n\n\nactuals = load_actuals()\ngrowth = st.slider(\"Monthly growth (%)\", -5.0, 10.0, 2.0, step=0.5)\n\nmonths = pd.date_range(\"2026-01-01\", periods=6, freq=\"MS\")\nbaseline = actuals[\"actual\"].iloc[-1] * (1 + growth / 100) ** np.arange(1, 7)\nforecast = pd.DataFrame({\"month\": months, \"forecast\": baseline.round()})\n\n# Planners edit the forecast, and the chart follows\nplan = st.data_editor(forecast, disabled=[\"month\"], hide_index=True)\nst.line_chart(pd.concat([actuals, plan]), x=\"month\")\n\nif st.button(\"Submit for sign-off\", type=\"primary\"):\n    with sqlite3.connect(\"plans.db\") as db:  # Or your warehouse\n        plan.to_sql(\"plans\", db, if_exists=\"append\", index=False)\n    st.success(f\"Submitted {len(plan)} months for sign-off.\")\n</code></pre>",
+    "truncated": false,
+    "chars": 2032
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 11,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:43.560Z",
+  "checked_at": "2026-11-17T02:19:43.560Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:43.560Z"
+}

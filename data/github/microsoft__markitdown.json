@@ -1,0 +1,112 @@
+{
+ "id": "microsoft/markitdown",
+ "github_id": 888092115,
+ "node_id": "R_kgDONO810w",
+ "full_name": "microsoft/markitdown",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "markitdown",
+  "owner": "microsoft",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "description": "Python tool for converting files and office documents to Markdown.",
+  "homepage": null,
+  "html_url": "https://github.com/microsoft/markitdown",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "autogen",
+   "autogen-extension",
+   "langchain",
+   "markdown",
+   "microsoft-office",
+   "openai",
+   "pdf"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 195799,
+  "forks": 14803,
+  "watchers": null,
+  "open_issues": 815,
+  "open_prs": null,
+  "created_at": "2024-11-13T19:56:40Z",
+  "pushed_at": "2026-11-07T00:14:01Z",
+  "updated_at": "2026-11-17T02:17:09Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 6015,
+  "og_image": "https://opengraph.githubassets.com/1/microsoft/markitdown",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-07T00:14:01.000Z",
+  "commits_90d": 39,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.1.9",
+  "name": "Version 0.1.9",
+  "published_at": "2026-10-21T19:40:32Z",
+  "url": "https://github.com/microsoft/markitdown/releases/tag/v0.1.9",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 21397,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>To install MarkItDown, use pip: <code>pip install 'markitdown[all]'</code>. Alternatively, you can install it from the source:</p>\n<pre><code class=\"language-bash\">git clone git@github.com:microsoft/markitdown.git\ncd markitdown\npip install -e 'packages/markitdown[all]'\n</code></pre>",
+    "truncated": false,
+    "chars": 238
+   },
+   "usage": {
+    "title": "Usage",
+    "html": "<h5>Command-Line</h5>\n<pre><code class=\"language-bash\">markitdown path-to-file.pdf &gt; document.md\n</code></pre>\n<p>Or use <code>-o</code> to specify the output file:</p>\n<pre><code class=\"language-bash\">markitdown path-to-file.pdf -o document.md\n</code></pre>\n<p>You can also pipe content:</p>\n<pre><code class=\"language-bash\">cat path-to-file.pdf | markitdown\n</code></pre>\n<h5>Optional Dependencies</h5>\n<p>MarkItDown has optional dependencies for activating various file formats. Earlier in this document, we installed all optional dependencies with the <code>[all]</code> option. However, you can also install them individually for more control. For example:</p>\n<pre><code class=\"language-bash\">pip install 'markitdown[pdf, docx, pptx]'\n</code></pre>\n<p>will install only the dependencies for PDF, DOCX, and PPTX files.</p>\n<p>At the moment, the following optional dependencies are available:</p>\n<ul>\n<li><code>[all]</code> Installs all optional dependencies</li>\n<li><code>[pptx]</code> Installs dependencies for PowerPoint files</li>\n<li><code>[docx]</code> Installs dependencies for Word files</li>\n<li><code>[xlsx]</code> Installs dependencies for Excel files</li>\n<li><code>[xls]</code> Installs dependencies for older Excel files</li>\n<li><code>[pdf]</code> Installs dependencies for PDF files</li>\n<li><code>[outlook]</code> Installs dependencies for Outlook messages</li>\n<li><code>[az-doc-intel]</code> Installs dependencies for Azure Document Intelligence</li>\n<li><code>[az-content-understanding]</code> Installs dependencies for Azure Content Understanding</li>\n<li><code>[audio-transcription]</code> Installs dependencies for audio transcription of wav and mp3 files</li>\n<li><code>[youtube-transcription]</code> Installs dependencies for fetching YouTube video transcription</li>\n</ul>\n<h5>Plugins</h5>\n<p>MarkItDown also supports 3rd-party plugins. Plugins are disabled by default. To list installed plugins:</p>\n<pre><code class=\"language-bash\">markitdown --list-plugins\n</code></pre>\n<p>To enable plugins use:</p>\n<pre><code class=\"language-bash\">markitdown --use-plugins path-to-file.pdf\n</code></pre>\n<p>To find available plugins, search GitHub for the hashtag <code>#markitdown-plugin</code>. To develop a plugin, see <code>packages/markitdown-sample-plugin</code>.</p>\n<h6>markitdown-ocr Plugin</h6>\n<p>The <code>markitdown-ocr</code> plugin adds OCR support to PDF, DOCX, PPTX, and XLSX converters, extracting text from embedded images using LLM Vision — the same <code>llm_client</code> / <code>llm_model</code> pattern that MarkItDown already uses for image descriptions. No new ML libraries or binary dependencies required.</p>\n<p><strong>Installation:</strong></p>\n<pre><code class=\"language-bash\">pip install markitdown-ocr\npip install openai  # or any OpenAI-compatible client\n</code></pre>\n<p><strong>Usage:</strong></p>\n<p>Pass the same <code>llm_client</code> and <code>llm_model</code> you would use for image descriptions:</p>\n<pre><code class=\"language-python\">from markitdown import MarkItDown\nfrom openai import OpenAI\n\nmd = MarkItDown(\n    enable_plugins=True,\n    llm_client=OpenAI(),\n    llm_model=\"gpt-4o\",\n)\nresult = md.convert(\"document_with_images.pdf\")\nprint(result.markdown)\n</code></pre>\n<p>If no <code>llm_client</code> is provided the plugin still loads, but OCR is silently skipped and the standard built-in converter is used instead.</p>\n<p>See <a href=\"https://github.com/microsoft/markitdown/blob/main/packages/markitdown-ocr/README.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>packages/markitdown-ocr/README.md</code></a> for detailed documentation.</p>\n<h5>Azure Content Understanding</h5>\n<p><a href=\"https://learn.microsoft.com/azure/ai-services/content-understanding/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Azure Content Understanding</a> provides higher-quality conversion with structured field extraction (YAML front matter), multi-modal support (documents, images, audio, video), and configurable analyzers.</p>\n<p>Install: <code>pip install 'markitdown[az-content-understanding]'</code></p>\n<h6>When to use Content Understanding</h6>\n<p>Content Understanding is ideal when you need capabilities beyond what built-in or Document Intelligence converters provide:</p>\n<ul>\n<li><strong>Audio and video files</strong> — CU is the only option for video, and the higher-quality cloud option for audio. Built-in converters have no video support and only basic audio transcription.</li>\n<li><strong>Structured field extraction</strong> — <a href=\"https://learn.microsoft.com/azure/ai-services/content-understanding/concepts/prebuilt-analyzers\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Prebuilt</a> or <a href=\"https://learn.microsoft.com/azure/ai-services/content-understanding/how-to/customize-analyzer-content-understanding-studio?tabs=portal\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">custom-built</a> analyzers extract domain-specific fields (invoice amounts, receipt dates, contract clauses) serialized as YAML front matter. Neither built-in nor Doc Intel integration exposes fields.</li>\n<li><strong>Higher-quality document extraction</strong> — Cloud-based layout analysis and OCR for scanned PDFs, complex tables, and multi-page documents.</li>\n<li><strong>Single API for all modalities</strong> — One <code>cu_endpoint</code> handles documents, images, audio, and video with automatic analyzer routing.</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th>Capability</th>\n<th>Built-in converters</th>\n<th>Azure Document Intelligence</th>\n<th>Azure Content Understanding</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Document conversion</td>\n<td>Offline, format-specific extraction</td>\n<td>Cloud layout extraction</td>\n<td>Cloud multimodal extraction</td>\n</tr>\n<tr>\n<td>Structured fields</td>\n<td>Not available</td>\n<td>YAML front matter from model or query fields</td>\n<td>YAML front matter from analyzer fields</td>\n</tr>\n<tr>\n<td>Custom analyzers/models</td>\n<td>Not available</td>\n<td>Supported with <code>docintel_model_id</code></td>\n<td>Supported with <code>cu_analyzer_id</code></td>\n</tr>\n<tr>\n<td>Audio and video</td>\n<td>Basic audio, no video</td>\n<td>Not supported</td>\n<td>Audio and video analyzers</td>\n</tr>\n<tr>\n<td>Cost</td>\n<td>Local compute only</td>\n<td>Billable Azure API calls</td>\n<td>Billable Azure API calls</td>\n</tr>\n</tbody></table>\n<p><strong>CLI:</strong></p>\n<pre><code class=\"language-bash\">markitdown path-to-file.pdf --use-cu --cu-endpoint \"&lt;content_understanding_endpoint&gt;\"\n</code></pre>\n<p>The endpoint can also be set once in the environment, so callers only need <code>--use-cu</code>:</p>\n<pre><code class=\"language-bash\">export MARKITDOWN_CU_ENDPOINT=\"&lt;content_understanding_endpoint&gt;\"\nmarkitdown path-to-file.pdf --use-cu\n</code></pre>\n<p><strong>Python API:</strong></p>\n<pre><code class=\"language-python\">from markitdown import MarkItDown\n\n# Zero-config — auto-selects analyzer per file type\nmd = MarkItDown(cu_endpoint=\"&lt;content_understanding_endpoint&gt;\")\nresult = md.convert(\"report.pdf\")   # documents → prebuilt-documentSearch\nresult = md.convert(\"meeting.mp4\")  # video → prebuilt-videoSearch\nresult = md.convert(\"call.wav\")     # audio → prebuilt-audioSearch\nprint(result.markdown)\n</code></pre>\n<p><strong>With a custom analyzer</strong> (for domain-specific field extraction):</p>\n<pre><code class=\"language-python\">md = MarkItDown(\n    cu_endpoint=\"&lt;content_understanding_endpoint&gt;\",\n    cu_analyzer_id=\"my-invoice-analyzer\",\n)\nresult = md.convert(\"invoice.pdf\")\nprint(result.markdown)\n# Output includes YAML front matter with extracted fields:\n# ---\n# contentType: document\n# fields:\n#   VendorName: CONTOSO LTD.\n#   InvoiceDate: '2019-11-15'\n# ---\n# \n# ...\n</code></pre>\n<p>When <code>cu_analyzer_id</code> is set, the converter automatically scopes it to compatible file types based on the analyzer's modality. Incompatible types (e.g., audio files with a document analyzer) auto-route to default prebuilt analyzers.</p>\n<p><strong>Cost note:</strong> Each <code>convert()</code> call for a CU-routed format is a billable Azure API call. Use <code>cu_file_types</code> to restrict which formats route to CU:</p>\n<pre><code class=\"language-python\">from markitdown.converters import ContentUnderstandingFileType\n\nmd = MarkItDown(\n    cu_endpoint=\"&lt;content_understanding_endpoint&gt;\",\n    cu_file_types=[ContentUnderstandingFileType.PDF],  # only PDFs use CU\n)\n</code></pre>\n<p>More information about Azure Content Understanding can be found <a href=\"https://learn.microsoft.com/azure/ai-services/content-understanding/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>.</p>\n<h5>Azure Document Intelligence</h5>\n<p>To use Microsoft Document Intelligence for conversion:</p>\n<pre><code class=\"language-bash\">export AZURE_API_KEY=\"&lt;document_intelligence_api_key&gt;\"\nmarkitdown path-to-file.pdf -o document.md -d -e \"&lt;document_intelligence_endpoint&gt;\"\n</code></pre>\n<p>The endpoint can also be set once in the environment, so callers only need <code>-d</code>:</p>\n<pre><code class=\"language-bash\">export MARKITDOWN_DOCINTEL_ENDPOINT=\"&lt;document_intelligence_endpoint&gt;\"\nmarkitdown path-to-file.pdf -o document.md -d\n</code></pre>\n<p>If <code>AZURE_API_KEY</code> is not set, MarkItDown uses <code>DefaultAzureCredential</code>.</p>\n<p>Select a model, configure analysis add-ons, or request fields from the CLI:</p>\n<pre><code class=\"language-bash\">markitdown document.pdf --use-docintel \\\n  --endpoint \"&lt;document_intelligence_endpoint&gt;\" \\\n  --docintel-model-id prebuilt-layout \\\n  --docintel-features \"ocrHighResolution,styleFont\" \\\n  --docintel-query-fields \"Title,Author\"\n</code></pre>\n<p>No analysis add-ons are enabled by default. Use <code>--docintel-features</code> to opt in,\nor <code>--docintel-features none</code> to explicitly request no add-ons. Analysis add-ons\nand query fields apply only to OCR-supported inputs such as PDFs and images.</p>\n<p>Available feature values are <code>barcodes</code>, <code>formulas</code>, <code>keyValuePairs</code>,\n<code>languages</code>, <code>ocrHighResolution</code>, and <code>styleFont</code>. The <code>formulas</code>,\n<code>ocrHighResolution</code>, and <code>styleFont</code> features incur additional charges, as does\nthe <code>queryFields</code> add-on, which is priced differently from the other add-ons.\nSee the\n<a href=\"https://learn.microsoft.com/azure/ai-services/document-intelligence/concept/add-on-capabilities?view=doc-intel-4.0.0\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Document Intelligence add-on documentation</a>\nand <a href=\"https://azure.microsoft.com/pricing/details/document-intelligence/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">pricing</a>\nfor details.</p>\n<p>More information about how to set up an Azure Document Intelligence Resource can be found <a href=\"https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/how-to-guides/create-document-intelligence-resource?view=doc-intel-4.0.0\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a></p>\n<h5>Python API</h5>\n<p>Basic usage in Python:</p>",
+    "truncated": true,
+    "chars": 8829
+   },
+   "features": {
+    "title": "Why Markdown?",
+    "html": "<p>Markdown is extremely close to plain text, with minimal markup or formatting, but still\nprovides a way to represent important document structure. Mainstream LLMs, such as\nOpenAI's GPT-4o, natively \"<em>speak</em>\" Markdown, and often incorporate Markdown into their\nresponses unprompted. This suggests that they have been trained on vast amounts of\nMarkdown-formatted text, and understand it well. As a side benefit, Markdown conventions\nare also highly token-efficient.</p>",
+    "truncated": false,
+    "chars": 467
+   }
+  },
+  "headings": 23,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:53.251Z",
+  "checked_at": "2026-11-16T04:33:53.251Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:16.512Z",
+ "contributors": {
+  "count": 135,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:37.225Z"
+ }
+}

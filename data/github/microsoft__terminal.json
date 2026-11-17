@@ -1,0 +1,117 @@
+{
+ "id": "microsoft/terminal",
+ "github_id": 100060912,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxMDAwNjA5MTI=",
+ "full_name": "microsoft/terminal",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.796Z",
+ "meta": {
+  "name": "terminal",
+  "owner": "microsoft",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
+  "homepage": null,
+  "html_url": "https://github.com/microsoft/terminal",
+  "default_branch": "main",
+  "language": "C++",
+  "languages": null,
+  "topics": [
+   "cmd",
+   "command-line",
+   "console",
+   "contributions-welcome",
+   "good-first-issue",
+   "hacktoberfest",
+   "terminal",
+   "windows",
+   "windows-console",
+   "windows-terminal",
+   "wsl"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 105402,
+  "forks": 9743,
+  "watchers": null,
+  "open_issues": 1782,
+  "open_prs": null,
+  "created_at": "2017-08-11T18:38:22Z",
+  "pushed_at": "2026-11-17T02:17:25Z",
+  "updated_at": "2026-11-17T02:01:17Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 181771,
+  "og_image": "https://opengraph.githubassets.com/1/microsoft/terminal",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T16:51:48.000Z",
+  "commits_90d": 72,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.25.3131.0",
+  "name": "Windows Terminal v1.25.3131.0",
+  "published_at": "2026-11-11T00:24:31Z",
+  "url": "https://github.com/microsoft/terminal/releases/tag/v1.25.3131.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 18790,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "8gw0rXPMMPE",
+    "url": "https://www.youtube.com/watch?v=8gw0rXPMMPE"
+   },
+   {
+    "type": "youtube",
+    "id": "KMudkRcwjCw",
+    "url": "https://www.youtube.com/watch?v=KMudkRcwjCw"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Installing and running Windows Terminal",
+    "html": "<blockquote>\n<p>[!NOTE]\nWindows Terminal requires Windows 10 2004 (build 19041) or later</p>\n</blockquote>\n<h5>Microsoft Store [Recommended]</h5>\n<p>Install the <a href=\"https://aka.ms/terminal\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Windows Terminal from the Microsoft Store</a>.\nThis allows you to always be on the latest version when we release new builds\nwith automatic upgrades.</p>\n<p>This is our preferred method.</p>\n<h5>Other install methods</h5>\n<h6>Via GitHub</h6>\n<p>For users who are unable to install Windows Terminal from the Microsoft Store,\nreleased builds can be manually downloaded from this repository's <a href=\"https://github.com/microsoft/terminal/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Releases\npage</a>.</p>\n<p>Download the <code>Microsoft.WindowsTerminal_&lt;versionNumber&gt;.msixbundle</code> file from\nthe <strong>Assets</strong> section. To install the app, you can simply double-click on the\n<code>.msixbundle</code> file, and the app installer should automatically run. If that\nfails for any reason, you can try the following command at a PowerShell prompt:</p>\n<pre><code class=\"language-powershell\"># NOTE: If you are using PowerShell 7+, please run\n# Import-Module Appx -UseWindowsPowerShell\n# before using Add-AppxPackage.\n\nAdd-AppxPackage Microsoft.WindowsTerminal_&lt;versionNumber&gt;.msixbundle\n</code></pre>\n<blockquote>\n<p>[!NOTE]\nIf you install Terminal manually:</p>\n<ul>\n<li>You may need to install the <a href=\"https://learn.microsoft.com/troubleshoot/cpp/c-runtime-packages-desktop-bridge#how-to-install-and-update-desktop-framework-packages\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">VC++ v14 Desktop Framework Package</a>.\nThis should only be necessary on older builds of Windows 10 and only if you get an error about missing framework packages.</li>\n<li>Terminal will not auto-update when new builds are released so you will need\nto regularly install the latest Terminal release to receive all the latest\nfixes and improvements!</li>\n</ul>\n</blockquote>\n<h6>Via Windows Package Manager CLI (aka winget)</h6>\n<p><a href=\"https://github.com/microsoft/winget-cli\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">winget</a> users can download and install\nthe latest Terminal release by installing the <code>Microsoft.WindowsTerminal</code>\npackage:</p>\n<pre><code class=\"language-powershell\">winget install --id Microsoft.WindowsTerminal -e\n</code></pre>\n<blockquote>\n<p>[!NOTE]\nDependency support is available in WinGet version <a href=\"https://github.com/microsoft/winget-cli/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">1.6.2631 or later</a>. To install the Terminal stable release 1.18 or later, please make sure you have the updated version of the WinGet client.</p>\n</blockquote>\n<h6>Via Chocolatey (unofficial)</h6>\n<p><a href=\"https://chocolatey.org\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Chocolatey</a> users can download and install the latest\nTerminal release by installing the <code>microsoft-windows-terminal</code> package:</p>\n<pre><code class=\"language-powershell\">choco install microsoft-windows-terminal\n</code></pre>\n<p>To upgrade Windows Terminal using Chocolatey, run the following:</p>\n<pre><code class=\"language-powershell\">choco upgrade microsoft-windows-terminal\n</code></pre>\n<p>If you have any issues when installing/upgrading the package please go to the\n<a href=\"https://chocolatey.org/packages/microsoft-windows-terminal\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Windows Terminal package\npage</a> and follow the\n<a href=\"https://chocolatey.org/docs/package-triage-process\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Chocolatey triage process</a></p>\n<h6>Via Scoop (unofficial)</h6>\n<p><a href=\"https://scoop.sh\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Scoop</a> users can download and install the latest Terminal\nrelease by installing the <code>windows-terminal</code> package:</p>\n<pre><code class=\"language-powershell\">scoop bucket add extras\nscoop install windows-terminal\n</code></pre>\n<p>To update Windows Terminal using Scoop, run the following:</p>\n<pre><code class=\"language-powershell\">scoop update windows-terminal\n</code></pre>\n<p>If you have any issues when installing/updating the package, please search for\nor report the same on the <a href=\"https://github.com/lukesampson/scoop-extras/issues\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">issues\npage</a> of Scoop Extras bucket\nrepository.</p>\n<hr />",
+    "truncated": false,
+    "chars": 3412
+   },
+   "usage": {
+    "title": "Using WinGet configuration file",
+    "html": "<p>After cloning the repository, you can use a <a href=\"https://learn.microsoft.com/en-us/windows/package-manager/configuration/#use-a-winget-configuration-file-to-configure-your-machine\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">WinGet configuration file</a>\nto set up your environment. The <a href=\"https://github.com/microsoft/terminal/blob/main/.config/configuration.winget\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">default configuration file</a> installs Visual Studio 2026 Community &amp; rest of the required tools. There are two other variants of the configuration file available in the <a href=\"https://github.com/microsoft/terminal/blob/main/.config\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">.config</a> directory for Enterprise &amp; Professional editions of Visual Studio 2026. To run the default configuration file, you can either double-click the file from explorer or run the following command:</p>\n<pre><code class=\"language-powershell\">winget configure .config\\configuration.winget\n</code></pre>",
+    "truncated": false,
+    "chars": 714
+   },
+   "features": null
+  },
+  "headings": 30,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:01.814Z",
+  "checked_at": "2026-11-17T02:20:01.814Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:01.814Z"
+}

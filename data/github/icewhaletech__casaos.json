@@ -1,0 +1,110 @@
+{
+ "id": "IceWhaleTech/CasaOS",
+ "github_id": 410430370,
+ "node_id": "R_kgDOGHarog",
+ "full_name": "IceWhaleTech/CasaOS",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:03.703Z",
+ "meta": {
+  "name": "CasaOS",
+  "owner": "IceWhaleTech",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/91336243?v=4",
+  "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+  "homepage": "https://casaos.zimaspace.com",
+  "html_url": "https://github.com/IceWhaleTech/CasaOS",
+  "default_branch": "main",
+  "language": "Go",
+  "languages": null,
+  "topics": [
+   "casaos",
+   "docker",
+   "golang",
+   "home-automation",
+   "home-cloud",
+   "home-server",
+   "iot",
+   "raspberry",
+   "self-hosted",
+   "vuejs"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 37654,
+  "forks": 2222,
+  "watchers": null,
+  "open_issues": 844,
+  "open_prs": null,
+  "created_at": "2021-09-26T02:33:09Z",
+  "pushed_at": "2026-11-09T09:38:55Z",
+  "updated_at": "2026-11-16T23:25:25Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 181046,
+  "og_image": "https://opengraph.githubassets.com/1/IceWhaleTech/CasaOS",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-09T09:38:52.000Z",
+  "commits_90d": 1,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.4.15",
+  "name": "v0.4.15",
+  "published_at": "2024-12-19T03:19:49Z",
+  "url": "https://github.com/IceWhaleTech/CasaOS/releases/tag/v0.4.15",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v0.4.17-alpha1",
+  "name": "v0.4.17-alpha1",
+  "published_at": "2025-04-17T09:53:14Z",
+  "url": "https://github.com/IceWhaleTech/CasaOS/releases/tag/v0.4.17-alpha1"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 19145,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<p>CasaOS fully supports ZimaBoard, Intel NUC, and Raspberry Pi. Also, more computers and development boards and fully compatible with Ubuntu, Debian, Raspberry Pi OS, and CentOS with one-liner installation.</p>\n<h5>Hardware Compatibility</h5>\n<ul>\n<li>amd64 / x86-64</li>\n<li>arm64</li>\n<li>armv7</li>\n</ul>\n<h5>System Compatibility</h5>\n<p>Official Support</p>\n<ul>\n<li>Debian 12 (✅ Tested, Recommended)</li>\n<li>Ubuntu Server 20.04 (✅ Tested)</li>\n<li>Raspberry Pi OS (✅ Tested)</li>\n</ul>\n<p>Community Support</p>\n<ul>\n<li>Elementary 6.1 (✅ Tested)</li>\n<li>Armbian 22.04 (✅ Tested)</li>\n<li>Alpine (🚧 Not Fully Tested Yet)</li>\n<li>OpenWrt (🚧 Not Fully Tested Yet)</li>\n<li>ArchLinux (🚧 Not Fully Tested Yet)</li>\n</ul>\n<h5>Quick Setup CasaOS</h5>\n<p>Freshly install a system from the list above and run this command:</p>\n<pre><code class=\"language-sh\">wget -qO- https://get.casaos.io | sudo bash\n</code></pre>\n<p>or</p>\n<pre><code class=\"language-sh\">curl -fsSL https://get.casaos.io | sudo bash\n</code></pre>\n<h5>Update CasaOS</h5>\n<p>CasaOS can be updated from the User Interface (UI), via <code>Settings ... Update</code>.  </p>\n<p>Alternatively it can be updated from a terminal session.  To update from a terminal session, it must be done either from a secure shell (ssh) session to the device or from a directly attached terminal and keyboard to the device running CasaOS, this cannot be done from the terminal via the CasaOS User Interface (UI).  To update to the latest release of CasaOS from a terminal session run this command:</p>\n<pre><code class=\"language-sh\">wget -qO- https://get.casaos.io/update | sudo bash\n</code></pre>\n<p>or</p>\n<pre><code class=\"language-sh\">curl -fsSL https://get.casaos.io/update | sudo bash\n</code></pre>\n<p>To determine version of CasaOS from a terminal session run this command:</p>\n<pre><code class=\"language-sh\">casaos -v\n</code></pre>\n<h5>Uninstall CasaOS</h5>\n<p>v0.3.3 or newer</p>\n<pre><code class=\"language-sh\">casaos-uninstall\n</code></pre>\n<p>Before v0.3.3</p>\n<pre><code class=\"language-sh\">curl -fsSL https://get.icewhale.io/casaos-uninstall.sh | sudo bash\n</code></pre>",
+    "truncated": false,
+    "chars": 1694
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li>Friendly UI designed for home scenarios<ul>\n<li>No code, no forms, intuitive, design for humanity</li>\n</ul>\n</li>\n<li>Multiple hardware and base system support<ul>\n<li>ZimaBoard, NUC, RPi, old computers, whatever is available.</li>\n</ul>\n</li>\n<li>Selected apps in the app store, one-click installation<ul>\n<li>Nextcloud, HomeAssistant, AdGuard, Jellyfin, *arr and more!</li>\n</ul>\n</li>\n<li>Easily install numerous Docker apps<ul>\n<li>Over 100,000 apps from the Docker ecosystem can be easily installed</li>\n</ul>\n</li>\n<li>Elegant drive and file management<ul>\n<li>What you see is what you get. No technical background required.</li>\n</ul>\n</li>\n<li>Well-designed system/app widgets<ul>\n<li>What you care about, at a glance. Resource usage, app status, and more!</li>\n</ul>\n</li>\n</ul>",
+    "truncated": false,
+    "chars": 652
+   }
+  },
+  "headings": 13,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:41.674Z",
+  "checked_at": "2026-11-16T05:09:41.674Z"
+ },
+ "details_checked_at": "2026-11-16T05:07:17.738Z",
+ "contributors": null
+}

@@ -1,0 +1,100 @@
+{
+ "id": "OHF-Voice/piper1-gpl",
+ "github_id": 956792596,
+ "node_id": "R_kgDOOQd_FA",
+ "full_name": "OHF-Voice/piper1-gpl",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "piper1-gpl",
+  "owner": "OHF-Voice",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/168038120?v=4",
+  "description": "Fast and local neural text-to-speech engine",
+  "homepage": null,
+  "html_url": "https://github.com/OHF-Voice/piper1-gpl",
+  "default_branch": "main",
+  "language": "C++",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "GPL-3.0",
+   "name": "GNU General Public License v3.0"
+  },
+  "stars": 6316,
+  "forks": 633,
+  "watchers": null,
+  "open_issues": 156,
+  "open_prs": null,
+  "created_at": "2025-03-28T21:47:10Z",
+  "pushed_at": "2026-11-15T18:17:42Z",
+  "updated_at": "2026-11-17T02:15:52Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 25160,
+  "og_image": "https://opengraph.githubassets.com/1/OHF-Voice/piper1-gpl",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-15T18:17:42.000Z",
+  "commits_90d": 134,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.8.0",
+  "name": "v1.8.0",
+  "published_at": "2026-09-04T16:47:48Z",
+  "url": "https://github.com/OHF-Voice/piper1-gpl/releases/tag/v1.8.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 3070,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "rjq5eZoWWSo",
+    "url": "https://www.youtube.com/watch?v=rjq5eZoWWSo"
+   },
+   {
+    "type": "youtube",
+    "id": "Dz95q6XYjwY",
+    "url": "https://www.youtube.com/watch?v=Dz95q6XYjwY"
+   }
+  ],
+  "sections": {
+   "install": null,
+   "usage": null,
+   "features": null
+  },
+  "headings": 1,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:33.473Z",
+  "checked_at": "2026-11-16T04:33:33.473Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:13.194Z",
+ "contributors": {
+  "count": 22,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:22.641Z"
+ }
+}

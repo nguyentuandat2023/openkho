@@ -1,0 +1,97 @@
+{
+ "id": "twbs/bootstrap",
+ "github_id": 2126244,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyMTI2MjQ0",
+ "full_name": "twbs/bootstrap",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:06.955Z",
+ "meta": {
+  "name": "bootstrap",
+  "owner": "twbs",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/2918581?v=4",
+  "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
+  "homepage": "https://getbootstrap.com",
+  "html_url": "https://github.com/twbs/bootstrap",
+  "default_branch": "main",
+  "language": "MDX",
+  "languages": null,
+  "topics": [
+   "bootstrap",
+   "css",
+   "css-framework",
+   "html",
+   "javascript",
+   "sass",
+   "scss"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 175075,
+  "forks": 79543,
+  "watchers": null,
+  "open_issues": 316,
+  "open_prs": null,
+  "created_at": "2011-07-29T21:19:00Z",
+  "pushed_at": "2026-11-16T08:34:51Z",
+  "updated_at": "2026-11-17T02:08:46Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 327787,
+  "og_image": "https://opengraph.githubassets.com/1/twbs/bootstrap",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-14T20:51:09.000Z",
+  "commits_90d": 145,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v5.3.9",
+  "name": "v5.3.9",
+  "published_at": "2026-11-14T16:40:11Z",
+  "url": "https://github.com/twbs/bootstrap/releases/tag/v5.3.9",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 12437,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick start",
+    "html": "<p>Several quick start options are available:</p>\n<ul>\n<li><a href=\"https://github.com/twbs/bootstrap/archive/v6.0.0-alpha.1.zip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download the latest release</a></li>\n<li>Clone the repo: <code>git clone https://github.com/twbs/bootstrap.git</code></li>\n<li>Install with <a href=\"https://www.npmjs.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">npm</a>: <code>npm install bootstrap@6.0.0-alpha.1</code></li>\n<li>Install with <a href=\"https://yarnpkg.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">yarn</a>: <code>yarn add bootstrap@6.0.0-alpha.1</code></li>\n<li>Install with <a href=\"https://bun.sh/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Bun</a>: <code>bun add bootstrap@6.0.0-alpha.1</code></li>\n<li>Install with <a href=\"https://getcomposer.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Composer</a>: <code>composer require twbs/bootstrap:6.0.0-alpha.1</code></li>\n<li>Install with <a href=\"https://www.nuget.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">NuGet</a>: CSS: <code>Install-Package bootstrap</code> Sass: <code>Install-Package bootstrap.sass</code></li>\n</ul>\n<p>Read the <a href=\"https://getbootstrap.com/docs/6.0/getting-started/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Getting started page</a> for information on the framework contents, templates, examples, and more.</p>",
+    "truncated": false,
+    "chars": 826
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 20,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:52.531Z",
+  "checked_at": "2026-11-17T02:20:52.531Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:52.531Z"
+}

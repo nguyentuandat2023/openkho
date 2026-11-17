@@ -1,0 +1,109 @@
+{
+ "id": "microsoft/ai-agents-for-beginners",
+ "github_id": 895508656,
+ "node_id": "R_kgDONWBgsA",
+ "full_name": "microsoft/ai-agents-for-beginners",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:53.326Z",
+ "meta": {
+  "name": "ai-agents-for-beginners",
+  "owner": "microsoft",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "description": "18 Lessons to Get Started Building AI Agents",
+  "homepage": "https://aka.ms/ai-agents-beginners",
+  "html_url": "https://github.com/microsoft/ai-agents-for-beginners",
+  "default_branch": "main",
+  "language": "Jupyter Notebook",
+  "languages": null,
+  "topics": [
+   "agentic-ai",
+   "agentic-framework",
+   "agentic-rag",
+   "ai-agents",
+   "ai-agents-framework",
+   "autogen",
+   "foundry",
+   "foundry-local",
+   "generative-ai",
+   "microsoft-foundry",
+   "semantic-kernel"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 79852,
+  "forks": 26122,
+  "watchers": null,
+  "open_issues": 3,
+  "open_prs": null,
+  "created_at": "2024-11-28T10:42:52Z",
+  "pushed_at": "2026-11-17T00:23:19Z",
+  "updated_at": "2026-11-17T02:03:41Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 3809762,
+  "og_image": "https://opengraph.githubassets.com/1/microsoft/ai-agents-for-beginners",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T18:50:16.000Z",
+  "commits_90d": 177,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 20362,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "3zgm60bXmQk",
+    "url": "https://www.youtube.com/watch?v=3zgm60bXmQk"
+   },
+   {
+    "type": "youtube",
+    "id": "ODwF-EZo_O8",
+    "url": "https://www.youtube.com/watch?v=ODwF-EZo_O8"
+   },
+   {
+    "type": "youtube",
+    "id": "m9lM8qqoOEA",
+    "url": "https://www.youtube.com/watch?v=m9lM8qqoOEA"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<p>This course has lessons covering the fundamentals of building AI Agents. Each lesson covers its own topic so start wherever you like!</p>\n<p>There is multi-language support for this course. Go to our <a href=\"https://github.com/microsoft/ai-agents-for-beginners#-multi-language-support\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">available languages here</a>. </p>\n<p>If this is your first time building with Generative AI models, check out our <a href=\"https://aka.ms/genai-beginners\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Generative AI For Beginners</a> course, which includes 21 lessons on building with GenAI.</p>\n<p>Don't forget to <a href=\"https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars?WT.mc_id=academic-105485-koreyst\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">star (🌟) this repo</a> and <a href=\"https://github.com/microsoft/ai-agents-for-beginners/fork\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">fork this repo</a> to run the code.</p>\n<h5>Meet Other Learners, Get Your Questions Answered</h5>\n<p>If you get stuck or have any questions about building AI Agents, join our dedicated Discord Channel in the <a href=\"https://aka.ms/ai-agents/discord\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Microsoft Foundry Discord</a>.</p>\n<h5>What You Need</h5>\n<p>Each lesson in this course includes code examples, which can be found in the code_samples folder. You can <a href=\"https://github.com/microsoft/ai-agents-for-beginners/fork\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">fork this repo</a> to create your own copy.  </p>\n<p>The code examples in these exercises utilize Microsoft Agent Framework with Microsoft Foundry Agent Service V2:</p>\n<ul>\n<li><a href=\"https://aka.ms/ai-agents-beginners/ai-foundry\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Microsoft Foundry</a> - Azure Account Required</li>\n</ul>\n<p>This course uses the following AI Agent frameworks and services from Microsoft:</p>\n<ul>\n<li><a href=\"https://learn.microsoft.com/agent-framework/overview/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Microsoft Agent Framework (MAF)</a></li>\n<li><a href=\"https://aka.ms/ai-agents-beginners/ai-agent-service\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Microsoft Foundry Agent Service V2</a></li>\n</ul>\n<p>Some code samples also support alternative OpenAI-compatible providers such as <a href=\"https://platform.minimaxi.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MiniMax</a>, which offers large-context models (up to 204K tokens). See the <a href=\"https://github.com/microsoft/ai-agents-for-beginners/blob/main/00-course-setup/README.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Course Setup</a> for configuration details.</p>\n<p>For more information on running the code for this course, go to the <a href=\"https://github.com/microsoft/ai-agents-for-beginners/blob/main/00-course-setup/README.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Course Setup</a>.</p>",
+    "truncated": false,
+    "chars": 2018
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 20,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:12.616Z",
+  "checked_at": "2026-11-17T02:20:12.616Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:12.616Z"
+}

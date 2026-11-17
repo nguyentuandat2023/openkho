@@ -1,0 +1,100 @@
+{
+ "id": "lucide-icons/lucide",
+ "github_id": 270722949,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyNzA3MjI5NDk=",
+ "full_name": "lucide-icons/lucide",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "lucide",
+  "owner": "lucide-icons",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/66879934?v=4",
+  "description": "Beautiful & consistent icon toolkit made by the community. Lucide is an open-source icon library that provides 2000+ vector (svg) files for displaying icons and symbols in digital and non-digital projects. ",
+  "homepage": "https://lucide.dev",
+  "html_url": "https://github.com/lucide-icons/lucide",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "feather-icons",
+   "figma",
+   "icons",
+   "react",
+   "svg",
+   "svg-icons",
+   "svgs",
+   "ui-components",
+   "ui-design",
+   "vue"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 25797,
+  "forks": 1690,
+  "watchers": null,
+  "open_issues": 334,
+  "open_prs": null,
+  "created_at": "2020-06-08T15:36:21Z",
+  "pushed_at": "2026-11-16T23:02:31Z",
+  "updated_at": "2026-11-17T01:02:18Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 29145,
+  "og_image": "https://opengraph.githubassets.com/1/lucide-icons/lucide",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T23:02:29.000Z",
+  "commits_90d": 2654,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "1.73.0",
+  "name": "Version 1.73.0",
+  "published_at": "2026-11-14T06:08:41Z",
+  "url": "https://github.com/lucide-icons/lucide/releases/tag/1.73.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "@lucide/lab@0.14.0",
+  "name": "@lucide/lab@0.14.0",
+  "published_at": "2026-11-16T12:48:30Z",
+  "url": "https://github.com/lucide-icons/lucide/releases/tag/%40lucide%2Flab%400.14.0"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 8682,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": null,
+   "usage": null,
+   "features": null
+  },
+  "headings": 13,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:58.946Z",
+  "checked_at": "2026-11-17T02:19:58.946Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:58.946Z"
+}

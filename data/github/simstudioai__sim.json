@@ -1,0 +1,118 @@
+{
+ "id": "simstudioai/sim",
+ "github_id": 912559512,
+ "node_id": "R_kgDONmSNmA",
+ "full_name": "simstudioai/sim",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "sim",
+  "owner": "simstudioai",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/199344406?v=4",
+  "description": "Sim is the collaborative workspace to build, deploy, and monitor AI agents and workflows. Used by 100,000+ builders.",
+  "homepage": "https://www.sim.ai",
+  "html_url": "https://github.com/simstudioai/sim",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "agent-workflow",
+   "agentic-workflow",
+   "agents",
+   "ai",
+   "aiagents",
+   "anthropic",
+   "artificial-intelligence",
+   "automation",
+   "chatbot",
+   "deepseek",
+   "gemini",
+   "low-code",
+   "nextjs",
+   "no-code",
+   "openai",
+   "rag",
+   "react",
+   "typescript"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 30148,
+  "forks": 3912,
+  "watchers": null,
+  "open_issues": 328,
+  "open_prs": null,
+  "created_at": "2025-01-05T22:47:49Z",
+  "pushed_at": "2026-11-17T02:17:59Z",
+  "updated_at": "2026-11-16T23:59:25Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 778102,
+  "og_image": "https://opengraph.githubassets.com/1/simstudioai/sim",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T22:32:59.000Z",
+  "commits_90d": 1884,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.9.59",
+  "name": "v0.9.59",
+  "published_at": "2026-11-16T23:06:04Z",
+  "url": "https://github.com/simstudioai/sim/releases/tag/v0.9.59",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 11477,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quickstart",
+    "html": "<h5>Cloud-hosted: <a href=\"https://sim.ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">sim.ai</a></h5>\n<h5>Self-hosted</h5>\n<pre><code class=\"language-bash\">npx sim-setup\n</code></pre>\n<h5>Desktop: <a href=\"https://sim.ai/api/desktop/update/download\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">macOS</a></h5>\n<p>macOS 12+, Apple Silicon and Intel. See the <a href=\"https://docs.sim.ai/desktop\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">desktop docs</a> to point it at a self-hosted deployment.</p>\n<p>\n  <img src=\"https://raw.githubusercontent.com/simstudioai/sim/main/apps/sim/public/static/readme-platform.png\" alt=\"The Sim platform — chat on the left, the visual workflow builder on the right\" loading=\"lazy\" decoding=\"async\" width=\"100%\" />\n</p>",
+    "truncated": false,
+    "chars": 470
+   },
+   "usage": null,
+   "features": {
+    "title": "Capabilities",
+    "html": "<ul>\n<li>Connect 270+ integrations (5,400+ actions, 520+ triggers) and every major LLM</li>\n<li>Add Slack, Notion, HubSpot, Salesforce, databases, and more</li>\n<li>Build agents visually, conversationally, or with code</li>\n<li>Ingest files, knowledge bases, and structured table data</li>\n<li>Monitor runs, logs, schedules, and workflow activity</li>\n</ul>",
+    "truncated": false,
+    "chars": 315
+   }
+  },
+  "headings": 14,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:19.696Z",
+  "checked_at": "2026-11-17T02:19:19.696Z"
+ },
+ "contributors": {
+  "count": 63,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:30.020Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:19.696Z"
+}

@@ -1,0 +1,139 @@
+# Danh mục: No-code & Low-code — xem cấu trúc trường trong data/README.md
+- repo: nocodb/nocodb
+  tags: [airtable-alternative, spreadsheet, database]
+  summary: "Biến cơ sở dữ liệu thành bảng tính thông minh kiểu Airtable: xem dạng lưới, kanban, lịch, form, cộng tác nhóm, có API."
+  use_cases: ["Quản lý danh sách khách hàng, đơn hàng", "Theo dõi lịch nội dung marketing", "Thay Airtable/Google Sheets khi dữ liệu lớn"]
+  pros: ["Giao diện quen thuộc như bảng tính", "Kết nối PostgreSQL/MySQL sẵn có", "API tự sinh cho mọi bảng"]
+  cons: ["Cần đọc kỹ giấy phép trước khi dùng thương mại", "Một số tính năng nâng cao thuộc bản trả phí"]
+  platforms: [docker, windows, macos, linux]
+  deploy: [self-host, cloud]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  license_note: "GitHub hiển thị NOASSERTION — dự án dùng giấy phép riêng, đọc file LICENSE."
+  applicability: 5
+  featured: true
+- repo: appsmithorg/appsmith
+  tags: [internal-tools, dashboard, crud]
+  summary: "Xây công cụ nội bộ (dashboard, trang quản trị, biểu mẫu CRUD) bằng kéo-thả, kết nối mọi cơ sở dữ liệu và API."
+  use_cases: ["Trang quản trị đơn hàng", "Dashboard vận hành"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: ToolJet/ToolJet
+  tags: [internal-tools, low-code, ai]
+  summary: "Nền tảng low-code có AI để làm ứng dụng nội bộ và quy trình: kéo-thả giao diện, kết nối nhiều nguồn dữ liệu."
+  use_cases: ["Ứng dụng phê duyệt nội bộ", "Công cụ chăm sóc khách hàng"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 4
+- repo: Budibase/budibase
+  tags: [internal-tools, forms, workflow]
+  summary: "Tạo ứng dụng nội bộ, biểu mẫu, cổng thông tin và quy trình tự động trong vài phút, tự host được."
+  use_cases: ["Form yêu cầu nội bộ", "Cổng thông tin khách hàng"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  license_note: "Máy chủ dùng GPL-3.0, thư viện phía client MPL; một số tính năng thuộc gói trả phí (GitHub hiển thị NOASSERTION)."
+  applicability: 4
+  license_override:
+    spdx: GPL-3.0
+    name: GPL-3.0 (máy chủ) + MPL-2.0 (client)
+- repo: directus/directus
+  also: [database-backend]
+  tags: [headless-cms, data-platform, api]
+  summary: "Biến bất kỳ cơ sở dữ liệu SQL nào thành API và giao diện quản trị nội dung không cần code."
+  use_cases: ["Quản trị dữ liệu sản phẩm cho website/app", "Backend nội dung cho đội marketing"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: paid-license
+  needs_api_key: none
+  license_note: "Business Source License (BSL 1.1): miễn phí cho tổ chức có tổng doanh thu/vốn dưới 5 triệu USD/năm; lớn hơn phải mua giấy phép."
+  applicability: 3
+  license_override:
+    spdx: BUSL-1.1
+    name: Business Source License 1.1
+- repo: teableio/teable
+  tags: [airtable-alternative, postgres, spreadsheet]
+  summary: "Cơ sở dữ liệu dạng bảng tính thế hệ mới trên PostgreSQL (thay Airtable), xử lý mượt dữ liệu lớn, có AI hỗ trợ."
+  use_cases: ["Bảng dữ liệu cộng tác cho đội nhóm", "CRM đơn giản tự làm"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: nocobase/nocobase
+  tags: [no-code, plugin, business-system]
+  summary: "Nền tảng no-code/low-code dạng plugin để xây hệ thống quản lý doanh nghiệp (CRM, quy trình phê duyệt…) rất linh hoạt."
+  use_cases: ["Hệ thống quản lý theo nghiệp vụ riêng", "Quy trình phê duyệt nhiều cấp"]
+  platforms: [docker, windows, macos, linux]
+  deploy: [self-host]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: gristlabs/grist-core
+  tags: [spreadsheet, database, python-formulas]
+  summary: "Bảng tính kết hợp cơ sở dữ liệu quan hệ: công thức Python, phân quyền chi tiết, dashboard — thay Excel/Airtable cho dữ liệu nghiêm túc."
+  use_cases: ["Quản lý dữ liệu có quan hệ (khách hàng–đơn hàng)", "Báo cáo nội bộ"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: baserow/baserow
+  tags: [airtable-alternative, database, automation]
+  summary: "Cơ sở dữ liệu no-code thay Airtable, tự host được, có trình dựng ứng dụng và tự động hóa — dữ liệu thuộc về bạn."
+  use_cases: ["Quản lý dự án, kho nội dung", "Danh bạ đối tác"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: none
+  license_note: "Lõi MIT; tính năng premium/enterprise có giấy phép riêng (GitHub hiển thị NOASSERTION)."
+  applicability: 4
+  license_override:
+    spdx: MIT
+    name: MIT + giấy phép premium/enterprise
+- repo: webstudio-is/webstudio
+  also: [web-dev]
+  tags: [website-builder, webflow-alternative, visual-editor]
+  summary: "Trình dựng website trực quan mã nguồn mở thay Webflow: kéo-thả, CSS đầy đủ, xuất bản lên hosting tùy chọn."
+  use_cases: ["Landing page, website marketing không cần code"]
+  platforms: [web, docker]
+  deploy: [cloud, self-host]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 4
+- repo: refinedev/refine
+  tags: [react, admin-panel, crud]
+  summary: "Framework React chuyên làm trang quản trị, dashboard, CRUD rất nhanh — headless, tùy biến hoàn toàn."
+  use_cases: ["Trang quản trị cho hệ thống nội bộ"]
+  platforms: [web]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: plasmicapp/plasmic
+  tags: [visual-builder, react, landing-page]
+  summary: "Trình thiết kế trực quan cho React/Next.js: dựng trang đích, nội dung marketing bằng kéo-thả và nhúng vào code."
+  use_cases: ["Đội marketing tự sửa landing page mà không chờ dev"]
+  platforms: [web]
+  deploy: [cloud, library]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  applicability: 3

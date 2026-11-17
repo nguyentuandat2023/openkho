@@ -1,0 +1,103 @@
+{
+ "id": "n8n-io/self-hosted-ai-starter-kit",
+ "github_id": 762303728,
+ "node_id": "R_kgDOLW_U8A",
+ "full_name": "n8n-io/self-hosted-ai-starter-kit",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "self-hosted-ai-starter-kit",
+  "owner": "n8n-io",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/45487711?v=4",
+  "description": "The Self-hosted AI Starter Kit is an open-source template that quickly sets up a local AI environment. Curated by n8n, it provides essential tools for creating secure, self-hosted AI workflows.",
+  "homepage": "https://n8n.io",
+  "html_url": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
+  "default_branch": "main",
+  "language": null,
+  "languages": null,
+  "topics": [
+   "ai",
+   "ai-agents",
+   "low-code",
+   "self-hosted",
+   "starter-kit"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 15370,
+  "forks": 3814,
+  "watchers": null,
+  "open_issues": 7,
+  "open_prs": null,
+  "created_at": "2024-02-23T13:56:32Z",
+  "pushed_at": "2026-11-16T23:13:43Z",
+  "updated_at": "2026-11-16T19:40:27Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": false,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 4439,
+  "og_image": "https://opengraph.githubassets.com/1/n8n-io/self-hosted-ai-starter-kit",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-07-23T11:28:09.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 9629,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "xz_X2N-hPg0",
+    "url": "https://www.youtube.com/watch?v=xz_X2N-hPg0"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<h5>Cloning the Repository</h5>\n<pre><code class=\"language-bash\">git clone https://github.com/n8n-io/self-hosted-ai-starter-kit.git\ncd self-hosted-ai-starter-kit\ncp .env.example .env # you should update secrets and passwords inside\n</code></pre>\n<h5>Running n8n using Docker Compose</h5>\n<h6>For Nvidia GPU users</h6>\n<pre><code class=\"language-bash\">git clone https://github.com/n8n-io/self-hosted-ai-starter-kit.git\ncd self-hosted-ai-starter-kit\ncp .env.example .env # you should update secrets and passwords inside\ndocker compose --profile gpu-nvidia up\n</code></pre>\n<blockquote>\n<p>[!NOTE]\nIf you have not used your Nvidia GPU with Docker before, please follow the\n<a href=\"https://docs.ollama.com/docker\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Ollama Docker instructions</a>.</p>\n</blockquote>\n<h5>For AMD GPU users on Linux</h5>\n<pre><code class=\"language-bash\">git clone https://github.com/n8n-io/self-hosted-ai-starter-kit.git\ncd self-hosted-ai-starter-kit\ncp .env.example .env # you should update secrets and passwords inside\ndocker compose --profile gpu-amd up\n</code></pre>\n<h6>For Mac / Apple Silicon users</h6>\n<p>If you’re using a Mac with an M1 or newer processor, you can't expose your GPU\nto the Docker instance, unfortunately. There are two options in this case:</p>\n<ol>\n<li>Run the starter kit fully on CPU, like in the section \"For everyone else\"\nbelow</li>\n<li>Run Ollama on your Mac for faster inference, and connect to that from the\nn8n instance</li>\n</ol>\n<p>If you want to run Ollama on your mac, check the\n<a href=\"https://ollama.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Ollama homepage</a>\nfor installation instructions, and run the starter kit as follows:</p>\n<pre><code class=\"language-bash\">git clone https://github.com/n8n-io/self-hosted-ai-starter-kit.git\ncd self-hosted-ai-starter-kit\ncp .env.example .env # you should update secrets and passwords inside\ndocker compose up\n</code></pre>\n<h6>For Mac users running OLLAMA locally</h6>\n<p>If you're running OLLAMA locally on your Mac (not in Docker), you need to modify the OLLAMA_HOST environment variable</p>\n<ol>\n<li><p>Set OLLAMA_HOST to <code>host.docker.internal:11434</code> in your .env file. </p>\n</li>\n<li><p>Additionally, after you see \"Editor is now accessible via: <a href=\"http://localhost:5678/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:5678/</a>\":</p>\n<ol>\n<li>Head to <a href=\"http://localhost:5678/home/credentials\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:5678/home/credentials</a></li>\n<li>Click on \"Local Ollama service\"</li>\n<li>Change the base URL to \"<a href=\"http://host.docker.internal:11434/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://host.docker.internal:11434/</a>\"</li>\n</ol>\n</li>\n</ol>\n<h6>For everyone else</h6>\n<pre><code class=\"language-bash\">git clone https://github.com/n8n-io/self-hosted-ai-starter-kit.git\ncd self-hosted-ai-starter-kit\ncp .env.example .env # you should update secrets and passwords inside\ndocker compose --profile cpu up\n</code></pre>",
+    "truncated": false,
+    "chars": 2342
+   },
+   "usage": {
+    "title": "Quick start and usage",
+    "html": "<p>The core of the Self-hosted AI Starter Kit is a Docker Compose file, pre-configured with network and storage settings, minimizing the need for additional installations.\nAfter completing the installation steps above, simply follow the steps below to get started.</p>\n<ol>\n<li>Open <a href=\"http://localhost:5678/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:5678/</a> in your browser to set up n8n. You’ll only\nhave to do this once.</li>\n<li>Open the included workflow:\n<a href=\"http://localhost:5678/workflow/srOnR8PAY3u4RSwb\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:5678/workflow/srOnR8PAY3u4RSwb</a></li>\n<li>Click the <strong>Chat</strong> button at the bottom of the canvas, to start running the workflow.</li>\n<li>If this is the first time you’re running the workflow, you may need to wait\nuntil Ollama finishes downloading Llama3.2. You can inspect the docker\nconsole logs to check on the progress.</li>\n</ol>\n<p>To open n8n at any time, visit <a href=\"http://localhost:5678/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:5678/</a> in your browser.</p>\n<p>With your n8n instance, you’ll have access to over 400 integrations and a\nsuite of basic and advanced AI nodes such as\n<a href=\"https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AI Agent</a>,\n<a href=\"https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.text-classifier/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Text classifier</a>,\nand <a href=\"https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.information-extractor/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Information Extractor</a>\nnodes. To keep everything local, just remember to use the Ollama node for your\nlanguage model and Qdrant as your vector store.</p>\n<blockquote>\n<p>[!NOTE]\nThis starter kit is designed to help you get started with self-hosted AI\nworkflows. While it’s not fully optimized for production environments, it\ncombines robust components that work well together for proof-of-concept\nprojects. You can customize it to meet your specific needs</p>\n</blockquote>",
+    "truncated": false,
+    "chars": 1720
+   },
+   "features": null
+  },
+  "headings": 22,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:19.226Z",
+  "checked_at": "2026-11-17T02:19:19.226Z"
+ },
+ "contributors": {
+  "count": 16,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:29.031Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:19.226Z"
+}

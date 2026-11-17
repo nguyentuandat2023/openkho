@@ -1,0 +1,121 @@
+{
+ "id": "mifi/lossless-cut",
+ "github_id": 72343657,
+ "node_id": "MDEwOlJlcG9zaXRvcnk3MjM0MzY1Nw==",
+ "full_name": "mifi/lossless-cut",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:03.703Z",
+ "meta": {
+  "name": "lossless-cut",
+  "owner": "mifi",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/402547?v=4",
+  "description": "The swiss army knife of lossless video/audio editing",
+  "homepage": "https://losslesscut.app/",
+  "html_url": "https://github.com/mifi/lossless-cut",
+  "default_branch": "master",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "codec",
+   "cut",
+   "editor",
+   "ffmpeg",
+   "lossless",
+   "losslesscut",
+   "player",
+   "video",
+   "video-editor",
+   "video-files"
+  ],
+  "license": {
+   "spdx": "GPL-2.0",
+   "name": "GNU General Public License v2.0"
+  },
+  "stars": 46100,
+  "forks": 2334,
+  "watchers": null,
+  "open_issues": 176,
+  "open_prs": null,
+  "created_at": "2016-10-30T10:49:56Z",
+  "pushed_at": "2026-11-14T02:45:16Z",
+  "updated_at": "2026-11-17T00:51:20Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 31641,
+  "og_image": "https://opengraph.githubassets.com/1/mifi/lossless-cut",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-03T14:13:43.000Z",
+  "commits_90d": 101,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v3.70.2",
+  "name": "3.70.2",
+  "published_at": "2026-10-28T06:48:01Z",
+  "url": "https://github.com/mifi/lossless-cut/releases/tag/v3.70.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 9562,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "pYHMxXy05Jg",
+    "url": "https://www.youtube.com/watch?v=pYHMxXy05Jg"
+   },
+   {
+    "type": "youtube",
+    "id": "4pYJ93cn80E",
+    "url": "https://www.youtube.com/watch?v=4pYJ93cn80E"
+   },
+   {
+    "type": "youtube",
+    "id": "MRBGDsuw_WU",
+    "url": "https://www.youtube.com/watch?v=MRBGDsuw_WU"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Download",
+    "html": "<p>If you want to support my continued work on LosslessCut, and you want the advantage of a secure and simple installation process with automatic, stable updates, consider getting it from your favorite store:</p>\n<p><a href=\"https://apps.apple.com/app/id1505323402\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/mifi/lossless-cut/master/mac-app-store-badge.svg\" alt=\"Mac App Store\" loading=\"lazy\" decoding=\"async\" height=\"50\" /></a> <a href=\"https://www.microsoft.com/store/apps/9P30LSR4705L?cid=storebadge&amp;ocid=badge\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/mifi/lossless-cut/master/ms-store-badge.svg\" alt=\"MS badge\" loading=\"lazy\" decoding=\"async\" height=\"50\" /></a></p>\n<p>For Linux I publish to the Snap Store:</p>\n<p><a href=\"https://snapcraft.io/losslesscut\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/mifi/lossless-cut/master/snap-store-black.svg?sanitize=true\" alt=\"Snapcraft\" loading=\"lazy\" decoding=\"async\" height=\"50\" /></a></p>\n<p>If you prefer to download the executables manually, this will of course always be free (see also <a href=\"https://losslesscut.app/docs/requirements\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">supported operating systems</a>):</p>\n<ul>\n<li>macOS: <a href=\"https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-mac-x64.dmg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Intel</a> / <a href=\"https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-mac-arm64.dmg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Apple Silicon</a> DMG (note that PKG does <strong>not</strong> work)</li>\n<li>Windows: <a href=\"https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-win-x64.7z\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">7zip</a> (Windows 7, 8 and 8.1 is <a href=\"https://losslesscut.app/docs/requirements\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">no longer supported after v3.50.0</a>)</li>\n<li>Linux: <a href=\"https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-linux-x64.tar.bz2\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">x64 tar.bz2</a> / <a href=\"https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-linux-x86_64.AppImage\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">x64 AppImage</a> / <a href=\"https://github.com/mifi/lossless-cut/releases/latest/download/LosslessCut-linux-arm64.tar.bz2\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">arm64 tar.bz2</a></li>\n<li><a href=\"https://github.com/mifi/lossless-cut/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">More releases</a> - Note that APPX (Windows) and PKG (macOS) do <strong>not</strong> work</li>\n<li><a href=\"https://mifi.no/llc/nightly/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Latest nightly builds 🧪</a></li>\n</ul>\n<p>Note that the above are the <a href=\"https://losslesscut.app/docs/faq#can-i-download-losslesscut-from-other-websites-or-package-managers\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">only official downloads</a>. There are also unofficial releases like <a href=\"https://flathub.org/apps/details/no.mifi.losslesscut\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Flathub</a> (not maintained by me). Difference between App Stores and GitHub download? <a href=\"https://losslesscut.app/docs/faq#is-losslesscut-free-whats-the-difference-between-the-app-store-and-github-versions\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Please see FAQ</a>.</p>\n<p><a href=\"https://mifi.no/thanks\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/mifi/lossless-cut/master/donate.svg\" alt=\"\" loading=\"lazy\" decoding=\"async\" /></a></p>\n<p>LosslessCut is maintained by me alone and will always remain free and open source. If it's useful to you, consider supporting my work. Alternatively <a href=\"https://www.ffmpeg.org/donations.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">donate to the FFmpeg team</a> because they are doing the world a huge favor.</p>\n<p><a href=\"https://paypal.me/mifino/usd\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Paypal</a> | <a href=\"https://mifi.no/thanks\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">crypto</a> | <a href=\"https://mifi.no/thanks\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">more</a></p>",
+    "truncated": false,
+    "chars": 2740
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li>Cut and trim video and audio losslessly, in seconds</li>\n<li>Merge cut segments, or whole files with identical codecs, losslessly</li>\n<li>Add, remove, replace or extract tracks: audio, subtitles and more</li>\n<li>Change the format (remux), for example from MKV to MP4, without re-encoding</li>\n<li>Segments, markers and tags, with import/export of chapters, CSV, EDL and more</li>\n<li>Detect scenes, black frames and silence, and split by them</li>\n<li>Edit metadata and rotation, and create chapters</li>\n<li>Opens almost any format, even ones your player can't play</li>\n<li>Snapshots and frame export, keyboard shortcuts, a <a href=\"https://losslesscut.app/docs/cli\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CLI</a> and an <a href=\"https://losslesscut.app/docs/api\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">HTTP API</a></li>\n</ul>\n<p><strong><a href=\"https://losslesscut.app/docs/features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">All features and example use cases →</a></strong></p>\n<p>See also the <a href=\"https://losslesscut.app/docs/recipes\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Recipe cookbook</a>.</p>",
+    "truncated": false,
+    "chars": 824
+   }
+  },
+  "headings": 8,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:48.019Z",
+  "checked_at": "2026-11-16T05:09:48.019Z"
+ },
+ "details_checked_at": "2026-11-16T05:07:17.738Z",
+ "contributors": null
+}

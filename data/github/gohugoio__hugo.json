@@ -1,0 +1,97 @@
+{
+ "id": "gohugoio/hugo",
+ "github_id": 11180687,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxMTE4MDY4Nw==",
+ "full_name": "gohugoio/hugo",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:06.954Z",
+ "meta": {
+  "name": "hugo",
+  "owner": "gohugoio",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/29385237?v=4",
+  "description": "The world’s fastest framework for building websites.",
+  "homepage": "https://gohugo.io",
+  "html_url": "https://github.com/gohugoio/hugo",
+  "default_branch": "master",
+  "language": "Go",
+  "languages": null,
+  "topics": [
+   "blog-engine",
+   "cms",
+   "content-management-system",
+   "documentation-tool",
+   "go",
+   "hugo",
+   "static-site-generator"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 90488,
+  "forks": 8509,
+  "watchers": null,
+  "open_issues": 219,
+  "open_prs": null,
+  "created_at": "2013-07-04T15:26:26Z",
+  "pushed_at": "2026-11-16T21:35:18Z",
+  "updated_at": "2026-11-17T02:04:17Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 153725,
+  "og_image": "https://opengraph.githubassets.com/1/gohugoio/hugo",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T21:35:17.000Z",
+  "commits_90d": 279,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.170.0",
+  "name": "v0.170.0",
+  "published_at": "2026-11-14T14:10:12Z",
+  "url": "https://github.com/gohugoio/hugo/releases/tag/v0.170.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 7652,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<p>Install Hugo from a <a href=\"https://github.com/gohugoio/hugo/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">prebuilt binary</a>, package manager, or package repository. Please see the installation instructions for your operating system:</p>\n<ul>\n<li><a href=\"https://gohugo.io/installation/macos\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">macOS</a></li>\n<li><a href=\"https://gohugo.io/installation/linux\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Linux</a></li>\n<li><a href=\"https://gohugo.io/installation/windows\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Windows</a></li>\n<li><a href=\"https://gohugo.io/installation/bsd\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">DragonFly BSD, FreeBSD, NetBSD, and OpenBSD</a></li>\n</ul>",
+    "truncated": false,
+    "chars": 241
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 11,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:47.977Z",
+  "checked_at": "2026-11-17T02:20:47.977Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:47.977Z"
+}

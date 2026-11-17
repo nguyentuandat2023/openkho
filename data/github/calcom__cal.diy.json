@@ -1,0 +1,101 @@
+{
+ "id": "calcom/cal.diy",
+ "github_id": 350360184,
+ "node_id": "MDEwOlJlcG9zaXRvcnkzNTAzNjAxODQ=",
+ "full_name": "calcom/cal.diy",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "cal.diy",
+  "owner": "calcom",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/79145102?v=4",
+  "description": "Scheduling infrastructure for absolutely everyone.",
+  "homepage": "https://cal.diy",
+  "html_url": "https://github.com/calcom/cal.diy",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "next-auth",
+   "nextjs",
+   "open-source",
+   "postgresql",
+   "prisma",
+   "t3-stack",
+   "tailwindcss",
+   "trpc",
+   "turborepo",
+   "typescript",
+   "zod"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 50104,
+  "forks": 15655,
+  "watchers": null,
+  "open_issues": 1639,
+  "open_prs": null,
+  "created_at": "2021-03-22T13:47:42Z",
+  "pushed_at": "2026-11-13T19:35:07Z",
+  "updated_at": "2026-11-17T01:28:49Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 1161986,
+  "og_image": "https://opengraph.githubassets.com/1/calcom/cal.diy",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-13T19:35:06.000Z",
+  "commits_90d": 32,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v6.2.0",
+  "name": "v6.2.0",
+  "published_at": "2026-03-01T23:49:01Z",
+  "url": "https://github.com/calcom/cal.diy/releases/tag/v6.2.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 36808,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<p>To get a local copy up and running, please follow these simple steps.</p>\n<h5>Prerequisites</h5>\n<p>Here’s what you need to run Cal.diy.</p>\n<ul>\n<li>Node.js (Version: &gt;=18.x)</li>\n<li>PostgreSQL (Version: &gt;=13.x)</li>\n<li>Yarn <em>(recommended)</em></li>\n</ul>\n<blockquote>\n<p>If you want to enable any of the available integrations, you may want to obtain additional credentials for each one. More details on this can be found below under the <a href=\"https://github.com/calcom/cal.diy#integrations\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">integrations section</a>.</p>\n</blockquote>",
+    "truncated": false,
+    "chars": 422
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 58,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:16.653Z",
+  "checked_at": "2026-11-16T05:08:16.653Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:20.793Z",
+ "contributors": null
+}

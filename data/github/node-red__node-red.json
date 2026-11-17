@@ -1,0 +1,101 @@
+{
+ "id": "node-red/node-red",
+ "github_id": 12618379,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxMjYxODM3OQ==",
+ "full_name": "node-red/node-red",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "node-red",
+  "owner": "node-red",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/5375661?v=4",
+  "description": "Low-code programming for event-driven applications",
+  "homepage": "http://nodered.org",
+  "html_url": "https://github.com/node-red/node-red",
+  "default_branch": "main",
+  "language": "JavaScript",
+  "languages": null,
+  "topics": [
+   "flow-based-programming",
+   "javascript",
+   "low-code",
+   "node-red",
+   "openjs-foundation",
+   "visual-programming"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 23850,
+  "forks": 4033,
+  "watchers": null,
+  "open_issues": 356,
+  "open_prs": null,
+  "created_at": "2013-09-05T13:30:47Z",
+  "pushed_at": "2026-11-13T16:53:46Z",
+  "updated_at": "2026-11-16T08:50:47Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 76066,
+  "og_image": "https://opengraph.githubassets.com/1/node-red/node-red",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-13T15:15:17.000Z",
+  "commits_90d": 380,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "5.0.9",
+  "name": "5.0.9: Maintenance Release",
+  "published_at": "2026-10-21T10:29:19Z",
+  "url": "https://github.com/node-red/node-red/releases/tag/5.0.9",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 5275,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<p>Check out <a href=\"https://nodered.org/docs/getting-started/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://nodered.org/docs/getting-started/</a> for full instructions on getting\nstarted.</p>\n<ol>\n<li><code>sudo npm install -g --unsafe-perm node-red</code></li>\n<li><code>node-red</code></li>\n<li>Open <a href=\"http://localhost:1880\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://localhost:1880</a></li>\n</ol>\n<br /><blockquote>\n<p>[!NOTE]\nMore documentation can be found <a href=\"https://nodered.org/docs\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>. For further help, or general discussion, please join the <a href=\"https://discourse.nodered.org\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Node-RED Forum</a> or <a href=\"https://nodered.org/slack\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Node-RED Slack</a>.</p>\n</blockquote>",
+    "truncated": false,
+    "chars": 431
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 7,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:45.015Z",
+  "checked_at": "2026-11-16T04:33:45.015Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:16.512Z",
+ "contributors": {
+  "count": 301,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:31.136Z"
+ }
+}

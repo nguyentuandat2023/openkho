@@ -1,0 +1,119 @@
+{
+ "id": "dyad-sh/dyad",
+ "github_id": 964395174,
+ "node_id": "R_kgDOOXuApg",
+ "full_name": "dyad-sh/dyad",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:06.954Z",
+ "meta": {
+  "name": "dyad",
+  "owner": "dyad-sh",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/183970190?v=4",
+  "description": "Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it!",
+  "homepage": "https://dyad.sh",
+  "html_url": "https://github.com/dyad-sh/dyad",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "ai-app-builder",
+   "anthropic",
+   "artificial-intelligence",
+   "bolt",
+   "deepseek",
+   "gemini",
+   "generative-ai",
+   "github",
+   "llm",
+   "llms",
+   "lovable",
+   "nextjs",
+   "ollama",
+   "openai",
+   "qwen",
+   "react",
+   "typescript",
+   "v0",
+   "vercel"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 22312,
+  "forks": 2818,
+  "watchers": null,
+  "open_issues": 365,
+  "open_prs": null,
+  "created_at": "2025-04-11T06:33:48Z",
+  "pushed_at": "2026-11-17T01:40:05Z",
+  "updated_at": "2026-11-17T02:01:25Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 62966,
+  "og_image": "https://opengraph.githubassets.com/1/dyad-sh/dyad",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T01:40:04.000Z",
+  "commits_90d": 175,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.23.0",
+  "name": "v1.23.0",
+  "published_at": "2026-11-09T18:52:01Z",
+  "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.23.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v1.24.0",
+  "name": "Promote v1.24.0-beta.1 to v1.24.0 (#5046)",
+  "published_at": "2026-11-16T19:48:08Z",
+  "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.24.0"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 1334,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Download",
+    "html": "<p>No sign-up required. Just download and go.</p>\n<h5><a href=\"https://www.dyad.sh/#download\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">👉 Download for your platform</a></h5>",
+    "truncated": false,
+    "chars": 114
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li>⚡️ <strong>Local</strong>: Fast, private and no lock-in.</li>\n<li>🛠 <strong>Bring your own keys</strong>: Use your own AI API keys — no vendor lock-in.</li>\n<li>🖥️ <strong>Cross-platform</strong>: Easy to run on Mac or Windows.</li>\n</ul>",
+    "truncated": false,
+    "chars": 182
+   }
+  },
+  "headings": 7,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:50.846Z",
+  "checked_at": "2026-11-17T02:20:50.846Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:50.846Z"
+}

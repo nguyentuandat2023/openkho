@@ -1,0 +1,91 @@
+{
+ "id": "mongodb/mongo",
+ "github_id": 108110,
+ "node_id": "MDEwOlJlcG9zaXRvcnkxMDgxMTA=",
+ "full_name": "mongodb/mongo",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:29.795Z",
+ "meta": {
+  "name": "mongo",
+  "owner": "mongodb",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/45120?v=4",
+  "description": "The MongoDB Database",
+  "homepage": "https://www.mongodb.com/",
+  "html_url": "https://github.com/mongodb/mongo",
+  "default_branch": "master",
+  "language": "C++",
+  "languages": null,
+  "topics": [
+   "c-plus-plus",
+   "database",
+   "mongodb",
+   "nosql"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 28680,
+  "forks": 5915,
+  "watchers": null,
+  "open_issues": 45,
+  "open_prs": null,
+  "created_at": "2009-01-15T16:15:18Z",
+  "pushed_at": "2026-11-16T20:59:37Z",
+  "updated_at": "2026-11-17T00:33:32Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": false,
+  "has_discussions": false,
+  "has_wiki": true,
+  "size_kb": 1451942,
+  "og_image": "https://opengraph.githubassets.com/1/mongodb/mongo",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T20:59:31.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": {
+  "tag": "r9.0.8",
+  "name": "r9.0.8",
+  "published_at": "2026-11-11T01:04:48Z",
+  "url": "https://github.com/mongodb/mongo/releases/tag/r9.0.8"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 2258,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Download MongoDB",
+    "html": "<ul>\n<li><a href=\"https://www.mongodb.com/try/download/community\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://www.mongodb.com/try/download/community</a></li>\n<li>Using homebrew <code>brew tap mongodb/brew</code></li>\n<li>Using docker image <code>docker pull mongodb/mongodb-community-server</code></li>\n</ul>",
+    "truncated": false,
+    "chars": 161
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 14,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:26.366Z",
+  "checked_at": "2026-11-17T02:19:54.118Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:54.118Z"
+}

@@ -1,0 +1,120 @@
+{
+ "id": "Kanaries/pygwalker",
+ "github_id": 602389947,
+ "node_id": "R_kgDOI-e9uw",
+ "full_name": "Kanaries/pygwalker",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "pygwalker",
+  "owner": "Kanaries",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/57262471?v=4",
+  "description": "PyGWalker: Turn your dataframe into an interactive UI for visual analysis",
+  "homepage": "https://kanaries.net/pygwalker",
+  "html_url": "https://github.com/Kanaries/pygwalker",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "data-analysis",
+   "data-exploration",
+   "dataframe",
+   "matplotlib",
+   "pandas",
+   "plotly",
+   "tableau",
+   "tableau-alternative",
+   "visualization"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 16007,
+  "forks": 895,
+  "watchers": null,
+  "open_issues": 72,
+  "open_prs": null,
+  "created_at": "2023-02-16T05:17:24Z",
+  "pushed_at": "2026-09-05T19:19:19Z",
+  "updated_at": "2026-11-16T14:58:32Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 75119,
+  "og_image": "https://opengraph.githubassets.com/1/Kanaries/pygwalker",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-09-05T19:19:17.000Z",
+  "commits_90d": 1,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "0.5.0.1",
+  "name": "0.5.0.1",
+  "published_at": "2026-04-04T02:10:37Z",
+  "url": "https://github.com/Kanaries/pygwalker/releases/tag/0.5.0.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v0.5.0.1a1",
+  "name": "v0.5.0.1a1",
+  "published_at": "2026-06-12T11:08:50Z",
+  "url": "https://github.com/Kanaries/pygwalker/releases/tag/v0.5.0.1a1"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 23898,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "rprn79wfB9E",
+    "url": "https://www.youtube.com/watch?v=rprn79wfB9E"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<blockquote>\n<p>Check our video tutorial about using pygwalker, pygwalker + streamlit and pygwalker + snowflake, <a href=\"https://youtu.be/rprn79wfB9E?si=lAsJn1cAQnb-EklD\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">How to explore data with PyGWalker in Python\n</a></p>\n</blockquote>\n<table>\n<thead>\n<tr>\n<th><a href=\"https://www.kaggle.com/code/lxy21495892/airbnb-eda-pygwalker-demo\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Run in Kaggle</a></th>\n<th><a href=\"https://colab.research.google.com/drive/171QUQeq-uTLgSj1u-P9DQig7Md1kpXQ2?usp=sharing\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Run in Colab</a></th>\n</tr>\n</thead>\n<tbody><tr>\n<td><a href=\"https://www.kaggle.com/code/lxy21495892/airbnb-eda-pygwalker-demo\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://docs-us.oss-us-west-1.aliyuncs.com/img/pygwalker/kaggle.png\" alt=\"Kaggle Code\" loading=\"lazy\" decoding=\"async\" /></a></td>\n<td><a href=\"https://colab.research.google.com/drive/171QUQeq-uTLgSj1u-P9DQig7Md1kpXQ2?usp=sharing\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://docs-us.oss-us-west-1.aliyuncs.com/img/pygwalker/colab.png\" alt=\"Google Colab\" loading=\"lazy\" decoding=\"async\" /></a></td>\n</tr>\n</tbody></table>\n<h4>Setup pygwalker</h4>\n<p>Before using pygwalker, make sure to install the packages through the command line using pip or conda.</p>\n<h5>pip</h5>\n<pre><code class=\"language-bash\">pip install pygwalker\n</code></pre>\n<blockquote>\n<p><strong>Note</strong></p>\n<p>For an early trial, you can install with <code>pip install pygwalker --upgrade</code> to keep your version up to date with the latest release or even <code>pip install pygwalker --upgrade --pre</code> to obtain latest features and bug-fixes.</p>\n</blockquote>\n<h5>Conda-forge</h5>\n<pre><code class=\"language-bash\">conda install -c conda-forge pygwalker\n</code></pre>\n<p>or</p>\n<pre><code class=\"language-bash\">mamba install -c conda-forge pygwalker\n</code></pre>\n<p>See <a href=\"https://github.com/conda-forge/pygwalker-feedstock\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">conda-forge feedstock</a> for more help.</p>\n<h4>Use pygwalker in Jupyter Notebook</h4>\n<h5>Quick Start</h5>\n<p>Import pygwalker and pandas to your Jupyter Notebook to get started.</p>\n<pre><code class=\"language-python\">import pandas as pd\nimport pygwalker as pyg\n</code></pre>\n<p>You can use pygwalker without breaking your existing workflow. For example, you can call up PyGWalker with the dataframe loaded in this way:</p>\n<pre><code class=\"language-python\">df = pd.read_csv('./bike_sharing_dc.csv')\nwalker = pyg.walk(df)\n</code></pre>\n<p><img src=\"https://docs-us.oss-us-west-1.aliyuncs.com/img/pygwalker/travel-ani-0-light.gif\" alt=\"\" loading=\"lazy\" decoding=\"async\" /></p>\n<p>That's it. Now you have an interactive UI to analyze and visualize data with simple drag-and-drop operations.</p>\n<p><img src=\"https://docs-us.oss-us-west-1.aliyuncs.com/img/pygwalker/travel-ani-1-light.gif\" alt=\"\" loading=\"lazy\" decoding=\"async\" /></p>\n<p>Cool things you can do with PyGwalker:</p>\n<ul>\n<li><p>You can change the mark type into others to make different charts, for example, a line chart:\n<img src=\"https://user-images.githubusercontent.com/8137814/221894699-b9623304-4eb1-4051-b29d-ca4a913fb7c7.png\" alt=\"graphic walker line chart\" loading=\"lazy\" decoding=\"async\" /></p>\n</li>\n<li><p>To compare different measures, you can create a concat view by adding more than one measure into rows/columns.\n<img src=\"https://user-images.githubusercontent.com/8137814/224550839-7b8a2193-d3e9-4c11-a19e-ad8e5ec19539.png\" alt=\"graphic walker area chart\" loading=\"lazy\" decoding=\"async\" /></p>\n</li>\n<li><p>To make a facet view of several subviews divided by the value in dimension, put dimensions into rows or columns to make a facets view.\n<img src=\"https://user-images.githubusercontent.com/8137814/221894480-b5ec5df2-d0bb-45bc-aa3d-6479920b6fe2.png\" alt=\"graphic walker scatter chart\" loading=\"lazy\" decoding=\"async\" /></p>\n</li>\n<li><p>PyGWalker contains a powerful data table, which provides a quick view of data and its distribution, profiling. You can also add filters or change the data types in the table.</p>\n<img src=\"https://github.com/Kanaries/pygwalker/assets/22167673/e3239932-bc3c-4de3-8387-1eabf2ca3a3a\" alt=\"pygwalker-data-preview\" loading=\"lazy\" decoding=\"async\" width=\"1537\" />\n</li>\n<li><p>You can save the data exploration result to a local file</p>\n</li>\n</ul>\n<h5>Better Practices</h5>\n<p>There are some important parameters you should know when using pygwalker:</p>\n<ul>\n<li><code>spec_path</code>: local file path for saving/loading chart config.</li>\n<li><code>spec</code>: chart config object, JSON string, config ID, or remote URL.</li>\n<li><code>computation</code>: choose where data queries run. Use <code>\"browser\"</code> for frontend-only computation, <code>\"kernel\"</code> for local DuckDB-backed Python computation, <code>\"cloud\"</code> for Kanaries cloud computation, or omit it for the default automatic behavior.</li>\n<li><code>kernel_computation</code>: legacy boolean for using DuckDB as computing engine. Prefer <code>computation=\"kernel\"</code> or <code>computation=\"browser\"</code>; this legacy flag is scheduled for removal in PyGWalker 0.7.0.</li>\n<li><code>cloud_computation</code>: legacy boolean for Kanaries cloud computation. Prefer <code>computation=\"cloud\"</code>; this legacy flag is scheduled for removal in PyGWalker 0.7.0.</li>\n<li><code>use_kernel_calc</code>: deprecated alias for kernel computation. Prefer <code>computation=\"kernel\"</code> or <code>computation=\"browser\"</code>; this legacy flag is scheduled for removal in PyGWalker 0.7.0.</li>\n</ul>\n<pre><code class=\"language-python\">df = pd.read_csv('./bike_sharing_dc.csv')\nwalker = pyg.walk(\n    df,\n    spec_path=\"./chart_meta_0.json\",  # local file used to load and save chart state.\n    computation=\"kernel\",          # use DuckDB in the Python kernel for larger datasets.\n)\n</code></pre>\n<p>For new code on the 0.6 line, prefer a reusable <code>Walker</code> object and choose where to render it:</p>\n<pre><code class=\"language-python\">walker = pyg.Walker(df, spec_path=\"./chart_meta_0.json\", computation=\"browser\")\nwalker.show()       # auto-detects notebook or script mode\nhtml = walker.to_html()\nhtml = pyg.to_html(walker)\n</code></pre>\n<p>See <a href=\"https://github.com/Kanaries/pygwalker/blob/main/docs/RELEASE_0_6.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PyGWalker 0.6 Release Notes</a> for the compatibility policy, deprecation timeline, and tested runtime support.</p>\n<p>After exploring in the UI, export the current chart state as reproducible Python code:</p>\n<pre><code class=\"language-python\">code = walker.to_code(dataset_name=\"df\")\nprint(code)\n</code></pre>\n<p>If you have an older saved spec, migrate it to the current schema before committing it:</p>\n<pre><code class=\"language-python\">migrated_spec = pyg.spec.migrate(open(\"./old_chart_meta.json\").read())\n</code></pre>\n<h5>Example in local notebook</h5>\n<ul>\n<li>Notebook Code: <a href=\"https://github.com/Kanaries/pygwalker-offline-example\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Click Here</a></li>\n<li>Preview Notebook Html: <a href=\"https://pygwalker-public-bucket.s3.amazonaws.com/demo.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Click Here</a></li>\n</ul>\n<h5>Example in cloud notebook</h5>\n<ul>\n<li><a href=\"https://www.kaggle.com/code/lxy21495892/airbnb-eda-pygwalker-demo\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Use PyGWalker in Kaggle</a></li>\n<li><a href=\"https://colab.research.google.com/drive/171QUQeq-uTLgSj1u-P9DQig7Md1kpXQ2?usp=sharing\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Use PyGWalker in Google Colab</a></li>\n</ul>\n<h5>Programmatic Export of Charts</h5>\n<p>After saving a chart from the UI, you can retrieve the image directly from Python.</p>\n<pre><code class=\"language-python\">walker = pyg.walk(df, spec_path=\"./chart_meta_0.json\")\n# edit the chart in the UI and click the save button\nwalker.save_chart_to_file(\"Chart 1\", \"chart1.svg\", save_type=\"svg\")\npng_bytes = walker.export_chart_png(\"Chart 1\")\nsvg_bytes = walker.export_chart_svg(\"Chart 1\")\n</code></pre>\n<h4>Use pygwalker in Streamlit</h4>\n<p>Streamlit allows you to host a web version of pygwalker without figuring out details of how web application works.</p>\n<p>Here are some of the app examples build with pygwalker and streamlit:</p>\n<ul>\n<li><a href=\"https://pygwalkerdemo-cxz7f7pt5oc.streamlit.app/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PyGWalker + streamlit for Bike sharing dataset</a></li>\n<li><a href=\"https://earthquake-dashboard-pygwalker.streamlit.app/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Earthquake Dashboard</a></li>\n</ul>\n<p><a href=\"https://earthquake-dashboard-pygwalker.streamlit.app/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://user-images.githubusercontent.com/22167673/271170853-5643c3b1-6216-4ade-87f4-41c6e6893eab.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" /></a></p>\n<pre><code class=\"language-python\">from pygwalker.api.streamlit import StreamlitRenderer\nimport pandas as pd\nimport streamlit as st\n\n# Adjust the width of the Streamlit page\nst.set_page_config(\n    page_title=\"Use Pygwalker In Streamlit\",\n    layout=\"wide\"\n)\n\n# Add Title\nst.title(\"Use Pygwalker In Streamlit\")\n\n# You should cache your pygwalker renderer, if you don't want your memory to explode\n@st.cache_resource\ndef get_pyg_renderer() -&gt; \"StreamlitRenderer\":\n    df = pd.read_csv(\"./bike_sharing_dc.csv\")\n    # If you want to use feature of saving chart config, set `spec_io_mode=\"rw\"`\n    return StreamlitRenderer(df, spec_path=\"./gw_config.json\", spec_io_mode=\"rw\")\n\n\nrenderer = get_pyg_renderer()\n\nrenderer.explorer()\n</code></pre>\n<p>If you already created a reusable <code>Walker</code>, Streamlit can render it directly:</p>\n<pre><code class=\"language-python\">import pygwalker as pyg\nfrom pygwalker.api.streamlit import StreamlitRenderer\n\nwalker = pyg.Walker(df, spec_path=\"./gw_config.json\", computation=\"kernel\")\nrenderer = StreamlitRenderer(walker)\nrenderer.explorer()\n</code></pre>\n<h4><a href=\"https://pygwalker-docs.vercel.app/api-reference/jupyter\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">API Reference</a></h4>\n<h5><a href=\"https://pygwalker-docs.vercel.app/api-reference/jupyter#walk\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">pygwalker.walk</a></h5>",
+    "truncated": true,
+    "chars": 7973
+   },
+   "usage": {
+    "title": "Example in local notebook",
+    "html": "<ul>\n<li>Notebook Code: <a href=\"https://github.com/Kanaries/pygwalker-offline-example\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Click Here</a></li>\n<li>Preview Notebook Html: <a href=\"https://pygwalker-public-bucket.s3.amazonaws.com/demo.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Click Here</a></li>\n</ul>",
+    "truncated": false,
+    "chars": 186
+   },
+   "features": {
+    "title": "Features",
+    "html": "<p>PyGWalker is a Python library that simplifies data analysis and visualization workflows by turning pandas, polars, and pyarrow table data into interactive visual interfaces.\nIt offers a variety of features that make it a powerful tool for data exploration:</p>\n<ul>\n<li><h6>Interactive Data Exploration:</h6>\n<ul>\n<li>Drag-and-drop interface for easy visualization creation.   </li>\n<li>Real-time updates as you make changes to the visualization.</li>\n<li>Ability to zoom, pan, and filter the data.</li>\n</ul>\n<p>   </p>\n</li>\n<li><h6>Data Cleaning and Transformation:</h6>\n<ul>\n<li>Visual data cleaning tools to identify and remove outliers or inconsistencies.   </li>\n<li>Ability to create new variables and features based on existing data.</li>\n</ul>\n<p>   </p>\n</li>\n<li><h6>Advanced Visualization Capabilities:</h6>\n<ul>\n<li>Support for various chart types (bar charts, line charts, scatter plots, etc.). </li>\n<li>Customization options for colors, labels, and other visual elements.   </li>\n<li>Interactive features like tooltips and drill-down capabilities.</li>\n</ul>\n<p>   </p>\n</li>\n<li><h6>Integration with Jupyter Notebooks:</h6>\n<ul>\n<li>Seamless integration with Jupyter Notebooks for a smooth workflow.</li>\n</ul>\n<p>   </p>\n</li>\n<li><h6>Open-Source and Free:</h6>\n<ul>\n<li>Available for free and allows for customization and extension.</li>\n</ul>\n</li>\n</ul>",
+    "truncated": false,
+    "chars": 1192
+   }
+  },
+  "headings": 21,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:08:27.856Z",
+  "checked_at": "2026-11-16T05:08:27.856Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:20.793Z",
+ "contributors": null
+}

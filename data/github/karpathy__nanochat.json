@@ -1,0 +1,81 @@
+{
+ "id": "karpathy/nanochat",
+ "github_id": 1075431749,
+ "node_id": "R_kgDOQBnJRQ",
+ "full_name": "karpathy/nanochat",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:56.641Z",
+ "meta": {
+  "name": "nanochat",
+  "owner": "karpathy",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/241138?v=4",
+  "description": "The best ChatGPT that $100 can buy.",
+  "homepage": null,
+  "html_url": "https://github.com/karpathy/nanochat",
+  "default_branch": "master",
+  "language": "Python",
+  "languages": null,
+  "topics": [],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 60610,
+  "forks": 8509,
+  "watchers": null,
+  "open_issues": 138,
+  "open_prs": null,
+  "created_at": "2025-10-13T13:46:35Z",
+  "pushed_at": "2026-09-07T20:06:43Z",
+  "updated_at": "2026-11-17T01:52:17Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 2520,
+  "og_image": "https://opengraph.githubassets.com/1/karpathy/nanochat",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-07-03T22:54:57.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": null,
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 16190,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting started",
+    "html": "<h5>Setup</h5>\n<p>nanochat uses <a href=\"https://docs.astral.sh/uv/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">uv</a> for dependency management. To install:</p>\n<pre><code class=\"language-bash\">uv sync --extra gpu    # Use for CUDA (A100/H100/etc.)\nuv sync --extra cpu    # (or) Use for CPU-only / MPS\nsource .venv/bin/activate\n</code></pre>\n<p>For development (adds pytest, matplotlib, ipykernel, transformers, etc.):</p>\n<pre><code class=\"language-bash\">uv sync --extra gpu --group dev\n</code></pre>\n<h5>Reproduce and talk to GPT-2</h5>\n<p>The most fun you can have is to train your own GPT-2 and talk to it. The entire pipeline to do so is contained in the single file <a href=\"https://github.com/karpathy/nanochat/blob/master/runs/speedrun.sh\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">runs/speedrun.sh</a>, which is designed to be run on an 8XH100 GPU node. Boot up a new 8XH100 GPU box from your favorite provider (e.g. I use and like <a href=\"https://lambda.ai/service/gpu-cloud\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Lambda</a>), and kick off the training script:</p>\n<pre><code class=\"language-bash\">bash runs/speedrun.sh\n</code></pre>\n<p>You may wish to do so in a screen session as this will take ~1.5 hours to run. Once it's done, you can talk to your model over the CLI. Make sure again that your local uv virtual environment is active (run <code>source .venv/bin/activate</code>), and chat:</p>\n<pre><code class=\"language-bash\">python -m scripts.chat_cli\n</code></pre>\n<p>Get it to write stories or poems. Ask it to tell you who you are to see a hallucination. Ask it why the sky is blue. Or why it's green. The speedrun is a 4e19 FLOPs capability model so it's a bit like talking to a kindergartener :). An example conversation with a speedrun model:</p>\n<blockquote>\n<p><strong>User:</strong> Hello whats up?</p>\n<p><strong>Assistant:</strong> Hello! How can I help you today?</p>\n<p><strong>User:</strong> Why is the sky blue?</p>\n<p><strong>Assistant:</strong> The sky is blue due to an optical illusion called the Rayleigh Scattering of Light, which occurs when sunlight passes through tiny particles in the air. These particles are made up of tiny blue and violet particles that cause the light to bend in a particular way.</p>\n<p><strong>User:</strong> That's cool. Write a poem about it.</p>\n<p><strong>Assistant:</strong> In the twilight's glow, the sky is blue,<br />\nA canvas of shimmering blue, where skies unfold,<br />\nA world of blue, where blue and more blue,<br />\nAre woven together in a tapestry so fine,<br />\nWhere every hue seems to sing a story.<br />\n...</p>\n</blockquote>\n<p>A few more notes:</p>\n<ul>\n<li>The code will run just fine on the Ampere 8XA100 GPU node as well, but a bit slower.</li>\n<li>All code will run just fine on even a single GPU by omitting <code>torchrun</code>, and will produce ~identical results (code will automatically switch to gradient accumulation), but you'll have to wait 8 times longer.</li>\n<li>If your GPU(s) have less than 80GB, you'll have to tune some of the hyperparameters or you will OOM / run out of VRAM. Look for <code>--device-batch-size</code> in the scripts and reduce it until things fit. E.g. from 32 (default) to 16, 8, 4, 2, or even 1. Less than that you'll have to know a bit more what you're doing and get more creative.</li>\n<li>Most of the code is fairly vanilla PyTorch so it should run on anything that supports that - xpu, mps, or etc, but I haven't personally exercised all of these code paths so there might be sharp edges.</li>\n</ul>",
+    "truncated": false,
+    "chars": 2956
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 14,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:03.596Z",
+  "checked_at": "2026-11-16T05:09:03.596Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:31.394Z",
+ "contributors": null
+}

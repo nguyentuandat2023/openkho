@@ -1,0 +1,107 @@
+{
+ "id": "paperless-ngx/paperless-ngx",
+ "github_id": 458648791,
+ "node_id": "R_kgDOG1Zs1w",
+ "full_name": "paperless-ngx/paperless-ngx",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:03.703Z",
+ "meta": {
+  "name": "paperless-ngx",
+  "owner": "paperless-ngx",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/99562962?v=4",
+  "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+  "homepage": "http://docs.paperless-ngx.com/",
+  "html_url": "https://github.com/paperless-ngx/paperless-ngx",
+  "default_branch": "dev",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "ai",
+   "angular",
+   "archiving",
+   "django",
+   "dms",
+   "document-management",
+   "document-management-system",
+   "llm",
+   "machine-learning",
+   "ocr",
+   "optical-character-recognition",
+   "pdf"
+  ],
+  "license": {
+   "spdx": "GPL-3.0",
+   "name": "GNU General Public License v3.0"
+  },
+  "stars": 48180,
+  "forks": 3392,
+  "watchers": null,
+  "open_issues": 8,
+  "open_prs": null,
+  "created_at": "2022-02-12T21:56:52Z",
+  "pushed_at": "2026-11-17T00:33:11Z",
+  "updated_at": "2026-11-17T02:13:00Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 236157,
+  "og_image": "https://opengraph.githubassets.com/1/paperless-ngx/paperless-ngx",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T00:25:18.000Z",
+  "commits_90d": 428,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v3.4.2",
+  "name": "Paperless-ngx v3.4.2",
+  "published_at": "2026-11-03T22:02:24Z",
+  "url": "https://github.com/paperless-ngx/paperless-ngx/releases/tag/v3.4.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 6607,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting started",
+    "html": "<p>The easiest way to deploy paperless is <code>docker compose</code>. The files in the <a href=\"https://github.com/paperless-ngx/paperless-ngx/tree/main/docker/compose\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>/docker/compose</code> directory</a> are configured to pull the image from the GitHub container registry.</p>\n<p>If you'd like to jump right in, you can configure a <code>docker compose</code> environment with our install script:</p>\n<pre><code class=\"language-bash\">bash -c \"$(curl -L https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/install-paperless-ngx.sh)\"\n</code></pre>\n<p>More details and step-by-step guides for alternative installation methods can be found in <a href=\"https://docs.paperless-ngx.com/setup/#installation\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">the documentation</a>.</p>\n<p>Migrating from Paperless-ng is easy, just drop in the new docker image! See the <a href=\"https://docs.paperless-ngx.com/setup/#migrating-to-paperless-ngx\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">documentation on migrating</a> for more details.</p>\n<h5>Documentation</h5>\n<p>The documentation for Paperless-ngx is available at <a href=\"https://docs.paperless-ngx.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://docs.paperless-ngx.com</a>.</p>",
+    "truncated": false,
+    "chars": 981
+   },
+   "usage": null,
+   "features": {
+    "title": "Features",
+    "html": "<img src=\"https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/main/docs/assets/screenshots/documents-smallcards.png\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n<p>A full list of <a href=\"https://docs.paperless-ngx.com/#features\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">features</a> and <a href=\"https://docs.paperless-ngx.com/#screenshots\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">screenshots</a> are available in the <a href=\"https://docs.paperless-ngx.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">documentation</a>.</p>",
+    "truncated": false,
+    "chars": 709
+   }
+  },
+  "headings": 11,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:33.350Z",
+  "checked_at": "2026-11-17T02:20:33.350Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:33.350Z"
+}

@@ -1,0 +1,120 @@
+{
+ "id": "docling-project/docling",
+ "github_id": 826168160,
+ "node_id": "R_kgDOMT5TYA",
+ "full_name": "docling-project/docling",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "docling",
+  "owner": "docling-project",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/188446108?v=4",
+  "description": "Get your documents ready for gen AI",
+  "homepage": "https://docling-project.github.io/docling",
+  "html_url": "https://github.com/docling-project/docling",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "ai",
+   "convert",
+   "document-parser",
+   "document-parsing",
+   "documents",
+   "docx",
+   "html",
+   "markdown",
+   "pdf",
+   "pdf-converter",
+   "pdf-to-json",
+   "pdf-to-text",
+   "pptx",
+   "tables",
+   "xlsx"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 70669,
+  "forks": 5364,
+  "watchers": null,
+  "open_issues": 1064,
+  "open_prs": null,
+  "created_at": "2024-07-09T07:50:26Z",
+  "pushed_at": "2026-11-17T00:06:50Z",
+  "updated_at": "2026-11-17T02:05:18Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 482437,
+  "og_image": "https://opengraph.githubassets.com/1/docling-project/docling",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T00:06:50.000Z",
+  "commits_90d": 332,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.150.1",
+  "name": "v2.150.1",
+  "published_at": "2026-11-14T07:04:56Z",
+  "url": "https://github.com/docling-project/docling/releases/tag/v2.150.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 8793,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quickstart",
+    "html": "<h5>1. Install</h5>\n<pre><code class=\"language-bash\">pip install docling\n</code></pre>\n<blockquote>\n<p><strong>Note:</strong> Python 3.9 support was dropped in docling version 2.70.0. Please use Python 3.10 or higher.</p>\n</blockquote>\n<p>Works on macOS, Linux and Windows environments for both x86_64 and arm64 architectures.</p>\n<p>More <a href=\"https://docling-project.github.io/docling/getting_started/installation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">detailed installation instructions</a> are available in the docs.</p>",
+    "truncated": false,
+    "chars": 388
+   },
+   "usage": {
+    "title": "Examples",
+    "html": "<p>Go hands-on with our <a href=\"https://docling-project.github.io/docling/examples/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">examples</a>,\ndemonstrating how to address different application use cases with Docling.</p>",
+    "truncated": false,
+    "chars": 164
+   },
+   "features": {
+    "title": "Features",
+    "html": "<ul>\n<li>🗂️ Parsing of <a href=\"https://docling-project.github.io/docling/usage/supported_formats/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">multiple document formats</a> including PDF, DOCX, PPTX, XLSX, HTML, EPUB, Apple Pages, Numbers &amp; Keynote, WAV, MP3, WebVTT, Box Notes, email formats (EML, MSG), iCalendar (ICS), images (PNG, TIFF, JPEG, ...), LaTeX, DocLang, plain text, and more</li>\n<li>📑 Advanced PDF understanding incl. page layout, reading order, table structure, code, formulas, image classification, and more</li>\n<li>🧬 A unified, expressive <a href=\"https://docling-project.github.io/docling/concepts/docling_document/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">DoclingDocument</a> representation format</li>\n<li>↪️ Various <a href=\"https://docling-project.github.io/docling/usage/supported_formats/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">export formats</a> and options, including Markdown, HTML, WebVTT, DocLang, <a href=\"https://arxiv.org/abs/2503.11576\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">DocTags</a> and lossless JSON</li>\n<li>📜 Support for several application-specific XML schemas including <a href=\"https://doclang.ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">DocLang</a>, <a href=\"https://www.uspto.gov/patents\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">USPTO</a> patents, <a href=\"https://jats.nlm.nih.gov/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">JATS</a> articles, and <a href=\"https://www.xbrl.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">XBRL</a> financial reports.</li>\n<li>🔒 Local execution capabilities for sensitive data and air-gapped environments</li>\n<li>🤖 Plug-and-play <a href=\"https://docling-project.github.io/docling/integrations/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">integrations</a> incl. LangChain, LlamaIndex, Crew AI &amp; Haystack for agentic AI</li>\n<li>🔍 Extensive OCR support for scanned PDFs and images</li>\n<li>👓 Support for several Visual Language Models, such as (<a href=\"https://huggingface.co/ibm-granite/granite-docling-258M\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GraniteDocling</a>)</li>\n<li>🎙️ Audio support with Automatic Speech Recognition (ASR) models</li>\n<li>🔌 Connect to any agent using the <a href=\"https://docling-project.github.io/docling/usage/mcp/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MCP server</a></li>\n<li>🌐 Run Docling as a service with the <a href=\"https://docling-project.github.io/docling/usage/api_server/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">API server</a> (docling-serve)</li>\n<li>💻 Simple and convenient CLI</li>\n</ul>\n<h5>What's new</h5>\n<ul>\n<li>🎬 Parsing of video files (MP4, AVI, MOV, MKV, and WebM) with an ASR transcript and representative keyframes</li>\n<li>📄 Parsing of ODF (OpenDocument Format) files for text documents (<code>.odt</code>), spreadsheets (<code>.ods</code>), and presentations (<code>.odp</code>)</li>\n<li>💼 Parsing of XBRL (eXtensible Business Reporting Language) and iXBRL (Inline eXtensible Business Reporting Language) documents for financial reports</li>\n<li>📧 Parsing of email files (<code>.eml</code>, <code>.msg</code>), including meeting invitations</li>\n<li>📅 Parsing of calendar files (<code>.ics</code>, <code>.ical</code>, <code>.icalendar</code>, <code>.ifb</code>) with events, tasks, journal entries and free/busy times, with attendees, reminders and attachment names</li>\n<li>📚 Parsing of EPUB (Electronic Publication) files for e-books</li>\n<li>🍎 Parsing of Apple Pages (<code>.pages</code>) documents, Numbers (<code>.numbers</code>) spreadsheets and Keynote (<code>.key</code>) presentations</li>\n<li>📝 Parsing of plain-text files (<code>.txt</code>, <code>.text</code>) and Markdown supersets (<code>.qmd</code>, <code>.Rmd</code>)</li>\n<li>📊 Chart understanding (Barchart, Piechart, LinePlot): convert them into tables or code and add detailed descriptions</li>\n</ul>\n<h5>Coming soon</h5>\n<ul>\n<li>📝 Metadata extraction, including title, authors, references &amp; language</li>\n<li>📝 Complex chemistry understanding (Molecular structures)</li>\n</ul>",
+    "truncated": false,
+    "chars": 2824
+   }
+  },
+  "headings": 19,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:23.182Z",
+  "checked_at": "2026-11-17T02:19:23.182Z"
+ },
+ "contributors": {
+  "count": 436,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T07:03:47.194Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:23.182Z"
+}

@@ -1,0 +1,114 @@
+{
+ "id": "SYSTRAN/faster-whisper",
+ "github_id": 600368121,
+ "node_id": "R_kgDOI8jj-Q",
+ "full_name": "SYSTRAN/faster-whisper",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "faster-whisper",
+  "owner": "SYSTRAN",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1520500?v=4",
+  "description": "Faster Whisper transcription with CTranslate2",
+  "homepage": null,
+  "html_url": "https://github.com/SYSTRAN/faster-whisper",
+  "default_branch": "master",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "deep-learning",
+   "inference",
+   "openai",
+   "quantization",
+   "speech-recognition",
+   "speech-to-text",
+   "transformer",
+   "whisper"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 26807,
+  "forks": 2251,
+  "watchers": null,
+  "open_issues": 21,
+  "open_prs": null,
+  "created_at": "2023-02-11T09:17:27Z",
+  "pushed_at": "2026-11-12T09:05:56Z",
+  "updated_at": "2026-11-17T02:17:34Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 40529,
+  "og_image": "https://opengraph.githubassets.com/1/SYSTRAN/faster-whisper",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-12T09:05:55.000Z",
+  "commits_90d": 16,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.2.1",
+  "name": "faster-whisper 1.2.1",
+  "published_at": "2025-10-31T11:34:00Z",
+  "url": "https://github.com/SYSTRAN/faster-whisper/releases/tag/v1.2.1",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 15255,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [
+   {
+    "type": "youtube",
+    "id": "0u7tTptBo9I",
+    "url": "https://www.youtube.com/watch?v=0u7tTptBo9I"
+   }
+  ],
+  "sections": {
+   "install": {
+    "title": "Install with pip (Linux only)",
+    "html": "<p>On Linux these libraries can be installed with <code>pip</code>. Note that <code>LD_LIBRARY_PATH</code> must be set before launching Python.</p>\n<pre><code class=\"language-bash\">pip install nvidia-cublas-cu12 nvidia-cudnn-cu12==9.*\n\nexport LD_LIBRARY_PATH=$(python3 -c 'import os, nvidia.cublas, nvidia.cudnn; print(os.path.dirname(nvidia.cublas.__path__[0]) + \"/cublas/lib:\" + os.path.dirname(nvidia.cudnn.__path__[0]) + \"/cudnn/lib\")')\n</code></pre>",
+    "truncated": false,
+    "chars": 395
+   },
+   "usage": {
+    "title": "Usage",
+    "html": "<h5>Faster-whisper</h5>\n<pre><code class=\"language-python\">from faster_whisper import WhisperModel\n\nmodel_size = \"large-v3\"\n\n# Run on GPU with FP16\nmodel = WhisperModel(model_size, device=\"cuda\", compute_type=\"float16\")\n\n# or run on GPU with INT8\n# model = WhisperModel(model_size, device=\"cuda\", compute_type=\"int8_float16\")\n# or run on CPU with INT8\n# model = WhisperModel(model_size, device=\"cpu\", compute_type=\"int8\")\n\nsegments, info = model.transcribe(\"audio.mp3\", beam_size=5)\n\nprint(\"Detected language '%s' with probability %f\" % (info.language, info.language_probability))\n\nfor segment in segments:\n    print(\"[%.2fs -&gt; %.2fs] %s\" % (segment.start, segment.end, segment.text))\n</code></pre>\n<p><strong>Warning:</strong> <code>segments</code> is a <em>generator</em> so the transcription only starts when you iterate over it. The transcription can be run to completion by gathering the segments in a list or a <code>for</code> loop:</p>\n<pre><code class=\"language-python\">segments, _ = model.transcribe(\"audio.mp3\")\nsegments = list(segments)  # The transcription will actually run here.\n</code></pre>\n<h5>Batched Transcription</h5>\n<p>The following code snippet illustrates how to run batched transcription on an example audio file. <code>BatchedInferencePipeline.transcribe</code> is a drop-in replacement for <code>WhisperModel.transcribe</code></p>\n<pre><code class=\"language-python\">from faster_whisper import WhisperModel, BatchedInferencePipeline\n\nmodel = WhisperModel(\"turbo\", device=\"cuda\", compute_type=\"float16\")\nbatched_model = BatchedInferencePipeline(model=model)\nsegments, info = batched_model.transcribe(\"audio.mp3\", batch_size=16)\n\nfor segment in segments:\n    print(\"[%.2fs -&gt; %.2fs] %s\" % (segment.start, segment.end, segment.text))\n</code></pre>\n<h5>Faster Distil-Whisper</h5>\n<p>The Distil-Whisper checkpoints are compatible with the Faster-Whisper package. In particular, the latest <a href=\"https://huggingface.co/distil-whisper/distil-large-v3\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">distil-large-v3</a>\ncheckpoint is intrinsically designed to work with the Faster-Whisper transcription algorithm. The following code snippet \ndemonstrates how to run inference with distil-large-v3 on a specified audio file:</p>\n<pre><code class=\"language-python\">from faster_whisper import WhisperModel\n\nmodel_size = \"distil-large-v3\"\n\nmodel = WhisperModel(model_size, device=\"cuda\", compute_type=\"float16\")\nsegments, info = model.transcribe(\"audio.mp3\", beam_size=5, language=\"en\", condition_on_previous_text=False)\n\nfor segment in segments:\n    print(\"[%.2fs -&gt; %.2fs] %s\" % (segment.start, segment.end, segment.text))\n</code></pre>\n<p>For more information about the distil-large-v3 model, refer to the original <a href=\"https://huggingface.co/distil-whisper/distil-large-v3\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">model card</a>.</p>\n<h5>Word-level timestamps</h5>\n<pre><code class=\"language-python\">segments, _ = model.transcribe(\"audio.mp3\", word_timestamps=True)\n\nfor segment in segments:\n    for word in segment.words:\n        print(\"[%.2fs -&gt; %.2fs] %s\" % (word.start, word.end, word.word))\n</code></pre>\n<h5>VAD filter</h5>\n<p>The library integrates the <a href=\"https://github.com/snakers4/silero-vad\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Silero VAD</a> model to filter out parts of the audio without speech:</p>\n<pre><code class=\"language-python\">segments, _ = model.transcribe(\"audio.mp3\", vad_filter=True)\n</code></pre>\n<p>The default behavior is conservative and only removes silence longer than 2 seconds. See the available VAD parameters and default values in the <a href=\"https://github.com/SYSTRAN/faster-whisper/blob/master/faster_whisper/vad.py\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">source code</a>. They can be customized with the dictionary argument <code>vad_parameters</code>:</p>\n<pre><code class=\"language-python\">segments, _ = model.transcribe(\n    \"audio.mp3\",\n    vad_filter=True,\n    vad_parameters=dict(min_silence_duration_ms=500),\n)\n</code></pre>\n<p>Vad filter is enabled by default for batched transcription.</p>\n<h5>Logging</h5>\n<p>The library logging level can be configured like this:</p>\n<pre><code class=\"language-python\">import logging\n\nlogging.basicConfig()\nlogging.getLogger(\"faster_whisper\").setLevel(logging.DEBUG)\n</code></pre>\n<h5>Going further</h5>\n<p>See more model and transcription options in the <a href=\"https://github.com/SYSTRAN/faster-whisper/blob/master/faster_whisper/transcribe.py\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>WhisperModel</code></a> class implementation.</p>",
+    "truncated": false,
+    "chars": 3863
+   },
+   "features": null
+  },
+  "headings": 26,
+  "processor": 3,
+  "fetched_at": "2026-11-16T04:33:31.810Z",
+  "checked_at": "2026-11-16T04:33:31.810Z"
+ },
+ "details_checked_at": "2026-11-16T04:32:13.194Z",
+ "contributors": {
+  "count": 55,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:21.951Z"
+ }
+}

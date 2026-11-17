@@ -1,0 +1,120 @@
+{
+ "id": "unslothai/unsloth",
+ "github_id": 725205304,
+ "node_id": "R_kgDOKznBOA",
+ "full_name": "unslothai/unsloth",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "unsloth",
+  "owner": "unslothai",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/150920049?v=4",
+  "description": "Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4.1, MiniMax-H3, Gemma 4, FLUX and more.",
+  "homepage": "https://unsloth.ai/docs",
+  "html_url": "https://github.com/unslothai/unsloth",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "agent",
+   "ai",
+   "chatgpt",
+   "deepseek",
+   "fine-tuning",
+   "gemma",
+   "image-generation",
+   "llama",
+   "llm",
+   "llms",
+   "openai",
+   "python",
+   "qwen",
+   "reinforcement-learning",
+   "self-hosted",
+   "stable-diffusion",
+   "text-to-speech",
+   "tts",
+   "ui",
+   "unsloth"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 79626,
+  "forks": 7433,
+  "watchers": null,
+  "open_issues": 482,
+  "open_prs": null,
+  "created_at": "2023-11-29T16:50:09Z",
+  "pushed_at": "2026-11-17T02:17:01Z",
+  "updated_at": "2026-11-17T02:09:54Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 703706,
+  "og_image": "https://opengraph.githubassets.com/1/unslothai/unsloth",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T01:04:27.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.1.918-beta",
+  "name": "Computer Use, MiniMax-H3-Image + Perf fixes",
+  "published_at": "2026-11-16T15:58:30Z",
+  "url": "https://github.com/unslothai/unsloth/releases/tag/v0.1.918-beta",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 25979,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Get started",
+    "html": "<p>Download the native Unsloth Desktop app for your operating system:</p>\n<table>\n  <tr>\n    <td><b>Platform</b></td>\n    <td><b>Link</b></td>\n  </tr>\n  <tr>\n    <td><b>Windows</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-Windows.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n  <tr>\n    <td><b>macOS</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-MacOS.dmg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n  <tr>\n    <td><b>Linux / Ubuntu (deb)</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-Ubuntu.deb\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n  <tr>\n    <td><b>Linux / Ubuntu (ARM64) (deb)</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-Ubuntu-ARM64.deb\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n  <tr>\n    <td><b>Linux (AppImage)</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-Linux.AppImage\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n  <tr>\n    <td><b>Windows (ARM64)</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-Windows-ARM64.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n</table><p>Download from <a href=\"https://unsloth.ai/download\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Unsloth</a> or <a href=\"https://github.com/unslothai/unsloth/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GitHub Releases</a>.</p>\n<p>Or if you prefer to install manually:</p>\n<h6>macOS, Linux, WSL:</h6>\n<pre><code class=\"language-bash\">curl -fsSL https://unsloth.ai/install.sh | sh\n</code></pre>\n<h6>Windows:</h6>\n<pre><code class=\"language-powershell\">irm https://unsloth.ai/install.ps1 | iex\n</code></pre>\n<h6>Docker:</h6>\n<p>The <a href=\"https://hub.docker.com/r/unsloth/unsloth\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Unsloth Docker image</a> <code>unsloth/unsloth</code> is available on Docker. <a href=\"https://unsloth.ai/docs/get-started/install/docker\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Read guide.</a></p>\n<h6>Homebrew:</h6>\n<pre><code class=\"language-bash\">brew install --cask unsloth\n</code></pre>\n<h6>Winget (Windows):</h6>\n<pre><code class=\"language-powershell\">winget install --id UnslothAI.Unsloth -e\n</code></pre>\n<h6>Community:</h6>\n<ul>\n<li><a href=\"https://discord.gg/unsloth\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Discord</a></li>\n<li><a href=\"https://x.com/UnslothAI\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">𝕏 (Twitter)</a></li>\n<li><a href=\"https://reddit.com/r/unsloth\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Reddit</a></li>\n</ul>",
+    "truncated": false,
+    "chars": 2018
+   },
+   "usage": null,
+   "features": {
+    "title": "⭐ Features",
+    "html": "<p>Unsloth works on <strong>Windows, Linux, WSL</strong> and <strong>macOS</strong>. We support <strong>Multi GPU setups, NVIDIA, AMD, Intel GPUs, CPUs</strong> and the <strong>Vulkan</strong> backend.</p>\n<h5>Run &amp; Build with AI</h5>\n<ul>\n<li>Run and train LLMs, MLX, GGUF, diffusion, decision, embedding, audio models: <a href=\"https://unsloth.ai/docs/models/qwen3.8\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Qwen3.8</a>, <a href=\"https://unsloth.ai/docs/models/glm-5.3-flash\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GLM-5.3-Flash</a>, <a href=\"https://unsloth.ai/docs/models/kimi-k3\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Kimi K3</a>, <a href=\"https://unsloth.ai/docs/models/qwen-image-2.1\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Qwen-Image-2.1</a>, MiniMax-H3, <a href=\"https://unsloth.ai/docs/models/deepseek-v4\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">DeepSeek-V4</a>, <a href=\"https://unsloth.ai/docs/models/gemma-4\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Gemma 4</a>.</li>\n<li><strong>Agents &amp; Tools:</strong> Use local models with <a href=\"https://unsloth.ai/docs/basics/claude-code\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Claude Code</a>, <a href=\"https://unsloth.ai/docs/basics/codex\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Codex</a>, and <a href=\"https://unsloth.ai/docs/basics/mcp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MCP</a>, including tool calling and code execution.</li>\n<li><strong>Browser use:</strong> <a href=\"https://unsloth.ai/docs/basics/browser-use\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Navigate sites</a>, fill out forms, read PDFs, and edit files beside your chat with a local model.</li>\n<li><strong>Sandboxing:</strong> Restrict which files your model can access when it runs commands in a <a href=\"https://unsloth.ai/docs/new/studio/sandboxing-in-unsloth\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">sandbox</a>.</li>\n<li><strong>Search &amp; RAG:</strong> Use private and unlimited web search, deep research, auto-compaction (rolling context window) and RAG.</li>\n<li><strong>Image and video:</strong> Run and train <a href=\"https://unsloth.ai/docs/basics/diffusion-image\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">image</a> and video diffusion or multimodal models</li>\n<li><strong>Remote &amp; LAN:</strong> Access your local models from any device on <a href=\"https://unsloth.ai/docs/basics/lan\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LAN</a> or remotely through secure <a href=\"https://unsloth.ai/docs/basics/how-to-serve-local-llms-anywhere-secure-remote-access-with-cloudflare-and-unsloth\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Cloudflare</a> HTTPS.</li>\n<li><strong>Connect:</strong> Serve models through an <a href=\"https://unsloth.ai/docs/basics/api\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">OpenAI compatible API</a>. Also connect your ChatGPT/Codex subscription and <a href=\"https://unsloth.ai/docs/integrations/connections\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">cloud providers</a></li>\n</ul>\n<h5>Train &amp; Deploy</h5>\n<ul>\n<li><strong>Fine-tuning:</strong> Train LLMs, diffusion, decision, TTS, and embedding models 2× faster with 70% less VRAM with <a href=\"https://unsloth.ai/blog#training\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">no accuracy loss</a></li>\n<li><strong>Complete support:</strong> Supports <a href=\"https://unsloth.ai/docs/get-started/reinforcement-learning-rl-guide\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">reinforcement learning</a>, LoRA, QLoRA, full fine tuning, pretraining, RL, GRPO, DPO, and FP8.</li>\n<li><strong>Export &amp; Deploy:</strong> <a href=\"https://unsloth.ai/docs/new/studio/export\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Export</a> or Deploy models including <a href=\"https://unsloth.ai/docs/basics/inference-and-deployment/saving-to-gguf\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GGUF</a>, NVFP4, FP8 and more formats.</li>\n<li><strong>Datasets:</strong> Build datasets from PDFs, CSVs, DOCX files, and more with <a href=\"https://unsloth.ai/docs/new/studio/data-recipe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Data Recipes</a>.</li>\n</ul>",
+    "truncated": false,
+    "chars": 2635
+   }
+  },
+  "headings": 40,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:11.362Z",
+  "checked_at": "2026-11-17T02:19:27.635Z"
+ },
+ "contributors": {
+  "count": 455,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T07:03:48.345Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:27.635Z"
+}

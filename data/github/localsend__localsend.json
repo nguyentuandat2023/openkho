@@ -1,0 +1,94 @@
+{
+ "id": "localsend/localsend",
+ "github_id": 578822531,
+ "node_id": "R_kgDOIoAhgw",
+ "full_name": "localsend/localsend",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:59.972Z",
+ "meta": {
+  "name": "localsend",
+  "owner": "localsend",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/120677616?v=4",
+  "description": "An open-source cross-platform alternative to AirDrop",
+  "homepage": "https://localsend.org",
+  "html_url": "https://github.com/localsend/localsend",
+  "default_branch": "main",
+  "language": "Dart",
+  "languages": null,
+  "topics": [
+   "dart",
+   "file-sharing",
+   "flutter",
+   "flutter-apps"
+  ],
+  "license": {
+   "spdx": "Apache-2.0",
+   "name": "Apache License 2.0"
+  },
+  "stars": 99313,
+  "forks": 5692,
+  "watchers": null,
+  "open_issues": 1044,
+  "open_prs": null,
+  "created_at": "2022-12-16T00:46:07Z",
+  "pushed_at": "2026-11-17T00:50:27Z",
+  "updated_at": "2026-11-17T02:14:14Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 22986,
+  "og_image": "https://opengraph.githubassets.com/1/localsend/localsend",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T00:50:26.000Z",
+  "commits_90d": 94,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.18.2",
+  "name": "v1.18.2",
+  "published_at": "2026-09-12T03:00:00Z",
+  "url": "https://github.com/localsend/localsend/releases/tag/v1.18.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 14979,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Download",
+    "html": "<p>It is recommended to download the app either from an app store or from a package manager because the app does not have an auto-update.</p>\n<table>\n<thead>\n<tr>\n<th>Windows</th>\n<th>macOS</th>\n<th>Linux</th>\n<th>Android</th>\n<th>iOS</th>\n<th>Fire OS</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><a href=\"https://github.com/microsoft/winget-pkgs/tree/master/manifests/l/LocalSend/LocalSend\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Winget</a></td>\n<td><a href=\"https://apps.apple.com/us/app/localsend/id1661733229\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">App Store</a></td>\n<td><a href=\"https://flathub.org/apps/details/org.localsend.localsend_app\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Flathub</a></td>\n<td><a href=\"https://play.google.com/store/apps/details?id=org.localsend.localsend_app\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Play Store</a></td>\n<td><a href=\"https://apps.apple.com/us/app/localsend/id1661733229\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">App Store</a></td>\n<td><a href=\"https://www.amazon.com/dp/B0BW6MP732\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Amazon</a></td>\n</tr>\n<tr>\n<td><a href=\"https://scoop.sh/#/apps?s=0&amp;d=1&amp;o=true&amp;q=localsend&amp;id=fb88113be361ca32c0dcac423cb4afdeda0b0c66\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Scoop</a></td>\n<td><a href=\"https://formulae.brew.sh/cask/localsend\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Homebrew</a></td>\n<td><a href=\"https://search.nixos.org/packages?show=localsend\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Nixpkgs</a></td>\n<td><a href=\"https://f-droid.org/packages/org.localsend.localsend_app\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">F-Droid</a></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td><a href=\"https://community.chocolatey.org/packages/localsend\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Chocolatey</a></td>\n<td><a href=\"https://github.com/localsend/localsend/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">DMG Installer</a></td>\n<td><a href=\"https://snapcraft.io/localsend\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Snap</a></td>\n<td><a href=\"https://github.com/localsend/localsend/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">APK</a></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td><a href=\"https://github.com/localsend/localsend/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">EXE Installer</a></td>\n<td></td>\n<td><a href=\"https://aur.archlinux.org/packages/localsend-bin\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AUR</a></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td><a href=\"https://github.com/localsend/localsend/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Portable ZIP</a></td>\n<td></td>\n<td><a href=\"https://github.com/localsend/localsend/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">TAR</a></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td><a href=\"https://github.com/localsend/localsend/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">DEB</a></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td></td>\n<td></td>\n<td><a href=\"https://github.com/localsend/localsend/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AppImage</a></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n</tbody></table>\n<p>Read more about <a href=\"https://github.com/localsend/localsend/blob/main/CONTRIBUTING.md#distribution\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">distribution channels</a>.</p>\n<p>Windows binaries are signed. Read more about the <a href=\"https://github.com/localsend/localsend/blob/main/CODE_SIGNING.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Code signing policy</a>.</p>\n<blockquote>\n<p>[!CAUTION]\n<strong>Unofficial MSIX preview:</strong> you can try builds from the latest commits at <a href=\"https://localsend.ob-buff.dev/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">localsend.ob-buff.dev</a>. Stability is not guaranteed and all custom code tweaks are listed on that site.</p>\n</blockquote>\n<p><strong>Compatibility</strong></p>\n<table>\n<thead>\n<tr>\n<th>Platform</th>\n<th>Minimum Version</th>\n<th>Note</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>Android</td>\n<td>7.0</td>\n<td>The last version to support Android 5 and 6 is v1.17.0.</td>\n</tr>\n<tr>\n<td>iOS</td>\n<td>13.0</td>\n<td>The last version to support iOS 12 is v1.17.0. Sharing from other apps requires iOS 14 or later.</td>\n</tr>\n<tr>\n<td>macOS</td>\n<td>11 Big Sur</td>\n<td>Use OpenCore Legacy Patcher 2.0.2 (See <a href=\"https://github.com/localsend/localsend/issues/1005#issuecomment-2449899384\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">#1005</a>)</td>\n</tr>\n<tr>\n<td>Windows</td>\n<td>10</td>\n<td>The last version to support Windows 7 is v1.15.4.</td>\n</tr>\n<tr>\n<td>Linux</td>\n<td>N.A.</td>\n<td>Deps: Gnome: <code>xdg-desktop-portal</code> and <code>xdg-desktop-portal-gtk</code>, KDE: <code>xdg-desktop-portal</code> and <code>xdg-desktop-portal-kde</code></td>\n</tr>\n</tbody></table>",
+    "truncated": false,
+    "chars": 3764
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 21,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:30.494Z",
+  "checked_at": "2026-11-17T02:20:30.494Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:30.494Z"
+}

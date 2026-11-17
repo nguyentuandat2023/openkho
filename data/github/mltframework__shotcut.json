@@ -1,0 +1,95 @@
+{
+ "id": "mltframework/shotcut",
+ "github_id": 4118776,
+ "node_id": "MDEwOlJlcG9zaXRvcnk0MTE4Nzc2",
+ "full_name": "mltframework/shotcut",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:06.954Z",
+ "meta": {
+  "name": "shotcut",
+  "owner": "mltframework",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/1558770?v=4",
+  "description": "cross-platform (Qt), open-source (GPLv3) video editor",
+  "homepage": "https://www.shotcut.org",
+  "html_url": "https://github.com/mltframework/shotcut",
+  "default_branch": "master",
+  "language": "C++",
+  "languages": null,
+  "topics": [
+   "cross-platform",
+   "gplv3",
+   "mlt",
+   "shotcut",
+   "video-editor"
+  ],
+  "license": {
+   "spdx": "GPL-3.0",
+   "name": "GNU General Public License v3.0"
+  },
+  "stars": 15704,
+  "forks": 1570,
+  "watchers": null,
+  "open_issues": 48,
+  "open_prs": null,
+  "created_at": "2012-04-23T22:37:04Z",
+  "pushed_at": "2026-11-16T16:50:49Z",
+  "updated_at": "2026-11-17T02:03:42Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 162776,
+  "og_image": "https://opengraph.githubassets.com/1/mltframework/shotcut",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-15T01:34:56.000Z",
+  "commits_90d": 99,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v26.11.15",
+  "name": "v26.11.15",
+  "published_at": "2026-11-16T21:01:18Z",
+  "url": "https://github.com/mltframework/shotcut/releases/tag/v26.11.15",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 2838,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Install",
+    "html": "<p>Binaries are regularly built and are available at <a href=\"https://www.shotcut.org/download/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://www.shotcut.org/download/</a>.</p>",
+    "truncated": false,
+    "chars": 88
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 12,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:41.696Z",
+  "checked_at": "2026-11-17T02:20:41.696Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:41.696Z"
+}

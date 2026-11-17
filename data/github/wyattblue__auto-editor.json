@@ -1,0 +1,98 @@
+{
+ "id": "WyattBlue/auto-editor",
+ "github_id": 260117248,
+ "node_id": "MDEwOlJlcG9zaXRvcnkyNjAxMTcyNDg=",
+ "full_name": "WyattBlue/auto-editor",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:06.954Z",
+ "meta": {
+  "name": "auto-editor",
+  "owner": "WyattBlue",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/57511737?v=4",
+  "description": "Effort free video editing!",
+  "homepage": "https://auto-editor.com",
+  "html_url": "https://github.com/WyattBlue/auto-editor",
+  "default_branch": "master",
+  "language": "Nim",
+  "languages": null,
+  "topics": [
+   "audio",
+   "audio-editing",
+   "audio-processing",
+   "automatic",
+   "nim",
+   "video",
+   "video-editing",
+   "video-processing"
+  ],
+  "license": {
+   "spdx": "Unlicense",
+   "name": "The Unlicense"
+  },
+  "stars": 5949,
+  "forks": 741,
+  "watchers": null,
+  "open_issues": 0,
+  "open_prs": null,
+  "created_at": "2020-04-30T04:57:21Z",
+  "pushed_at": "2026-11-16T18:36:21Z",
+  "updated_at": "2026-11-17T01:43:56Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 121872,
+  "og_image": "https://opengraph.githubassets.com/1/WyattBlue/auto-editor",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T17:38:49.000Z",
+  "commits_90d": 566,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "31.9.0",
+  "name": "31.9.0",
+  "published_at": "2026-11-14T03:07:26Z",
+  "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 4503,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installing",
+    "html": "<p>See <a href=\"https://auto-editor.com/installing\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Installing</a> for more information.</p>",
+    "truncated": false,
+    "chars": 78
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 11,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:20:44.408Z",
+  "checked_at": "2026-11-17T02:20:44.408Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:20:44.408Z"
+}

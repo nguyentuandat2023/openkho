@@ -1,0 +1,111 @@
+{
+ "id": "langflow-ai/langflow",
+ "github_id": 599320067,
+ "node_id": "R_kgDOI7jmAw",
+ "full_name": "langflow-ai/langflow",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:16.355Z",
+ "meta": {
+  "name": "langflow",
+  "owner": "langflow-ai",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/85702467?v=4",
+  "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+  "homepage": "http://www.langflow.org",
+  "html_url": "https://github.com/langflow-ai/langflow",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "agents",
+   "chatgpt",
+   "generative-ai",
+   "large-language-models",
+   "multiagent",
+   "react-flow"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 156715,
+  "forks": 10421,
+  "watchers": null,
+  "open_issues": 1330,
+  "open_prs": null,
+  "created_at": "2023-02-08T22:28:03Z",
+  "pushed_at": "2026-11-17T01:53:51Z",
+  "updated_at": "2026-11-17T02:06:07Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 1726514,
+  "og_image": "https://opengraph.githubassets.com/1/langflow-ai/langflow",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T18:16:58.000Z",
+  "commits_90d": 249,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v1.13.2",
+  "name": "1.13.2",
+  "published_at": "2026-11-10T22:26:03Z",
+  "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.2",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v1.14.0.dev30",
+  "name": "v1.14.0.dev30",
+  "published_at": "2026-11-17T01:10:18Z",
+  "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev30"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 5577,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quickstart",
+    "html": "<h5>Install locally (recommended)</h5>\n<p>Requires Python 3.10–3.14 and <a href=\"https://docs.astral.sh/uv/getting-started/installation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">uv</a> (recommended package manager).</p>\n<h6>Install</h6>\n<p>From a fresh directory, run:</p>\n<pre><code class=\"language-shell\">uv pip install langflow -U\n</code></pre>\n<p>The latest Langflow package is installed.\nFor more information, see <a href=\"https://docs.langflow.org/get-started-installation#install-and-run-the-langflow-oss-python-package\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Install and run the Langflow OSS Python package</a>.</p>\n<h6>Run</h6>\n<p>Official release packages and tagged source archives disable automatic login by default. Set <code>LANGFLOW_SUPERUSER_PASSWORD</code> before starting Langflow, then sign in with the username <code>langflow</code> (or your configured <code>LANGFLOW_SUPERUSER</code>). Development branches retain automatic login by default. See <a href=\"https://docs.langflow.org/api-keys-and-authentication#start-a-langflow-server-with-authentication-enabled\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">authentication configuration</a>.</p>\n<p>To start Langflow, run:</p>\n<pre><code class=\"language-shell\">uv run langflow run\n</code></pre>\n<p>Langflow starts at <a href=\"http://127.0.0.1:7860\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://127.0.0.1:7860</a>.</p>\n<p>That's it! You're ready to build with Langflow! 🎉</p>",
+    "truncated": false,
+    "chars": 1062
+   },
+   "usage": null,
+   "features": {
+    "title": "Highlight features",
+    "html": "<ul>\n<li><strong>Visual builder interface</strong> to quickly get started and iterate.</li>\n<li><strong>Source code access</strong> lets you customize any component using Python.</li>\n<li><strong>Interactive playground</strong> to immediately test and refine your flows with step-by-step control.</li>\n<li><strong>Multi-agent orchestration</strong> with conversation management and retrieval.</li>\n<li><strong>Deploy as an API</strong> or export as JSON for Python apps.</li>\n<li><strong>Deploy as an MCP server</strong> and turn your flows into tools for MCP clients.</li>\n<li><strong>Observability</strong> with LangSmith, LangFuse and other integrations.</li>\n<li><strong>Enterprise-ready</strong> security and scalability.</li>\n</ul>",
+    "truncated": false,
+    "chars": 570
+   }
+  },
+  "headings": 14,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:18.071Z",
+  "checked_at": "2026-11-17T02:19:18.071Z"
+ },
+ "contributors": {
+  "count": 403,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T05:40:27.767Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:18.071Z"
+}

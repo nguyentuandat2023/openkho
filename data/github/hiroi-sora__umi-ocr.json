@@ -1,0 +1,102 @@
+{
+ "id": "hiroi-sora/Umi-OCR",
+ "github_id": 474839179,
+ "node_id": "R_kgDOHE14iw",
+ "full_name": "hiroi-sora/Umi-OCR",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:19:03.703Z",
+ "meta": {
+  "name": "Umi-OCR",
+  "owner": "hiroi-sora",
+  "owner_type": "User",
+  "avatar_url": "https://avatars.githubusercontent.com/u/56373419?v=4",
+  "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
+  "homepage": null,
+  "html_url": "https://github.com/hiroi-sora/Umi-OCR",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "ocr",
+   "ocr-python",
+   "paddleocr",
+   "qml",
+   "qt",
+   "screenshot",
+   "umi-ocr"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 48745,
+  "forks": 4762,
+  "watchers": null,
+  "open_issues": 370,
+  "open_prs": null,
+  "created_at": "2022-03-28T04:01:46Z",
+  "pushed_at": "2025-11-20T14:58:13Z",
+  "updated_at": "2026-11-17T02:02:10Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": true,
+  "size_kb": 281373,
+  "og_image": "https://opengraph.githubassets.com/1/hiroi-sora/Umi-OCR",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2025-11-20T14:58:13.000Z",
+  "commits_90d": 0,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v2.1.5",
+  "name": "Umi-OCR v2.1.5",
+  "published_at": "2025-03-26T15:35:50Z",
+  "url": "https://github.com/hiroi-sora/Umi-OCR/releases/tag/v2.1.5",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README_en.md",
+  "length": 13394,
+  "cjk_ratio": 0.01,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Download Releases",
+    "html": "<ul>\n<li><strong>GitHub</strong> <a href=\"https://github.com/hiroi-sora/Umi-OCR/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://github.com/hiroi-sora/Umi-OCR/releases/latest</a></li>\n<li><strong>Source Forge</strong> <a href=\"https://sourceforge.net/projects/umi-ocr\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://sourceforge.net/projects/umi-ocr</a></li>\n<li><strong>Lanzou</strong> <a href=\"https://hiroi-sora.lanzoul.com/s/umi-ocr\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://hiroi-sora.lanzoul.com/s/umi-ocr</a></li>\n</ul>\n<details>\n<summary><b>•  Scoop Installer</b> (Click to expand)</summary><p><a href=\"https://scoop.sh/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Scoop</a> is a command-line installer for Windows that facilitates the management of multiple applications. You can install Scoop first and then use the following commands to install <code>Umi-OCR</code>:</p>\n<ul>\n<li>Add the <code>extras</code> bucket:</li>\n</ul>\n<pre><code>scoop bucket add extras\n</code></pre>\n<ul>\n<li>(Optional 1) Install Umi-OCR (comes with the <code>Rapid-OCR</code> engine, better compatibility):</li>\n</ul>\n<pre><code>scoop install extras/umi-ocr\n</code></pre>\n<ul>\n<li>(Optional 2) Install Umi-OCR (comes with the <code>Paddle-OCR</code> engine, slightly faster):</li>\n</ul>\n<pre><code>scoop install extras/umi-ocr-paddle\n</code></pre>\n<ul>\n<li>Do not install both, as the shortcuts may be overwritten. However, you can import additional <a href=\"https://github.com/hiroi-sora/Umi-OCR_plugins\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">plugins</a> to switch between different OCR engines at any time.</li>\n</ul>\n</details>",
+    "truncated": false,
+    "chars": 1017
+   },
+   "usage": {
+    "title": "Using the Source Code",
+    "html": "<p>Developers should read <a href=\"https://github.com/hiroi-sora/Umi-OCR#Build-the-Project\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Building the Project</a> before proceeding.</p>",
+    "truncated": false,
+    "chars": 88
+   },
+   "features": null
+  },
+  "headings": 20,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:34.787Z",
+  "checked_at": "2026-11-16T05:09:34.787Z"
+ },
+ "details_checked_at": "2026-11-16T05:07:17.738Z",
+ "contributors": null
+}

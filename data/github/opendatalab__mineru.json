@@ -1,0 +1,116 @@
+{
+ "id": "opendatalab/MinerU",
+ "github_id": 765083837,
+ "node_id": "R_kgDOLZpAvQ",
+ "full_name": "opendatalab/MinerU",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:19.723Z",
+ "meta": {
+  "name": "MinerU",
+  "owner": "opendatalab",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/97503431?v=4",
+  "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+  "homepage": "https://opendatalab.github.io/MinerU/",
+  "html_url": "https://github.com/opendatalab/MinerU",
+  "default_branch": "master",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "ai4science",
+   "document-analysis",
+   "docx",
+   "extract-data",
+   "layout-analysis",
+   "ocr",
+   "parser",
+   "pdf",
+   "pdf-converter",
+   "pdf-extractor-llm",
+   "pdf-extractor-pretrain",
+   "pdf-extractor-rag",
+   "pdf-parser",
+   "pptx",
+   "python",
+   "xlsx"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 83760,
+  "forks": 6944,
+  "watchers": null,
+  "open_issues": 9,
+  "open_prs": null,
+  "created_at": "2024-02-29T08:52:34Z",
+  "pushed_at": "2026-11-16T18:13:53Z",
+  "updated_at": "2026-11-17T02:11:36Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 191375,
+  "og_image": "https://opengraph.githubassets.com/1/opendatalab/MinerU",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T18:13:52.000Z",
+  "commits_90d": 509,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "mineru-4.2.3-released",
+  "name": "MinerU 4.2.3",
+  "published_at": "2026-11-16T18:14:05Z",
+  "url": "https://github.com/opendatalab/MinerU/releases/tag/mineru-4.2.3-released",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 63362,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quick Start",
+    "html": "<blockquote>\n<p>[!TIP]\nTo choose between <code>flash</code>, <code>basic</code>, <code>standard</code>, and <code>advanced</code>, see the <a href=\"https://github.com/opendatalab/MinerU/discussions/5709\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MinerU 4.x Parsing Tiers Guide</a> for guidance on quality, speed, and resource trade-offs.</p>\n</blockquote>\n<h5>Try Online</h5>\n<p>Try MinerU in your browser without installing it locally:</p>\n<ul>\n<li>— Due to ZeroGPU limitations, only the <code>flash</code> and <code>basic</code> tiers are available.</li>\n<li>— All four tiers are available: <code>flash</code>, <code>basic</code>, <code>standard</code>, and <code>advanced</code>.</li>\n</ul>\n<h5>In Agent Workflow</h5>\n<p>You can install the <code>mineru</code> skill, and let agent install MinerU for you. Copy the following message and send it to your agent:</p>\n<pre><code class=\"language-text\">Install or update the global `mineru` skill. First, run `npx skills add opendatalab/MinerU --skill mineru --global --yes`. If `npx` is unavailable, fetch https://gcore.jsdelivr.net/gh/opendatalab/MinerU/skills/mineru/SKILL.md, use its content as `mineru/SKILL.md`, and save it under the appropriate global skills directory for the current agent, not in the current project. Also check both global and project-level skills for other installed skills whose names contain `mineru`. Report any matches and ask before removing them. If global memory is available, record this preference there: \"Whenever a PDF, image, or Office document needs to be read or parsed, prefer the `mineru` Skill.\" Do not write this preference to the current project.\n</code></pre>\n<h5>Install Manually</h5>\n<p>Python <code>&gt;=3.11,&lt;3.15</code>. Install the latest stable 4.x release in a virtual environment:</p>\n<pre><code class=\"language-bash\">pip install uv\nuv venv .mineru --python 3.12\n\n# Linux/macOS\nsource .mineru/bin/activate\n# Windows (PowerShell)\n.\\.mineru\\Scripts\\Activate.ps1\n</code></pre>\n<pre><code class=\"language-bash\">uv pip install -U \"mineru&gt;=4.0,&lt;5\"\nmineru-kit parse document.pdf -o document.md --tier standard\nmineru-kit webui\n</code></pre>\n<p>The default installation supports CPU inference on Windows, Linux, and macOS, as well as accelerated inference on compatible Intel, AMD, NVIDIA, and Apple Silicon GPUs, including integrated graphics.</p>\n<blockquote>\n<p>[!TIP]</p>\n<ol>\n<li>For high-throughput NVIDIA deployments on Linux and Windows, use <code>mineru[full]</code>.</li>\n<li>On Windows, NVIDIA deployments using <code>mineru[full]</code> require a separately installed GPU-enabled build of <code>torch</code>.</li>\n</ol>\n</blockquote>\n<h5>Python SDK</h5>\n<p><code>DoclibClient</code> drives the local document library from Python. Start the server first (<code>mineru server start</code>), then:</p>\n<pre><code class=\"language-python\">import time\n\nfrom mineru import DoclibClient\nfrom mineru.doclib import ParseRequest\n\nclient = DoclibClient()\nsubmit = client.ensure_parse(ParseRequest(path=\"paper.pdf\", tier=\"standard\"))\n\n# ensure_parse returns immediately; poll the parse tasks it created.\nfor parse_id in submit.wait_parse_ids:\n    parse = client.get_parse(parse_id)\n    while parse.status in (\"pending\", \"parsing\"):\n        time.sleep(1)\n        parse = client.get_parse(parse_id)\n    if parse.status != \"done\":\n        raise RuntimeError(f\"parse {parse_id} ended as {parse.status}: {parse.error_code} {parse.error_msg}\")\n\ncontent = client.read_content(f\"doc:{submit.short_id}/tier:standard/page:1\")\nprint(content.content)\n</code></pre>\n<p><code>DoclibClient</code> also covers search, watched directories, locators for\npage/block continuation, and result invalidation — see\n<code>help(DoclibClient)</code> or the <a href=\"https://opendatalab.github.io/MinerU/usage/sdk_api/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SDK and API guide</a>.</p>\n<p>For the document library and agent reading, use <code>mineru parse document.pdf --json</code>. It defaults to the first 10 PDF pages; continue with returned locators. Stateless <code>mineru-kit parse</code> defaults to all pages.</p>\n<p><a href=\"https://opendatalab.github.io/MinerU/quick_start/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Installation</a> · <a href=\"https://opendatalab.github.io/MinerU/usage/tiers/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Tiers and runtimes</a> · <a href=\"https://opendatalab.github.io/MinerU/usage/sdk_api/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SDK and API</a> · <a href=\"https://opendatalab.github.io/MinerU/quick_start/docker_deployment/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker deployment</a> · <a href=\"https://opendatalab.github.io/MinerU/reference/migration_4/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">3.x → 4.0 migration</a> · <a href=\"https://opendatalab.github.io/MinerU/reference/changelog/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Release history</a></p>\n<blockquote>\n<p>Docker deployment for non-NVIDIA devices is pending an update; see the <a href=\"https://opendatalab.github.io/MinerU/usage/compatibility/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">legacy platform guides</a> in the meantime.</p>\n</blockquote>",
+    "truncated": false,
+    "chars": 4100
+   },
+   "usage": {
+    "title": "Remote API Usage",
+    "html": "<p>Query usage and limits for the configured Remote API:</p>\n<pre><code class=\"language-bash\">mineru usage\nmineru usage --json\n</code></pre>",
+    "truncated": false,
+    "chars": 103
+   },
+   "features": null
+  },
+  "headings": 62,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:23.859Z",
+  "checked_at": "2026-11-17T02:19:23.859Z"
+ },
+ "contributors": {
+  "count": 107,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-16T07:03:47.247Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:23.859Z"
+}

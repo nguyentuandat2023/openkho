@@ -1,0 +1,188 @@
+# Danh mục: AI Audio, Voice & Speech (danh mục bổ sung) — xem cấu trúc trường trong data/README.md
+- repo: openai/whisper
+  tags: [speech-to-text, subtitles, vietnamese]
+  summary: "Mô hình nhận dạng giọng nói của OpenAI: chuyển giọng nói thành văn bản cho gần 100 ngôn ngữ (có tiếng Việt) và dịch sang tiếng Anh."
+  use_cases: ["Làm phụ đề video", "Gỡ băng phỏng vấn, cuộc họp", "Chuyển podcast thành bài viết"]
+  pros: ["Nhận dạng tiếng Việt tốt", "Miễn phí, chạy offline", "Xuất phụ đề SRT/VTT"]
+  cons: ["Chậm trên CPU — nên dùng faster-whisper hoặc whisper.cpp", "Có thể 'bịa' chữ ở đoạn nhạc không lời"]
+  platforms: [windows, macos, linux]
+  deploy: [cli, library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  requirements: "Cần FFmpeg; GPU giúp nhanh hơn nhiều."
+  quick_start: |
+    pip install -U openai-whisper
+    whisper ghi-am.mp3 --language Vietnamese --model turbo
+  applicability: 5
+  featured: true
+- repo: pnnbao97/VieNeu-TTS
+  also: [other]
+  tags: [text-to-speech, vietnamese, voice-cloning]
+  summary: "Mô hình đọc văn bản tiếng Việt (TTS) tự nhiên, chạy được trên máy cá nhân, có giọng dựng sẵn và hỗ trợ nhân bản giọng từ đoạn ghi âm ngắn."
+  use_cases: ["Lồng tiếng video marketing tiếng Việt", "Sách nói, bài giảng", "Tổng đài, trợ lý ảo tiếng Việt"]
+  pros: ["Thiết kế riêng cho tiếng Việt", "Chạy được trên CPU", "Giấy phép Apache-2.0"]
+  cons: ["Cộng đồng còn nhỏ", "Cần Python và chút kỹ năng dòng lệnh"]
+  platforms: [windows, macos, linux]
+  deploy: [library, local]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  license_note: "Mã nguồn Apache-2.0; kiểm tra giấy phép từng mô hình/giọng trên Hugging Face trước khi dùng thương mại."
+  note: "Chỉ nhân bản giọng nói khi có sự đồng ý của chủ giọng."
+  applicability: 5
+  featured: true
+- repo: ggml-org/whisper.cpp
+  tags: [speech-to-text, cpp, offline]
+  summary: "Whisper viết lại bằng C/C++: chạy nhanh trên CPU, Apple Silicon, GPU — không cần Python, có bản dựng sẵn cho Windows."
+  use_cases: ["Phụ đề hàng loạt trên máy yếu", "Nhúng nhận dạng giọng nói vào ứng dụng"]
+  platforms: [windows, macos, linux, android, ios]
+  deploy: [cli, library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: SYSTRAN/faster-whisper
+  tags: [speech-to-text, python, fast]
+  summary: "Whisper tăng tốc bằng CTranslate2: nhanh hơn tới 4 lần, tốn ít bộ nhớ hơn với cùng độ chính xác."
+  use_cases: ["Phụ đề video nhanh", "Xử lý kho ghi âm lớn"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  quick_start: |
+    pip install faster-whisper
+  applicability: 4
+- repo: m-bain/whisperX
+  tags: [speech-to-text, diarization, word-timestamps]
+  summary: "Whisper kèm mốc thời gian chính xác từng từ và nhận diện người nói (diarization) — hợp làm phụ đề, biên bản họp."
+  use_cases: ["Biên bản họp có phân biệt người nói", "Phụ đề karaoke từng từ"]
+  platforms: [windows, macos, linux]
+  deploy: [cli, library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: optional
+  requirements: "Tính năng phân biệt người nói cần token Hugging Face (miễn phí)."
+  applicability: 4
+- repo: OHF-Voice/piper1-gpl
+  tags: [text-to-speech, offline, lightweight, vietnamese]
+  summary: "Hệ thống TTS siêu nhẹ chạy nhanh trên CPU (cả Raspberry Pi), có giọng tiếng Việt — bản tiếp nối Piper do Open Home Foundation duy trì."
+  use_cases: ["Đọc thông báo, trợ lý giọng nói offline", "Lồng tiếng nhanh số lượng lớn"]
+  platforms: [windows, macos, linux]
+  deploy: [cli, library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  note: "Piper gốc (rhasspy/piper, MIT) đã lưu trữ; bản tiếp nối này dùng GPL-3.0. Mỗi giọng đọc có giấy phép riêng."
+  applicability: 4
+- repo: RVC-Boss/GPT-SoVITS
+  tags: [voice-cloning, text-to-speech, webui]
+  summary: "Nhân bản giọng nói và đọc văn bản từ 5 giây tới 1 phút ghi âm mẫu, có giao diện WebUI và gói cài cho Windows."
+  use_cases: ["Giọng đọc thương hiệu riêng (có đồng ý)", "Lồng tiếng nhân vật"]
+  platforms: [windows, linux, macos]
+  deploy: [local]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  note: "Hỗ trợ chính thức tiếng Trung, Anh, Nhật, Hàn, Quảng Đông — chưa có tiếng Việt. Chỉ nhân bản giọng khi chủ giọng đồng ý."
+  applicability: 3
+- repo: resemble-ai/chatterbox
+  tags: [text-to-speech, voice-cloning, watermark]
+  summary: "Mô hình TTS chất lượng cao của Resemble AI: điều chỉnh cảm xúc, nhân bản giọng nhanh; âm thanh tạo ra có gắn watermark nhận biết."
+  use_cases: ["Lồng tiếng video, quảng cáo", "Trợ lý giọng nói"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  note: "Chỉ nhân bản giọng khi chủ giọng đồng ý."
+  applicability: 4
+- repo: hexgrad/kokoro
+  tags: [text-to-speech, lightweight]
+  summary: "Mô hình TTS siêu nhẹ (82 triệu tham số), giọng tự nhiên, chạy nhanh cả trên CPU; giấy phép Apache cho phép dùng thương mại."
+  use_cases: ["Giọng đọc tiếng Anh cho video, ứng dụng"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  note: "Chưa hỗ trợ tiếng Việt."
+  applicability: 3
+- repo: k2-fsa/sherpa-onnx
+  tags: [speech-to-text, text-to-speech, offline, embedded]
+  summary: "Bộ công cụ giọng nói offline đa nền tảng (nhận dạng, TTS, phát hiện từ khóa, tách người nói) chạy cả trên điện thoại và thiết bị nhúng."
+  use_cases: ["Ứng dụng di động có giọng nói offline", "Thiết bị IoT điều khiển bằng giọng nói"]
+  platforms: [windows, macos, linux, android, ios]
+  deploy: [library, cli]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: ace-step/ACE-Step-1.5
+  tags: [music-generation, song, lyrics]
+  summary: "Mô hình tạo nhạc AI mở: tạo bài hát có lời từ mô tả phong cách và lời bài hát, chạy được trên GPU phổ thông."
+  use_cases: ["Nhạc nền video quảng cáo", "Jingle thương hiệu"]
+  platforms: [windows, linux, macos]
+  deploy: [local, library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  note: "Kiểm tra chính sách của nền tảng (YouTube, TikTok…) về nhạc tạo bằng AI trước khi đăng."
+  applicability: 4
+- repo: Anjok07/ultimatevocalremovergui
+  also: [video-media]
+  tags: [vocal-remover, stem-separation, desktop]
+  summary: "Tách lời hát khỏi nhạc nền, tách nhạc cụ bằng AI với giao diện đồ họa dễ dùng (Ultimate Vocal Remover)."
+  use_cases: ["Tạo bản beat/karaoke", "Lấy giọng nói sạch từ video có nhạc"]
+  platforms: [windows, macos, linux]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: OpenBMB/VoxCPM
+  tags: [text-to-speech, voice-design, multilingual]
+  summary: "Mô hình TTS đa ngôn ngữ của OpenBMB không cần tokenizer, hỗ trợ thiết kế giọng theo mô tả và nhân bản giọng nói."
+  use_cases: ["Tạo giọng đọc mới theo mô tả", "Lồng tiếng đa ngôn ngữ"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: QwenAudio/CosyVoice
+  tags: [text-to-speech, voice-cloning, streaming]
+  summary: "Mô hình TTS đa ngôn ngữ của nhóm Qwen (Alibaba): nhân bản giọng không cần huấn luyện, độ trễ thấp cho ứng dụng thời gian thực."
+  use_cases: ["Trợ lý giọng nói thời gian thực", "Lồng tiếng đa ngôn ngữ"]
+  platforms: [linux, windows]
+  deploy: [library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: fishaudio/fish-speech
+  tags: [text-to-speech, voice-cloning]
+  summary: "Hệ thống TTS và nhân bản giọng nói đa ngôn ngữ chất lượng cao của Fish Audio, có WebUI."
+  use_cases: ["Thử nghiệm giọng đọc chất lượng cao"]
+  platforms: [windows, linux, macos]
+  deploy: [local, library]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  license_note: "Trọng số mô hình phát hành theo giấy phép phi thương mại (CC-BY-NC-SA) — không dùng cho công việc thương mại nếu chưa có thỏa thuận với Fish Audio. GitHub hiển thị NOASSERTION."
+  applicability: 2
+  license_override:
+    class: noncommercial
+    name: Giấy phép riêng (trọng số CC-BY-NC-SA)
+- repo: debpalash/VoiceStudio
+  tags: [text-to-speech, voice-cloning, desktop]
+  summary: "Ứng dụng desktop gom nhiều mô hình giọng nói mã nguồn mở (TTS, nhân bản giọng, chuyển giọng, dịch) vào một giao diện, chạy local."
+  use_cases: ["Thử nhiều mô hình giọng nói trong một ứng dụng"]
+  platforms: [windows]
+  deploy: [desktop]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  license_note: "Ứng dụng AGPL-3.0, nhưng nhiều mô hình đi kèm (ví dụ OmniVoice, NLLB-200) có giấy phép phi thương mại — kiểm tra từng mô hình trước khi dùng cho công việc thương mại."
+  applicability: 3

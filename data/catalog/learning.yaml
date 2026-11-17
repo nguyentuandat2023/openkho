@@ -1,0 +1,193 @@
+# Danh mục: Learning Resources & Awesome Lists (danh mục bổ sung) — xem cấu trúc trường trong data/README.md
+- repo: f/prompts.chat
+  also: [ai-marketing]
+  tags: [prompts, chatgpt, claude, prompt-library]
+  summary: "Kho prompt cộng đồng lớn nhất (trước đây là Awesome ChatGPT Prompts): hàng nghìn câu lệnh mẫu nhập vai chuyên gia, dùng được với ChatGPT, Claude, Gemini."
+  use_cases: ["Mẫu prompt viết quảng cáo, email, kịch bản", "Học cách giao việc cho AI hiệu quả"]
+  pros: ["Rất nhiều prompt đã được cộng đồng dùng thử", "Có website tra cứu tiện lợi", "Áp dụng ngay, không cần cài đặt"]
+  cons: ["Prompt tiếng Anh — cần dịch/điều chỉnh", "Chất lượng không đồng đều"]
+  deploy: [content, cloud]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  license_note: "GitHub hiển thị NOASSERTION — kiểm tra file LICENSE trước khi tái sử dụng nội dung."
+  applicability: 5
+  featured: true
+- repo: microsoft/generative-ai-for-beginners
+  tags: [course, generative-ai, prompt-engineering, rag]
+  summary: "Khóa học Generative AI miễn phí của Microsoft (21 bài): prompt, RAG, agent, ứng dụng chat — có bản dịch nhiều ngôn ngữ."
+  use_cases: ["Tự học AI tạo sinh bài bản", "Tài liệu đào tạo nội bộ"]
+  deploy: [content]
+  difficulty: easy
+  pricing: free
+  needs_api_key: optional
+  applicability: 5
+  featured: true
+- repo: microsoft/ai-agents-for-beginners
+  tags: [course, ai-agents]
+  summary: "Khóa học xây dựng AI Agent từ con số 0 của Microsoft, kèm video và code mẫu."
+  use_cases: ["Học cách thiết kế agent cho doanh nghiệp"]
+  deploy: [content]
+  difficulty: easy
+  pricing: free
+  needs_api_key: optional
+  applicability: 4
+- repo: dair-ai/Prompt-Engineering-Guide
+  tags: [prompt-engineering, guide, research]
+  summary: "Hướng dẫn kỹ thuật viết prompt toàn diện: kỹ thuật, ví dụ, bài nghiên cứu — có website promptingguide.ai nhiều ngôn ngữ."
+  use_cases: ["Nâng cao chất lượng đầu ra của AI"]
+  deploy: [content]
+  difficulty: easy
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: anthropics/prompt-eng-interactive-tutorial
+  tags: [prompt-engineering, claude, tutorial]
+  summary: "Khóa học tương tác viết prompt cho Claude của Anthropic, gồm 9 chương có bài tập."
+  use_cases: ["Học viết prompt có cấu trúc"]
+  deploy: [content]
+  difficulty: easy
+  pricing: free
+  needs_api_key: optional
+  license_note: "Repo chưa khai báo giấy phép: được đọc để học, nhưng không mặc nhiên được sao chép/phân phối lại nội dung."
+  applicability: 4
+- repo: Shubhamsaboo/awesome-llm-apps
+  also: [ai-agents]
+  tags: [examples, agents, rag, llm-apps]
+  summary: "Bộ sưu tập ứng dụng LLM mẫu chạy được ngay: agent marketing, RAG, hệ đa tác tử… dùng OpenAI, Claude, Gemini và mô hình mở."
+  use_cases: ["Lấy ý tưởng và mã mẫu cho ứng dụng AI"]
+  deploy: [content]
+  difficulty: medium
+  pricing: free
+  needs_api_key: optional
+  applicability: 4
+- repo: huggingface/agents-course
+  tags: [course, ai-agents, certificate]
+  summary: "Khóa học AI Agents miễn phí có chứng chỉ của Hugging Face: lý thuyết, framework và dự án thực hành."
+  use_cases: ["Học agent có lộ trình, có chứng chỉ"]
+  deploy: [content]
+  difficulty: medium
+  pricing: free
+  needs_api_key: optional
+  applicability: 4
+- repo: microsoft/ML-For-Beginners
+  tags: [course, machine-learning]
+  summary: "Giáo trình học máy 12 tuần, 26 bài học của Microsoft cho người mới bắt đầu."
+  use_cases: ["Nhập môn học máy"]
+  deploy: [content]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: microsoft/AI-For-Beginners
+  tags: [course, deep-learning]
+  summary: "Giáo trình AI 12 tuần, 24 bài của Microsoft: mạng nơ-ron, thị giác máy tính, xử lý ngôn ngữ tự nhiên."
+  use_cases: ["Nắm nền tảng AI một cách hệ thống"]
+  deploy: [content]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: openai/openai-cookbook
+  tags: [examples, openai-api]
+  summary: "Ví dụ và hướng dẫn chính thức cách dùng API OpenAI: function calling, embeddings, agent, đánh giá…"
+  use_cases: ["Tích hợp API OpenAI đúng cách"]
+  deploy: [content]
+  difficulty: medium
+  pricing: free
+  needs_api_key: required
+  applicability: 3
+- repo: anthropics/claude-cookbooks
+  tags: [examples, claude-api]
+  summary: "Notebook và công thức chính thức của Anthropic để dùng Claude hiệu quả: tool use, RAG, đa phương thức, agent."
+  use_cases: ["Tích hợp Claude vào ứng dụng"]
+  deploy: [content]
+  difficulty: medium
+  pricing: free
+  needs_api_key: required
+  applicability: 3
+- repo: rasbt/LLMs-from-scratch
+  tags: [book, llm, pytorch]
+  summary: "Mã nguồn sách 'Build a Large Language Model (From Scratch)': tự xây mô hình kiểu ChatGPT bằng PyTorch từng bước."
+  use_cases: ["Hiểu sâu cách LLM hoạt động"]
+  deploy: [content]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  license_note: "Giấy phép tùy chỉnh (GitHub hiển thị NOASSERTION) — đọc file LICENSE."
+  applicability: 3
+- repo: mlabonne/llm-course
+  tags: [course, llm, roadmap]
+  summary: "Lộ trình học LLM đầy đủ kèm notebook Colab: kiến thức nền, xây dựng và triển khai mô hình."
+  use_cases: ["Tự học LLM theo lộ trình"]
+  deploy: [content]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: karpathy/nanochat
+  also: [ai-ml]
+  tags: [llm, education, training]
+  summary: "Tự xây một chatbot kiểu ChatGPT hoàn chỉnh từ đầu với chi phí khoảng 100 USD tiền GPU — dự án học tập của Andrej Karpathy."
+  use_cases: ["Hiểu toàn bộ quy trình huấn luyện một LLM"]
+  platforms: [linux]
+  deploy: [library]
+  difficulty: hard
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: NirDiamant/RAG_Techniques
+  tags: [rag, tutorials, notebooks]
+  summary: "Bộ sưu tập kỹ thuật RAG nâng cao có notebook minh họa — từ cơ bản đến các phương pháp mới."
+  use_cases: ["Cải thiện chất lượng chatbot tài liệu"]
+  deploy: [content]
+  difficulty: medium
+  pricing: free
+  needs_api_key: optional
+  license_note: "Giấy phép tùy chỉnh (GitHub hiển thị NOASSERTION) — đọc file LICENSE."
+  applicability: 3
+- repo: awesome-selfhosted/awesome-selfhosted
+  also: [self-hosted]
+  tags: [awesome-list, self-hosted]
+  summary: "Danh sách hàng nghìn phần mềm tự host miễn phí theo chủ đề — kho tham khảo lớn nhất về ứng dụng tự host."
+  use_cases: ["Tìm phần mềm thay thế dịch vụ trả phí"]
+  deploy: [content]
+  difficulty: easy
+  pricing: free
+  applicability: 4
+  license_override:
+    spdx: CC-BY-SA-3.0
+    name: CC-BY-SA-3.0
+- repo: public-apis/public-apis
+  tags: [apis, directory, free]
+  summary: "Danh sách khổng lồ các API miễn phí theo chủ đề (thời tiết, tài chính, bản đồ…) để tích hợp vào ứng dụng hoặc n8n."
+  use_cases: ["Tìm API dữ liệu cho quy trình tự động"]
+  deploy: [content]
+  difficulty: easy
+  pricing: free
+  applicability: 4
+- repo: sindresorhus/awesome
+  tags: [awesome-list, directory]
+  summary: "'Danh sách của các danh sách' — chỉ mục awesome lists về mọi chủ đề công nghệ, điểm khởi đầu tốt để khám phá."
+  use_cases: ["Khám phá công cụ theo chủ đề"]
+  deploy: [content]
+  difficulty: easy
+  pricing: free
+  applicability: 3
+- repo: EbookFoundation/free-programming-books
+  tags: [books, courses, free]
+  summary: "Kho sách và khóa học lập trình miễn phí bằng nhiều ngôn ngữ, có cả phần tài liệu tiếng Việt."
+  use_cases: ["Tìm tài liệu học lập trình miễn phí"]
+  deploy: [content]
+  difficulty: easy
+  pricing: free
+  applicability: 3
+- repo: nilbuild/developer-roadmap
+  tags: [roadmap, career, learning-path]
+  summary: "Lộ trình học tương tác cho lập trình viên (Frontend, Backend, AI Engineer, DevOps…) — bản web tại roadmap.sh."
+  use_cases: ["Định hướng lộ trình học/tuyển dụng IT"]
+  deploy: [content, cloud]
+  difficulty: easy
+  pricing: free
+  license_note: "Giấy phép tùy chỉnh hạn chế sao chép/tái phân phối nội dung (GitHub hiển thị NOASSERTION) — đọc file license."
+  applicability: 3

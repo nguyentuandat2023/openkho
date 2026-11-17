@@ -1,0 +1,98 @@
+{
+ "id": "YOURLS/YOURLS",
+ "github_id": 5508585,
+ "node_id": "MDEwOlJlcG9zaXRvcnk1NTA4NTg1",
+ "full_name": "YOURLS/YOURLS",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:56.641Z",
+ "meta": {
+  "name": "YOURLS",
+  "owner": "YOURLS",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/2106111?v=4",
+  "description": "🔗 The 𝘥𝘦 𝘧𝘢𝘤𝘵𝘰 standard, self hosted, powerful and customizable, URL shortener in PHP",
+  "homepage": "https://yourls.org",
+  "html_url": "https://github.com/YOURLS/YOURLS",
+  "default_branch": "master",
+  "language": "PHP",
+  "languages": null,
+  "topics": [
+   "link-shortener",
+   "php",
+   "short-url",
+   "shorten-urls",
+   "shortener",
+   "url-shortener",
+   "urlshortener",
+   "yourls"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 12304,
+  "forks": 2077,
+  "watchers": null,
+  "open_issues": 57,
+  "open_prs": null,
+  "created_at": "2012-08-22T11:36:52Z",
+  "pushed_at": "2026-11-11T12:25:40Z",
+  "updated_at": "2026-11-16T18:25:15Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 511697,
+  "og_image": "https://opengraph.githubassets.com/1/YOURLS/YOURLS",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-10T18:00:24.000Z",
+  "commits_90d": 37,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "1.10.6",
+  "name": "1.10.6",
+  "published_at": "2026-08-30T08:24:15Z",
+  "url": "https://github.com/YOURLS/YOURLS/releases/tag/1.10.6",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 8930,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Getting Started",
+    "html": "<p>Check out the complete documentation on <a href=\"https://docs.yourls.org\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs.yourls.org</a>.<br />It contains everything from beginners to experts.</p>",
+    "truncated": false,
+    "chars": 139
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 6,
+  "processor": 4,
+  "fetched_at": "2026-11-16T05:09:12.547Z",
+  "checked_at": "2026-11-16T05:09:12.547Z"
+ },
+ "details_checked_at": "2026-11-16T05:06:31.394Z",
+ "contributors": null
+}

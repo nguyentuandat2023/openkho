@@ -1,0 +1,112 @@
+{
+ "id": "twentyhq/twenty",
+ "github_id": 572984571,
+ "node_id": "R_kgDOIicM-w",
+ "full_name": "twentyhq/twenty",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "twenty",
+  "owner": "twentyhq",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/119600397?v=4",
+  "description": "The open alternative to Salesforce, designed for AI.",
+  "homepage": "https://twenty.com",
+  "html_url": "https://github.com/twentyhq/twenty",
+  "default_branch": "main",
+  "language": "TypeScript",
+  "languages": null,
+  "topics": [
+   "crm",
+   "crm-system",
+   "customer",
+   "good-first-issue",
+   "graphql",
+   "hacktoberfest",
+   "javascript",
+   "marketing",
+   "monorepo",
+   "nestjs",
+   "open-source",
+   "postgresql",
+   "react",
+   "reactjs",
+   "sales",
+   "typescript",
+   "web"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 61021,
+  "forks": 10112,
+  "watchers": null,
+  "open_issues": 147,
+  "open_prs": null,
+  "created_at": "2022-12-01T13:04:40Z",
+  "pushed_at": "2026-11-16T23:37:37Z",
+  "updated_at": "2026-11-17T02:03:34Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 2917168,
+  "og_image": "https://opengraph.githubassets.com/1/twentyhq/twenty",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-16T23:37:34.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "sdk/v2.59.0",
+  "name": "sdk/v2.59.0",
+  "published_at": "2026-11-16T16:16:36Z",
+  "url": "https://github.com/twentyhq/twenty/releases/tag/sdk%2Fv2.59.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "twenty/v2.59.2",
+  "name": "twenty/v2.59.2",
+  "published_at": "2026-11-16T23:07:44Z",
+  "url": "https://github.com/twentyhq/twenty/releases/tag/twenty%2Fv2.59.2"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 12071,
+  "cjk_ratio": 0,
+  "docker_mentioned": true,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Installation",
+    "html": "<h5><img src=\"https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-website/public/images/readme/globe-icon.svg\" alt=\"\" loading=\"lazy\" decoding=\"async\" width=\"14\" height=\"14\" /> Cloud</h5>\n<p>The fastest way to get started. Sign up at <a href=\"https://twenty.com\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">twenty.com</a> and spin up a workspace in under a minute, with no infrastructure to manage and always up to date.</p>\n<h5><img src=\"https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-website/public/images/readme/book-icon.svg\" alt=\"\" loading=\"lazy\" decoding=\"async\" width=\"14\" height=\"14\" /> Build an app</h5>\n<p>Scaffold a new app with the Twenty CLI:</p>\n<pre><code class=\"language-bash\">npm install -g twenty\ntwenty app init my-app\ncd my-app\nyarn install\n</code></pre>\n<p>Define objects, fields, and views as code:</p>\n<pre><code class=\"language-ts\">import { defineObject, FieldType } from 'twenty-sdk/define';\n\nexport default defineObject({\n  nameSingular: 'deal',\n  namePlural: 'deals',\n  labelSingular: 'Deal',\n  labelPlural: 'Deals',\n  fields: [\n    { name: 'name', label: 'Name', type: FieldType.TEXT },\n    { name: 'amount', label: 'Amount', type: FieldType.CURRENCY },\n    { name: 'closeDate', label: 'Close Date', type: FieldType.DATE_TIME },\n  ],\n});\n</code></pre>\n<p>Then ship it to your workspace:</p>\n<pre><code class=\"language-bash\">twenty auth login --url https://your-workspace.twenty.com\ntwenty app publish --private\n</code></pre>\n<p>See the <a href=\"https://docs.twenty.com/developers/extend/apps/getting-started\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">app development guide</a> for objects, views, agents, and logic functions.</p>\n<p>Building with a coding agent? Install the official <a href=\"https://github.com/twentyhq/twenty/blob/main/packages/twenty-agent-skills\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Twenty app skills</a>, which work in Claude Code, Codex, Cursor, Pi, and any other harness supported by the <code>skills</code> CLI:</p>\n<pre><code class=\"language-bash\">npx skills add https://github.com/twentyhq/twenty/tree/agent-skills --list\n</code></pre>\n<p>The <code>agent-skills</code> branch is created by the first successful publish from <code>main</code>. Until then, use the <a href=\"https://github.com/twentyhq/twenty/blob/main/packages/twenty-agent-skills#local-development\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">local build instructions</a>. <a href=\"https://github.com/twentyhq/twenty/blob/main/SKILLS.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>SKILLS.md</code></a> explains the other skill families in this repository and who they are for.</p>\n<h5><img src=\"https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-website/public/images/readme/rocket-icon.svg\" alt=\"\" loading=\"lazy\" decoding=\"async\" width=\"14\" height=\"14\" /> Self-hosting</h5>\n<p>Run Twenty on your own infrastructure with <a href=\"https://docs.twenty.com/developers/self-host/capabilities/docker-compose\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Docker Compose</a>, or contribute locally via the <a href=\"https://docs.twenty.com/developers/contribute/capabilities/local-setup\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">local setup guide</a>.</p>\n<br />\n<br />",
+    "truncated": false,
+    "chars": 2234
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 10,
+  "processor": 4,
+  "fetched_at": "2026-11-16T07:03:17.365Z",
+  "checked_at": "2026-11-17T02:19:37.390Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:37.390Z"
+}

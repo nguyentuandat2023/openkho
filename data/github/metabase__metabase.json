@@ -1,0 +1,118 @@
+{
+ "id": "metabase/metabase",
+ "github_id": 30203935,
+ "node_id": "MDEwOlJlcG9zaXRvcnkzMDIwMzkzNQ==",
+ "full_name": "metabase/metabase",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:26.318Z",
+ "meta": {
+  "name": "metabase",
+  "owner": "metabase",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/10520629?v=4",
+  "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
+  "homepage": "https://metabase.com",
+  "html_url": "https://github.com/metabase/metabase",
+  "default_branch": "master",
+  "language": "Clojure",
+  "languages": null,
+  "topics": [
+   "analytics",
+   "bi",
+   "business-intelligence",
+   "businessintelligence",
+   "clojure",
+   "dashboard",
+   "data",
+   "data-analysis",
+   "data-visualization",
+   "database",
+   "metabase",
+   "mysql",
+   "postgres",
+   "postgresql",
+   "reporting",
+   "slack",
+   "sql-editor",
+   "visualization"
+  ],
+  "license": {
+   "spdx": "NOASSERTION",
+   "name": "Other"
+  },
+  "stars": 50369,
+  "forks": 7013,
+  "watchers": null,
+  "open_issues": 4711,
+  "open_prs": null,
+  "created_at": "2015-02-02T19:25:47Z",
+  "pushed_at": "2026-11-17T02:14:28Z",
+  "updated_at": "2026-11-16T21:54:50Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": false,
+  "has_wiki": false,
+  "size_kb": 2585799,
+  "og_image": "https://opengraph.githubassets.com/1/metabase/metabase",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-17T01:20:00.000Z",
+  "commits_90d": 3600,
+  "commits_90d_estimated": true,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v0.65.4",
+  "name": "v0.65.4",
+  "published_at": null,
+  "url": "https://github.com/metabase/metabase/releases/tag/v0.65.4",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": {
+  "tag": "v0.65.4.5",
+  "name": "v0.65.4.5: 🤖 v65 backported &quot;Integration branch for fixes&quot; (#87204)",
+  "published_at": "2026-11-16T16:01:20Z",
+  "url": "https://github.com/metabase/metabase/releases/tag/v0.65.4.5"
+ },
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 5921,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Get started",
+    "html": "<p>The easiest way to get started with Metabase is to sign up for a free trial of <a href=\"https://store.metabase.com/checkout\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Metabase Cloud</a>.</p>\n<p>You get expert support, backups, upgrades, an SMTP server, SSL certificate, SoC2 Type 2 security auditing, and more (plus your money goes toward improving a major open-source project). Check out our quick overview of <a href=\"https://www.metabase.com/docs/latest/cloud/cloud-vs-self-hosting\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">cloud vs self-hosting</a>. If you need to, you can always switch to <a href=\"https://www.metabase.com/docs/latest/installation-and-operation/installing-metabase\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">self-hosting</a> Metabase at any time (or vice versa).</p>",
+    "truncated": false,
+    "chars": 625
+   },
+   "usage": null,
+   "features": {
+    "title": "Key Features",
+    "html": "<ul>\n<li><a href=\"https://www.metabase.com/docs/latest/getting-started/setting-up-metabase\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Set up in five minutes</a> (we're not kidding), or have us <a href=\"https://www.metabase.com/cloud\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">host Metabase for you</a> so you don't even need to think about it.</li>\n<li>Let anyone on your team <a href=\"https://www.metabase.com/docs/latest/questions/introduction\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ask questions</a> without knowing SQL.</li>\n<li>Use the <a href=\"https://www.metabase.com/docs/latest/questions/native-editor/writing-sql\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SQL editor</a> for more complex queries.</li>\n<li>Ask AI: <a href=\"https://www.metabase.com/docs/latest/ai/metabot\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Metabot</a> gives you answers you can trust, helps you write queries, and more. Or build your own <a href=\"https://www.metabase.com/docs/latest/ai/agent-api\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AI agent</a> to query your data.</li>\n<li>Build handsome, interactive <a href=\"https://www.metabase.com/docs/latest/dashboards/introduction\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">dashboards</a> with filters, auto-refresh, fullscreen, custom click behavior, and more.</li>\n<li>Use <a href=\"https://www.metabase.com/docs/latest/documents/introduction\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">documents</a> for long-form data analysis, and invite people to comment.</li>\n<li><a href=\"https://www.metabase.com/docs/latest/data-modeling/transforms/transforms-overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Transform</a> raw data into analytics-ready tables, track down broken dependencies, and define canonical metrics in Metabase's <a href=\"https://www.metabase.com/docs/latest/data-modeling/data-studio\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Data Studio</a>.</li>\n<li>Set up <a href=\"https://www.metabase.com/docs/latest/questions/alerts\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">alerts on your data</a>, or schedule <a href=\"https://www.metabase.com/docs/latest/dashboards/subscriptions\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">dashboard subscriptions</a> to email, Slack, or even a webhook.</li>\n<li>Curate content in a <a href=\"https://www.metabase.com/docs/latest/data-modeling/semantic-layer/library\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Library</a>, and <a href=\"https://www.metabase.com/docs/latest/data-modeling/semantic-layer/remote-sync\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">version your work with Git</a>.</li>\n<li><a href=\"https://www.metabase.com/docs/latest/embedding/introduction\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Embed Metabase in your app</a>, with components for charts, dashboards, data browser, AI chat, and more. You can even put <a href=\"https://www.metabase.com/docs/latest/embedding/full-app-embedding\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">an entire Metabase</a> in your app.</li>\n<li>Set granular <a href=\"https://www.metabase.com/docs/latest/permissions/introduction\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">permissions</a> that work for both internal teams and embedded analytics, whether you co-locate your customer data, or give each customer their own database.</li>\n<li>Dark mode, content translations, and way more stuff than we can list here.</li>\n</ul>\n<p>Take a <a href=\"https://www.metabase.com/learn/metabase-basics/overview/tour-of-metabase\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">tour of Metabase</a>.</p>",
+    "truncated": false,
+    "chars": 2465
+   }
+  },
+  "headings": 13,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:42.078Z",
+  "checked_at": "2026-11-17T02:19:42.078Z"
+ },
+ "contributors": null,
+ "details_checked_at": "2026-11-17T02:19:42.078Z"
+}

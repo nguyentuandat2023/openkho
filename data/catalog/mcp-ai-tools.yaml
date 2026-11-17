@@ -1,0 +1,183 @@
+# Danh mục: MCP Servers & AI Tools — xem cấu trúc trường trong data/README.md
+- repo: modelcontextprotocol/servers
+  tags: [mcp, reference, filesystem, git]
+  summary: "Kho máy chủ MCP tham khảo chính thức (Filesystem, Git, Fetch, Memory…) và danh mục dẫn tới hàng trăm máy chủ MCP khác."
+  use_cases: ["Cho Claude/AI đọc file, Git, web", "Mẫu để tự viết máy chủ MCP"]
+  pros: ["Nguồn chính thức của giao thức MCP", "Ví dụ chuẩn, dễ học", "Danh mục máy chủ cộng đồng"]
+  cons: ["Phần lớn máy chủ chỉ là bản tham khảo", "Cần chỉnh file cấu hình JSON của ứng dụng AI"]
+  platforms: [windows, macos, linux]
+  deploy: [cli, library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+  featured: true
+  license_override:
+    class: permissive
+    name: MIT / Apache-2.0
+- repo: punkpeye/awesome-mcp-servers
+  also: [learning]
+  tags: [mcp, awesome-list, directory]
+  summary: "Danh sách tuyển chọn lớn nhất các máy chủ MCP theo chủ đề: trình duyệt, cơ sở dữ liệu, thiết kế, marketing, tài chính…"
+  use_cases: ["Tìm máy chủ MCP cho công cụ bạn đang dùng"]
+  deploy: [content]
+  difficulty: easy
+  pricing: free
+  applicability: 4
+- repo: anthropics/skills
+  tags: [agent-skills, claude, documents]
+  summary: "Kho Agent Skills chính thức của Anthropic: kỹ năng mẫu cho Claude (tạo Word, Excel, PowerPoint, PDF, thiết kế, kiểm thử web…) và hướng dẫn tự viết kỹ năng."
+  use_cases: ["Mở rộng khả năng Claude cho công việc văn phòng", "Học cách viết skill riêng cho doanh nghiệp"]
+  platforms: [windows, macos, linux]
+  deploy: [skill]
+  difficulty: easy
+  pricing: free
+  needs_api_key: required
+  license_note: "Không có giấy phép chung cho cả repo: nhiều kỹ năng mẫu dùng Apache-2.0, riêng nhóm kỹ năng tài liệu (docx/xlsx/pptx/pdf) là 'source-available' — chỉ để tham khảo."
+  applicability: 4
+  license_override:
+    class: custom
+    name: Theo từng kỹ năng (Apache-2.0 / source-available)
+- repo: upstash/context7
+  also: [dev-tools]
+  tags: [mcp, documentation, coding]
+  summary: "Cung cấp tài liệu thư viện lập trình mới nhất cho AI viết code (Cursor, Claude Code, VS Code…) qua MCP — giảm code lỗi thời, API 'bịa'."
+  use_cases: ["AI viết code đúng phiên bản thư viện"]
+  platforms: [windows, macos, linux]
+  deploy: [cli, cloud]
+  difficulty: easy
+  pricing: freemium
+  needs_api_key: optional
+  applicability: 3
+- repo: ChromeDevTools/chrome-devtools-mcp
+  tags: [mcp, chrome, debugging, performance]
+  summary: "MCP chính thức của nhóm Chrome DevTools: cho AI agent điều khiển và gỡ lỗi Chrome — đo hiệu năng trang, xem console, network."
+  use_cases: ["AI kiểm tra tốc độ, lỗi website", "Tự động thao tác trình duyệt"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  requirements: "Node.js và Google Chrome."
+  applicability: 3
+- repo: microsoft/playwright-mcp
+  tags: [mcp, browser-automation, playwright]
+  summary: "MCP của Microsoft cho AI điều khiển trình duyệt bằng Playwright dựa trên cây truy cập (accessibility tree) — không cần ảnh chụp màn hình."
+  use_cases: ["AI thao tác web: đăng nhập, điền form, thu thập dữ liệu", "Kiểm thử giao diện tự động"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: github/github-mcp-server
+  also: [dev-tools]
+  tags: [mcp, github, devops]
+  summary: "MCP chính thức của GitHub: cho AI đọc repo, quản lý issue, pull request, GitHub Actions bằng ngôn ngữ tự nhiên."
+  use_cases: ["Quản lý dự án phần mềm bằng câu lệnh", "Tự động phân loại issue"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [cli, cloud]
+  difficulty: medium
+  pricing: free
+  needs_api_key: optional
+  applicability: 3
+- repo: czlonkowski/n8n-mcp
+  also: [ai-automation]
+  tags: [mcp, n8n, workflow]
+  summary: "Máy chủ MCP giúp Claude/AI hiểu toàn bộ node của n8n để thiết kế, kiểm tra và tạo quy trình n8n tự động."
+  use_cases: ["Nhờ AI dựng quy trình n8n theo mô tả", "Kiểm tra lỗi quy trình sẵn có"]
+  platforms: [windows, macos, linux, docker]
+  deploy: [cli, self-host]
+  difficulty: medium
+  pricing: free
+  needs_api_key: optional
+  applicability: 4
+- repo: GLips/Figma-Context-MCP
+  also: [design]
+  tags: [mcp, figma, design-to-code]
+  summary: "Đưa dữ liệu thiết kế Figma cho AI lập trình (Cursor…) để dựng giao diện sát bản thiết kế chỉ từ một đường link."
+  use_cases: ["Chuyển thiết kế Figma thành code nhanh"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: required
+  requirements: "Token truy cập Figma (tạo miễn phí trong tài khoản Figma)."
+  applicability: 4
+- repo: ahujasid/mcp-for-blender
+  also: [design]
+  tags: [mcp, blender, 3d]
+  summary: "Kết nối Claude/AI với Blender qua MCP — tạo và chỉnh cảnh 3D bằng câu lệnh ngôn ngữ tự nhiên."
+  use_cases: ["Dựng nhanh cảnh 3D sản phẩm", "Tự động hóa thao tác Blender"]
+  platforms: [windows, macos, linux]
+  deploy: [extension]
+  difficulty: medium
+  pricing: free
+  needs_api_key: required
+  applicability: 3
+- repo: PrefectHQ/fastmcp
+  tags: [mcp, python, framework]
+  summary: "Cách nhanh và 'chuẩn Python' để viết máy chủ và client MCP — phiên bản đầu đã được đưa vào SDK MCP chính thức."
+  use_cases: ["Biến API/nghiệp vụ nội bộ thành công cụ cho AI"]
+  platforms: [windows, macos, linux]
+  deploy: [library]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 3
+- repo: haris-musa/excel-mcp-server
+  also: [productivity]
+  tags: [mcp, excel, spreadsheet]
+  summary: "Cho AI đọc, tạo và chỉnh sửa file Excel (công thức, định dạng, biểu đồ, pivot) mà không cần cài Microsoft Excel."
+  use_cases: ["Nhờ AI làm báo cáo Excel", "Xử lý bảng tính hàng loạt"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  applicability: 4
+- repo: wonderwhy-er/DesktopCommanderMCP
+  also: [productivity]
+  tags: [mcp, terminal, filesystem]
+  summary: "Cho Claude/AI dùng terminal, tìm kiếm và chỉnh sửa file trên máy tính qua MCP — biến AI thành trợ lý thao tác máy."
+  use_cases: ["Nhờ AI sắp xếp file, chạy lệnh", "Tự động hóa tác vụ trên máy tính"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: medium
+  pricing: free
+  needs_api_key: none
+  note: "Cấp quyền chạy lệnh cho AI có rủi ro — chỉ dùng trên máy và thư mục bạn kiểm soát."
+  applicability: 3
+- repo: firecrawl/firecrawl-mcp-server
+  tags: [mcp, web-scraping, search]
+  summary: "MCP chính thức của Firecrawl: cho AI tìm kiếm, thu thập và trích dữ liệu web ngay trong Claude, Cursor…"
+  use_cases: ["AI nghiên cứu web có nguồn", "Thu thập dữ liệu đối thủ"]
+  platforms: [windows, macos, linux]
+  deploy: [cli]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: required
+  applicability: 3
+- repo: microsoft/mcp-for-beginners
+  also: [learning]
+  tags: [mcp, course, tutorial]
+  summary: "Khóa học MCP miễn phí của Microsoft với ví dụ bằng nhiều ngôn ngữ lập trình, có bản dịch nhiều thứ tiếng."
+  use_cases: ["Học MCP từ cơ bản đến nâng cao"]
+  deploy: [content]
+  difficulty: easy
+  pricing: free
+  applicability: 4
+- repo: langfuse/langfuse
+  tags: [llm-observability, evaluation, prompt-management]
+  summary: "Nền tảng quan sát và đánh giá ứng dụng LLM: theo dõi từng lượt gọi, chi phí, quản lý prompt, chấm điểm chất lượng."
+  use_cases: ["Theo dõi chi phí và chất lượng chatbot", "Quản lý phiên bản prompt"]
+  platforms: [docker]
+  deploy: [self-host, cloud]
+  difficulty: medium
+  pricing: freemium
+  needs_api_key: none
+  license_note: "Lõi MIT; thư mục ee (enterprise) có giấy phép thương mại (GitHub hiển thị NOASSERTION)."
+  applicability: 3
+  license_override:
+    spdx: MIT
+    name: MIT + giấy phép enterprise (ee)

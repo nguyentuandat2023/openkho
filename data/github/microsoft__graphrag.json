@@ -1,0 +1,102 @@
+{
+ "id": "microsoft/graphrag",
+ "github_id": 778431525,
+ "node_id": "R_kgDOLmXsJQ",
+ "full_name": "microsoft/graphrag",
+ "status": "ok",
+ "renamed_from": null,
+ "source": "search",
+ "fetched_at": "2026-11-17T02:18:23.073Z",
+ "meta": {
+  "name": "graphrag",
+  "owner": "microsoft",
+  "owner_type": "Organization",
+  "avatar_url": "https://avatars.githubusercontent.com/u/6154722?v=4",
+  "description": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
+  "homepage": "https://microsoft.github.io/graphrag/",
+  "html_url": "https://github.com/microsoft/graphrag",
+  "default_branch": "main",
+  "language": "Python",
+  "languages": null,
+  "topics": [
+   "gpt",
+   "gpt-4",
+   "gpt4",
+   "graphrag",
+   "llm",
+   "llms",
+   "rag"
+  ],
+  "license": {
+   "spdx": "MIT",
+   "name": "MIT License"
+  },
+  "stars": 36658,
+  "forks": 3887,
+  "watchers": null,
+  "open_issues": 70,
+  "open_prs": null,
+  "created_at": "2024-03-27T17:57:52Z",
+  "pushed_at": "2026-11-16T07:27:30Z",
+  "updated_at": "2026-11-17T01:27:01Z",
+  "archived": false,
+  "disabled": false,
+  "is_fork": false,
+  "is_template": false,
+  "is_mirror": false,
+  "has_issues": true,
+  "has_discussions": true,
+  "has_wiki": false,
+  "size_kb": 208891,
+  "og_image": "https://opengraph.githubassets.com/1/microsoft/graphrag",
+  "custom_og_image": false
+ },
+ "activity": {
+  "last_commit_at": "2026-11-02T05:40:54.000Z",
+  "commits_90d": 13,
+  "commits_90d_estimated": false,
+  "source": "atom"
+ },
+ "release_checked": true,
+ "release": {
+  "tag": "v3.3.0",
+  "name": "v3.3.0",
+  "published_at": "2026-10-08T18:28:43Z",
+  "url": "https://github.com/microsoft/graphrag/releases/tag/v3.3.0",
+  "is_prerelease": false,
+  "assets": null,
+  "assets_total": null
+ },
+ "prerelease": null,
+ "latest_tag": null,
+ "stars_recent": null,
+ "docker": null,
+ "readme": {
+  "path": "README.md",
+  "length": 5085,
+  "cjk_ratio": 0,
+  "docker_mentioned": false,
+  "videos": [],
+  "sections": {
+   "install": {
+    "title": "Quickstart",
+    "html": "<p>To get started with the GraphRAG system we recommend trying the <a href=\"https://microsoft.github.io/graphrag/get_started/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">command line quickstart</a>.</p>",
+    "truncated": false,
+    "chars": 145
+   },
+   "usage": null,
+   "features": null
+  },
+  "headings": 10,
+  "processor": 4,
+  "fetched_at": "2026-11-17T02:19:28.024Z",
+  "checked_at": "2026-11-17T02:19:28.024Z"
+ },
+ "contributors": {
+  "count": 51,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T02:20:53.095Z"
+ },
+ "details_checked_at": "2026-11-17T02:19:28.024Z"
+}
