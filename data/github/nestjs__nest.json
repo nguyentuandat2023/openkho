@@ -5,8 +5,8 @@
  "full_name": "nestjs/nest",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:29.795Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:44.086Z",
  "meta": {
   "name": "nest",
   "owner": "nestjs",
@@ -37,14 +37,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 77115,
-  "forks": 8727,
-  "watchers": null,
-  "open_issues": 37,
+  "stars": 77123,
+  "forks": 8735,
+  "watchers": 790,
+  "open_issues": 34,
   "open_prs": null,
   "created_at": "2017-02-04T20:12:52Z",
-  "pushed_at": "2026-11-16T20:01:53Z",
-  "updated_at": "2026-11-16T22:41:26Z",
+  "pushed_at": "2026-11-17T09:27:50Z",
+  "updated_at": "2026-11-17T11:03:18Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,42 +53,22 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 495898,
+  "size_kb": 495902,
   "og_image": "https://opengraph.githubassets.com/1/nestjs/nest",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T19:46:36.000Z",
-  "commits_90d": 2388,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v12.5.1",
-  "name": "v12.5.1",
-  "published_at": "2026-11-16T18:57:12Z",
-  "url": "https://github.com/nestjs/nest/releases/tag/v12.5.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "Readme.md",
-  "length": 15454,
+  "length": 15456,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
   "sections": {
    "install": {
     "title": "Quick start",
-    "html": "<pre><code class=\"language-bash\">npx @nestjs/cli new my-api\ncd my-api\nnpm run start:dev\n</code></pre>\n<p>Add <code>--minimal</code> to start from a single file. An application can be this small, and <code>npx tsx src/main.ts</code> runs it with no build step:</p>\n<pre><code class=\"language-typescript\">import { Controller, Get } from '@nestjs/common';\nimport { NestFactory } from '@nestjs/core';\n\n@Controller()\nclass AppController {\n  @Get()\n  hello() {\n    return 'Hello, Nest!';\n  }\n}\n\nconst app = await NestFactory.create({ controllers: [AppController] });\nawait app.listen(3000);\n</code></pre>\n<p>The object passed to <code>NestFactory.create()</code> is the root module's metadata, so <code>imports</code> and <code>providers</code> work there too. Move it into a <code>@Module()</code> class when the root module needs middleware, or for <code>nest generate</code> to register what it creates.</p>\n<p>tsx doesn't emit decorator metadata, which constructor injection by type and <code>ValidationPipe</code> rely on. Once the application uses them, run it with the Nest CLI, or with tsc or SWC and <code>emitDecoratorMetadata</code> enabled.</p>",
+    "html": "<pre><code class=\"language-bash\">npx @nestjs/cli new my-api\ncd my-api\nnpm run start:dev\n</code></pre>\n<p>Add <code>--minimal</code> to start from a single file. An application can be this small:</p>\n<pre><code class=\"language-typescript\">import { Controller, Get } from '@nestjs/common';\nimport { NestFactory } from '@nestjs/core';\n\n@Controller()\nclass AppController {\n  @Get()\n  hello() {\n    return 'Hello, Nest!';\n  }\n}\n\nconst app = await NestFactory.create({ controllers: [AppController] });\nawait app.listen(3000);\n</code></pre>\n<p>The object passed to <code>NestFactory.create()</code> is the root module's metadata, so <code>imports</code> and <code>providers</code> work there too. Move it into a <code>@Module()</code> class when the root module needs middleware, or for <code>nest generate</code> to register what it creates.</p>\n<p>Run it with <code>npm run start:dev</code>, like any other Nest project. The Nest CLI compiles it with the decorator metadata that constructor injection by type and <code>ValidationPipe</code> rely on. Tools that don't emit that metadata, such as <code>tsx</code>, leave injected dependencies <code>undefined</code>.</p>",
     "truncated": false,
-    "chars": 968
+    "chars": 970
    },
    "usage": {
     "title": "Using a coding agent",
@@ -100,9 +80,14 @@
   },
   "headings": 19,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:53.906Z",
-  "checked_at": "2026-11-17T02:19:53.906Z"
+  "fetched_at": "2026-11-17T11:56:24.293Z",
+  "checked_at": "2026-11-17T11:56:24.293Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:53.906Z"
+ "contributors": {
+  "count": 815,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:33.956Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:24.293Z"
 }

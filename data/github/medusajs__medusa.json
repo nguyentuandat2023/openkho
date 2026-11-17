@@ -5,8 +5,8 @@
  "full_name": "medusajs/medusa",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:53.325Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:13.372Z",
  "meta": {
   "name": "medusa",
   "owner": "medusajs",
@@ -35,14 +35,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 37279,
+  "stars": 37285,
   "forks": 5536,
-  "watchers": null,
-  "open_issues": 114,
+  "watchers": 199,
+  "open_issues": 119,
   "open_prs": null,
   "created_at": "2020-01-18T13:39:04Z",
-  "pushed_at": "2026-11-16T16:54:56Z",
-  "updated_at": "2026-11-16T23:52:41Z",
+  "pushed_at": "2026-11-17T11:35:02Z",
+  "updated_at": "2026-11-17T11:14:10Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,30 +51,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 913621,
+  "size_kb": 914155,
   "og_image": "https://opengraph.githubassets.com/1/medusajs/medusa",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T16:45:35.000Z",
-  "commits_90d": 508,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.22.7",
-  "name": "v2.22.7: Translation Module Stable, Cross Module Joins, Promotion Events",
-  "published_at": "2026-11-13T12:34:20Z",
-  "url": "https://github.com/medusajs/medusa/releases/tag/v2.22.7",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 5951,
@@ -93,9 +73,14 @@
   },
   "headings": 8,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:33.408Z",
-  "checked_at": "2026-11-17T02:20:09.215Z"
+  "fetched_at": "2026-11-17T11:56:25.498Z",
+  "checked_at": "2026-11-17T11:56:25.498Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:09.215Z"
+ "contributors": {
+  "count": 594,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:35.645Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:25.498Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "jub0t/Concat",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:03.703Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:57.537Z",
  "meta": {
   "name": "Concat",
   "owner": "jub0t",
@@ -39,14 +39,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 18146,
-  "forks": 2226,
-  "watchers": null,
-  "open_issues": 274,
+  "stars": 18267,
+  "forks": 2243,
+  "watchers": 102,
+  "open_issues": 282,
   "open_prs": null,
   "created_at": "2026-08-25T18:34:47Z",
-  "pushed_at": "2026-11-16T14:31:45Z",
-  "updated_at": "2026-11-17T02:13:58Z",
+  "pushed_at": "2026-11-17T06:40:07Z",
+  "updated_at": "2026-11-17T11:52:33Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,35 +55,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 87440,
+  "size_kb": 87461,
   "og_image": "https://opengraph.githubassets.com/1/jub0t/Concat",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T14:29:47.000Z",
-  "commits_90d": 856,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.2.11",
-  "name": "Concat v0.2.11",
-  "published_at": "2026-11-13T23:50:00Z",
-  "url": "https://github.com/jub0t/Concat/releases/tag/v0.2.11",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "models-v1",
-  "name": "Concat models (models-v1)",
-  "published_at": "2026-11-15T01:00:08Z",
-  "url": "https://github.com/jub0t/Concat/releases/tag/models-v1"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 10787,
@@ -107,9 +82,9 @@
   },
   "headings": 10,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:41.718Z",
-  "checked_at": "2026-11-17T02:20:41.718Z"
+  "fetched_at": "2026-11-17T11:56:29.915Z",
+  "checked_at": "2026-11-17T11:56:29.915Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:41.718Z"
+ "details_checked_at": "2026-11-17T11:56:29.915Z"
 }

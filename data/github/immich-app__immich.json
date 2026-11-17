@@ -5,8 +5,8 @@
  "full_name": "immich-app/immich",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:03.703Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:36.898Z",
  "meta": {
   "name": "immich",
   "owner": "immich-app",
@@ -40,14 +40,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 119392,
-  "forks": 7634,
-  "watchers": null,
-  "open_issues": 720,
+  "stars": 119428,
+  "forks": 7637,
+  "watchers": 361,
+  "open_issues": 726,
   "open_prs": null,
   "created_at": "2022-02-03T15:56:27Z",
-  "pushed_at": "2026-11-17T02:03:44Z",
-  "updated_at": "2026-11-17T02:09:44Z",
+  "pushed_at": "2026-11-17T11:54:14Z",
+  "updated_at": "2026-11-17T11:34:29Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,30 +56,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 326130,
+  "size_kb": 327346,
   "og_image": "https://opengraph.githubassets.com/1/immich-app/immich",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T22:30:33.000Z",
-  "commits_90d": 379,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v3.4.1",
-  "name": "v3.4.1",
-  "published_at": "2026-11-11T18:27:16Z",
-  "url": "https://github.com/immich-app/immich/releases/tag/v3.4.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 5507,
@@ -98,9 +78,9 @@
   },
   "headings": 7,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:34.422Z",
-  "checked_at": "2026-11-17T02:20:34.422Z"
+  "fetched_at": "2026-11-17T11:56:29.209Z",
+  "checked_at": "2026-11-17T11:56:29.209Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:34.422Z"
+ "details_checked_at": "2026-11-17T11:56:29.209Z"
 }

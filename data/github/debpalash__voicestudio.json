@@ -5,8 +5,8 @@
  "full_name": "debpalash/VoiceStudio",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:16.355Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:02.890Z",
  "meta": {
   "name": "VoiceStudio",
   "owner": "debpalash",
@@ -43,14 +43,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 111979,
-  "forks": 12428,
-  "watchers": null,
-  "open_issues": 31,
+  "stars": 112344,
+  "forks": 12464,
+  "watchers": 368,
+  "open_issues": 42,
   "open_prs": null,
   "created_at": "2026-04-09T21:40:26Z",
   "pushed_at": "2026-11-16T22:05:43Z",
-  "updated_at": "2026-11-17T02:17:54Z",
+  "updated_at": "2026-11-17T11:50:30Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -63,31 +63,6 @@
   "og_image": "https://opengraph.githubassets.com/1/debpalash/VoiceStudio",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T22:05:25.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.5.8",
-  "name": "v0.5.8 — VoiceStudio",
-  "published_at": "2026-11-12T09:19:38Z",
-  "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.8",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v0.5.9-beta.5",
-  "name": "v0.5.9-beta.5 — VoiceStudio",
-  "published_at": "2026-11-16T15:26:22Z",
-  "url": "https://github.com/debpalash/VoiceStudio/releases/tag/v0.5.9-beta.5"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 31207,
@@ -127,8 +102,8 @@
   },
   "headings": 12,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:17.627Z",
-  "checked_at": "2026-11-17T02:19:17.627Z"
+  "fetched_at": "2026-11-17T11:56:19.810Z",
+  "checked_at": "2026-11-17T11:56:19.810Z"
  },
  "contributors": {
   "count": 167,
@@ -136,5 +111,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:26.641Z"
  },
- "details_checked_at": "2026-11-17T02:19:17.627Z"
+ "details_checked_at": "2026-11-17T11:56:19.810Z"
 }

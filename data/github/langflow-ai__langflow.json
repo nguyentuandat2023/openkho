@@ -5,8 +5,8 @@
  "full_name": "langflow-ai/langflow",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:16.355Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:05.420Z",
  "meta": {
   "name": "langflow",
   "owner": "langflow-ai",
@@ -30,14 +30,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 156715,
-  "forks": 10421,
-  "watchers": null,
-  "open_issues": 1330,
+  "stars": 156720,
+  "forks": 10423,
+  "watchers": 526,
+  "open_issues": 1334,
   "open_prs": null,
   "created_at": "2023-02-08T22:28:03Z",
-  "pushed_at": "2026-11-17T01:53:51Z",
-  "updated_at": "2026-11-17T02:06:07Z",
+  "pushed_at": "2026-11-17T06:14:45Z",
+  "updated_at": "2026-11-17T10:56:20Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,35 +46,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 1726514,
+  "size_kb": 1727107,
   "og_image": "https://opengraph.githubassets.com/1/langflow-ai/langflow",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T18:16:58.000Z",
-  "commits_90d": 249,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v1.13.2",
-  "name": "1.13.2",
-  "published_at": "2026-11-10T22:26:03Z",
-  "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.13.2",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v1.14.0.dev30",
-  "name": "v1.14.0.dev30",
-  "published_at": "2026-11-17T01:10:18Z",
-  "url": "https://github.com/langflow-ai/langflow/releases/tag/v1.14.0.dev30"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 5577,
@@ -98,8 +73,8 @@
   },
   "headings": 14,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:18.071Z",
-  "checked_at": "2026-11-17T02:19:18.071Z"
+  "fetched_at": "2026-11-17T11:56:19.931Z",
+  "checked_at": "2026-11-17T11:56:19.931Z"
  },
  "contributors": {
   "count": 403,
@@ -107,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:27.767Z"
  },
- "details_checked_at": "2026-11-17T02:19:18.071Z"
+ "details_checked_at": "2026-11-17T11:56:19.931Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "bagisto/bagisto",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:53.325Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:14.223Z",
  "meta": {
   "name": "bagisto",
   "owner": "bagisto",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 28377,
-  "forks": 3389,
-  "watchers": null,
+  "stars": 28380,
+  "forks": 3391,
+  "watchers": 173,
   "open_issues": 25,
   "open_prs": null,
   "created_at": "2018-09-10T09:12:41Z",
   "pushed_at": "2026-11-16T15:41:58Z",
-  "updated_at": "2026-11-16T18:25:39Z",
+  "updated_at": "2026-11-17T11:32:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -64,26 +64,6 @@
   "og_image": "https://opengraph.githubassets.com/1/bagisto/bagisto",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T15:39:18.000Z",
-  "commits_90d": 808,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.5.1",
-  "name": "v2.5.1",
-  "published_at": "2026-11-06T07:27:14Z",
-  "url": "https://github.com/bagisto/bagisto/releases/tag/v2.5.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 15691,
@@ -113,9 +93,14 @@
   },
   "headings": 23,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:33.182Z",
-  "checked_at": "2026-11-17T02:20:08.033Z"
+  "fetched_at": "2026-11-17T11:56:25.511Z",
+  "checked_at": "2026-11-17T11:56:25.511Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:08.033Z"
+ "contributors": {
+  "count": 328,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:35.742Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:25.511Z"
 }

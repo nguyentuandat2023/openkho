@@ -5,8 +5,8 @@
  "full_name": "prisma/orm",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:29.795Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:41.646Z",
  "meta": {
   "name": "orm",
   "owner": "prisma",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 47674,
-  "forks": 2632,
-  "watchers": null,
-  "open_issues": 2841,
+  "stars": 47675,
+  "forks": 2635,
+  "watchers": 295,
+  "open_issues": 2818,
   "open_prs": null,
   "created_at": "2019-06-20T13:33:47Z",
-  "pushed_at": "2026-11-17T00:00:29Z",
-  "updated_at": "2026-11-16T17:13:37Z",
+  "pushed_at": "2026-11-17T11:49:36Z",
+  "updated_at": "2026-11-17T11:11:31Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,35 +60,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 301415,
+  "size_kb": 296672,
   "og_image": "https://opengraph.githubassets.com/1/prisma/orm",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T20:49:36.000Z",
-  "commits_90d": 533,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "7.10.1",
-  "name": "7.10.1",
-  "published_at": null,
-  "url": "https://github.com/prisma/orm/releases/tag/7.10.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v8.0.0-rc.24",
-  "name": "v8.0.0-rc.24",
-  "published_at": "2026-11-16T17:00:28Z",
-  "url": "https://github.com/prisma/orm/releases/tag/v8.0.0-rc.24"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 8079,
@@ -107,9 +82,14 @@
   },
   "headings": 11,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:25.666Z",
-  "checked_at": "2026-11-17T02:19:52.289Z"
+  "fetched_at": "2026-11-17T11:56:24.257Z",
+  "checked_at": "2026-11-17T11:56:24.257Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:52.289Z"
+ "contributors": {
+  "count": 34,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:33.828Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:24.257Z"
 }

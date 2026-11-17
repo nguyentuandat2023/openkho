@@ -5,8 +5,8 @@
  "full_name": "run-llama/llama_index",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:23.074Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:01.150Z",
  "meta": {
   "name": "llama_index",
   "owner": "run-llama",
@@ -34,14 +34,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 52924,
-  "forks": 8570,
-  "watchers": null,
-  "open_issues": 1458,
+  "stars": 52925,
+  "forks": 8573,
+  "watchers": 284,
+  "open_issues": 1465,
   "open_prs": null,
   "created_at": "2022-11-02T04:24:54Z",
   "pushed_at": "2026-11-14T02:26:05Z",
-  "updated_at": "2026-11-16T19:57:01Z",
+  "updated_at": "2026-11-17T11:38:55Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,26 +54,6 @@
   "og_image": "https://opengraph.githubassets.com/1/run-llama/llama_index",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-14T02:10:23.000Z",
-  "commits_90d": 40,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.14.26",
-  "name": "v0.14.26",
-  "published_at": "2026-11-13T22:38:15Z",
-  "url": "https://github.com/run-llama/llama_index/releases/tag/v0.14.26",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 11566,
@@ -92,9 +72,14 @@
   },
   "headings": 11,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:08:12.448Z",
-  "checked_at": "2026-11-16T05:08:12.448Z"
+  "fetched_at": "2026-11-17T11:56:22.509Z",
+  "checked_at": "2026-11-17T11:56:22.509Z"
  },
- "details_checked_at": "2026-11-16T05:06:17.093Z",
- "contributors": null
+ "contributors": {
+  "count": 2010,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:31.757Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:22.509Z"
 }

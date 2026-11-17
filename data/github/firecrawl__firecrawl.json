@@ -5,8 +5,8 @@
  "full_name": "firecrawl/firecrawl",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:19.723Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:16.379Z",
  "meta": {
   "name": "firecrawl",
   "owner": "firecrawl",
@@ -43,14 +43,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 202376,
+  "stars": 202480,
   "forks": 10605,
-  "watchers": null,
-  "open_issues": 806,
+  "watchers": 501,
+  "open_issues": 812,
   "open_prs": null,
   "created_at": "2024-04-15T21:02:29Z",
-  "pushed_at": "2026-11-17T01:41:55Z",
-  "updated_at": "2026-11-17T02:08:24Z",
+  "pushed_at": "2026-11-17T10:44:45Z",
+  "updated_at": "2026-11-17T11:49:21Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,35 +59,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 191771,
+  "size_kb": 192032,
   "og_image": "https://opengraph.githubassets.com/1/firecrawl/firecrawl",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T23:55:11.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.11.0",
-  "name": "v2.11.0",
-  "published_at": null,
-  "url": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v2.11.762",
-  "name": "v2.11.762",
-  "published_at": "2026-11-17T00:02:50Z",
-  "url": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.762"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 25871,
@@ -106,8 +81,8 @@
   },
   "headings": 39,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:21.316Z",
-  "checked_at": "2026-11-17T02:19:21.316Z"
+  "fetched_at": "2026-11-17T11:56:20.451Z",
+  "checked_at": "2026-11-17T11:56:20.451Z"
  },
  "contributors": {
   "count": 180,
@@ -115,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:34.288Z"
  },
- "details_checked_at": "2026-11-17T02:19:21.316Z"
+ "details_checked_at": "2026-11-17T11:56:20.451Z"
 }

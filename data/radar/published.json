@@ -13,6 +13,10 @@
    "full_name": "peach-mitao/peach",
    "since": "2026-11-16T06:58:46.301Z"
   },
+  "1340481439": {
+   "full_name": "maxrave-dev/kotlin-footguns",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
   "1340501779": {
    "full_name": "larashero3-dotcom/lieflat-less-ai-tone",
    "since": "2026-11-16T07:04:25.959Z"
@@ -37,6 +41,10 @@
    "full_name": "totec448-spec/chat-on-steroids",
    "since": "2026-11-17T02:16:46.877Z"
   },
+  "1342886503": {
+   "full_name": "duty1g/x64dbg-mcp-server",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
   "1342930695": {
    "full_name": "nateherkai/scroll-craft",
    "since": "2026-11-17T02:16:46.877Z"
@@ -44,6 +52,10 @@
   "1342935078": {
    "full_name": "bojieli/ai-infra-book",
    "since": "2026-11-16T07:04:25.959Z"
+  },
+  "1342943152": {
+   "full_name": "kgoedecke/doop",
+   "since": "2026-11-17T11:58:40.135Z"
   },
   "1343167809": {
    "full_name": "vladelaina/BongoCat",
@@ -53,9 +65,21 @@
    "full_name": "JiaFeiMiao-K-Cat/DiscImageStudio",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1343371173": {
+   "full_name": "elliothux/open-compute",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1343441436": {
+   "full_name": "workersio/breakscale",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
   "1345185947": {
    "full_name": "amosblomqvist/learn",
    "since": "2026-11-17T02:23:10.342Z"
+  },
+  "1345838715": {
+   "full_name": "Derpyu520/qq-bridge",
+   "since": "2026-11-17T11:49:28.515Z"
   },
   "1346870728": {
    "full_name": "monid-ai/monid",
@@ -64,6 +88,10 @@
   "1346970181": {
    "full_name": "wide-trace/open-higgsfield",
    "since": "2026-11-17T02:16:46.877Z"
+  },
+  "1347982389": {
+   "full_name": "datawhalechina/zero-to-sglang",
+   "since": "2026-11-17T11:58:40.135Z"
   },
   "1348483831": {
    "full_name": "crmne/spotifast",
@@ -77,9 +105,17 @@
    "full_name": "ZJU-REAL/Easel",
    "since": "2026-11-17T02:23:10.342Z"
   },
+  "1349253750": {
+   "full_name": "Nanako0129/sepia",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
   "1349328247": {
    "full_name": "AhmadHassan-BTed/Jantt",
    "since": "2026-11-17T02:16:46.877Z"
+  },
+  "1349507889": {
+   "full_name": "Player-YN/BrowserKitten",
+   "since": "2026-11-17T11:58:40.135Z"
   },
   "1349601607": {
    "full_name": "XiaoDuoYa/codex-with-chatgpt",
@@ -97,9 +133,17 @@
    "full_name": "Ryze-AI-Adgent/open-seo-mcp-skills",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1351748923": {
+   "full_name": "aardappel/goose",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
   "1351879111": {
    "full_name": "Human-Agent-Society/reef",
    "since": "2026-11-16T07:04:25.959Z"
+  },
+  "1353548665": {
+   "full_name": "anthropics/commerce-agents",
+   "since": "2026-11-17T11:49:28.515Z"
   },
   "1354059245": {
    "full_name": "tigerless-labs/agent-memory",
@@ -108,6 +152,14 @@
   "1354310030": {
    "full_name": "lnkiai/m3e-canvas",
    "since": "2026-11-16T06:58:46.301Z"
+  },
+  "1354887280": {
+   "full_name": "NVlabs/SoL-Pi",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1355366032": {
+   "full_name": "danielblnc/DLSS-NR-on-AMD",
+   "since": "2026-11-17T11:49:28.515Z"
   },
   "1356077516": {
    "full_name": "kajisho5/ffmpeg-skill",
@@ -129,6 +181,10 @@
    "full_name": "yang0/handraw-style",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1358633852": {
+   "full_name": "Jarvis322/macos-sysdata",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
   "1359648985": {
    "full_name": "eternity4719/HowToLiveBetter",
    "since": "2026-11-16T06:58:46.301Z"
@@ -141,6 +197,10 @@
    "full_name": "sdli1995/dlssg_for_sm86",
    "since": "2026-11-17T02:16:46.877Z"
   },
+  "1360725349": {
+   "full_name": "Jakeschincariol/linkedin-agent-skill",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
   "1361439328": {
    "full_name": "Edge0-AI/Edge0",
    "since": "2026-11-16T06:58:46.301Z"
@@ -148,6 +208,10 @@
   "1363417187": {
    "full_name": "yi1108/printfilm",
    "since": "2026-11-16T07:04:25.959Z"
+  },
+  "1366072565": {
+   "full_name": "ithtelab/workbuddy-manager",
+   "since": "2026-11-17T11:49:28.515Z"
   },
   "1366593263": {
    "full_name": "aws/aws-emulator",
@@ -161,6 +225,10 @@
    "full_name": "Jakeschincariol/instagram-agent-skill",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1368569221": {
+   "full_name": "sixtysevenlf/dsh-blender-plugin",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
   "1368596582": {
    "full_name": "google/elephant-goldfish-model",
    "since": "2026-11-16T06:58:46.301Z"
@@ -172,6 +240,10 @@
   "1371220575": {
    "full_name": "anmolkapil/plexo",
    "since": "2026-11-17T02:16:46.877Z"
+  },
+  "1371687666": {
+   "full_name": "leemysw/yovoice",
+   "since": "2026-11-17T11:58:40.135Z"
   },
   "1371757322": {
    "full_name": "CopilotKit/openfuse",
@@ -209,6 +281,14 @@
    "full_name": "kuafuai/andee",
    "since": "2026-11-17T02:16:46.877Z"
   },
+  "1374561793": {
+   "full_name": "yibie/awesome-jev",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1374928133": {
+   "full_name": "devswha/ovis",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
   "1375069862": {
    "full_name": "jaredpalmer/kev",
    "since": "2026-11-16T07:04:25.959Z"
@@ -225,6 +305,14 @@
    "full_name": "mizorewww/laya-mlx",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1377952273": {
+   "full_name": "sheprd-labs/sheprd",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
+  "1378084143": {
+   "full_name": "Inkloom-art/inkloom",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
   "1378288598": {
    "full_name": "zai-org/ZCode",
    "since": "2026-11-16T07:04:25.959Z"
@@ -236,6 +324,14 @@
   "1381093165": {
    "full_name": "Saffsanity/sill",
    "since": "2026-11-17T02:16:46.877Z"
+  },
+  "1381783784": {
+   "full_name": "amontlabs/lcu",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
+  "1382865521": {
+   "full_name": "nano-muse/nanoMuse",
+   "since": "2026-11-17T11:49:28.515Z"
   },
   "1383809012": {
    "full_name": "yetone/magpie",
@@ -264,6 +360,10 @@
   "1386391454": {
    "full_name": "mexicat/pdoom-video",
    "since": "2026-11-17T02:23:10.342Z"
+  },
+  "1387586059": {
+   "full_name": "n8n-io/nod",
+   "since": "2026-11-17T11:58:40.135Z"
   },
   "1388594776": {
    "full_name": "feitangyuan/onetake",
@@ -297,6 +397,10 @@
    "full_name": "nykooi1/vibe-wise",
    "since": "2026-11-17T02:23:10.342Z"
   },
+  "1394134758": {
+   "full_name": "wy51ai/floorplan-3d",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
   "1394989252": {
    "full_name": "omlahore/RemoveMacAI",
    "since": "2026-11-17T02:16:46.877Z"
@@ -321,9 +425,17 @@
    "full_name": "yangbin1322/hongguo-player",
    "since": "2026-11-17T02:23:10.342Z"
   },
+  "1396939768": {
+   "full_name": "oil-oil/oil-ui",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
   "1397016507": {
    "full_name": "rehan-remade/universal-modder",
    "since": "2026-11-16T07:04:25.959Z"
+  },
+  "1397434450": {
+   "full_name": "cloudflare/kitesurf",
+   "since": "2026-11-17T11:58:40.135Z"
   },
   "1398080271": {
    "full_name": "storytold/photocraft",
@@ -361,6 +473,10 @@
    "full_name": "storytold/effectcraft",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1401461555": {
+   "full_name": "Vincentwei1021/mg-styles-15",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
   "1401469171": {
    "full_name": "Folkbench/folkbench",
    "since": "2026-11-17T02:23:10.342Z"
@@ -377,6 +493,10 @@
    "full_name": "Jakeschincariol/replica-skill",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1403307052": {
+   "full_name": "jiwoochris/artex-global",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
   "1403446451": {
    "full_name": "horizon-rust/horizon",
    "since": "2026-11-16T06:58:46.301Z"
@@ -392,6 +512,10 @@
   "1404840859": {
    "full_name": "thtbee/nectarlink",
    "since": "2026-11-17T02:23:10.342Z"
+  },
+  "1405117672": {
+   "full_name": "SoMarkAI/OXR",
+   "since": "2026-11-17T11:49:28.515Z"
   },
   "1406482535": {
    "full_name": "obsidianmd/pele",
@@ -413,9 +537,17 @@
    "full_name": "google-research/harness2",
    "since": "2026-11-16T06:58:46.301Z"
   },
+  "1407997858": {
+   "full_name": "mw00/project-maya",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
   "1408082051": {
    "full_name": "Jakeschincariol/founder-skill",
    "since": "2026-11-17T02:23:10.342Z"
+  },
+  "1408277479": {
+   "full_name": "HelixDB/helix-foundry",
+   "since": "2026-11-17T11:58:40.135Z"
   },
   "1408285582": {
    "full_name": "storytold/gridcraft",
@@ -465,6 +597,10 @@
    "full_name": "BaaRai/ARTEX",
    "since": "2026-11-17T02:23:10.342Z"
   },
+  "1412022658": {
+   "full_name": "morluto/awesome-reverse-engineering",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
   "1412112308": {
    "full_name": "storytold/figcraft",
    "since": "2026-11-17T02:16:46.877Z"
@@ -473,13 +609,29 @@
    "full_name": "storytold/craft-launcher",
    "since": "2026-11-17T02:16:46.877Z"
   },
+  "1412573009": {
+   "full_name": "shaongitbd/doory",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1413898431": {
+   "full_name": "liseami/CCBaga",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
   "1414685342": {
    "full_name": "onehumanbeing/esp32-iphone-agent",
    "since": "2026-11-17T02:16:46.877Z"
   },
+  "1415214046": {
+   "full_name": "zhuyansen/new-term-radar",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
   "1415313946": {
    "full_name": "jhaizhou-ops/d2r-mobile",
    "since": "2026-11-17T02:16:46.877Z"
+  },
+  "1415358670": {
+   "full_name": "deeplethe/solid-glass",
+   "since": "2026-11-17T11:58:40.135Z"
   },
   "1416386910": {
    "full_name": "Arekejoker/qwen21-nsfw-pose-skill",
@@ -508,6 +660,10 @@
   "1420305104": {
    "full_name": "Leonxlnx/earshot",
    "since": "2026-11-17T02:16:46.877Z"
+  },
+  "1421473933": {
+   "full_name": "reacher-z/Awesome-REA",
+   "since": "2026-11-17T11:49:28.515Z"
   },
   "1421822085": {
    "full_name": "kingcharleslzy-ai/dsh-purge",
@@ -541,9 +697,29 @@
    "full_name": "Zagitta/gpu-unlock",
    "since": "2026-11-16T06:58:46.301Z"
   },
+  "1424070461": {
+   "full_name": "Ansub/tv-detox",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
   "1424183124": {
    "full_name": "xiaoyang111222/cn-math-taxonomy",
    "since": "2026-11-16T07:04:25.959Z"
+  },
+  "1424340323": {
+   "full_name": "alchaincyf/huashu-motion",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1424613188": {
+   "full_name": "humblemuzzu/dumbtv",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
+  "1424671157": {
+   "full_name": "shinyobjectz/raea",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1425469723": {
+   "full_name": "UniXNU/UniXNU",
+   "since": "2026-11-17T11:49:28.515Z"
   },
   "1426080579": {
    "full_name": "simbasjungles/free-my-tv",
@@ -552,6 +728,14 @@
   "1426240325": {
    "full_name": "JoasASantos/REA-Prompts",
    "since": "2026-11-17T02:23:10.342Z"
+  },
+  "1426287665": {
+   "full_name": "indexable-inc/blaze",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
+  "1426503435": {
+   "full_name": "windows-GPU-UNLOCK/Windows-GPU-UNLOCK",
+   "since": "2026-11-17T11:58:40.135Z"
   },
   "1426780056": {
    "full_name": "pengchujin/aerial-tv",
@@ -569,9 +753,33 @@
    "full_name": "l0ng-ai/openidea",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1428369484": {
+   "full_name": "udhaykumarbala/cleanyourtv-app",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
+  "1428714039": {
+   "full_name": "xevrion/hatchzip",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1428848843": {
+   "full_name": "wesbos/3d-model-anything",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
   "1429303647": {
    "full_name": "anomalyco/rune",
    "since": "2026-11-16T07:04:25.959Z"
+  },
+  "1429328794": {
+   "full_name": "oosexgang/hakios-xnu-kernel",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1430208916": {
+   "full_name": "man15h/tellyscope",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
+  "1431010194": {
+   "full_name": "enesozturk/dimensional-drawing",
+   "since": "2026-11-17T11:58:40.135Z"
   },
   "1431545439": {
    "full_name": "JustAResearcher/gpu-unlock-ada",
@@ -597,6 +805,10 @@
    "full_name": "designfuchen/word-atlas",
    "since": "2026-11-17T02:16:46.877Z"
   },
+  "1433057196": {
+   "full_name": "DenisSergeevitch/ex-ussr-kinship-research",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
   "1433297111": {
    "full_name": "interplains/Zero-Breach-Toolkit",
    "since": "2026-11-17T02:16:46.877Z"
@@ -604,6 +816,18 @@
   "1433377156": {
    "full_name": "unclebob/ub-mode",
    "since": "2026-11-16T07:04:25.959Z"
+  },
+  "1433985108": {
+   "full_name": "physicsdolphin/nv-uefi-unlocker",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1434017230": {
+   "full_name": "Motionsites-AI/claude-skill",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
+  "1434445560": {
+   "full_name": "D3voz/openjutsu",
+   "since": "2026-11-17T11:58:40.135Z"
   },
   "1434724807": {
    "full_name": "vercel-labs/ui",
@@ -621,6 +845,10 @@
    "full_name": "anhao/ai-pose-gallery-zh",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1437131455": {
+   "full_name": "lexifina/global-law",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
   "1437774066": {
    "full_name": "Eglantine-Community/Eglantine",
    "since": "2026-11-17T02:16:46.877Z"
@@ -628,6 +856,10 @@
   "1437814166": {
    "full_name": "anefzaoui/misterdownloadmanager",
    "since": "2026-11-16T06:58:46.301Z"
+  },
+  "1438018242": {
+   "full_name": "paipiange/nvzhuang",
+   "since": "2026-11-17T11:49:28.515Z"
   },
   "1438326535": {
    "full_name": "BryceYuuu/RUN",
@@ -657,6 +889,14 @@
    "full_name": "patch-gg/pixelfx",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1439522537": {
+   "full_name": "elvarofficial/teardown",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1439885901": {
+   "full_name": "N1nEmAn/sapper-v2",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
   "1440705679": {
    "full_name": "deepseek-ai/dsh-superagent-prototype",
    "since": "2026-11-16T06:58:46.301Z"
@@ -673,6 +913,26 @@
    "full_name": "Lee-xeo/Claude-Cage",
    "since": "2026-11-17T02:16:46.877Z"
   },
+  "1441272552": {
+   "full_name": "Verlintas/NOIR",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1441517767": {
+   "full_name": "caru-ini/stack-diagram",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
+  "1441521221": {
+   "full_name": "wquguru/cicada",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
+  "1441526188": {
+   "full_name": "mromidev/claude-animated-shorts",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1442375804": {
+   "full_name": "Leviidev/Henge",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
   "1442385098": {
    "full_name": "expo/exact",
    "since": "2026-11-17T02:23:10.342Z"
@@ -681,26 +941,78 @@
    "full_name": "libracoder/kiri",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1443650212": {
+   "full_name": "shanselman/gputaskman",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1443759946": {
+   "full_name": "govijr/terminal-mac",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
   "1443985070": {
    "full_name": "KKKKhazix/agent-autoloop",
    "since": "2026-11-17T02:16:46.877Z"
+  },
+  "1444005452": {
+   "full_name": "Sandflow-ai/sand3d",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
+  "1444112593": {
+   "full_name": "sarpstar/cinecode",
+   "since": "2026-11-17T11:49:28.515Z"
   },
   "1444372497": {
    "full_name": "Minireel/HGhub",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1447227957": {
+   "full_name": "IainKay/ram-altman",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
+  "1447408881": {
+   "full_name": "jamesondh/chimera-vocal-synth",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1448068371": {
+   "full_name": "JenkinWoo/sheeridVerify",
+   "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1448515937": {
+   "full_name": "DIYgod/pinky",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
   "1449231124": {
    "full_name": "tangerineturtle1/NX2navi",
    "since": "2026-11-17T02:23:10.342Z"
+  },
+  "1449548089": {
+   "full_name": "ersinkoc/phonebox",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
+  "1450012790": {
+   "full_name": "jhaizhou-ops/S2Arm",
+   "since": "2026-11-17T11:49:28.515Z"
   },
   "1450963843": {
    "full_name": "huamidev/GestaltX",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1452123445": {
+   "full_name": "Kianuni/Erosion-CN",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
+  "1453517867": {
+   "full_name": "apex-compute/ANR",
+   "since": "2026-11-17T11:58:40.135Z"
+  },
   "1455006582": {
    "full_name": "deepseek-ai/chat-demo",
    "since": "2026-11-17T02:23:10.342Z"
+  },
+  "1455416555": {
+   "full_name": "hitkeeen/blender-ai-mcp-addon",
+   "since": "2026-11-17T11:58:40.135Z"
   }
  },
- "updated_at": "2026-11-17T02:23:12.692Z"
+ "updated_at": "2026-11-17T11:58:41.248Z"
 }

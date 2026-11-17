@@ -5,8 +5,8 @@
  "full_name": "monicahq/monica",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:26.318Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:18.416Z",
  "meta": {
   "name": "monica",
   "owner": "monicahq",
@@ -32,14 +32,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 25790,
+  "stars": 25792,
   "forks": 2641,
-  "watchers": null,
+  "watchers": 296,
   "open_issues": 797,
   "open_prs": null,
   "created_at": "2017-02-17T00:02:58Z",
   "pushed_at": "2026-10-28T22:30:13Z",
-  "updated_at": "2026-11-17T01:52:07Z",
+  "updated_at": "2026-11-17T11:41:14Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -52,31 +52,6 @@
   "og_image": "https://opengraph.githubassets.com/1/monicahq/monica",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-10-28T22:30:10.000Z",
-  "commits_90d": 4,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v4.1.2",
-  "name": "v4.1.2",
-  "published_at": "2024-05-04T08:09:01Z",
-  "url": "https://github.com/monicahq/monica/releases/tag/v4.1.2",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v5.0.0-beta.5",
-  "name": "v5.0.0-beta.5",
-  "published_at": "2025-04-21T22:48:40Z",
-  "url": "https://github.com/monicahq/monica/releases/tag/v5.0.0-beta.5"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 10033,
@@ -95,9 +70,14 @@
   },
   "headings": 19,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:08:21.174Z",
-  "checked_at": "2026-11-16T05:08:21.174Z"
+  "fetched_at": "2026-11-17T11:56:23.316Z",
+  "checked_at": "2026-11-17T11:56:23.316Z"
  },
- "details_checked_at": "2026-11-16T05:06:20.793Z",
- "contributors": null
+ "contributors": {
+  "count": 40,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:32.682Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:23.316Z"
 }

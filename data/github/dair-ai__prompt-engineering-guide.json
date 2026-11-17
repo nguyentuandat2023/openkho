@@ -5,8 +5,8 @@
  "full_name": "dair-ai/Prompt-Engineering-Guide",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:53.326Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:26.323Z",
  "meta": {
   "name": "Prompt-Engineering-Guide",
   "owner": "dair-ai",
@@ -35,14 +35,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 80132,
+  "stars": 80149,
   "forks": 8790,
-  "watchers": null,
+  "watchers": 752,
   "open_issues": 300,
   "open_prs": null,
   "created_at": "2022-12-16T16:04:50Z",
   "pushed_at": "2026-03-11T20:09:13Z",
-  "updated_at": "2026-11-17T01:33:57Z",
+  "updated_at": "2026-11-17T11:47:20Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,18 +55,6 @@
   "og_image": "https://opengraph.githubassets.com/1/dair-ai/Prompt-Engineering-Guide",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-03-11T20:07:25.000Z",
-  "commits_90d": 0,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 10937,
@@ -86,9 +74,14 @@
   },
   "headings": 8,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:00.169Z",
-  "checked_at": "2026-11-16T05:09:00.169Z"
+  "fetched_at": "2026-11-17T11:56:26.047Z",
+  "checked_at": "2026-11-17T11:56:26.047Z"
  },
- "details_checked_at": "2026-11-16T05:06:27.964Z",
- "contributors": null
+ "contributors": {
+  "count": 212,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:36.725Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:26.047Z"
 }

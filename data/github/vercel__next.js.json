@@ -5,8 +5,8 @@
  "full_name": "vercel/next.js",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:06.954Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:56:07.833Z",
  "meta": {
   "name": "next.js",
   "owner": "vercel",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 143649,
-  "forks": 32808,
-  "watchers": null,
+  "stars": 143676,
+  "forks": 32817,
+  "watchers": 1621,
   "open_issues": 4007,
   "open_prs": null,
   "created_at": "2016-10-05T23:32:51Z",
-  "pushed_at": "2026-11-17T02:03:39Z",
-  "updated_at": "2026-11-17T02:14:14Z",
+  "pushed_at": "2026-11-17T11:54:35Z",
+  "updated_at": "2026-11-17T11:41:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,51 +54,31 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 2636919,
+  "size_kb": 2637956,
   "og_image": "https://opengraph.githubassets.com/1/vercel/next.js",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T00:05:17.000Z",
-  "commits_90d": 2832,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v16.4.6",
-  "name": "v16.4.6",
-  "published_at": "2026-11-09T20:27:17Z",
-  "url": "https://github.com/vercel/next.js/releases/tag/v16.4.6",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v16.5.0-canary.53",
-  "name": "v16.5.0-canary.53",
-  "published_at": "2026-11-16T23:44:19Z",
-  "url": "https://github.com/vercel/next.js/releases/tag/v16.5.0-canary.53"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "readme.md",
-  "length": 23,
+  "length": 3105,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
   "sections": {
-   "install": null,
+   "install": {
+    "title": "Getting Started",
+    "html": "<p>Used by some of the world's largest companies, Next.js enables you to create full-stack web applications by extending the latest React features, and integrating powerful Rust-based JavaScript tooling for the fastest builds.</p>\n<ul>\n<li>Visit our <a href=\"https://nextjs.org/learn\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Learn Next.js</a> course to get started with Next.js.</li>\n<li>Visit the <a href=\"https://nextjs.org/showcase\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Next.js Showcase</a> to see more sites built with Next.js.</li>\n</ul>",
+    "truncated": false,
+    "chars": 416
+   },
    "usage": null,
    "features": null
   },
-  "headings": 0,
+  "headings": 6,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:46.272Z",
-  "checked_at": "2026-11-17T02:20:46.272Z"
+  "fetched_at": "2026-11-17T11:56:30.390Z",
+  "checked_at": "2026-11-17T11:56:30.390Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:46.272Z"
+ "details_checked_at": "2026-11-17T11:56:30.390Z"
 }

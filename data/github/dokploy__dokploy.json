@@ -5,8 +5,8 @@
  "full_name": "Dokploy/dokploy",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:03.703Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:44.842Z",
  "meta": {
   "name": "dokploy",
   "owner": "Dokploy",
@@ -41,14 +41,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 38556,
-  "forks": 3178,
-  "watchers": null,
+  "stars": 38557,
+  "forks": 3179,
+  "watchers": 110,
   "open_issues": 833,
   "open_prs": null,
   "created_at": "2024-04-19T07:49:30Z",
-  "pushed_at": "2026-11-17T01:34:19Z",
-  "updated_at": "2026-11-17T01:43:55Z",
+  "pushed_at": "2026-11-17T08:55:43Z",
+  "updated_at": "2026-11-17T11:51:32Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,30 +57,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 36027,
+  "size_kb": 36262,
   "og_image": "https://opengraph.githubassets.com/1/Dokploy/dokploy",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T01:34:19.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.31.3",
-  "name": "v0.31.3",
-  "published_at": "2026-11-16T22:56:37Z",
-  "url": "https://github.com/Dokploy/dokploy/releases/tag/v0.31.3",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 2931,
@@ -115,9 +95,9 @@
   },
   "headings": 5,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:44.128Z",
-  "checked_at": "2026-11-17T02:20:38.232Z"
+  "fetched_at": "2026-11-17T11:56:29.552Z",
+  "checked_at": "2026-11-17T11:56:29.552Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:38.232Z"
+ "details_checked_at": "2026-11-17T11:56:29.552Z"
 }

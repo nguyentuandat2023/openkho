@@ -5,8 +5,8 @@
  "full_name": "n8n-io/n8n",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:16.355Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:03.740Z",
  "meta": {
   "name": "n8n",
   "owner": "n8n-io",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 210677,
-  "forks": 61528,
-  "watchers": null,
-  "open_issues": 1280,
+  "stars": 210727,
+  "forks": 61543,
+  "watchers": 1209,
+  "open_issues": 1269,
   "open_prs": null,
   "created_at": "2019-06-22T09:24:21Z",
-  "pushed_at": "2026-11-17T01:05:42Z",
-  "updated_at": "2026-11-17T01:29:34Z",
+  "pushed_at": "2026-11-17T11:51:07Z",
+  "updated_at": "2026-11-17T11:26:52Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,35 +60,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 827830,
+  "size_kb": 841320,
   "og_image": "https://opengraph.githubassets.com/1/n8n-io/n8n",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T18:48:03.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "n8n@2.47.7",
-  "name": "n8n@2.47.7",
-  "published_at": "2026-11-13T09:47:51Z",
-  "url": "https://github.com/n8n-io/n8n/releases/tag/n8n%402.47.7",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v1",
-  "name": "v1: :rocket: Release 1.123.97 (#43969)",
-  "published_at": "2026-11-16T08:17:16Z",
-  "url": "https://github.com/n8n-io/n8n/releases/tag/v1"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 3978,
@@ -112,8 +87,8 @@
   },
   "headings": 9,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:16.453Z",
-  "checked_at": "2026-11-17T02:19:16.453Z"
+  "fetched_at": "2026-11-17T11:56:19.933Z",
+  "checked_at": "2026-11-17T11:56:19.933Z"
  },
  "contributors": {
   "count": 864,
@@ -121,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:27.038Z"
  },
- "details_checked_at": "2026-11-17T02:19:16.453Z"
+ "details_checked_at": "2026-11-17T11:56:19.933Z"
 }

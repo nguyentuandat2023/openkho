@@ -5,8 +5,8 @@
  "full_name": "PrefectHQ/fastmcp",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.971Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:00.518Z",
  "meta": {
   "name": "fastmcp",
   "owner": "PrefectHQ",
@@ -33,14 +33,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 28595,
-  "forks": 2616,
-  "watchers": null,
+  "stars": 28609,
+  "forks": 2618,
+  "watchers": 120,
   "open_issues": 241,
   "open_prs": null,
   "created_at": "2024-11-30T01:47:40Z",
-  "pushed_at": "2026-11-17T01:43:52Z",
-  "updated_at": "2026-11-17T01:47:11Z",
+  "pushed_at": "2026-11-17T11:42:26Z",
+  "updated_at": "2026-11-17T11:39:06Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,30 +49,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 68440,
+  "size_kb": 69339,
   "og_image": "https://opengraph.githubassets.com/1/PrefectHQ/fastmcp",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T15:07:34.000Z",
-  "commits_90d": 339,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v4.2.0",
-  "name": "v4.2.0: Mad Skills",
-  "published_at": "2026-11-14T00:12:23Z",
-  "url": "https://github.com/PrefectHQ/fastmcp/releases/tag/v4.2.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 7764,
@@ -91,9 +71,14 @@
   },
   "headings": 6,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:37.877Z",
-  "checked_at": "2026-11-17T02:20:22.444Z"
+  "fetched_at": "2026-11-17T11:56:27.532Z",
+  "checked_at": "2026-11-17T11:56:27.532Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:22.444Z"
+ "contributors": {
+  "count": 409,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:38.607Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:27.532Z"
 }

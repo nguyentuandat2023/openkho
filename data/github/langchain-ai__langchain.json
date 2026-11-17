@@ -5,8 +5,8 @@
  "full_name": "langchain-ai/langchain",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:23.074Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:54.990Z",
  "meta": {
   "name": "langchain",
   "owner": "langchain-ai",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 149715,
-  "forks": 25148,
-  "watchers": null,
-  "open_issues": 753,
+  "stars": 149760,
+  "forks": 25149,
+  "watchers": 927,
+  "open_issues": 759,
   "open_prs": null,
   "created_at": "2022-10-17T02:58:36Z",
-  "pushed_at": "2026-11-17T01:30:04Z",
-  "updated_at": "2026-11-17T02:06:06Z",
+  "pushed_at": "2026-11-17T08:17:38Z",
+  "updated_at": "2026-11-17T11:31:09Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,35 +60,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 638189,
+  "size_kb": 638204,
   "og_image": "https://opengraph.githubassets.com/1/langchain-ai/langchain",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T19:55:28.000Z",
-  "commits_90d": 586,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "langchain-core==1.8.1",
-  "name": "langchain-core==1.8.1",
-  "published_at": "2026-11-15T14:57:13Z",
-  "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "langchain-xai==1.4.0",
-  "name": "langchain-xai==1.4.0",
-  "published_at": "2026-11-15T21:35:22Z",
-  "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-xai%3D%3D1.4.0"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 5891,
@@ -107,9 +82,14 @@
   },
   "headings": 4,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:32.527Z",
-  "checked_at": "2026-11-17T02:19:32.527Z"
+  "fetched_at": "2026-11-17T11:56:22.267Z",
+  "checked_at": "2026-11-17T11:56:22.267Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:32.527Z"
+ "contributors": {
+  "count": 3753,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:31.454Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:22.267Z"
 }

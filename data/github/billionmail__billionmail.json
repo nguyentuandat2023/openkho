@@ -5,8 +5,8 @@
  "full_name": "Billionmail/BillionMail",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:45.077Z",
  "meta": {
   "name": "BillionMail",
   "owner": "Billionmail",
@@ -35,14 +35,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 16395,
-  "forks": 1831,
-  "watchers": null,
+  "stars": 16403,
+  "forks": 1833,
+  "watchers": 68,
   "open_issues": 252,
   "open_prs": null,
   "created_at": "2025-02-14T06:25:45Z",
   "pushed_at": "2026-06-11T06:44:04Z",
-  "updated_at": "2026-11-17T00:11:30Z",
+  "updated_at": "2026-11-17T11:29:05Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,26 +55,6 @@
   "og_image": "https://opengraph.githubassets.com/1/Billionmail/BillionMail",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-06-11T06:42:43.000Z",
-  "commits_90d": 0,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v4.9",
-  "name": "v4.9",
-  "published_at": "2025-12-11T10:37:13Z",
-  "url": "https://github.com/Billionmail/BillionMail/releases/tag/v4.9",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 6192,
@@ -99,9 +79,14 @@
   },
   "headings": 17,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:08.871Z",
-  "checked_at": "2026-11-16T05:09:08.871Z"
+  "fetched_at": "2026-11-17T11:56:26.926Z",
+  "checked_at": "2026-11-17T11:56:26.926Z"
  },
- "details_checked_at": "2026-11-16T05:06:31.394Z",
- "contributors": null
+ "contributors": {
+  "count": 18,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:37.788Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:26.926Z"
 }

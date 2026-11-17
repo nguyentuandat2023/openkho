@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T02:19:07.341Z",
+ "fetched_at": "2026-11-17T11:52:45.980Z",
  "meta": {
   "name": "WanGP",
   "owner": "deepbeepmeep",
@@ -37,14 +37,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 11944,
-  "forks": 1901,
+  "stars": 11958,
+  "forks": 1902,
   "watchers": 118,
   "open_issues": 1406,
   "open_prs": null,
   "created_at": "2025-02-27T23:52:36Z",
   "pushed_at": "2026-11-13T00:02:47Z",
-  "updated_at": "2026-11-17T02:12:02Z",
+  "updated_at": "2026-11-17T11:47:26Z",
   "archived": false,
   "disabled": false,
   "is_fork": true,
@@ -57,26 +57,6 @@
   "og_image": "https://opengraph.githubassets.com/1/deepbeepmeep/WanGP",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-12T23:59:23.000Z",
-  "commits_90d": 139,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "manager-v0.1.17",
-  "name": "WanGP Manager 0.1.17 - Experimental",
-  "published_at": "2026-11-12T22:16:06Z",
-  "url": "https://github.com/deepbeepmeep/WanGP/releases/tag/manager-v0.1.17",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 46648,
@@ -116,9 +96,14 @@
   },
   "headings": 48,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:09.859Z",
-  "checked_at": "2026-11-16T07:03:09.859Z"
+  "fetched_at": "2026-11-17T11:56:21.908Z",
+  "checked_at": "2026-11-17T11:56:21.908Z"
  },
- "details_checked_at": "2026-11-16T07:03:09.859Z",
- "contributors": null
+ "contributors": {
+  "count": 36,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:31.019Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:21.908Z"
 }

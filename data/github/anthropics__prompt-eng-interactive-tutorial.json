@@ -5,8 +5,8 @@
  "full_name": "anthropics/prompt-eng-interactive-tutorial",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:53.326Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:27.082Z",
  "meta": {
   "name": "prompt-eng-interactive-tutorial",
   "owner": "anthropics",
@@ -20,14 +20,14 @@
   "languages": null,
   "topics": [],
   "license": null,
-  "stars": 39470,
-  "forks": 4376,
-  "watchers": null,
+  "stars": 39487,
+  "forks": 4378,
+  "watchers": 378,
   "open_issues": 66,
   "open_prs": null,
   "created_at": "2024-04-02T15:52:00Z",
   "pushed_at": "2026-08-28T05:31:39Z",
-  "updated_at": "2026-11-17T01:12:47Z",
+  "updated_at": "2026-11-17T11:08:22Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -40,18 +40,6 @@
   "og_image": "https://opengraph.githubassets.com/1/anthropics/prompt-eng-interactive-tutorial",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2024-04-08T03:17:07.000Z",
-  "commits_90d": 0,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 2689,
@@ -70,9 +58,14 @@
   },
   "headings": 7,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:00.550Z",
-  "checked_at": "2026-11-16T05:09:00.550Z"
+  "fetched_at": "2026-11-17T11:56:26.113Z",
+  "checked_at": "2026-11-17T11:56:26.113Z"
  },
- "details_checked_at": "2026-11-16T05:06:27.964Z",
- "contributors": null
+ "contributors": {
+  "count": 2,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:36.667Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:26.113Z"
 }

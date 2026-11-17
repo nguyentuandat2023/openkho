@@ -5,8 +5,8 @@
  "full_name": "heygen-com/hyperframes",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:03.703Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:56.847Z",
  "meta": {
   "name": "hyperframes",
   "owner": "heygen-com",
@@ -39,14 +39,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 85279,
-  "forks": 7896,
-  "watchers": null,
-  "open_issues": 296,
+  "stars": 85593,
+  "forks": 7932,
+  "watchers": 203,
+  "open_issues": 300,
   "open_prs": null,
   "created_at": "2026-03-10T01:51:06Z",
-  "pushed_at": "2026-11-17T02:17:42Z",
-  "updated_at": "2026-11-17T02:16:40Z",
+  "pushed_at": "2026-11-17T11:55:24Z",
+  "updated_at": "2026-11-17T11:55:35Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,30 +55,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 543180,
+  "size_kb": 544528,
   "og_image": "https://opengraph.githubassets.com/1/heygen-com/hyperframes",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T01:40:57.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.9.59",
-  "name": "v0.9.59",
-  "published_at": "2026-11-17T00:50:58Z",
-  "url": "https://github.com/heygen-com/hyperframes/releases/tag/v0.9.59",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 27166,
@@ -97,9 +77,9 @@
   },
   "headings": 21,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:44.788Z",
-  "checked_at": "2026-11-17T02:20:41.697Z"
+  "fetched_at": "2026-11-17T11:56:29.928Z",
+  "checked_at": "2026-11-17T11:56:29.928Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:41.697Z"
+ "details_checked_at": "2026-11-17T11:56:29.928Z"
 }

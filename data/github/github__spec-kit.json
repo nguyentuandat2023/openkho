@@ -5,8 +5,8 @@
  "full_name": "github/spec-kit",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:53.325Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:10.733Z",
  "meta": {
   "name": "spec-kit",
   "owner": "github",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 150123,
-  "forks": 13487,
-  "watchers": null,
-  "open_issues": 247,
+  "stars": 150201,
+  "forks": 13491,
+  "watchers": 743,
+  "open_issues": 246,
   "open_prs": null,
   "created_at": "2025-08-21T22:54:31Z",
   "pushed_at": "2026-11-16T23:48:40Z",
-  "updated_at": "2026-11-17T02:16:56Z",
+  "updated_at": "2026-11-17T11:34:46Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,26 +51,6 @@
   "og_image": "https://opengraph.githubassets.com/1/github/spec-kit",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T23:48:39.000Z",
-  "commits_90d": 327,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v1.4.1",
-  "name": "Spec Kit - 1.4.1",
-  "published_at": "2026-11-16T15:50:09Z",
-  "url": "https://github.com/github/spec-kit/releases/tag/v1.4.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 14292,
@@ -105,9 +85,14 @@
   },
   "headings": 11,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:06.773Z",
-  "checked_at": "2026-11-17T02:20:06.773Z"
+  "fetched_at": "2026-11-17T11:56:25.438Z",
+  "checked_at": "2026-11-17T11:56:25.438Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:06.773Z"
+ "contributors": {
+  "count": 350,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:35.619Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:25.438Z"
 }

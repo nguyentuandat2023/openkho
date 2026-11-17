@@ -5,8 +5,8 @@
  "full_name": "refinedev/refine",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.971Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:14.502Z",
  "meta": {
   "name": "refine",
   "owner": "refinedev",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 36045,
-  "forks": 3277,
-  "watchers": null,
-  "open_issues": 70,
+  "stars": 36048,
+  "forks": 3278,
+  "watchers": 147,
+  "open_issues": 77,
   "open_prs": null,
   "created_at": "2021-01-20T12:01:32Z",
   "pushed_at": "2026-09-10T12:56:35Z",
-  "updated_at": "2026-11-17T00:56:43Z",
+  "updated_at": "2026-11-17T07:02:28Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -64,42 +64,37 @@
   "og_image": "https://opengraph.githubassets.com/1/refinedev/refine",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-09-10T12:56:33.000Z",
-  "commits_90d": 4,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "@refinedev/core@5.0.12",
-  "name": "@refinedev/core@5.0.12",
-  "published_at": "2026-04-02T16:44:33Z",
-  "url": "https://github.com/refinedev/refine/releases/tag/%40refinedev%2Fcore%405.0.12",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
-  "length": 23,
+  "length": 10216,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
   "sections": {
-   "install": null,
+   "install": {
+    "title": "Quick Start",
+    "html": "<p>Here's Refine CORE in action, the below code is an example of a simple CRUD application using Refine CORE + React Router + Material UI:</p>\n<pre><code class=\"language-tsx\">import React from \"react\";\nimport { Refine, useMany } from \"@refinedev/core\";\nimport { ThemedLayout } from \"@refinedev/mui\";\nimport dataProvider from \"@refinedev/simple-rest\";\nimport routerProvider from \"@refinedev/react-router\";\nimport { BrowserRouter, Outlet, Route, Routes } from \"react-router\";\n\nimport CssBaseline from \"@mui/material/CssBaseline\";\n\nexport default function App() {\n  return (\n    &lt;BrowserRouter&gt;\n      &lt;CssBaseline /&gt;\n      &lt;Refine\n        dataProvider={dataProvider(\"https://api.fake-rest.refine.dev\")}\n        routerProvider={routerProvider}\n        resources={[\n          {\n            name: \"products\",\n            list: \"/products\",\n          },\n        ]}\n      &gt;\n        &lt;Routes&gt;\n          &lt;Route\n            element={\n              &lt;ThemedLayout&gt;\n                &lt;Outlet /&gt;\n              &lt;/ThemedLayout&gt;\n            }\n          &gt;\n            &lt;Route path=\"/products\"&gt;\n              &lt;Route index element={&lt;ProductList /&gt;} /&gt;\n            &lt;/Route&gt;\n          &lt;/Route&gt;\n        &lt;/Routes&gt;\n      &lt;/Refine&gt;\n    &lt;/BrowserRouter&gt;\n  );\n}\n\n// src/pages/products/list.tsx\n\nimport { List, useDataGrid, DateField } from \"@refinedev/mui\";\nimport { DataGrid, GridColDef } from \"@mui/x-data-grid\";\n\nexport const ProductList = () =&gt; {\n  const { dataGridProps } = useDataGrid();\n\n  const { data: categories, isLoading } = useMany({\n    resource: \"categories\",\n    ids:\n      dataGridProps?.rows?.map((item) =&gt; item?.category?.id).filter(Boolean) ??\n      [],\n    queryOptions: {\n      enabled: !!dataGridProps?.rows,\n    },\n  });\n\n  const columns = React.useMemo&lt;GridColDef[]&gt;(\n    () =&gt; [\n      { field: \"id\", headerName: \"ID\", type: \"number\" },\n      { field: \"name\", flex: 1, headerName: \"Name\" },\n      {\n        field: \"category\",\n        flex: 1,\n        headerName: \"Category\",\n        display: \"flex\",\n        renderCell: ({ value }) =&gt;\n          isLoading\n            ? \"Loading...\"\n            : categories?.data?.find((item) =&gt; item.id === value?.id)?.title,\n      },\n      {\n        field: \"createdAt\",\n        flex: 1,\n        headerName: \"Created at\",\n        display: \"flex\",\n        renderCell: ({ value }) =&gt; &lt;DateField value={value} /&gt;,\n      },\n    ],\n    [categories?.data, isLoading],\n  );\n\n  return (\n    &lt;List&gt;\n      &lt;DataGrid {...dataGridProps} columns={columns} /&gt;\n    &lt;/List&gt;\n  );\n};\n</code></pre>\n<p>The result will look like this:</p>\n<p><a href=\"https://refine.new/preview/c85442a8-8df1-4101-a09a-47d3ca641798\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://refine.ams3.cdn.digitaloceanspaces.com/assets/refine-mui-simple-example-screenshot-rounded.webp\" alt=\"Refine CORE + Material UI Example\" loading=\"lazy\" decoding=\"async\" /></a></p>",
+    "truncated": false,
+    "chars": 2711
+   },
    "usage": null,
-   "features": null
+   "features": {
+    "title": "Key Features",
+    "html": "<ul>\n<li>Refine CORE Devtools - dive deeper into your app and provide useful insights</li>\n<li>Connectors for <strong>15+ backend services</strong> including <a href=\"https://github.com/refinedev/refine/tree/main/packages/simple-rest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">REST API</a>, <a href=\"https://github.com/refinedev/refine/tree/main/packages/graphql\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GraphQL</a>, <a href=\"https://github.com/refinedev/refine/tree/main/packages/nestjsx-crud\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">NestJs CRUD</a>, <a href=\"https://github.com/refinedev/refine/tree/main/packages/airtable\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Airtable</a>, <a href=\"https://github.com/refinedev/refine/tree/main/packages/strapi\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Strapi</a>, <a href=\"https://github.com/refinedev/refine/tree/main/packages/strapi-v4\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Strapi v4</a>, <a href=\"https://github.com/refinedev/refine/tree/main/packages/supabase\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Supabase</a>, <a href=\"https://github.com/refinedev/refine/tree/main/packages/hasura\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Hasura</a>, <a href=\"https://github.com/refinedev/refine/tree/main/packages/appwrite\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Appwrite</a>, <a href=\"https://github.com/refinedev/refine/tree/main/packages/nestjs-query\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Nestjs-Query</a>, <a href=\"https://firebase.google.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Firebase</a>, <a href=\"https://www.sanity.io/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Sanity</a>, and <a href=\"https://directus.io/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Directus</a>.</li>\n<li>SSR support with Next.js &amp; Remix and Advanced routing with any router library of your choice</li>\n<li>Auto-generation of CRUD UIs based on your API data structure</li>\n<li>Perfect state management &amp; mutations with React Query</li>\n<li>Providers for seamless authentication and access control flows</li>\n<li>Out-of-the-box support for live / real-time applications</li>\n<li>Easy audit logs &amp; document versioning</li>\n</ul>",
+    "truncated": false,
+    "chars": 1406
+   }
   },
-  "headings": 0,
+  "headings": 9,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:25.682Z",
-  "checked_at": "2026-11-16T05:09:25.682Z"
+  "fetched_at": "2026-11-17T11:56:28.147Z",
+  "checked_at": "2026-11-17T11:56:28.147Z"
  },
- "details_checked_at": "2026-11-16T05:07:14.364Z",
- "contributors": null
+ "contributors": {
+  "count": 330,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:39.374Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:28.147Z"
 }

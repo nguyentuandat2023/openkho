@@ -5,8 +5,8 @@
  "full_name": "shadcn-ui/ui",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:06.954Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:56:11.076Z",
  "meta": {
   "name": "ui",
   "owner": "shadcn-ui",
@@ -41,14 +41,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 128349,
-  "forks": 11400,
-  "watchers": null,
-  "open_issues": 1773,
+  "stars": 128389,
+  "forks": 11402,
+  "watchers": 415,
+  "open_issues": 1743,
   "open_prs": null,
   "created_at": "2023-01-04T12:43:27Z",
-  "pushed_at": "2026-11-13T10:58:16Z",
-  "updated_at": "2026-11-17T01:50:46Z",
+  "pushed_at": "2026-11-17T09:23:03Z",
+  "updated_at": "2026-11-17T11:11:12Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,30 +57,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 75394,
+  "size_kb": 75441,
   "og_image": "https://opengraph.githubassets.com/1/shadcn-ui/ui",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-13T10:57:41.000Z",
-  "commits_90d": 151,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "shadcn@4.23.0",
-  "name": "shadcn@4.23.0",
-  "published_at": "2026-10-27T12:31:47Z",
-  "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 467,
@@ -94,9 +74,9 @@
   },
   "headings": 4,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:57.720Z",
-  "checked_at": "2026-11-16T05:09:57.720Z"
+  "fetched_at": "2026-11-17T11:56:30.523Z",
+  "checked_at": "2026-11-17T11:56:30.523Z"
  },
- "details_checked_at": "2026-11-16T05:07:21.178Z",
- "contributors": null
+ "contributors": null,
+ "details_checked_at": "2026-11-17T11:56:30.523Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "FujiwaraChoki/MoneyPrinterV2",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:19.723Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:21.814Z",
  "meta": {
   "name": "MoneyPrinterV2",
   "owner": "FujiwaraChoki",
@@ -32,14 +32,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 32461,
-  "forks": 3475,
-  "watchers": null,
+  "stars": 32464,
+  "forks": 3474,
+  "watchers": 249,
   "open_issues": 94,
   "open_prs": null,
   "created_at": "2024-02-12T11:20:42Z",
   "pushed_at": "2026-09-15T22:35:17Z",
-  "updated_at": "2026-11-17T00:47:59Z",
+  "updated_at": "2026-11-17T11:33:52Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -52,18 +52,6 @@
   "og_image": "https://opengraph.githubassets.com/1/FujiwaraChoki/MoneyPrinterV2",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-09-15T22:33:05.000Z",
-  "commits_90d": 1,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 4317,
@@ -97,15 +85,15 @@
    }
   },
   "headings": 12,
-  "processor": 3,
-  "fetched_at": "2026-11-16T04:33:51.367Z",
-  "checked_at": "2026-11-16T04:33:51.367Z"
+  "processor": 4,
+  "fetched_at": "2026-11-17T11:56:20.771Z",
+  "checked_at": "2026-11-17T11:56:20.771Z"
  },
- "details_checked_at": "2026-11-16T04:32:16.512Z",
  "contributors": {
   "count": 12,
   "capped": false,
   "anon": true,
   "fetched_at": "2026-11-16T05:40:36.537Z"
- }
+ },
+ "details_checked_at": "2026-11-17T11:56:20.771Z"
 }

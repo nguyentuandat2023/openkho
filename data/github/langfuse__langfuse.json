@@ -5,8 +5,8 @@
  "full_name": "langfuse/langfuse",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.971Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:04.763Z",
  "meta": {
   "name": "langfuse",
   "owner": "langfuse",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 37508,
-  "forks": 4240,
-  "watchers": null,
-  "open_issues": 1182,
+  "stars": 37539,
+  "forks": 4243,
+  "watchers": 111,
+  "open_issues": 1178,
   "open_prs": null,
   "created_at": "2023-05-18T17:47:09Z",
-  "pushed_at": "2026-11-16T23:19:09Z",
-  "updated_at": "2026-11-17T01:49:10Z",
+  "pushed_at": "2026-11-17T11:49:21Z",
+  "updated_at": "2026-11-17T11:40:31Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,30 +60,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 284121,
+  "size_kb": 284740,
   "og_image": "https://opengraph.githubassets.com/1/langfuse/langfuse",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T21:44:57.000Z",
-  "commits_90d": 3556,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v4.81.0",
-  "name": "v4.81.0",
-  "published_at": "2026-11-16T16:26:13Z",
-  "url": "https://github.com/langfuse/langfuse/releases/tag/v4.81.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 58271,
@@ -107,9 +87,14 @@
   },
   "headings": 21,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:38.299Z",
-  "checked_at": "2026-11-17T02:20:23.582Z"
+  "fetched_at": "2026-11-17T11:56:27.774Z",
+  "checked_at": "2026-11-17T11:56:27.774Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:23.582Z"
+ "contributors": {
+  "count": 235,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:38.820Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:27.774Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "obsproject/obs-studio",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:03.703Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:52.708Z",
  "meta": {
   "name": "obs-studio",
   "owner": "obsproject",
@@ -35,14 +35,14 @@
    "spdx": "GPL-2.0",
    "name": "GNU General Public License v2.0"
   },
-  "stars": 79612,
-  "forks": 11270,
-  "watchers": null,
-  "open_issues": 1210,
+  "stars": 79652,
+  "forks": 11281,
+  "watchers": 1608,
+  "open_issues": 1212,
   "open_prs": null,
   "created_at": "2013-10-01T02:40:31Z",
-  "pushed_at": "2026-11-17T00:45:00Z",
-  "updated_at": "2026-11-17T01:07:44Z",
+  "pushed_at": "2026-11-17T06:13:47Z",
+  "updated_at": "2026-11-17T11:37:51Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,30 +51,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 85609,
+  "size_kb": 85610,
   "og_image": "https://opengraph.githubassets.com/1/obsproject/obs-studio",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T21:45:44.000Z",
-  "commits_90d": 251,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "33.0.1",
-  "name": "OBS Studio 33.0.1",
-  "published_at": "2026-10-29T21:52:01Z",
-  "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.rst",
   "length": 3139,
@@ -88,9 +68,9 @@
   },
   "headings": 0,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:40.295Z",
-  "checked_at": "2026-11-17T02:20:40.295Z"
+  "fetched_at": "2026-11-17T11:56:29.748Z",
+  "checked_at": "2026-11-17T11:56:29.748Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:40.295Z"
+ "details_checked_at": "2026-11-17T11:56:29.748Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "plausible/analytics",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:42.495Z",
  "meta": {
   "name": "analytics",
   "owner": "plausible",
@@ -44,14 +44,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 29868,
+  "stars": 29870,
   "forks": 1941,
-  "watchers": null,
-  "open_issues": 56,
+  "watchers": 148,
+  "open_issues": 57,
   "open_prs": null,
   "created_at": "2018-12-04T22:33:36Z",
-  "pushed_at": "2026-11-16T22:14:41Z",
-  "updated_at": "2026-11-16T23:44:23Z",
+  "pushed_at": "2026-11-17T09:35:13Z",
+  "updated_at": "2026-11-17T09:35:53Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,30 +60,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 722736,
+  "size_kb": 723002,
   "og_image": "https://opengraph.githubassets.com/1/plausible/analytics",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T11:09:36.000Z",
-  "commits_90d": 156,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v3.2.1",
-  "name": "v3.2.1",
-  "published_at": "2026-06-01T08:31:08Z",
-  "url": "https://github.com/plausible/analytics/releases/tag/v3.2.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 12663,
@@ -102,9 +82,14 @@
   },
   "headings": 9,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:15.405Z",
-  "checked_at": "2026-11-17T02:20:15.405Z"
+  "fetched_at": "2026-11-17T11:56:26.718Z",
+  "checked_at": "2026-11-17T11:56:26.718Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:15.405Z"
+ "contributors": {
+  "count": 123,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:37.653Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:26.718Z"
 }

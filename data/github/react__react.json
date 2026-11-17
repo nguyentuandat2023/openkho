@@ -5,8 +5,8 @@
  "full_name": "react/react",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:06.954Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:56:09.440Z",
  "meta": {
   "name": "react",
   "owner": "react",
@@ -30,14 +30,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 252710,
+  "stars": 252737,
   "forks": 52823,
-  "watchers": null,
-  "open_issues": 1545,
+  "watchers": 6632,
+  "open_issues": 1550,
   "open_prs": null,
   "created_at": "2013-05-24T16:15:54Z",
   "pushed_at": "2026-11-17T01:20:56Z",
-  "updated_at": "2026-11-17T02:18:16Z",
+  "updated_at": "2026-11-17T11:41:31Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,30 +46,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 1147230,
+  "size_kb": 1148378,
   "og_image": "https://opengraph.githubassets.com/1/react/react",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T01:15:24.000Z",
-  "commits_90d": 396,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v19.3.1",
-  "name": "19.3.1 (October 14th, 2026)",
-  "published_at": "2026-10-14T17:06:15Z",
-  "url": "https://github.com/react/react/releases/tag/v19.3.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 5296,
@@ -93,9 +73,9 @@
   },
   "headings": 9,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:46.155Z",
-  "checked_at": "2026-11-17T02:20:46.155Z"
+  "fetched_at": "2026-11-17T11:56:30.439Z",
+  "checked_at": "2026-11-17T11:56:30.439Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:46.155Z"
+ "details_checked_at": "2026-11-17T11:56:30.439Z"
 }

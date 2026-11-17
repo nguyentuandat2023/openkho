@@ -5,8 +5,8 @@
  "full_name": "redis/redis",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:29.795Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:38.208Z",
  "meta": {
   "name": "redis",
   "owner": "redis",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 77512,
-  "forks": 25054,
-  "watchers": null,
-  "open_issues": 3112,
+  "stars": 77528,
+  "forks": 25055,
+  "watchers": 2521,
+  "open_issues": 3119,
   "open_prs": null,
   "created_at": "2009-03-21T22:32:25Z",
-  "pushed_at": "2026-11-15T15:15:18Z",
-  "updated_at": "2026-11-17T01:08:12Z",
+  "pushed_at": "2026-11-17T10:22:36Z",
+  "updated_at": "2026-11-17T11:01:13Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,35 +60,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 221565,
+  "size_kb": 221596,
   "og_image": "https://opengraph.githubassets.com/1/redis/redis",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-15T15:15:18.000Z",
-  "commits_90d": 319,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "8.10.3",
-  "name": "8.10.3",
-  "published_at": "2026-10-26T12:00:45Z",
-  "url": "https://github.com/redis/redis/releases/tag/8.10.3",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "8.12-rc3",
-  "name": "8.12 RC3",
-  "published_at": "2026-11-12T09:32:11Z",
-  "url": "https://github.com/redis/redis/releases/tag/8.12-rc3"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 31203,
@@ -117,9 +92,14 @@
   },
   "headings": 29,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:08:32.870Z",
-  "checked_at": "2026-11-16T05:08:32.870Z"
+  "fetched_at": "2026-11-17T11:56:24.101Z",
+  "checked_at": "2026-11-17T11:56:24.101Z"
  },
- "details_checked_at": "2026-11-16T05:06:24.366Z",
- "contributors": null
+ "contributors": {
+  "count": 974,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:33.667Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:24.101Z"
 }

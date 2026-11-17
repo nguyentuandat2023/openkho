@@ -5,8 +5,8 @@
  "full_name": "AutoHotkey/AutoHotkey",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:03.703Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:34.495Z",
  "meta": {
   "name": "AutoHotkey",
   "owner": "AutoHotkey",
@@ -31,14 +31,14 @@
    "spdx": "GPL-2.0",
    "name": "GNU General Public License v2.0"
   },
-  "stars": 13488,
+  "stars": 13493,
   "forks": 1206,
-  "watchers": null,
+  "watchers": 282,
   "open_issues": 13,
   "open_prs": null,
   "created_at": "2009-11-25T11:08:21Z",
   "pushed_at": "2026-11-13T23:42:38Z",
-  "updated_at": "2026-11-16T20:17:01Z",
+  "updated_at": "2026-11-17T10:40:10Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,31 +51,6 @@
   "og_image": "https://opengraph.githubassets.com/1/AutoHotkey/AutoHotkey",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-13T22:59:34.000Z",
-  "commits_90d": 229,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.0.31",
-  "name": "v2.0.31",
-  "published_at": "2026-10-25T06:45:17Z",
-  "url": "https://github.com/AutoHotkey/AutoHotkey/releases/tag/v2.0.31",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v2.1-alpha.39",
-  "name": "v2.1-alpha.39",
-  "published_at": "2026-11-13T23:12:11Z",
-  "url": "https://github.com/AutoHotkey/AutoHotkey/releases/tag/v2.1-alpha.39"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 4334,
@@ -89,9 +64,9 @@
   },
   "headings": 7,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:36.478Z",
-  "checked_at": "2026-11-16T05:09:36.478Z"
+  "fetched_at": "2026-11-17T11:56:29.015Z",
+  "checked_at": "2026-11-17T11:56:29.015Z"
  },
- "details_checked_at": "2026-11-16T05:07:17.738Z",
- "contributors": null
+ "contributors": null,
+ "details_checked_at": "2026-11-17T11:56:29.015Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "activepieces/activepieces",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:19.723Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:07.121Z",
  "meta": {
   "name": "activepieces",
   "owner": "activepieces",
@@ -37,14 +37,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 25574,
-  "forks": 4479,
-  "watchers": null,
-  "open_issues": 961,
+  "stars": 25581,
+  "forks": 4476,
+  "watchers": 126,
+  "open_issues": 965,
   "open_prs": null,
   "created_at": "2022-12-03T02:52:46Z",
-  "pushed_at": "2026-11-17T01:59:05Z",
-  "updated_at": "2026-11-17T02:04:47Z",
+  "pushed_at": "2026-11-17T11:51:32Z",
+  "updated_at": "2026-11-17T11:35:30Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,30 +53,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 1060041,
+  "size_kb": 1060550,
   "og_image": "https://opengraph.githubassets.com/1/activepieces/activepieces",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T20:23:17.000Z",
-  "commits_90d": 1042,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "0.93.0",
-  "name": "0.93.0",
-  "published_at": "2026-11-08T14:30:22Z",
-  "url": "https://github.com/activepieces/activepieces/releases/tag/0.93.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 91542,
@@ -95,8 +75,8 @@
   },
   "headings": 9,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:19.577Z",
-  "checked_at": "2026-11-17T02:19:19.577Z"
+  "fetched_at": "2026-11-17T11:56:20.014Z",
+  "checked_at": "2026-11-17T11:56:20.014Z"
  },
  "contributors": {
   "count": 500,
@@ -104,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:28.681Z"
  },
- "details_checked_at": "2026-11-17T02:19:19.577Z"
+ "details_checked_at": "2026-11-17T11:56:20.014Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "ollama/ollama",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:23.074Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:51.452Z",
  "meta": {
   "name": "ollama",
   "owner": "ollama",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 187277,
-  "forks": 19114,
-  "watchers": null,
-  "open_issues": 4663,
+  "stars": 187339,
+  "forks": 19121,
+  "watchers": 1028,
+  "open_issues": 4666,
   "open_prs": null,
   "created_at": "2023-06-26T19:39:32Z",
-  "pushed_at": "2026-11-16T18:14:32Z",
-  "updated_at": "2026-11-17T02:12:48Z",
+  "pushed_at": "2026-11-17T04:54:35Z",
+  "updated_at": "2026-11-17T11:50:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,35 +54,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 97755,
+  "size_kb": 97850,
   "og_image": "https://opengraph.githubassets.com/1/ollama/ollama",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T16:43:54.000Z",
-  "commits_90d": 176,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.40.16",
-  "name": "v0.40.16",
-  "published_at": "2026-11-09T23:45:36Z",
-  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.16",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v0.40.17-rc1",
-  "name": "v0.40.17",
-  "published_at": "2026-11-16T19:02:48Z",
-  "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17-rc1"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 19431,
@@ -101,9 +76,14 @@
   },
   "headings": 34,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:30.496Z",
-  "checked_at": "2026-11-17T02:19:30.496Z"
+  "fetched_at": "2026-11-17T11:56:22.140Z",
+  "checked_at": "2026-11-17T11:56:22.140Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:30.496Z"
+ "contributors": {
+  "count": 630,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:31.248Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:22.140Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "ManimCommunity/manim",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:06.954Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:56:05.015Z",
  "meta": {
   "name": "manim",
   "owner": "ManimCommunity",
@@ -29,14 +29,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 42620,
-  "forks": 3353,
-  "watchers": null,
+  "stars": 42629,
+  "forks": 3356,
+  "watchers": 66,
   "open_issues": 406,
   "open_prs": null,
   "created_at": "2020-05-19T02:37:13Z",
   "pushed_at": "2026-11-14T03:37:47Z",
-  "updated_at": "2026-11-17T01:40:01Z",
+  "updated_at": "2026-11-17T11:15:41Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,26 +49,6 @@
   "og_image": "https://opengraph.githubassets.com/1/ManimCommunity/manim",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-13T16:51:42.000Z",
-  "commits_90d": 81,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.22.1",
-  "name": "Manim v0.22.1",
-  "published_at": "2026-10-27T20:47:31Z",
-  "url": "https://github.com/ManimCommunity/manim/releases/tag/v0.22.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 8378,
@@ -92,9 +72,9 @@
   },
   "headings": 11,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:55.580Z",
-  "checked_at": "2026-11-16T05:09:55.580Z"
+  "fetched_at": "2026-11-17T11:56:30.284Z",
+  "checked_at": "2026-11-17T11:56:30.284Z"
  },
- "details_checked_at": "2026-11-16T05:07:21.178Z",
- "contributors": null
+ "contributors": null,
+ "details_checked_at": "2026-11-17T11:56:30.284Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "microsoft/agent-framework",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:16.355Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:51:46.045Z",
  "meta": {
   "name": "agent-framework",
   "owner": "microsoft",
@@ -34,14 +34,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 14715,
-  "forks": 2638,
-  "watchers": null,
-  "open_issues": 941,
+  "stars": 14721,
+  "forks": 2640,
+  "watchers": 113,
+  "open_issues": 942,
   "open_prs": null,
   "created_at": "2025-04-28T19:40:42Z",
-  "pushed_at": "2026-11-17T02:15:38Z",
-  "updated_at": "2026-11-17T00:32:37Z",
+  "pushed_at": "2026-11-17T10:13:58Z",
+  "updated_at": "2026-11-17T10:53:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -50,30 +50,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 157011,
+  "size_kb": 157006,
   "og_image": "https://opengraph.githubassets.com/1/microsoft/agent-framework",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T23:48:00.000Z",
-  "commits_90d": 416,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "python-1.26.0",
-  "name": "python-1.26.0",
-  "published_at": "2026-11-13T08:28:16Z",
-  "url": "https://github.com/microsoft/agent-framework/releases/tag/python-1.26.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 14041,
@@ -113,8 +93,8 @@
   },
   "headings": 20,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:13.529Z",
-  "checked_at": "2026-11-17T02:19:13.529Z"
+  "fetched_at": "2026-11-17T11:56:19.051Z",
+  "checked_at": "2026-11-17T11:56:19.051Z"
  },
  "contributors": {
   "count": 342,
@@ -122,5 +102,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:18.860Z"
  },
- "details_checked_at": "2026-11-17T02:19:13.529Z"
+ "details_checked_at": "2026-11-17T11:56:19.051Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "apache/airflow",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:26.318Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:29.561Z",
  "meta": {
   "name": "airflow",
   "owner": "apache",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 47499,
-  "forks": 18374,
-  "watchers": null,
-  "open_issues": 1941,
+  "stars": 47506,
+  "forks": 18378,
+  "watchers": 785,
+  "open_issues": 1927,
   "open_prs": null,
   "created_at": "2015-04-13T18:04:58Z",
-  "pushed_at": "2026-11-17T02:05:55Z",
-  "updated_at": "2026-11-17T02:12:22Z",
+  "pushed_at": "2026-11-17T11:35:20Z",
+  "updated_at": "2026-11-17T11:26:25Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,35 +60,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 816859,
+  "size_kb": 817293,
   "og_image": "https://opengraph.githubassets.com/1/apache/airflow",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T02:05:54.000Z",
-  "commits_90d": 2339,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "3.4.0",
-  "name": "3.4.0",
-  "published_at": null,
-  "url": "https://github.com/apache/airflow/releases/tag/3.4.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "ts-sdk/1.0.0",
-  "name": "Apache Airflow TypeScript SDK 1.0.0",
-  "published_at": "2026-11-13T09:01:10Z",
-  "url": "https://github.com/apache/airflow/releases/tag/ts-sdk%2F1.0.0"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 39605,
@@ -107,9 +82,14 @@
   },
   "headings": 26,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:23.109Z",
-  "checked_at": "2026-11-17T02:19:46.910Z"
+  "fetched_at": "2026-11-17T11:56:23.674Z",
+  "checked_at": "2026-11-17T11:56:23.674Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:46.910Z"
+ "contributors": {
+  "count": 4811,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:33.148Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:23.674Z"
 }

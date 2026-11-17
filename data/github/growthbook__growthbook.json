@@ -5,8 +5,8 @@
  "full_name": "growthbook/growthbook",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:50.852Z",
  "meta": {
   "name": "growthbook",
   "owner": "growthbook",
@@ -46,12 +46,12 @@
   },
   "stars": 8603,
   "forks": 905,
-  "watchers": null,
-  "open_issues": 916,
+  "watchers": 28,
+  "open_issues": 918,
   "open_prs": null,
   "created_at": "2021-05-07T23:11:51Z",
-  "pushed_at": "2026-11-17T02:14:39Z",
-  "updated_at": "2026-11-17T01:44:37Z",
+  "pushed_at": "2026-11-17T11:06:21Z",
+  "updated_at": "2026-11-17T10:40:28Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,30 +60,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 311408,
+  "size_kb": 310831,
   "og_image": "https://opengraph.githubassets.com/1/growthbook/growthbook",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T23:41:58.000Z",
-  "commits_90d": 526,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v5.2.1",
-  "name": "v5.2.1",
-  "published_at": "2026-11-16T20:32:02Z",
-  "url": "https://github.com/growthbook/growthbook/releases/tag/v5.2.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 4375,
@@ -102,9 +82,14 @@
   },
   "headings": 5,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:35.564Z",
-  "checked_at": "2026-11-17T02:20:17.366Z"
+  "fetched_at": "2026-11-17T11:56:27.129Z",
+  "checked_at": "2026-11-17T11:56:27.129Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:17.366Z"
+ "contributors": {
+  "count": 162,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:38.162Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:27.129Z"
 }

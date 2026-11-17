@@ -5,8 +5,8 @@
  "full_name": "zed-industries/zed",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:53.325Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:03.627Z",
  "meta": {
   "name": "zed",
   "owner": "zed-industries",
@@ -28,14 +28,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 95175,
-  "forks": 11735,
-  "watchers": null,
-  "open_issues": 3082,
+  "stars": 95202,
+  "forks": 11747,
+  "watchers": 326,
+  "open_issues": 3089,
   "open_prs": null,
   "created_at": "2021-02-20T03:01:06Z",
-  "pushed_at": "2026-11-16T21:36:12Z",
-  "updated_at": "2026-11-17T02:05:13Z",
+  "pushed_at": "2026-11-17T10:31:07Z",
+  "updated_at": "2026-11-17T11:51:01Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -44,35 +44,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 556445,
+  "size_kb": 556456,
   "og_image": "https://opengraph.githubassets.com/1/zed-industries/zed",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T20:50:25.000Z",
-  "commits_90d": 1646,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v1.28.1",
-  "name": "v1.28.1",
-  "published_at": "2026-11-11T19:08:27Z",
-  "url": "https://github.com/zed-industries/zed/releases/tag/v1.28.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "nightly",
-  "name": "nightly: editor: Don&#39;t write empty selections to the primary selection (#66986)",
-  "published_at": "2026-11-16T13:59:16Z",
-  "url": "https://github.com/zed-industries/zed/releases/tag/nightly"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 2852,
@@ -91,9 +66,14 @@
   },
   "headings": 6,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:29.288Z",
-  "checked_at": "2026-11-17T02:20:03.685Z"
+  "fetched_at": "2026-11-17T11:56:25.118Z",
+  "checked_at": "2026-11-17T11:56:25.118Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:03.686Z"
+ "contributors": {
+  "count": 2418,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:35.036Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:25.118Z"
 }

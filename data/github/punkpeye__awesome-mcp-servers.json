@@ -5,8 +5,8 @@
  "full_name": "punkpeye/awesome-mcp-servers",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:53.735Z",
  "meta": {
   "name": "awesome-mcp-servers",
   "owner": "punkpeye",
@@ -26,14 +26,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 97772,
-  "forks": 20143,
-  "watchers": null,
-  "open_issues": 4856,
+  "stars": 97796,
+  "forks": 20182,
+  "watchers": 55,
+  "open_issues": 4604,
   "open_prs": null,
   "created_at": "2024-11-30T04:49:10Z",
-  "pushed_at": "2026-11-17T02:18:01Z",
-  "updated_at": "2026-11-17T02:09:27Z",
+  "pushed_at": "2026-11-17T05:21:40Z",
+  "updated_at": "2026-11-17T11:30:58Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -42,25 +42,13 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 611893,
+  "size_kb": 651019,
   "og_image": "https://opengraph.githubassets.com/1/punkpeye/awesome-mcp-servers",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T02:18:01.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
-  "length": 1693767,
+  "length": 499781,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [
@@ -80,11 +68,16 @@
    },
    "features": null
   },
-  "headings": 71,
+  "headings": 27,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:19.298Z",
-  "checked_at": "2026-11-17T02:20:19.298Z"
+  "fetched_at": "2026-11-17T11:56:27.419Z",
+  "checked_at": "2026-11-17T11:56:27.419Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:19.298Z"
+ "contributors": {
+  "count": 5066,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:38.331Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:27.419Z"
 }

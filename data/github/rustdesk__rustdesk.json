@@ -5,8 +5,8 @@
  "full_name": "rustdesk/rustdesk",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.972Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:26.750Z",
  "meta": {
   "name": "rustdesk",
   "owner": "rustdesk",
@@ -43,14 +43,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 129748,
-  "forks": 20784,
-  "watchers": null,
-  "open_issues": 219,
+  "stars": 129828,
+  "forks": 20805,
+  "watchers": 641,
+  "open_issues": 215,
   "open_prs": null,
   "created_at": "2020-09-28T15:36:08Z",
-  "pushed_at": "2026-11-17T01:39:05Z",
-  "updated_at": "2026-11-17T02:15:51Z",
+  "pushed_at": "2026-11-17T08:59:44Z",
+  "updated_at": "2026-11-17T11:43:47Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,30 +59,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 88646,
+  "size_kb": 89694,
   "og_image": "https://opengraph.githubassets.com/1/rustdesk/rustdesk",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T09:30:15.000Z",
-  "commits_90d": 395,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "1.5.3",
-  "name": "1.5.3",
-  "published_at": "2026-11-11T09:02:30Z",
-  "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.5.3",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 9937,
@@ -101,9 +81,14 @@
   },
   "headings": 14,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:30.785Z",
-  "checked_at": "2026-11-17T02:20:30.785Z"
+  "fetched_at": "2026-11-17T11:56:28.684Z",
+  "checked_at": "2026-11-17T11:56:28.684Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:30.785Z"
+ "contributors": {
+  "count": 533,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:40.167Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:28.684Z"
 }

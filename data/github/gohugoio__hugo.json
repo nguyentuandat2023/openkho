@@ -5,8 +5,8 @@
  "full_name": "gohugoio/hugo",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:06.954Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:56:12.814Z",
  "meta": {
   "name": "hugo",
   "owner": "gohugoio",
@@ -31,14 +31,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 90488,
-  "forks": 8509,
-  "watchers": null,
-  "open_issues": 219,
+  "stars": 90495,
+  "forks": 8525,
+  "watchers": 1078,
+  "open_issues": 220,
   "open_prs": null,
   "created_at": "2013-07-04T15:26:26Z",
-  "pushed_at": "2026-11-16T21:35:18Z",
-  "updated_at": "2026-11-17T02:04:17Z",
+  "pushed_at": "2026-11-17T10:20:50Z",
+  "updated_at": "2026-11-17T09:09:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,30 +47,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 153725,
+  "size_kb": 153738,
   "og_image": "https://opengraph.githubassets.com/1/gohugoio/hugo",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T21:35:17.000Z",
-  "commits_90d": 279,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.170.0",
-  "name": "v0.170.0",
-  "published_at": "2026-11-14T14:10:12Z",
-  "url": "https://github.com/gohugoio/hugo/releases/tag/v0.170.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 7652,
@@ -89,9 +69,9 @@
   },
   "headings": 11,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:47.977Z",
-  "checked_at": "2026-11-17T02:20:47.977Z"
+  "fetched_at": "2026-11-17T11:56:30.554Z",
+  "checked_at": "2026-11-17T11:56:30.554Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:47.977Z"
+ "details_checked_at": "2026-11-17T11:56:30.554Z"
 }

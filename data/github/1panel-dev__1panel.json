@@ -5,8 +5,8 @@
  "full_name": "1Panel-dev/1Panel",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:03.703Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:43.966Z",
  "meta": {
   "name": "1Panel",
   "owner": "1Panel-dev",
@@ -37,14 +37,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 37457,
+  "stars": 37461,
   "forks": 3409,
-  "watchers": null,
-  "open_issues": 351,
+  "watchers": 193,
+  "open_issues": 352,
   "open_prs": null,
   "created_at": "2022-07-19T15:44:52Z",
-  "pushed_at": "2026-11-16T08:44:36Z",
-  "updated_at": "2026-11-17T02:17:32Z",
+  "pushed_at": "2026-11-17T10:11:53Z",
+  "updated_at": "2026-11-17T08:53:02Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,30 +53,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 122600,
+  "size_kb": 118851,
   "og_image": "https://opengraph.githubassets.com/1/1Panel-dev/1Panel",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T07:33:21.000Z",
-  "commits_90d": 404,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.5.1",
-  "name": "v2.5.1",
-  "published_at": "2026-11-12T08:42:59Z",
-  "url": "https://github.com/1Panel-dev/1Panel/releases/tag/v2.5.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 6332,
@@ -95,9 +75,9 @@
   },
   "headings": 8,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:44.053Z",
-  "checked_at": "2026-11-17T02:20:36.966Z"
+  "fetched_at": "2026-11-17T11:56:29.532Z",
+  "checked_at": "2026-11-17T11:56:29.532Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:36.966Z"
+ "details_checked_at": "2026-11-17T11:56:29.532Z"
 }

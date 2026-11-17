@@ -5,8 +5,8 @@
  "full_name": "twbs/bootstrap",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:06.955Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:56:18.522Z",
  "meta": {
   "name": "bootstrap",
   "owner": "twbs",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 175075,
-  "forks": 79543,
-  "watchers": null,
-  "open_issues": 316,
+  "stars": 175076,
+  "forks": 79585,
+  "watchers": 6603,
+  "open_issues": 318,
   "open_prs": null,
   "created_at": "2011-07-29T21:19:00Z",
-  "pushed_at": "2026-11-16T08:34:51Z",
-  "updated_at": "2026-11-17T02:08:46Z",
+  "pushed_at": "2026-11-17T10:04:22Z",
+  "updated_at": "2026-11-17T10:59:09Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,30 +47,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 327787,
+  "size_kb": 327728,
   "og_image": "https://opengraph.githubassets.com/1/twbs/bootstrap",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-14T20:51:09.000Z",
-  "commits_90d": 145,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v5.3.9",
-  "name": "v5.3.9",
-  "published_at": "2026-11-14T16:40:11Z",
-  "url": "https://github.com/twbs/bootstrap/releases/tag/v5.3.9",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 12437,
@@ -89,9 +69,9 @@
   },
   "headings": 20,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:52.531Z",
-  "checked_at": "2026-11-17T02:20:52.531Z"
+  "fetched_at": "2026-11-17T11:56:30.810Z",
+  "checked_at": "2026-11-17T11:56:30.810Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:52.531Z"
+ "details_checked_at": "2026-11-17T11:56:30.810Z"
 }

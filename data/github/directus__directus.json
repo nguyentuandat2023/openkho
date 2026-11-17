@@ -5,8 +5,8 @@
  "full_name": "directus/directus",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.971Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:09.151Z",
  "meta": {
   "name": "directus",
   "owner": "directus",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 38734,
-  "forks": 5000,
-  "watchers": null,
-  "open_issues": 353,
+  "stars": 38739,
+  "forks": 5001,
+  "watchers": 339,
+  "open_issues": 348,
   "open_prs": null,
   "created_at": "2012-12-12T01:35:36Z",
-  "pushed_at": "2026-11-16T20:00:48Z",
-  "updated_at": "2026-11-17T02:14:45Z",
+  "pushed_at": "2026-11-17T11:28:20Z",
+  "updated_at": "2026-11-17T09:49:52Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,46 +60,36 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 454280,
+  "size_kb": 454403,
   "og_image": "https://opengraph.githubassets.com/1/directus/directus",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T17:27:03.000Z",
-  "commits_90d": 332,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v12.6.1",
-  "name": "v12.6.1",
-  "published_at": "2026-11-04T20:27:19Z",
-  "url": "https://github.com/directus/directus/releases/tag/v12.6.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "readme.md",
-  "length": 18,
+  "length": 4675,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
   "sections": {
-   "install": null,
+   "install": {
+    "title": "One-Click Deployment Options",
+    "html": "<h5>Deploy on Railway</h5>\n<p>One click. Fully provisioned with PostgreSQL, Redis, and S3-compatible storage, connected via Railway's private network.</p>\n<p><a href=\"https://railway.com/deploy/directus-official?referralCode=b2RDZT\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://railway.app/button.svg\" alt=\"Deploy on Railway\" loading=\"lazy\" decoding=\"async\" /></a></p>\n<hr />",
+    "truncated": false,
+    "chars": 274
+   },
    "usage": null,
    "features": null
   },
-  "headings": 0,
+  "headings": 9,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:25.367Z",
-  "checked_at": "2026-11-17T02:20:25.367Z"
+  "fetched_at": "2026-11-17T11:56:27.872Z",
+  "checked_at": "2026-11-17T11:56:27.872Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:25.367Z"
+ "contributors": {
+  "count": 597,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:39.153Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:27.872Z"
 }

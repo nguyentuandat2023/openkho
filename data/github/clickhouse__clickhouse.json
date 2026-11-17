@@ -5,8 +5,8 @@
  "full_name": "ClickHouse/ClickHouse",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:29.795Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:40.022Z",
  "meta": {
   "name": "ClickHouse",
   "owner": "ClickHouse",
@@ -41,14 +41,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 50965,
-  "forks": 9272,
-  "watchers": null,
-  "open_issues": 9161,
+  "stars": 50970,
+  "forks": 9276,
+  "watchers": 685,
+  "open_issues": 9168,
   "open_prs": null,
   "created_at": "2016-06-02T08:28:18Z",
-  "pushed_at": "2026-11-17T02:13:48Z",
-  "updated_at": "2026-11-17T00:27:18Z",
+  "pushed_at": "2026-11-17T11:53:16Z",
+  "updated_at": "2026-11-17T11:53:08Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,30 +57,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 15989255,
+  "size_kb": 16024276,
   "og_image": "https://opengraph.githubassets.com/1/ClickHouse/ClickHouse",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T19:11:13.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v26.9.30.7-stable",
-  "name": "Release v26.9.30.7-stable",
-  "published_at": "2026-11-16T15:59:56Z",
-  "url": "https://github.com/ClickHouse/ClickHouse/releases/tag/v26.9.30.7-stable",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 7082,
@@ -115,9 +95,14 @@
   },
   "headings": 7,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:24.756Z",
-  "checked_at": "2026-11-17T02:19:51.667Z"
+  "fetched_at": "2026-11-17T11:56:24.141Z",
+  "checked_at": "2026-11-17T11:56:24.141Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:51.667Z"
+ "contributors": {
+  "count": 3434,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:33.759Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:24.141Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "karpathy/nanochat",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:34.636Z",
  "meta": {
   "name": "nanochat",
   "owner": "karpathy",
@@ -23,14 +23,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 60610,
-  "forks": 8509,
-  "watchers": null,
-  "open_issues": 138,
+  "stars": 60624,
+  "forks": 8511,
+  "watchers": 379,
+  "open_issues": 139,
   "open_prs": null,
   "created_at": "2025-10-13T13:46:35Z",
   "pushed_at": "2026-09-07T20:06:43Z",
-  "updated_at": "2026-11-17T01:52:17Z",
+  "updated_at": "2026-11-17T11:04:42Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -43,18 +43,6 @@
   "og_image": "https://opengraph.githubassets.com/1/karpathy/nanochat",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-07-03T22:54:57.000Z",
-  "commits_90d": 0,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 16190,
@@ -73,9 +61,14 @@
   },
   "headings": 14,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:03.596Z",
-  "checked_at": "2026-11-16T05:09:03.596Z"
+  "fetched_at": "2026-11-17T11:56:26.422Z",
+  "checked_at": "2026-11-17T11:56:26.422Z"
  },
- "details_checked_at": "2026-11-16T05:06:31.394Z",
- "contributors": null
+ "contributors": {
+  "count": 56,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:37.114Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:26.422Z"
 }

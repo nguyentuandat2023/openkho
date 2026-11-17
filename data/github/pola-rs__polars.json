@@ -5,8 +5,8 @@
  "full_name": "pola-rs/polars",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:26.318Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:25.249Z",
  "meta": {
   "name": "polars",
   "owner": "pola-rs",
@@ -32,14 +32,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 40355,
-  "forks": 3242,
-  "watchers": null,
-  "open_issues": 2957,
+  "stars": 40362,
+  "forks": 3241,
+  "watchers": 215,
+  "open_issues": 2963,
   "open_prs": null,
   "created_at": "2020-05-13T19:45:33Z",
-  "pushed_at": "2026-11-16T23:59:36Z",
-  "updated_at": "2026-11-17T01:17:26Z",
+  "pushed_at": "2026-11-17T11:49:26Z",
+  "updated_at": "2026-11-17T10:35:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,30 +48,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 244535,
+  "size_kb": 245773,
   "og_image": "https://opengraph.githubassets.com/1/pola-rs/polars",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T18:31:40.000Z",
-  "commits_90d": 1268,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "py-2.1.0",
-  "name": "Python Polars 2.1.0",
-  "published_at": "2026-10-25T18:24:39Z",
-  "url": "https://github.com/pola-rs/polars/releases/tag/py-2.1.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 7095,
@@ -90,9 +70,14 @@
   },
   "headings": 11,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:23.206Z",
-  "checked_at": "2026-11-17T02:19:47.095Z"
+  "fetched_at": "2026-11-17T11:56:23.575Z",
+  "checked_at": "2026-11-17T11:56:23.575Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:47.095Z"
+ "contributors": {
+  "count": 793,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:32.978Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:23.575Z"
 }

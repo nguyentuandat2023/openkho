@@ -5,8 +5,8 @@
  "full_name": "Kanaries/pygwalker",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:26.318Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:31.111Z",
  "meta": {
   "name": "pygwalker",
   "owner": "Kanaries",
@@ -33,14 +33,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 16007,
+  "stars": 16005,
   "forks": 895,
-  "watchers": null,
+  "watchers": 90,
   "open_issues": 72,
   "open_prs": null,
   "created_at": "2023-02-16T05:17:24Z",
   "pushed_at": "2026-09-05T19:19:19Z",
-  "updated_at": "2026-11-16T14:58:32Z",
+  "updated_at": "2026-11-17T10:41:10Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,31 +53,6 @@
   "og_image": "https://opengraph.githubassets.com/1/Kanaries/pygwalker",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-09-05T19:19:17.000Z",
-  "commits_90d": 1,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "0.5.0.1",
-  "name": "0.5.0.1",
-  "published_at": "2026-04-04T02:10:37Z",
-  "url": "https://github.com/Kanaries/pygwalker/releases/tag/0.5.0.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v0.5.0.1a1",
-  "name": "v0.5.0.1a1",
-  "published_at": "2026-06-12T11:08:50Z",
-  "url": "https://github.com/Kanaries/pygwalker/releases/tag/v0.5.0.1a1"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 23898,
@@ -112,9 +87,14 @@
   },
   "headings": 21,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:08:27.856Z",
-  "checked_at": "2026-11-16T05:08:27.856Z"
+  "fetched_at": "2026-11-17T11:56:23.755Z",
+  "checked_at": "2026-11-17T11:56:23.755Z"
  },
- "details_checked_at": "2026-11-16T05:06:20.793Z",
- "contributors": null
+ "contributors": {
+  "count": 28,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:33.256Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:23.755Z"
 }

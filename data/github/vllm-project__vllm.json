@@ -5,8 +5,8 @@
  "full_name": "vllm-project/vllm",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:23.074Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:00.333Z",
  "meta": {
   "name": "vllm",
   "owner": "vllm-project",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 97058,
-  "forks": 24908,
-  "watchers": null,
-  "open_issues": 10466,
+  "stars": 97096,
+  "forks": 24929,
+  "watchers": 607,
+  "open_issues": 10507,
   "open_prs": null,
   "created_at": "2023-02-09T11:23:20Z",
-  "pushed_at": "2026-11-17T02:18:18Z",
-  "updated_at": "2026-11-17T02:16:57Z",
+  "pushed_at": "2026-11-17T11:49:23Z",
+  "updated_at": "2026-11-17T11:38:36Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,30 +60,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 368402,
+  "size_kb": 368952,
   "og_image": "https://opengraph.githubassets.com/1/vllm-project/vllm",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T02:18:17.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.34.0",
-  "name": "v0.34.0",
-  "published_at": "2026-11-16T23:50:15Z",
-  "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 5790,
@@ -102,9 +82,14 @@
   },
   "headings": 7,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:14.389Z",
-  "checked_at": "2026-11-17T02:19:35.759Z"
+  "fetched_at": "2026-11-17T11:56:22.507Z",
+  "checked_at": "2026-11-17T11:56:22.507Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:35.759Z"
+ "contributors": {
+  "count": 4119,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:31.743Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:22.507Z"
 }

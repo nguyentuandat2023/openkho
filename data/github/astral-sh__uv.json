@@ -5,8 +5,8 @@
  "full_name": "astral-sh/uv",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:29.796Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:01.907Z",
  "meta": {
   "name": "uv",
   "owner": "astral-sh",
@@ -28,14 +28,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 92041,
-  "forks": 3859,
-  "watchers": null,
-  "open_issues": 3087,
+  "stars": 92063,
+  "forks": 3886,
+  "watchers": 233,
+  "open_issues": 3079,
   "open_prs": null,
   "created_at": "2023-10-02T20:24:11Z",
-  "pushed_at": "2026-11-17T00:25:32Z",
-  "updated_at": "2026-11-17T02:13:43Z",
+  "pushed_at": "2026-11-17T11:52:48Z",
+  "updated_at": "2026-11-17T11:53:28Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -44,30 +44,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 231273,
+  "size_kb": 231865,
   "og_image": "https://opengraph.githubassets.com/1/astral-sh/uv",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T22:35:55.000Z",
-  "commits_90d": 391,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "0.13.8",
-  "name": "0.13.8",
-  "published_at": "2026-11-12T17:03:07Z",
-  "url": "https://github.com/astral-sh/uv/releases/tag/0.13.8",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 9853,
@@ -91,9 +71,14 @@
   },
   "headings": 18,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:02.065Z",
-  "checked_at": "2026-11-17T02:20:02.065Z"
+  "fetched_at": "2026-11-17T11:56:25.073Z",
+  "checked_at": "2026-11-17T11:56:25.073Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:02.065Z"
+ "contributors": {
+  "count": 610,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:35.009Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:25.073Z"
 }

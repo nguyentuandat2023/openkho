@@ -5,8 +5,8 @@
  "full_name": "awesome-selfhosted/awesome-selfhosted",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:35.995Z",
  "meta": {
   "name": "awesome-selfhosted",
   "owner": "awesome-selfhosted",
@@ -32,14 +32,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 337758,
-  "forks": 15865,
-  "watchers": null,
+  "stars": 337886,
+  "forks": 15869,
+  "watchers": 3394,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2015-06-01T02:33:17Z",
   "pushed_at": "2026-11-16T20:39:05Z",
-  "updated_at": "2026-11-17T02:14:24Z",
+  "updated_at": "2026-11-17T11:53:28Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -52,26 +52,6 @@
   "og_image": "https://opengraph.githubassets.com/1/awesome-selfhosted/awesome-selfhosted",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T20:39:04.000Z",
-  "commits_90d": 55,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "1.0.0",
-  "name": "1.0.0",
-  "published_at": "2023-09-05T14:37:40Z",
-  "url": "https://github.com/awesome-selfhosted/awesome-selfhosted/releases/tag/1.0.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 331370,
@@ -95,9 +75,14 @@
   },
   "headings": 103,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:13.852Z",
-  "checked_at": "2026-11-17T02:20:13.852Z"
+  "fetched_at": "2026-11-17T11:56:26.693Z",
+  "checked_at": "2026-11-17T11:56:26.693Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:13.852Z"
+ "contributors": {
+  "count": 1362,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:37.175Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:26.693Z"
 }

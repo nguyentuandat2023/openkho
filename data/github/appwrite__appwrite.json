@@ -5,8 +5,8 @@
  "full_name": "appwrite/appwrite",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:29.795Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:33.439Z",
  "meta": {
   "name": "appwrite",
   "owner": "appwrite",
@@ -44,14 +44,14 @@
    "spdx": "BSD-3-Clause",
    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
   },
-  "stars": 58086,
-  "forks": 5868,
-  "watchers": null,
-  "open_issues": 737,
+  "stars": 58107,
+  "forks": 5873,
+  "watchers": 466,
+  "open_issues": 744,
   "open_prs": null,
   "created_at": "2019-04-08T16:36:25Z",
-  "pushed_at": "2026-11-17T02:14:10Z",
-  "updated_at": "2026-11-17T00:43:30Z",
+  "pushed_at": "2026-11-17T11:51:52Z",
+  "updated_at": "2026-11-17T11:02:15Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,35 +60,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 1198435,
+  "size_kb": 1199070,
   "og_image": "https://opengraph.githubassets.com/1/appwrite/appwrite",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T02:14:03.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "2.7.2",
-  "name": "2.7.2",
-  "published_at": null,
-  "url": "https://github.com/appwrite/appwrite/releases/tag/2.7.2",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "apps/console/1.2.199",
-  "name": "apps/console/1.2.199",
-  "published_at": "2026-11-16T15:53:35Z",
-  "url": "https://github.com/appwrite/appwrite/releases/tag/apps%2Fconsole%2F1.2.199"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 17797,
@@ -107,9 +82,14 @@
   },
   "headings": 20,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:24.533Z",
-  "checked_at": "2026-11-17T02:19:48.774Z"
+  "fetched_at": "2026-11-17T11:56:23.861Z",
+  "checked_at": "2026-11-17T11:56:23.861Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:48.774Z"
+ "contributors": {
+  "count": 556,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:33.419Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:23.861Z"
 }

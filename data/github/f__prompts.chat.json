@@ -5,8 +5,8 @@
  "full_name": "f/prompts.chat",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:53.326Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:23.938Z",
  "meta": {
   "name": "prompts.chat",
   "owner": "f",
@@ -42,14 +42,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 177681,
-  "forks": 22661,
-  "watchers": null,
+  "stars": 177721,
+  "forks": 22666,
+  "watchers": 1677,
   "open_issues": 91,
   "open_prs": null,
   "created_at": "2022-12-05T13:54:13Z",
-  "pushed_at": "2026-11-16T03:14:07Z",
-  "updated_at": "2026-11-17T02:16:20Z",
+  "pushed_at": "2026-11-17T03:12:36Z",
+  "updated_at": "2026-11-17T11:40:41Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,22 +58,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 953146,
+  "size_kb": 954379,
   "og_image": "https://opengraph.githubassets.com/1/f/prompts.chat",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T03:13:58.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 12741,
@@ -92,9 +80,14 @@
   },
   "headings": 13,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:08:59.244Z",
-  "checked_at": "2026-11-16T05:08:59.244Z"
+  "fetched_at": "2026-11-17T11:56:25.943Z",
+  "checked_at": "2026-11-17T11:56:25.943Z"
  },
- "details_checked_at": "2026-11-16T05:06:27.964Z",
- "contributors": null
+ "contributors": {
+  "count": 1529,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:36.486Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:25.943Z"
 }

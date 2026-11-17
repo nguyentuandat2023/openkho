@@ -5,8 +5,8 @@
  "full_name": "dgtlmoon/changedetection.io",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:52.370Z",
  "meta": {
   "name": "changedetection.io",
   "owner": "dgtlmoon",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 35857,
-  "forks": 2256,
-  "watchers": null,
+  "stars": 35856,
+  "forks": 2257,
+  "watchers": 115,
   "open_issues": 387,
   "open_prs": null,
   "created_at": "2021-01-27T16:03:30Z",
   "pushed_at": "2026-11-16T08:48:22Z",
-  "updated_at": "2026-11-17T02:07:44Z",
+  "updated_at": "2026-11-17T11:45:20Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -64,26 +64,6 @@
   "og_image": "https://opengraph.githubassets.com/1/dgtlmoon/changedetection.io",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T08:48:22.000Z",
-  "commits_90d": 239,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "0.70.3",
-  "name": "0.70.3",
-  "published_at": "2026-11-09T14:57:31Z",
-  "url": "https://github.com/dgtlmoon/changedetection.io/releases/tag/0.70.3",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 22218,
@@ -112,9 +92,14 @@
   },
   "headings": 35,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:18.238Z",
-  "checked_at": "2026-11-17T02:20:18.238Z"
+  "fetched_at": "2026-11-17T11:56:27.140Z",
+  "checked_at": "2026-11-17T11:56:27.140Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:18.238Z"
+ "contributors": {
+  "count": 179,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:38.188Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:27.140Z"
 }

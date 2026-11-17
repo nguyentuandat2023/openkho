@@ -5,8 +5,8 @@
  "full_name": "SYSTRAN/faster-whisper",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:16.355Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:51:53.900Z",
  "meta": {
   "name": "faster-whisper",
   "owner": "SYSTRAN",
@@ -32,14 +32,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 26807,
-  "forks": 2251,
-  "watchers": null,
+  "stars": 26818,
+  "forks": 2252,
+  "watchers": 163,
   "open_issues": 21,
   "open_prs": null,
   "created_at": "2023-02-11T09:17:27Z",
   "pushed_at": "2026-11-12T09:05:56Z",
-  "updated_at": "2026-11-17T02:17:34Z",
+  "updated_at": "2026-11-17T11:34:52Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -52,26 +52,6 @@
   "og_image": "https://opengraph.githubassets.com/1/SYSTRAN/faster-whisper",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-12T09:05:55.000Z",
-  "commits_90d": 16,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v1.2.1",
-  "name": "faster-whisper 1.2.1",
-  "published_at": "2025-10-31T11:34:00Z",
-  "url": "https://github.com/SYSTRAN/faster-whisper/releases/tag/v1.2.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 15255,
@@ -100,15 +80,15 @@
    "features": null
   },
   "headings": 26,
-  "processor": 3,
-  "fetched_at": "2026-11-16T04:33:31.810Z",
-  "checked_at": "2026-11-16T04:33:31.810Z"
+  "processor": 4,
+  "fetched_at": "2026-11-17T11:56:19.381Z",
+  "checked_at": "2026-11-17T11:56:19.381Z"
  },
- "details_checked_at": "2026-11-16T04:32:13.194Z",
  "contributors": {
   "count": 55,
   "capped": false,
   "anon": true,
   "fetched_at": "2026-11-16T05:40:21.951Z"
- }
+ },
+ "details_checked_at": "2026-11-17T11:56:19.381Z"
 }

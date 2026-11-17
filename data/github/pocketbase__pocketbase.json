@@ -5,8 +5,8 @@
  "full_name": "pocketbase/pocketbase",
  "status": "archived",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:26.318Z",
+ "source": "graphql",
+ "fetched_at": "2026-11-17T11:50:24.164Z",
  "meta": {
   "name": "pocketbase",
   "owner": "pocketbase",
@@ -17,25 +17,51 @@
   "html_url": "https://github.com/pocketbase/pocketbase",
   "default_branch": "master",
   "language": "Go",
-  "languages": null,
+  "languages": [
+   {
+    "name": "Go",
+    "color": "#00ADD8",
+    "share": 69.2
+   },
+   {
+    "name": "JavaScript",
+    "color": "#f1e05a",
+    "share": 24.5
+   },
+   {
+    "name": "CSS",
+    "color": "#663399",
+    "share": 6.3
+   },
+   {
+    "name": "HTML",
+    "color": "#e34c26",
+    "share": 0
+   },
+   {
+    "name": "Makefile",
+    "color": "#427819",
+    "share": 0
+   }
+  ],
   "topics": [
    "authentication",
    "backend",
-   "golang",
-   "realtime"
+   "realtime",
+   "golang"
   ],
   "license": {
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 61585,
+  "stars": 61582,
   "forks": 3770,
-  "watchers": null,
+  "watchers": 325,
   "open_issues": 1,
-  "open_prs": null,
+  "open_prs": 0,
   "created_at": "2022-07-05T06:06:21Z",
   "pushed_at": "2026-10-26T18:07:11Z",
-  "updated_at": "2026-11-16T19:33:14Z",
+  "updated_at": "2026-11-17T10:40:55Z",
   "archived": true,
   "disabled": false,
   "is_fork": false,
@@ -45,29 +71,110 @@
   "has_discussions": true,
   "has_wiki": false,
   "size_kb": 147003,
-  "og_image": "https://opengraph.githubassets.com/1/pocketbase/pocketbase",
-  "custom_og_image": false
+  "og_image": "https://repository-images.githubusercontent.com/510607652/b96335a4-cf19-40c3-b423-7d4be5009510",
+  "custom_og_image": true
  },
  "activity": {
-  "last_commit_at": "2026-10-26T18:07:11.000Z",
-  "commits_90d": 37,
-  "commits_90d_estimated": true,
-  "source": "atom"
+  "last_commit_at": "2026-10-26T18:07:11Z",
+  "commits_90d": 97,
+  "commits_90d_estimated": false,
+  "source": "graphql"
  },
  "release_checked": true,
  "release": {
   "tag": "v0.40.6",
   "name": "v0.40.6 Release",
-  "published_at": "2026-10-23T11:25:50Z",
+  "published_at": "2026-10-23T11:21:45Z",
   "url": "https://github.com/pocketbase/pocketbase/releases/tag/v0.40.6",
   "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
+  "assets_total": 10,
+  "assets": [
+   {
+    "name": "pocketbase_0.40.6_linux_s390x.zip",
+    "size": 12524235,
+    "download_count": 116,
+    "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_linux_s390x.zip",
+    "content_type": "application/zip"
+   },
+   {
+    "name": "pocketbase_0.40.6_linux_amd64.zip",
+    "size": 12824710,
+    "download_count": 51417,
+    "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_linux_amd64.zip",
+    "content_type": "application/zip"
+   },
+   {
+    "name": "pocketbase_0.40.6_linux_arm64.zip",
+    "size": 11875035,
+    "download_count": 3254,
+    "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_linux_arm64.zip",
+    "content_type": "application/zip"
+   },
+   {
+    "name": "pocketbase_0.40.6_linux_armv7.zip",
+    "size": 12192739,
+    "download_count": 318,
+    "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_linux_armv7.zip",
+    "content_type": "application/zip"
+   },
+   {
+    "name": "pocketbase_0.40.6_darwin_arm64.zip",
+    "size": 12235482,
+    "download_count": 3505,
+    "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_darwin_arm64.zip",
+    "content_type": "application/zip"
+   },
+   {
+    "name": "pocketbase_0.40.6_windows_amd64.zip",
+    "size": 13009601,
+    "download_count": 5857,
+    "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_windows_amd64.zip",
+    "content_type": "application/zip"
+   },
+   {
+    "name": "pocketbase_0.40.6_windows_arm64.zip",
+    "size": 11888006,
+    "download_count": 267,
+    "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_windows_arm64.zip",
+    "content_type": "application/zip"
+   },
+   {
+    "name": "pocketbase_0.40.6_linux_ppc64le.zip",
+    "size": 11955015,
+    "download_count": 43,
+    "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_linux_ppc64le.zip",
+    "content_type": "application/zip"
+   },
+   {
+    "name": "pocketbase_0.40.6_darwin_amd64.zip",
+    "size": 12917119,
+    "download_count": 705,
+    "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_darwin_amd64.zip",
+    "content_type": "application/zip"
+   },
+   {
+    "name": "checksums.txt",
+    "size": 908,
+    "download_count": 12092,
+    "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/checksums.txt",
+    "content_type": "text/plain; charset=utf-8"
+   }
+  ]
  },
  "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
+ "releases_count": 296,
+ "latest_tag": {
+  "name": "v0.40.6",
+  "total": 296
+ },
+ "stars_recent": {
+  "per_day": 4.3,
+  "sample": 100,
+  "window_days": 23.4,
+  "complete": false,
+  "method": "stargazers"
+ },
+ "docker": false,
  "readme": {
   "path": "README.md",
   "length": 7075,
@@ -86,9 +193,14 @@
   },
   "headings": 8,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:08:29.402Z",
-  "checked_at": "2026-11-16T05:08:29.402Z"
+  "fetched_at": "2026-11-17T11:56:23.821Z",
+  "checked_at": "2026-11-17T11:56:23.821Z"
  },
- "details_checked_at": "2026-11-16T05:06:20.793Z",
- "contributors": null
+ "contributors": {
+  "count": 45,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:33.443Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:23.821Z"
 }

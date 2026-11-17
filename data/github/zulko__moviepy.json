@@ -5,8 +5,8 @@
  "full_name": "Zulko/moviepy",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:06.954Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:56:05.641Z",
  "meta": {
   "name": "moviepy",
   "owner": "Zulko",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 15154,
-  "forks": 2166,
-  "watchers": null,
+  "stars": 15157,
+  "forks": 2167,
+  "watchers": 255,
   "open_issues": 98,
   "open_prs": null,
   "created_at": "2013-08-12T09:39:28Z",
   "pushed_at": "2026-08-26T06:17:08Z",
-  "updated_at": "2026-11-16T17:23:52Z",
+  "updated_at": "2026-11-17T10:57:17Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,26 +51,6 @@
   "og_image": "https://opengraph.githubassets.com/1/Zulko/moviepy",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-08-26T06:17:07.000Z",
-  "commits_90d": 1,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.2.1",
-  "name": "v2.2.1",
-  "published_at": "2025-05-21T19:31:17Z",
-  "url": "https://github.com/Zulko/moviepy/releases/tag/v2.2.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 5004,
@@ -94,9 +74,9 @@
   },
   "headings": 9,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:53.967Z",
-  "checked_at": "2026-11-16T05:09:53.967Z"
+  "fetched_at": "2026-11-17T11:56:30.396Z",
+  "checked_at": "2026-11-17T11:56:30.396Z"
  },
- "details_checked_at": "2026-11-16T05:07:21.178Z",
- "contributors": null
+ "contributors": null,
+ "details_checked_at": "2026-11-17T11:56:30.396Z"
 }

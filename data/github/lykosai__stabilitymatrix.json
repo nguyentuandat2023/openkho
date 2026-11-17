@@ -5,8 +5,8 @@
  "full_name": "LykosAI/StabilityMatrix",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:23.073Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:43.574Z",
  "meta": {
   "name": "StabilityMatrix",
   "owner": "LykosAI",
@@ -33,14 +33,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 9037,
-  "forks": 621,
-  "watchers": null,
-  "open_issues": 186,
+  "stars": 9040,
+  "forks": 622,
+  "watchers": 98,
+  "open_issues": 184,
   "open_prs": null,
   "created_at": "2023-06-13T05:20:38Z",
-  "pushed_at": "2026-11-17T01:58:06Z",
-  "updated_at": "2026-11-16T22:18:57Z",
+  "pushed_at": "2026-11-17T07:04:56Z",
+  "updated_at": "2026-11-17T09:32:03Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,30 +49,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 147945,
+  "size_kb": 147644,
   "og_image": "https://opengraph.githubassets.com/1/LykosAI/StabilityMatrix",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T01:58:05.000Z",
-  "commits_90d": 60,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.16.5",
-  "name": "v2.16.5",
-  "published_at": "2026-10-21T04:48:33Z",
-  "url": "https://github.com/LykosAI/StabilityMatrix/releases/tag/v2.16.5",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 9404,
@@ -91,8 +71,8 @@
   },
   "headings": 10,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:29.647Z",
-  "checked_at": "2026-11-17T02:19:29.647Z"
+  "fetched_at": "2026-11-17T11:56:21.830Z",
+  "checked_at": "2026-11-17T11:56:21.830Z"
  },
  "contributors": {
   "count": 33,
@@ -100,5 +80,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T02:20:54.405Z"
  },
- "details_checked_at": "2026-11-17T02:19:29.647Z"
+ "details_checked_at": "2026-11-17T11:56:21.830Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "ggml-org/llama.cpp",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:23.074Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:53.893Z",
  "meta": {
   "name": "llama.cpp",
   "owner": "ggml-org",
@@ -25,14 +25,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 135374,
-  "forks": 25661,
-  "watchers": null,
-  "open_issues": 2625,
+  "stars": 135440,
+  "forks": 25681,
+  "watchers": 916,
+  "open_issues": 2620,
   "open_prs": null,
   "created_at": "2023-03-10T18:58:00Z",
-  "pushed_at": "2026-11-17T01:38:30Z",
-  "updated_at": "2026-11-17T02:10:20Z",
+  "pushed_at": "2026-11-17T11:49:09Z",
+  "updated_at": "2026-11-17T11:47:03Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -41,35 +41,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 503470,
+  "size_kb": 503482,
   "og_image": "https://opengraph.githubassets.com/1/ggml-org/llama.cpp",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T23:29:02.000Z",
-  "commits_90d": 3344,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v1.0.0",
-  "name": "v1.0.0",
-  "published_at": null,
-  "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "b12447",
-  "name": "b12447",
-  "published_at": "2026-11-16T14:16:13Z",
-  "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12447"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 6250,
@@ -88,9 +63,14 @@
   },
   "headings": 8,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:32.339Z",
-  "checked_at": "2026-11-17T02:19:32.339Z"
+  "fetched_at": "2026-11-17T11:56:22.313Z",
+  "checked_at": "2026-11-17T11:56:22.313Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:32.339Z"
+ "contributors": {
+  "count": 2258,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:31.431Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:22.313Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "teableio/teable",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.971Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:09.896Z",
  "meta": {
   "name": "teable",
   "owner": "teableio",
@@ -36,14 +36,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 21997,
-  "forks": 1366,
-  "watchers": null,
+  "stars": 21998,
+  "forks": 1367,
+  "watchers": 89,
   "open_issues": 150,
   "open_prs": null,
   "created_at": "2022-11-01T07:02:49Z",
-  "pushed_at": "2026-11-17T02:11:10Z",
-  "updated_at": "2026-11-16T17:50:31Z",
+  "pushed_at": "2026-11-17T11:22:10Z",
+  "updated_at": "2026-11-17T09:55:31Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -52,30 +52,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 92232,
+  "size_kb": 93932,
   "og_image": "https://opengraph.githubassets.com/1/teableio/teable",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-13T13:42:26.000Z",
-  "commits_90d": 18,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "release.2026-11-16T11-45-17Z.3934",
-  "name": "release.2026-11-16T11-45-17Z.3934",
-  "published_at": "2026-11-17T00:59:35Z",
-  "url": "https://github.com/teableio/teable/releases/tag/release.2026-11-16T11-45-17Z.3934",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 9940,
@@ -99,9 +79,14 @@
   },
   "headings": 13,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:39.388Z",
-  "checked_at": "2026-11-17T02:20:25.589Z"
+  "fetched_at": "2026-11-17T11:56:28.009Z",
+  "checked_at": "2026-11-17T11:56:28.009Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:25.589Z"
+ "contributors": {
+  "count": 44,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:39.023Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:28.009Z"
 }

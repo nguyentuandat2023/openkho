@@ -5,8 +5,8 @@
  "full_name": "Stirling-Tools/Stirling-PDF",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.972Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:25.213Z",
  "meta": {
   "name": "Stirling-PDF",
   "owner": "Stirling-Tools",
@@ -37,14 +37,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 96781,
-  "forks": 9365,
-  "watchers": null,
-  "open_issues": 462,
+  "stars": 96822,
+  "forks": 9372,
+  "watchers": 294,
+  "open_issues": 460,
   "open_prs": null,
   "created_at": "2023-01-27T18:22:42Z",
-  "pushed_at": "2026-11-16T23:20:31Z",
-  "updated_at": "2026-11-17T02:04:21Z",
+  "pushed_at": "2026-11-17T11:43:00Z",
+  "updated_at": "2026-11-17T11:52:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,30 +53,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 697416,
+  "size_kb": 707054,
   "og_image": "https://opengraph.githubassets.com/1/Stirling-Tools/Stirling-PDF",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-15T20:32:48.000Z",
-  "commits_90d": 493,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v3.3.0",
-  "name": "3.3.0 Conversion upgrades, bug fixes and several minor improvements",
-  "published_at": "2026-11-05T08:55:56Z",
-  "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/tag/v3.3.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 3193,
@@ -100,9 +80,14 @@
   },
   "headings": 7,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:42.297Z",
-  "checked_at": "2026-11-17T02:20:31.556Z"
+  "fetched_at": "2026-11-17T11:56:28.571Z",
+  "checked_at": "2026-11-17T11:56:28.571Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:31.556Z"
+ "contributors": {
+  "count": 323,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:40.079Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:28.571Z"
 }

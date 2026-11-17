@@ -5,8 +5,8 @@
  "full_name": "LibreTranslate/LibreTranslate",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:23.073Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:36.811Z",
  "meta": {
   "name": "LibreTranslate",
   "owner": "LibreTranslate",
@@ -29,14 +29,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 17776,
+  "stars": 17777,
   "forks": 1865,
-  "watchers": null,
+  "watchers": 111,
   "open_issues": 136,
   "open_prs": null,
   "created_at": "2020-12-19T19:19:34Z",
   "pushed_at": "2026-11-14T12:22:54Z",
-  "updated_at": "2026-11-17T00:50:46Z",
+  "updated_at": "2026-11-17T09:38:22Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,26 +49,6 @@
   "og_image": "https://opengraph.githubassets.com/1/LibreTranslate/LibreTranslate",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-14T12:22:51.000Z",
-  "commits_90d": 18,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v1.9.6",
-  "name": "1.9.6",
-  "published_at": "2026-05-26T17:45:39Z",
-  "url": "https://github.com/LibreTranslate/LibreTranslate/releases/tag/v1.9.6",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 2171,
@@ -87,14 +67,14 @@
   },
   "headings": 5,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:07:55.500Z",
-  "checked_at": "2026-11-16T05:07:55.500Z"
+  "fetched_at": "2026-11-17T11:56:21.477Z",
+  "checked_at": "2026-11-17T11:56:21.477Z"
  },
- "details_checked_at": "2026-11-16T05:06:17.093Z",
  "contributors": {
   "count": 312,
   "capped": false,
   "anon": true,
   "fetched_at": "2026-11-17T02:20:53.099Z"
- }
+ },
+ "details_checked_at": "2026-11-17T11:56:21.477Z"
 }

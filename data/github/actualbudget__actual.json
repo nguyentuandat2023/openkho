@@ -5,8 +5,8 @@
  "full_name": "actualbudget/actual",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:03.703Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:35.985Z",
  "meta": {
   "name": "actual",
   "owner": "actualbudget",
@@ -28,14 +28,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 30317,
-  "forks": 3325,
-  "watchers": null,
-  "open_issues": 223,
+  "stars": 30318,
+  "forks": 3328,
+  "watchers": 82,
+  "open_issues": 221,
   "open_prs": null,
   "created_at": "2022-04-29T02:41:34Z",
-  "pushed_at": "2026-11-16T22:55:27Z",
-  "updated_at": "2026-11-17T02:18:03Z",
+  "pushed_at": "2026-11-17T09:02:38Z",
+  "updated_at": "2026-11-17T10:15:36Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -44,30 +44,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 677618,
+  "size_kb": 677536,
   "og_image": "https://opengraph.githubassets.com/1/actualbudget/actual",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T21:24:50.000Z",
-  "commits_90d": 313,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v26.11.0",
-  "name": "v26.11.0",
-  "published_at": "2026-11-02T01:54:02Z",
-  "url": "https://github.com/actualbudget/actual/releases/tag/v26.11.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 4375,
@@ -86,9 +66,9 @@
   },
   "headings": 12,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:33.560Z",
-  "checked_at": "2026-11-17T02:20:33.560Z"
+  "fetched_at": "2026-11-17T11:56:29.196Z",
+  "checked_at": "2026-11-17T11:56:29.196Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:33.560Z"
+ "details_checked_at": "2026-11-17T11:56:29.196Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "upstash/context7",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:55.437Z",
  "meta": {
   "name": "context7",
   "owner": "upstash",
@@ -28,14 +28,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 64940,
-  "forks": 3263,
-  "watchers": null,
-  "open_issues": 54,
+  "stars": 64974,
+  "forks": 3265,
+  "watchers": 163,
+  "open_issues": 47,
   "open_prs": null,
   "created_at": "2025-03-26T23:40:39Z",
-  "pushed_at": "2026-11-16T16:42:40Z",
-  "updated_at": "2026-11-17T01:36:30Z",
+  "pushed_at": "2026-11-17T10:52:57Z",
+  "updated_at": "2026-11-17T11:47:34Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -44,30 +44,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 50787,
+  "size_kb": 50891,
   "og_image": "https://opengraph.githubassets.com/1/upstash/context7",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T16:30:56.000Z",
-  "commits_90d": 391,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "ctx7@0.12.1",
-  "name": "ctx7@0.12.1",
-  "published_at": "2026-11-16T16:31:48Z",
-  "url": "https://github.com/upstash/context7/releases/tag/ctx7%400.12.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 12856,
@@ -102,9 +82,14 @@
   },
   "headings": 17,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:19.311Z",
-  "checked_at": "2026-11-17T02:20:19.311Z"
+  "fetched_at": "2026-11-17T11:56:27.301Z",
+  "checked_at": "2026-11-17T11:56:27.301Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:19.311Z"
+ "contributors": {
+  "count": 148,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:38.377Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:27.301Z"
 }

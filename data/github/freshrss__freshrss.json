@@ -5,8 +5,8 @@
  "full_name": "FreshRSS/FreshRSS",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:03.703Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:51.966Z",
  "meta": {
   "name": "FreshRSS",
   "owner": "FreshRSS",
@@ -33,14 +33,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 16606,
-  "forks": 1348,
-  "watchers": null,
+  "stars": 16610,
+  "forks": 1349,
+  "watchers": 114,
   "open_issues": 681,
   "open_prs": null,
   "created_at": "2012-10-21T16:48:50Z",
-  "pushed_at": "2026-11-16T22:26:18Z",
-  "updated_at": "2026-11-17T01:08:07Z",
+  "pushed_at": "2026-11-17T08:28:56Z",
+  "updated_at": "2026-11-17T10:07:02Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,30 +49,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 37412,
+  "size_kb": 37431,
   "og_image": "https://opengraph.githubassets.com/1/FreshRSS/FreshRSS",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T22:26:18.000Z",
-  "commits_90d": 231,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "1.30.4",
-  "name": "FreshRSS 1.30.4",
-  "published_at": "2026-10-21T20:45:47Z",
-  "url": "https://github.com/FreshRSS/FreshRSS/releases/tag/1.30.4",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 25066,
@@ -91,9 +71,9 @@
   },
   "headings": 17,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:40.177Z",
-  "checked_at": "2026-11-17T02:20:40.177Z"
+  "fetched_at": "2026-11-17T11:56:29.744Z",
+  "checked_at": "2026-11-17T11:56:29.744Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:40.177Z"
+ "details_checked_at": "2026-11-17T11:56:29.744Z"
 }

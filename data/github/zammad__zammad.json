@@ -5,8 +5,8 @@
  "full_name": "zammad/zammad",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:26.318Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:16.819Z",
  "meta": {
   "name": "zammad",
   "owner": "zammad",
@@ -38,14 +38,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 6122,
-  "forks": 1099,
-  "watchers": null,
+  "stars": 6124,
+  "forks": 1100,
+  "watchers": 131,
   "open_issues": 481,
   "open_prs": null,
   "created_at": "2012-04-02T08:50:33Z",
-  "pushed_at": "2026-11-16T16:34:18Z",
-  "updated_at": "2026-11-16T13:21:38Z",
+  "pushed_at": "2026-11-17T10:42:14Z",
+  "updated_at": "2026-11-17T09:25:43Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,27 +54,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 1128531,
+  "size_kb": 1129318,
   "og_image": "https://opengraph.githubassets.com/1/zammad/zammad",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T14:47:47.000Z",
-  "commits_90d": 677,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": {
-  "tag": "7.2.3",
-  "name": "7.2.3",
-  "published_at": "2026-11-11T05:57:02Z",
-  "url": "https://github.com/zammad/zammad/releases/tag/7.2.3"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 3427,
@@ -88,9 +71,14 @@
   },
   "headings": 5,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:41.447Z",
-  "checked_at": "2026-11-17T02:19:41.447Z"
+  "fetched_at": "2026-11-17T11:56:23.169Z",
+  "checked_at": "2026-11-17T11:56:23.169Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:41.447Z"
+ "contributors": {
+  "count": 188,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:32.396Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:23.169Z"
 }

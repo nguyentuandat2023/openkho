@@ -5,8 +5,8 @@
  "full_name": "microsoft/markitdown",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:19.723Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:23.268Z",
  "meta": {
   "name": "markitdown",
   "owner": "microsoft",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 195799,
-  "forks": 14803,
-  "watchers": null,
-  "open_issues": 815,
+  "stars": 195938,
+  "forks": 14818,
+  "watchers": 594,
+  "open_issues": 819,
   "open_prs": null,
   "created_at": "2024-11-13T19:56:40Z",
   "pushed_at": "2026-11-07T00:14:01Z",
-  "updated_at": "2026-11-17T02:17:09Z",
+  "updated_at": "2026-11-17T11:47:45Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,26 +51,6 @@
   "og_image": "https://opengraph.githubassets.com/1/microsoft/markitdown",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-07T00:14:01.000Z",
-  "commits_90d": 39,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.1.9",
-  "name": "Version 0.1.9",
-  "published_at": "2026-10-21T19:40:32Z",
-  "url": "https://github.com/microsoft/markitdown/releases/tag/v0.1.9",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 21397,
@@ -90,23 +70,18 @@
     "truncated": true,
     "chars": 8829
    },
-   "features": {
-    "title": "Why Markdown?",
-    "html": "<p>Markdown is extremely close to plain text, with minimal markup or formatting, but still\nprovides a way to represent important document structure. Mainstream LLMs, such as\nOpenAI's GPT-4o, natively \"<em>speak</em>\" Markdown, and often incorporate Markdown into their\nresponses unprompted. This suggests that they have been trained on vast amounts of\nMarkdown-formatted text, and understand it well. As a side benefit, Markdown conventions\nare also highly token-efficient.</p>",
-    "truncated": false,
-    "chars": 467
-   }
+   "features": null
   },
   "headings": 23,
-  "processor": 3,
-  "fetched_at": "2026-11-16T04:33:53.251Z",
-  "checked_at": "2026-11-16T04:33:53.251Z"
+  "processor": 4,
+  "fetched_at": "2026-11-17T11:56:20.775Z",
+  "checked_at": "2026-11-17T11:56:20.775Z"
  },
- "details_checked_at": "2026-11-16T04:32:16.512Z",
  "contributors": {
   "count": 135,
   "capped": false,
   "anon": true,
   "fetched_at": "2026-11-16T05:40:37.225Z"
- }
+ },
+ "details_checked_at": "2026-11-17T11:56:20.775Z"
 }

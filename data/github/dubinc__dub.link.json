@@ -5,8 +5,8 @@
  "full_name": "dubinc/dub.link",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:45.810Z",
  "meta": {
   "name": "dub.link",
   "owner": "dubinc",
@@ -35,14 +35,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 25182,
-  "forks": 3410,
-  "watchers": null,
+  "stars": 25186,
+  "forks": 3411,
+  "watchers": 88,
   "open_issues": 76,
   "open_prs": null,
   "created_at": "2022-08-27T22:15:11Z",
   "pushed_at": "2026-10-27T02:24:37Z",
-  "updated_at": "2026-11-17T00:18:06Z",
+  "updated_at": "2026-11-17T10:35:47Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,18 +55,6 @@
   "og_image": "https://opengraph.githubassets.com/1/dubinc/dub.link",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-10-26T16:39:24.000Z",
-  "commits_90d": 76,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 4829,
@@ -85,9 +73,14 @@
   },
   "headings": 10,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:09.237Z",
-  "checked_at": "2026-11-16T05:09:09.237Z"
+  "fetched_at": "2026-11-17T11:56:26.915Z",
+  "checked_at": "2026-11-17T11:56:26.915Z"
  },
- "details_checked_at": "2026-11-16T05:06:31.394Z",
- "contributors": null
+ "contributors": {
+  "count": 94,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:37.762Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:26.915Z"
 }

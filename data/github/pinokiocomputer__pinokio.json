@@ -5,8 +5,8 @@
  "full_name": "pinokiocomputer/pinokio",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:23.073Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:39.061Z",
  "meta": {
   "name": "pinokio",
   "owner": "pinokiocomputer",
@@ -23,14 +23,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 8406,
+  "stars": 8410,
   "forks": 856,
-  "watchers": null,
+  "watchers": 108,
   "open_issues": 474,
   "open_prs": null,
   "created_at": "2023-07-09T10:02:41Z",
   "pushed_at": "2026-11-05T15:59:23Z",
-  "updated_at": "2026-11-17T02:17:37Z",
+  "updated_at": "2026-11-17T11:01:44Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -43,26 +43,6 @@
   "og_image": "https://opengraph.githubassets.com/1/pinokiocomputer/pinokio",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-05T14:54:14.000Z",
-  "commits_90d": 103,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v8.3.7",
-  "name": "v8.3.7",
-  "published_at": "2026-11-05T16:06:36Z",
-  "url": "https://github.com/pinokiocomputer/pinokio/releases/tag/v8.3.7",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 6437,
@@ -76,14 +56,14 @@
   },
   "headings": 6,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:07:57.863Z",
-  "checked_at": "2026-11-16T05:07:57.863Z"
+  "fetched_at": "2026-11-17T11:56:21.663Z",
+  "checked_at": "2026-11-17T11:56:21.663Z"
  },
- "details_checked_at": "2026-11-16T05:06:17.093Z",
  "contributors": {
   "count": 1,
   "capped": false,
   "anon": true,
   "fetched_at": "2026-11-17T02:20:53.434Z"
- }
+ },
+ "details_checked_at": "2026-11-17T11:56:21.663Z"
 }

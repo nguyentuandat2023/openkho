@@ -1095,6 +1095,378 @@
     "[09:23:12] Xếp hạng: 3340 repo · có Trending 24h/7d/30d: 1641/57/252 · Hidden Gem 36 · trang radar 175 (+38/−0)"
    ],
    "next_due_at": "2026-11-18T02:23:10.330Z"
+  },
+  {
+   "id": "2026-11-17T11-48-11-265Z_discover",
+   "job": "discover",
+   "trigger": "actions",
+   "status": "success",
+   "started_at": "2026-11-17T11:48:11.266Z",
+   "host": "runnervm8axu0",
+   "pid": 2237,
+   "log_file": ".cache/jobs/logs/2026-11-17T11-48-11-265Z_discover.log",
+   "chained": {
+    "id": "2026-11-17T11-49-28-513Z_rank",
+    "status": "success",
+    "summary": "Trending 7 ngày: 65 repo · 57 hidden gem · 214 trang radar"
+   },
+   "finished_at": "2026-11-17T11:49:29.682Z",
+   "duration_ms": 78416,
+   "attempts": 1,
+   "error": null,
+   "summary": "710 repo mới, 2042 cập nhật, radar 3000",
+   "stats": {
+    "queries": 30,
+    "query_errors": 0,
+    "items": 3000,
+    "new": 710,
+    "updated": 2041,
+    "renamed": 1,
+    "curated_seen": 248,
+    "excluded": 0,
+    "snapshots": 3000,
+    "by_group": {
+     "new7": {
+      "found": 100,
+      "new": 7,
+      "total": 2311
+     },
+     "new30": {
+      "found": 200,
+      "new": 1,
+      "total": 3670
+     },
+     "new90": {
+      "found": 200,
+      "new": 0,
+      "total": 2849
+     },
+     "popular": {
+      "found": 200,
+      "new": 0,
+      "total": 2274
+     },
+     "young_active": {
+      "found": 100,
+      "new": 0,
+      "total": 3222
+     },
+     "topic:api": {
+      "found": 100,
+      "new": 73,
+      "total": 467
+     },
+     "gem:api": {
+      "found": 100,
+      "new": 95,
+      "total": 271
+     },
+     "topic:productivity": {
+      "found": 100,
+      "new": 74,
+      "total": 227
+     },
+     "gem:productivity": {
+      "found": 100,
+      "new": 82,
+      "total": 446
+     },
+     "topic:llm": {
+      "found": 100,
+      "new": 1,
+      "total": 1366
+     },
+     "gem:llm": {
+      "found": 100,
+      "new": 4,
+      "total": 2987
+     },
+     "topic:ai-agents": {
+      "found": 100,
+      "new": 1,
+      "total": 1054
+     },
+     "gem:ai-agents": {
+      "found": 100,
+      "new": 4,
+      "total": 3147
+     },
+     "topic:agents": {
+      "found": 100,
+      "new": 0,
+      "total": 401
+     },
+     "gem:agents": {
+      "found": 100,
+      "new": 62,
+      "total": 591
+     },
+     "topic:generative-ai": {
+      "found": 100,
+      "new": 27,
+      "total": 196
+     },
+     "gem:generative-ai": {
+      "found": 100,
+      "new": 50,
+      "total": 714
+     },
+     "topic:rag": {
+      "found": 100,
+      "new": 17,
+      "total": 323
+     },
+     "gem:rag": {
+      "found": 100,
+      "new": 53,
+      "total": 500
+     },
+     "topic:mcp": {
+      "found": 100,
+      "new": 0,
+      "total": 1057
+     },
+     "gem:mcp": {
+      "found": 100,
+      "new": 2,
+      "total": 2773
+     },
+     "topic:machine-learning": {
+      "found": 100,
+      "new": 0,
+      "total": 728
+     },
+     "gem:machine-learning": {
+      "found": 100,
+      "new": 73,
+      "total": 311
+     },
+     "topic:deep-learning": {
+      "found": 100,
+      "new": 1,
+      "total": 493
+     },
+     "gem:deep-learning": {
+      "found": 100,
+      "new": 63,
+      "total": 199
+     },
+     "topic:automation": {
+      "found": 100,
+      "new": 10,
+      "total": 500
+     },
+     "gem:automation": {
+      "found": 100,
+      "new": 10,
+      "total": 917
+     }
+    },
+    "dropped": 710,
+    "readme_fetched": 60,
+    "radar_total": 3000
+   },
+   "changed": true,
+   "log_tail": [
+    "[18:48:35]   gem:api                trang 1: 100 repo (tổng khớp 271) · search còn 20/phút",
+    "[18:48:38]   topic:productivity     trang 1: 100 repo (tổng khớp 227) · search còn 19/phút",
+    "[18:48:40]   gem:productivity       trang 1: 100 repo (tổng khớp 446) · search còn 18/phút",
+    "[18:48:43]   topic:llm              trang 1: 100 repo (tổng khớp 1.366) · search còn 17/phút",
+    "[18:48:45]   gem:llm                trang 1: 100 repo (tổng khớp 2.987) · search còn 16/phút",
+    "[18:48:48]   topic:ai-agents        trang 1: 100 repo (tổng khớp 1.054) · search còn 15/phút",
+    "[18:48:50]   gem:ai-agents          trang 1: 100 repo (tổng khớp 3.147) · search còn 14/phút",
+    "[18:48:53]   topic:agents           trang 1: 100 repo (tổng khớp 401) · search còn 13/phút",
+    "[18:48:55]   gem:agents             trang 1: 100 repo (tổng khớp 591) · search còn 12/phút",
+    "[18:48:58]   topic:generative-ai    trang 1: 100 repo (tổng khớp 196) · search còn 11/phút",
+    "[18:49:00]   gem:generative-ai      trang 1: 100 repo (tổng khớp 714) · search còn 10/phút",
+    "[18:49:03]   topic:rag              trang 1: 100 repo (tổng khớp 323) · search còn 9/phút",
+    "[18:49:05]   gem:rag                trang 1: 100 repo (tổng khớp 500) · search còn 8/phút",
+    "[18:49:08]   topic:mcp              trang 1: 100 repo (tổng khớp 1.057) · search còn 7/phút",
+    "[18:49:10]   gem:mcp                trang 1: 100 repo (tổng khớp 2.773) · search còn 6/phút",
+    "[18:49:13]   topic:machine-learning trang 1: 100 repo (tổng khớp 728) · search còn 5/phút",
+    "[18:49:16]   gem:machine-learning   trang 1: 100 repo (tổng khớp 311) · search còn 29/phút",
+    "[18:49:18]   topic:deep-learning    trang 1: 100 repo (tổng khớp 493) · search còn 28/phút",
+    "[18:49:21]   gem:deep-learning      trang 1: 100 repo (tổng khớp 199) · search còn 27/phút",
+    "[18:49:24]   topic:automation       trang 1: 100 repo (tổng khớp 500) · search còn 26/phút",
+    "[18:49:27]   gem:automation         trang 1: 100 repo (tổng khớp 917) · search còn 25/phút",
+    "[18:49:27]   Radar vượt giới hạn 3000 → bỏ 710 repo ít giá trị nhất",
+    "[18:49:28]   README: 60 lấy được, 0 repo không có README (60 ứng viên)",
+    "[18:49:28] Khám phá xong: 710 repo mới · 2042 cập nhật · 248 thuộc catalog · radar có 3000 repo",
+    "[18:49:28] ↳ Xếp hạng lại sau khi dữ liệu thay đổi"
+   ],
+   "next_due_at": "2026-11-17T14:48:11.266Z"
+  },
+  {
+   "id": "2026-11-17T11-49-28-513Z_rank",
+   "job": "rank",
+   "trigger": "sau discover",
+   "status": "success",
+   "started_at": "2026-11-17T11:49:28.513Z",
+   "host": "runnervm8axu0",
+   "pid": 2237,
+   "log_file": ".cache/jobs/logs/2026-11-17T11-49-28-513Z_rank.log",
+   "finished_at": "2026-11-17T11:49:29.680Z",
+   "duration_ms": 1167,
+   "attempts": 1,
+   "error": null,
+   "summary": "Trending 7 ngày: 65 repo · 57 hidden gem · 214 trang radar",
+   "stats": {
+    "repos": 3340,
+    "curated": 340,
+    "radar": 3000,
+    "with_trending": {
+     "d1": 1511,
+     "d7": 65,
+     "d30": 265
+    },
+    "growth_methods": {
+     "d1:snapshots": 1612,
+     "d7:none": 3219,
+     "d30:none": 2965,
+     "d1:none": 1725,
+     "d30:created_in_window": 375,
+     "d7:created_in_window": 121,
+     "d1:created_in_window": 3
+    },
+    "gems": 57,
+    "suppressed": 109,
+    "anomalies": 111,
+    "published_total": 214,
+    "published_added": 39,
+    "published_removed": 0,
+    "history_points": 3340
+   },
+   "changed": true,
+   "log_tail": [
+    "[18:49:28] ▶ Bắt đầu job \"rank\" (kích hoạt: sau discover, lượt 2026-11-17T11-49-28-513Z_rank)",
+    "[18:49:29] Xếp hạng: 3340 repo · có Trending 24h/7d/30d: 1511/65/265 · Hidden Gem 57 · trang radar 214 (+39/−0)"
+   ],
+   "next_due_at": "2026-11-18T11:49:28.513Z"
+  },
+  {
+   "id": "2026-11-17T11-49-29-685Z_refresh",
+   "job": "refresh",
+   "trigger": "actions",
+   "status": "success",
+   "started_at": "2026-11-17T11:49:29.685Z",
+   "host": "runnervm8axu0",
+   "pid": 2237,
+   "log_file": ".cache/jobs/logs/2026-11-17T11-49-29-685Z_refresh.log",
+   "chained": {
+    "id": "2026-11-17T11-58-40-133Z_rank",
+    "status": "success",
+    "summary": "Trending 7 ngày: 64 repo · 102 hidden gem · 253 trang radar"
+   },
+   "finished_at": "2026-11-17T11:58:41.265Z",
+   "duration_ms": 551580,
+   "attempts": 1,
+   "error": null,
+   "summary": "catalog 340 repo, radar 1126 repo, 60 feed commit, 60 README",
+   "stats": {
+    "catalog": {
+     "totals": {
+      "ok": 338,
+      "archived": 2
+     },
+     "renamed": 0,
+     "deleted": 0,
+     "errors": 0,
+     "snapshots": 207
+    },
+    "radar": {
+     "due": 1131,
+     "refreshed": 1126,
+     "batches": 33,
+     "missing": 5,
+     "resolved_missing": 5
+    },
+    "commit_feeds": 60,
+    "releases": 40,
+    "readme": 60,
+    "stargazer_samples": 0,
+    "contributors": 150,
+    "snapshot_files": 2,
+    "rate_limit": {
+     "core": 3919,
+     "search": 27
+    }
+   },
+   "changed": true,
+   "log_tail": [
+    "[18:56:25]   Chi tiết 200/340",
+    "[18:56:26]   Chi tiết 225/340",
+    "[18:56:27]   Chi tiết 250/340",
+    "[18:56:28]   Chi tiết 275/340",
+    "[18:56:29]   Chi tiết 300/340",
+    "[18:56:30]   Chi tiết 325/340",
+    "[18:56:30]   Chi tiết 340/340",
+    "[18:56:30]   Người đóng góp: 200/258 repo cần cập nhật",
+    "[18:56:40]   Người đóng góp: đã cập nhật 200",
+    "[18:56:40] Catalog xong sau 431 giây: ok=338 · archived=2",
+    "[18:56:52]   Radar: 350/1131 · search còn 20/phút",
+    "[18:57:04]   Radar: 700/1131 · search còn 10/phút",
+    "[18:57:17]   Radar: 1050/1131 · search còn 0/phút",
+    "[18:57:44] Radar: cập nhật 1126/1131 repo (33 lô)",
+    "[18:57:45]   ✖ RyoTheOne/dxo-photolab-10-config: không còn truy cập được (404 — đã xóa hoặc chuyển riêng tư)",
+    "[18:57:45]   ✖ Malik-825/sketchup-pro-desktop: không còn truy cập được (404 — đã xóa hoặc chuyển riêng tư)",
+    "[18:57:45]   ✖ phamcucpqrwbbnposhmn96-ui/KSNStudy: không còn truy cập được (404 — đã xóa hoặc chuyển riêng tư)",
+    "[18:57:45]   ✖ amber-lance-72/xeno-roblox-desktop: không còn truy cập được (404 — đã xóa hoặc chuyển riêng tư)",
+    "[18:57:45]   ↪ IliasHad/edit-mind → IliasHad/orcah-studio",
+    "[18:57:48]   Feed commit: 60/60 repo",
+    "[18:57:58]   Bản phát hành: 40/40 repo",
+    "[18:57:59]   README: 60 lấy được, 0 repo không có README (60 ứng viên)",
+    "[18:58:07]   Mẫu stargazer: 0/48 repo · core còn 4069",
+    "[18:58:39]   Người đóng góp (radar): 150/150 repo",
+    "[18:58:40] ↳ Xếp hạng lại sau khi dữ liệu thay đổi"
+   ],
+   "next_due_at": "2026-11-17T17:49:29.685Z"
+  },
+  {
+   "id": "2026-11-17T11-58-40-133Z_rank",
+   "job": "rank",
+   "trigger": "sau refresh",
+   "status": "success",
+   "started_at": "2026-11-17T11:58:40.133Z",
+   "host": "runnervm8axu0",
+   "pid": 2237,
+   "log_file": ".cache/jobs/logs/2026-11-17T11-58-40-133Z_rank.log",
+   "finished_at": "2026-11-17T11:58:41.263Z",
+   "duration_ms": 1130,
+   "attempts": 1,
+   "error": null,
+   "summary": "Trending 7 ngày: 64 repo · 102 hidden gem · 253 trang radar",
+   "stats": {
+    "repos": 3340,
+    "curated": 340,
+    "radar": 3000,
+    "with_trending": {
+     "d1": 1511,
+     "d7": 64,
+     "d30": 263
+    },
+    "growth_methods": {
+     "d1:snapshots": 1612,
+     "d7:none": 3219,
+     "d30:none": 2966,
+     "d1:none": 1725,
+     "d30:created_in_window": 374,
+     "d7:created_in_window": 121,
+     "d1:created_in_window": 3
+    },
+    "gems": 102,
+    "suppressed": 109,
+    "anomalies": 130,
+    "published_total": 253,
+    "published_added": 39,
+    "published_removed": 0,
+    "history_points": 3340
+   },
+   "changed": true,
+   "log_tail": [
+    "[18:58:40] ▶ Bắt đầu job \"rank\" (kích hoạt: sau refresh, lượt 2026-11-17T11-58-40-133Z_rank)",
+    "[18:58:41] Xếp hạng: 3340 repo · có Trending 24h/7d/30d: 1511/64/263 · Hidden Gem 102 · trang radar 253 (+39/−0)"
+   ],
+   "next_due_at": "2026-11-18T11:58:40.133Z"
   }
  ]
 }

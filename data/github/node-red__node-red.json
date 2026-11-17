@@ -5,8 +5,8 @@
  "full_name": "node-red/node-red",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:19.723Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:11.731Z",
  "meta": {
   "name": "node-red",
   "owner": "node-red",
@@ -30,14 +30,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 23850,
+  "stars": 23852,
   "forks": 4033,
-  "watchers": null,
+  "watchers": 529,
   "open_issues": 356,
   "open_prs": null,
   "created_at": "2013-09-05T13:30:47Z",
-  "pushed_at": "2026-11-13T16:53:46Z",
-  "updated_at": "2026-11-16T08:50:47Z",
+  "pushed_at": "2026-11-17T11:50:49Z",
+  "updated_at": "2026-11-17T11:39:00Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,30 +46,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 76066,
+  "size_kb": 76030,
   "og_image": "https://opengraph.githubassets.com/1/node-red/node-red",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-13T15:15:17.000Z",
-  "commits_90d": 380,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "5.0.9",
-  "name": "5.0.9: Maintenance Release",
-  "published_at": "2026-10-21T10:29:19Z",
-  "url": "https://github.com/node-red/node-red/releases/tag/5.0.9",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 5275,
@@ -87,15 +67,15 @@
    "features": null
   },
   "headings": 7,
-  "processor": 3,
-  "fetched_at": "2026-11-16T04:33:45.015Z",
-  "checked_at": "2026-11-16T04:33:45.015Z"
+  "processor": 4,
+  "fetched_at": "2026-11-17T11:56:20.211Z",
+  "checked_at": "2026-11-17T11:56:20.211Z"
  },
- "details_checked_at": "2026-11-16T04:32:16.512Z",
  "contributors": {
   "count": 301,
   "capped": false,
   "anon": true,
   "fetched_at": "2026-11-16T05:40:31.136Z"
- }
+ },
+ "details_checked_at": "2026-11-17T11:56:20.211Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "mrdoob/three.js",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:29.795Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:52.967Z",
  "meta": {
   "name": "three.js",
   "owner": "mrdoob",
@@ -36,14 +36,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 118666,
-  "forks": 37012,
-  "watchers": null,
+  "stars": 118727,
+  "forks": 37014,
+  "watchers": 2521,
   "open_issues": 394,
   "open_prs": null,
   "created_at": "2010-03-23T18:58:01Z",
-  "pushed_at": "2026-11-16T22:50:58Z",
-  "updated_at": "2026-11-17T02:14:33Z",
+  "pushed_at": "2026-11-17T11:18:52Z",
+  "updated_at": "2026-11-17T11:17:05Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -52,30 +52,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 1704572,
+  "size_kb": 1704443,
   "og_image": "https://opengraph.githubassets.com/1/mrdoob/three.js",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T22:50:58.000Z",
-  "commits_90d": 1087,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "r187",
-  "name": "r187",
-  "published_at": "2026-10-30T08:03:18Z",
-  "url": "https://github.com/mrdoob/three.js/releases/tag/r187",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 2969,
@@ -94,9 +74,14 @@
   },
   "headings": 5,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:33.247Z",
-  "checked_at": "2026-11-17T02:20:01.709Z"
+  "fetched_at": "2026-11-17T11:56:24.678Z",
+  "checked_at": "2026-11-17T11:56:24.678Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:01.709Z"
+ "contributors": {
+  "count": 2626,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:34.500Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:24.678Z"
 }

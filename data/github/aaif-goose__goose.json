@@ -5,8 +5,8 @@
  "full_name": "aaif-goose/goose",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:16.355Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:51:49.585Z",
  "meta": {
   "name": "goose",
   "owner": "aaif-goose",
@@ -28,14 +28,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 56691,
-  "forks": 6601,
-  "watchers": null,
-  "open_issues": 539,
+  "stars": 56710,
+  "forks": 6606,
+  "watchers": 286,
+  "open_issues": 532,
   "open_prs": null,
   "created_at": "2024-08-23T19:03:36Z",
-  "pushed_at": "2026-11-17T02:15:38Z",
-  "updated_at": "2026-11-17T00:18:36Z",
+  "pushed_at": "2026-11-17T07:07:41Z",
+  "updated_at": "2026-11-17T11:40:02Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -44,35 +44,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 997373,
+  "size_kb": 997451,
   "og_image": "https://opengraph.githubassets.com/1/aaif-goose/goose",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T01:39:14.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v1.59.2",
-  "name": "v1.59.2",
-  "published_at": "2026-11-16T05:34:21Z",
-  "url": "https://github.com/aaif-goose/goose/releases/tag/v1.59.2",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "gdk-v0.1.0-alpha.14",
-  "name": "gdk-v0.1.0-alpha.14: chore(GDK): release v0.1.0-alpha.14 (#13468)",
-  "published_at": "2026-11-16T22:01:49Z",
-  "url": "https://github.com/aaif-goose/goose/releases/tag/gdk-v0.1.0-alpha.14"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 3435,
@@ -91,8 +66,8 @@
   },
   "headings": 6,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:13.795Z",
-  "checked_at": "2026-11-17T02:19:13.795Z"
+  "fetched_at": "2026-11-17T11:56:19.203Z",
+  "checked_at": "2026-11-17T11:56:19.203Z"
  },
  "contributors": {
   "count": 689,
@@ -100,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:20.306Z"
  },
- "details_checked_at": "2026-11-17T02:19:13.795Z"
+ "details_checked_at": "2026-11-17T11:56:19.203Z"
 }

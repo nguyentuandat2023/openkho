@@ -5,8 +5,8 @@
  "full_name": "hiyouga/LlamaFactory",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:19.723Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:32.716Z",
  "meta": {
   "name": "LlamaFactory",
   "owner": "hiyouga",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 76071,
-  "forks": 9377,
-  "watchers": null,
+  "stars": 76080,
+  "forks": 9379,
+  "watchers": 342,
   "open_issues": 1249,
   "open_prs": null,
   "created_at": "2023-05-28T10:09:12Z",
-  "pushed_at": "2026-11-16T19:13:46Z",
-  "updated_at": "2026-11-16T18:14:51Z",
+  "pushed_at": "2026-11-17T04:25:42Z",
+  "updated_at": "2026-11-17T11:40:31Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,33 +60,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 14256,
+  "size_kb": 14262,
   "og_image": "https://opengraph.githubassets.com/1/hiyouga/LlamaFactory",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T19:13:43.000Z",
-  "commits_90d": 64,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.9.5",
-  "name": "v0.9.5: Qwen3.5/3.6, Gemma 4, Transformers v5",
-  "published_at": "2026-05-30T16:02:44Z",
-  "url": "https://github.com/hiyouga/LlamaFactory/releases/tag/v0.9.5",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
-  "length": 70554,
+  "length": 70682,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [],
@@ -107,8 +87,8 @@
   },
   "headings": 35,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:25.649Z",
-  "checked_at": "2026-11-17T02:19:25.649Z"
+  "fetched_at": "2026-11-17T11:56:21.294Z",
+  "checked_at": "2026-11-17T11:56:21.294Z"
  },
  "contributors": {
   "count": 303,
@@ -116,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T07:03:47.895Z"
  },
- "details_checked_at": "2026-11-17T02:19:25.649Z"
+ "details_checked_at": "2026-11-17T11:56:21.294Z"
 }

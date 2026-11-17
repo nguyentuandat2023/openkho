@@ -5,8 +5,8 @@
  "full_name": "postgres/postgres",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:29.795Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:34.311Z",
  "meta": {
   "name": "postgres",
   "owner": "postgres",
@@ -23,14 +23,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 22855,
+  "stars": 22860,
   "forks": 6114,
-  "watchers": null,
+  "watchers": 577,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2010-09-21T11:35:45Z",
-  "pushed_at": "2026-11-16T20:04:16Z",
-  "updated_at": "2026-11-16T23:18:51Z",
+  "pushed_at": "2026-11-17T06:38:11Z",
+  "updated_at": "2026-11-17T07:11:42Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -39,27 +39,10 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 822718,
+  "size_kb": 823136,
   "og_image": "https://opengraph.githubassets.com/1/postgres/postgres",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T11:17:48.000Z",
-  "commits_90d": 407,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": {
-  "tag": "REL_19_RC2",
-  "name": "REL_19_RC2",
-  "published_at": "2026-11-09T20:06:46Z",
-  "url": "https://github.com/postgres/postgres/releases/tag/REL_19_RC2"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 989,
@@ -73,9 +56,14 @@
   },
   "headings": 1,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:48.918Z",
-  "checked_at": "2026-11-17T02:19:48.918Z"
+  "fetched_at": "2026-11-17T11:56:23.866Z",
+  "checked_at": "2026-11-17T11:56:23.866Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:48.918Z"
+ "contributors": {
+  "count": 58,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:33.414Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:23.866Z"
 }

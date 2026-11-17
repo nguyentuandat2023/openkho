@@ -5,8 +5,8 @@
  "full_name": "open-webui/open-webui",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:23.074Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:52.103Z",
  "meta": {
   "name": "open-webui",
   "owner": "open-webui",
@@ -39,14 +39,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 158862,
-  "forks": 23088,
-  "watchers": null,
-  "open_issues": 250,
+  "stars": 158904,
+  "forks": 23093,
+  "watchers": 683,
+  "open_issues": 247,
   "open_prs": null,
   "created_at": "2023-10-06T22:08:27Z",
-  "pushed_at": "2026-11-16T17:39:47Z",
-  "updated_at": "2026-11-17T02:15:16Z",
+  "pushed_at": "2026-11-17T11:35:15Z",
+  "updated_at": "2026-11-17T11:49:31Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,30 +55,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 568583,
+  "size_kb": 596032,
   "og_image": "https://opengraph.githubassets.com/1/open-webui/open-webui",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-08T23:48:12.000Z",
-  "commits_90d": 210,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.13.3",
-  "name": "v0.13.3",
-  "published_at": "2026-11-08T23:48:24Z",
-  "url": "https://github.com/open-webui/open-webui/releases/tag/v0.13.3",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 7156,
@@ -97,9 +77,14 @@
   },
   "headings": 12,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:12.179Z",
-  "checked_at": "2026-11-17T02:19:31.645Z"
+  "fetched_at": "2026-11-17T11:56:22.103Z",
+  "checked_at": "2026-11-17T11:56:22.103Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:31.645Z"
+ "contributors": {
+  "count": 893,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:31.338Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:22.103Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "ventoy/Ventoy",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.971Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:21.233Z",
  "meta": {
   "name": "Ventoy",
   "owner": "ventoy",
@@ -42,14 +42,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 80924,
-  "forks": 5086,
-  "watchers": null,
+  "stars": 80948,
+  "forks": 5091,
+  "watchers": 733,
   "open_issues": 1018,
   "open_prs": null,
   "created_at": "2020-03-10T15:19:19Z",
   "pushed_at": "2026-10-22T08:11:00Z",
-  "updated_at": "2026-11-17T01:57:19Z",
+  "updated_at": "2026-11-17T11:11:36Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -62,26 +62,6 @@
   "og_image": "https://opengraph.githubassets.com/1/ventoy/Ventoy",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-10-22T08:10:50.000Z",
-  "commits_90d": 46,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v1.1.18",
-  "name": "Ventoy 1.1.18 release",
-  "published_at": "2026-10-09T05:21:11Z",
-  "url": "https://github.com/ventoy/Ventoy/releases/tag/v1.1.18",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 11806,
@@ -105,9 +85,14 @@
   },
   "headings": 13,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:29.210Z",
-  "checked_at": "2026-11-16T05:09:29.210Z"
+  "fetched_at": "2026-11-17T11:56:28.418Z",
+  "checked_at": "2026-11-17T11:56:28.418Z"
  },
- "details_checked_at": "2026-11-16T05:07:14.364Z",
- "contributors": null
+ "contributors": {
+  "count": 136,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:40.154Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:28.418Z"
 }

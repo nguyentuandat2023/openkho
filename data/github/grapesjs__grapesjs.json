@@ -5,8 +5,8 @@
  "full_name": "GrapesJS/grapesjs",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:06.955Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:56:17.741Z",
  "meta": {
   "name": "grapesjs",
   "owner": "GrapesJS",
@@ -36,14 +36,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 26416,
+  "stars": 26417,
   "forks": 4652,
-  "watchers": null,
+  "watchers": 466,
   "open_issues": 29,
   "open_prs": null,
   "created_at": "2016-01-22T00:23:19Z",
   "pushed_at": "2026-11-13T10:01:59Z",
-  "updated_at": "2026-11-17T01:56:43Z",
+  "updated_at": "2026-11-17T03:08:40Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,42 +56,37 @@
   "og_image": "https://opengraph.githubassets.com/1/GrapesJS/grapesjs",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-13T10:01:59.000Z",
-  "commits_90d": 62,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.23.9",
-  "name": "v0.23.9",
-  "published_at": "2026-11-03T09:24:11Z",
-  "url": "https://github.com/GrapesJS/grapesjs/releases/tag/v0.23.9",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
-  "length": 26,
+  "length": 10859,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
   "sections": {
-   "install": null,
-   "usage": null,
-   "features": null
+   "install": {
+    "title": "Download",
+    "html": "<ul>\n<li>CDNs<ul>\n<li>UNPKG (resolves to the latest version)<ul>\n<li><code>https://unpkg.com/grapesjs</code></li>\n<li><code>https://unpkg.com/grapesjs/dist/css/grapes.min.css</code></li>\n</ul>\n</li>\n<li>CDNJS (replace <code>X.X.X</code> with the current version)<ul>\n<li><code>https://cdnjs.cloudflare.com/ajax/libs/grapesjs/X.X.X/grapes.min.js</code></li>\n<li><code>https://cdnjs.cloudflare.com/ajax/libs/grapesjs/X.X.X/css/grapes.min.css</code></li>\n</ul>\n</li>\n</ul>\n</li>\n<li>NPM<ul>\n<li><code>npm i grapesjs</code></li>\n</ul>\n</li>\n<li>GIT<ul>\n<li><code>git clone https://github.com/GrapesJS/grapesjs.git</code></li>\n</ul>\n</li>\n</ul>\n<p>For the development purpose you should follow instructions below.</p>",
+    "truncated": false,
+    "chars": 514
+   },
+   "usage": {
+    "title": "Usage",
+    "html": "<pre><code class=\"language-html\">&lt;link rel=\"stylesheet\" href=\"path/to/grapes.min.css\" /&gt;\n&lt;script src=\"path/to/grapes.min.js\"&gt;&lt;/script&gt;\n\n&lt;div id=\"gjs\"&gt;&lt;/div&gt;\n\n&lt;script type=\"text/javascript\"&gt;\n  var editor = grapesjs.init({\n    container: '#gjs',\n    components: '&lt;div class=\"txt-red\"&gt;Hello world!&lt;/div&gt;',\n    style: '.txt-red{color: red}',\n  });\n&lt;/script&gt;\n</code></pre>\n<p>For a more practical example I'd suggest looking up the code inside this demo: <a href=\"http://grapesjs.com/demo.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">http://grapesjs.com/demo.html</a></p>",
+    "truncated": false,
+    "chars": 446
+   },
+   "features": {
+    "title": "Features",
+    "html": "<table>\n<thead>\n<tr>\n<th>Blocks</th>\n<th>Style Manager</th>\n<th>Layer Manager</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><img src=\"https://grapesjs.com/assets/images/sc-grapesjs-blocks-prp.jpg\" alt=\"GrapesJS - Block Manager\" loading=\"lazy\" decoding=\"async\" height=\"400\" /></td>\n<td><img src=\"https://grapesjs.com/assets/images/sc-grapesjs-style-2.jpg\" alt=\"GrapesJS - Style Manager\" loading=\"lazy\" decoding=\"async\" height=\"400\" /></td>\n<td><img src=\"https://grapesjs.com/assets/images/sc-grapesjs-layers-2.jpg\" alt=\"GrapesJS - Layer Manager\" loading=\"lazy\" decoding=\"async\" height=\"400\" /></td>\n</tr>\n</tbody></table>\n<table>\n<thead>\n<tr>\n<th>Code Viewer</th>\n<th>Asset Manager</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><img src=\"https://grapesjs.com/assets/images/sc-grapesjs-code.jpg\" alt=\"GrapesJS - Code Viewer\" loading=\"lazy\" decoding=\"async\" height=\"300\" /></td>\n<td><img src=\"https://grapesjs.com/assets/images/sc-grapesjs-assets-1.jpg\" alt=\"GrapesJS - Asset Manager\" loading=\"lazy\" decoding=\"async\" height=\"250\" /></td>\n</tr>\n</tbody></table>\n<ul>\n<li><p>Local and remote storage</p>\n</li>\n<li><p>Default built-in commands (basically for creating and managing different components)</p>\n</li>\n</ul>",
+    "truncated": false,
+    "chars": 2172
+   }
   },
-  "headings": 0,
+  "headings": 15,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:10:01.407Z",
-  "checked_at": "2026-11-16T05:10:01.407Z"
+  "fetched_at": "2026-11-17T11:56:30.778Z",
+  "checked_at": "2026-11-17T11:56:30.778Z"
  },
- "details_checked_at": "2026-11-16T05:07:21.178Z",
- "contributors": null
+ "contributors": null,
+ "details_checked_at": "2026-11-17T11:56:30.778Z"
 }

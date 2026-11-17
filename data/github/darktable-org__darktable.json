@@ -5,8 +5,8 @@
  "full_name": "darktable-org/darktable",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:29.795Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:50.592Z",
  "meta": {
   "name": "darktable",
   "owner": "darktable-org",
@@ -25,11 +25,11 @@
   },
   "stars": 13461,
   "forks": 1525,
-  "watchers": null,
-  "open_issues": 636,
+  "watchers": 173,
+  "open_issues": 640,
   "open_prs": null,
   "created_at": "2012-03-21T21:53:04Z",
-  "pushed_at": "2026-11-17T00:48:37Z",
+  "pushed_at": "2026-11-17T06:41:29Z",
   "updated_at": "2026-11-16T16:17:03Z",
   "archived": false,
   "disabled": false,
@@ -39,35 +39,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 1379466,
+  "size_kb": 1379365,
   "og_image": "https://opengraph.githubassets.com/1/darktable-org/darktable",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T21:30:14.000Z",
-  "commits_90d": 2122,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "release-5.6.2",
-  "name": "release 5.6.2",
-  "published_at": "2026-10-06T19:14:54Z",
-  "url": "https://github.com/darktable-org/darktable/releases/tag/release-5.6.2",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "nightly",
-  "name": "Darktable nightly build 20261117",
-  "published_at": "2026-11-17T00:49:32Z",
-  "url": "https://github.com/darktable-org/darktable/releases/tag/nightly"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 25325,
@@ -96,9 +71,14 @@
   },
   "headings": 41,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:27.380Z",
-  "checked_at": "2026-11-17T02:19:56.902Z"
+  "fetched_at": "2026-11-17T11:56:24.591Z",
+  "checked_at": "2026-11-17T11:56:24.591Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:56.902Z"
+ "contributors": {
+  "count": 748,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:34.306Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:24.591Z"
 }

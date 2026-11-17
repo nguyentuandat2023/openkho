@@ -5,8 +5,8 @@
  "full_name": "AUTOMATIC1111/stable-diffusion-webui",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:23.073Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:41.351Z",
  "meta": {
   "name": "stable-diffusion-webui",
   "owner": "AUTOMATIC1111",
@@ -40,14 +40,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 165322,
+  "stars": 165327,
   "forks": 31113,
-  "watchers": null,
+  "watchers": 1238,
   "open_issues": 2512,
   "open_prs": null,
   "created_at": "2022-08-22T14:05:26Z",
   "pushed_at": "2026-03-02T07:00:53Z",
-  "updated_at": "2026-11-17T02:02:02Z",
+  "updated_at": "2026-11-17T10:36:31Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,26 +60,6 @@
   "og_image": "https://opengraph.githubassets.com/1/AUTOMATIC1111/stable-diffusion-webui",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2024-07-27T12:49:39.000Z",
-  "commits_90d": 0,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v1.10.1",
-  "name": "1.10.1",
-  "published_at": "2025-02-09T08:00:10Z",
-  "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/releases/tag/v1.10.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 12924,
@@ -103,14 +83,14 @@
   },
   "headings": 10,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:07:59.681Z",
-  "checked_at": "2026-11-16T05:07:59.681Z"
+  "fetched_at": "2026-11-17T11:56:21.667Z",
+  "checked_at": "2026-11-17T11:56:21.667Z"
  },
- "details_checked_at": "2026-11-16T05:06:17.093Z",
  "contributors": {
   "count": 639,
   "capped": false,
   "anon": true,
   "fetched_at": "2026-11-17T02:20:54.084Z"
- }
+ },
+ "details_checked_at": "2026-11-17T11:56:21.667Z"
 }

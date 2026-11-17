@@ -5,8 +5,8 @@
  "full_name": "ChromeDevTools/chrome-devtools-mcp",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:56.099Z",
  "meta": {
   "name": "chrome-devtools-mcp",
   "owner": "ChromeDevTools",
@@ -32,14 +32,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 57719,
-  "forks": 4853,
-  "watchers": null,
-  "open_issues": 128,
+  "stars": 57922,
+  "forks": 4864,
+  "watchers": 254,
+  "open_issues": 125,
   "open_prs": null,
   "created_at": "2025-09-11T10:39:55Z",
-  "pushed_at": "2026-11-16T17:21:41Z",
-  "updated_at": "2026-11-17T02:17:51Z",
+  "pushed_at": "2026-11-17T08:01:34Z",
+  "updated_at": "2026-11-17T11:54:26Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,30 +48,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 13522,
+  "size_kb": 13647,
   "og_image": "https://opengraph.githubassets.com/1/ChromeDevTools/chrome-devtools-mcp",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T17:14:19.000Z",
-  "commits_90d": 332,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "chrome-devtools-mcp-v1.13.0",
-  "name": "chrome-devtools-mcp: v1.13.0",
-  "published_at": "2026-11-11T12:40:09Z",
-  "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/releases/tag/chrome-devtools-mcp-v1.13.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 9583,
@@ -100,9 +80,14 @@
   },
   "headings": 18,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:36.734Z",
-  "checked_at": "2026-11-17T02:20:20.048Z"
+  "fetched_at": "2026-11-17T11:56:27.332Z",
+  "checked_at": "2026-11-17T11:56:27.332Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:20.048Z"
+ "contributors": {
+  "count": 170,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:38.404Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:27.332Z"
 }

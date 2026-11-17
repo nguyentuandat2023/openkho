@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T02:19:07.736Z",
+ "fetched_at": "2026-11-17T11:56:15.304Z",
  "meta": {
   "name": "bolt.diy",
   "owner": "stackblitz-labs",
@@ -23,14 +23,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 20095,
-  "forks": 10610,
+  "stars": 20098,
+  "forks": 10611,
   "watchers": 291,
   "open_issues": 1,
   "open_prs": null,
   "created_at": "2024-10-13T18:40:54Z",
   "pushed_at": "2026-11-16T22:48:39Z",
-  "updated_at": "2026-11-17T00:01:01Z",
+  "updated_at": "2026-11-17T10:59:43Z",
   "archived": false,
   "disabled": false,
   "is_fork": true,
@@ -43,26 +43,6 @@
   "og_image": "https://opengraph.githubassets.com/1/stackblitz-labs/bolt.diy",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T22:48:38.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v1.0.3",
-  "name": "Release v1.0.3",
-  "published_at": "2026-11-15T19:17:07Z",
-  "url": "https://github.com/stackblitz-labs/bolt.diy/releases/tag/v1.0.3",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 8299,
@@ -86,9 +66,9 @@
   },
   "headings": 16,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:49.799Z",
-  "checked_at": "2026-11-17T02:20:49.799Z"
+  "fetched_at": "2026-11-17T11:56:30.708Z",
+  "checked_at": "2026-11-17T11:56:30.708Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:49.799Z"
+ "details_checked_at": "2026-11-17T11:56:30.708Z"
 }

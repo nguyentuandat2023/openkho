@@ -5,8 +5,8 @@
  "full_name": "RVC-Boss/GPT-SoVITS",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:16.355Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:51:56.161Z",
  "meta": {
   "name": "GPT-SoVITS",
   "owner": "RVC-Boss",
@@ -30,14 +30,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 65231,
-  "forks": 6809,
-  "watchers": null,
+  "stars": 65247,
+  "forks": 6813,
+  "watchers": 313,
   "open_issues": 912,
   "open_prs": null,
   "created_at": "2024-01-14T18:05:21Z",
   "pushed_at": "2026-11-11T16:26:18Z",
-  "updated_at": "2026-11-17T02:17:15Z",
+  "updated_at": "2026-11-17T11:50:01Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -50,26 +50,6 @@
   "og_image": "https://opengraph.githubassets.com/1/RVC-Boss/GPT-SoVITS",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-11T16:26:17.000Z",
-  "commits_90d": 19,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "20250606v2pro",
-  "name": "20250606v2pro",
-  "published_at": "2025-06-06T03:04:27Z",
-  "url": "https://github.com/RVC-Boss/GPT-SoVITS/releases/tag/20250606v2pro",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 21933,
@@ -92,15 +72,15 @@
    }
   },
   "headings": 44,
-  "processor": 3,
-  "fetched_at": "2026-11-16T04:33:33.888Z",
-  "checked_at": "2026-11-16T04:33:33.888Z"
+  "processor": 4,
+  "fetched_at": "2026-11-17T11:56:19.482Z",
+  "checked_at": "2026-11-17T11:56:19.482Z"
  },
- "details_checked_at": "2026-11-16T04:32:13.194Z",
  "contributors": {
   "count": 101,
   "capped": false,
   "anon": true,
   "fetched_at": "2026-11-16T05:40:22.968Z"
- }
+ },
+ "details_checked_at": "2026-11-17T11:56:19.482Z"
 }

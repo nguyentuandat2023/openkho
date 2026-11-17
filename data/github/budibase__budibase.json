@@ -5,8 +5,8 @@
  "full_name": "Budibase/budibase",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.971Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:08.235Z",
  "meta": {
   "name": "budibase",
   "owner": "Budibase",
@@ -43,14 +43,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 28422,
-  "forks": 2238,
-  "watchers": null,
-  "open_issues": 321,
+  "stars": 28420,
+  "forks": 2237,
+  "watchers": 217,
+  "open_issues": 317,
   "open_prs": null,
   "created_at": "2019-06-07T11:03:41Z",
-  "pushed_at": "2026-11-16T19:30:58Z",
-  "updated_at": "2026-11-16T23:44:39Z",
+  "pushed_at": "2026-11-17T11:53:38Z",
+  "updated_at": "2026-11-17T10:35:52Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,35 +59,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 802822,
+  "size_kb": 802981,
   "og_image": "https://opengraph.githubassets.com/1/Budibase/budibase",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T18:45:31.000Z",
-  "commits_90d": 2819,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v4.0.1",
-  "name": "v4.0.1",
-  "published_at": "2026-11-16T09:34:13Z",
-  "url": "https://github.com/Budibase/budibase/releases/tag/v4.0.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v4.1.0-cloud.2",
-  "name": "v4.1.0-cloud.2",
-  "published_at": "2026-11-16T13:31:34Z",
-  "url": "https://github.com/Budibase/budibase/releases/tag/v4.1.0-cloud.2"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 8395,
@@ -106,9 +81,14 @@
   },
   "headings": 21,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:25.380Z",
-  "checked_at": "2026-11-17T02:20:25.380Z"
+  "fetched_at": "2026-11-17T11:56:27.885Z",
+  "checked_at": "2026-11-17T11:56:27.885Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:25.380Z"
+ "contributors": {
+  "count": 152,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:39.613Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:27.885Z"
 }

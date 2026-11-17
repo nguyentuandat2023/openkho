@@ -5,8 +5,8 @@
  "full_name": "frappe/erpnext",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:26.318Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:09.031Z",
  "meta": {
   "name": "erpnext",
   "owner": "frappe",
@@ -40,14 +40,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 41357,
-  "forks": 13537,
-  "watchers": null,
-  "open_issues": 2206,
+  "stars": 41368,
+  "forks": 13540,
+  "watchers": 669,
+  "open_issues": 2267,
   "open_prs": null,
   "created_at": "2011-06-08T08:20:56Z",
-  "pushed_at": "2026-11-17T02:12:59Z",
-  "updated_at": "2026-11-17T01:46:10Z",
+  "pushed_at": "2026-11-17T11:51:32Z",
+  "updated_at": "2026-11-17T10:36:21Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,35 +56,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 2058671,
+  "size_kb": 2062887,
   "og_image": "https://opengraph.githubassets.com/1/frappe/erpnext",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T00:01:44.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v16.55.0",
-  "name": "v16.55.0",
-  "published_at": "2026-11-12T14:15:47Z",
-  "url": "https://github.com/frappe/erpnext/releases/tag/v16.55.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "assets-version-16-60-nov",
-  "name": "Assets: version-16-60-nov",
-  "published_at": "2026-11-14T20:54:21Z",
-  "url": "https://github.com/frappe/erpnext/releases/tag/assets-version-16-60-nov"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 7438,
@@ -108,9 +83,14 @@
   },
   "headings": 16,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:19.215Z",
-  "checked_at": "2026-11-17T02:19:40.040Z"
+  "fetched_at": "2026-11-17T11:56:22.884Z",
+  "checked_at": "2026-11-17T11:56:22.884Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:40.040Z"
+ "contributors": {
+  "count": 959,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:32.119Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:22.884Z"
 }

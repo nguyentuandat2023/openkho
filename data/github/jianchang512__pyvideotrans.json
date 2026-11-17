@@ -5,8 +5,8 @@
  "full_name": "jianchang512/pyvideotrans",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:06.954Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:56:00.685Z",
  "meta": {
   "name": "pyvideotrans",
   "owner": "jianchang512",
@@ -30,14 +30,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 19761,
-  "forks": 2460,
-  "watchers": null,
+  "stars": 19764,
+  "forks": 2461,
+  "watchers": 105,
   "open_issues": 8,
   "open_prs": null,
   "created_at": "2023-10-02T16:13:19Z",
-  "pushed_at": "2026-11-16T09:00:08Z",
-  "updated_at": "2026-11-17T01:23:43Z",
+  "pushed_at": "2026-11-17T09:36:22Z",
+  "updated_at": "2026-11-17T11:48:35Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,30 +46,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 500247,
+  "size_kb": 500266,
   "og_image": "https://opengraph.githubassets.com/1/jianchang512/pyvideotrans",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T09:00:07.000Z",
-  "commits_90d": 993,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v4.18",
-  "name": "windows-v4.18",
-  "published_at": "2026-11-09T18:07:13Z",
-  "url": "https://github.com/jianchang512/pyvideotrans/releases/tag/v4.18",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 12005,
@@ -93,9 +73,9 @@
   },
   "headings": 13,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:44.371Z",
-  "checked_at": "2026-11-17T02:20:44.371Z"
+  "fetched_at": "2026-11-17T11:56:30.137Z",
+  "checked_at": "2026-11-17T11:56:30.137Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:44.371Z"
+ "details_checked_at": "2026-11-17T11:56:30.137Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "tailwindlabs/tailwindcss",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:06.954Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:56:10.356Z",
  "meta": {
   "name": "tailwindcss",
   "owner": "tailwindlabs",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 98700,
-  "forks": 6456,
-  "watchers": null,
-  "open_issues": 122,
+  "stars": 98725,
+  "forks": 6484,
+  "watchers": 721,
+  "open_issues": 120,
   "open_prs": null,
   "created_at": "2017-10-06T14:59:14Z",
-  "pushed_at": "2026-11-16T22:10:31Z",
-  "updated_at": "2026-11-17T02:16:42Z",
+  "pushed_at": "2026-11-17T11:01:57Z",
+  "updated_at": "2026-11-17T11:24:17Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,26 +51,6 @@
   "og_image": "https://opengraph.githubassets.com/1/tailwindlabs/tailwindcss",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T22:10:28.000Z",
-  "commits_90d": 294,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v4.3.5",
-  "name": "v4.3.5",
-  "published_at": "2026-11-06T15:05:05Z",
-  "url": "https://github.com/tailwindlabs/tailwindcss/releases/tag/v4.3.5",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 1838,
@@ -84,9 +64,9 @@
   },
   "headings": 3,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:47.817Z",
-  "checked_at": "2026-11-17T02:20:47.817Z"
+  "fetched_at": "2026-11-17T11:56:30.545Z",
+  "checked_at": "2026-11-17T11:56:30.545Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:47.817Z"
+ "details_checked_at": "2026-11-17T11:56:30.545Z"
 }

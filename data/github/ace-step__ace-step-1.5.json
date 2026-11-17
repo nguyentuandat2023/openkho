@@ -5,8 +5,8 @@
  "full_name": "ace-step/ACE-Step-1.5",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:16.355Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:51:59.069Z",
  "meta": {
   "name": "ACE-Step-1.5",
   "owner": "ace-step",
@@ -25,14 +25,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 14861,
-  "forks": 1973,
-  "watchers": null,
-  "open_issues": 169,
+  "stars": 14877,
+  "forks": 1978,
+  "watchers": 116,
+  "open_issues": 170,
   "open_prs": null,
   "created_at": "2025-09-04T02:00:07Z",
   "pushed_at": "2026-11-08T16:58:40Z",
-  "updated_at": "2026-11-17T01:41:41Z",
+  "updated_at": "2026-11-17T11:31:14Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -45,26 +45,6 @@
   "og_image": "https://opengraph.githubassets.com/1/ace-step/ACE-Step-1.5",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-08-29T08:25:18.000Z",
-  "commits_90d": 11,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.1.8",
-  "name": "v0.1.8",
-  "published_at": "2026-05-18T14:04:34Z",
-  "url": "https://github.com/ace-step/ACE-Step-1.5/releases/tag/v0.1.8",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 19785,
@@ -92,15 +72,15 @@
    }
   },
   "headings": 29,
-  "processor": 3,
-  "fetched_at": "2026-11-16T04:33:35.676Z",
-  "checked_at": "2026-11-16T04:33:35.676Z"
+  "processor": 4,
+  "fetched_at": "2026-11-17T11:56:19.697Z",
+  "checked_at": "2026-11-17T11:56:19.697Z"
  },
- "details_checked_at": "2026-11-16T04:32:13.194Z",
  "contributors": {
   "count": 85,
   "capped": false,
   "anon": true,
   "fetched_at": "2026-11-16T05:40:24.439Z"
- }
+ },
+ "details_checked_at": "2026-11-17T11:56:19.697Z"
 }

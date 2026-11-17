@@ -5,8 +5,8 @@
  "full_name": "n8n-io/self-hosted-ai-starter-kit",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:19.723Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:07.905Z",
  "meta": {
   "name": "self-hosted-ai-starter-kit",
   "owner": "n8n-io",
@@ -29,14 +29,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 15370,
-  "forks": 3814,
-  "watchers": null,
+  "stars": 15372,
+  "forks": 3813,
+  "watchers": 179,
   "open_issues": 7,
   "open_prs": null,
   "created_at": "2024-02-23T13:56:32Z",
   "pushed_at": "2026-11-16T23:13:43Z",
-  "updated_at": "2026-11-16T19:40:27Z",
+  "updated_at": "2026-11-17T08:30:03Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,18 +49,6 @@
   "og_image": "https://opengraph.githubassets.com/1/n8n-io/self-hosted-ai-starter-kit",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-07-23T11:28:09.000Z",
-  "commits_90d": 0,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 9629,
@@ -90,8 +78,8 @@
   },
   "headings": 22,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:19.226Z",
-  "checked_at": "2026-11-17T02:19:19.226Z"
+  "fetched_at": "2026-11-17T11:56:20.046Z",
+  "checked_at": "2026-11-17T11:56:20.046Z"
  },
  "contributors": {
   "count": 16,
@@ -99,5 +87,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:29.031Z"
  },
- "details_checked_at": "2026-11-17T02:19:19.226Z"
+ "details_checked_at": "2026-11-17T11:56:20.046Z"
 }

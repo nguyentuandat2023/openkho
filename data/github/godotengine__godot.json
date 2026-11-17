@@ -5,8 +5,8 @@
  "full_name": "godotengine/godot",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.971Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:22.145Z",
  "meta": {
   "name": "godot",
   "owner": "godotengine",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 120286,
-  "forks": 27545,
-  "watchers": null,
-  "open_issues": 19054,
+  "stars": 120305,
+  "forks": 27547,
+  "watchers": 1562,
+  "open_issues": 19061,
   "open_prs": null,
   "created_at": "2014-01-04T16:05:36Z",
   "pushed_at": "2026-11-16T18:48:03Z",
-  "updated_at": "2026-11-17T02:18:08Z",
+  "updated_at": "2026-11-17T10:36:00Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,26 +51,6 @@
   "og_image": "https://opengraph.githubassets.com/1/godotengine/godot",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T18:46:17.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "4.7.2-stable",
-  "name": "4.7.2-stable",
-  "published_at": "2026-08-22T14:27:33Z",
-  "url": "https://github.com/godotengine/godot/releases/tag/4.7.2-stable",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 3722,
@@ -84,9 +64,14 @@
   },
   "headings": 8,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:28.607Z",
-  "checked_at": "2026-11-17T02:20:28.608Z"
+  "fetched_at": "2026-11-17T11:56:28.575Z",
+  "checked_at": "2026-11-17T11:56:28.575Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:28.608Z"
+ "contributors": {
+  "count": 4015,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:39.898Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:28.575Z"
 }

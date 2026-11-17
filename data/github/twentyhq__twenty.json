@@ -5,8 +5,8 @@
  "full_name": "twentyhq/twenty",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:26.318Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:06.518Z",
  "meta": {
   "name": "twenty",
   "owner": "twentyhq",
@@ -41,14 +41,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 61021,
-  "forks": 10112,
-  "watchers": null,
-  "open_issues": 147,
+  "stars": 61037,
+  "forks": 10113,
+  "watchers": 232,
+  "open_issues": 149,
   "open_prs": null,
   "created_at": "2022-12-01T13:04:40Z",
-  "pushed_at": "2026-11-16T23:37:37Z",
-  "updated_at": "2026-11-17T02:03:34Z",
+  "pushed_at": "2026-11-17T11:49:58Z",
+  "updated_at": "2026-11-17T11:50:35Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,35 +57,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 2917168,
+  "size_kb": 2918985,
   "og_image": "https://opengraph.githubassets.com/1/twentyhq/twenty",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T23:37:34.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "sdk/v2.59.0",
-  "name": "sdk/v2.59.0",
-  "published_at": "2026-11-16T16:16:36Z",
-  "url": "https://github.com/twentyhq/twenty/releases/tag/sdk%2Fv2.59.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "twenty/v2.59.2",
-  "name": "twenty/v2.59.2",
-  "published_at": "2026-11-16T23:07:44Z",
-  "url": "https://github.com/twentyhq/twenty/releases/tag/twenty%2Fv2.59.2"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 12071,
@@ -104,9 +79,14 @@
   },
   "headings": 10,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:17.365Z",
-  "checked_at": "2026-11-17T02:19:37.390Z"
+  "fetched_at": "2026-11-17T11:56:22.697Z",
+  "checked_at": "2026-11-17T11:56:22.697Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:37.390Z"
+ "contributors": {
+  "count": 805,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:32.019Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:22.697Z"
 }

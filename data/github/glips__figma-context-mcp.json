@@ -5,8 +5,8 @@
  "full_name": "GLips/Figma-Context-MCP",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.971Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:58.946Z",
  "meta": {
   "name": "Figma-Context-MCP",
   "owner": "GLips",
@@ -29,14 +29,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 16218,
-  "forks": 1288,
-  "watchers": null,
+  "stars": 16225,
+  "forks": 1290,
+  "watchers": 59,
   "open_issues": 30,
   "open_prs": null,
   "created_at": "2025-02-13T02:55:06Z",
   "pushed_at": "2026-11-15T22:22:42Z",
-  "updated_at": "2026-11-17T01:43:11Z",
+  "updated_at": "2026-11-17T11:10:59Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,26 +49,6 @@
   "og_image": "https://opengraph.githubassets.com/1/GLips/Figma-Context-MCP",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-06-24T16:12:40.000Z",
-  "commits_90d": 0,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.13.2",
-  "name": "v0.13.2",
-  "published_at": "2026-06-18T16:38:52Z",
-  "url": "https://github.com/GLips/Figma-Context-MCP/releases/tag/v0.13.2",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 4182,
@@ -93,9 +73,14 @@
   },
   "headings": 8,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:17.845Z",
-  "checked_at": "2026-11-16T05:09:17.845Z"
+  "fetched_at": "2026-11-17T11:56:27.489Z",
+  "checked_at": "2026-11-17T11:56:27.489Z"
  },
- "details_checked_at": "2026-11-16T05:07:14.363Z",
- "contributors": null
+ "contributors": {
+  "count": 30,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:38.550Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:27.489Z"
 }

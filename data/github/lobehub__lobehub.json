@@ -5,8 +5,8 @@
  "full_name": "lobehub/lobehub",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:23.074Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:55.829Z",
  "meta": {
   "name": "lobehub",
   "owner": "lobehub",
@@ -34,14 +34,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 85651,
-  "forks": 16344,
-  "watchers": null,
-  "open_issues": 1377,
+  "stars": 85691,
+  "forks": 16339,
+  "watchers": 298,
+  "open_issues": 1380,
   "open_prs": null,
   "created_at": "2023-05-21T07:19:12Z",
-  "pushed_at": "2026-11-17T02:10:40Z",
-  "updated_at": "2026-11-17T02:12:06Z",
+  "pushed_at": "2026-11-17T11:51:13Z",
+  "updated_at": "2026-11-17T11:45:08Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -50,35 +50,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 629720,
+  "size_kb": 633211,
   "og_image": "https://opengraph.githubassets.com/1/lobehub/lobehub",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T02:19:22.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.3.3",
-  "name": "v2.3.3",
-  "published_at": null,
-  "url": "https://github.com/lobehub/lobehub/releases/tag/v2.3.3",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v0.0.0-nightly.pr23101.39711",
-  "name": "PR Build v0.0.0-nightly.pr23101.39711",
-  "published_at": "2026-11-16T06:26:47Z",
-  "url": "https://github.com/lobehub/lobehub/releases/tag/v0.0.0-nightly.pr23101.39711"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 31710,
@@ -102,9 +77,14 @@
   },
   "headings": 19,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:12.062Z",
-  "checked_at": "2026-11-17T02:19:33.365Z"
+  "fetched_at": "2026-11-17T11:56:22.309Z",
+  "checked_at": "2026-11-17T11:56:22.309Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:33.365Z"
+ "contributors": {
+  "count": 366,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:31.499Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:22.309Z"
 }

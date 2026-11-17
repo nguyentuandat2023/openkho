@@ -5,8 +5,8 @@
  "full_name": "laravel/framework",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:29.795Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:43.362Z",
  "meta": {
   "name": "framework",
   "owner": "laravel",
@@ -27,14 +27,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 34999,
-  "forks": 12031,
-  "watchers": null,
-  "open_issues": 93,
+  "stars": 35001,
+  "forks": 12032,
+  "watchers": 933,
+  "open_issues": 95,
   "open_prs": null,
   "created_at": "2013-01-10T21:27:28Z",
-  "pushed_at": "2026-11-16T19:10:04Z",
-  "updated_at": "2026-11-17T02:17:19Z",
+  "pushed_at": "2026-11-17T09:41:10Z",
+  "updated_at": "2026-11-17T11:51:12Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -43,30 +43,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 109387,
+  "size_kb": 109404,
   "og_image": "https://opengraph.githubassets.com/1/laravel/framework",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T16:21:42.000Z",
-  "commits_90d": 521,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v13.42.0",
-  "name": "v13.42.0",
-  "published_at": "2026-11-10T15:56:30Z",
-  "url": "https://github.com/laravel/framework/releases/tag/v13.42.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 3854,
@@ -80,9 +60,14 @@
   },
   "headings": 6,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:26.198Z",
-  "checked_at": "2026-11-17T02:19:53.817Z"
+  "fetched_at": "2026-11-17T11:56:24.214Z",
+  "checked_at": "2026-11-17T11:56:24.214Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:53.817Z"
+ "contributors": {
+  "count": 5029,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:33.896Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:24.214Z"
 }

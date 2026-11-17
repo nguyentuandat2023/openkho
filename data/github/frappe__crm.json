@@ -5,8 +5,8 @@
  "full_name": "frappe/crm",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:26.318Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:15.922Z",
  "meta": {
   "name": "crm",
   "owner": "frappe",
@@ -42,14 +42,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 3999,
+  "stars": 4001,
   "forks": 1616,
-  "watchers": null,
-  "open_issues": 314,
+  "watchers": 33,
+  "open_issues": 313,
   "open_prs": null,
   "created_at": "2023-07-19T08:53:35Z",
-  "pushed_at": "2026-11-16T22:58:23Z",
-  "updated_at": "2026-11-17T00:18:38Z",
+  "pushed_at": "2026-11-17T11:00:20Z",
+  "updated_at": "2026-11-17T07:22:25Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,30 +58,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 126521,
+  "size_kb": 126527,
   "og_image": "https://opengraph.githubassets.com/1/frappe/crm",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T22:58:23.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v16.0.4",
-  "name": "v16.0.4",
-  "published_at": "2026-11-16T13:29:38Z",
-  "url": "https://github.com/frappe/crm/releases/tag/v16.0.4",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 9086,
@@ -105,9 +85,14 @@
   },
   "headings": 14,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:19.608Z",
-  "checked_at": "2026-11-17T02:19:41.040Z"
+  "fetched_at": "2026-11-17T11:56:23.222Z",
+  "checked_at": "2026-11-17T11:56:23.222Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:41.040Z"
+ "contributors": {
+  "count": 91,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:32.443Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:23.222Z"
 }

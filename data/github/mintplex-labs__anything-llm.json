@@ -5,8 +5,8 @@
  "full_name": "Mintplex-Labs/anything-llm",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:23.074Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:52.742Z",
  "meta": {
   "name": "anything-llm",
   "owner": "Mintplex-Labs",
@@ -39,14 +39,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 68349,
+  "stars": 68358,
   "forks": 7722,
-  "watchers": null,
-  "open_issues": 352,
+  "watchers": 408,
+  "open_issues": 355,
   "open_prs": null,
   "created_at": "2023-06-04T02:29:14Z",
-  "pushed_at": "2026-11-17T01:46:51Z",
-  "updated_at": "2026-11-17T02:02:57Z",
+  "pushed_at": "2026-11-17T04:50:39Z",
+  "updated_at": "2026-11-17T11:28:00Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,30 +55,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 95923,
+  "size_kb": 96094,
   "og_image": "https://opengraph.githubassets.com/1/Mintplex-Labs/anything-llm",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T01:44:11.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v1.19.0",
-  "name": "AnythingLLM v1.19.0",
-  "published_at": "2026-10-26T16:14:51Z",
-  "url": "https://github.com/Mintplex-Labs/anything-llm/releases/tag/v1.19.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 25662,
@@ -108,9 +88,14 @@
   },
   "headings": 16,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:32.599Z",
-  "checked_at": "2026-11-17T02:19:32.599Z"
+  "fetched_at": "2026-11-17T11:56:22.236Z",
+  "checked_at": "2026-11-17T11:56:22.236Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:32.599Z"
+ "contributors": {
+  "count": 297,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:31.344Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:22.236Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "PostHog/posthog",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:41.690Z",
  "meta": {
   "name": "posthog",
   "owner": "PostHog",
@@ -39,14 +39,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 40830,
-  "forks": 3690,
-  "watchers": null,
-  "open_issues": 4439,
+  "stars": 40846,
+  "forks": 3695,
+  "watchers": 140,
+  "open_issues": 4481,
   "open_prs": null,
   "created_at": "2020-01-23T22:46:58Z",
-  "pushed_at": "2026-11-17T02:18:05Z",
-  "updated_at": "2026-11-17T01:51:37Z",
+  "pushed_at": "2026-11-17T11:54:14Z",
+  "updated_at": "2026-11-17T11:53:01Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,30 +55,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 9405107,
+  "size_kb": 9399645,
   "og_image": "https://opengraph.githubassets.com/1/PostHog/posthog",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T01:58:55.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "desktop-v0.61.1050",
-  "name": "desktop-v0.61.1050",
-  "published_at": "2026-11-17T01:42:55Z",
-  "url": "https://github.com/PostHog/posthog/releases/tag/desktop-v0.61.1050",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 13728,
@@ -103,9 +83,14 @@
   },
   "headings": 10,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:35.047Z",
-  "checked_at": "2026-11-17T02:20:15.651Z"
+  "fetched_at": "2026-11-17T11:56:26.738Z",
+  "checked_at": "2026-11-17T11:56:26.738Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:15.651Z"
+ "contributors": {
+  "count": 601,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:37.563Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:26.738Z"
 }

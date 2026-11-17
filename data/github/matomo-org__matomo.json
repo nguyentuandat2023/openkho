@@ -5,8 +5,8 @@
  "full_name": "matomo-org/matomo",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:43.351Z",
  "meta": {
   "name": "matomo",
   "owner": "matomo-org",
@@ -39,14 +39,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 22031,
+  "stars": 22032,
   "forks": 2939,
-  "watchers": null,
+  "watchers": 389,
   "open_issues": 2564,
   "open_prs": null,
   "created_at": "2011-03-30T21:18:17Z",
-  "pushed_at": "2026-11-17T01:53:45Z",
-  "updated_at": "2026-11-17T00:20:31Z",
+  "pushed_at": "2026-11-17T10:31:19Z",
+  "updated_at": "2026-11-17T09:30:00Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,30 +55,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 395514,
+  "size_kb": 392449,
   "og_image": "https://opengraph.githubassets.com/1/matomo-org/matomo",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T21:26:28.000Z",
-  "commits_90d": 233,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "5.14.3",
-  "name": "5.14.3",
-  "published_at": "2026-11-16T20:01:30Z",
-  "url": "https://github.com/matomo-org/matomo/releases/tag/5.14.3",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 6253,
@@ -97,9 +77,14 @@
   },
   "headings": 19,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:16.436Z",
-  "checked_at": "2026-11-17T02:20:16.437Z"
+  "fetched_at": "2026-11-17T11:56:26.740Z",
+  "checked_at": "2026-11-17T11:56:26.740Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:16.437Z"
+ "contributors": {
+  "count": 452,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:37.706Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:26.740Z"
 }

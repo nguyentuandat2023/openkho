@@ -5,8 +5,8 @@
  "full_name": "baserow/baserow",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.971Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:12.438Z",
  "meta": {
   "name": "baserow",
   "owner": "baserow",
@@ -40,14 +40,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 6351,
+  "stars": 6352,
   "forks": 786,
-  "watchers": null,
-  "open_issues": 1197,
+  "watchers": 45,
+  "open_issues": 1185,
   "open_prs": null,
   "created_at": "2020-07-20T09:32:04Z",
-  "pushed_at": "2026-11-16T19:11:31Z",
-  "updated_at": "2026-11-16T22:42:04Z",
+  "pushed_at": "2026-11-17T11:42:16Z",
+  "updated_at": "2026-11-17T09:22:22Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,30 +56,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 286711,
+  "size_kb": 287635,
   "og_image": "https://opengraph.githubassets.com/1/baserow/baserow",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T17:31:09.000Z",
-  "commits_90d": 490,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "2.4.3",
-  "name": "2.4.3",
-  "published_at": "2026-11-14T09:40:29Z",
-  "url": "https://github.com/baserow/baserow/releases/tag/2.4.3",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 5438,
@@ -98,9 +78,14 @@
   },
   "headings": 8,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:26.981Z",
-  "checked_at": "2026-11-17T02:20:26.981Z"
+  "fetched_at": "2026-11-17T11:56:28.055Z",
+  "checked_at": "2026-11-17T11:56:28.055Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:26.981Z"
+ "contributors": {
+  "count": 80,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:39.363Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:28.055Z"
 }

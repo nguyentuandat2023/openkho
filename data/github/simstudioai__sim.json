@@ -5,8 +5,8 @@
  "full_name": "simstudioai/sim",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:19.723Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:10.233Z",
  "meta": {
   "name": "sim",
   "owner": "simstudioai",
@@ -42,14 +42,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 30148,
-  "forks": 3912,
-  "watchers": null,
-  "open_issues": 328,
+  "stars": 30151,
+  "forks": 3913,
+  "watchers": 126,
+  "open_issues": 329,
   "open_prs": null,
   "created_at": "2025-01-05T22:47:49Z",
-  "pushed_at": "2026-11-17T02:17:59Z",
-  "updated_at": "2026-11-16T23:59:25Z",
+  "pushed_at": "2026-11-17T11:42:36Z",
+  "updated_at": "2026-11-17T08:59:07Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,30 +58,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 778102,
+  "size_kb": 782019,
   "og_image": "https://opengraph.githubassets.com/1/simstudioai/sim",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T22:32:59.000Z",
-  "commits_90d": 1884,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.9.59",
-  "name": "v0.9.59",
-  "published_at": "2026-11-16T23:06:04Z",
-  "url": "https://github.com/simstudioai/sim/releases/tag/v0.9.59",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 11477,
@@ -98,15 +78,15 @@
    "usage": null,
    "features": {
     "title": "Capabilities",
-    "html": "<ul>\n<li>Connect 270+ integrations (5,400+ actions, 520+ triggers) and every major LLM</li>\n<li>Add Slack, Notion, HubSpot, Salesforce, databases, and more</li>\n<li>Build agents visually, conversationally, or with code</li>\n<li>Ingest files, knowledge bases, and structured table data</li>\n<li>Monitor runs, logs, schedules, and workflow activity</li>\n</ul>",
+    "html": "<ul>\n<li>Connect 280+ integrations (5,800+ actions, 530+ triggers) and every major LLM</li>\n<li>Add Slack, Notion, HubSpot, Salesforce, databases, and more</li>\n<li>Build agents visually, conversationally, or with code</li>\n<li>Ingest files, knowledge bases, and structured table data</li>\n<li>Monitor runs, logs, schedules, and workflow activity</li>\n</ul>",
     "truncated": false,
     "chars": 315
    }
   },
   "headings": 14,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:19.696Z",
-  "checked_at": "2026-11-17T02:19:19.696Z"
+  "fetched_at": "2026-11-17T11:56:20.162Z",
+  "checked_at": "2026-11-17T11:56:20.162Z"
  },
  "contributors": {
   "count": 63,
@@ -114,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:30.020Z"
  },
- "details_checked_at": "2026-11-17T02:19:19.696Z"
+ "details_checked_at": "2026-11-17T11:56:20.162Z"
 }

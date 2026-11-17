@@ -5,8 +5,8 @@
  "full_name": "dani-garcia/vaultwarden",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:03.703Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:39.982Z",
  "meta": {
   "name": "vaultwarden",
   "owner": "dani-garcia",
@@ -30,14 +30,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 70854,
-  "forks": 3470,
-  "watchers": null,
-  "open_issues": 85,
+  "stars": 70880,
+  "forks": 3472,
+  "watchers": 316,
+  "open_issues": 84,
   "open_prs": null,
   "created_at": "2018-02-17T22:40:20Z",
   "pushed_at": "2026-11-15T20:20:46Z",
-  "updated_at": "2026-11-17T02:02:18Z",
+  "updated_at": "2026-11-17T11:55:05Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -50,26 +50,6 @@
   "og_image": "https://opengraph.githubassets.com/1/dani-garcia/vaultwarden",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-15T20:20:46.000Z",
-  "commits_90d": 134,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "1.37.5",
-  "name": "1.37.5",
-  "published_at": "2026-11-01T22:16:50Z",
-  "url": "https://github.com/dani-garcia/vaultwarden/releases/tag/1.37.5",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 11157,
@@ -98,9 +78,9 @@
   },
   "headings": 8,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:40.093Z",
-  "checked_at": "2026-11-16T05:09:40.093Z"
+  "fetched_at": "2026-11-17T11:56:29.338Z",
+  "checked_at": "2026-11-17T11:56:29.338Z"
  },
- "details_checked_at": "2026-11-16T05:07:17.738Z",
- "contributors": null
+ "contributors": null,
+ "details_checked_at": "2026-11-17T11:56:29.338Z"
 }

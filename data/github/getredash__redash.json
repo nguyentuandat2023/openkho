@@ -5,8 +5,8 @@
  "full_name": "getredash/redash",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:26.318Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:26.127Z",
  "meta": {
   "name": "redash",
   "owner": "getredash",
@@ -45,7 +45,7 @@
   },
   "stars": 28887,
   "forks": 4645,
-  "watchers": null,
+  "watchers": 560,
   "open_issues": 780,
   "open_prs": null,
   "created_at": "2013-10-28T13:19:39Z",
@@ -63,31 +63,6 @@
   "og_image": "https://opengraph.githubassets.com/1/getredash/redash",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-10T11:28:16.000Z",
-  "commits_90d": 103,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v26.9.0",
-  "name": "v26.9.0",
-  "published_at": "2026-09-24T10:54:33Z",
-  "url": "https://github.com/getredash/redash/releases/tag/v26.9.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "26.11.0-dev",
-  "name": "26.11.0-dev",
-  "published_at": "2026-11-01T00:41:43Z",
-  "url": "https://github.com/getredash/redash/releases/tag/26.11.0-dev"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 4450,
@@ -106,9 +81,14 @@
   },
   "headings": 6,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:08:24.454Z",
-  "checked_at": "2026-11-16T05:08:24.454Z"
+  "fetched_at": "2026-11-17T11:56:23.569Z",
+  "checked_at": "2026-11-17T11:56:23.569Z"
  },
- "details_checked_at": "2026-11-16T05:06:20.793Z",
- "contributors": null
+ "contributors": {
+  "count": 557,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:32.952Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:23.569Z"
 }

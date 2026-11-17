@@ -5,8 +5,8 @@
  "full_name": "lllyasviel/FramePack",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:23.074Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:47.537Z",
  "meta": {
   "name": "FramePack",
   "owner": "lllyasviel",
@@ -23,14 +23,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 17358,
+  "stars": 17359,
   "forks": 1751,
-  "watchers": null,
+  "watchers": 142,
   "open_issues": 498,
   "open_prs": null,
   "created_at": "2025-04-12T14:45:22Z",
   "pushed_at": "2025-10-16T01:28:50Z",
-  "updated_at": "2026-11-17T00:53:37Z",
+  "updated_at": "2026-11-17T10:12:52Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -43,26 +43,6 @@
   "og_image": "https://opengraph.githubassets.com/1/lllyasviel/FramePack",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2025-10-16T01:28:50.000Z",
-  "commits_90d": 0,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "windows",
-  "name": "Windows",
-  "published_at": "2025-04-18T05:01:29Z",
-  "url": "https://github.com/lllyasviel/FramePack/releases/tag/windows",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 16558,
@@ -86,9 +66,14 @@
   },
   "headings": 12,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:08:02.315Z",
-  "checked_at": "2026-11-16T05:08:02.315Z"
+  "fetched_at": "2026-11-17T11:56:21.913Z",
+  "checked_at": "2026-11-17T11:56:21.913Z"
  },
- "details_checked_at": "2026-11-16T05:06:17.093Z",
- "contributors": null
+ "contributors": {
+  "count": 1,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:31.024Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:21.913Z"
 }

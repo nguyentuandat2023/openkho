@@ -5,8 +5,8 @@
  "full_name": "Skyvern-AI/skyvern",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:16.355Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:51:50.610Z",
  "meta": {
   "name": "skyvern",
   "owner": "Skyvern-AI",
@@ -40,14 +40,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 23435,
-  "forks": 2243,
-  "watchers": null,
-  "open_issues": 299,
+  "stars": 23432,
+  "forks": 2245,
+  "watchers": 100,
+  "open_issues": 300,
   "open_prs": null,
   "created_at": "2024-02-28T15:45:19Z",
-  "pushed_at": "2026-11-17T02:12:15Z",
-  "updated_at": "2026-11-17T01:42:29Z",
+  "pushed_at": "2026-11-17T10:57:59Z",
+  "updated_at": "2026-11-17T11:38:43Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,30 +56,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 678792,
+  "size_kb": 682082,
   "og_image": "https://opengraph.githubassets.com/1/Skyvern-AI/skyvern",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T02:12:13.000Z",
-  "commits_90d": 2816,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v1.0.58",
-  "name": "Release v1.0.58",
-  "published_at": "2026-11-17T01:23:38Z",
-  "url": "https://github.com/Skyvern-AI/skyvern/releases/tag/v1.0.58",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 25820,
@@ -108,8 +88,8 @@
   },
   "headings": 50,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:16.702Z",
-  "checked_at": "2026-11-17T02:19:16.702Z"
+  "fetched_at": "2026-11-17T11:56:19.266Z",
+  "checked_at": "2026-11-17T11:56:19.266Z"
  },
  "contributors": {
   "count": 96,
@@ -117,5 +97,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:20.669Z"
  },
- "details_checked_at": "2026-11-17T02:19:16.702Z"
+ "details_checked_at": "2026-11-17T11:56:19.266Z"
 }

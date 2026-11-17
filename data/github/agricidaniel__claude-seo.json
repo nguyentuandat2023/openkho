@@ -5,8 +5,8 @@
  "full_name": "AgriciDaniel/claude-seo",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:47.946Z",
  "meta": {
   "name": "claude-seo",
   "owner": "AgriciDaniel",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 30069,
-  "forks": 3782,
-  "watchers": null,
+  "stars": 30206,
+  "forks": 3791,
+  "watchers": 166,
   "open_issues": 58,
   "open_prs": null,
   "created_at": "2026-02-07T08:17:38Z",
   "pushed_at": "2026-11-16T06:16:01Z",
-  "updated_at": "2026-11-17T02:11:38Z",
+  "updated_at": "2026-11-17T11:52:05Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,26 +51,6 @@
   "og_image": "https://opengraph.githubassets.com/1/AgriciDaniel/claude-seo",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-15T09:53:01.000Z",
-  "commits_90d": 1032,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.6.2",
-  "name": "v2.6.2: Shopify and PostHog extensions, local proxy opt-in, 36 community pull requests",
-  "published_at": "2026-11-15T10:10:37Z",
-  "url": "https://github.com/AgriciDaniel/claude-seo/releases/tag/v2.6.2",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 23537,
@@ -105,9 +85,14 @@
   },
   "headings": 14,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:34.923Z",
-  "checked_at": "2026-11-16T07:03:34.924Z"
+  "fetched_at": "2026-11-17T11:56:26.925Z",
+  "checked_at": "2026-11-17T11:56:26.925Z"
  },
- "details_checked_at": "2026-11-16T07:03:34.924Z",
- "contributors": null
+ "contributors": {
+  "count": 54,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:37.944Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:26.925Z"
 }

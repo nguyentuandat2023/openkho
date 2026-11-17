@@ -5,8 +5,8 @@
  "full_name": "harlan-zw/unlighthouse",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:47.294Z",
  "meta": {
   "name": "unlighthouse",
   "owner": "harlan-zw",
@@ -27,14 +27,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 4952,
+  "stars": 4953,
   "forks": 183,
-  "watchers": null,
+  "watchers": 22,
   "open_issues": 33,
   "open_prs": null,
   "created_at": "2021-10-31T07:14:30Z",
   "pushed_at": "2026-10-27T03:50:57Z",
-  "updated_at": "2026-11-16T23:45:42Z",
+  "updated_at": "2026-11-17T03:51:28Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,31 +47,6 @@
   "og_image": "https://opengraph.githubassets.com/1/harlan-zw/unlighthouse",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-10-23T11:54:01.000Z",
-  "commits_90d": 38,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.19.1",
-  "name": "v0.19.1",
-  "published_at": "2026-10-03T05:18:48Z",
-  "url": "https://github.com/harlan-zw/unlighthouse/releases/tag/v0.19.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v1.0.0-beta.0",
-  "name": "v1.0.0-beta.0: perf(v1): download audit dependencies on demand (#423)",
-  "published_at": "2026-10-03T10:57:08Z",
-  "url": "https://github.com/harlan-zw/unlighthouse/releases/tag/v1.0.0-beta.0"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 3268,
@@ -90,9 +65,14 @@
   },
   "headings": 8,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:10.334Z",
-  "checked_at": "2026-11-16T05:09:10.334Z"
+  "fetched_at": "2026-11-17T11:56:26.893Z",
+  "checked_at": "2026-11-17T11:56:26.893Z"
  },
- "details_checked_at": "2026-11-16T05:06:31.394Z",
- "contributors": null
+ "contributors": {
+  "count": 29,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:37.974Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:26.893Z"
 }

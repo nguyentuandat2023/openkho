@@ -5,8 +5,8 @@
  "full_name": "opendatalab/MinerU",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:19.723Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:28.547Z",
  "meta": {
   "name": "MinerU",
   "owner": "opendatalab",
@@ -40,14 +40,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 83760,
+  "stars": 83795,
   "forks": 6944,
-  "watchers": null,
+  "watchers": 279,
   "open_issues": 9,
   "open_prs": null,
   "created_at": "2024-02-29T08:52:34Z",
   "pushed_at": "2026-11-16T18:13:53Z",
-  "updated_at": "2026-11-17T02:11:36Z",
+  "updated_at": "2026-11-17T11:29:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,26 +60,6 @@
   "og_image": "https://opengraph.githubassets.com/1/opendatalab/MinerU",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T18:13:52.000Z",
-  "commits_90d": 509,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "mineru-4.2.3-released",
-  "name": "MinerU 4.2.3",
-  "published_at": "2026-11-16T18:14:05Z",
-  "url": "https://github.com/opendatalab/MinerU/releases/tag/mineru-4.2.3-released",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 63362,
@@ -103,8 +83,8 @@
   },
   "headings": 62,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:23.859Z",
-  "checked_at": "2026-11-17T02:19:23.859Z"
+  "fetched_at": "2026-11-17T11:56:21.126Z",
+  "checked_at": "2026-11-17T11:56:21.126Z"
  },
  "contributors": {
   "count": 107,
@@ -112,5 +92,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T07:03:47.247Z"
  },
- "details_checked_at": "2026-11-17T02:19:23.859Z"
+ "details_checked_at": "2026-11-17T11:56:21.126Z"
 }

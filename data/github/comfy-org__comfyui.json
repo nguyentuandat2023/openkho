@@ -5,8 +5,8 @@
  "full_name": "Comfy-Org/ComfyUI",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:23.073Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:38.398Z",
  "meta": {
   "name": "ComfyUI",
   "owner": "Comfy-Org",
@@ -30,14 +30,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 147199,
-  "forks": 17582,
-  "watchers": null,
-  "open_issues": 5553,
+  "stars": 147289,
+  "forks": 17593,
+  "watchers": 847,
+  "open_issues": 5555,
   "open_prs": null,
   "created_at": "2023-01-17T03:15:56Z",
-  "pushed_at": "2026-11-17T02:08:00Z",
-  "updated_at": "2026-11-17T02:17:52Z",
+  "pushed_at": "2026-11-17T05:22:34Z",
+  "updated_at": "2026-11-17T11:49:25Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,35 +46,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 107663,
+  "size_kb": 107726,
   "og_image": "https://opengraph.githubassets.com/1/Comfy-Org/ComfyUI",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T02:08:00.000Z",
-  "commits_90d": 523,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.45.0",
-  "name": "v0.45.0",
-  "published_at": "2026-11-10T21:42:42Z",
-  "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v0.45.5",
-  "name": "v0.45.5",
-  "published_at": "2026-11-17T02:07:45Z",
-  "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.45.5"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 29338,
@@ -103,8 +78,8 @@
   },
   "headings": 46,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:29.086Z",
-  "checked_at": "2026-11-17T02:19:29.086Z"
+  "fetched_at": "2026-11-17T11:56:21.518Z",
+  "checked_at": "2026-11-17T11:56:21.518Z"
  },
  "contributors": {
   "count": 363,
@@ -112,5 +87,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T02:20:53.433Z"
  },
- "details_checked_at": "2026-11-17T02:19:29.086Z"
+ "details_checked_at": "2026-11-17T11:56:21.518Z"
 }

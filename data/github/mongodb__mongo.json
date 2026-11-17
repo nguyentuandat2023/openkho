@@ -5,8 +5,8 @@
  "full_name": "mongodb/mongo",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:29.795Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:45.021Z",
  "meta": {
   "name": "mongo",
   "owner": "mongodb",
@@ -28,14 +28,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 28680,
+  "stars": 28681,
   "forks": 5915,
-  "watchers": null,
+  "watchers": 1231,
   "open_issues": 45,
   "open_prs": null,
   "created_at": "2009-01-15T16:15:18Z",
-  "pushed_at": "2026-11-16T20:59:37Z",
-  "updated_at": "2026-11-17T00:33:32Z",
+  "pushed_at": "2026-11-17T11:51:05Z",
+  "updated_at": "2026-11-17T10:01:03Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -44,27 +44,10 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 1451942,
+  "size_kb": 1451354,
   "og_image": "https://opengraph.githubassets.com/1/mongodb/mongo",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T20:59:31.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": {
-  "tag": "r9.0.8",
-  "name": "r9.0.8",
-  "published_at": "2026-11-11T01:04:48Z",
-  "url": "https://github.com/mongodb/mongo/releases/tag/r9.0.8"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 2258,
@@ -83,9 +66,14 @@
   },
   "headings": 14,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:26.366Z",
-  "checked_at": "2026-11-17T02:19:54.118Z"
+  "fetched_at": "2026-11-17T11:56:24.378Z",
+  "checked_at": "2026-11-17T11:56:24.378Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:54.118Z"
+ "contributors": {
+  "count": 1511,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:34.031Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:24.378Z"
 }

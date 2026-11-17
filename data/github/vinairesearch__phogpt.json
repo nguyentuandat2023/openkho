@@ -5,8 +5,8 @@
  "full_name": "VinAIResearch/PhoGPT",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.971Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:19.851Z",
  "meta": {
   "name": "PhoGPT",
   "owner": "VinAIResearch",
@@ -33,7 +33,7 @@
   },
   "stars": 794,
   "forks": 73,
-  "watchers": null,
+  "watchers": 20,
   "open_issues": 3,
   "open_prs": null,
   "created_at": "2023-11-06T03:58:10Z",
@@ -51,18 +51,6 @@
   "og_image": "https://opengraph.githubassets.com/1/VinAIResearch/PhoGPT",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2024-11-12T07:40:31.000Z",
-  "commits_90d": 0,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 8310,
@@ -76,9 +64,14 @@
   },
   "headings": 11,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:28.377Z",
-  "checked_at": "2026-11-16T05:09:28.377Z"
+  "fetched_at": "2026-11-17T11:56:28.386Z",
+  "checked_at": "2026-11-17T11:56:28.386Z"
  },
- "details_checked_at": "2026-11-16T05:07:14.364Z",
- "contributors": null
+ "contributors": {
+  "count": 1,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:39.791Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:28.386Z"
 }

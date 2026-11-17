@@ -5,8 +5,8 @@
  "full_name": "KDE/kdenlive",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:06.954Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:59.088Z",
  "meta": {
   "name": "kdenlive",
   "owner": "KDE",
@@ -23,14 +23,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 6127,
-  "forks": 577,
-  "watchers": null,
+  "stars": 6130,
+  "forks": 578,
+  "watchers": 79,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2015-09-18T13:16:08Z",
-  "pushed_at": "2026-11-17T01:05:51Z",
-  "updated_at": "2026-11-17T01:17:43Z",
+  "pushed_at": "2026-11-17T09:37:18Z",
+  "updated_at": "2026-11-17T11:04:55Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -39,27 +39,10 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 5281416,
+  "size_kb": 5282744,
   "og_image": "https://opengraph.githubassets.com/1/KDE/kdenlive",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T01:05:44.000Z",
-  "commits_90d": 637,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": {
-  "tag": "v26.11.80",
-  "name": "v26.11.80",
-  "published_at": "2026-11-13T11:50:45Z",
-  "url": "https://github.com/KDE/kdenlive/releases/tag/v26.11.80"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 2720,
@@ -78,9 +61,9 @@
   },
   "headings": 7,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:42.885Z",
-  "checked_at": "2026-11-17T02:20:42.885Z"
+  "fetched_at": "2026-11-17T11:56:30.199Z",
+  "checked_at": "2026-11-17T11:56:30.199Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:42.885Z"
+ "details_checked_at": "2026-11-17T11:56:30.199Z"
 }

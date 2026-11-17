@@ -5,8 +5,8 @@
  "full_name": "FFmpeg/FFmpeg",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:03.703Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:55.785Z",
  "meta": {
   "name": "FFmpeg",
   "owner": "FFmpeg",
@@ -39,14 +39,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 67410,
-  "forks": 14650,
-  "watchers": null,
+  "stars": 67447,
+  "forks": 14659,
+  "watchers": 1588,
   "open_issues": 3,
   "open_prs": null,
   "created_at": "2011-04-14T14:12:38Z",
-  "pushed_at": "2026-11-17T01:31:46Z",
-  "updated_at": "2026-11-17T02:18:23Z",
+  "pushed_at": "2026-11-17T11:51:37Z",
+  "updated_at": "2026-11-17T11:14:36Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,27 +55,10 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 508534,
+  "size_kb": 508691,
   "og_image": "https://opengraph.githubassets.com/1/FFmpeg/FFmpeg",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T01:31:18.000Z",
-  "commits_90d": 2657,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": {
-  "tag": "n8.1.3",
-  "name": "n8.1.3",
-  "published_at": "2026-09-21T00:46:52Z",
-  "url": "https://github.com/FFmpeg/FFmpeg/releases/tag/n8.1.3"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 2026,
@@ -94,9 +77,9 @@
   },
   "headings": 7,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:43.857Z",
-  "checked_at": "2026-11-17T02:20:41.325Z"
+  "fetched_at": "2026-11-17T11:56:29.932Z",
+  "checked_at": "2026-11-17T11:56:29.932Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:41.325Z"
+ "details_checked_at": "2026-11-17T11:56:29.932Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "duckdb/duckdb",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:26.318Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:23.667Z",
  "meta": {
   "name": "duckdb",
   "owner": "duckdb",
@@ -29,14 +29,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 43117,
+  "stars": 43121,
   "forks": 4214,
-  "watchers": null,
-  "open_issues": 1234,
+  "watchers": 279,
+  "open_issues": 1255,
   "open_prs": null,
   "created_at": "2018-06-26T15:04:45Z",
-  "pushed_at": "2026-11-17T00:19:47Z",
-  "updated_at": "2026-11-17T01:59:54Z",
+  "pushed_at": "2026-11-17T11:52:12Z",
+  "updated_at": "2026-11-17T11:36:29Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -45,30 +45,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 589180,
+  "size_kb": 589370,
   "og_image": "https://opengraph.githubassets.com/1/duckdb/duckdb",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T22:05:24.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.0.0",
-  "name": "DuckDB v2.0.0 &quot;Cyanoptera&quot;",
-  "published_at": "2026-10-21T13:11:38Z",
-  "url": "https://github.com/duckdb/duckdb/releases/tag/v2.0.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 5808,
@@ -87,9 +67,14 @@
   },
   "headings": 8,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:47.264Z",
-  "checked_at": "2026-11-17T02:19:47.264Z"
+  "fetched_at": "2026-11-17T11:56:23.482Z",
+  "checked_at": "2026-11-17T11:56:23.482Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:47.264Z"
+ "contributors": {
+  "count": 1003,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:32.909Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:23.482Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "airbytehq/airbyte",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:26.318Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:27.845Z",
  "meta": {
   "name": "airbyte",
   "owner": "airbytehq",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 22399,
-  "forks": 5499,
-  "watchers": null,
-  "open_issues": 2722,
+  "stars": 22403,
+  "forks": 5530,
+  "watchers": 180,
+  "open_issues": 3284,
   "open_prs": null,
   "created_at": "2020-07-27T23:55:54Z",
-  "pushed_at": "2026-11-17T01:04:50Z",
-  "updated_at": "2026-11-17T01:41:04Z",
+  "pushed_at": "2026-11-17T11:32:22Z",
+  "updated_at": "2026-11-17T10:35:34Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,30 +60,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 973466,
+  "size_kb": 974235,
   "og_image": "https://opengraph.githubassets.com/1/airbytehq/airbyte",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T23:38:28.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.0.0",
-  "name": "Airbyte 2.0",
-  "published_at": "2025-10-15T21:21:41Z",
-  "url": "https://github.com/airbytehq/airbyte/releases/tag/v2.0.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 8902,
@@ -102,9 +82,14 @@
   },
   "headings": 7,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:45.569Z",
-  "checked_at": "2026-11-17T02:19:45.569Z"
+  "fetched_at": "2026-11-17T11:56:23.650Z",
+  "checked_at": "2026-11-17T11:56:23.650Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:45.569Z"
+ "contributors": {
+  "count": 1271,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:33.175Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:23.650Z"
 }

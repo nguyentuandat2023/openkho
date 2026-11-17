@@ -5,8 +5,8 @@
  "full_name": "haris-musa/excel-mcp-server",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.971Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:01.342Z",
  "meta": {
   "name": "excel-mcp-server",
   "owner": "haris-musa",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 4311,
-  "forks": 487,
-  "watchers": null,
+  "stars": 4312,
+  "forks": 488,
+  "watchers": 23,
   "open_issues": 1,
   "open_prs": null,
   "created_at": "2025-02-12T06:39:48Z",
   "pushed_at": "2026-11-16T21:16:53Z",
-  "updated_at": "2026-11-17T00:55:27Z",
+  "updated_at": "2026-11-17T10:47:39Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -64,26 +64,6 @@
   "og_image": "https://opengraph.githubassets.com/1/haris-musa/excel-mcp-server",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T15:59:06.000Z",
-  "commits_90d": 241,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.3.2",
-  "name": "v2.3.2",
-  "published_at": "2026-11-16T15:59:48Z",
-  "url": "https://github.com/haris-musa/excel-mcp-server/releases/tag/v2.3.2",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 23441,
@@ -107,9 +87,14 @@
   },
   "headings": 16,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:21.866Z",
-  "checked_at": "2026-11-17T02:20:21.866Z"
+  "fetched_at": "2026-11-17T11:56:27.627Z",
+  "checked_at": "2026-11-17T11:56:27.627Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:21.866Z"
+ "contributors": {
+  "count": 13,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:38.614Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:27.627Z"
 }

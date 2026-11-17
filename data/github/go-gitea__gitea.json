@@ -5,8 +5,8 @@
  "full_name": "go-gitea/gitea",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:53.325Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:05.931Z",
  "meta": {
   "name": "gitea",
   "owner": "go-gitea",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 59121,
-  "forks": 7409,
-  "watchers": null,
-  "open_issues": 2170,
+  "stars": 59131,
+  "forks": 7412,
+  "watchers": 487,
+  "open_issues": 2167,
   "open_prs": null,
   "created_at": "2016-11-01T02:13:26Z",
-  "pushed_at": "2026-11-17T00:34:30Z",
-  "updated_at": "2026-11-17T01:09:40Z",
+  "pushed_at": "2026-11-17T08:27:10Z",
+  "updated_at": "2026-11-17T11:35:54Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,30 +60,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 375546,
+  "size_kb": 371715,
   "og_image": "https://opengraph.githubassets.com/1/go-gitea/gitea",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T00:34:28.000Z",
-  "commits_90d": 535,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v28.4.0",
-  "name": "v28.4.0",
-  "published_at": "2026-11-15T19:39:47Z",
-  "url": "https://github.com/go-gitea/gitea/releases/tag/v28.4.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 10410,
@@ -103,9 +83,14 @@
   },
   "headings": 24,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:04.802Z",
-  "checked_at": "2026-11-17T02:20:04.802Z"
+  "fetched_at": "2026-11-17T11:56:25.249Z",
+  "checked_at": "2026-11-17T11:56:25.249Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:04.802Z"
+ "contributors": {
+  "count": 1922,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:35.265Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:25.249Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "documenso/documenso",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:26.318Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:12.846Z",
  "meta": {
   "name": "documenso",
   "owner": "documenso",
@@ -42,14 +42,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 15785,
-  "forks": 3488,
-  "watchers": null,
-  "open_issues": 275,
+  "stars": 15793,
+  "forks": 3490,
+  "watchers": 54,
+  "open_issues": 273,
   "open_prs": null,
   "created_at": "2023-03-12T16:28:56Z",
-  "pushed_at": "2026-11-17T02:07:41Z",
-  "updated_at": "2026-11-16T23:45:26Z",
+  "pushed_at": "2026-11-17T11:10:06Z",
+  "updated_at": "2026-11-17T11:26:13Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,30 +58,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 294998,
+  "size_kb": 293583,
   "og_image": "https://opengraph.githubassets.com/1/documenso/documenso",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T12:15:29.000Z",
-  "commits_90d": 151,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.22.0",
-  "name": "v2.22.0",
-  "published_at": "2026-11-13T01:34:30Z",
-  "url": "https://github.com/documenso/documenso/releases/tag/v2.22.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 12509,
@@ -106,9 +86,14 @@
   },
   "headings": 23,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:18.174Z",
-  "checked_at": "2026-11-17T02:19:39.473Z"
+  "fetched_at": "2026-11-17T11:56:22.995Z",
+  "checked_at": "2026-11-17T11:56:22.995Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:39.473Z"
+ "contributors": {
+  "count": 191,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:32.243Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:22.995Z"
 }

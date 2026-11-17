@@ -5,8 +5,8 @@
  "full_name": "hoppscotch/hoppscotch",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:53.325Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:04.472Z",
  "meta": {
   "name": "hoppscotch",
   "owner": "hoppscotch",
@@ -42,14 +42,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 80831,
-  "forks": 6244,
-  "watchers": null,
+  "stars": 80835,
+  "forks": 6246,
+  "watchers": 503,
   "open_issues": 906,
   "open_prs": null,
   "created_at": "2019-08-21T13:15:24Z",
   "pushed_at": "2026-11-05T08:16:25Z",
-  "updated_at": "2026-11-16T14:53:36Z",
+  "updated_at": "2026-11-17T08:00:44Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -62,26 +62,6 @@
   "og_image": "https://opengraph.githubassets.com/1/hoppscotch/hoppscotch",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-04T05:41:52.000Z",
-  "commits_90d": 33,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "2026.10.1",
-  "name": "2026.10.1",
-  "published_at": "2026-11-05T08:15:08Z",
-  "url": "https://github.com/hoppscotch/hoppscotch/releases/tag/2026.10.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 11557,
@@ -105,9 +85,14 @@
   },
   "headings": 10,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:08:46.836Z",
-  "checked_at": "2026-11-16T05:08:46.836Z"
+  "fetched_at": "2026-11-17T11:56:25.099Z",
+  "checked_at": "2026-11-17T11:56:25.099Z"
  },
- "details_checked_at": "2026-11-16T05:06:27.964Z",
- "contributors": null
+ "contributors": {
+  "count": 357,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:35.011Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:25.099Z"
 }

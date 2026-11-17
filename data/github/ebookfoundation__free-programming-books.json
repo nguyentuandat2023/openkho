@@ -5,8 +5,8 @@
  "full_name": "EbookFoundation/free-programming-books",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:38.191Z",
  "meta": {
   "name": "free-programming-books",
   "owner": "EbookFoundation",
@@ -29,14 +29,14 @@
    "spdx": "CC-BY-4.0",
    "name": "Creative Commons Attribution 4.0 International"
   },
-  "stars": 401713,
-  "forks": 67903,
-  "watchers": null,
-  "open_issues": 118,
+  "stars": 401744,
+  "forks": 67902,
+  "watchers": 9767,
+  "open_issues": 121,
   "open_prs": null,
   "created_at": "2013-10-11T06:50:37Z",
   "pushed_at": "2026-11-12T18:46:04Z",
-  "updated_at": "2026-11-17T01:41:16Z",
+  "updated_at": "2026-11-17T11:49:20Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,18 +49,6 @@
   "og_image": "https://opengraph.githubassets.com/1/EbookFoundation/free-programming-books",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-12T18:46:04.000Z",
-  "commits_90d": 213,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 15401,
@@ -74,9 +62,14 @@
   },
   "headings": 15,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:05.186Z",
-  "checked_at": "2026-11-16T05:09:05.186Z"
+  "fetched_at": "2026-11-17T11:56:26.527Z",
+  "checked_at": "2026-11-17T11:56:26.527Z"
  },
- "details_checked_at": "2026-11-16T05:06:31.394Z",
- "contributors": null
+ "contributors": {
+  "count": 3607,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:37.415Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:26.527Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "FlowiseAI/Flowise",
  "status": "archived",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:19.723Z",
+ "source": "graphql",
+ "fetched_at": "2026-11-17T11:49:52.626Z",
  "meta": {
   "name": "Flowise",
   "owner": "FlowiseAI",
@@ -17,38 +17,69 @@
   "html_url": "https://github.com/FlowiseAI/Flowise",
   "default_branch": "main",
   "language": "TypeScript",
-  "languages": null,
+  "languages": [
+   {
+    "name": "TypeScript",
+    "color": "#3178c6",
+    "share": 61.8
+   },
+   {
+    "name": "JavaScript",
+    "color": "#f1e05a",
+    "share": 27.3
+   },
+   {
+    "name": "HTML",
+    "color": "#e34c26",
+    "share": 5.6
+   },
+   {
+    "name": "Handlebars",
+    "color": "#f7931e",
+    "share": 5
+   },
+   {
+    "name": "CSS",
+    "color": "#663399",
+    "share": 0.2
+   },
+   {
+    "name": "SCSS",
+    "color": "#c6538c",
+    "share": 0.1
+   }
+  ],
   "topics": [
+   "artificial-intelligence",
+   "chatgpt",
+   "large-language-models",
+   "low-code",
+   "no-code",
+   "javascript",
+   "react",
+   "typescript",
+   "langchain",
+   "openai",
+   "rag",
+   "chatbot",
+   "workflow-automation",
    "agentic-ai",
    "agentic-workflow",
    "agents",
-   "artificial-intelligence",
-   "chatbot",
-   "chatgpt",
-   "javascript",
-   "langchain",
-   "large-language-models",
-   "low-code",
-   "multiagent-systems",
-   "no-code",
-   "openai",
-   "rag",
-   "react",
-   "typescript",
-   "workflow-automation"
+   "multiagent-systems"
   ],
   "license": {
    "spdx": "NOASSERTION",
    "name": "Other"
   },
   "stars": 55574,
-  "forks": 25095,
-  "watchers": null,
-  "open_issues": 1033,
-  "open_prs": null,
+  "forks": 25094,
+  "watchers": 386,
+  "open_issues": 700,
+  "open_prs": 333,
   "created_at": "2023-03-31T12:23:09Z",
   "pushed_at": "2026-08-13T12:38:19Z",
-  "updated_at": "2026-11-17T01:45:43Z",
+  "updated_at": "2026-11-17T11:00:38Z",
   "archived": true,
   "disabled": false,
   "is_fork": false,
@@ -58,14 +89,14 @@
   "has_discussions": true,
   "has_wiki": false,
   "size_kb": 82933,
-  "og_image": "https://opengraph.githubassets.com/1/FlowiseAI/Flowise",
-  "custom_og_image": false
+  "og_image": "https://repository-images.githubusercontent.com/621803253/228074f3-2420-4c7e-a1a8-3fc357e4c6c1",
+  "custom_og_image": true
  },
  "activity": {
-  "last_commit_at": "2026-08-13T12:38:19.000Z",
+  "last_commit_at": "2026-08-13T12:38:19Z",
   "commits_90d": 0,
   "commits_90d_estimated": false,
-  "source": "atom"
+  "source": "graphql"
  },
  "release_checked": true,
  "release": {
@@ -74,13 +105,23 @@
   "published_at": "2026-07-29T15:51:25Z",
   "url": "https://github.com/FlowiseAI/Flowise/releases/tag/flowise%403.1.4",
   "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
+  "assets_total": 0,
+  "assets": []
  },
  "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
+ "releases_count": 85,
+ "latest_tag": {
+  "name": "flowise-ui@3.1.4",
+  "total": 307
+ },
+ "stars_recent": {
+  "per_day": 7,
+  "sample": 100,
+  "window_days": 14.4,
+  "complete": false,
+  "method": "stargazers"
+ },
+ "docker": true,
  "readme": {
   "path": "README.md",
   "length": 7760,
@@ -98,15 +139,15 @@
    "features": null
   },
   "headings": 16,
-  "processor": 3,
-  "fetched_at": "2026-11-16T04:33:46.847Z",
-  "checked_at": "2026-11-16T04:33:46.847Z"
+  "processor": 4,
+  "fetched_at": "2026-11-17T11:56:20.305Z",
+  "checked_at": "2026-11-17T11:56:20.305Z"
  },
- "details_checked_at": "2026-11-16T04:32:16.512Z",
  "contributors": {
   "count": 332,
   "capped": false,
   "anon": true,
   "fetched_at": "2026-11-16T05:40:32.903Z"
- }
+ },
+ "details_checked_at": "2026-11-17T11:56:20.305Z"
 }

@@ -5,8 +5,8 @@
  "full_name": "KlingAIResearch/LivePortrait",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:23.074Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:50.649Z",
  "meta": {
   "name": "LivePortrait",
   "owner": "KlingAIResearch",
@@ -28,14 +28,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 19507,
+  "stars": 19511,
   "forks": 2037,
-  "watchers": null,
+  "watchers": 157,
   "open_issues": 292,
   "open_prs": null,
   "created_at": "2024-07-03T16:15:03Z",
   "pushed_at": "2026-06-01T17:25:09Z",
-  "updated_at": "2026-11-16T21:43:18Z",
+  "updated_at": "2026-11-17T09:49:02Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,18 +48,6 @@
   "og_image": "https://opengraph.githubassets.com/1/KlingAIResearch/LivePortrait",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-06-01T17:24:54.000Z",
-  "commits_90d": 0,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "readme.md",
   "length": 21450,
@@ -99,9 +87,14 @@
   },
   "headings": 24,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:08:03.796Z",
-  "checked_at": "2026-11-16T05:08:03.796Z"
+  "fetched_at": "2026-11-17T11:56:22.166Z",
+  "checked_at": "2026-11-17T11:56:22.166Z"
  },
- "details_checked_at": "2026-11-16T05:06:17.093Z",
- "contributors": null
+ "contributors": {
+  "count": 12,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:31.267Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:22.166Z"
 }

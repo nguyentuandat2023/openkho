@@ -5,8 +5,8 @@
  "full_name": "undertheseanlp/underthesea",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.971Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:16.527Z",
  "meta": {
   "name": "underthesea",
   "owner": "undertheseanlp",
@@ -36,11 +36,11 @@
   },
   "stars": 1817,
   "forks": 308,
-  "watchers": null,
+  "watchers": 76,
   "open_issues": 61,
   "open_prs": null,
   "created_at": "2017-03-01T10:24:26Z",
-  "pushed_at": "2026-11-16T12:27:01Z",
+  "pushed_at": "2026-11-17T05:08:19Z",
   "updated_at": "2026-11-14T11:53:00Z",
   "archived": false,
   "disabled": false,
@@ -50,30 +50,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 187645,
+  "size_kb": 187658,
   "og_image": "https://opengraph.githubassets.com/1/undertheseanlp/underthesea",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T12:27:01.000Z",
-  "commits_90d": 5,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "underthesea-v9.5.0",
-  "name": "v9.5.0 — A2A Agent Server",
-  "published_at": "2026-05-17T11:16:49Z",
-  "url": "https://github.com/undertheseanlp/underthesea/releases/tag/underthesea-v9.5.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 9751,
@@ -92,9 +72,14 @@
   },
   "headings": 15,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:40.089Z",
-  "checked_at": "2026-11-17T02:20:29.148Z"
+  "fetched_at": "2026-11-17T11:56:28.207Z",
+  "checked_at": "2026-11-17T11:56:28.207Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:29.149Z"
+ "contributors": {
+  "count": 31,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:39.536Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:28.207Z"
 }

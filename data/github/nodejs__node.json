@@ -5,8 +5,8 @@
  "full_name": "nodejs/node",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:53.325Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:02.741Z",
  "meta": {
   "name": "node",
   "owner": "nodejs",
@@ -33,14 +33,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 123754,
-  "forks": 38071,
-  "watchers": null,
-  "open_issues": 1321,
+  "stars": 123765,
+  "forks": 38079,
+  "watchers": 3068,
+  "open_issues": 1317,
   "open_prs": null,
   "created_at": "2014-11-26T19:57:11Z",
-  "pushed_at": "2026-11-17T00:59:18Z",
-  "updated_at": "2026-11-17T01:42:01Z",
+  "pushed_at": "2026-11-17T11:47:28Z",
+  "updated_at": "2026-11-17T11:27:09Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,35 +49,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 1693516,
+  "size_kb": 1694174,
   "og_image": "https://opengraph.githubassets.com/1/nodejs/node",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T00:59:15.000Z",
-  "commits_90d": 2530,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v27.0.0-alpha.0.1.0",
-  "name": "2026-11-12, Version 27.0.0-alpha.0.1.0 (Alpha), @aduh95",
-  "published_at": "2026-11-12T13:35:13Z",
-  "url": "https://github.com/nodejs/node/releases/tag/v27.0.0-alpha.0.1.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v27.0.0-alpha.0.1.1",
-  "name": "2026-11-16 Node.js v27.0.0-alpha.0.1.1 (Alpha) Release",
-  "published_at": "2026-11-16T23:31:33Z",
-  "url": "https://github.com/nodejs/node/releases/tag/v27.0.0-alpha.0.1.1"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 42938,
@@ -96,9 +71,14 @@
   },
   "headings": 23,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:03.300Z",
-  "checked_at": "2026-11-17T02:20:03.300Z"
+  "fetched_at": "2026-11-17T11:56:25.117Z",
+  "checked_at": "2026-11-17T11:56:25.117Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:03.300Z"
+ "contributors": {
+  "count": 4560,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:35.091Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:25.117Z"
 }

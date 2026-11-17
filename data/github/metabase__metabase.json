@@ -5,8 +5,8 @@
  "full_name": "metabase/metabase",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:26.318Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:53:19.241Z",
  "meta": {
   "name": "metabase",
   "owner": "metabase",
@@ -42,14 +42,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 50369,
-  "forks": 7013,
-  "watchers": null,
-  "open_issues": 4711,
+  "stars": 50379,
+  "forks": 7015,
+  "watchers": 654,
+  "open_issues": 4722,
   "open_prs": null,
   "created_at": "2015-02-02T19:25:47Z",
-  "pushed_at": "2026-11-17T02:14:28Z",
-  "updated_at": "2026-11-16T21:54:50Z",
+  "pushed_at": "2026-11-17T11:46:23Z",
+  "updated_at": "2026-11-17T10:57:01Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,35 +58,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 2585799,
+  "size_kb": 2586011,
   "og_image": "https://opengraph.githubassets.com/1/metabase/metabase",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-17T01:20:00.000Z",
-  "commits_90d": 3600,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.65.4",
-  "name": "v0.65.4",
-  "published_at": null,
-  "url": "https://github.com/metabase/metabase/releases/tag/v0.65.4",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v0.65.4.5",
-  "name": "v0.65.4.5: 🤖 v65 backported &quot;Integration branch for fixes&quot; (#87204)",
-  "published_at": "2026-11-16T16:01:20Z",
-  "url": "https://github.com/metabase/metabase/releases/tag/v0.65.4.5"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 5921,
@@ -110,9 +85,14 @@
   },
   "headings": 13,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:42.078Z",
-  "checked_at": "2026-11-17T02:19:42.078Z"
+  "fetched_at": "2026-11-17T11:56:23.320Z",
+  "checked_at": "2026-11-17T11:56:23.320Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:19:42.078Z"
+ "contributors": {
+  "count": 531,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:32.648Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:23.320Z"
 }

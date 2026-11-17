@@ -5,8 +5,8 @@
  "full_name": "microsoft/PowerToys",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.972Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:24.476Z",
  "meta": {
   "name": "PowerToys",
   "owner": "microsoft",
@@ -36,14 +36,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 141073,
-  "forks": 8749,
-  "watchers": null,
-  "open_issues": 8101,
+  "stars": 141093,
+  "forks": 8747,
+  "watchers": 1222,
+  "open_issues": 8109,
   "open_prs": null,
   "created_at": "2019-05-01T17:44:02Z",
-  "pushed_at": "2026-11-17T02:00:33Z",
-  "updated_at": "2026-11-17T02:12:13Z",
+  "pushed_at": "2026-11-17T10:05:42Z",
+  "updated_at": "2026-11-17T11:31:21Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -52,35 +52,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 597213,
+  "size_kb": 597000,
   "og_image": "https://opengraph.githubassets.com/1/microsoft/PowerToys",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T21:08:13.000Z",
-  "commits_90d": 422,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v0.102.3101",
-  "name": "Release v0.102.3101.0",
-  "published_at": "2026-11-06T09:54:30Z",
-  "url": "https://github.com/microsoft/PowerToys/releases/tag/v0.102.3101",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v0.103.3151",
-  "name": "Dev preview v0.103.3151.0",
-  "published_at": "2026-11-13T06:48:43Z",
-  "url": "https://github.com/microsoft/PowerToys/releases/tag/v0.103.3151"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 9857,
@@ -99,9 +74,14 @@
   },
   "headings": 8,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:40.645Z",
-  "checked_at": "2026-11-17T02:20:29.392Z"
+  "fetched_at": "2026-11-17T11:56:28.600Z",
+  "checked_at": "2026-11-17T11:56:28.600Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:29.392Z"
+ "contributors": {
+  "count": 708,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:40.068Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:28.600Z"
 }

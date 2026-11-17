@@ -5,8 +5,8 @@
  "full_name": "nocodb/nocodb",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.971Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:05.523Z",
  "meta": {
   "name": "nocodb",
   "owner": "nocodb",
@@ -38,14 +38,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 65551,
-  "forks": 5140,
-  "watchers": null,
-  "open_issues": 554,
+  "stars": 65556,
+  "forks": 5144,
+  "watchers": 385,
+  "open_issues": 535,
   "open_prs": null,
   "created_at": "2017-10-29T18:51:48Z",
-  "pushed_at": "2026-11-16T20:04:06Z",
-  "updated_at": "2026-11-17T01:17:57Z",
+  "pushed_at": "2026-11-17T11:52:27Z",
+  "updated_at": "2026-11-17T11:53:43Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,30 +54,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 1523266,
+  "size_kb": 1521804,
   "og_image": "https://opengraph.githubassets.com/1/nocodb/nocodb",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T16:55:46.000Z",
-  "commits_90d": 2414,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "2026.10.1",
-  "name": "2026.10.1 : Bug Fix Release",
-  "published_at": "2026-10-29T11:19:16Z",
-  "url": "https://github.com/nocodb/nocodb/releases/tag/2026.10.1",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 8622,
@@ -101,9 +81,14 @@
   },
   "headings": 16,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:38.393Z",
-  "checked_at": "2026-11-17T02:20:23.424Z"
+  "fetched_at": "2026-11-17T11:56:27.684Z",
+  "checked_at": "2026-11-17T11:56:27.684Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:23.424Z"
+ "contributors": {
+  "count": 361,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:38.955Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:27.684Z"
 }

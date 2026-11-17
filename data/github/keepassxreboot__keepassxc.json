@@ -5,8 +5,8 @@
  "full_name": "keepassxreboot/keepassxc",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:03.703Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:35.200Z",
  "meta": {
   "name": "keepassxc",
   "owner": "keepassxreboot",
@@ -36,14 +36,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 30024,
+  "stars": 30026,
   "forks": 2045,
-  "watchers": null,
-  "open_issues": 1019,
+  "watchers": 270,
+  "open_issues": 1021,
   "open_prs": null,
   "created_at": "2016-02-28T15:52:40Z",
-  "pushed_at": "2026-11-15T11:21:18Z",
-  "updated_at": "2026-11-17T01:39:24Z",
+  "pushed_at": "2026-11-17T05:17:37Z",
+  "updated_at": "2026-11-17T11:53:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -52,30 +52,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 83777,
+  "size_kb": 83723,
   "og_image": "https://opengraph.githubassets.com/1/keepassxreboot/keepassxc",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-15T11:21:14.000Z",
-  "commits_90d": 77,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "2.8.0",
-  "name": "Release 2.8.0",
-  "published_at": "2026-11-01T10:42:11Z",
-  "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.8.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 5574,
@@ -99,9 +79,9 @@
   },
   "headings": 9,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:37.415Z",
-  "checked_at": "2026-11-16T05:09:37.415Z"
+  "fetched_at": "2026-11-17T11:56:29.039Z",
+  "checked_at": "2026-11-17T11:56:29.039Z"
  },
- "details_checked_at": "2026-11-16T05:07:17.738Z",
- "contributors": null
+ "contributors": null,
+ "details_checked_at": "2026-11-17T11:56:29.039Z"
 }

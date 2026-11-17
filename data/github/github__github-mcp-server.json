@@ -5,8 +5,8 @@
  "full_name": "github/github-mcp-server",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:56.641Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:57.513Z",
  "meta": {
   "name": "github-mcp-server",
   "owner": "github",
@@ -27,14 +27,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 34530,
-  "forks": 5362,
-  "watchers": null,
-  "open_issues": 460,
+  "stars": 34540,
+  "forks": 5363,
+  "watchers": 412,
+  "open_issues": 461,
   "open_prs": null,
   "created_at": "2025-03-04T16:42:04Z",
   "pushed_at": "2026-11-16T23:13:57Z",
-  "updated_at": "2026-11-17T01:34:41Z",
+  "updated_at": "2026-11-17T11:53:14Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,26 +47,6 @@
   "og_image": "https://opengraph.githubassets.com/1/github/github-mcp-server",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T12:36:47.000Z",
-  "commits_90d": 52,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.2.0",
-  "name": "GitHub MCP Server 2.2.0",
-  "published_at": "2026-11-16T23:30:46Z",
-  "url": "https://github.com/github/github-mcp-server/releases/tag/v2.2.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 127605,
@@ -90,9 +70,14 @@
   },
   "headings": 45,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:20.996Z",
-  "checked_at": "2026-11-17T02:20:20.996Z"
+  "fetched_at": "2026-11-17T11:56:27.487Z",
+  "checked_at": "2026-11-17T11:56:27.487Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:20.996Z"
+ "contributors": {
+  "count": 177,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:38.485Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:27.487Z"
 }

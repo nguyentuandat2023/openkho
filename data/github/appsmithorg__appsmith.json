@@ -5,8 +5,8 @@
  "full_name": "appsmithorg/appsmith",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:59.971Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:55:06.521Z",
  "meta": {
   "name": "appsmith",
   "owner": "appsmithorg",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 41258,
-  "forks": 4846,
-  "watchers": null,
-  "open_issues": 4524,
+  "stars": 41261,
+  "forks": 4847,
+  "watchers": 301,
+  "open_issues": 4523,
   "open_prs": null,
   "created_at": "2020-06-30T04:07:36Z",
-  "pushed_at": "2026-11-16T23:35:14Z",
-  "updated_at": "2026-11-17T01:32:02Z",
+  "pushed_at": "2026-11-17T06:36:09Z",
+  "updated_at": "2026-11-17T11:03:21Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,30 +60,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 823182,
+  "size_kb": 823196,
   "og_image": "https://opengraph.githubassets.com/1/appsmithorg/appsmith",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T21:42:20.000Z",
-  "commits_90d": 316,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.7.0",
-  "name": "Release v2.7.0 🌈",
-  "published_at": "2026-11-12T17:45:16Z",
-  "url": "https://github.com/appsmithorg/appsmith/releases/tag/v2.7.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 54343,
@@ -108,9 +88,14 @@
   },
   "headings": 8,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:23.977Z",
-  "checked_at": "2026-11-17T02:20:23.977Z"
+  "fetched_at": "2026-11-17T11:56:27.927Z",
+  "checked_at": "2026-11-17T11:56:27.927Z"
  },
- "contributors": null,
- "details_checked_at": "2026-11-17T02:20:23.977Z"
+ "contributors": {
+  "count": 386,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:38.879Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:27.927Z"
 }

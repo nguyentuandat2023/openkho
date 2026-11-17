@@ -5,8 +5,8 @@
  "full_name": "QwenAudio/CosyVoice",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:16.355Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:01.348Z",
  "meta": {
   "name": "CosyVoice",
   "owner": "QwenAudio",
@@ -43,14 +43,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 24422,
-  "forks": 2785,
-  "watchers": null,
+  "stars": 24431,
+  "forks": 2786,
+  "watchers": 134,
   "open_issues": 628,
   "open_prs": null,
   "created_at": "2024-07-03T02:59:22Z",
   "pushed_at": "2026-05-25T18:15:40Z",
-  "updated_at": "2026-11-16T22:43:20Z",
+  "updated_at": "2026-11-17T11:12:26Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -63,23 +63,6 @@
   "og_image": "https://opengraph.githubassets.com/1/QwenAudio/CosyVoice",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-05-25T18:15:40.000Z",
-  "commits_90d": 0,
-  "commits_90d_estimated": false,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": {
-  "tag": "v2.0",
-  "name": "v2.0",
-  "published_at": "2025-07-07T06:52:12Z",
-  "url": "https://github.com/QwenAudio/CosyVoice/releases/tag/v2.0"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 13702,
@@ -107,15 +90,15 @@
    }
   },
   "headings": 19,
-  "processor": 3,
-  "fetched_at": "2026-11-16T04:33:36.862Z",
-  "checked_at": "2026-11-16T04:33:36.862Z"
+  "processor": 4,
+  "fetched_at": "2026-11-17T11:56:19.731Z",
+  "checked_at": "2026-11-17T11:56:19.731Z"
  },
- "details_checked_at": "2026-11-16T04:32:13.194Z",
  "contributors": {
   "count": 51,
   "capped": false,
   "anon": true,
   "fetched_at": "2026-11-16T05:40:25.828Z"
- }
+ },
+ "details_checked_at": "2026-11-17T11:56:19.731Z"
 }

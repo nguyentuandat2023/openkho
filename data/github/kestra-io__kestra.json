@@ -5,8 +5,8 @@
  "full_name": "kestra-io/kestra",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:19.723Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:52:13.395Z",
  "meta": {
   "name": "kestra",
   "owner": "kestra-io",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 30245,
-  "forks": 3535,
-  "watchers": null,
-  "open_issues": 682,
+  "stars": 30249,
+  "forks": 3536,
+  "watchers": 166,
+  "open_issues": 656,
   "open_prs": null,
   "created_at": "2019-08-24T13:56:15Z",
-  "pushed_at": "2026-11-16T22:38:15Z",
-  "updated_at": "2026-11-16T22:55:26Z",
+  "pushed_at": "2026-11-17T11:50:33Z",
+  "updated_at": "2026-11-17T11:46:42Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,30 +60,10 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 159814,
+  "size_kb": 160013,
   "og_image": "https://opengraph.githubassets.com/1/kestra-io/kestra",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T21:02:09.000Z",
-  "commits_90d": 3410,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v2.0.10",
-  "name": "v2.0.10",
-  "published_at": "2026-11-12T10:40:14Z",
-  "url": "https://github.com/kestra-io/kestra/releases/tag/v2.0.10",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 22520,
@@ -102,8 +82,8 @@
   },
   "headings": 22,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:19:21.246Z",
-  "checked_at": "2026-11-17T02:19:21.246Z"
+  "fetched_at": "2026-11-17T11:56:20.339Z",
+  "checked_at": "2026-11-17T11:56:20.339Z"
  },
  "contributors": {
   "count": 872,
@@ -111,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:32.422Z"
  },
- "details_checked_at": "2026-11-17T02:19:21.246Z"
+ "details_checked_at": "2026-11-17T11:56:20.339Z"
 }

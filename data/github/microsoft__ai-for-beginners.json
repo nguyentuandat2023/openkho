@@ -5,8 +5,8 @@
  "full_name": "microsoft/AI-For-Beginners",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:18:53.326Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:54:30.802Z",
  "meta": {
   "name": "AI-For-Beginners",
   "owner": "microsoft",
@@ -34,14 +34,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 70931,
-  "forks": 13828,
-  "watchers": null,
+  "stars": 70960,
+  "forks": 13834,
+  "watchers": 665,
   "open_issues": 11,
   "open_prs": null,
   "created_at": "2021-03-03T16:27:36Z",
   "pushed_at": "2026-11-15T19:46:34Z",
-  "updated_at": "2026-11-17T02:13:58Z",
+  "updated_at": "2026-11-17T11:35:21Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,18 +54,6 @@
   "og_image": "https://opengraph.githubassets.com/1/microsoft/AI-For-Beginners",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-03T22:47:11.000Z",
-  "commits_90d": 147,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": null,
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 29093,
@@ -84,9 +72,14 @@
   },
   "headings": 22,
   "processor": 4,
-  "fetched_at": "2026-11-16T05:09:02.090Z",
-  "checked_at": "2026-11-16T05:09:02.090Z"
+  "fetched_at": "2026-11-17T11:56:26.237Z",
+  "checked_at": "2026-11-17T11:56:26.237Z"
  },
- "details_checked_at": "2026-11-16T05:06:27.964Z",
- "contributors": null
+ "contributors": {
+  "count": 98,
+  "capped": false,
+  "anon": true,
+  "fetched_at": "2026-11-17T11:56:36.874Z"
+ },
+ "details_checked_at": "2026-11-17T11:56:26.237Z"
 }

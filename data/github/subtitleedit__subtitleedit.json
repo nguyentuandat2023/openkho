@@ -5,8 +5,8 @@
  "full_name": "SubtitleEdit/subtitleedit",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:06.954Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:56:02.572Z",
  "meta": {
   "name": "subtitleedit",
   "owner": "SubtitleEdit",
@@ -23,14 +23,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 15023,
-  "forks": 1381,
-  "watchers": null,
-  "open_issues": 201,
+  "stars": 15026,
+  "forks": 1382,
+  "watchers": 165,
+  "open_issues": 198,
   "open_prs": null,
   "created_at": "2014-02-03T08:17:41Z",
-  "pushed_at": "2026-11-16T18:41:59Z",
-  "updated_at": "2026-11-17T01:54:42Z",
+  "pushed_at": "2026-11-17T11:32:53Z",
+  "updated_at": "2026-11-17T11:14:55Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -39,35 +39,10 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 291707,
+  "size_kb": 292102,
   "og_image": "https://opengraph.githubassets.com/1/SubtitleEdit/subtitleedit",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T18:41:59.000Z",
-  "commits_90d": 2208,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "v5.4.0",
-  "name": "Subtitle Edit v5.4.0",
-  "published_at": "2026-11-06T05:39:40Z",
-  "url": "https://github.com/SubtitleEdit/subtitleedit/releases/tag/v5.4.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": {
-  "tag": "v5.5.0-beta7",
-  "name": "Subtitle Edit v5.5.0-beta7",
-  "published_at": "2026-11-16T07:07:40Z",
-  "url": "https://github.com/SubtitleEdit/subtitleedit/releases/tag/v5.5.0-beta7"
- },
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 3507,
@@ -86,9 +61,9 @@
   },
   "headings": 16,
   "processor": 4,
-  "fetched_at": "2026-11-16T07:03:45.320Z",
-  "checked_at": "2026-11-17T02:20:43.086Z"
+  "fetched_at": "2026-11-17T11:56:30.172Z",
+  "checked_at": "2026-11-17T11:56:30.172Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:43.086Z"
+ "details_checked_at": "2026-11-17T11:56:30.172Z"
 }

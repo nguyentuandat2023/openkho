@@ -5,8 +5,8 @@
  "full_name": "WyattBlue/auto-editor",
  "status": "ok",
  "renamed_from": null,
- "source": "search",
- "fetched_at": "2026-11-17T02:19:06.954Z",
+ "source": "rest",
+ "fetched_at": "2026-11-17T11:56:03.286Z",
  "meta": {
   "name": "auto-editor",
   "owner": "WyattBlue",
@@ -32,14 +32,14 @@
    "spdx": "Unlicense",
    "name": "The Unlicense"
   },
-  "stars": 5949,
-  "forks": 741,
-  "watchers": null,
+  "stars": 5959,
+  "forks": 742,
+  "watchers": 42,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2020-04-30T04:57:21Z",
   "pushed_at": "2026-11-16T18:36:21Z",
-  "updated_at": "2026-11-17T01:43:56Z",
+  "updated_at": "2026-11-17T11:08:15Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -52,26 +52,6 @@
   "og_image": "https://opengraph.githubassets.com/1/WyattBlue/auto-editor",
   "custom_og_image": false
  },
- "activity": {
-  "last_commit_at": "2026-11-16T17:38:49.000Z",
-  "commits_90d": 566,
-  "commits_90d_estimated": true,
-  "source": "atom"
- },
- "release_checked": true,
- "release": {
-  "tag": "31.9.0",
-  "name": "31.9.0",
-  "published_at": "2026-11-14T03:07:26Z",
-  "url": "https://github.com/WyattBlue/auto-editor/releases/tag/31.9.0",
-  "is_prerelease": false,
-  "assets": null,
-  "assets_total": null
- },
- "prerelease": null,
- "latest_tag": null,
- "stars_recent": null,
- "docker": null,
  "readme": {
   "path": "README.md",
   "length": 4503,
@@ -90,9 +70,9 @@
   },
   "headings": 11,
   "processor": 4,
-  "fetched_at": "2026-11-17T02:20:44.408Z",
-  "checked_at": "2026-11-17T02:20:44.408Z"
+  "fetched_at": "2026-11-17T11:56:30.198Z",
+  "checked_at": "2026-11-17T11:56:30.198Z"
  },
  "contributors": null,
- "details_checked_at": "2026-11-17T02:20:44.408Z"
+ "details_checked_at": "2026-11-17T11:56:30.198Z"
 }
