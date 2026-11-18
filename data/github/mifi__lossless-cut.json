@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:45:35.669Z",
+ "fetched_at": "2026-11-18T20:36:39.887Z",
  "meta": {
   "name": "lossless-cut",
   "owner": "mifi",
@@ -34,14 +34,14 @@
    "spdx": "GPL-2.0",
    "name": "GNU General Public License v2.0"
   },
-  "stars": 46150,
-  "forks": 2341,
+  "stars": 46167,
+  "forks": 2345,
   "watchers": 261,
-  "open_issues": 178,
+  "open_issues": 179,
   "open_prs": null,
   "created_at": "2016-10-30T10:49:56Z",
   "pushed_at": "2026-11-14T02:45:16Z",
-  "updated_at": "2026-11-18T11:32:22Z",
+  "updated_at": "2026-11-18T20:21:09Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -94,7 +94,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.900Z",
-  "checked_at": "2026-11-18T11:46:19.148Z"
+  "checked_at": "2026-11-18T20:37:20.501Z"
  },
  "contributors": {
   "count": 184,
@@ -102,5 +102,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.360Z"
  },
- "details_checked_at": "2026-11-18T11:46:19.148Z"
+ "details_checked_at": "2026-11-18T20:37:20.501Z"
 }

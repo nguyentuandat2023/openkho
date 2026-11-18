@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:42:13.993Z",
+ "fetched_at": "2026-11-18T20:33:37.400Z",
  "meta": {
   "name": "cal.diy",
   "owner": "calcom",
@@ -35,14 +35,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 50162,
-  "forks": 15668,
+  "stars": 50179,
+  "forks": 15674,
   "watchers": 204,
-  "open_issues": 1649,
+  "open_issues": 1651,
   "open_prs": null,
   "created_at": "2021-03-22T13:47:42Z",
   "pushed_at": "2026-11-13T19:35:07Z",
-  "updated_at": "2026-11-18T11:40:43Z",
+  "updated_at": "2026-11-18T20:16:11Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -74,7 +74,7 @@
   "headings": 58,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.906Z",
-  "checked_at": "2026-11-18T11:46:09.572Z"
+  "checked_at": "2026-11-18T20:37:12.049Z"
  },
  "contributors": {
   "count": 989,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.190Z"
  },
- "details_checked_at": "2026-11-18T11:46:09.572Z"
+ "details_checked_at": "2026-11-18T20:37:12.049Z"
 }

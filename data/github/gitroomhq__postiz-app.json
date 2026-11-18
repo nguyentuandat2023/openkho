@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:41:11.783Z",
+ "fetched_at": "2026-11-18T20:32:34.419Z",
  "meta": {
   "name": "postiz-app",
   "owner": "gitroomhq",
@@ -34,14 +34,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 41874,
-  "forks": 7999,
+  "stars": 41898,
+  "forks": 8007,
   "watchers": 147,
-  "open_issues": 207,
+  "open_issues": 205,
   "open_prs": null,
   "created_at": "2023-07-08T17:24:22Z",
-  "pushed_at": "2026-11-18T08:27:15Z",
-  "updated_at": "2026-11-18T11:38:42Z",
+  "pushed_at": "2026-11-18T13:38:05Z",
+  "updated_at": "2026-11-18T20:21:06Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -50,7 +50,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 67669,
+  "size_kb": 67656,
   "og_image": "https://opengraph.githubassets.com/1/gitroomhq/postiz-app",
   "custom_og_image": false
  },
@@ -84,7 +84,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:20.416Z",
-  "checked_at": "2026-11-18T11:46:06.725Z"
+  "checked_at": "2026-11-18T20:37:09.114Z"
  },
  "contributors": {
   "count": 75,
@@ -92,5 +92,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:33.938Z"
  },
- "details_checked_at": "2026-11-18T11:46:06.725Z"
+ "details_checked_at": "2026-11-18T20:37:09.114Z"
 }

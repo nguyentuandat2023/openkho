@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:45:14.652Z",
+ "fetched_at": "2026-11-18T20:36:22.875Z",
  "meta": {
   "name": "coolify",
   "owner": "coollabsio",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 66207,
-  "forks": 6003,
+  "stars": 66225,
+  "forks": 6010,
   "watchers": 198,
-  "open_issues": 107,
+  "open_issues": 110,
   "open_prs": null,
   "created_at": "2021-01-25T20:54:01Z",
-  "pushed_at": "2026-11-18T10:45:16Z",
-  "updated_at": "2026-11-18T11:07:19Z",
+  "pushed_at": "2026-11-18T19:18:20Z",
+  "updated_at": "2026-11-18T19:31:12Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 119597,
+  "size_kb": 119413,
   "og_image": "https://opengraph.githubassets.com/1/coollabsio/coolify",
   "custom_og_image": false
  },
@@ -88,7 +88,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-18T03:01:41.094Z",
-  "checked_at": "2026-11-18T11:46:18.376Z"
+  "checked_at": "2026-11-18T20:37:19.878Z"
  },
  "contributors": {
   "count": 770,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.460Z"
  },
- "details_checked_at": "2026-11-18T11:46:18.376Z"
+ "details_checked_at": "2026-11-18T20:37:19.878Z"
 }

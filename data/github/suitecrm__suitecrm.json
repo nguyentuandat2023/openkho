@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:42:17.715Z",
+ "fetched_at": "2026-11-18T20:33:40.694Z",
  "meta": {
   "name": "SuiteCRM",
   "owner": "SuiteCRM",
@@ -80,7 +80,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.128Z",
-  "checked_at": "2026-11-18T11:46:09.826Z"
+  "checked_at": "2026-11-18T20:37:12.292Z"
  },
  "contributors": {
   "count": 288,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.454Z"
  },
- "details_checked_at": "2026-11-18T11:46:09.826Z"
+ "details_checked_at": "2026-11-18T20:37:12.292Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:43:03.881Z",
+ "fetched_at": "2026-11-18T20:34:22.956Z",
  "meta": {
   "name": "Graphite",
   "owner": "GraphiteEditor",
@@ -43,14 +43,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 27976,
+  "stars": 27981,
   "forks": 1334,
   "watchers": 130,
   "open_issues": 384,
   "open_prs": null,
   "created_at": "2020-04-26T07:29:29Z",
-  "pushed_at": "2026-11-18T11:18:31Z",
-  "updated_at": "2026-11-18T11:40:32Z",
+  "pushed_at": "2026-11-18T15:40:24Z",
+  "updated_at": "2026-11-18T19:18:45Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 65275,
+  "size_kb": 65612,
   "og_image": "https://opengraph.githubassets.com/1/GraphiteEditor/Graphite",
   "custom_og_image": false
  },
@@ -77,7 +77,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.606Z",
-  "checked_at": "2026-11-18T11:46:12.046Z"
+  "checked_at": "2026-11-18T20:37:14.370Z"
  },
  "contributors": {
   "count": 190,
@@ -85,5 +85,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.356Z"
  },
- "details_checked_at": "2026-11-18T11:46:12.046Z"
+ "details_checked_at": "2026-11-18T20:37:14.370Z"
 }

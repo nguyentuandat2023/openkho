@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:44:30.841Z",
+ "fetched_at": "2026-11-18T20:35:44.418Z",
  "meta": {
   "name": "firecrawl-mcp-server",
   "owner": "firecrawl",
@@ -39,14 +39,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 7852,
-  "forks": 938,
+  "stars": 7854,
+  "forks": 939,
   "watchers": 44,
-  "open_issues": 199,
+  "open_issues": 200,
   "open_prs": null,
   "created_at": "2024-12-06T07:50:27Z",
-  "pushed_at": "2026-11-18T10:29:46Z",
-  "updated_at": "2026-11-18T11:16:28Z",
+  "pushed_at": "2026-11-18T20:34:59Z",
+  "updated_at": "2026-11-18T20:01:17Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,7 +55,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 8833,
+  "size_kb": 8890,
   "og_image": "https://opengraph.githubassets.com/1/firecrawl/firecrawl-mcp-server",
   "custom_og_image": false
  },
@@ -88,7 +88,7 @@
   "headings": 60,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.698Z",
-  "checked_at": "2026-11-18T11:46:16.130Z"
+  "checked_at": "2026-11-18T20:37:17.998Z"
  },
  "contributors": {
   "count": 39,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.755Z"
  },
- "details_checked_at": "2026-11-18T11:46:16.130Z"
+ "details_checked_at": "2026-11-18T20:37:17.998Z"
 }

@@ -1,9 +1,117 @@
 {
  "version": 1,
  "repos": {
+  "291137": {
+   "full_name": "ohmyzsh/ohmyzsh",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "2325298": {
+   "full_name": "torvalds/linux",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "11730342": {
+   "full_name": "vuejs/vue",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "19415064": {
+   "full_name": "ossu/computer-science",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "21289110": {
+   "full_name": "vinta/awesome-python",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "21540759": {
+   "full_name": "avelino/awesome-go",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "28457823": {
+   "full_name": "freeCodeCamp/freeCodeCamp",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "60493101": {
+   "full_name": "jwasham/coding-interview-university",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "63476337": {
+   "full_name": "TheAlgorithms/Python",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "83222441": {
+   "full_name": "donnemartin/system-design-primer",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "88011908": {
+   "full_name": "practical-tutorials/project-based-learning",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "126577260": {
+   "full_name": "trekhleb/javascript-algorithms",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "132750724": {
+   "full_name": "codecrafters-io/build-your-own-x",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "138393139": {
+   "full_name": "trimstray/the-book-of-secret-knowledge",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "177736533": {
+   "full_name": "996icu/996.ICU",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "233472199": {
+   "full_name": "massgravel/Microsoft-Activation-Scripts",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "808144141": {
+   "full_name": "DigitalPlatDev/FreeDomain",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "938505608": {
+   "full_name": "mgks/GitHubTree",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
+  "1024554267": {
+   "full_name": "NousResearch/hermes-agent",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "1073224795": {
+   "full_name": "obra/superpowers",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "1136590548": {
+   "full_name": "affaan-m/ECC",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "1142983825": {
+   "full_name": "multica-ai/andrej-karpathy-skills",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "1148788086": {
+   "full_name": "mattpocock/skills",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "1197021090": {
+   "full_name": "ultraworkers/claw-code",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "1209966933": {
+   "full_name": "morluto/rea",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
   "1249979326": {
    "full_name": "pc-style/x-md",
    "since": "2026-11-18T11:48:17.030Z"
+  },
+  "1266797999": {
+   "full_name": "DietrichGebert/ponytail",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "1333065091": {
+   "full_name": "deepseek-ai/deepseek-harness",
+   "since": "2026-11-18T20:39:19.124Z"
   },
   "1338470635": {
    "full_name": "s1dashu/ip-as-logo-skill",
@@ -92,6 +200,14 @@
   "1343441436": {
    "full_name": "workersio/breakscale",
    "since": "2026-11-17T11:58:40.135Z"
+  },
+  "1344466793": {
+   "full_name": "oomol-lab/open-flow",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "1345151921": {
+   "full_name": "orbi-build/orbi",
+   "since": "2026-11-18T20:39:19.124Z"
   },
   "1345185947": {
    "full_name": "amosblomqvist/learn",
@@ -234,6 +350,10 @@
    "full_name": "Albert-Weasker/niubigeo",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1356574476": {
+   "full_name": "Eurekaleo/awesome-ai-for-games",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
   "1357282163": {
    "full_name": "seanhowarthdev/Roam-Control",
    "since": "2026-11-18T02:55:07.183Z"
@@ -241,6 +361,14 @@
   "1357699236": {
    "full_name": "ashemag/human-atlas",
    "since": "2026-11-17T02:23:10.342Z"
+  },
+  "1357833506": {
+   "full_name": "sobranie2406/modureader",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "1358163597": {
+   "full_name": "DartNative/dartnative",
+   "since": "2026-11-18T20:39:19.124Z"
   },
   "1358237117": {
    "full_name": "tidain/YunX-Desktop",
@@ -253,6 +381,10 @@
   "1358633852": {
    "full_name": "Jarvis322/macos-sysdata",
    "since": "2026-11-17T11:58:40.135Z"
+  },
+  "1358679908": {
+   "full_name": "Jaasssoooonnnnn/FirstLight_CR",
+   "since": "2026-11-18T20:39:19.124Z"
   },
   "1359648985": {
    "full_name": "eternity4719/HowToLiveBetter",
@@ -282,9 +414,17 @@
    "full_name": "Edge0-AI/Edge0",
    "since": "2026-11-16T06:58:46.301Z"
   },
+  "1361497109": {
+   "full_name": "fossaryhq/catalog",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
   "1361605273": {
    "full_name": "realmyang/MLView",
    "since": "2026-11-18T11:48:17.030Z"
+  },
+  "1362874559": {
+   "full_name": "jaisuriya-11/tsuzuri",
+   "since": "2026-11-18T20:39:19.124Z"
   },
   "1363417187": {
    "full_name": "yi1108/printfilm",
@@ -329,6 +469,10 @@
   "1367266329": {
    "full_name": "shinthink/blitzstrike",
    "since": "2026-11-18T11:48:17.030Z"
+  },
+  "1368093656": {
+   "full_name": "LINJIANG12/video2book-courses",
+   "since": "2026-11-18T20:29:46.512Z"
   },
   "1368167244": {
    "full_name": "DayuanJiang/PecoFence",
@@ -402,6 +546,10 @@
    "full_name": "Mak5er/AirCard",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1373761193": {
+   "full_name": "CruxGarden/plasma-ui",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
   "1374005005": {
    "full_name": "tamaratran/fast-jev-compaction",
    "since": "2026-11-16T07:04:25.959Z"
@@ -446,6 +594,10 @@
    "full_name": "Oldcircle/geo-sleuth",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1377115777": {
+   "full_name": "Heman10x-NGU/openJev-verdict-2.0",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
   "1377211520": {
    "full_name": "mizorewww/laya-mlx",
    "since": "2026-11-16T07:04:25.959Z"
@@ -474,6 +626,10 @@
    "full_name": "Saffsanity/sill",
    "since": "2026-11-17T02:16:46.877Z"
   },
+  "1381551941": {
+   "full_name": "appflare/appflare",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
   "1381783784": {
    "full_name": "amontlabs/lcu",
    "since": "2026-11-17T11:58:40.135Z"
@@ -485,6 +641,10 @@
   "1382865521": {
    "full_name": "nano-muse/nanoMuse",
    "since": "2026-11-17T11:49:28.515Z"
+  },
+  "1383309982": {
+   "full_name": "Sheltercosmo/jev4pg",
+   "since": "2026-11-18T20:39:19.124Z"
   },
   "1383809012": {
    "full_name": "yetone/magpie",
@@ -526,6 +686,10 @@
    "full_name": "n8n-io/nod",
    "since": "2026-11-17T11:58:40.135Z"
   },
+  "1387889135": {
+   "full_name": "ceyyy427/finathink",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
   "1388594776": {
    "full_name": "feitangyuan/onetake",
    "since": "2026-11-17T02:23:10.342Z"
@@ -558,17 +722,33 @@
    "full_name": "Louis-CFM/coucou",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1391654489": {
+   "full_name": "mattabate/life-distributable",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
   "1391814933": {
    "full_name": "dagoSte/squadra",
    "since": "2026-11-18T02:55:07.183Z"
+  },
+  "1392183103": {
+   "full_name": "LeoAlecksey/opsdeck",
+   "since": "2026-11-18T20:39:19.124Z"
   },
   "1392498172": {
    "full_name": "FengZhenfei/carrel",
    "since": "2026-11-18T11:38:35.808Z"
   },
+  "1393634228": {
+   "full_name": "alpcanaydin/tusk",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
   "1393689296": {
    "full_name": "edenfunf/reelmimic",
    "since": "2026-11-17T20:54:14.953Z"
+  },
+  "1393772822": {
+   "full_name": "arpanjot-coding/Datly",
+   "since": "2026-11-18T20:39:19.124Z"
   },
   "1393965829": {
    "full_name": "KKKKhazix/AIHOT",
@@ -589,6 +769,10 @@
   "1395116154": {
    "full_name": "StartLuxLabs/StartLux-Decision",
    "since": "2026-11-17T20:54:14.953Z"
+  },
+  "1395583543": {
+   "full_name": "igor-alexandrov/tabletist",
+   "since": "2026-11-18T20:39:19.124Z"
   },
   "1395994653": {
    "full_name": "shader-effects-inc/shaders",
@@ -694,6 +878,10 @@
    "full_name": "strands-agents/box",
    "since": "2026-11-18T11:48:17.030Z"
   },
+  "1402497876": {
+   "full_name": "paimonsoror/telltaledns",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
   "1403115747": {
    "full_name": "Jakeschincariol/replica-skill",
    "since": "2026-11-16T07:04:25.959Z"
@@ -725,6 +913,14 @@
   "1404840859": {
    "full_name": "thtbee/nectarlink",
    "since": "2026-11-17T02:23:10.342Z"
+  },
+  "1405013963": {
+   "full_name": "Fazmin/AILearningGuide",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "1405070384": {
+   "full_name": "Takamatsu-Hikaru/AI-Research-Guide",
+   "since": "2026-11-18T20:39:19.124Z"
   },
   "1405117672": {
    "full_name": "SoMarkAI/OXR",
@@ -878,6 +1074,10 @@
    "full_name": "onehumanbeing/esp32-iphone-agent",
    "since": "2026-11-18T11:38:35.808Z"
   },
+  "1414714898": {
+   "full_name": "cristipufu/strata-files",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
   "1414876018": {
    "full_name": "juliobsz/skills",
    "since": "2026-11-17T21:03:58.419Z"
@@ -934,6 +1134,10 @@
    "full_name": "EL4CTEO/blender-skills",
    "since": "2026-11-18T02:55:07.183Z"
   },
+  "1419838541": {
+   "full_name": "beckettharriman/openfill",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
   "1419960669": {
    "full_name": "DhvanilPatel/swarm-cursors",
    "since": "2026-11-17T20:54:14.953Z"
@@ -941,6 +1145,10 @@
   "1420305104": {
    "full_name": "Leonxlnx/earshot",
    "since": "2026-11-17T02:16:46.877Z"
+  },
+  "1420886144": {
+   "full_name": "salihcantekin/ruvio",
+   "since": "2026-11-18T20:39:19.124Z"
   },
   "1421473933": {
    "full_name": "reacher-z/Awesome-REA",
@@ -1102,6 +1310,10 @@
    "full_name": "LNPANDY/NX2Apple",
    "since": "2026-11-16T07:04:25.959Z"
   },
+  "1427550791": {
+   "full_name": "mornyeapp/Mornye-Desktop",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
   "1427696883": {
    "full_name": "reylosql/reylo",
    "since": "2026-11-17T21:03:58.419Z"
@@ -1141,6 +1353,10 @@
   "1428486097": {
    "full_name": "xingjian-bai/opal",
    "since": "2026-11-18T11:48:17.030Z"
+  },
+  "1428519987": {
+   "full_name": "Alejandros17487/ai-jailbreaks",
+   "since": "2026-11-18T20:29:46.512Z"
   },
   "1428714039": {
    "full_name": "xevrion/hatchzip",
@@ -1217,6 +1433,10 @@
   "1431928459": {
    "full_name": "zeabur-oss/zeabur",
    "since": "2026-11-18T11:38:35.808Z"
+  },
+  "1431932080": {
+   "full_name": "lwh0630/TokenBar",
+   "since": "2026-11-18T20:39:19.124Z"
   },
   "1431986839": {
    "full_name": "daveebbelaar/bama",
@@ -1341,6 +1561,10 @@
   "1436254894": {
    "full_name": "aschmelyun/print-my-profile-pic",
    "since": "2026-11-17T20:54:14.953Z"
+  },
+  "1436445831": {
+   "full_name": "aa1143/NamiGPT",
+   "since": "2026-11-18T20:39:19.124Z"
   },
   "1436650356": {
    "full_name": "tang1693/KIKUmap",
@@ -1470,6 +1694,10 @@
    "full_name": "Arjun-Ingole/hop",
    "since": "2026-11-17T20:54:14.953Z"
   },
+  "1440554321": {
+   "full_name": "ChazY11/medradar",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
   "1440630308": {
    "full_name": "Interactive-Active-AI/NextTransformer",
    "since": "2026-11-18T11:48:17.030Z"
@@ -1542,6 +1770,10 @@
    "full_name": "woniuniuniu/dsh-media-desk",
    "since": "2026-11-17T21:03:58.419Z"
   },
+  "1443018818": {
+   "full_name": "Future-Proof-DS/interactive-ai-ml-tools",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
   "1443186633": {
    "full_name": "libracoder/kiri",
    "since": "2026-11-16T07:04:25.959Z"
@@ -1561,6 +1793,10 @@
   "1443805845": {
    "full_name": "Renly1994/xiaotang-daozai",
    "since": "2026-11-17T21:03:58.419Z"
+  },
+  "1443910681": {
+   "full_name": "TixXin/Fuyu",
+   "since": "2026-11-18T20:29:46.512Z"
   },
   "1443985070": {
    "full_name": "KKKKhazix/agent-autoloop",
@@ -1638,6 +1874,10 @@
    "full_name": "DIYgod/pinky",
    "since": "2026-11-17T11:58:40.135Z"
   },
+  "1448721787": {
+   "full_name": "AbhiKamane/ai-app-builder-open",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
   "1448734795": {
    "full_name": "ayanprob/coreldraw-desktop-installer",
    "since": "2026-11-18T03:03:31.093Z"
@@ -1653,6 +1893,10 @@
   "1448752369": {
    "full_name": "ilsa99/microsoft-365-desktop",
    "since": "2026-11-18T03:03:31.093Z"
+  },
+  "1448763320": {
+   "full_name": "manjushree-iyer/soundpad-audio-suite",
+   "since": "2026-11-18T20:29:46.512Z"
   },
   "1448807268": {
    "full_name": "sostenesfreitas/ocarina-recomp",
@@ -1682,6 +1926,10 @@
    "full_name": "jhaizhou-ops/S2Arm",
    "since": "2026-11-17T11:49:28.515Z"
   },
+  "1450258793": {
+   "full_name": "lobehub/lobe-mygo",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
   "1450792839": {
    "full_name": "serveroshq/panel",
    "since": "2026-11-18T02:55:07.183Z"
@@ -1691,7 +1939,7 @@
    "since": "2026-11-17T20:54:14.953Z"
   },
   "1450963843": {
-   "full_name": "huami-dev/GestaltX",
+   "full_name": "huami1314/GestaltX",
    "since": "2026-11-16T07:04:25.959Z"
   },
   "1450992633": {
@@ -1706,6 +1954,10 @@
    "full_name": "Robbyant/lingbot-touch",
    "since": "2026-11-18T11:38:35.808Z"
   },
+  "1451167171": {
+   "full_name": "yetone/rewind-for-x",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
   "1451419767": {
    "full_name": "kolbicz/WQFiles",
    "since": "2026-11-18T03:03:31.093Z"
@@ -1717,6 +1969,10 @@
   "1451554320": {
    "full_name": "adriadam10/mkw-recomp",
    "since": "2026-11-17T21:03:58.419Z"
+  },
+  "1451653921": {
+   "full_name": "MiniMax-AI/MiniMax-H3-Image",
+   "since": "2026-11-18T20:29:46.512Z"
   },
   "1451662178": {
    "full_name": "Dodaios/ste80-humanizer",
@@ -1746,6 +2002,10 @@
    "full_name": "JDhruv14/line-art-animation",
    "since": "2026-11-18T03:03:31.093Z"
   },
+  "1452544018": {
+   "full_name": "aronhy/pibrowse",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
   "1452566697": {
    "full_name": "meshy-dev/ThreeRT",
    "since": "2026-11-18T11:38:35.808Z"
@@ -1754,6 +2014,18 @@
    "full_name": "failsafe-security/artex",
    "since": "2026-11-18T11:38:35.808Z"
   },
+  "1452733335": {
+   "full_name": "fengyiqicoder/awesome-fable-5.2",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
+  "1452814488": {
+   "full_name": "realcodebear/saltline-fable-5.2",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
+  "1452864416": {
+   "full_name": "ValidatorStack/solana-vigil",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
   "1453092233": {
    "full_name": "MSNightmare/SignDrop",
    "since": "2026-11-18T11:48:17.030Z"
@@ -1761,6 +2033,14 @@
   "1453132706": {
    "full_name": "FrigadeHQ/yogurt",
    "since": "2026-11-17T20:54:14.953Z"
+  },
+  "1453293167": {
+   "full_name": "Xin-YuXiao/Awesome-AI-for-Astronomy",
+   "since": "2026-11-18T20:39:19.124Z"
+  },
+  "1453389238": {
+   "full_name": "AFangTeam/PrintLab",
+   "since": "2026-11-18T20:29:46.512Z"
   },
   "1453517867": {
    "full_name": "apex-compute/ANR",
@@ -1774,6 +2054,10 @@
    "full_name": "TensaikunYT/Videohub",
    "since": "2026-11-18T11:48:17.030Z"
   },
+  "1454221776": {
+   "full_name": "op7418/guizang-game-skill",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
   "1454389076": {
    "full_name": "linknimiball1974/ai-texture-forge",
    "since": "2026-11-18T11:38:35.808Z"
@@ -1785,6 +2069,10 @@
   "1454661440": {
    "full_name": "rivet-dev/open-orange",
    "since": "2026-11-18T11:38:35.808Z"
+  },
+  "1454708045": {
+   "full_name": "Simon3Sarkis/super-odyssey-pc-recomp",
+   "since": "2026-11-18T20:29:46.512Z"
   },
   "1454950288": {
    "full_name": "BigPizzaV3/ClaudeMom",
@@ -1798,6 +2086,10 @@
    "full_name": "ZiChuanLan/freebie-radar",
    "since": "2026-11-17T21:03:58.419Z"
   },
+  "1455105440": {
+   "full_name": "krezio/roomy",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
   "1455173808": {
    "full_name": "AIRzZ90/study-materials-fork",
    "since": "2026-11-18T11:38:35.808Z"
@@ -1809,6 +2101,10 @@
   "1455216001": {
    "full_name": "huggingface/pybot",
    "since": "2026-11-18T11:38:35.808Z"
+  },
+  "1455261455": {
+   "full_name": "AgenticOrgLab/ExecOrchestra",
+   "since": "2026-11-18T20:29:46.512Z"
   },
   "1455374283": {
    "full_name": "Noniv/abyssal-garden",
@@ -1858,6 +2154,10 @@
    "full_name": "zovulrira1974/blender-ai-copilot-assets",
    "since": "2026-11-18T11:48:17.030Z"
   },
+  "1455879258": {
+   "full_name": "pithings/unkernel",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
   "1455933518": {
    "full_name": "berkantay/gpucanvas",
    "since": "2026-11-18T11:48:17.030Z"
@@ -1874,6 +2174,10 @@
    "full_name": "faizfahmi77/ScanDot",
    "since": "2026-11-18T11:48:17.030Z"
   },
+  "1456182311": {
+   "full_name": "oneamendez/crate-ios",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
   "1456290080": {
    "full_name": "quer3q/kraken-mount",
    "since": "2026-11-18T11:48:17.030Z"
@@ -1882,13 +2186,29 @@
    "full_name": "opencoredev/islandcn",
    "since": "2026-11-18T11:38:35.808Z"
   },
+  "1456610069": {
+   "full_name": "pixl27/ProjectReLink",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
   "1456635592": {
    "full_name": "StormBrawlerSack/legwork-osint-ai-investigator",
    "since": "2026-11-18T11:48:17.030Z"
   },
+  "1456652206": {
+   "full_name": "ysunyang4/Nexus",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
+  "1456744150": {
+   "full_name": "memoryswordsmanlaud/fieldkit-awesome-osint-list",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
   "1456913583": {
    "full_name": "mit-han-lab/pear",
    "since": "2026-11-18T11:38:35.808Z"
+  },
+  "1457194288": {
+   "full_name": "azuremaple1997/coreldraw-desktop",
+   "since": "2026-11-18T20:29:46.512Z"
   },
   "1457270665": {
    "full_name": "duwqijlk/muse-protocol",
@@ -1902,13 +2222,33 @@
    "full_name": "haziqahmedqasmi/PeakCut",
    "since": "2026-11-18T11:38:35.808Z"
   },
+  "1457605310": {
+   "full_name": "mankidev/antialgorithm",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
+  "1457813894": {
+   "full_name": "hikaku-io/hikaku-extension",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
   "1457919852": {
    "full_name": "n4ze3m/tiny-voca",
    "since": "2026-11-18T11:38:35.808Z"
   },
+  "1458091323": {
+   "full_name": "TorrentArrow/IPTV_Player_2.0",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
+  "1458099072": {
+   "full_name": "tremorbuffalospire/IPTV_Player_2.0",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
   "1458292408": {
    "full_name": "yetanotherbrowser/yab",
    "since": "2026-11-18T11:38:35.808Z"
+  },
+  "1458303867": {
+   "full_name": "nilbuild/stick-scene",
+   "since": "2026-11-18T20:29:46.512Z"
   },
   "1458720005": {
    "full_name": "Hut-hzf/ung220z-tool",
@@ -1917,6 +2257,14 @@
   "1459063723": {
    "full_name": "joshpuckett/allo",
    "since": "2026-11-18T11:38:35.808Z"
+  },
+  "1459485844": {
+   "full_name": "scottsturrock/mate-wayland-desktop",
+   "since": "2026-11-18T20:29:46.512Z"
+  },
+  "1459700211": {
+   "full_name": "siliconjungle/shapeshift-labs-ink-studio",
+   "since": "2026-11-18T20:29:46.512Z"
   },
   "1459812801": {
    "full_name": "fujc683/seedance-2-5-flash-api",
@@ -1967,5 +2315,5 @@
    "since": "2026-11-17T20:54:14.953Z"
   }
  },
- "updated_at": "2026-11-18T11:48:18.295Z"
+ "updated_at": "2026-11-18T20:39:20.543Z"
 }

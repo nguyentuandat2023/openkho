@@ -1,9 +1,9 @@
 {
- "computed_at": "2026-11-18T11:48:17.030Z",
+ "computed_at": "2026-11-18T20:39:19.124Z",
  "curated_missing_github_id": [],
- "missing_contributors": 2546,
+ "missing_contributors": 2473,
  "stale_over_48h": [],
- "low_quality_coverage": 2301,
+ "low_quality_coverage": 2182,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -13,6 +13,11 @@
   },
   {
    "id": "abdulmannanmalik13-wq/adobe-substance-3d-studio",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "hembramneeraj3-create/aida-64-extreme",
    "origin": "radar",
    "status": "not_found"
   },
@@ -172,6 +177,11 @@
    "status": "not_found"
   },
   {
+   "id": "ava25-thompson/fishstrap-roblox-fps-booster-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "ben-kennedy-81/xfer-serum-desktop",
    "origin": "radar",
    "status": "not_found"
@@ -219,8 +229,8 @@
    "to": "reylosql/reylo"
   },
   {
-   "from": "huamidev/GestaltX",
-   "to": "huami-dev/GestaltX"
+   "from": "huami-dev/GestaltX",
+   "to": "huami1314/GestaltX"
   }
  ],
  "anomalies": [
@@ -245,7 +255,7 @@
   {
    "id": "Folkbench/folkbench",
    "reasons": [
-    "repo mới với 3.964 sao nhưng gần như không có fork (19) và chưa có issue nào"
+    "repo mới với 3.974 sao nhưng gần như không có fork (19) và chưa có issue nào"
    ]
   },
   {
@@ -281,19 +291,13 @@
   {
    "id": "byted-technologies/.github",
    "reasons": [
-    "repo mới với 3.997 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 3.996 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "HeyPuter/everything",
    "reasons": [
     "rất ít người đóng góp (3) so với tốc độ tăng sao"
-   ]
-  },
-  {
-   "id": "Leonxlnx/earshot",
-   "reasons": [
-    "rất ít người đóng góp (5) so với tốc độ tăng sao"
    ]
   },
   {
@@ -359,7 +363,7 @@
   {
    "id": "AhmadHassan-BTed/RainGen-RainGenerator",
    "reasons": [
-    "repo mới với 1.607 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.608 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -432,12 +436,6 @@
    "id": "AbhiKamane/ai-app-builder-open",
    "reasons": [
     "+384 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "hembramneeraj3-create/aida-64-extreme",
-   "reasons": [
-    "repo mới với 1.209 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
@@ -515,7 +513,7 @@
   {
    "id": "RolandoV3/metatrader-5-bot",
    "reasons": [
-    "+1.118 sao nhưng chỉ +1 fork trong cùng kỳ"
+    "+1.120 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
@@ -557,7 +555,7 @@
   {
    "id": "tianjanahary05-source/reason-14-installer",
    "reasons": [
-    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.104 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
@@ -569,7 +567,7 @@
   {
    "id": "rdeepak-wq121/quicken-deluxe-installer",
    "reasons": [
-    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.103 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
@@ -593,13 +591,13 @@
   {
    "id": "pravinpote1985/serato-dj-pro-2026",
    "reasons": [
-    "repo mới với 1.102 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "manjushree-iyer/soundpad-audio-suite",
    "reasons": [
-    "repo mới với 1.104 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+1.104 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -627,93 +625,87 @@
    ]
   },
   {
+   "id": "Gosu-x/multimodal-threat-dataset",
+   "reasons": [
+    "+382 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
    "id": "ariamitchell54/cubase-studio-desktop",
    "reasons": [
-    "repo mới với 415 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 363 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "alex-wells-65/iobit-driver-booster-desktop",
    "reasons": [
-    "+413 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+361 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "angela-cook-1988/vegas-pro-23-desktop",
    "reasons": [
-    "+412 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "ava25-thompson/fishstrap-roblox-fps-booster-desktop",
-   "reasons": [
-    "+410 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+360 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "azure-teal-slope/windows-optimizer-desktop",
    "reasons": [
-    "+413 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "azuremaple1997/coreldraw-desktop",
-   "reasons": [
-    "repo mới với 413 sao nhưng gần như không có fork (2) và chưa có issue nào"
+    "+361 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
    "id": "azuresail195/wondershare-recoverit-desktop",
    "reasons": [
-    "+413 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+361 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "ben-cook-42/kontakt-8-desktop",
    "reasons": [
-    "+413 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+361 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "ben14-dunn/native-instruments-kontakt-desktop",
    "reasons": [
-    "+414 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+362 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "ben-miller-23/dxo-photolab-10-desktop",
    "reasons": [
-    "repo mới với 415 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "repo mới với 363 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
    "id": "brave-plum-co/leonardo-ai-desktop",
    "reasons": [
-    "+412 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+360 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "brave-shell-07/izotope-rx-11-desktop",
    "reasons": [
-    "+413 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+361 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "bradburns2001/topaz-video-ai-desktop",
    "reasons": [
-    "+413 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+361 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "briskember13/adobe-acrobat-pdf-desktop",
    "reasons": [
-    "+412 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+360 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "brisk-thrush-husky/malware-defender-desktop",
    "reasons": [
-    "repo mới với 416 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 364 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -851,196 +843,236 @@
   {
    "id": "scottsturrock/mate-wayland-desktop",
    "reasons": [
-    "+383 sao nhưng chỉ +1 fork trong cùng kỳ"
+    "+440 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   }
  ],
  "published_changes": {
   "added": [
    {
-    "gid": "1454079196",
-    "full_name": "TensaikunYT/Videohub"
+    "gid": "291137",
+    "full_name": "ohmyzsh/ohmyzsh"
    },
    {
-    "gid": "1455933518",
-    "full_name": "berkantay/gpucanvas"
+    "gid": "1024554267",
+    "full_name": "NousResearch/hermes-agent"
    },
    {
-    "gid": "1455751043",
-    "full_name": "zovulrira1974/blender-ai-copilot-assets"
+    "gid": "21540759",
+    "full_name": "avelino/awesome-go"
    },
    {
-    "gid": "1455750092",
-    "full_name": "tiobeharxi1987/blender-ai-copilot-flow"
+    "gid": "1136590548",
+    "full_name": "affaan-m/ECC"
    },
    {
-    "gid": "1455742253",
-    "full_name": "credoksopho1984/blender-ai-copilot-studio"
+    "gid": "1209966933",
+    "full_name": "morluto/rea"
    },
    {
-    "gid": "1455740160",
-    "full_name": "racdeufindurch198812/Blender-AI-MCP-Studio"
+    "gid": "63476337",
+    "full_name": "TheAlgorithms/Python"
    },
    {
-    "gid": "1440630308",
-    "full_name": "Interactive-Active-AI/NextTransformer"
+    "gid": "1266797999",
+    "full_name": "DietrichGebert/ponytail"
    },
    {
-    "gid": "1455738282",
-    "full_name": "findavoulot1973/Blender-AI-MCP-Suite"
+    "gid": "1148788086",
+    "full_name": "mattpocock/skills"
    },
    {
-    "gid": "1455744040",
-    "full_name": "baiblinocun1986/blender-ai-copilot-hub"
+    "gid": "19415064",
+    "full_name": "ossu/computer-science"
    },
    {
-    "gid": "1455744896",
-    "full_name": "precygtrucqui1981/blender-ai-copilot-lab"
+    "gid": "28457823",
+    "full_name": "freeCodeCamp/freeCodeCamp"
    },
    {
-    "gid": "1455746615",
-    "full_name": "Doug-218/blender-ai-copilot-forge"
+    "gid": "132750724",
+    "full_name": "codecrafters-io/build-your-own-x"
    },
    {
-    "gid": "1455747754",
-    "full_name": "benzgasfuncring197110/blender-ai-copilot-bridge"
+    "gid": "1073224795",
+    "full_name": "obra/superpowers"
    },
    {
-    "gid": "1450992633",
-    "full_name": "xiaoerofficial021-collab/FlowHMR-Windows"
+    "gid": "88011908",
+    "full_name": "practical-tutorials/project-based-learning"
    },
    {
-    "gid": "1455748713",
-    "full_name": "fumbdendade19718/blender-ai-copilot-desk"
+    "gid": "1452544018",
+    "full_name": "aronhy/pibrowse"
    },
    {
-    "gid": "1452175380",
-    "full_name": "simplexai-labs/linger"
+    "gid": "60493101",
+    "full_name": "jwasham/coding-interview-university"
    },
    {
-    "gid": "1456635592",
-    "full_name": "StormBrawlerSack/legwork-osint-ai-investigator"
+    "gid": "1440554321",
+    "full_name": "ChazY11/medradar"
    },
    {
-    "gid": "1456290080",
-    "full_name": "quer3q/kraken-mount"
+    "gid": "21289110",
+    "full_name": "vinta/awesome-python"
    },
    {
-    "gid": "1428486097",
-    "full_name": "xingjian-bai/opal"
+    "gid": "233472199",
+    "full_name": "massgravel/Microsoft-Activation-Scripts"
    },
    {
-    "gid": "1455515238",
-    "full_name": "kociden/sakurai-skill"
+    "gid": "1197021090",
+    "full_name": "ultraworkers/claw-code"
    },
    {
-    "gid": "1451430394",
-    "full_name": "TomyJan/SnowLuma"
+    "gid": "1333065091",
+    "full_name": "deepseek-ai/deepseek-harness"
    },
    {
-    "gid": "1402328864",
-    "full_name": "strands-agents/box"
+    "gid": "126577260",
+    "full_name": "trekhleb/javascript-algorithms"
    },
    {
-    "gid": "1437033043",
-    "full_name": "jmanico/grim-prompter"
+    "gid": "2325298",
+    "full_name": "torvalds/linux"
    },
    {
-    "gid": "1460361401",
-    "full_name": "Illson/RustText"
+    "gid": "1431932080",
+    "full_name": "lwh0630/TokenBar"
    },
    {
-    "gid": "1456134750",
-    "full_name": "faizfahmi77/ScanDot"
+    "gid": "1450258793",
+    "full_name": "lobehub/lobe-mygo"
    },
    {
-    "gid": "1412617976",
-    "full_name": "OpenTodoApp/OpenTodo"
+    "gid": "1405013963",
+    "full_name": "Fazmin/AILearningGuide"
    },
    {
-    "gid": "1361605273",
-    "full_name": "realmyang/MLView"
+    "gid": "1452864416",
+    "full_name": "ValidatorStack/solana-vigil"
    },
    {
-    "gid": "1366280840",
-    "full_name": "modelscope/ms-cookbook"
+    "gid": "1392183103",
+    "full_name": "LeoAlecksey/opsdeck"
    },
    {
-    "gid": "1342851168",
-    "full_name": "bam-bam-2/solo-skills"
+    "gid": "1453293167",
+    "full_name": "Xin-YuXiao/Awesome-AI-for-Astronomy"
    },
    {
-    "gid": "1349818659",
-    "full_name": "vicoa-ai/vicoa"
+    "gid": "1393772822",
+    "full_name": "arpanjot-coding/Datly"
    },
    {
-    "gid": "1409305885",
-    "full_name": "opennookorg/betterwispr"
+    "gid": "1383309982",
+    "full_name": "Sheltercosmo/jev4pg"
    },
    {
-    "gid": "1401556740",
-    "full_name": "NPMscan/npmscan-action"
+    "gid": "83222441",
+    "full_name": "donnemartin/system-design-primer"
    },
    {
-    "gid": "1367266329",
-    "full_name": "shinthink/blitzstrike"
+    "gid": "1427550791",
+    "full_name": "mornyeapp/Mornye-Desktop"
    },
    {
-    "gid": "1453092233",
-    "full_name": "MSNightmare/SignDrop"
+    "gid": "1436445831",
+    "full_name": "aa1143/NamiGPT"
    },
    {
-    "gid": "1249979326",
-    "full_name": "pc-style/x-md"
+    "gid": "1373761193",
+    "full_name": "CruxGarden/plasma-ui"
    },
    {
-    "gid": "1359742580",
-    "full_name": "nmatt0/moria"
+    "gid": "1419838541",
+    "full_name": "beckettharriman/openfill"
    },
    {
-    "gid": "1423954956",
-    "full_name": "lordbasex/LordOS"
+    "gid": "138393139",
+    "full_name": "trimstray/the-book-of-secret-knowledge"
    },
    {
-    "gid": "1366032081",
-    "full_name": "nhovongoc0-max/meme-radar"
+    "gid": "1420886144",
+    "full_name": "salihcantekin/ruvio"
    },
    {
-    "gid": "1354991682",
-    "full_name": "Agenta-AI/awesome-ai-agent-platforms"
+    "gid": "1387889135",
+    "full_name": "ceyyy427/finathink"
    },
    {
-    "gid": "1425507661",
-    "full_name": "StashDock/StashDock"
+    "gid": "808144141",
+    "full_name": "DigitalPlatDev/FreeDomain"
    },
    {
-    "gid": "1431056935",
-    "full_name": "Cattmonkey/ChaosIntelligence"
+    "gid": "1345151921",
+    "full_name": "orbi-build/orbi"
+   },
+   {
+    "gid": "1377115777",
+    "full_name": "Heman10x-NGU/openJev-verdict-2.0"
+   },
+   {
+    "gid": "1414714898",
+    "full_name": "cristipufu/strata-files"
+   },
+   {
+    "gid": "11730342",
+    "full_name": "vuejs/vue"
+   },
+   {
+    "gid": "1362874559",
+    "full_name": "jaisuriya-11/tsuzuri"
+   },
+   {
+    "gid": "1395583543",
+    "full_name": "igor-alexandrov/tabletist"
+   },
+   {
+    "gid": "1443018818",
+    "full_name": "Future-Proof-DS/interactive-ai-ml-tools"
+   },
+   {
+    "gid": "177736533",
+    "full_name": "996icu/996.ICU"
+   },
+   {
+    "gid": "1358679908",
+    "full_name": "Jaasssoooonnnnn/FirstLight_CR"
+   },
+   {
+    "gid": "1381551941",
+    "full_name": "appflare/appflare"
+   },
+   {
+    "gid": "1142983825",
+    "full_name": "multica-ai/andrej-karpathy-skills"
+   },
+   {
+    "gid": "1344466793",
+    "full_name": "oomol-lab/open-flow"
+   },
+   {
+    "gid": "1357833506",
+    "full_name": "sobranie2406/modureader"
+   },
+   {
+    "gid": "1358163597",
+    "full_name": "DartNative/dartnative"
+   },
+   {
+    "gid": "1405070384",
+    "full_name": "Takamatsu-Hikaru/AI-Research-Guide"
    }
   ],
-  "removed": [
-   {
-    "gid": "1448721315",
-    "full_name": "abdulmannanmalik13-wq/adobe-substance-3d-studio",
-    "why": "trạng thái not_found"
-   },
-   {
-    "gid": "1448761997",
-    "full_name": "mahmoudtawfik1998/secure-pdf-document-processor",
-    "why": "trạng thái not_found"
-   },
-   {
-    "gid": "1461244802",
-    "full_name": "gylive/google-ultra",
-    "why": "trạng thái not_found"
-   }
-  ],
-  "kept": 451
+  "removed": [],
+  "kept": 524
  },
  "suppressed_clusters": [
   {
    "cluster": "campaign-2026-11-06-1099",
-   "reason": "Một trong 54 repo khác tên do 54 tài khoản tạo gần như cùng lúc, cùng khoảng 1.099–1.209 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "reason": "Một trong 53 repo khác tên do 53 tài khoản tạo gần như cùng lúc, cùng khoảng 1.099–1.209 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
    "repos": [
     "bipro45/actual-multi-display-configurator",
     "hembramneeraj3-create/aida-64-extreme",
@@ -1088,7 +1120,6 @@
     "SirBonney/scrcpy-mirror-control",
     "pravinpote1985/serato-dj-pro-2026",
     "Malik-825/sketchup-pro-desktop",
-    "manjushree-iyer/soundpad-audio-suite",
     "muddinenilakshmilalithaksh-create/sp-flash-tool",
     "FarhanNaem/startall-back",
     "RafliAbdulHaliim/sylenth-1-enhancement-suite",
@@ -1099,15 +1130,16 @@
    ]
   },
   {
-   "cluster": "campaign-2026-11-13-410",
-   "reason": "Một trong 14 repo khác tên do 14 tài khoản tạo gần như cùng lúc, cùng khoảng 410–416 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "cluster": "campaign-2026-11-13-360",
+   "reason": "Một trong 15 repo khác tên do 15 tài khoản tạo gần như cùng lúc, cùng khoảng 360–364 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
    "repos": [
     "ariamitchell54/cubase-studio-desktop",
     "alex-wells-65/iobit-driver-booster-desktop",
     "angela-cook-1988/vegas-pro-23-desktop",
-    "ava25-thompson/fishstrap-roblox-fps-booster-desktop",
+    "amber-lance-72/xeno-roblox-desktop",
     "azure-teal-slope/windows-optimizer-desktop",
     "azuresail195/wondershare-recoverit-desktop",
+    "ben-kennedy-81/xfer-serum-desktop",
     "ben-cook-42/kontakt-8-desktop",
     "ben14-dunn/native-instruments-kontakt-desktop",
     "ben-miller-23/dxo-photolab-10-desktop",

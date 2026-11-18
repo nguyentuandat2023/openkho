@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:41:35.351Z",
+ "fetched_at": "2026-11-18T20:32:59.249Z",
  "meta": {
   "name": "LibreTranslate",
   "owner": "LibreTranslate",
@@ -29,14 +29,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 17786,
+  "stars": 17787,
   "forks": 1866,
   "watchers": 111,
   "open_issues": 136,
   "open_prs": null,
   "created_at": "2020-12-19T19:19:34Z",
   "pushed_at": "2026-11-14T12:22:54Z",
-  "updated_at": "2026-11-18T09:49:54Z",
+  "updated_at": "2026-11-18T12:31:37Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -68,7 +68,7 @@
   "headings": 5,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.477Z",
-  "checked_at": "2026-11-18T11:46:07.956Z"
+  "checked_at": "2026-11-18T20:37:10.286Z"
  },
  "contributors": {
   "count": 312,
@@ -76,5 +76,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T02:20:53.099Z"
  },
- "details_checked_at": "2026-11-18T11:46:07.956Z"
+ "details_checked_at": "2026-11-18T20:37:10.286Z"
 }

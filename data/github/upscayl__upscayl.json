@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:41:39.733Z",
+ "fetched_at": "2026-11-18T20:33:02.854Z",
  "meta": {
   "name": "upscayl",
   "owner": "upscayl",
@@ -35,14 +35,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 52868,
-  "forks": 2780,
+  "stars": 52887,
+  "forks": 2781,
   "watchers": 227,
-  "open_issues": 58,
+  "open_issues": 59,
   "open_prs": null,
   "created_at": "2022-07-30T17:19:20Z",
   "pushed_at": "2026-11-18T08:26:15Z",
-  "updated_at": "2026-11-18T11:32:32Z",
+  "updated_at": "2026-11-18T19:15:02Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -79,7 +79,7 @@
   "headings": 19,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.622Z",
-  "checked_at": "2026-11-18T11:46:08.089Z"
+  "checked_at": "2026-11-18T20:37:10.564Z"
  },
  "contributors": {
   "count": 49,
@@ -87,5 +87,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T02:20:53.737Z"
  },
- "details_checked_at": "2026-11-18T11:46:08.089Z"
+ "details_checked_at": "2026-11-18T20:37:10.564Z"
 }

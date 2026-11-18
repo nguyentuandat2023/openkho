@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:43:57.229Z",
+ "fetched_at": "2026-11-18T20:35:12.645Z",
  "meta": {
   "name": "public-apis",
   "owner": "public-apis",
@@ -37,14 +37,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 499966,
-  "forks": 56081,
-  "watchers": 4760,
-  "open_issues": 2779,
+  "stars": 500057,
+  "forks": 56099,
+  "watchers": 4758,
+  "open_issues": 2765,
   "open_prs": null,
   "created_at": "2016-03-20T23:49:42Z",
-  "pushed_at": "2026-11-15T18:53:24Z",
-  "updated_at": "2026-11-18T11:43:01Z",
+  "pushed_at": "2026-11-18T19:27:01Z",
+  "updated_at": "2026-11-18T20:27:25Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,13 +53,13 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 17155,
+  "size_kb": 17567,
   "og_image": "https://opengraph.githubassets.com/1/public-apis/public-apis",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 368368,
+  "length": 373676,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
@@ -70,8 +70,8 @@
   },
   "headings": 59,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:26.511Z",
-  "checked_at": "2026-11-18T11:46:14.362Z"
+  "fetched_at": "2026-11-18T20:37:16.749Z",
+  "checked_at": "2026-11-18T20:37:16.749Z"
  },
  "contributors": {
   "count": 2355,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:37.320Z"
  },
- "details_checked_at": "2026-11-18T11:46:14.362Z"
+ "details_checked_at": "2026-11-18T20:37:16.749Z"
 }

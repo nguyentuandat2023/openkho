@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:44:46.265Z",
+ "fetched_at": "2026-11-18T20:35:57.974Z",
  "meta": {
   "name": "underthesea",
   "owner": "undertheseanlp",
@@ -34,14 +34,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 1817,
+  "stars": 1818,
   "forks": 308,
   "watchers": 75,
   "open_issues": 61,
   "open_prs": null,
   "created_at": "2017-03-01T10:24:26Z",
   "pushed_at": "2026-11-18T10:44:27Z",
-  "updated_at": "2026-11-17T13:52:22Z",
+  "updated_at": "2026-11-18T16:29:26Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -73,7 +73,7 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.207Z",
-  "checked_at": "2026-11-18T11:46:17.001Z"
+  "checked_at": "2026-11-18T20:37:18.681Z"
  },
  "contributors": {
   "count": 31,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.536Z"
  },
- "details_checked_at": "2026-11-18T11:46:17.001Z"
+ "details_checked_at": "2026-11-18T20:37:18.681Z"
 }

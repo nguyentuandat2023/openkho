@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:45:23.045Z",
+ "fetched_at": "2026-11-18T20:36:29.869Z",
  "meta": {
   "name": "1Panel",
   "owner": "1Panel-dev",
@@ -37,14 +37,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 37465,
+  "stars": 37469,
   "forks": 3411,
   "watchers": 194,
-  "open_issues": 348,
+  "open_issues": 349,
   "open_prs": null,
   "created_at": "2022-07-19T15:44:52Z",
   "pushed_at": "2026-11-18T09:20:42Z",
-  "updated_at": "2026-11-18T10:54:16Z",
+  "updated_at": "2026-11-18T15:17:03Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -76,7 +76,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.532Z",
-  "checked_at": "2026-11-18T11:46:18.660Z"
+  "checked_at": "2026-11-18T20:37:20.075Z"
  },
  "contributors": {
   "count": 138,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.887Z"
  },
- "details_checked_at": "2026-11-18T11:46:18.660Z"
+ "details_checked_at": "2026-11-18T20:37:20.075Z"
 }

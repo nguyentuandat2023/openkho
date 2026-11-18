@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:41:54.622Z",
+ "fetched_at": "2026-11-18T20:33:17.361Z",
  "meta": {
   "name": "anything-llm",
   "owner": "Mintplex-Labs",
@@ -39,14 +39,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 68393,
-  "forks": 7729,
+  "stars": 68402,
+  "forks": 7732,
   "watchers": 409,
-  "open_issues": 344,
+  "open_issues": 339,
   "open_prs": null,
   "created_at": "2023-06-04T02:29:14Z",
-  "pushed_at": "2026-11-18T05:05:46Z",
-  "updated_at": "2026-11-18T11:21:33Z",
+  "pushed_at": "2026-11-18T19:03:43Z",
+  "updated_at": "2026-11-18T20:21:40Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,7 +55,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 96092,
+  "size_kb": 96114,
   "og_image": "https://opengraph.githubassets.com/1/Mintplex-Labs/anything-llm",
   "custom_og_image": false
  },
@@ -89,7 +89,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-18T03:01:34.130Z",
-  "checked_at": "2026-11-18T11:46:08.804Z"
+  "checked_at": "2026-11-18T20:37:11.089Z"
  },
  "contributors": {
   "count": 297,
@@ -97,5 +97,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.344Z"
  },
- "details_checked_at": "2026-11-18T11:46:08.804Z"
+ "details_checked_at": "2026-11-18T20:37:11.089Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:44:13.029Z",
+ "fetched_at": "2026-11-18T20:35:27.297Z",
  "meta": {
   "name": "serpbear",
   "owner": "towfiqi",
@@ -73,7 +73,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.118Z",
-  "checked_at": "2026-11-18T11:46:15.245Z"
+  "checked_at": "2026-11-18T20:37:17.258Z"
  },
  "contributors": {
   "count": 18,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.030Z"
  },
- "details_checked_at": "2026-11-18T11:46:15.245Z"
+ "details_checked_at": "2026-11-18T20:37:17.258Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:45:50.599Z",
+ "fetched_at": "2026-11-18T20:36:55.214Z",
  "meta": {
   "name": "next.js",
   "owner": "vercel",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 143720,
-  "forks": 32816,
+  "stars": 143755,
+  "forks": 32817,
   "watchers": 1621,
-  "open_issues": 4032,
+  "open_issues": 4044,
   "open_prs": null,
   "created_at": "2016-10-05T23:32:51Z",
-  "pushed_at": "2026-11-18T11:30:52Z",
-  "updated_at": "2026-11-18T10:38:29Z",
+  "pushed_at": "2026-11-18T20:19:12Z",
+  "updated_at": "2026-11-18T20:22:18Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,7 +54,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 2640769,
+  "size_kb": 2646667,
   "og_image": "https://opengraph.githubassets.com/1/vercel/next.js",
   "custom_og_image": false
  },
@@ -77,7 +77,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.390Z",
-  "checked_at": "2026-11-18T11:46:19.900Z"
+  "checked_at": "2026-11-18T20:37:21.232Z"
  },
  "contributors": {
   "count": 4192,
@@ -85,5 +85,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.193Z"
  },
- "details_checked_at": "2026-11-18T11:46:19.900Z"
+ "details_checked_at": "2026-11-18T20:37:21.232Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:45:01.834Z",
+ "fetched_at": "2026-11-18T20:36:12.467Z",
  "meta": {
   "name": "AFFiNE",
   "owner": "toeverything",
@@ -42,14 +42,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 74632,
-  "forks": 5532,
+  "stars": 74661,
+  "forks": 5537,
   "watchers": 289,
-  "open_issues": 839,
+  "open_issues": 840,
   "open_prs": null,
   "created_at": "2022-07-31T18:45:21Z",
   "pushed_at": "2026-11-18T09:58:41Z",
-  "updated_at": "2026-11-18T11:17:58Z",
+  "updated_at": "2026-11-18T20:35:33Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -86,7 +86,7 @@
   "headings": 18,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.750Z",
-  "checked_at": "2026-11-18T11:46:17.847Z"
+  "checked_at": "2026-11-18T20:37:19.360Z"
  },
  "contributors": {
   "count": 277,
@@ -94,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:40.322Z"
  },
- "details_checked_at": "2026-11-18T11:46:17.847Z"
+ "details_checked_at": "2026-11-18T20:37:19.360Z"
 }

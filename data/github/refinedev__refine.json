@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:44:43.812Z",
+ "fetched_at": "2026-11-18T20:35:56.174Z",
  "meta": {
   "name": "refine",
   "owner": "refinedev",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 36052,
-  "forks": 3279,
+  "stars": 36055,
+  "forks": 3281,
   "watchers": 147,
-  "open_issues": 78,
+  "open_issues": 79,
   "open_prs": null,
   "created_at": "2021-01-20T12:01:32Z",
   "pushed_at": "2026-09-10T12:56:35Z",
-  "updated_at": "2026-11-18T11:04:07Z",
+  "updated_at": "2026-11-18T17:27:09Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -88,7 +88,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.147Z",
-  "checked_at": "2026-11-18T11:46:17.015Z"
+  "checked_at": "2026-11-18T20:37:18.618Z"
  },
  "contributors": {
   "count": 330,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.374Z"
  },
- "details_checked_at": "2026-11-18T11:46:17.015Z"
+ "details_checked_at": "2026-11-18T20:37:18.618Z"
 }

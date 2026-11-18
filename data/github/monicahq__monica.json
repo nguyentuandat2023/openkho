@@ -6,14 +6,14 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:42:22.779Z",
+ "fetched_at": "2026-11-18T20:33:45.463Z",
  "meta": {
   "name": "monica",
   "owner": "monicahq",
   "owner_type": "Organization",
   "avatar_url": "https://avatars.githubusercontent.com/u/25832602?v=4",
   "description": "Personal CRM. Remember everything about your friends, family and business relationships.",
-  "homepage": "https://beta.monicahq.com",
+  "homepage": "https://www.monicahq.com",
   "html_url": "https://github.com/monicahq/monica",
   "default_branch": "main",
   "language": "PHP",
@@ -32,14 +32,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 25800,
+  "stars": 25805,
   "forks": 2639,
   "watchers": 294,
-  "open_issues": 417,
+  "open_issues": 415,
   "open_prs": null,
   "created_at": "2017-02-17T00:02:58Z",
   "pushed_at": "2026-10-28T22:30:13Z",
-  "updated_at": "2026-11-18T09:45:16Z",
+  "updated_at": "2026-11-18T20:10:06Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -71,7 +71,7 @@
   "headings": 19,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.316Z",
-  "checked_at": "2026-11-18T11:46:10.099Z"
+  "checked_at": "2026-11-18T20:37:12.431Z"
  },
  "contributors": {
   "count": 40,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.682Z"
  },
- "details_checked_at": "2026-11-18T11:46:10.099Z"
+ "details_checked_at": "2026-11-18T20:37:12.431Z"
 }

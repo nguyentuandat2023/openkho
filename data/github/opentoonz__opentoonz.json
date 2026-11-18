@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T11:43:10.993Z",
+ "fetched_at": "2026-11-18T20:34:29.242Z",
  "meta": {
   "name": "opentoonz",
   "owner": "opentoonz",
@@ -23,14 +23,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 8287,
-  "forks": 954,
+  "stars": 8290,
+  "forks": 956,
   "watchers": 186,
-  "open_issues": 239,
+  "open_issues": 233,
   "open_prs": null,
   "created_at": "2016-03-18T17:55:48Z",
   "pushed_at": "2026-11-16T07:10:21Z",
-  "updated_at": "2026-11-18T10:39:15Z",
+  "updated_at": "2026-11-18T20:26:06Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -62,7 +62,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.828Z",
-  "checked_at": "2026-11-18T11:46:12.240Z"
+  "checked_at": "2026-11-18T20:37:14.541Z"
  },
  "contributors": {
   "count": 139,
@@ -70,5 +70,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.802Z"
  },
- "details_checked_at": "2026-11-18T11:46:12.240Z"
+ "details_checked_at": "2026-11-18T20:37:14.541Z"
 }
