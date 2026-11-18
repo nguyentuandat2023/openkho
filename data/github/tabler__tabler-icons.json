@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:58:46.076Z",
+ "fetched_at": "2026-11-18T02:59:08.847Z",
  "meta": {
   "name": "tabler-icons",
   "owner": "tabler",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 22708,
+  "stars": 22709,
   "forks": 1282,
   "watchers": 107,
   "open_issues": 80,
   "open_prs": null,
   "created_at": "2020-02-27T15:10:04Z",
   "pushed_at": "2026-11-16T12:07:14Z",
-  "updated_at": "2026-11-17T18:37:52Z",
+  "updated_at": "2026-11-17T22:07:29Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -82,7 +82,7 @@
   "headings": 26,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.878Z",
-  "checked_at": "2026-11-17T21:01:35.033Z"
+  "checked_at": "2026-11-18T03:01:36.751Z"
  },
  "contributors": {
   "count": 110,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.643Z"
  },
- "details_checked_at": "2026-11-17T21:01:35.033Z"
+ "details_checked_at": "2026-11-18T03:01:36.751Z"
 }

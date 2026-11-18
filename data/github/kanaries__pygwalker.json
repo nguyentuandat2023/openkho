@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:58:17.189Z",
+ "fetched_at": "2026-11-18T02:58:44.811Z",
  "meta": {
   "name": "pygwalker",
   "owner": "Kanaries",
@@ -33,14 +33,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 16005,
+  "stars": 16007,
   "forks": 895,
   "watchers": 90,
   "open_issues": 72,
   "open_prs": null,
   "created_at": "2023-02-16T05:17:24Z",
   "pushed_at": "2026-09-05T19:19:19Z",
-  "updated_at": "2026-11-17T10:41:10Z",
+  "updated_at": "2026-11-18T02:19:33Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -88,7 +88,7 @@
   "headings": 21,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.755Z",
-  "checked_at": "2026-11-17T21:01:33.828Z"
+  "checked_at": "2026-11-18T03:01:35.703Z"
  },
  "contributors": {
   "count": 28,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:33.256Z"
  },
- "details_checked_at": "2026-11-17T21:01:33.828Z"
+ "details_checked_at": "2026-11-18T03:01:35.703Z"
 }

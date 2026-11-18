@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:59:53.159Z",
+ "fetched_at": "2026-11-18T03:00:07.724Z",
  "meta": {
   "name": "playwright-mcp",
   "owner": "microsoft",
@@ -26,14 +26,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 39800,
-  "forks": 3452,
+  "stars": 39811,
+  "forks": 3451,
   "watchers": 150,
-  "open_issues": 1,
+  "open_issues": 0,
   "open_prs": null,
   "created_at": "2025-03-21T17:48:36Z",
-  "pushed_at": "2026-11-17T18:50:26Z",
-  "updated_at": "2026-11-17T20:43:18Z",
+  "pushed_at": "2026-11-17T21:54:10Z",
+  "updated_at": "2026-11-18T02:02:41Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -42,7 +42,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 2018,
+  "size_kb": 2022,
   "og_image": "https://opengraph.githubassets.com/1/microsoft/playwright-mcp",
   "custom_og_image": false
  },
@@ -70,7 +70,7 @@
   "headings": 20,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:38.076Z",
-  "checked_at": "2026-11-17T21:01:38.076Z"
+  "checked_at": "2026-11-18T03:01:39.329Z"
  },
  "contributors": {
   "count": 72,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.436Z"
  },
- "details_checked_at": "2026-11-17T21:01:38.076Z"
+ "details_checked_at": "2026-11-18T03:01:39.329Z"
 }

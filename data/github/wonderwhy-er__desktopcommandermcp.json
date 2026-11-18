@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:59:59.255Z",
+ "fetched_at": "2026-11-18T03:00:14.087Z",
  "meta": {
   "name": "DesktopCommanderMCP",
   "owner": "wonderwhy-er",
@@ -33,14 +33,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 10342,
+  "stars": 10345,
   "forks": 1293,
   "watchers": 94,
   "open_issues": 344,
   "open_prs": null,
   "created_at": "2024-12-04T08:26:08Z",
-  "pushed_at": "2026-11-12T12:53:43Z",
-  "updated_at": "2026-11-17T18:46:02Z",
+  "pushed_at": "2026-11-17T23:41:17Z",
+  "updated_at": "2026-11-18T02:20:37Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,7 +49,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 76613,
+  "size_kb": 76590,
   "og_image": "https://opengraph.githubassets.com/1/wonderwhy-er/DesktopCommanderMCP",
   "custom_og_image": false
  },
@@ -88,7 +88,7 @@
   "headings": 73,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.729Z",
-  "checked_at": "2026-11-17T21:01:38.361Z"
+  "checked_at": "2026-11-18T03:01:39.568Z"
  },
  "contributors": {
   "count": 40,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.697Z"
  },
- "details_checked_at": "2026-11-17T21:01:38.361Z"
+ "details_checked_at": "2026-11-18T03:01:39.568Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:58:02.997Z",
+ "fetched_at": "2026-11-18T02:58:32.171Z",
  "meta": {
   "name": "freescout",
   "owner": "freescout-help-desk",
@@ -39,7 +39,7 @@
    "name": "GNU Affero General Public License v3.0"
   },
   "stars": 4671,
-  "forks": 748,
+  "forks": 747,
   "watchers": 43,
   "open_issues": 10,
   "open_prs": null,
@@ -82,7 +82,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.256Z",
-  "checked_at": "2026-11-17T21:01:33.239Z"
+  "checked_at": "2026-11-18T03:01:35.095Z"
  },
  "contributors": {
   "count": 109,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.426Z"
  },
- "details_checked_at": "2026-11-17T21:01:33.239Z"
+ "details_checked_at": "2026-11-18T03:01:35.095Z"
 }

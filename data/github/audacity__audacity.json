@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T21:01:12.406Z",
+ "fetched_at": "2026-11-18T03:01:16.953Z",
  "meta": {
   "name": "audacity",
   "owner": "audacity",
@@ -31,14 +31,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 19094,
-  "forks": 2733,
+  "stars": 19097,
+  "forks": 2734,
   "watchers": 265,
   "open_issues": 1922,
   "open_prs": null,
   "created_at": "2015-03-26T10:46:17Z",
   "pushed_at": "2026-11-17T14:41:12Z",
-  "updated_at": "2026-11-17T20:35:53Z",
+  "updated_at": "2026-11-18T01:37:23Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -65,7 +65,7 @@
   "headings": 3,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.299Z",
-  "checked_at": "2026-11-17T21:01:41.172Z"
+  "checked_at": "2026-11-18T03:01:41.955Z"
  },
  "contributors": {
   "count": 323,
@@ -73,5 +73,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.875Z"
  },
- "details_checked_at": "2026-11-17T21:01:41.172Z"
+ "details_checked_at": "2026-11-18T03:01:41.955Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:57:58.733Z",
+ "fetched_at": "2026-11-18T02:58:28.141Z",
  "meta": {
   "name": "dolibarr",
   "owner": "Dolibarr",
@@ -44,14 +44,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 7880,
-  "forks": 3632,
+  "stars": 7881,
+  "forks": 3630,
   "watchers": 272,
-  "open_issues": 954,
+  "open_issues": 956,
   "open_prs": null,
   "created_at": "2011-06-26T21:55:03Z",
   "pushed_at": "2026-11-17T17:37:15Z",
-  "updated_at": "2026-11-17T19:35:26Z",
+  "updated_at": "2026-11-17T22:53:58Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -93,7 +93,7 @@
   "headings": 23,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.045Z",
-  "checked_at": "2026-11-17T21:01:33.095Z"
+  "checked_at": "2026-11-18T03:01:34.967Z"
  },
  "contributors": {
   "count": 1283,
@@ -101,5 +101,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.422Z"
  },
- "details_checked_at": "2026-11-17T21:01:33.095Z"
+ "details_checked_at": "2026-11-18T03:01:34.967Z"
 }

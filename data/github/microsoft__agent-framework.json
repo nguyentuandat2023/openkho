@@ -3,10 +3,10 @@
  "github_id": 974445592,
  "node_id": "R_kgDOOhTcGA",
  "full_name": "microsoft/agent-framework",
- "status": "ok",
+ "status": "not_found",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:56:22.531Z",
+ "fetched_at": "2026-11-18T02:57:06.107Z",
  "meta": {
   "name": "agent-framework",
   "owner": "microsoft",
@@ -102,5 +102,6 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:18.860Z"
  },
- "details_checked_at": "2026-11-17T21:01:28.382Z"
+ "details_checked_at": "2026-11-17T21:01:28.382Z",
+ "detected_missing_at": "2026-11-18T02:57:06.107Z"
 }

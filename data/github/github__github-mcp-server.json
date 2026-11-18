@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:59:54.248Z",
+ "fetched_at": "2026-11-18T03:00:08.490Z",
  "meta": {
   "name": "github-mcp-server",
   "owner": "github",
@@ -27,14 +27,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 34547,
-  "forks": 5363,
+  "stars": 34553,
+  "forks": 5364,
   "watchers": 412,
-  "open_issues": 462,
+  "open_issues": 461,
   "open_prs": null,
   "created_at": "2025-03-04T16:42:04Z",
-  "pushed_at": "2026-11-17T18:38:52Z",
-  "updated_at": "2026-11-17T20:48:09Z",
+  "pushed_at": "2026-11-17T21:41:49Z",
+  "updated_at": "2026-11-18T02:37:04Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -43,13 +43,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 58299,
+  "size_kb": 58291,
   "og_image": "https://opengraph.githubassets.com/1/github/github-mcp-server",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 127605,
+  "length": 127741,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [],
@@ -70,8 +70,8 @@
   },
   "headings": 45,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:27.487Z",
-  "checked_at": "2026-11-17T21:01:38.100Z"
+  "fetched_at": "2026-11-18T03:01:39.377Z",
+  "checked_at": "2026-11-18T03:01:39.377Z"
  },
  "contributors": {
   "count": 177,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.485Z"
  },
- "details_checked_at": "2026-11-17T21:01:38.100Z"
+ "details_checked_at": "2026-11-18T03:01:39.377Z"
 }

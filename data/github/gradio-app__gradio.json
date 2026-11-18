@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:57:17.476Z",
+ "fetched_at": "2026-11-18T02:57:51.264Z",
  "meta": {
   "name": "gradio",
   "owner": "gradio-app",
@@ -38,14 +38,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 44075,
+  "stars": 44076,
   "forks": 3675,
   "watchers": 202,
-  "open_issues": 118,
+  "open_issues": 116,
   "open_prs": null,
   "created_at": "2018-12-19T08:24:04Z",
-  "pushed_at": "2026-11-17T20:53:01Z",
-  "updated_at": "2026-11-17T20:16:55Z",
+  "pushed_at": "2026-11-18T00:36:58Z",
+  "updated_at": "2026-11-18T02:23:47Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,7 +54,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 132527,
+  "size_kb": 132297,
   "og_image": "https://opengraph.githubassets.com/1/gradio-app/gradio",
   "custom_og_image": false
  },
@@ -77,7 +77,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.324Z",
-  "checked_at": "2026-11-17T21:01:31.065Z"
+  "checked_at": "2026-11-18T03:01:33.199Z"
  },
  "contributors": {
   "count": 504,
@@ -85,5 +85,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T07:03:48.396Z"
  },
- "details_checked_at": "2026-11-17T21:01:31.065Z"
+ "details_checked_at": "2026-11-18T03:01:33.199Z"
 }

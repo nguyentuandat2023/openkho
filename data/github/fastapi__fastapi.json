@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:58:24.104Z",
+ "fetched_at": "2026-11-18T02:58:50.334Z",
  "meta": {
   "name": "fastapi",
   "owner": "fastapi",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 105030,
-  "forks": 10419,
-  "watchers": 903,
+  "stars": 105012,
+  "forks": 10410,
+  "watchers": 885,
   "open_issues": 49,
   "open_prs": null,
   "created_at": "2018-12-08T08:21:47Z",
   "pushed_at": "2026-11-17T18:28:44Z",
-  "updated_at": "2026-11-17T20:42:32Z",
+  "updated_at": "2026-11-18T02:58:49Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -88,7 +88,7 @@
   "headings": 29,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.037Z",
-  "checked_at": "2026-11-17T21:01:34.150Z"
+  "checked_at": "2026-11-18T03:01:35.946Z"
  },
  "contributors": {
   "count": 907,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:33.665Z"
  },
- "details_checked_at": "2026-11-17T21:01:34.150Z"
+ "details_checked_at": "2026-11-18T03:01:35.946Z"
 }

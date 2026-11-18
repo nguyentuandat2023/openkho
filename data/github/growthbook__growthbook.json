@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:59:46.531Z",
+ "fetched_at": "2026-11-18T03:00:00.851Z",
  "meta": {
   "name": "growthbook",
   "owner": "growthbook",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 8604,
-  "forks": 906,
+  "stars": 8607,
+  "forks": 907,
   "watchers": 28,
-  "open_issues": 918,
+  "open_issues": 916,
   "open_prs": null,
   "created_at": "2021-05-07T23:11:51Z",
-  "pushed_at": "2026-11-17T20:57:50Z",
-  "updated_at": "2026-11-17T18:30:13Z",
+  "pushed_at": "2026-11-18T01:15:27Z",
+  "updated_at": "2026-11-18T00:25:47Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 311690,
+  "size_kb": 314278,
   "og_image": "https://opengraph.githubassets.com/1/growthbook/growthbook",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "headings": 5,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.129Z",
-  "checked_at": "2026-11-17T21:01:37.760Z"
+  "checked_at": "2026-11-18T03:01:39.111Z"
  },
  "contributors": {
   "count": 162,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.162Z"
  },
- "details_checked_at": "2026-11-17T21:01:37.760Z"
+ "details_checked_at": "2026-11-18T03:01:39.111Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T21:00:43.259Z",
+ "fetched_at": "2026-11-18T03:00:51.270Z",
  "meta": {
   "name": "coolify",
   "owner": "coollabsio",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 66183,
+  "stars": 66196,
   "forks": 6004,
   "watchers": 199,
-  "open_issues": 103,
+  "open_issues": 105,
   "open_prs": null,
   "created_at": "2021-01-25T20:54:01Z",
-  "pushed_at": "2026-11-17T20:16:29Z",
-  "updated_at": "2026-11-17T20:53:30Z",
+  "pushed_at": "2026-11-17T21:33:06Z",
+  "updated_at": "2026-11-18T02:01:40Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,35 +60,35 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 117252,
+  "size_kb": 119712,
   "og_image": "https://opengraph.githubassets.com/1/coollabsio/coolify",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 14732,
+  "length": 16812,
   "cjk_ratio": 0,
-  "docker_mentioned": true,
+  "docker_mentioned": false,
   "videos": [],
   "sections": {
    "install": {
-    "title": "Quick start",
-    "html": "<p>Install Coolify on a supported server with one command:</p>\n<pre><code class=\"language-bash\">curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash\n</code></pre>\n<p>Read the <a href=\"https://coolify.io/docs/installation\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">installation guide</a> for requirements and detailed instructions. You can also review the <a href=\"https://github.com/coollabsio/coolify/blob/main/scripts/install.sh\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">installation script</a> before you run it.</p>",
+    "title": "Get started",
+    "html": "<p>Install Coolify on a supported server with one command:</p>\n<pre><code class=\"language-bash\">curl -fsSL https://cdn.coollabs.io/coolify/install.sh | bash\n</code></pre>\n<p>Read the <a href=\"https://coolify.io/docs/start-with-self-hosted\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">installation guide</a> for requirements. You can also review the <a href=\"https://github.com/coollabsio/coolify/blob/main/scripts/install.sh\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">installation script</a> before you run it.</p>\n<ul>\n<li><a href=\"https://coolify.io/docs/choose-your-path\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Choose your path</a> — self-host or use Coolify Cloud</li>\n<li><a href=\"https://coolify.io/docs/start-with-self-hosted\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Start with self-hosted</a></li>\n<li><a href=\"https://coolify.io/docs/start-with-cloud\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Start with Coolify Cloud</a></li>\n<li><a href=\"https://coolify.io/docs/api/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">REST API</a></li>\n<li><a href=\"https://coolify.io/docs/cli/what-is-the-coolify-cli\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CLI</a></li>\n<li><a href=\"https://coolify.io/docs/mcp/what-is-mcp\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MCP server</a></li>\n</ul>\n<br />",
     "truncated": false,
-    "chars": 333
+    "chars": 736
    },
    "usage": null,
    "features": {
-    "title": "What can Coolify do?",
-    "html": "<ul>\n<li><strong>Deploy any application:</strong> Build from GitHub, GitLab, Bitbucket, or Gitea with Nixpacks, Railpack, Dockerfile, Docker Compose, or a prebuilt Docker image.</li>\n<li><strong>Run databases and services:</strong> Deploy managed databases and more than 360 one-click services with persistent storage and generated credentials.</li>\n<li><strong>Automate deployments:</strong> Deploy on every Git push, create pull-request previews, call deployment webhooks, and roll back to retained application images.</li>\n<li><strong>Manage networking:</strong> Configure custom domains, automatic HTTPS certificates, reverse proxies, health checks, and container networks.</li>\n<li><strong>Operate your infrastructure:</strong> Manage multiple servers, inspect deployment and runtime logs, open container terminals, and monitor resource status.</li>\n<li><strong>Protect your workloads:</strong> Configure database and storage backups, scheduled tasks, environment variables, secrets, and notifications.</li>\n<li><strong>Integrate with your workflow:</strong> Manage resources through the dashboard, API, CLI, MCP, and team-based access controls.</li>\n</ul>",
+    "title": "Key features",
+    "html": "<table>\n<thead>\n<tr>\n<th align=\"left\">Area</th>\n<th align=\"left\">Highlights</th>\n</tr>\n</thead>\n<tbody><tr>\n<td align=\"left\"><strong>Deploy</strong></td>\n<td align=\"left\">Any stack from GitHub, GitLab, Bitbucket, Gitea or a Docker image, via Railpack, Dockerfile or Compose, with auto-deploy, PR previews, webhooks, rolling updates &amp; rollbacks</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>Databases &amp; services</strong></td>\n<td align=\"left\">Deploy Postgres, MongoDB, Redis &amp; more, plus 360+ one-click services</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>Networking</strong></td>\n<td align=\"left\">Reverse proxy with automatic HTTPS, custom domains &amp; isolated Docker networks</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>Servers</strong></td>\n<td align=\"left\">Manage unlimited servers over SSH, or provision new ones from hosting providers</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>Monitor</strong></td>\n<td align=\"left\">Real-time metrics, logs, web terminal &amp; health checks</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>Operations</strong></td>\n<td align=\"left\">Scheduled backups &amp; tasks, environment variables &amp; secrets, notifications</td>\n</tr>\n<tr>\n<td align=\"left\"><strong>Teams &amp; integrations</strong></td>\n<td align=\"left\">Teams with access control, plus a REST API, CLI &amp; MCP server</td>\n</tr>\n</tbody></table>\n<p>This is just a highlight — there's much more.</p>\n<br />",
     "truncated": false,
-    "chars": 1014
+    "chars": 842
    }
   },
-  "headings": 11,
+  "headings": 10,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:29.174Z",
-  "checked_at": "2026-11-17T21:01:40.066Z"
+  "fetched_at": "2026-11-18T03:01:41.094Z",
+  "checked_at": "2026-11-18T03:01:41.094Z"
  },
  "contributors": {
   "count": 770,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.460Z"
  },
- "details_checked_at": "2026-11-17T21:01:40.066Z"
+ "details_checked_at": "2026-11-18T03:01:41.094Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T21:01:26.310Z",
+ "fetched_at": "2026-11-18T03:01:29.152Z",
  "meta": {
   "name": "onlook",
   "owner": "onlook-dev",
@@ -20,6 +20,7 @@
   "languages": null,
   "topics": [
    "ai",
+   "astryx",
    "claude-code",
    "codex",
    "cursor",
@@ -30,10 +31,8 @@
    "figma",
    "frontend",
    "ide",
-   "nextjs",
    "react",
-   "supabase",
-   "tailwindcss",
+   "styled-components",
    "typescript",
    "ui",
    "vibe-coding",
@@ -44,14 +43,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 27241,
+  "stars": 27244,
   "forks": 2149,
-  "watchers": 124,
-  "open_issues": 385,
+  "watchers": 121,
+  "open_issues": 0,
   "open_prs": null,
   "created_at": "2024-06-25T19:16:02Z",
-  "pushed_at": "2026-11-17T20:25:02Z",
-  "updated_at": "2026-11-17T20:51:31Z",
+  "pushed_at": "2026-11-17T21:57:54Z",
+  "updated_at": "2026-11-18T02:02:34Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +59,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 90700,
+  "size_kb": 90701,
   "og_image": "https://opengraph.githubassets.com/1/onlook-dev/onlook",
   "custom_og_image": false
  },
@@ -88,7 +87,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:41.799Z",
-  "checked_at": "2026-11-17T21:01:41.799Z"
+  "checked_at": "2026-11-18T03:01:42.587Z"
  },
  "contributors": {
   "count": 109,
@@ -96,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.747Z"
  },
- "details_checked_at": "2026-11-17T21:01:41.799Z"
+ "details_checked_at": "2026-11-18T03:01:42.587Z"
 }

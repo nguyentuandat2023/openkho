@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:56:13.557Z",
+ "fetched_at": "2026-11-18T02:56:59.687Z",
  "meta": {
   "name": "browser-use",
   "owner": "browser-use",
@@ -41,14 +41,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 121316,
-  "forks": 13561,
+  "stars": 121344,
+  "forks": 13562,
   "watchers": 474,
-  "open_issues": 596,
+  "open_issues": 583,
   "open_prs": null,
   "created_at": "2024-10-31T16:00:56Z",
-  "pushed_at": "2026-11-17T20:55:13Z",
-  "updated_at": "2026-11-17T20:54:53Z",
+  "pushed_at": "2026-11-18T02:41:29Z",
+  "updated_at": "2026-11-18T02:56:25Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,13 +57,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 43288,
+  "size_kb": 43614,
   "og_image": "https://opengraph.githubassets.com/1/browser-use/browser-use",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 21466,
+  "length": 22081,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
@@ -79,8 +79,8 @@
   },
   "headings": 12,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:18.772Z",
-  "checked_at": "2026-11-17T21:01:28.165Z"
+  "fetched_at": "2026-11-18T03:01:30.798Z",
+  "checked_at": "2026-11-18T03:01:30.798Z"
  },
  "contributors": {
   "count": 386,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:15.553Z"
  },
- "details_checked_at": "2026-11-17T21:01:28.165Z"
+ "details_checked_at": "2026-11-18T03:01:30.798Z"
 }

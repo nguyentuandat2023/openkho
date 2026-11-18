@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T21:00:51.076Z",
+ "fetched_at": "2026-11-18T03:00:58.181Z",
  "meta": {
   "name": "1Panel",
   "owner": "1Panel-dev",
@@ -37,14 +37,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 37462,
+  "stars": 37464,
   "forks": 3410,
   "watchers": 193,
-  "open_issues": 353,
+  "open_issues": 347,
   "open_prs": null,
   "created_at": "2022-07-19T15:44:52Z",
-  "pushed_at": "2026-11-17T10:11:53Z",
-  "updated_at": "2026-11-17T20:50:05Z",
+  "pushed_at": "2026-11-18T01:57:04Z",
+  "updated_at": "2026-11-18T02:37:13Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,7 +53,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 118851,
+  "size_kb": 125290,
   "og_image": "https://opengraph.githubassets.com/1/1Panel-dev/1Panel",
   "custom_og_image": false
  },
@@ -76,7 +76,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.532Z",
-  "checked_at": "2026-11-17T21:01:40.419Z"
+  "checked_at": "2026-11-18T03:01:41.304Z"
  },
  "contributors": {
   "count": 138,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.887Z"
  },
- "details_checked_at": "2026-11-17T21:01:40.419Z"
+ "details_checked_at": "2026-11-18T03:01:41.304Z"
 }

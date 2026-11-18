@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T21:00:53.877Z",
+ "fetched_at": "2026-11-18T03:01:00.355Z",
  "meta": {
   "name": "nginx-proxy-manager",
   "owner": "NginxProxyManager",
@@ -26,14 +26,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 34743,
+  "stars": 34746,
   "forks": 3975,
   "watchers": 225,
-  "open_issues": 841,
+  "open_issues": 840,
   "open_prs": null,
   "created_at": "2017-12-20T23:01:16Z",
-  "pushed_at": "2026-11-16T13:05:47Z",
-  "updated_at": "2026-11-17T20:54:35Z",
+  "pushed_at": "2026-11-17T21:41:48Z",
+  "updated_at": "2026-11-18T02:55:53Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -42,7 +42,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 24094,
+  "size_kb": 24108,
   "og_image": "https://opengraph.githubassets.com/1/NginxProxyManager/nginx-proxy-manager",
   "custom_og_image": false
  },
@@ -70,7 +70,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.569Z",
-  "checked_at": "2026-11-17T21:01:40.484Z"
+  "checked_at": "2026-11-18T03:01:41.347Z"
  },
  "contributors": {
   "count": 340,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.000Z"
  },
- "details_checked_at": "2026-11-17T21:01:40.484Z"
+ "details_checked_at": "2026-11-18T03:01:41.347Z"
 }

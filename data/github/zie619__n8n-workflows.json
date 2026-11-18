@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:56:46.850Z",
+ "fetched_at": "2026-11-18T02:57:27.314Z",
  "meta": {
   "name": "n8n-workflows",
   "owner": "Zie619",
@@ -24,13 +24,13 @@
    "name": "MIT License"
   },
   "stars": 57269,
-  "forks": 7704,
+  "forks": 7705,
   "watchers": 856,
   "open_issues": 46,
   "open_prs": null,
   "created_at": "2025-05-14T08:43:59Z",
   "pushed_at": "2026-06-24T14:16:03Z",
-  "updated_at": "2026-11-17T20:52:05Z",
+  "updated_at": "2026-11-18T00:58:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 27,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:29.616Z",
-  "checked_at": "2026-11-17T21:01:29.616Z"
+  "checked_at": "2026-11-18T03:01:32.001Z"
  },
  "contributors": {
   "count": 38,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:29.371Z"
  },
- "details_checked_at": "2026-11-17T21:01:29.616Z"
+ "details_checked_at": "2026-11-18T03:01:32.001Z"
 }

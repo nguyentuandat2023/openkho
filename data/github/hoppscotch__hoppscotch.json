@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:58:54.214Z",
+ "fetched_at": "2026-11-18T02:59:16.632Z",
  "meta": {
   "name": "hoppscotch",
   "owner": "hoppscotch",
@@ -42,14 +42,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 80839,
-  "forks": 6247,
+  "stars": 80841,
+  "forks": 6245,
   "watchers": 501,
   "open_issues": 907,
   "open_prs": null,
   "created_at": "2019-08-21T13:15:24Z",
   "pushed_at": "2026-11-05T08:16:25Z",
-  "updated_at": "2026-11-17T20:49:44Z",
+  "updated_at": "2026-11-18T02:33:06Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -86,7 +86,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.099Z",
-  "checked_at": "2026-11-17T21:01:35.411Z"
+  "checked_at": "2026-11-18T03:01:37.078Z"
  },
  "contributors": {
   "count": 357,
@@ -94,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.011Z"
  },
- "details_checked_at": "2026-11-17T21:01:35.411Z"
+ "details_checked_at": "2026-11-18T03:01:37.078Z"
 }

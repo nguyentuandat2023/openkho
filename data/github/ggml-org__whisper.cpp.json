@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:56:29.624Z",
+ "fetched_at": "2026-11-18T02:57:12.439Z",
  "meta": {
   "name": "whisper.cpp",
   "owner": "ggml-org",
@@ -30,14 +30,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 55271,
-  "forks": 6318,
+  "stars": 55273,
+  "forks": 6319,
   "watchers": 399,
   "open_issues": 375,
   "open_prs": null,
   "created_at": "2022-09-25T18:26:37Z",
   "pushed_at": "2026-11-17T16:40:00Z",
-  "updated_at": "2026-11-17T20:30:34Z",
+  "updated_at": "2026-11-18T01:59:50Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -80,7 +80,7 @@
   "headings": 43,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:19.294Z",
-  "checked_at": "2026-11-17T21:01:28.701Z"
+  "checked_at": "2026-11-18T03:01:31.305Z"
  },
  "contributors": {
   "count": 1140,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:21.645Z"
  },
- "details_checked_at": "2026-11-17T21:01:28.701Z"
+ "details_checked_at": "2026-11-18T03:01:31.305Z"
 }

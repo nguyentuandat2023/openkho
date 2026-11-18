@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T20:58:07.770Z",
+ "fetched_at": "2026-11-18T02:58:36.109Z",
  "meta": {
   "name": "grafana",
   "owner": "grafana",
@@ -39,14 +39,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 77971,
-  "forks": 14987,
+  "stars": 77975,
+  "forks": 14989,
   "watchers": 1287,
   "open_issues": 3325,
   "open_prs": null,
   "created_at": "2013-12-11T15:59:56Z",
-  "pushed_at": "2026-11-17T20:55:30Z",
-  "updated_at": "2026-11-17T20:50:46Z",
+  "pushed_at": "2026-11-18T02:56:11Z",
+  "updated_at": "2026-11-18T02:27:19Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,7 +55,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 2146444,
+  "size_kb": 2150891,
   "og_image": "https://opengraph.githubassets.com/1/grafana/grafana",
   "custom_og_image": false
  },
@@ -78,7 +78,7 @@
   "headings": 5,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.391Z",
-  "checked_at": "2026-11-17T21:01:33.451Z"
+  "checked_at": "2026-11-18T03:01:35.329Z"
  },
  "contributors": {
   "count": 3205,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.708Z"
  },
- "details_checked_at": "2026-11-17T21:01:33.451Z"
+ "details_checked_at": "2026-11-18T03:01:35.329Z"
 }

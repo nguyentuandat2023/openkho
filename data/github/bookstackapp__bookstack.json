@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-17T21:00:55.806Z",
+ "fetched_at": "2026-11-18T03:01:02.453Z",
  "meta": {
   "name": "BookStack",
   "owner": "BookStackApp",
@@ -64,7 +64,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.674Z",
-  "checked_at": "2026-11-17T21:01:40.634Z"
+  "checked_at": "2026-11-18T03:01:41.398Z"
  },
  "contributors": {
   "count": 242,
@@ -72,5 +72,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.236Z"
  },
- "details_checked_at": "2026-11-17T21:01:40.634Z"
+ "details_checked_at": "2026-11-18T03:01:41.398Z"
 }
