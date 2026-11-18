@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T02:57:32.968Z",
+ "fetched_at": "2026-11-18T11:41:11.050Z",
  "meta": {
   "name": "MoneyPrinterTurbo",
   "owner": "harry0703",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 144241,
-  "forks": 23142,
-  "watchers": 851,
-  "open_issues": 85,
+  "stars": 144344,
+  "forks": 23164,
+  "watchers": 854,
+  "open_issues": 86,
   "open_prs": null,
   "created_at": "2024-03-11T02:57:34Z",
-  "pushed_at": "2026-11-17T09:47:50Z",
-  "updated_at": "2026-11-18T02:54:03Z",
+  "pushed_at": "2026-11-18T04:19:44Z",
+  "updated_at": "2026-11-18T11:40:39Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,7 +54,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 541693,
+  "size_kb": 541638,
   "og_image": "https://opengraph.githubassets.com/1/harry0703/MoneyPrinterTurbo",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "processor": 4,
   "original_path": "README.md",
   "fetched_at": "2026-11-17T11:56:20.733Z",
-  "checked_at": "2026-11-18T03:01:32.408Z"
+  "checked_at": "2026-11-18T11:46:06.766Z"
  },
  "contributors": {
   "count": 172,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:33.605Z"
  },
- "details_checked_at": "2026-11-18T03:01:32.408Z"
+ "details_checked_at": "2026-11-18T11:46:06.766Z"
 }

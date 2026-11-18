@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T02:59:57.203Z",
+ "fetched_at": "2026-11-18T11:44:10.042Z",
  "meta": {
   "name": "unlighthouse",
   "owner": "harlan-zw",
@@ -66,7 +66,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.893Z",
-  "checked_at": "2026-11-18T03:01:38.920Z"
+  "checked_at": "2026-11-18T11:46:15.104Z"
  },
  "contributors": {
   "count": 29,
@@ -74,5 +74,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:37.974Z"
  },
- "details_checked_at": "2026-11-18T03:01:38.920Z"
+ "details_checked_at": "2026-11-18T11:46:15.104Z"
 }

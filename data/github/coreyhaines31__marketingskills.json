@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T02:57:32.269Z",
+ "fetched_at": "2026-11-18T11:41:10.082Z",
  "meta": {
   "name": "marketingskills",
   "owner": "coreyhaines31",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 61059,
-  "forks": 8898,
+  "stars": 61138,
+  "forks": 8920,
   "watchers": 407,
   "open_issues": 102,
   "open_prs": null,
   "created_at": "2026-01-15T19:45:23Z",
   "pushed_at": "2026-11-18T01:16:17Z",
-  "updated_at": "2026-11-18T02:45:40Z",
+  "updated_at": "2026-11-18T11:40:29Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -88,7 +88,7 @@
   "headings": 32,
   "processor": 4,
   "fetched_at": "2026-11-18T03:01:32.327Z",
-  "checked_at": "2026-11-18T03:01:32.327Z"
+  "checked_at": "2026-11-18T11:46:06.670Z"
  },
  "contributors": {
   "count": 64,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:33.261Z"
  },
- "details_checked_at": "2026-11-18T03:01:32.327Z"
+ "details_checked_at": "2026-11-18T11:46:06.670Z"
 }

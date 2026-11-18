@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T02:57:10.977Z",
+ "fetched_at": "2026-11-18T11:40:45.619Z",
  "meta": {
   "name": "whisper",
   "owner": "openai",
@@ -23,14 +23,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 113086,
-  "forks": 13740,
-  "watchers": 901,
+  "stars": 112999,
+  "forks": 13696,
+  "watchers": 828,
   "open_issues": 184,
   "open_prs": null,
   "created_at": "2022-09-16T20:02:54Z",
   "pushed_at": "2026-08-31T17:19:19Z",
-  "updated_at": "2026-11-18T02:54:24Z",
+  "updated_at": "2026-11-18T11:38:01Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:28.618Z",
-  "checked_at": "2026-11-18T03:01:31.398Z"
+  "checked_at": "2026-11-18T11:46:04.981Z"
  },
  "contributors": {
   "count": 84,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:20.998Z"
  },
- "details_checked_at": "2026-11-18T03:01:31.398Z"
+ "details_checked_at": "2026-11-18T11:46:04.981Z"
 }

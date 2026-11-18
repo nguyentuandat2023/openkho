@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T02:57:35.083Z",
+ "fetched_at": "2026-11-18T11:41:13.669Z",
  "meta": {
   "name": "crawl4ai",
   "owner": "unclecode",
@@ -40,14 +40,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 87485,
-  "forks": 9128,
+  "stars": 87505,
+  "forks": 9131,
   "watchers": 422,
   "open_issues": 348,
   "open_prs": null,
   "created_at": "2024-05-09T09:48:50Z",
-  "pushed_at": "2026-11-17T10:19:37Z",
-  "updated_at": "2026-11-18T02:18:22Z",
+  "pushed_at": "2026-11-18T11:39:40Z",
+  "updated_at": "2026-11-18T11:04:13Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -89,7 +89,7 @@
   "headings": 21,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:30.174Z",
-  "checked_at": "2026-11-18T03:01:32.467Z"
+  "checked_at": "2026-11-18T11:46:06.836Z"
  },
  "contributors": {
   "count": 104,
@@ -97,5 +97,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:34.621Z"
  },
- "details_checked_at": "2026-11-18T03:01:32.467Z"
+ "details_checked_at": "2026-11-18T11:46:06.836Z"
 }

@@ -1,189 +1,189 @@
 {
  "version": 1,
- "updated_at": "2026-11-18T03:03:32.395Z",
+ "updated_at": "2026-11-18T11:48:18.305Z",
  "jobs": {
   "discover": {
    "running": null,
-   "last_started_at": "2026-11-18T02:53:53.134Z",
-   "last_finished_at": "2026-11-18T02:55:08.564Z",
+   "last_started_at": "2026-11-18T11:37:14.383Z",
+   "last_finished_at": "2026-11-18T11:38:37.145Z",
    "last_status": "success",
    "last_error": null,
-   "last_duration_ms": 75430,
-   "last_run_id": "2026-11-18T02-53-53-134Z_discover",
+   "last_duration_ms": 82762,
+   "last_run_id": "2026-11-18T11-37-14-383Z_discover",
    "last_trigger": "actions",
-   "last_success_at": "2026-11-18T02:55:08.564Z",
-   "last_started_success_at": "2026-11-18T02:53:53.134Z",
+   "last_success_at": "2026-11-18T11:38:37.145Z",
+   "last_started_success_at": "2026-11-18T11:37:14.383Z",
    "consecutive_failures": 0,
    "deferred_until": null,
-   "next_due_at": "2026-11-18T05:53:53.134Z",
-   "last_summary": "450 repo mới, 2286 cập nhật, radar 3000",
+   "next_due_at": "2026-11-18T14:37:14.383Z",
+   "last_summary": "464 repo mới, 2301 cập nhật, radar 3000",
    "last_stats": {
     "queries": 30,
     "query_errors": 0,
-    "items": 2972,
-    "new": 450,
-    "updated": 2286,
-    "renamed": 0,
-    "curated_seen": 236,
+    "items": 2977,
+    "new": 464,
+    "updated": 2300,
+    "renamed": 1,
+    "curated_seen": 212,
     "excluded": 0,
-    "snapshots": 2972,
+    "snapshots": 2977,
     "by_group": {
      "new7": {
       "found": 100,
-      "new": 1,
-      "total": 1979
+      "new": 3,
+      "total": 2092
      },
      "new30": {
       "found": 200,
-      "new": 7,
-      "total": 3548
+      "new": 4,
+      "total": 3573
      },
      "new90": {
       "found": 200,
       "new": 1,
-      "total": 2831
+      "total": 2867
      },
      "popular": {
       "found": 200,
       "new": 0,
-      "total": 2275
+      "total": 2276
      },
      "young_active": {
       "found": 100,
       "new": 1,
-      "total": 3121
+      "total": 3242
      },
-     "topic:flutter": {
+     "topic:deep-learning": {
       "found": 100,
-      "new": 65,
-      "total": 328
+      "new": 35,
+      "total": 492
      },
-     "gem:flutter": {
+     "gem:deep-learning": {
       "found": 100,
-      "new": 2,
-      "total": 229
+      "new": 19,
+      "total": 197
      },
-     "topic:ui-components": {
+     "topic:automation": {
       "found": 100,
-      "new": 37,
-      "total": 114
+      "new": 61,
+      "total": 466
      },
-     "gem:ui-components": {
-      "found": 72,
-      "new": 34,
-      "total": 72
-     },
-     "topic:api": {
+     "gem:automation": {
       "found": 100,
-      "new": 67,
-      "total": 471
+      "new": 18,
+      "total": 710
      },
-     "gem:api": {
-      "found": 100,
+     "topic:workflow-automation": {
+      "found": 77,
       "new": 20,
-      "total": 270
+      "total": 77
      },
-     "topic:productivity": {
+     "gem:workflow-automation": {
       "found": 100,
-      "new": 63,
-      "total": 228
+      "new": 18,
+      "total": 133
      },
-     "gem:productivity": {
-      "found": 100,
-      "new": 1,
-      "total": 452
-     },
-     "topic:llm": {
-      "found": 100,
-      "new": 0,
-      "total": 1367
-     },
-     "gem:llm": {
-      "found": 100,
-      "new": 1,
-      "total": 2994
-     },
-     "topic:ai-agents": {
-      "found": 100,
-      "new": 0,
-      "total": 1056
-     },
-     "gem:ai-agents": {
-      "found": 100,
-      "new": 2,
-      "total": 3154
-     },
-     "topic:agents": {
+     "topic:developer-tools": {
       "found": 100,
       "new": 38,
-      "total": 398
+      "total": 560
      },
-     "gem:agents": {
-      "found": 100,
-      "new": 0,
-      "total": 589
-     },
-     "topic:generative-ai": {
-      "found": 100,
-      "new": 49,
-      "total": 196
-     },
-     "gem:generative-ai": {
+     "gem:developer-tools": {
       "found": 100,
       "new": 1,
-      "total": 736
+      "total": 1537
      },
-     "topic:rag": {
+     "topic:cli": {
       "found": 100,
-      "new": 44,
-      "total": 325
+      "new": 16,
+      "total": 977
      },
-     "gem:rag": {
+     "gem:cli": {
+      "found": 100,
+      "new": 0,
+      "total": 1540
+     },
+     "topic:nextjs": {
+      "found": 100,
+      "new": 51,
+      "total": 376
+     },
+     "gem:nextjs": {
+      "found": 100,
+      "new": 1,
+      "total": 521
+     },
+     "topic:react": {
+      "found": 100,
+      "new": 0,
+      "total": 1275
+     },
+     "gem:react": {
+      "found": 100,
+      "new": 1,
+      "total": 1508
+     },
+     "topic:self-hosted": {
+      "found": 100,
+      "new": 21,
+      "total": 820
+     },
+     "gem:self-hosted": {
+      "found": 100,
+      "new": 0,
+      "total": 1645
+     },
+     "topic:devops": {
+      "found": 100,
+      "new": 66,
+      "total": 305
+     },
+     "gem:devops": {
       "found": 100,
       "new": 2,
-      "total": 497
+      "total": 248
      },
-     "topic:mcp": {
+     "topic:kubernetes": {
       "found": 100,
-      "new": 0,
-      "total": 1055
+      "new": 37,
+      "total": 772
      },
-     "gem:mcp": {
+     "gem:kubernetes": {
       "found": 100,
-      "new": 0,
-      "total": 2765
+      "new": 1,
+      "total": 271
      },
-     "topic:machine-learning": {
+     "topic:database": {
       "found": 100,
-      "new": 14,
-      "total": 726
+      "new": 37,
+      "total": 500
      },
-     "gem:machine-learning": {
+     "gem:database": {
       "found": 100,
-      "new": 0,
-      "total": 307
+      "new": 12,
+      "total": 175
      }
     },
-    "dropped": 450,
+    "dropped": 464,
     "readme_fetched": 60,
     "radar_total": 3000
    }
   },
   "refresh": {
    "running": null,
-   "last_started_at": "2026-11-18T02:55:08.567Z",
-   "last_finished_at": "2026-11-18T03:03:32.395Z",
+   "last_started_at": "2026-11-18T11:38:37.148Z",
+   "last_finished_at": "2026-11-18T11:48:18.305Z",
    "last_status": "success",
    "last_error": null,
-   "last_duration_ms": 503828,
-   "last_run_id": "2026-11-18T02-55-08-567Z_refresh",
+   "last_duration_ms": 581157,
+   "last_run_id": "2026-11-18T11-38-37-148Z_refresh",
    "last_trigger": "actions",
-   "last_success_at": "2026-11-18T03:03:32.395Z",
-   "last_started_success_at": "2026-11-18T02:55:08.567Z",
+   "last_success_at": "2026-11-18T11:48:18.305Z",
+   "last_started_success_at": "2026-11-18T11:38:37.148Z",
    "consecutive_failures": 0,
    "deferred_until": null,
-   "next_due_at": "2026-11-18T08:55:08.567Z",
-   "last_summary": "catalog 340 repo, radar 1093 repo, 60 feed commit, 60 README",
+   "next_due_at": "2026-11-18T17:38:37.148Z",
+   "last_summary": "catalog 340 repo, radar 1070 repo, 60 feed commit, 60 README",
    "last_stats": {
     "catalog": {
      "totals": {
@@ -194,14 +194,14 @@
      "renamed": 0,
      "deleted": 1,
      "errors": 0,
-     "snapshots": 243
+     "snapshots": 196
     },
     "radar": {
-     "due": 1095,
-     "refreshed": 1093,
-     "batches": 32,
-     "missing": 2,
-     "resolved_missing": 2
+     "due": 1075,
+     "refreshed": 1070,
+     "batches": 31,
+     "missing": 5,
+     "resolved_missing": 5
     },
     "commit_feeds": 60,
     "releases": 40,
@@ -210,50 +210,49 @@
     "contributors": 82,
     "snapshot_files": 2,
     "rate_limit": {
-     "core": 4525,
-     "search": 28
+     "core": 4518,
+     "search": 29
     }
    }
   },
   "rank": {
    "running": null,
-   "last_started_at": "2026-11-18T03:03:31.092Z",
-   "last_finished_at": "2026-11-18T03:03:32.393Z",
+   "last_started_at": "2026-11-18T11:48:17.029Z",
+   "last_finished_at": "2026-11-18T11:48:18.303Z",
    "last_status": "success",
    "last_error": null,
-   "last_duration_ms": 1301,
-   "last_run_id": "2026-11-18T03-03-31-091Z_rank",
+   "last_duration_ms": 1274,
+   "last_run_id": "2026-11-18T11-48-17-029Z_rank",
    "last_trigger": "sau refresh",
-   "last_success_at": "2026-11-18T03:03:32.393Z",
-   "last_started_success_at": "2026-11-18T03:03:31.092Z",
+   "last_success_at": "2026-11-18T11:48:18.303Z",
+   "last_started_success_at": "2026-11-18T11:48:17.029Z",
    "consecutive_failures": 0,
    "deferred_until": null,
-   "next_due_at": "2026-11-19T03:03:31.092Z",
-   "last_summary": "Trending 7 ngày: 64 repo · 185 hidden gem · 402 trang radar",
+   "next_due_at": "2026-11-19T11:48:17.029Z",
+   "last_summary": "Trending 7 ngày: 65 repo · 227 hidden gem · 491 trang radar",
    "last_stats": {
     "repos": 3340,
     "curated": 340,
     "radar": 3000,
     "with_trending": {
-     "d1": 2457,
-     "d7": 64,
+     "d1": 1789,
+     "d7": 65,
      "d30": 278
     },
     "growth_methods": {
-     "d1:snapshots": 2566,
-     "d7:none": 3217,
-     "d30:none": 2948,
-     "d1:none": 773,
-     "d30:created_in_window": 392,
-     "d7:created_in_window": 123,
-     "d1:created_in_window": 1
+     "d1:snapshots": 1863,
+     "d7:none": 3216,
+     "d30:none": 2946,
+     "d1:none": 1477,
+     "d30:created_in_window": 394,
+     "d7:created_in_window": 124
     },
-    "gems": 185,
-    "suppressed": 108,
-    "anomalies": 103,
-    "published_total": 402,
-    "published_added": 31,
-    "published_removed": 0,
+    "gems": 227,
+    "suppressed": 107,
+    "anomalies": 105,
+    "published_total": 491,
+    "published_added": 40,
+    "published_removed": 3,
     "history_points": 3340
    }
   },

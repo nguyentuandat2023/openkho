@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T02:58:21.744Z",
+ "fetched_at": "2026-11-18T11:42:08.669Z",
  "meta": {
   "name": "twenty",
   "owner": "twentyhq",
@@ -41,14 +41,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 61082,
-  "forks": 10120,
-  "watchers": 231,
-  "open_issues": 135,
+  "stars": 61120,
+  "forks": 10125,
+  "watchers": 232,
+  "open_issues": 164,
   "open_prs": null,
   "created_at": "2022-12-01T13:04:40Z",
-  "pushed_at": "2026-11-18T02:31:22Z",
-  "updated_at": "2026-11-18T02:46:58Z",
+  "pushed_at": "2026-11-18T11:40:47Z",
+  "updated_at": "2026-11-18T10:53:26Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,7 +57,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 2962094,
+  "size_kb": 2963401,
   "og_image": "https://opengraph.githubassets.com/1/twentyhq/twenty",
   "custom_og_image": false
  },
@@ -80,7 +80,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.697Z",
-  "checked_at": "2026-11-18T03:01:34.662Z"
+  "checked_at": "2026-11-18T11:46:09.358Z"
  },
  "contributors": {
   "count": 805,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.019Z"
  },
- "details_checked_at": "2026-11-18T03:01:34.662Z"
+ "details_checked_at": "2026-11-18T11:46:09.358Z"
 }

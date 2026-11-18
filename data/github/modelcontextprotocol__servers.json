@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T03:00:03.298Z",
+ "fetched_at": "2026-11-18T11:44:17.754Z",
  "meta": {
   "name": "servers",
   "owner": "modelcontextprotocol",
@@ -23,14 +23,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 92074,
-  "forks": 11976,
-  "watchers": 627,
-  "open_issues": 23,
+  "stars": 92084,
+  "forks": 11977,
+  "watchers": 629,
+  "open_issues": 26,
   "open_prs": null,
   "created_at": "2024-11-19T01:10:17Z",
-  "pushed_at": "2026-11-12T05:37:52Z",
-  "updated_at": "2026-11-18T00:50:23Z",
+  "pushed_at": "2026-11-18T09:13:13Z",
+  "updated_at": "2026-11-18T10:47:36Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -39,22 +39,22 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 34625,
+  "size_kb": 34720,
   "og_image": "https://opengraph.githubassets.com/1/modelcontextprotocol/servers",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 10554,
+  "length": 10820,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
   "sections": {
    "install": {
     "title": "Getting Started",
-    "html": "<h5>Using MCP Servers in this Repository</h5>\n<p>TypeScript-based servers in this repository can be started with <code>npx</code>.</p>\n<p>For example, this will start the <a href=\"https://github.com/modelcontextprotocol/servers/blob/main/src/memory\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Memory</a> server:</p>\n<pre><code class=\"language-sh\">npx -y @modelcontextprotocol/server-memory\n</code></pre>\n<p>Python-based servers in this repository can be started with <a href=\"https://docs.astral.sh/uv/concepts/tools/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>uvx</code></a> or <a href=\"https://pypi.org/project/pip/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>pip</code></a>. <code>uvx</code> is recommended for ease of use and setup.</p>\n<p>For example, this will start the <a href=\"https://github.com/modelcontextprotocol/servers/blob/main/src/git\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Git</a> server:</p>\n<pre><code class=\"language-sh\"># With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n</code></pre>\n<p>Follow <a href=\"https://docs.astral.sh/uv/getting-started/installation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">these</a> instructions to install <code>uv</code> / <code>uvx</code> and <a href=\"https://pip.pypa.io/en/stable/installation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">these</a> to install <code>pip</code>.</p>\n<h5>Using an MCP Client</h5>\n<p>However, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the Claude Desktop configuration to use the above server:</p>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"memory\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-memory\"]\n    }\n  }\n}\n</code></pre>\n<p>On Windows, wrap <code>npx</code> with <code>cmd /c</code>:</p>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"memory\": {\n      \"command\": \"cmd\",\n      \"args\": [\"/c\", \"npx\", \"-y\", \"@modelcontextprotocol/server-memory\"]\n    }\n  }\n}\n</code></pre>\n<p>Additional examples of using the Claude Desktop as an MCP client might look like:</p>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"filesystem\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-filesystem\", \"/path/to/allowed/files\"]\n    },\n    \"git\": {\n      \"command\": \"uvx\",\n      \"args\": [\"mcp-server-git\", \"--repository\", \"path/to/git/repo\"]\n    },\n    \"fetch\": {\n      \"command\": \"uvx\",\n      \"args\": [\"mcp-server-fetch\"]\n    }\n  }\n}\n</code></pre>\n<p>On Windows, apply the same wrapper to the <code>npx</code>-based <code>filesystem</code> entry above by changing its <code>\"command\"</code> to <code>\"cmd\"</code> and prepending <code>\"/c\", \"npx\"</code> to its existing <code>args</code>. Leave the <code>uvx</code> entries unchanged.</p>\n<h5>Transports: stdio and Streamable HTTP</h5>\n<p>An MCP server talks to its client over a <strong>transport</strong>. The protocol defines two standard ones, and they run very differently:</p>\n<table>\n<thead>\n<tr>\n<th>Transport</th>\n<th>How the server runs</th>\n<th>How a client reaches it</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><strong>stdio</strong></td>\n<td>The client launches the server as a subprocess and talks to it over the process's stdin and stdout. The server opens no port.</td>\n<td>A <code>command</code> and <code>args</code> in the client's configuration, as in the examples above</td>\n</tr>\n<tr>\n<td><strong>Streamable HTTP</strong></td>\n<td>The server runs on its own as an HTTP service, and can serve many clients</td>\n<td>A URL, such as <code>http://localhost:3001/mcp</code></td>\n</tr>\n</tbody></table>\n<p><strong>Every server in this repository serves stdio, and only <a href=\"https://github.com/modelcontextprotocol/servers/blob/main/src/everything\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Everything</a> also serves Streamable HTTP</strong> (its README shows how to start it that way, and covers its deprecated HTTP+SSE transport too). So when you run <code>uvx mcp-server-git</code> or <code>npx -y @modelcontextprotocol/server-memory</code> in a terminal, it opens no port, prints at most a one-line startup notice, and then appears to hang. That is expected: it is waiting for a client to send it messages on stdin. You do not normally start a stdio server yourself; your MCP client starts it from its configuration and stops it when it is done.</p>\n<p>To try a server without setting up a client, use the <a href=\"https://github.com/modelcontextprotocol/inspector\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MCP Inspector</a>. Given a stdio server's command, it launches the server for you and lets you browse and call its tools; given a URL, it connects to a running Streamable HTTP server:</p>\n<pre><code class=\"language-sh\"># A stdio server: the Inspector launches it\nnpx @modelcontextprotocol/inspector uvx mcp-server-git\n\n# A Streamable HTTP server: start it first, then connect to its URL\nnpx @modelcontextprotocol/server-everything streamableHttp\nnpx @modelcontextprotocol/inspector --transport http --server-url http://localhost:3001/mcp\n</code></pre>\n<p>For more, see the <a href=\"https://modelcontextprotocol.io/docs/learn/architecture#transport-layer\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">transport layer</a> in the MCP architecture overview, and <a href=\"https://modelcontextprotocol.io/specification/2026-07-28/basic/transports\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Transports</a> in the specification.</p>",
+    "html": "<h5>Using MCP Servers in this Repository</h5>\n<p>TypeScript-based servers in this repository can be started with <code>npx</code>.</p>\n<p>For example, this will start the <a href=\"https://github.com/modelcontextprotocol/servers/blob/main/src/memory\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Memory</a> server:</p>\n<pre><code class=\"language-sh\">npx -y @modelcontextprotocol/server-memory\n</code></pre>\n<p>Python-based servers in this repository can be started with <a href=\"https://docs.astral.sh/uv/concepts/tools/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>uvx</code></a> or <a href=\"https://pypi.org/project/pip/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>pip</code></a>. <code>uvx</code> is recommended for ease of use and setup.</p>\n<p>For example, this will start the <a href=\"https://github.com/modelcontextprotocol/servers/blob/main/src/git\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Git</a> server:</p>\n<pre><code class=\"language-sh\"># With uvx\nuvx mcp-server-git\n\n# With pip\npip install mcp-server-git\npython -m mcp_server_git\n</code></pre>\n<p>Follow <a href=\"https://docs.astral.sh/uv/getting-started/installation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">these</a> instructions to install <code>uv</code> / <code>uvx</code> and <a href=\"https://pip.pypa.io/en/stable/installation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">these</a> to install <code>pip</code>.</p>\n<h5>Using an MCP Client</h5>\n<p>However, running a server on its own isn't very useful, and should instead be configured into an MCP client. For example, here's the Claude Desktop configuration to use the above server:</p>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"memory\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-memory\"]\n    }\n  }\n}\n</code></pre>\n<p>On Windows, wrap <code>npx</code> with <code>cmd /c</code>:</p>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"memory\": {\n      \"command\": \"cmd\",\n      \"args\": [\"/c\", \"npx\", \"-y\", \"@modelcontextprotocol/server-memory\"]\n    }\n  }\n}\n</code></pre>\n<p>Additional examples of using the Claude Desktop as an MCP client might look like:</p>\n<pre><code class=\"language-json\">{\n  \"mcpServers\": {\n    \"filesystem\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-filesystem\", \"/path/to/allowed/files\"]\n    },\n    \"git\": {\n      \"command\": \"uvx\",\n      \"args\": [\"mcp-server-git\", \"--repository\", \"path/to/git/repo\"]\n    },\n    \"fetch\": {\n      \"command\": \"uvx\",\n      \"args\": [\"mcp-server-fetch\"]\n    }\n  }\n}\n</code></pre>\n<p>On Windows, apply the same wrapper to the <code>npx</code>-based <code>filesystem</code> entry above by changing its <code>\"command\"</code> to <code>\"cmd\"</code> and prepending <code>\"/c\", \"npx\"</code> to its existing <code>args</code>. Leave the <code>uvx</code> entries unchanged.</p>\n<h5>Transports: stdio and Streamable HTTP</h5>\n<p>An MCP server talks to its client over a <strong>transport</strong>. The protocol defines two standard ones, and they run very differently:</p>\n<table>\n<thead>\n<tr>\n<th>Transport</th>\n<th>How the server runs</th>\n<th>How a client reaches it</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><strong>stdio</strong></td>\n<td>The client launches the server as a subprocess and talks to it over the process's stdin and stdout. The server opens no port.</td>\n<td>A <code>command</code> and <code>args</code> in the client's configuration, as in the examples above</td>\n</tr>\n<tr>\n<td><strong>Streamable HTTP</strong></td>\n<td>The server runs on its own as an HTTP service, and can serve many clients</td>\n<td>A URL, such as <code>http://localhost:3001/mcp</code></td>\n</tr>\n</tbody></table>\n<p><strong>Every server in this repository serves stdio by default, and every one can also serve Streamable HTTP</strong> on <code>http://127.0.0.1:3001/mcp</code> (set <code>PORT</code> and <code>HOST</code> to move it): <a href=\"https://github.com/modelcontextprotocol/servers/blob/main/src/everything\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Everything</a> with its <code>streamableHttp</code> argument (its README also covers its deprecated HTTP+SSE transport), and the others with <code>--transport streamable-http</code>, as each server's README shows. Started without one, a server uses stdio, so when you run <code>uvx mcp-server-git</code> or <code>npx -y @modelcontextprotocol/server-memory</code> in a terminal, it opens no port, prints at most a one-line startup notice, and then appears to hang. That is expected: it is waiting for a client to send it messages on stdin. You do not normally start a stdio server yourself; your MCP client starts it from its configuration and stops it when it is done.</p>\n<p>To try a server without setting up a client, use the <a href=\"https://github.com/modelcontextprotocol/inspector\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MCP Inspector</a>. Given a stdio server's command, it launches the server for you and lets you browse and call its tools; given a URL, it connects to a running Streamable HTTP server:</p>\n<pre><code class=\"language-sh\"># A stdio server: the Inspector launches it\nnpx @modelcontextprotocol/inspector uvx mcp-server-git\n\n# A Streamable HTTP server: start it first, then connect to its URL\nnpx @modelcontextprotocol/server-everything streamableHttp   # or: uvx mcp-server-time --transport streamable-http\nnpx @modelcontextprotocol/inspector --transport http --server-url http://localhost:3001/mcp\n</code></pre>\n<p>For more, see the <a href=\"https://modelcontextprotocol.io/docs/learn/architecture#transport-layer\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">transport layer</a> in the MCP architecture overview, and <a href=\"https://modelcontextprotocol.io/specification/2026-07-28/basic/transports\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Transports</a> in the specification.</p>",
     "truncated": false,
-    "chars": 4091
+    "chars": 4357
    },
    "usage": {
     "title": "Using MCP Servers in this Repository",
@@ -66,8 +66,8 @@
   },
   "headings": 15,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:27.209Z",
-  "checked_at": "2026-11-18T03:01:39.125Z"
+  "fetched_at": "2026-11-18T11:46:15.441Z",
+  "checked_at": "2026-11-18T11:46:15.441Z"
  },
  "contributors": {
   "count": 1073,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.271Z"
  },
- "details_checked_at": "2026-11-18T03:01:39.125Z"
+ "details_checked_at": "2026-11-18T11:46:15.441Z"
 }

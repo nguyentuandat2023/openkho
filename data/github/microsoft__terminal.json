@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T02:59:13.436Z",
+ "fetched_at": "2026-11-18T11:43:15.057Z",
  "meta": {
   "name": "terminal",
   "owner": "microsoft",
@@ -35,14 +35,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 105413,
-  "forks": 9748,
-  "watchers": 1371,
+  "stars": 105418,
+  "forks": 9747,
+  "watchers": 1372,
   "open_issues": 1785,
   "open_prs": null,
   "created_at": "2017-08-11T18:38:22Z",
   "pushed_at": "2026-11-17T23:05:46Z",
-  "updated_at": "2026-11-18T00:40:52Z",
+  "updated_at": "2026-11-18T11:33:56Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -90,7 +90,7 @@
   "headings": 30,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.121Z",
-  "checked_at": "2026-11-18T03:01:36.912Z"
+  "checked_at": "2026-11-18T11:46:12.304Z"
  },
  "contributors": {
   "count": 515,
@@ -98,5 +98,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.897Z"
  },
- "details_checked_at": "2026-11-18T03:01:36.912Z"
+ "details_checked_at": "2026-11-18T11:46:12.304Z"
 }

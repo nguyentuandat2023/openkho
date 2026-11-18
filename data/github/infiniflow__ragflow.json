@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T02:57:25.310Z",
+ "fetched_at": "2026-11-18T11:41:01.315Z",
  "meta": {
   "name": "ragflow",
   "owner": "infiniflow",
@@ -40,14 +40,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 94341,
-  "forks": 11339,
-  "watchers": 360,
-  "open_issues": 1318,
+  "stars": 94376,
+  "forks": 11345,
+  "watchers": 361,
+  "open_issues": 1267,
   "open_prs": null,
   "created_at": "2023-12-12T06:13:13Z",
-  "pushed_at": "2026-11-18T02:13:08Z",
-  "updated_at": "2026-11-18T02:45:04Z",
+  "pushed_at": "2026-11-18T11:28:53Z",
+  "updated_at": "2026-11-18T10:23:58Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,13 +56,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 194495,
+  "size_kb": 195864,
   "og_image": "https://opengraph.githubassets.com/1/infiniflow/ragflow",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 16676,
+  "length": 16966,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [],
@@ -81,10 +81,10 @@
     "chars": 1870
    }
   },
-  "headings": 24,
+  "headings": 25,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:19.972Z",
-  "checked_at": "2026-11-18T03:01:31.976Z"
+  "fetched_at": "2026-11-18T11:46:06.123Z",
+  "checked_at": "2026-11-18T11:46:06.123Z"
  },
  "contributors": {
   "count": 932,
@@ -92,5 +92,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:28.326Z"
  },
- "details_checked_at": "2026-11-18T03:01:31.976Z"
+ "details_checked_at": "2026-11-18T11:46:06.123Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T02:57:26.634Z",
+ "fetched_at": "2026-11-18T11:41:03.118Z",
  "meta": {
   "name": "self-hosted-ai-starter-kit",
   "owner": "n8n-io",
@@ -79,7 +79,7 @@
   "headings": 22,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:20.046Z",
-  "checked_at": "2026-11-18T03:01:31.963Z"
+  "checked_at": "2026-11-18T11:46:06.302Z"
  },
  "contributors": {
   "count": 16,
@@ -87,5 +87,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:29.031Z"
  },
- "details_checked_at": "2026-11-18T03:01:31.963Z"
+ "details_checked_at": "2026-11-18T11:46:06.302Z"
 }

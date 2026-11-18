@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T03:00:53.091Z",
+ "fetched_at": "2026-11-18T11:45:16.726Z",
  "meta": {
   "name": "server",
   "owner": "nextcloud",
@@ -44,14 +44,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 37545,
-  "forks": 5364,
-  "watchers": 541,
-  "open_issues": 3953,
+  "stars": 37552,
+  "forks": 5365,
+  "watchers": 542,
+  "open_issues": 3998,
   "open_prs": null,
   "created_at": "2016-06-02T07:44:14Z",
-  "pushed_at": "2026-11-18T00:59:36Z",
-  "updated_at": "2026-11-18T01:43:19Z",
+  "pushed_at": "2026-11-18T11:37:27Z",
+  "updated_at": "2026-11-18T10:22:49Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 7575043,
+  "size_kb": 7584718,
   "og_image": "https://opengraph.githubassets.com/1/nextcloud/server",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.271Z",
-  "checked_at": "2026-11-18T03:01:41.072Z"
+  "checked_at": "2026-11-18T11:46:18.498Z"
  },
  "contributors": {
   "count": 1481,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.815Z"
  },
- "details_checked_at": "2026-11-18T03:01:41.072Z"
+ "details_checked_at": "2026-11-18T11:46:18.498Z"
 }
