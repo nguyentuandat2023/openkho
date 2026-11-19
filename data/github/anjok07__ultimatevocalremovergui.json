@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:32:16.890Z",
+ "fetched_at": "2026-11-19T02:36:45.721Z",
  "meta": {
   "name": "ultimatevocalremovergui",
   "owner": "Anjok07",
@@ -36,14 +36,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 27238,
+  "stars": 27243,
   "forks": 2094,
   "watchers": 206,
   "open_issues": 1583,
   "open_prs": null,
   "created_at": "2020-07-20T21:29:01Z",
   "pushed_at": "2026-10-06T22:39:26Z",
-  "updated_at": "2026-11-18T17:36:43Z",
+  "updated_at": "2026-11-19T00:59:53Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -75,7 +75,7 @@
   "headings": 23,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:29.111Z",
-  "checked_at": "2026-11-18T20:37:08.135Z"
+  "checked_at": "2026-11-19T02:41:19.987Z"
  },
  "contributors": {
   "count": 8,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:24.807Z"
  },
- "details_checked_at": "2026-11-18T20:37:08.135Z"
+ "details_checked_at": "2026-11-19T02:41:19.987Z"
 }

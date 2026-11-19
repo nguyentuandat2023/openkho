@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:35:48.095Z",
+ "fetched_at": "2026-11-19T02:40:05.153Z",
  "meta": {
   "name": "appsmith",
   "owner": "appsmithorg",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 41272,
+  "stars": 41274,
   "forks": 4846,
   "watchers": 302,
   "open_issues": 4522,
   "open_prs": null,
   "created_at": "2020-06-30T04:07:36Z",
-  "pushed_at": "2026-11-18T19:53:57Z",
-  "updated_at": "2026-11-18T17:27:02Z",
+  "pushed_at": "2026-11-18T23:15:50Z",
+  "updated_at": "2026-11-18T21:36:43Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 823374,
+  "size_kb": 823960,
   "og_image": "https://opengraph.githubassets.com/1/appsmithorg/appsmith",
   "custom_og_image": false
  },
@@ -89,7 +89,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.927Z",
-  "checked_at": "2026-11-18T20:37:18.226Z"
+  "checked_at": "2026-11-19T02:41:28.299Z"
  },
  "contributors": {
   "count": 386,
@@ -97,5 +97,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.879Z"
  },
- "details_checked_at": "2026-11-18T20:37:18.226Z"
+ "details_checked_at": "2026-11-19T02:41:28.299Z"
 }

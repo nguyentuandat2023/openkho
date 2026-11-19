@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:37:05.876Z",
+ "fetched_at": "2026-11-19T02:41:17.908Z",
  "meta": {
   "name": "grapesjs",
   "owner": "GrapesJS",
@@ -36,14 +36,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 26424,
+  "stars": 26427,
   "forks": 4654,
   "watchers": 466,
   "open_issues": 29,
   "open_prs": null,
   "created_at": "2016-01-22T00:23:19Z",
   "pushed_at": "2026-11-13T10:01:59Z",
-  "updated_at": "2026-11-18T17:26:21Z",
+  "updated_at": "2026-11-19T01:08:59Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -85,7 +85,7 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.778Z",
-  "checked_at": "2026-11-18T20:37:21.702Z"
+  "checked_at": "2026-11-19T02:41:31.300Z"
  },
  "contributors": {
   "count": 231,
@@ -93,5 +93,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.838Z"
  },
- "details_checked_at": "2026-11-18T20:37:21.702Z"
+ "details_checked_at": "2026-11-19T02:41:31.300Z"
 }

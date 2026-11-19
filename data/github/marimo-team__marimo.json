@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:33:58.762Z",
+ "fetched_at": "2026-11-19T02:38:24.177Z",
  "meta": {
   "name": "marimo",
   "owner": "marimo-team",
@@ -37,14 +37,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 23614,
+  "stars": 23619,
   "forks": 1408,
   "watchers": 67,
-  "open_issues": 592,
+  "open_issues": 593,
   "open_prs": null,
   "created_at": "2023-08-14T18:56:20Z",
-  "pushed_at": "2026-11-18T19:03:40Z",
-  "updated_at": "2026-11-18T19:14:15Z",
+  "pushed_at": "2026-11-18T22:33:09Z",
+  "updated_at": "2026-11-19T01:24:10Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,7 +53,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 274411,
+  "size_kb": 274263,
   "og_image": "https://opengraph.githubassets.com/1/marimo-team/marimo",
   "custom_og_image": false
  },
@@ -82,7 +82,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.666Z",
-  "checked_at": "2026-11-18T20:37:13.006Z"
+  "checked_at": "2026-11-19T02:41:23.931Z"
  },
  "contributors": {
   "count": 387,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:33.382Z"
  },
- "details_checked_at": "2026-11-18T20:37:13.006Z"
+ "details_checked_at": "2026-11-19T02:41:23.931Z"
 }

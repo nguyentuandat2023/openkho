@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:35:02.564Z",
+ "fetched_at": "2026-11-19T02:39:24.074Z",
  "meta": {
   "name": "prompt-eng-interactive-tutorial",
   "owner": "anthropics",
@@ -20,14 +20,14 @@
   "languages": null,
   "topics": [],
   "license": null,
-  "stars": 39534,
+  "stars": 39539,
   "forks": 4387,
   "watchers": 381,
   "open_issues": 66,
   "open_prs": null,
   "created_at": "2024-04-02T15:52:00Z",
   "pushed_at": "2026-08-28T05:31:39Z",
-  "updated_at": "2026-11-18T20:26:34Z",
+  "updated_at": "2026-11-19T01:40:34Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.113Z",
-  "checked_at": "2026-11-18T20:37:16.132Z"
+  "checked_at": "2026-11-19T02:41:26.445Z"
  },
  "contributors": {
   "count": 2,
@@ -67,5 +67,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:36.667Z"
  },
- "details_checked_at": "2026-11-18T20:37:16.132Z"
+ "details_checked_at": "2026-11-19T02:41:26.445Z"
 }

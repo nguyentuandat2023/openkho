@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:37:01.582Z",
+ "fetched_at": "2026-11-19T02:41:13.651Z",
  "meta": {
   "name": "strapi",
   "owner": "strapi",
@@ -44,7 +44,7 @@
    "name": "Other"
   },
   "stars": 73515,
-  "forks": 10032,
+  "forks": 10031,
   "watchers": 646,
   "open_issues": 610,
   "open_prs": null,
@@ -82,7 +82,7 @@
   "headings": 18,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.618Z",
-  "checked_at": "2026-11-18T20:37:21.513Z"
+  "checked_at": "2026-11-19T02:41:31.158Z"
  },
  "contributors": {
   "count": 1428,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.630Z"
  },
- "details_checked_at": "2026-11-18T20:37:21.513Z"
+ "details_checked_at": "2026-11-19T02:41:31.158Z"
 }

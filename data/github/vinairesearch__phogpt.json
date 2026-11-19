@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:36:01.292Z",
+ "fetched_at": "2026-11-19T02:40:18.476Z",
  "meta": {
   "name": "PhoGPT",
   "owner": "VinAIResearch",
@@ -65,7 +65,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.386Z",
-  "checked_at": "2026-11-18T20:37:18.972Z"
+  "checked_at": "2026-11-19T02:41:28.748Z"
  },
  "contributors": {
   "count": 1,
@@ -73,5 +73,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.791Z"
  },
- "details_checked_at": "2026-11-18T20:37:18.972Z"
+ "details_checked_at": "2026-11-19T02:41:28.748Z"
 }

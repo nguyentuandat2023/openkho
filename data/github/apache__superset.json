@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:33:47.488Z",
+ "fetched_at": "2026-11-19T02:38:14.091Z",
  "meta": {
   "name": "superset",
   "owner": "apache",
@@ -42,14 +42,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 75561,
+  "stars": 75562,
   "forks": 18630,
   "watchers": 1533,
-  "open_issues": 710,
+  "open_issues": 686,
   "open_prs": null,
   "created_at": "2015-07-21T18:55:34Z",
-  "pushed_at": "2026-11-18T20:32:08Z",
-  "updated_at": "2026-11-18T20:32:17Z",
+  "pushed_at": "2026-11-19T02:33:51Z",
+  "updated_at": "2026-11-19T02:30:37Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,7 +58,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 1523901,
+  "size_kb": 1532349,
   "og_image": "https://opengraph.githubassets.com/1/apache/superset",
   "custom_og_image": false
  },
@@ -81,7 +81,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.388Z",
-  "checked_at": "2026-11-18T20:37:12.499Z"
+  "checked_at": "2026-11-19T02:41:23.516Z"
  },
  "contributors": {
   "count": 1833,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.683Z"
  },
- "details_checked_at": "2026-11-18T20:37:12.499Z"
+ "details_checked_at": "2026-11-19T02:41:23.516Z"
 }

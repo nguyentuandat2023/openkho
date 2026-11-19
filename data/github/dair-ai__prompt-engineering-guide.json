@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:35:01.748Z",
+ "fetched_at": "2026-11-19T02:39:23.437Z",
  "meta": {
   "name": "Prompt-Engineering-Guide",
   "owner": "dair-ai",
@@ -35,14 +35,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 80196,
+  "stars": 80201,
   "forks": 8788,
   "watchers": 752,
   "open_issues": 300,
   "open_prs": null,
   "created_at": "2022-12-16T16:04:50Z",
   "pushed_at": "2026-03-11T20:09:13Z",
-  "updated_at": "2026-11-18T20:31:21Z",
+  "updated_at": "2026-11-19T01:51:07Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -75,7 +75,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.047Z",
-  "checked_at": "2026-11-18T20:37:16.110Z"
+  "checked_at": "2026-11-19T02:41:26.431Z"
  },
  "contributors": {
   "count": 212,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:36.725Z"
  },
- "details_checked_at": "2026-11-18T20:37:16.110Z"
+ "details_checked_at": "2026-11-19T02:41:26.431Z"
 }

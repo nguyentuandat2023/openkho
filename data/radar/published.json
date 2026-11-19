@@ -5,9 +5,21 @@
    "full_name": "ohmyzsh/ohmyzsh",
    "since": "2026-11-18T20:39:19.124Z"
   },
+  "724712": {
+   "full_name": "rust-lang/rust",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
+  "1039520": {
+   "full_name": "ytdl-org/youtube-dl",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
   "2325298": {
    "full_name": "torvalds/linux",
    "since": "2026-11-18T20:39:19.124Z"
+  },
+  "9384267": {
+   "full_name": "electron/electron",
+   "since": "2026-11-19T02:34:35.723Z"
   },
   "11730342": {
    "full_name": "vuejs/vue",
@@ -29,6 +41,10 @@
    "full_name": "freeCodeCamp/freeCodeCamp",
    "since": "2026-11-18T20:39:19.124Z"
   },
+  "29028775": {
+   "full_name": "react/react-native",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
   "60493101": {
    "full_name": "jwasham/coding-interview-university",
    "since": "2026-11-18T20:39:19.124Z"
@@ -36,6 +52,10 @@
   "63476337": {
    "full_name": "TheAlgorithms/Python",
    "since": "2026-11-18T20:39:19.124Z"
+  },
+  "63539055": {
+   "full_name": "jaywcjlove/awesome-mac",
+   "since": "2026-11-19T02:34:35.723Z"
   },
   "83222441": {
    "full_name": "donnemartin/system-design-primer",
@@ -49,6 +69,10 @@
    "full_name": "trekhleb/javascript-algorithms",
    "since": "2026-11-18T20:39:19.124Z"
   },
+  "132464395": {
+   "full_name": "Snailclimb/JavaGuide",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
   "132750724": {
    "full_name": "codecrafters-io/build-your-own-x",
    "since": "2026-11-18T20:39:19.124Z"
@@ -57,17 +81,33 @@
    "full_name": "trimstray/the-book-of-secret-knowledge",
    "since": "2026-11-18T20:39:19.124Z"
   },
+  "157616880": {
+   "full_name": "iptv-org/iptv",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
   "177736533": {
    "full_name": "996icu/996.ICU",
    "since": "2026-11-18T20:39:19.124Z"
+  },
+  "199570071": {
+   "full_name": "2dust/v2rayN",
+   "since": "2026-11-19T02:34:35.723Z"
   },
   "233472199": {
    "full_name": "massgravel/Microsoft-Activation-Scripts",
    "since": "2026-11-18T20:39:19.124Z"
   },
+  "721767116": {
+   "full_name": "clash-verge-rev/clash-verge-rev",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
   "808144141": {
    "full_name": "DigitalPlatDev/FreeDomain",
    "since": "2026-11-18T20:39:19.124Z"
+  },
+  "909213664": {
+   "full_name": "TauricResearch/TradingAgents",
+   "since": "2026-11-19T02:34:35.723Z"
   },
   "938505608": {
    "full_name": "mgks/GitHubTree",
@@ -77,9 +117,25 @@
    "full_name": "NousResearch/hermes-agent",
    "since": "2026-11-18T20:39:19.124Z"
   },
+  "1031912724": {
+   "full_name": "farion1231/cc-switch",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
+  "1048065319": {
+   "full_name": "thedotmack/claude-mem",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
   "1073224795": {
    "full_name": "obra/superpowers",
    "since": "2026-11-18T20:39:19.124Z"
+  },
+  "1097346685": {
+   "full_name": "pbakaus/impeccable",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
+  "1106996539": {
+   "full_name": "nextlevelbuilder/ui-ux-pro-max-skill",
+   "since": "2026-11-19T02:34:35.723Z"
   },
   "1136590548": {
    "full_name": "affaan-m/ECC",
@@ -93,9 +149,33 @@
    "full_name": "mattpocock/skills",
    "since": "2026-11-18T20:39:19.124Z"
   },
+  "1158722119": {
+   "full_name": "addyosmani/agent-skills",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
+  "1162099055": {
+   "full_name": "Leonxlnx/taste-skill",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
+  "1170821064": {
+   "full_name": "paperclipai/paperclip",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
+  "1183888342": {
+   "full_name": "stablyai/orca",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
   "1197021090": {
    "full_name": "ultraworkers/claw-code",
    "since": "2026-11-18T20:39:19.124Z"
+  },
+  "1200597263": {
+   "full_name": "Graphify-Labs/graphify",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
+  "1201173969": {
+   "full_name": "JuliusBrussee/caveman",
+   "since": "2026-11-19T02:34:35.723Z"
   },
   "1209966933": {
    "full_name": "morluto/rea",
@@ -1282,6 +1362,10 @@
    "full_name": "indexable-inc/blaze",
    "since": "2026-11-17T11:58:40.135Z"
   },
+  "1426441603": {
+   "full_name": "raymondchins/Bridgeplay",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
   "1426502712": {
    "full_name": "nthnclrk/CleanFrame",
    "since": "2026-11-18T03:03:31.093Z"
@@ -2202,6 +2286,10 @@
    "full_name": "memoryswordsmanlaud/fieldkit-awesome-osint-list",
    "since": "2026-11-18T20:29:46.512Z"
   },
+  "1456823826": {
+   "full_name": "ybblab/Jiumi",
+   "since": "2026-11-19T02:34:35.723Z"
+  },
   "1456913583": {
    "full_name": "mit-han-lab/pear",
    "since": "2026-11-18T11:38:35.808Z"
@@ -2315,5 +2403,5 @@
    "since": "2026-11-17T20:54:14.953Z"
   }
  },
- "updated_at": "2026-11-18T20:39:20.543Z"
+ "updated_at": "2026-11-19T02:43:22.486Z"
 }

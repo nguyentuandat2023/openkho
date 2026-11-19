@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:34:08.904Z",
+ "fetched_at": "2026-11-19T02:38:33.923Z",
  "meta": {
   "name": "valkey",
   "owner": "valkey-io",
@@ -32,14 +32,14 @@
    "spdx": "BSD-3-Clause",
    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
   },
-  "stars": 27748,
-  "forks": 1542,
+  "stars": 27747,
+  "forks": 1543,
   "watchers": 135,
-  "open_issues": 1058,
+  "open_issues": 1060,
   "open_prs": null,
   "created_at": "2024-03-22T00:42:17Z",
-  "pushed_at": "2026-11-18T20:29:06Z",
-  "updated_at": "2026-11-18T18:15:43Z",
+  "pushed_at": "2026-11-19T02:16:24Z",
+  "updated_at": "2026-11-19T02:36:36Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,7 +48,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 296205,
+  "size_kb": 296562,
   "og_image": "https://opengraph.githubassets.com/1/valkey-io/valkey",
   "custom_og_image": false
  },
@@ -71,7 +71,7 @@
   "headings": 22,
   "processor": 4,
   "fetched_at": "2026-11-18T20:37:13.487Z",
-  "checked_at": "2026-11-18T20:37:13.487Z"
+  "checked_at": "2026-11-19T02:41:24.364Z"
  },
  "contributors": {
   "count": 1073,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:33.641Z"
  },
- "details_checked_at": "2026-11-18T20:37:13.487Z"
+ "details_checked_at": "2026-11-19T02:41:24.364Z"
 }

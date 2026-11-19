@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:33:54.700Z",
+ "fetched_at": "2026-11-19T02:38:20.137Z",
  "meta": {
   "name": "echarts",
   "owner": "apache",
@@ -33,14 +33,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 67753,
-  "forks": 19941,
+  "stars": 67755,
+  "forks": 19942,
   "watchers": 1951,
   "open_issues": 1478,
   "open_prs": null,
   "created_at": "2013-04-03T03:18:59Z",
   "pushed_at": "2026-10-13T09:27:20Z",
-  "updated_at": "2026-11-18T20:27:39Z",
+  "updated_at": "2026-11-18T21:51:17Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.607Z",
-  "checked_at": "2026-11-18T20:37:12.780Z"
+  "checked_at": "2026-11-19T02:41:23.788Z"
  },
  "contributors": {
   "count": 337,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:33.008Z"
  },
- "details_checked_at": "2026-11-18T20:37:12.780Z"
+ "details_checked_at": "2026-11-19T02:41:23.788Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:32:55.484Z",
+ "fetched_at": "2026-11-19T02:37:22.621Z",
  "meta": {
   "name": "ultralytics",
   "owner": "ultralytics",
@@ -44,14 +44,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 63563,
-  "forks": 12021,
+  "stars": 63567,
+  "forks": 12023,
   "watchers": 266,
-  "open_issues": 63,
+  "open_issues": 57,
   "open_prs": null,
   "created_at": "2022-09-11T16:39:45Z",
-  "pushed_at": "2026-11-18T16:46:14Z",
-  "updated_at": "2026-11-18T17:18:19Z",
+  "pushed_at": "2026-11-19T01:53:11Z",
+  "updated_at": "2026-11-19T02:29:10Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 67704,
+  "size_kb": 67709,
   "og_image": "https://opengraph.githubassets.com/1/ultralytics/ultralytics",
   "custom_og_image": false
  },
@@ -78,7 +78,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.300Z",
-  "checked_at": "2026-11-18T20:37:10.016Z"
+  "checked_at": "2026-11-19T02:41:21.517Z"
  },
  "contributors": {
   "count": 497,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T07:03:47.885Z"
  },
- "details_checked_at": "2026-11-18T20:37:10.016Z"
+ "details_checked_at": "2026-11-19T02:41:21.517Z"
 }

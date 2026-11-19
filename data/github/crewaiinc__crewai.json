@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:32:01.730Z",
+ "fetched_at": "2026-11-19T02:36:31.039Z",
  "meta": {
   "name": "crewAI",
   "owner": "crewAIInc",
@@ -29,14 +29,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 61082,
-  "forks": 9225,
+  "stars": 61087,
+  "forks": 9226,
   "watchers": 392,
-  "open_issues": 1271,
+  "open_issues": 1270,
   "open_prs": null,
   "created_at": "2023-10-27T03:26:59Z",
   "pushed_at": "2026-11-18T18:53:52Z",
-  "updated_at": "2026-11-18T20:27:37Z",
+  "updated_at": "2026-11-19T02:30:34Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -94,7 +94,7 @@
   "headings": 54,
   "processor": 4,
   "fetched_at": "2026-11-18T20:37:07.355Z",
-  "checked_at": "2026-11-18T20:37:07.355Z"
+  "checked_at": "2026-11-19T02:41:19.330Z"
  },
  "contributors": {
   "count": 376,
@@ -102,5 +102,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:18.521Z"
  },
- "details_checked_at": "2026-11-18T20:37:07.355Z"
+ "details_checked_at": "2026-11-19T02:41:19.330Z"
 }

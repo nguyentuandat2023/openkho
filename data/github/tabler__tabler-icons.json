@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:34:27.222Z",
+ "fetched_at": "2026-11-19T02:38:51.968Z",
  "meta": {
   "name": "tabler-icons",
   "owner": "tabler",
@@ -82,7 +82,7 @@
   "headings": 26,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.878Z",
-  "checked_at": "2026-11-18T20:37:14.470Z"
+  "checked_at": "2026-11-19T02:41:25.119Z"
  },
  "contributors": {
   "count": 110,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.643Z"
  },
- "details_checked_at": "2026-11-18T20:37:14.470Z"
+ "details_checked_at": "2026-11-19T02:41:25.119Z"
 }

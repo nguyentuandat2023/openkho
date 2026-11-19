@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:37:03.396Z",
+ "fetched_at": "2026-11-19T02:41:15.550Z",
  "meta": {
   "name": "bolt.diy",
   "owner": "stackblitz-labs",
@@ -24,7 +24,7 @@
    "name": "MIT License"
   },
   "stars": 20107,
-  "forks": 10618,
+  "forks": 10620,
   "watchers": 290,
   "open_issues": 1,
   "open_prs": null,
@@ -39,7 +39,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 15022,
+  "size_kb": 15114,
   "og_image": "https://opengraph.githubassets.com/1/stackblitz-labs/bolt.diy",
   "custom_og_image": false
  },
@@ -67,7 +67,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.708Z",
-  "checked_at": "2026-11-18T20:37:21.653Z"
+  "checked_at": "2026-11-19T02:41:31.260Z"
  },
  "contributors": {
   "count": 127,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.735Z"
  },
- "details_checked_at": "2026-11-18T20:37:21.653Z"
+ "details_checked_at": "2026-11-19T02:41:31.260Z"
 }

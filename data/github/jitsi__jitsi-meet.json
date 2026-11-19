@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:36:35.728Z",
+ "fetched_at": "2026-11-19T02:40:50.539Z",
  "meta": {
   "name": "jitsi-meet",
   "owner": "jitsi",
@@ -34,14 +34,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 30257,
-  "forks": 8134,
+  "stars": 30258,
+  "forks": 8133,
   "watchers": 518,
-  "open_issues": 202,
+  "open_issues": 201,
   "open_prs": null,
   "created_at": "2013-12-16T12:51:09Z",
-  "pushed_at": "2026-11-18T20:35:54Z",
-  "updated_at": "2026-11-18T19:18:28Z",
+  "pushed_at": "2026-11-18T22:16:26Z",
+  "updated_at": "2026-11-18T23:26:01Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -50,7 +50,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 391488,
+  "size_kb": 391535,
   "og_image": "https://opengraph.githubassets.com/1/jitsi/jitsi-meet",
   "custom_og_image": false
  },
@@ -73,7 +73,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.721Z",
-  "checked_at": "2026-11-18T20:37:20.376Z"
+  "checked_at": "2026-11-19T02:41:30.121Z"
  },
  "contributors": {
   "count": 799,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.193Z"
  },
- "details_checked_at": "2026-11-18T20:37:20.376Z"
+ "details_checked_at": "2026-11-19T02:41:30.121Z"
 }

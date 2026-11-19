@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:36:40.666Z",
+ "fetched_at": "2026-11-19T02:40:54.768Z",
  "meta": {
   "name": "yt-dlp",
   "owner": "yt-dlp",
@@ -31,14 +31,14 @@
    "spdx": "Unlicense",
    "name": "The Unlicense"
   },
-  "stars": 208919,
-  "forks": 18432,
+  "stars": 208977,
+  "forks": 18440,
   "watchers": 983,
-  "open_issues": 2797,
+  "open_issues": 2794,
   "open_prs": null,
   "created_at": "2020-10-26T04:22:55Z",
   "pushed_at": "2026-11-17T16:08:48Z",
-  "updated_at": "2026-11-18T20:35:50Z",
+  "updated_at": "2026-11-19T02:36:36Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -86,7 +86,7 @@
   "headings": 106,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.898Z",
-  "checked_at": "2026-11-18T20:37:20.645Z"
+  "checked_at": "2026-11-19T02:41:30.293Z"
  },
  "contributors": {
   "count": 1761,
@@ -94,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.423Z"
  },
- "details_checked_at": "2026-11-18T20:37:20.645Z"
+ "details_checked_at": "2026-11-19T02:41:30.293Z"
 }

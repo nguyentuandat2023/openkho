@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:34:54.947Z",
+ "fetched_at": "2026-11-19T02:39:17.650Z",
  "meta": {
   "name": "Sylius",
   "owner": "Sylius",
@@ -79,7 +79,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.859Z",
-  "checked_at": "2026-11-18T20:37:15.782Z"
+  "checked_at": "2026-11-19T02:41:26.242Z"
  },
  "contributors": {
   "count": 955,
@@ -87,5 +87,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:36.190Z"
  },
- "details_checked_at": "2026-11-18T20:37:15.782Z"
+ "details_checked_at": "2026-11-19T02:41:26.242Z"
 }

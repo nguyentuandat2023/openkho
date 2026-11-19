@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:33:00.173Z",
+ "fetched_at": "2026-11-19T02:37:28.185Z",
  "meta": {
   "name": "scikit-learn",
   "owner": "scikit-learn",
@@ -29,14 +29,14 @@
    "spdx": "BSD-3-Clause",
    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
   },
-  "stars": 68245,
-  "forks": 27686,
+  "stars": 68238,
+  "forks": 27688,
   "watchers": 2123,
-  "open_issues": 2169,
+  "open_issues": 2170,
   "open_prs": null,
   "created_at": "2010-08-17T09:43:38Z",
   "pushed_at": "2026-11-18T18:04:57Z",
-  "updated_at": "2026-11-18T20:11:49Z",
+  "updated_at": "2026-11-19T02:36:04Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -63,7 +63,7 @@
   "headings": 0,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.459Z",
-  "checked_at": "2026-11-18T20:37:10.273Z"
+  "checked_at": "2026-11-19T02:41:21.711Z"
  },
  "contributors": {
   "count": 3585,
@@ -71,5 +71,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T02:20:53.961Z"
  },
- "details_checked_at": "2026-11-18T20:37:10.273Z"
+ "details_checked_at": "2026-11-19T02:41:21.711Z"
 }

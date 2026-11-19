@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:35:29.786Z",
+ "fetched_at": "2026-11-19T02:39:49.622Z",
  "meta": {
   "name": "YOURLS",
   "owner": "YOURLS",
@@ -33,7 +33,7 @@
    "name": "MIT License"
   },
   "stars": 12307,
-  "forks": 2077,
+  "forks": 2076,
   "watchers": 327,
   "open_issues": 57,
   "open_prs": null,
@@ -71,7 +71,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.137Z",
-  "checked_at": "2026-11-18T20:37:17.400Z"
+  "checked_at": "2026-11-19T02:41:27.629Z"
  },
  "contributors": {
   "count": 113,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.163Z"
  },
- "details_checked_at": "2026-11-18T20:37:17.400Z"
+ "details_checked_at": "2026-11-19T02:41:27.629Z"
 }

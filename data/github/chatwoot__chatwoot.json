@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:33:34.401Z",
+ "fetched_at": "2026-11-19T02:38:01.178Z",
  "meta": {
   "name": "chatwoot",
   "owner": "chatwoot",
@@ -43,14 +43,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 40117,
-  "forks": 9752,
+  "stars": 40134,
+  "forks": 9760,
   "watchers": 293,
-  "open_issues": 1625,
+  "open_issues": 1627,
   "open_prs": null,
   "created_at": "2019-08-14T06:50:51Z",
-  "pushed_at": "2026-11-18T19:29:44Z",
-  "updated_at": "2026-11-18T20:16:56Z",
+  "pushed_at": "2026-11-19T02:27:17Z",
+  "updated_at": "2026-11-19T02:01:49Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -87,7 +87,7 @@
   "headings": 19,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.778Z",
-  "checked_at": "2026-11-18T20:37:11.846Z"
+  "checked_at": "2026-11-19T02:41:22.985Z"
  },
  "contributors": {
   "count": 409,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.029Z"
  },
- "details_checked_at": "2026-11-18T20:37:11.846Z"
+ "details_checked_at": "2026-11-19T02:41:22.985Z"
 }

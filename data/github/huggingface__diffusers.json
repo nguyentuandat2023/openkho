@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:33:07.892Z",
+ "fetched_at": "2026-11-19T02:37:34.931Z",
  "meta": {
   "name": "diffusers",
   "owner": "huggingface",
@@ -39,14 +39,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 34941,
-  "forks": 7489,
+  "stars": 34942,
+  "forks": 7490,
   "watchers": 222,
-  "open_issues": 1613,
+  "open_issues": 1615,
   "open_prs": null,
   "created_at": "2022-05-30T16:04:02Z",
   "pushed_at": "2026-11-18T19:05:05Z",
-  "updated_at": "2026-11-18T20:17:23Z",
+  "updated_at": "2026-11-19T01:42:05Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -78,7 +78,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.934Z",
-  "checked_at": "2026-11-18T20:37:10.647Z"
+  "checked_at": "2026-11-19T02:41:22.045Z"
  },
  "contributors": {
   "count": 1196,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.095Z"
  },
- "details_checked_at": "2026-11-18T20:37:10.647Z"
+ "details_checked_at": "2026-11-19T02:41:22.045Z"
 }

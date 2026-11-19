@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:33:06.217Z",
+ "fetched_at": "2026-11-19T02:37:33.232Z",
  "meta": {
   "name": "InvokeAI",
   "owner": "invoke-ai",
@@ -37,14 +37,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 29117,
+  "stars": 29118,
   "forks": 3121,
   "watchers": 210,
-  "open_issues": 343,
+  "open_issues": 338,
   "open_prs": null,
   "created_at": "2022-08-17T01:04:27Z",
-  "pushed_at": "2026-11-18T17:43:18Z",
-  "updated_at": "2026-11-18T13:39:07Z",
+  "pushed_at": "2026-11-19T02:28:59Z",
+  "updated_at": "2026-11-19T02:21:59Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,7 +53,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 463237,
+  "size_kb": 463718,
   "og_image": "https://opengraph.githubassets.com/1/invoke-ai/InvokeAI",
   "custom_og_image": false
  },
@@ -81,7 +81,7 @@
   "headings": 17,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.687Z",
-  "checked_at": "2026-11-18T20:37:10.545Z"
+  "checked_at": "2026-11-19T02:41:21.932Z"
  },
  "contributors": {
   "count": 426,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T02:20:54.318Z"
  },
- "details_checked_at": "2026-11-18T20:37:10.545Z"
+ "details_checked_at": "2026-11-19T02:41:21.932Z"
 }

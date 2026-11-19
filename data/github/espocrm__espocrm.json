@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-18T20:33:41.730Z",
+ "fetched_at": "2026-11-19T02:38:08.268Z",
  "meta": {
   "name": "espocrm",
   "owner": "espocrm",
@@ -42,14 +42,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 3639,
+  "stars": 3644,
   "forks": 1054,
   "watchers": 110,
   "open_issues": 67,
   "open_prs": null,
   "created_at": "2014-09-25T13:38:46Z",
   "pushed_at": "2026-11-18T17:36:55Z",
-  "updated_at": "2026-11-18T16:19:37Z",
+  "updated_at": "2026-11-19T01:37:13Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -81,7 +81,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.115Z",
-  "checked_at": "2026-11-18T20:37:12.388Z"
+  "checked_at": "2026-11-19T02:41:23.292Z"
  },
  "contributors": {
   "count": 71,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.626Z"
  },
- "details_checked_at": "2026-11-18T20:37:12.388Z"
+ "details_checked_at": "2026-11-19T02:41:23.292Z"
 }
