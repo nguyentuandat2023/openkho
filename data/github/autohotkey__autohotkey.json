@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T02:40:34.706Z",
+ "fetched_at": "2026-11-19T11:44:06.589Z",
  "meta": {
   "name": "AutoHotkey",
   "owner": "AutoHotkey",
@@ -31,14 +31,14 @@
    "spdx": "GPL-2.0",
    "name": "GNU General Public License v2.0"
   },
-  "stars": 13496,
+  "stars": 13497,
   "forks": 1205,
   "watchers": 282,
   "open_issues": 13,
   "open_prs": null,
   "created_at": "2009-11-25T11:08:21Z",
-  "pushed_at": "2026-11-13T23:42:38Z",
-  "updated_at": "2026-11-19T01:47:22Z",
+  "pushed_at": "2026-11-19T10:07:26Z",
+  "updated_at": "2026-11-19T08:25:00Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 27102,
+  "size_kb": 27144,
   "og_image": "https://opengraph.githubassets.com/1/AutoHotkey/AutoHotkey",
   "custom_og_image": false
  },
@@ -65,7 +65,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.015Z",
-  "checked_at": "2026-11-19T02:41:29.519Z"
+  "checked_at": "2026-11-19T11:45:12.274Z"
  },
  "contributors": {
   "count": 30,
@@ -73,5 +73,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.325Z"
  },
- "details_checked_at": "2026-11-19T02:41:29.519Z"
+ "details_checked_at": "2026-11-19T11:45:12.274Z"
 }

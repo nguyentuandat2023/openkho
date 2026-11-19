@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T02:41:18.838Z",
+ "fetched_at": "2026-11-19T11:44:58.923Z",
  "meta": {
   "name": "bootstrap",
   "owner": "twbs",
@@ -32,13 +32,13 @@
    "name": "MIT License"
   },
   "stars": 175088,
-  "forks": 79615,
-  "watchers": 6606,
-  "open_issues": 324,
+  "forks": 79614,
+  "watchers": 6604,
+  "open_issues": 326,
   "open_prs": null,
   "created_at": "2011-07-29T21:19:00Z",
   "pushed_at": "2026-11-18T22:48:30Z",
-  "updated_at": "2026-11-19T02:08:44Z",
+  "updated_at": "2026-11-19T11:17:07Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -70,7 +70,7 @@
   "headings": 20,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.810Z",
-  "checked_at": "2026-11-19T02:41:31.361Z"
+  "checked_at": "2026-11-19T11:45:14.535Z"
  },
  "contributors": {
   "count": 1675,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.896Z"
  },
- "details_checked_at": "2026-11-19T02:41:31.361Z"
+ "details_checked_at": "2026-11-19T11:45:14.535Z"
 }

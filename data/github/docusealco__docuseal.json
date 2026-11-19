@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T02:38:04.786Z",
+ "fetched_at": "2026-11-19T11:41:17.146Z",
  "meta": {
   "name": "docuseal",
   "owner": "docusealco",
@@ -37,14 +37,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 19095,
+  "stars": 19097,
   "forks": 1962,
   "watchers": 63,
   "open_issues": 132,
   "open_prs": null,
   "created_at": "2023-07-03T19:54:54Z",
-  "pushed_at": "2026-11-16T10:31:58Z",
-  "updated_at": "2026-11-19T01:32:16Z",
+  "pushed_at": "2026-11-19T10:05:21Z",
+  "updated_at": "2026-11-19T10:55:39Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,7 +53,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 8195,
+  "size_kb": 8147,
   "og_image": "https://opengraph.githubassets.com/1/docusealco/docuseal",
   "custom_og_image": false
  },
@@ -81,7 +81,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.989Z",
-  "checked_at": "2026-11-19T02:41:23.206Z"
+  "checked_at": "2026-11-19T11:45:04.511Z"
  },
  "contributors": {
   "count": 6,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.182Z"
  },
- "details_checked_at": "2026-11-19T02:41:23.206Z"
+ "details_checked_at": "2026-11-19T11:45:04.511Z"
 }

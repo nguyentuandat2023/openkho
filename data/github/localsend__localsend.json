@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T02:40:25.182Z",
+ "fetched_at": "2026-11-19T11:43:56.639Z",
  "meta": {
   "name": "localsend",
   "owner": "localsend",
@@ -28,14 +28,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 99650,
-  "forks": 5720,
+  "stars": 99715,
+  "forks": 5725,
   "watchers": 348,
   "open_issues": 1046,
   "open_prs": null,
   "created_at": "2022-12-16T00:46:07Z",
-  "pushed_at": "2026-11-19T02:28:22Z",
-  "updated_at": "2026-11-19T02:31:51Z",
+  "pushed_at": "2026-11-19T03:00:57Z",
+  "updated_at": "2026-11-19T11:38:05Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -44,7 +44,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 24043,
+  "size_kb": 24056,
   "og_image": "https://opengraph.githubassets.com/1/localsend/localsend",
   "custom_og_image": false
  },
@@ -67,7 +67,7 @@
   "headings": 21,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.656Z",
-  "checked_at": "2026-11-19T02:41:29.104Z"
+  "checked_at": "2026-11-19T11:45:11.774Z"
  },
  "contributors": {
   "count": 253,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:40.119Z"
  },
- "details_checked_at": "2026-11-19T02:41:29.104Z"
+ "details_checked_at": "2026-11-19T11:45:11.774Z"
 }

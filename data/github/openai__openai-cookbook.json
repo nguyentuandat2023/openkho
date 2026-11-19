@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T02:39:28.473Z",
+ "fetched_at": "2026-11-19T11:42:52.399Z",
  "meta": {
   "name": "openai-cookbook",
   "owner": "openai",
@@ -28,14 +28,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 77242,
-  "forks": 13074,
-  "watchers": 1017,
+  "stars": 77246,
+  "forks": 13076,
+  "watchers": 1018,
   "open_issues": 375,
   "open_prs": null,
   "created_at": "2022-03-11T02:08:53Z",
   "pushed_at": "2026-11-17T05:45:21Z",
-  "updated_at": "2026-11-19T02:21:07Z",
+  "updated_at": "2026-11-19T09:45:48Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -62,7 +62,7 @@
   "headings": 1,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.239Z",
-  "checked_at": "2026-11-19T02:41:26.655Z"
+  "checked_at": "2026-11-19T11:45:08.667Z"
  },
  "contributors": {
   "count": 394,
@@ -70,5 +70,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:36.941Z"
  },
- "details_checked_at": "2026-11-19T02:41:26.655Z"
+ "details_checked_at": "2026-11-19T11:45:08.667Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T02:37:58.239Z",
+ "fetched_at": "2026-11-19T11:41:10.037Z",
  "meta": {
   "name": "typebot.io",
   "owner": "baptisteArno",
@@ -74,7 +74,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.682Z",
-  "checked_at": "2026-11-19T02:41:22.959Z"
+  "checked_at": "2026-11-19T11:45:04.285Z"
  },
  "contributors": {
   "count": 93,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.933Z"
  },
- "details_checked_at": "2026-11-19T02:41:22.959Z"
+ "details_checked_at": "2026-11-19T11:45:04.285Z"
 }

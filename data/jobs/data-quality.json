@@ -1,5 +1,5 @@
 {
- "computed_at": "2026-11-19T02:43:20.537Z",
+ "computed_at": "2026-11-19T11:46:22.936Z",
  "curated_missing_github_id": [],
  "missing_contributors": 2397,
  "stale_over_48h": [
@@ -7,7 +7,7 @@
   "trackboatwrightplan/GitHub-Copilot-app",
   "trackboatwrightplan/ai--manus2.0"
  ],
- "low_quality_coverage": 2062,
+ "low_quality_coverage": 1942,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -67,6 +67,11 @@
   },
   {
    "id": "Elegantic/designcenter-nx-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Vesuvio1/GTA-VI",
    "origin": "radar",
    "status": "not_found"
   },
@@ -233,12 +238,20 @@
    "to": "reylosql/reylo"
   },
   {
+   "from": "tss878/delta-executor-toolkit",
+   "to": "tss878/grand-six"
+  },
+  {
    "from": "Vesuvio1/display-fusion",
    "to": "Vesuvio1/GTA-VI"
   },
   {
    "from": "huami-dev/GestaltX",
    "to": "huami1314/GestaltX"
+  },
+  {
+   "from": "faizfahmi77/ScanDot",
+   "to": "faizwashere/ScanDot"
   }
  ],
  "anomalies": [
@@ -281,7 +294,7 @@
   {
    "id": "Folkbench/folkbench",
    "reasons": [
-    "repo mới với 3.977 sao nhưng gần như không có fork (19) và chưa có issue nào"
+    "repo mới với 3.982 sao nhưng gần như không có fork (19) và chưa có issue nào"
    ]
   },
   {
@@ -353,7 +366,7 @@
   {
    "id": "Cattmonkey/ChaosIntelligence",
    "reasons": [
-    "repo mới với 497 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 499 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -389,7 +402,7 @@
   {
    "id": "AhmadHassan-BTed/RainGen-RainGenerator",
    "reasons": [
-    "repo mới với 1.608 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.609 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -461,7 +474,7 @@
   {
    "id": "AbhiKamane/ai-app-builder-open",
    "reasons": [
-    "+384 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 384 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -483,21 +496,15 @@
    ]
   },
   {
-   "id": "tss878/delta-executor-toolkit",
+   "id": "tss878/grand-six",
    "reasons": [
-    "repo mới với 1.199 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+1.200 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "ebtsamalhakmy-sketch/desktop-backup-suite",
    "reasons": [
-    "repo mới với 1.199 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "Vesuvio1/GTA-VI",
-   "reasons": [
-    "repo mới với 1.179 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "+1.199 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -533,7 +540,7 @@
   {
    "id": "leanislizarzado/ibm-spss-desktop-suite",
    "reasons": [
-    "repo mới với 1.106 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.107 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -557,7 +564,7 @@
   {
    "id": "janitoff0/ninjatrader-bot",
    "reasons": [
-    "repo mới với 1.105 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.106 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -653,13 +660,13 @@
   {
    "id": "Gosu-x/multimodal-threat-dataset",
    "reasons": [
-    "+388 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+420 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "ariamitchell54/cubase-studio-desktop",
    "reasons": [
-    "repo mới với 307 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+307 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -731,145 +738,145 @@
   {
    "id": "brisk-thrush-husky/malware-defender-desktop",
    "reasons": [
-    "repo mới với 308 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+308 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "TorrentArrow/IPTV_Player_2.0",
    "reasons": [
-    "repo mới với 376 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+375 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "TurtleReside/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "VisionWormStudio/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Violetnyudress/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "TypeTyrantScheme/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "TrooperFilter/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Visionbeyondtrack/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "VortexHostFeel/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Watchlespeed/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WerewolfEmuHub/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "weldbladesmithwharf/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "weightcashiercupola/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 474 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WestLocksmithSpout/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WharfBoulderColander/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WindGatorRise37/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WinnerSpecialist/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WingDataVacuum/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WindowStaffGate11/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WireProvostPucker/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WyrmClimberManacle/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "wisemeadowlarkspike/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "YellowLaborerMarket/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 475 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 474 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "scottsturrock/mate-wayland-desktop",
    "reasons": [
-    "+440 sao nhưng chỉ +1 fork trong cùng kỳ"
+    "repo mới với 440 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   }
  ],
@@ -881,7 +888,7 @@
  "suppressed_clusters": [
   {
    "cluster": "campaign-2026-11-06-1099",
-   "reason": "Một trong 53 repo khác tên do 53 tài khoản tạo gần như cùng lúc, cùng khoảng 1.099–1.209 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "reason": "Một trong 52 repo khác tên do 52 tài khoản tạo gần như cùng lúc, cùng khoảng 1.099–1.209 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
    "repos": [
     "bipro45/actual-multi-display-configurator",
     "hembramneeraj3-create/aida-64-extreme",
@@ -895,7 +902,6 @@
     "sajawal-12/cubase-studio-desktop",
     "IsaiaR09/daemon-pro-desktop",
     "kcgeekedup-hash/delta-force-trainer-tool",
-    "tss878/delta-executor-toolkit",
     "Elegantic/designcenter-nx-desktop",
     "ebtsamalhakmy-sketch/desktop-backup-suite",
     "Vesuvio1/GTA-VI",

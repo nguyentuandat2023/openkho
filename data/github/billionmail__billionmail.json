@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T02:39:42.421Z",
+ "fetched_at": "2026-11-19T11:43:08.856Z",
  "meta": {
   "name": "BillionMail",
   "owner": "Billionmail",
@@ -35,14 +35,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 16421,
-  "forks": 1833,
+  "stars": 16422,
+  "forks": 1834,
   "watchers": 68,
   "open_issues": 251,
   "open_prs": null,
   "created_at": "2025-02-14T06:25:45Z",
   "pushed_at": "2026-06-11T06:44:04Z",
-  "updated_at": "2026-11-19T02:05:31Z",
+  "updated_at": "2026-11-19T09:04:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -80,7 +80,7 @@
   "headings": 17,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.926Z",
-  "checked_at": "2026-11-19T02:41:27.225Z"
+  "checked_at": "2026-11-19T11:45:09.367Z"
  },
  "contributors": {
   "count": 18,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:37.788Z"
  },
- "details_checked_at": "2026-11-19T02:41:27.225Z"
+ "details_checked_at": "2026-11-19T11:45:09.367Z"
 }

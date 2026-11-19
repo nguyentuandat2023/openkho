@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T02:40:52.290Z",
+ "fetched_at": "2026-11-19T11:44:28.573Z",
  "meta": {
   "name": "obs-studio",
   "owner": "obsproject",
@@ -35,14 +35,14 @@
    "spdx": "GPL-2.0",
    "name": "GNU General Public License v2.0"
   },
-  "stars": 79696,
-  "forks": 11282,
-  "watchers": 1586,
-  "open_issues": 1206,
+  "stars": 79751,
+  "forks": 11298,
+  "watchers": 1587,
+  "open_issues": 1209,
   "open_prs": null,
   "created_at": "2013-10-01T02:40:31Z",
-  "pushed_at": "2026-11-19T00:44:44Z",
-  "updated_at": "2026-11-19T02:27:42Z",
+  "pushed_at": "2026-11-19T08:59:00Z",
+  "updated_at": "2026-11-19T11:38:11Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,7 +51,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 85614,
+  "size_kb": 85620,
   "og_image": "https://opengraph.githubassets.com/1/obsproject/obs-studio",
   "custom_og_image": false
  },
@@ -69,7 +69,7 @@
   "headings": 0,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.748Z",
-  "checked_at": "2026-11-19T02:41:30.300Z"
+  "checked_at": "2026-11-19T11:45:13.067Z"
  },
  "contributors": {
   "count": 757,
@@ -77,5 +77,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.238Z"
  },
- "details_checked_at": "2026-11-19T02:41:30.300Z"
+ "details_checked_at": "2026-11-19T11:45:13.067Z"
 }

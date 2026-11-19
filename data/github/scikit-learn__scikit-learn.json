@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T02:37:28.185Z",
+ "fetched_at": "2026-11-19T11:40:37.041Z",
  "meta": {
   "name": "scikit-learn",
   "owner": "scikit-learn",
@@ -29,14 +29,14 @@
    "spdx": "BSD-3-Clause",
    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
   },
-  "stars": 68238,
-  "forks": 27688,
+  "stars": 68240,
+  "forks": 27689,
   "watchers": 2123,
-  "open_issues": 2170,
+  "open_issues": 2168,
   "open_prs": null,
   "created_at": "2010-08-17T09:43:38Z",
-  "pushed_at": "2026-11-18T18:04:57Z",
-  "updated_at": "2026-11-19T02:36:04Z",
+  "pushed_at": "2026-11-19T11:40:09Z",
+  "updated_at": "2026-11-19T10:59:43Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -45,7 +45,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 188118,
+  "size_kb": 188420,
   "og_image": "https://opengraph.githubassets.com/1/scikit-learn/scikit-learn",
   "custom_og_image": false
  },
@@ -63,7 +63,7 @@
   "headings": 0,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.459Z",
-  "checked_at": "2026-11-19T02:41:21.711Z"
+  "checked_at": "2026-11-19T11:45:02.556Z"
  },
  "contributors": {
   "count": 3585,
@@ -71,5 +71,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T02:20:53.961Z"
  },
- "details_checked_at": "2026-11-19T02:41:21.711Z"
+ "details_checked_at": "2026-11-19T11:45:02.556Z"
 }

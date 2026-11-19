@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T02:41:00.120Z",
+ "fetched_at": "2026-11-19T11:44:37.823Z",
  "meta": {
   "name": "pyvideotrans",
   "owner": "jianchang512",
@@ -36,8 +36,8 @@
   "open_issues": 10,
   "open_prs": null,
   "created_at": "2023-10-02T16:13:19Z",
-  "pushed_at": "2026-11-17T09:36:22Z",
-  "updated_at": "2026-11-19T02:27:56Z",
+  "pushed_at": "2026-11-19T06:43:30Z",
+  "updated_at": "2026-11-19T11:39:48Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,13 +46,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 500266,
+  "size_kb": 500299,
   "og_image": "https://opengraph.githubassets.com/1/jianchang512/pyvideotrans",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 12005,
+  "length": 11626,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [],
@@ -73,8 +73,8 @@
   },
   "headings": 13,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:30.137Z",
-  "checked_at": "2026-11-19T02:41:30.568Z"
+  "fetched_at": "2026-11-19T11:45:13.506Z",
+  "checked_at": "2026-11-19T11:45:13.506Z"
  },
  "contributors": {
   "count": 62,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.654Z"
  },
- "details_checked_at": "2026-11-19T02:41:30.568Z"
+ "details_checked_at": "2026-11-19T11:45:13.506Z"
 }

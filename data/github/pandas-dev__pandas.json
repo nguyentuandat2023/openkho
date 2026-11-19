@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T02:38:17.952Z",
+ "fetched_at": "2026-11-19T11:41:32.009Z",
  "meta": {
   "name": "pandas",
   "owner": "pandas-dev",
@@ -31,13 +31,13 @@
    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
   },
   "stars": 50569,
-  "forks": 20753,
+  "forks": 20754,
   "watchers": 1134,
-  "open_issues": 1820,
+  "open_issues": 1827,
   "open_prs": null,
   "created_at": "2010-08-24T01:37:33Z",
   "pushed_at": "2026-11-18T19:00:25Z",
-  "updated_at": "2026-11-19T00:52:24Z",
+  "updated_at": "2026-11-19T09:46:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -74,7 +74,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.485Z",
-  "checked_at": "2026-11-19T02:41:23.755Z"
+  "checked_at": "2026-11-19T11:45:05.177Z"
  },
  "contributors": {
   "count": 4400,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.923Z"
  },
- "details_checked_at": "2026-11-19T02:41:23.755Z"
+ "details_checked_at": "2026-11-19T11:45:05.177Z"
 }

@@ -6,7 +6,7 @@
  "status": "archived",
  "renamed_from": null,
  "source": "graphql",
- "fetched_at": "2026-11-19T02:34:57.165Z",
+ "fetched_at": "2026-11-19T11:37:16.862Z",
  "meta": {
   "name": "Flowise",
   "owner": "FlowiseAI",
@@ -72,14 +72,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 55575,
-  "forks": 25093,
+  "stars": 55573,
+  "forks": 25095,
   "watchers": 387,
-  "open_issues": 699,
+  "open_issues": 698,
   "open_prs": 333,
   "created_at": "2023-03-31T12:23:09Z",
   "pushed_at": "2026-08-13T12:38:19Z",
-  "updated_at": "2026-11-19T02:27:46Z",
+  "updated_at": "2026-11-19T06:53:45Z",
   "archived": true,
   "disabled": false,
   "is_fork": false,
@@ -115,9 +115,9 @@
   "total": 307
  },
  "stars_recent": {
-  "per_day": 7,
+  "per_day": 6.8,
   "sample": 100,
-  "window_days": 14.3,
+  "window_days": 14.6,
   "complete": false,
   "method": "stargazers"
  },
@@ -141,7 +141,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:29.897Z",
-  "checked_at": "2026-11-19T02:41:20.676Z"
+  "checked_at": "2026-11-19T11:45:01.125Z"
  },
  "contributors": {
   "count": 332,
@@ -149,5 +149,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:32.903Z"
  },
- "details_checked_at": "2026-11-19T02:41:20.676Z"
+ "details_checked_at": "2026-11-19T11:45:01.125Z"
 }

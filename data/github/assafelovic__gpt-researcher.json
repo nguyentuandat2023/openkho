@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T02:37:07.348Z",
+ "fetched_at": "2026-11-19T11:40:16.014Z",
  "meta": {
   "name": "gpt-researcher",
   "owner": "assafelovic",
@@ -35,14 +35,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 30774,
+  "stars": 30783,
   "forks": 4240,
   "watchers": 168,
-  "open_issues": 62,
+  "open_issues": 66,
   "open_prs": null,
   "created_at": "2023-05-12T10:33:54Z",
   "pushed_at": "2026-11-12T19:34:46Z",
-  "updated_at": "2026-11-18T20:18:21Z",
+  "updated_at": "2026-11-19T11:19:11Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -84,7 +84,7 @@
   "headings": 25,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:30.185Z",
-  "checked_at": "2026-11-19T02:41:20.870Z"
+  "checked_at": "2026-11-19T11:45:01.478Z"
  },
  "contributors": {
   "count": 319,
@@ -92,5 +92,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:35.603Z"
  },
- "details_checked_at": "2026-11-19T02:41:20.870Z"
+ "details_checked_at": "2026-11-19T11:45:01.478Z"
 }
