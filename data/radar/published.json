@@ -25,6 +25,10 @@
    "full_name": "vuejs/vue",
    "since": "2026-11-18T20:39:19.124Z"
   },
+  "13807606": {
+   "full_name": "junegunn/fzf",
+   "since": "2026-11-19T20:43:38.080Z"
+  },
   "19415064": {
    "full_name": "ossu/computer-science",
    "since": "2026-11-18T20:39:19.124Z"
@@ -37,6 +41,10 @@
    "full_name": "avelino/awesome-go",
    "since": "2026-11-18T20:39:19.124Z"
   },
+  "23088740": {
+   "full_name": "axios/axios",
+   "since": "2026-11-19T20:43:38.080Z"
+  },
   "28457823": {
    "full_name": "freeCodeCamp/freeCodeCamp",
    "since": "2026-11-18T20:39:19.124Z"
@@ -44,6 +52,14 @@
   "29028775": {
    "full_name": "react/react-native",
    "since": "2026-11-19T02:34:35.723Z"
+  },
+  "34526884": {
+   "full_name": "ant-design/ant-design",
+   "since": "2026-11-19T20:43:38.080Z"
+  },
+  "54173593": {
+   "full_name": "storybookjs/storybook",
+   "since": "2026-11-19T20:43:38.080Z"
   },
   "60493101": {
    "full_name": "jwasham/coding-interview-university",
@@ -92,6 +108,10 @@
   "199570071": {
    "full_name": "2dust/v2rayN",
    "since": "2026-11-19T02:34:35.723Z"
+  },
+  "221981891": {
+   "full_name": "microsoft/playwright",
+   "since": "2026-11-19T20:43:38.080Z"
   },
   "233472199": {
    "full_name": "massgravel/Microsoft-Activation-Scripts",
@@ -496,7 +516,8 @@
   },
   "1361497109": {
    "full_name": "fossaryhq/catalog",
-   "since": "2026-11-18T20:29:46.512Z"
+   "since": "2026-11-18T20:29:46.512Z",
+   "failing_since": "2026-11-19T20:43:38.080Z"
   },
   "1361605273": {
    "full_name": "realmyang/MLView",
@@ -944,7 +965,8 @@
   },
   "1401556740": {
    "full_name": "NPMscan/npmscan-action",
-   "since": "2026-11-18T11:48:17.030Z"
+   "since": "2026-11-18T11:48:17.030Z",
+   "failing_since": "2026-11-19T20:43:38.080Z"
   },
   "1401744296": {
    "full_name": "vAPI-Network/vapi-network",
@@ -1103,7 +1125,7 @@
    "since": "2026-11-16T06:58:46.301Z"
   },
   "1410916694": {
-   "full_name": "pgrundev/pgx",
+   "full_name": "pgrundev/pgboxdb",
    "since": "2026-11-18T11:38:35.808Z"
   },
   "1410929004": {
@@ -1622,6 +1644,10 @@
    "full_name": "toyxyz/toyxyz_RGBMocap",
    "since": "2026-11-17T21:03:58.419Z"
   },
+  "1435353917": {
+   "full_name": "robertnisipeanu/mgu-store",
+   "since": "2026-11-19T20:43:38.080Z"
+  },
   "1435375337": {
    "full_name": "AhmadHassan-BTed/RainGen-RainGenerator",
    "since": "2026-11-17T21:03:58.419Z"
@@ -1958,29 +1984,10 @@
    "full_name": "DIYgod/pinky",
    "since": "2026-11-17T11:58:40.135Z"
   },
-  "1448721787": {
-   "full_name": "AbhiKamane/ai-app-builder-open",
-   "since": "2026-11-18T20:29:46.512Z"
-  },
-  "1448734795": {
-   "full_name": "ayanprob/coreldraw-desktop-installer",
-   "since": "2026-11-18T03:03:31.093Z"
-  },
-  "1448742423": {
-   "full_name": "abhijot11/fabfilter-total",
-   "since": "2026-11-18T11:38:35.808Z"
-  },
-  "1448751207": {
-   "full_name": "RolandoV3/metatrader-5-bot",
-   "since": "2026-11-18T03:03:31.093Z"
-  },
-  "1448752369": {
-   "full_name": "ilsa99/microsoft-365-desktop",
-   "since": "2026-11-18T03:03:31.093Z"
-  },
   "1448763320": {
    "full_name": "manjushree-iyer/soundpad-audio-suite",
-   "since": "2026-11-18T20:29:46.512Z"
+   "since": "2026-11-18T20:29:46.512Z",
+   "failing_since": "2026-11-19T20:43:38.080Z"
   },
   "1448807268": {
    "full_name": "sostenesfreitas/ocarina-recomp",
@@ -2294,10 +2301,6 @@
    "full_name": "mit-han-lab/pear",
    "since": "2026-11-18T11:38:35.808Z"
   },
-  "1457194288": {
-   "full_name": "azuremaple1997/coreldraw-desktop",
-   "since": "2026-11-18T20:29:46.512Z"
-  },
   "1457270665": {
    "full_name": "duwqijlk/muse-protocol",
    "since": "2026-11-17T21:03:58.419Z"
@@ -2348,7 +2351,8 @@
   },
   "1459485844": {
    "full_name": "scottsturrock/mate-wayland-desktop",
-   "since": "2026-11-18T20:29:46.512Z"
+   "since": "2026-11-18T20:29:46.512Z",
+   "failing_since": "2026-11-19T20:43:38.080Z"
   },
   "1459700211": {
    "full_name": "siliconjungle/shapeshift-labs-ink-studio",
@@ -2403,5 +2407,5 @@
    "since": "2026-11-17T20:54:14.953Z"
   }
  },
- "updated_at": "2026-11-19T11:46:25.062Z"
+ "updated_at": "2026-11-19T20:43:39.723Z"
 }

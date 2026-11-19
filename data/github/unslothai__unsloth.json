@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:40:30.012Z",
+ "fetched_at": "2026-11-19T20:37:11.697Z",
  "meta": {
   "name": "unsloth",
   "owner": "unslothai",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 79770,
-  "forks": 7446,
+  "stars": 79786,
+  "forks": 7448,
   "watchers": 381,
-  "open_issues": 467,
+  "open_issues": 482,
   "open_prs": null,
   "created_at": "2023-11-29T16:50:09Z",
-  "pushed_at": "2026-11-19T11:26:17Z",
-  "updated_at": "2026-11-19T11:36:51Z",
+  "pushed_at": "2026-11-19T20:35:15Z",
+  "updated_at": "2026-11-19T20:25:25Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,22 +60,22 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 731335,
+  "size_kb": 727795,
   "og_image": "https://opengraph.githubassets.com/1/unslothai/unsloth",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 25979,
+  "length": 26070,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [],
   "sections": {
    "install": {
     "title": "Get started",
-    "html": "<p>Download the native Unsloth Desktop app for your operating system:</p>\n<table>\n  <tr>\n    <td><b>Platform</b></td>\n    <td><b>Link</b></td>\n  </tr>\n  <tr>\n    <td><b>Windows</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-Windows.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n  <tr>\n    <td><b>macOS</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-MacOS.dmg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n  <tr>\n    <td><b>Linux / Ubuntu (deb)</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-Ubuntu.deb\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n  <tr>\n    <td><b>Linux / Ubuntu (ARM64) (deb)</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-Ubuntu-ARM64.deb\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n  <tr>\n    <td><b>Linux (AppImage)</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-Linux.AppImage\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n  <tr>\n    <td><b>Windows (ARM64)</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-Windows-ARM64.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n</table><p>Download from <a href=\"https://unsloth.ai/download\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Unsloth</a> or <a href=\"https://github.com/unslothai/unsloth/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GitHub Releases</a>.</p>\n<p>Or if you prefer to install manually:</p>\n<h6>macOS, Linux, WSL:</h6>\n<pre><code class=\"language-bash\">curl -fsSL https://unsloth.ai/install.sh | sh\n</code></pre>\n<h6>Windows:</h6>\n<pre><code class=\"language-powershell\">irm https://unsloth.ai/install.ps1 | iex\n</code></pre>\n<h6>Docker:</h6>\n<p>The <a href=\"https://hub.docker.com/r/unsloth/unsloth\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Unsloth Docker image</a> <code>unsloth/unsloth</code> is available on Docker. <a href=\"https://unsloth.ai/docs/get-started/install/docker\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Read guide.</a></p>\n<h6>Homebrew:</h6>\n<pre><code class=\"language-bash\">brew install --cask unsloth\n</code></pre>\n<h6>Winget (Windows):</h6>\n<pre><code class=\"language-powershell\">winget install --id UnslothAI.Unsloth -e\n</code></pre>\n<h6>Community:</h6>\n<ul>\n<li><a href=\"https://discord.gg/unsloth\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Discord</a></li>\n<li><a href=\"https://x.com/UnslothAI\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">𝕏 (Twitter)</a></li>\n<li><a href=\"https://reddit.com/r/unsloth\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Reddit</a></li>\n</ul>",
+    "html": "<p>Download the native Unsloth Desktop app for your operating system:</p>\n<table>\n  <tr>\n    <td><b>Platform</b></td>\n    <td><b>Link</b></td>\n  </tr>\n  <tr>\n    <td><b>Windows</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-Windows.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n  <tr>\n    <td><b>macOS</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-MacOS.dmg\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n  <tr>\n    <td><b>Linux / Ubuntu (deb)</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-Ubuntu.deb\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n  <tr>\n    <td><b>Linux / Ubuntu (ARM64) (deb)</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-Ubuntu-ARM64.deb\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n  <tr>\n    <td><b>Linux (AppImage)</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-Linux.AppImage\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n  <tr>\n    <td><b>Windows (ARM64)</b></td>\n    <td><a href=\"https://github.com/unslothai/unsloth/releases/latest/download/Unsloth-Desktop-Windows-ARM64.exe\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></td>\n  </tr>\n</table><p>Download from <a href=\"https://unsloth.ai/download\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Unsloth</a> or <a href=\"https://github.com/unslothai/unsloth/releases\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GitHub Releases</a>.</p>\n<p>Or if you prefer to install manually:</p>\n<h6>macOS, Linux, WSL:</h6>\n<pre><code class=\"language-bash\">curl -fsSL https://unsloth.ai/install.sh | sh\n</code></pre>\n<h6>Windows:</h6>\n<pre><code class=\"language-powershell\">irm https://unsloth.ai/install.ps1 | iex\n</code></pre>\n<h6>Docker:</h6>\n<p>The <a href=\"https://hub.docker.com/r/unsloth/unsloth\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Unsloth Docker image</a> <code>unsloth/unsloth</code> is available on Docker. <a href=\"https://unsloth.ai/docs/get-started/install/docker\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Read guide.</a></p>\n<h6>Homebrew:</h6>\n<pre><code class=\"language-bash\">brew install --cask unsloth\n</code></pre>\n<h6>Winget (Windows):</h6>\n<pre><code class=\"language-powershell\">winget install --id UnslothAI.Unsloth -e\n</code></pre>\n<p>On a managed work PC where endpoint protection blocks <code>irm ... | iex</code>, use winget instead.</p>\n<h6>Community:</h6>\n<ul>\n<li><a href=\"https://discord.gg/unsloth\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Discord</a></li>\n<li><a href=\"https://x.com/UnslothAI\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">𝕏 (Twitter)</a></li>\n<li><a href=\"https://reddit.com/r/unsloth\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Reddit</a></li>\n</ul>",
     "truncated": false,
-    "chars": 2018
+    "chars": 2109
    },
    "usage": null,
    "features": {
@@ -87,8 +87,8 @@
   },
   "headings": 40,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:21.251Z",
-  "checked_at": "2026-11-19T11:45:02.290Z"
+  "fetched_at": "2026-11-19T20:41:40.415Z",
+  "checked_at": "2026-11-19T20:41:40.415Z"
  },
  "contributors": {
   "count": 455,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T07:03:48.345Z"
  },
- "details_checked_at": "2026-11-19T11:45:02.290Z"
+ "details_checked_at": "2026-11-19T20:41:40.415Z"
 }

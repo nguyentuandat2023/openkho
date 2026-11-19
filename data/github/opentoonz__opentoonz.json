@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:42:10.390Z",
+ "fetched_at": "2026-11-19T20:38:52.388Z",
  "meta": {
   "name": "opentoonz",
   "owner": "opentoonz",
@@ -23,14 +23,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 8301,
-  "forks": 959,
+  "stars": 8309,
+  "forks": 962,
   "watchers": 186,
-  "open_issues": 235,
+  "open_issues": 233,
   "open_prs": null,
   "created_at": "2016-03-18T17:55:48Z",
-  "pushed_at": "2026-11-16T07:10:21Z",
-  "updated_at": "2026-11-19T11:41:37Z",
+  "pushed_at": "2026-11-19T11:55:45Z",
+  "updated_at": "2026-11-19T19:56:30Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -39,7 +39,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 128937,
+  "size_kb": 128902,
   "og_image": "https://opengraph.githubassets.com/1/opentoonz/opentoonz",
   "custom_og_image": false
  },
@@ -62,7 +62,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.828Z",
-  "checked_at": "2026-11-19T11:45:06.877Z"
+  "checked_at": "2026-11-19T20:41:45.153Z"
  },
  "contributors": {
   "count": 139,
@@ -70,5 +70,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.802Z"
  },
- "details_checked_at": "2026-11-19T11:45:06.877Z"
+ "details_checked_at": "2026-11-19T20:41:45.153Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:44:08.846Z",
+ "fetched_at": "2026-11-19T20:40:48.148Z",
  "meta": {
   "name": "actual",
   "owner": "actualbudget",
@@ -28,14 +28,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 30353,
-  "forks": 3347,
+  "stars": 30357,
+  "forks": 3349,
   "watchers": 82,
-  "open_issues": 212,
+  "open_issues": 213,
   "open_prs": null,
   "created_at": "2022-04-29T02:41:34Z",
-  "pushed_at": "2026-11-19T07:21:38Z",
-  "updated_at": "2026-11-19T11:29:50Z",
+  "pushed_at": "2026-11-19T20:15:32Z",
+  "updated_at": "2026-11-19T19:01:15Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.196Z",
-  "checked_at": "2026-11-19T11:45:12.248Z"
+  "checked_at": "2026-11-19T20:41:50.472Z"
  },
  "contributors": {
   "count": 798,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.516Z"
  },
- "details_checked_at": "2026-11-19T11:45:12.248Z"
+ "details_checked_at": "2026-11-19T20:41:50.472Z"
 }

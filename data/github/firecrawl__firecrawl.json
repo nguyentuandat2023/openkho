@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:40:12.478Z",
+ "fetched_at": "2026-11-19T20:36:53.318Z",
  "meta": {
   "name": "firecrawl",
   "owner": "firecrawl",
@@ -43,14 +43,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 203525,
-  "forks": 10661,
+  "stars": 204029,
+  "forks": 10694,
   "watchers": 504,
-  "open_issues": 828,
+  "open_issues": 838,
   "open_prs": null,
   "created_at": "2024-04-15T21:02:29Z",
-  "pushed_at": "2026-11-19T10:13:50Z",
-  "updated_at": "2026-11-19T11:40:03Z",
+  "pushed_at": "2026-11-19T20:12:07Z",
+  "updated_at": "2026-11-19T20:34:04Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,30 +59,30 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 192529,
+  "size_kb": 192862,
   "og_image": "https://opengraph.githubassets.com/1/firecrawl/firecrawl",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 26136,
+  "length": 20870,
   "cjk_ratio": 0,
-  "docker_mentioned": false,
+  "docker_mentioned": true,
   "videos": [],
   "sections": {
    "install": {
-    "title": "Quick Start",
-    "html": "<p>Sign up at <a href=\"https://firecrawl.dev\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">firecrawl.dev</a> to get your API key. Try the <a href=\"https://firecrawl.dev/playground\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">playground</a> to test it out.</p>\n<h5>Search</h5>\n<p>Search the web and get full content from results.</p>\n<pre><code class=\"language-python\">from firecrawl import Firecrawl\n\napp = Firecrawl(api_key=\"fc-YOUR_API_KEY\")\n\nsearch_result = app.search(\"firecrawl\", limit=5)\n</code></pre>\n<details>\n<summary><b>Node.js / cURL / CLI</b></summary><p><strong>Node.js</strong></p>\n<pre><code class=\"language-javascript\">import { Firecrawl } from 'firecrawl';\n\nconst app = new Firecrawl({apiKey: \"fc-YOUR_API_KEY\"});\n\napp.search(\"firecrawl\", { limit: 5 })\n</code></pre>\n<p><strong>cURL</strong></p>\n<pre><code class=\"language-bash\">curl -X POST 'https://api.firecrawl.dev/v2/search' \\\n-H 'Authorization: Bearer fc-YOUR_API_KEY' \\\n-H 'Content-Type: application/json' \\\n-d '{\n  \"query\": \"firecrawl\",\n  \"limit\": 5\n}'\n</code></pre>\n<p><strong>CLI</strong></p>\n<pre><code class=\"language-bash\">firecrawl search \"firecrawl\" --limit 5\n</code></pre>\n</details><p>Output:</p>\n<pre><code class=\"language-json\">[\n  {\n    \"url\": \"https://firecrawl.dev\",\n    \"title\": \"Firecrawl\",\n    \"markdown\": \"Turn websites into...\"\n  },\n  {\n    \"url\": \"https://docs.firecrawl.dev\",\n    \"title\": \"Firecrawl Docs\",\n    \"markdown\": \"# Getting Started...\"\n  }\n]\n</code></pre>\n<h5>Scrape</h5>\n<p>Get LLM-ready context from any website — markdown, JSON, screenshots, and more.</p>\n<pre><code class=\"language-python\">from firecrawl import Firecrawl\n\napp = Firecrawl(api_key=\"fc-YOUR_API_KEY\")\n\nresult = app.scrape('firecrawl.dev')\n</code></pre>\n<details>\n<summary><b>Node.js / cURL / CLI</b></summary><p><strong>Node.js</strong></p>\n<pre><code class=\"language-javascript\">import { Firecrawl } from 'firecrawl';\n\nconst app = new Firecrawl({ apiKey: \"fc-YOUR_API_KEY\" });\n\napp.scrape('firecrawl.dev')\n</code></pre>\n<p><strong>cURL</strong></p>\n<pre><code class=\"language-bash\">curl -X POST 'https://api.firecrawl.dev/v2/scrape' \\\n-H 'Authorization: Bearer fc-YOUR_API_KEY' \\\n-H 'Content-Type: application/json' \\\n-d '{\n  \"url\": \"firecrawl.dev\"\n}'\n</code></pre>\n<p><strong>CLI</strong></p>\n<pre><code class=\"language-bash\">firecrawl scrape https://firecrawl.dev\nfirecrawl https://firecrawl.dev --only-main-content\n</code></pre>\n</details><p>Output:</p>\n<pre><code># Firecrawl\n\nFirecrawl helps AI agents search, scrape, and interact with the web.\n\n## Features\n- Search: Find information across the web\n- Scrape: Clean data from any page\n- Interact: Click, navigate, and operate pages\n- Agent: Autonomous data gathering\n</code></pre>\n<h5>Interact</h5>\n<p>Scrape a page, then interact with it using AI prompts or code.</p>\n<pre><code class=\"language-python\">from firecrawl import Firecrawl\n\napp = Firecrawl(api_key=\"fc-YOUR_API_KEY\")\n\nresult = app.scrape(\"https://amazon.com\")\nscrape_id = result.metadata.scrape_id\n\napp.interact(scrape_id, prompt=\"Search for 'mechanical keyboard'\")\napp.interact(scrape_id, prompt=\"Click the first result\")\n</code></pre>\n<details>\n<summary><b>Node.js / cURL / CLI</b></summary><p><strong>Node.js</strong></p>\n<pre><code class=\"language-javascript\">import { Firecrawl } from 'firecrawl';\n\nconst app = new Firecrawl({apiKey: \"fc-YOUR_API_KEY\"});\n\nconst result = await app.scrape(\"https://amazon.com\");\n\nawait app.interact(result.metadata.scrapeId, {\n  prompt: \"Search for 'mechanical keyboard'\"\n});\nawait app.interact(result.metadata.scrapeId, {\n  prompt: \"Click the first result\"\n});\n</code></pre>\n<p><strong>cURL</strong></p>\n<pre><code class=\"language-bash\"># 1. Scrape the page\ncurl -X POST 'https://api.firecrawl.dev/v2/scrape' \\\n-H 'Authorization: Bearer fc-YOUR_API_KEY' \\\n-H 'Content-Type: application/json' \\\n-d '{\"url\": \"https://amazon.com\"}'\n\n# 2. Interact with the page (use scrapeId from step 1)\ncurl -X POST 'https://api.firecrawl.dev/v2/scrape/SCRAPE_ID/interact' \\\n-H 'Authorization: Bearer fc-YOUR_API_KEY' \\\n-H 'Content-Type: application/json' \\\n-d '{\"prompt\": \"Search for mechanical keyboard\"}'\n</code></pre>\n<p><strong>CLI</strong></p>\n<pre><code class=\"language-bash\">firecrawl scrape https://amazon.com\nfirecrawl interact exec --prompt \"Search for 'mechanical keyboard'\"\nfirecrawl interact exec --prompt \"Click the first result\"\n</code></pre>\n</details><p>Output:</p>\n<pre><code class=\"language-json\">{\n  \"success\": true,\n  \"output\": \"Keyboard available at $100\",\n  \"liveViewUrl\": \"https://liveview.firecrawl.dev/...\"\n}\n</code></pre>\n<hr />",
+    "title": "Self-hosting",
+    "html": "<p><img src=\"https://raw.githubusercontent.com/firecrawl/firecrawl/main/img/open-source-cloud.png\" alt=\"Open Source vs Cloud\" loading=\"lazy\" decoding=\"async\" /></p>\n<p><a href=\"https://github.com/firecrawl/firecrawl#firecrawl-local\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Firecrawl Local</a> is the easiest way to run Firecrawl yourself. If you really want the full Firecrawl server with its own queues, workers and databases, all of it still lives in this repo and you can run it on your own infrastructure. If you'd rather not run anything yourself, <a href=\"https://github.com/firecrawl/firecrawl#firecrawl-cloud\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Firecrawl Cloud</a> gives you every feature with no setup.</p>\n<p>The server runs with Docker Compose alongside Redis, PostgreSQL and a browser service, and the <a href=\"https://docs.firecrawl.dev/contributing/self-host\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">self-hosting guide</a> takes you from checkout to your first scrape.</p>\n<p><a href=\"https://github.com/firecrawl/firecrawl/blob/main/SELF_HOST.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SELF_HOST.md</a> lists the services and settings for the revision you checked out, and larger deployments can start from the <a href=\"https://github.com/firecrawl/firecrawl/blob/main/examples/kubernetes/cluster-install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Kubernetes manifests</a> or the <a href=\"https://github.com/firecrawl/firecrawl/blob/main/examples/kubernetes/firecrawl-helm\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Helm chart</a>. Alexandria runs on Firecrawl Cloud, so the self-hosted server does not include it.</p>\n<hr />",
     "truncated": false,
-    "chars": 3740
+    "chars": 1042
    },
    "usage": null,
    "features": null
   },
-  "headings": 39,
+  "headings": 25,
   "processor": 4,
-  "fetched_at": "2026-11-17T21:01:29.999Z",
-  "checked_at": "2026-11-19T11:45:01.290Z"
+  "fetched_at": "2026-11-19T20:41:39.592Z",
+  "checked_at": "2026-11-19T20:41:39.592Z"
  },
  "contributors": {
   "count": 180,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:34.288Z"
  },
- "details_checked_at": "2026-11-19T11:45:01.290Z"
+ "details_checked_at": "2026-11-19T20:41:39.592Z"
 }

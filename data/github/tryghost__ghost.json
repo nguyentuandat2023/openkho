@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:44:47.996Z",
+ "fetched_at": "2026-11-19T20:41:25.967Z",
  "meta": {
   "name": "Ghost",
   "owner": "TryGhost",
@@ -34,12 +34,12 @@
   },
   "stars": 55864,
   "forks": 12144,
-  "watchers": 1007,
-  "open_issues": 251,
+  "watchers": 1006,
+  "open_issues": 255,
   "open_prs": null,
   "created_at": "2013-05-04T11:09:13Z",
-  "pushed_at": "2026-11-19T11:44:20Z",
-  "updated_at": "2026-11-19T06:57:00Z",
+  "pushed_at": "2026-11-19T20:39:48Z",
+  "updated_at": "2026-11-19T19:51:42Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,7 +48,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 640301,
+  "size_kb": 641353,
   "og_image": "https://opengraph.githubassets.com/1/TryGhost/Ghost",
   "custom_og_image": false
  },
@@ -71,7 +71,7 @@
   "headings": 5,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.399Z",
-  "checked_at": "2026-11-19T11:45:13.894Z"
+  "checked_at": "2026-11-19T20:41:52.070Z"
  },
  "contributors": {
   "count": 947,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.218Z"
  },
- "details_checked_at": "2026-11-19T11:45:13.894Z"
+ "details_checked_at": "2026-11-19T20:41:52.070Z"
 }

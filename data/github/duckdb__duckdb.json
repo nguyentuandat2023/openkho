@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:41:31.310Z",
+ "fetched_at": "2026-11-19T20:38:13.802Z",
  "meta": {
   "name": "duckdb",
   "owner": "duckdb",
@@ -29,14 +29,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 43169,
-  "forks": 4222,
-  "watchers": 281,
-  "open_issues": 1250,
+  "stars": 43191,
+  "forks": 4224,
+  "watchers": 285,
+  "open_issues": 1231,
   "open_prs": null,
   "created_at": "2018-06-26T15:04:45Z",
-  "pushed_at": "2026-11-19T11:33:02Z",
-  "updated_at": "2026-11-19T09:39:50Z",
+  "pushed_at": "2026-11-19T20:34:41Z",
+  "updated_at": "2026-11-19T20:32:57Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -45,7 +45,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 593315,
+  "size_kb": 594276,
   "og_image": "https://opengraph.githubassets.com/1/duckdb/duckdb",
   "custom_og_image": false
  },
@@ -68,7 +68,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.482Z",
-  "checked_at": "2026-11-19T11:45:05.234Z"
+  "checked_at": "2026-11-19T20:41:43.264Z"
  },
  "contributors": {
   "count": 1003,
@@ -76,5 +76,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.909Z"
  },
- "details_checked_at": "2026-11-19T11:45:05.234Z"
+ "details_checked_at": "2026-11-19T20:41:43.264Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:40:54.551Z",
+ "fetched_at": "2026-11-19T20:37:37.553Z",
  "meta": {
   "name": "open-webui",
   "owner": "open-webui",
@@ -39,14 +39,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 159078,
-  "forks": 23107,
-  "watchers": 683,
-  "open_issues": 246,
+  "stars": 159095,
+  "forks": 23118,
+  "watchers": 684,
+  "open_issues": 256,
   "open_prs": null,
   "created_at": "2023-10-06T22:08:27Z",
-  "pushed_at": "2026-11-18T20:54:11Z",
-  "updated_at": "2026-11-19T11:38:50Z",
+  "pushed_at": "2026-11-19T15:38:22Z",
+  "updated_at": "2026-11-19T20:07:06Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,7 +55,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 597489,
+  "size_kb": 597380,
   "og_image": "https://opengraph.githubassets.com/1/open-webui/open-webui",
   "custom_og_image": false
  },
@@ -78,7 +78,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.103Z",
-  "checked_at": "2026-11-19T11:45:03.650Z"
+  "checked_at": "2026-11-19T20:41:41.541Z"
  },
  "contributors": {
   "count": 893,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.338Z"
  },
- "details_checked_at": "2026-11-19T11:45:03.650Z"
+ "details_checked_at": "2026-11-19T20:41:41.541Z"
 }

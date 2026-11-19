@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:41:40.025Z",
+ "fetched_at": "2026-11-19T20:38:23.672Z",
  "meta": {
   "name": "pymc-marketing",
   "owner": "pymc-labs",
@@ -40,7 +40,7 @@
   "open_issues": 505,
   "open_prs": null,
   "created_at": "2022-03-07T15:11:28Z",
-  "pushed_at": "2026-11-18T22:39:08Z",
+  "pushed_at": "2026-11-19T20:15:11Z",
   "updated_at": "2026-11-18T09:49:28Z",
   "archived": false,
   "disabled": false,
@@ -50,7 +50,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 2820577,
+  "size_kb": 2826575,
   "og_image": "https://opengraph.githubassets.com/1/pymc-labs/pymc-marketing",
   "custom_og_image": false
  },
@@ -89,7 +89,7 @@
   "headings": 24,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.876Z",
-  "checked_at": "2026-11-19T11:45:05.569Z"
+  "checked_at": "2026-11-19T20:41:43.730Z"
  },
  "contributors": {
   "count": 119,
@@ -97,5 +97,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:33.238Z"
  },
- "details_checked_at": "2026-11-19T11:45:05.569Z"
+ "details_checked_at": "2026-11-19T20:41:43.730Z"
 }

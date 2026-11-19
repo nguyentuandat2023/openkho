@@ -6,7 +6,7 @@
  "status": "archived",
  "renamed_from": null,
  "source": "graphql",
- "fetched_at": "2026-11-19T11:37:59.300Z",
+ "fetched_at": "2026-11-19T20:34:36.170Z",
  "meta": {
   "name": "pocketbase",
   "owner": "pocketbase",
@@ -54,14 +54,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 61580,
+  "stars": 61578,
   "forks": 3771,
   "watchers": 325,
   "open_issues": 1,
   "open_prs": 0,
   "created_at": "2022-07-05T06:06:21Z",
   "pushed_at": "2026-10-26T18:07:11Z",
-  "updated_at": "2026-11-19T08:06:29Z",
+  "updated_at": "2026-11-19T15:38:44Z",
   "archived": true,
   "disabled": false,
   "is_fork": false,
@@ -76,7 +76,7 @@
  },
  "activity": {
   "last_commit_at": "2026-10-26T18:07:11Z",
-  "commits_90d": 94,
+  "commits_90d": 90,
   "commits_90d_estimated": false,
   "source": "graphql"
  },
@@ -92,70 +92,70 @@
    {
     "name": "pocketbase_0.40.6_linux_s390x.zip",
     "size": 12524235,
-    "download_count": 124,
+    "download_count": 126,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_linux_s390x.zip",
     "content_type": "application/zip"
    },
    {
     "name": "pocketbase_0.40.6_linux_amd64.zip",
     "size": 12824710,
-    "download_count": 58089,
+    "download_count": 59558,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_linux_amd64.zip",
     "content_type": "application/zip"
    },
    {
     "name": "pocketbase_0.40.6_linux_arm64.zip",
     "size": 11875035,
-    "download_count": 3566,
+    "download_count": 3610,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_linux_arm64.zip",
     "content_type": "application/zip"
    },
    {
     "name": "pocketbase_0.40.6_linux_armv7.zip",
     "size": 12192739,
-    "download_count": 333,
+    "download_count": 338,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_linux_armv7.zip",
     "content_type": "application/zip"
    },
    {
     "name": "pocketbase_0.40.6_darwin_arm64.zip",
     "size": 12235482,
-    "download_count": 3771,
+    "download_count": 3818,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_darwin_arm64.zip",
     "content_type": "application/zip"
    },
    {
     "name": "pocketbase_0.40.6_windows_amd64.zip",
     "size": 13009601,
-    "download_count": 6366,
+    "download_count": 6464,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_windows_amd64.zip",
     "content_type": "application/zip"
    },
    {
     "name": "pocketbase_0.40.6_windows_arm64.zip",
     "size": 11888006,
-    "download_count": 287,
+    "download_count": 290,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_windows_arm64.zip",
     "content_type": "application/zip"
    },
    {
     "name": "pocketbase_0.40.6_linux_ppc64le.zip",
     "size": 11955015,
-    "download_count": 47,
+    "download_count": 48,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_linux_ppc64le.zip",
     "content_type": "application/zip"
    },
    {
     "name": "pocketbase_0.40.6_darwin_amd64.zip",
     "size": 12917119,
-    "download_count": 751,
+    "download_count": 754,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/pocketbase_0.40.6_darwin_amd64.zip",
     "content_type": "application/zip"
    },
    {
     "name": "checksums.txt",
     "size": 908,
-    "download_count": 13426,
+    "download_count": 13741,
     "url": "https://github.com/pocketbase/pocketbase/releases/download/v0.40.6/checksums.txt",
     "content_type": "text/plain; charset=utf-8"
    }
@@ -168,9 +168,9 @@
   "total": 296
  },
  "stars_recent": {
-  "per_day": 4,
+  "per_day": 3.9,
   "sample": 100,
-  "window_days": 25.3,
+  "window_days": 25.7,
   "complete": false,
   "method": "stargazers"
  },
@@ -194,7 +194,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.821Z",
-  "checked_at": "2026-11-19T11:45:05.687Z"
+  "checked_at": "2026-11-19T20:41:43.778Z"
  },
  "contributors": {
   "count": 45,
@@ -202,5 +202,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:33.443Z"
  },
- "details_checked_at": "2026-11-19T11:45:05.687Z"
+ "details_checked_at": "2026-11-19T20:41:43.778Z"
 }

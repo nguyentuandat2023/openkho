@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:40:31.029Z",
+ "fetched_at": "2026-11-19T20:37:12.806Z",
  "meta": {
   "name": "LlamaFactory",
   "owner": "hiyouga",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 76133,
-  "forks": 9391,
-  "watchers": 342,
-  "open_issues": 1252,
+  "stars": 76139,
+  "forks": 9392,
+  "watchers": 341,
+  "open_issues": 1253,
   "open_prs": null,
   "created_at": "2023-05-28T10:09:12Z",
-  "pushed_at": "2026-11-18T20:47:11Z",
-  "updated_at": "2026-11-19T10:26:45Z",
+  "pushed_at": "2026-11-19T16:17:35Z",
+  "updated_at": "2026-11-19T18:23:58Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,13 +60,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 14294,
+  "size_kb": 14344,
   "og_image": "https://opengraph.githubassets.com/1/hiyouga/LlamaFactory",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 70682,
+  "length": 70794,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [],
@@ -87,8 +87,8 @@
   },
   "headings": 35,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:21.294Z",
-  "checked_at": "2026-11-19T11:45:02.304Z"
+  "fetched_at": "2026-11-19T20:41:40.515Z",
+  "checked_at": "2026-11-19T20:41:40.515Z"
  },
  "contributors": {
   "count": 303,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T07:03:47.895Z"
  },
- "details_checked_at": "2026-11-19T11:45:02.304Z"
+ "details_checked_at": "2026-11-19T20:41:40.515Z"
 }

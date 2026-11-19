@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:44:14.590Z",
+ "fetched_at": "2026-11-19T20:40:53.720Z",
  "meta": {
   "name": "syncthing",
   "owner": "syncthing",
@@ -28,14 +28,14 @@
    "spdx": "MPL-2.0",
    "name": "Mozilla Public License 2.0"
   },
-  "stars": 90589,
-  "forks": 5610,
-  "watchers": 1050,
+  "stars": 90605,
+  "forks": 5616,
+  "watchers": 1057,
   "open_issues": 404,
   "open_prs": null,
   "created_at": "2013-11-26T09:48:21Z",
   "pushed_at": "2026-11-19T11:15:00Z",
-  "updated_at": "2026-11-19T11:38:41Z",
+  "updated_at": "2026-11-19T20:28:10Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -44,7 +44,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 127959,
+  "size_kb": 127977,
   "og_image": "https://opengraph.githubassets.com/1/syncthing/syncthing",
   "custom_og_image": false
  },
@@ -67,7 +67,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.493Z",
-  "checked_at": "2026-11-19T11:45:12.577Z"
+  "checked_at": "2026-11-19T20:41:50.701Z"
  },
  "contributors": {
   "count": 398,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.767Z"
  },
- "details_checked_at": "2026-11-19T11:45:12.577Z"
+ "details_checked_at": "2026-11-19T20:41:50.701Z"
 }

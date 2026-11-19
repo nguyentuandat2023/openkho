@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:42:51.586Z",
+ "fetched_at": "2026-11-19T20:39:31.055Z",
  "meta": {
   "name": "AI-For-Beginners",
   "owner": "microsoft",
@@ -34,14 +34,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 71022,
-  "forks": 13848,
+  "stars": 71028,
+  "forks": 13846,
   "watchers": 667,
   "open_issues": 11,
   "open_prs": null,
   "created_at": "2021-03-03T16:27:36Z",
   "pushed_at": "2026-11-15T19:46:34Z",
-  "updated_at": "2026-11-19T11:17:34Z",
+  "updated_at": "2026-11-19T17:41:21Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -73,7 +73,7 @@
   "headings": 22,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.237Z",
-  "checked_at": "2026-11-19T11:45:08.663Z"
+  "checked_at": "2026-11-19T20:41:46.908Z"
  },
  "contributors": {
   "count": 98,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:36.874Z"
  },
- "details_checked_at": "2026-11-19T11:45:08.663Z"
+ "details_checked_at": "2026-11-19T20:41:46.908Z"
 }

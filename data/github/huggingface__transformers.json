@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:40:21.675Z",
+ "fetched_at": "2026-11-19T20:37:02.782Z",
  "meta": {
   "name": "transformers",
   "owner": "huggingface",
@@ -43,14 +43,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 169244,
-  "forks": 35244,
-  "watchers": 1261,
-  "open_issues": 1105,
+  "stars": 169278,
+  "forks": 35249,
+  "watchers": 1266,
+  "open_issues": 1096,
   "open_prs": null,
   "created_at": "2018-10-29T13:56:00Z",
-  "pushed_at": "2026-11-19T11:22:02Z",
-  "updated_at": "2026-11-19T11:24:52Z",
+  "pushed_at": "2026-11-19T18:59:23Z",
+  "updated_at": "2026-11-19T20:23:30Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 570735,
+  "size_kb": 572641,
   "og_image": "https://opengraph.githubassets.com/1/huggingface/transformers",
   "custom_og_image": false
  },
@@ -87,7 +87,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:20.930Z",
-  "checked_at": "2026-11-19T11:45:01.898Z"
+  "checked_at": "2026-11-19T20:41:40.036Z"
  },
  "contributors": {
   "count": 4245,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T07:03:46.826Z"
  },
- "details_checked_at": "2026-11-19T11:45:01.898Z"
+ "details_checked_at": "2026-11-19T20:41:40.036Z"
 }

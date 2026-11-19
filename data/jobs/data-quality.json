@@ -1,13 +1,17 @@
 {
- "computed_at": "2026-11-19T11:46:22.936Z",
+ "computed_at": "2026-11-19T20:43:38.080Z",
  "curated_missing_github_id": [],
  "missing_contributors": 2397,
  "stale_over_48h": [
+  "RyoTheOne/dxo-photolab-10-config",
+  "Malik-825/sketchup-pro-desktop",
   "DevedevT/FFmpeg-GUI-Editor-Windows",
+  "amber-lance-72/xeno-roblox-desktop",
+  "phamcucpqrwbbnposhmn96-ui/KSNStudy",
   "trackboatwrightplan/GitHub-Copilot-app",
   "trackboatwrightplan/ai--manus2.0"
  ],
- "low_quality_coverage": 1942,
+ "low_quality_coverage": 1823,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -16,7 +20,17 @@
    "status": "not_found"
   },
   {
+   "id": "bipro45/actual-multi-display-configurator",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "abdulmannanmalik13-wq/adobe-substance-3d-studio",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "AbhiKamane/ai-app-builder-open",
    "origin": "radar",
    "status": "not_found"
   },
@@ -46,7 +60,22 @@
    "status": "not_found"
   },
   {
+   "id": "thiagoaureliomartins-programador/chief-architect-premier",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "angelonyn/chimera-desktop-suite",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "woo20080623-cell/cinebench-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "ayanprob/coreldraw-desktop-installer",
    "origin": "radar",
    "status": "not_found"
   },
@@ -66,7 +95,17 @@
    "status": "not_found"
   },
   {
+   "id": "tss878/grand-six",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "Elegantic/designcenter-nx-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "ebtsamalhakmy-sketch/desktop-backup-suite",
    "origin": "radar",
    "status": "not_found"
   },
@@ -91,6 +130,16 @@
    "status": "not_found"
   },
   {
+   "id": "farhodzodatojiddin5-cpu/exitlag-optimizer",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "abhijot11/fabfilter-total",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "Gacktadactle/fortnite-skin-swapper-enhancement",
    "origin": "radar",
    "status": "not_found"
@@ -101,7 +150,27 @@
    "status": "not_found"
   },
   {
+   "id": "Paulinho182/hitfilm-desktop-installer",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "shayannazar84-hero/honkai-star-rail-companion-suite",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "hayfa1234/honkai-star-rail-enhancement-suite",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "uchihamx999-beep/imei-repair-toolkit",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "leanislizarzado/ibm-spss-desktop-suite",
    "origin": "radar",
    "status": "not_found"
   },
@@ -111,7 +180,17 @@
    "status": "not_found"
   },
   {
+   "id": "RolandoV3/metatrader-5-bot",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "daiphu2708-crypto/melodyne-5-desktop-setup",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "ilsa99/microsoft-365-desktop",
    "origin": "radar",
    "status": "not_found"
   },
@@ -121,7 +200,27 @@
    "status": "not_found"
   },
   {
+   "id": "blockacc12345/music-maker-unlimited",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "janitoff0/ninjatrader-bot",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "ethangangasingh-crypto/musicmakerunlimited",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "Eriazeri/on1-photo-raw-max-config",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "vishnu05-codes/ozone-12-advanced",
    "origin": "radar",
    "status": "not_found"
   },
@@ -131,7 +230,37 @@
    "status": "not_found"
   },
   {
+   "id": "SnehalSukale27/power-director",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "tianjanahary05-source/reason-14-installer",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "xavier442/pump-fun-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "rdeepak-wq121/quicken-deluxe-installer",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "Marcian15350/mt5-tradeprotocol",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "21041979/rufus-usb-formatter",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "SK-Dev666/rust-external-trainer-tool",
    "origin": "radar",
    "status": "not_found"
   },
@@ -141,7 +270,17 @@
    "status": "not_found"
   },
   {
+   "id": "SirBonney/scrcpy-mirror-control",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "mahmoudtawfik1998/secure-pdf-document-processor",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "pravinpote1985/serato-dj-pro-2026",
    "origin": "radar",
    "status": "not_found"
   },
@@ -152,6 +291,11 @@
   },
   {
    "id": "muddinenilakshmilalithaksh-create/sp-flash-tool",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "FarhanNaem/startall-back",
    "origin": "radar",
    "status": "not_found"
   },
@@ -171,12 +315,27 @@
    "status": "not_found"
   },
   {
+   "id": "parthkshirsagar2456-blip/voicemod-desktop-edition",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "shivsupratik/windows-optimizer",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "hitkeeen/blender-ai-mcp-addon",
    "origin": "radar",
    "status": "not_found"
   },
   {
    "id": "DevedevT/FFmpeg-GUI-Editor-Windows",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "alex-wells-65/iobit-driver-booster-desktop",
    "origin": "radar",
    "status": "not_found"
   },
@@ -209,14 +368,13 @@
    "id": "trackboatwrightplan/ai--manus2.0",
    "origin": "radar",
    "status": "not_found"
-  },
-  {
-   "id": "gylive/google-ultra",
-   "origin": "radar",
-   "status": "not_found"
   }
  ],
  "renamed": [
+  {
+   "from": "jhlee0409/claude-code-history-viewer",
+   "to": "jhlee0409/omnilogue"
+  },
   {
    "from": "HKUDS/PhoneCLI",
    "to": "HKUDS/PhoneGo"
@@ -226,8 +384,20 @@
    "to": "IliasHad/orcah-studio"
   },
   {
+   "from": "avabbbb/Flovart",
+   "to": "avabbbb/Iris"
+  },
+  {
+   "from": "songloft-org/songloft-player",
+   "to": "songloft-org/songloft-player-flutter"
+  },
+  {
    "from": "brycewang-stanford/Auto-Research-Skills",
    "to": "brycewang-stanford/Free-Research-Crew"
+  },
+  {
+   "from": "pgrundev/pgx",
+   "to": "pgrundev/pgboxdb"
   },
   {
    "from": "sahenjp/RustXNG",
@@ -292,12 +462,6 @@
    ]
   },
   {
-   "id": "Folkbench/folkbench",
-   "reasons": [
-    "repo mới với 3.982 sao nhưng gần như không có fork (19) và chưa có issue nào"
-   ]
-  },
-  {
    "id": "Jakeschincariol/replica-skill",
    "reasons": [
     "rất ít người đóng góp (1) so với tốc độ tăng sao"
@@ -330,7 +494,7 @@
   {
    "id": "byted-technologies/.github",
    "reasons": [
-    "repo mới với 3.995 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 3.994 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -366,7 +530,7 @@
   {
    "id": "Cattmonkey/ChaosIntelligence",
    "reasons": [
-    "repo mới với 499 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+500 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -466,192 +630,6 @@
    ]
   },
   {
-   "id": "bipro45/actual-multi-display-configurator",
-   "reasons": [
-    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "AbhiKamane/ai-app-builder-open",
-   "reasons": [
-    "repo mới với 384 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "thiagoaureliomartins-programador/chief-architect-premier",
-   "reasons": [
-    "repo mới với 1.101 sao nhưng gần như không có fork (1) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "angelonyn/chimera-desktop-suite",
-   "reasons": [
-    "repo mới với 1.104 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "ayanprob/coreldraw-desktop-installer",
-   "reasons": [
-    "+1.104 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "tss878/grand-six",
-   "reasons": [
-    "+1.200 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "ebtsamalhakmy-sketch/desktop-backup-suite",
-   "reasons": [
-    "+1.199 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "farhodzodatojiddin5-cpu/exitlag-optimizer",
-   "reasons": [
-    "repo mới với 1.103 sao nhưng gần như không có fork (1) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "abhijot11/fabfilter-total",
-   "reasons": [
-    "+1.001 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Paulinho182/hitfilm-desktop-installer",
-   "reasons": [
-    "repo mới với 1.099 sao nhưng gần như không có fork (1) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "shayannazar84-hero/honkai-star-rail-companion-suite",
-   "reasons": [
-    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "uchihamx999-beep/imei-repair-toolkit",
-   "reasons": [
-    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "leanislizarzado/ibm-spss-desktop-suite",
-   "reasons": [
-    "repo mới với 1.107 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "RolandoV3/metatrader-5-bot",
-   "reasons": [
-    "+1.120 sao nhưng chỉ +1 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "ilsa99/microsoft-365-desktop",
-   "reasons": [
-    "+1.104 sao nhưng chỉ +1 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "blockacc12345/music-maker-unlimited",
-   "reasons": [
-    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "janitoff0/ninjatrader-bot",
-   "reasons": [
-    "repo mới với 1.106 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "ethangangasingh-crypto/musicmakerunlimited",
-   "reasons": [
-    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "vishnu05-codes/ozone-12-advanced",
-   "reasons": [
-    "repo mới với 1.105 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "SnehalSukale27/power-director",
-   "reasons": [
-    "repo mới với 1.104 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "tianjanahary05-source/reason-14-installer",
-   "reasons": [
-    "repo mới với 1.104 sao nhưng gần như không có fork (1) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "xavier442/pump-fun-desktop",
-   "reasons": [
-    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "rdeepak-wq121/quicken-deluxe-installer",
-   "reasons": [
-    "repo mới với 1.103 sao nhưng gần như không có fork (1) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "21041979/rufus-usb-formatter",
-   "reasons": [
-    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "SK-Dev666/rust-external-trainer-tool",
-   "reasons": [
-    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "SirBonney/scrcpy-mirror-control",
-   "reasons": [
-    "repo mới với 1.104 sao nhưng gần như không có fork (1) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "pravinpote1985/serato-dj-pro-2026",
-   "reasons": [
-    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "manjushree-iyer/soundpad-audio-suite",
-   "reasons": [
-    "+1.104 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "FarhanNaem/startall-back",
-   "reasons": [
-    "repo mới với 1.102 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "parthkshirsagar2456-blip/voicemod-desktop-edition",
-   "reasons": [
-    "repo mới với 1.103 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "shivsupratik/windows-optimizer",
-   "reasons": [
-    "repo mới với 1.104 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
    "id": "deepseek-ai/chat-demo",
    "reasons": [
     "rất ít người đóng góp (1) so với tốc độ tăng sao"
@@ -660,19 +638,13 @@
   {
    "id": "Gosu-x/multimodal-threat-dataset",
    "reasons": [
-    "+420 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 429 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "ariamitchell54/cubase-studio-desktop",
    "reasons": [
     "+307 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "alex-wells-65/iobit-driver-booster-desktop",
-   "reasons": [
-    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -683,6 +655,12 @@
   },
   {
    "id": "azure-teal-slope/windows-optimizer-desktop",
+   "reasons": [
+    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "azuremaple1997/coreldraw-desktop",
    "reasons": [
     "repo mới với 305 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
@@ -708,7 +686,7 @@
   {
    "id": "ben-miller-23/dxo-photolab-10-desktop",
    "reasons": [
-    "repo mới với 307 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "+307 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -720,7 +698,7 @@
   {
    "id": "brave-shell-07/izotope-rx-11-desktop",
    "reasons": [
-    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+306 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -744,7 +722,7 @@
   {
    "id": "TorrentArrow/IPTV_Player_2.0",
    "reasons": [
-    "+375 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 375 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -874,16 +852,72 @@
    ]
   },
   {
-   "id": "scottsturrock/mate-wayland-desktop",
+   "id": "erkamyaman/rust-anything",
    "reasons": [
-    "repo mới với 440 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "rất ít người đóng góp (3) so với tốc độ tăng sao"
    ]
   }
  ],
  "published_changes": {
-  "added": [],
-  "removed": [],
-  "kept": 600
+  "added": [
+   {
+    "gid": "23088740",
+    "full_name": "axios/axios"
+   },
+   {
+    "gid": "54173593",
+    "full_name": "storybookjs/storybook"
+   },
+   {
+    "gid": "34526884",
+    "full_name": "ant-design/ant-design"
+   },
+   {
+    "gid": "1435353917",
+    "full_name": "robertnisipeanu/mgu-store"
+   },
+   {
+    "gid": "13807606",
+    "full_name": "junegunn/fzf"
+   },
+   {
+    "gid": "221981891",
+    "full_name": "microsoft/playwright"
+   }
+  ],
+  "removed": [
+   {
+    "gid": "1448721787",
+    "full_name": "AbhiKamane/ai-app-builder-open",
+    "why": "trạng thái not_found"
+   },
+   {
+    "gid": "1448734795",
+    "full_name": "ayanprob/coreldraw-desktop-installer",
+    "why": "trạng thái not_found"
+   },
+   {
+    "gid": "1448742423",
+    "full_name": "abhijot11/fabfilter-total",
+    "why": "trạng thái not_found"
+   },
+   {
+    "gid": "1448751207",
+    "full_name": "RolandoV3/metatrader-5-bot",
+    "why": "trạng thái not_found"
+   },
+   {
+    "gid": "1448752369",
+    "full_name": "ilsa99/microsoft-365-desktop",
+    "why": "trạng thái not_found"
+   },
+   {
+    "gid": "1457194288",
+    "full_name": "azuremaple1997/coreldraw-desktop",
+    "why": "thuộc cụm repo nhân bản đáng ngờ"
+   }
+  ],
+  "kept": 594
  },
  "suppressed_clusters": [
   {
@@ -946,12 +980,13 @@
   },
   {
    "cluster": "campaign-2026-11-13-304",
-   "reason": "Một trong 13 repo khác tên do 13 tài khoản tạo gần như cùng lúc, cùng khoảng 304–308 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "reason": "Một trong 14 repo khác tên do 14 tài khoản tạo gần như cùng lúc, cùng khoảng 304–308 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
    "repos": [
     "ariamitchell54/cubase-studio-desktop",
     "alex-wells-65/iobit-driver-booster-desktop",
     "angela-cook-1988/vegas-pro-23-desktop",
     "azure-teal-slope/windows-optimizer-desktop",
+    "azuremaple1997/coreldraw-desktop",
     "azuresail195/wondershare-recoverit-desktop",
     "ben-cook-42/kontakt-8-desktop",
     "ben14-dunn/native-instruments-kontakt-desktop",

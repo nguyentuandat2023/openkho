@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:41:20.137Z",
+ "fetched_at": "2026-11-19T20:38:02.952Z",
  "meta": {
   "name": "SuiteCRM",
   "owner": "SuiteCRM",
@@ -42,13 +42,13 @@
    "name": "GNU Affero General Public License v3.0"
   },
   "stars": 5871,
-  "forks": 2447,
+  "forks": 2448,
   "watchers": 257,
-  "open_issues": 1374,
+  "open_issues": 1376,
   "open_prs": null,
   "created_at": "2013-09-23T19:10:08Z",
   "pushed_at": "2026-11-04T22:20:41Z",
-  "updated_at": "2026-11-19T04:08:03Z",
+  "updated_at": "2026-11-19T19:29:32Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -80,7 +80,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.128Z",
-  "checked_at": "2026-11-19T11:45:04.664Z"
+  "checked_at": "2026-11-19T20:41:42.655Z"
  },
  "contributors": {
   "count": 288,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.454Z"
  },
- "details_checked_at": "2026-11-19T11:45:04.664Z"
+ "details_checked_at": "2026-11-19T20:41:42.655Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:39:34.893Z",
+ "fetched_at": "2026-11-19T20:36:15.908Z",
  "meta": {
   "name": "cline",
   "owner": "cline",
@@ -23,14 +23,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 71765,
-  "forks": 7938,
+  "stars": 71766,
+  "forks": 7943,
   "watchers": 293,
-  "open_issues": 1799,
+  "open_issues": 1802,
   "open_prs": null,
   "created_at": "2024-07-06T07:28:10Z",
-  "pushed_at": "2026-11-19T00:42:41Z",
-  "updated_at": "2026-11-19T11:39:31Z",
+  "pushed_at": "2026-11-19T18:47:28Z",
+  "updated_at": "2026-11-19T19:13:53Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -39,7 +39,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 638612,
+  "size_kb": 637154,
   "og_image": "https://opengraph.githubassets.com/1/cline/cline",
   "custom_og_image": false
  },
@@ -57,7 +57,7 @@
   "headings": 19,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:19.003Z",
-  "checked_at": "2026-11-19T11:44:59.516Z"
+  "checked_at": "2026-11-19T20:41:37.743Z"
  },
  "contributors": {
   "count": 354,
@@ -65,5 +65,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:18.150Z"
  },
- "details_checked_at": "2026-11-19T11:44:59.516Z"
+ "details_checked_at": "2026-11-19T20:41:37.743Z"
 }

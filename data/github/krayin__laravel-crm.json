@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:41:14.655Z",
+ "fetched_at": "2026-11-19T20:37:58.190Z",
  "meta": {
   "name": "laravel-crm",
   "owner": "krayin",
@@ -42,7 +42,7 @@
    "name": "MIT License"
   },
   "stars": 24185,
-  "forks": 1691,
+  "forks": 1692,
   "watchers": 62,
   "open_issues": 112,
   "open_prs": null,
@@ -80,7 +80,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.993Z",
-  "checked_at": "2026-11-19T11:45:04.445Z"
+  "checked_at": "2026-11-19T20:41:42.472Z"
  },
  "contributors": {
   "count": 67,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.166Z"
  },
- "details_checked_at": "2026-11-19T11:45:04.445Z"
+ "details_checked_at": "2026-11-19T20:41:42.472Z"
 }

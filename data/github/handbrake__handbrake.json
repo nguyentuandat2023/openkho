@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:44:36.983Z",
+ "fetched_at": "2026-11-19T20:41:16.100Z",
  "meta": {
   "name": "HandBrake",
   "owner": "HandBrake",
@@ -27,14 +27,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 25056,
-  "forks": 1759,
+  "stars": 25062,
+  "forks": 1760,
   "watchers": 298,
-  "open_issues": 294,
+  "open_issues": 296,
   "open_prs": null,
   "created_at": "2015-08-22T16:32:28Z",
   "pushed_at": "2026-11-18T12:36:53Z",
-  "updated_at": "2026-11-19T11:40:00Z",
+  "updated_at": "2026-11-19T20:23:01Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -61,7 +61,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.077Z",
-  "checked_at": "2026-11-19T11:45:13.546Z"
+  "checked_at": "2026-11-19T20:41:51.597Z"
  },
  "contributors": {
   "count": 175,
@@ -69,5 +69,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.827Z"
  },
- "details_checked_at": "2026-11-19T11:45:13.546Z"
+ "details_checked_at": "2026-11-19T20:41:51.597Z"
 }

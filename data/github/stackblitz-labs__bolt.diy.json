@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:44:54.655Z",
+ "fetched_at": "2026-11-19T20:41:33.634Z",
  "meta": {
   "name": "bolt.diy",
   "owner": "stackblitz-labs",
@@ -23,14 +23,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 20109,
-  "forks": 10620,
+  "stars": 20110,
+  "forks": 10621,
   "watchers": 290,
-  "open_issues": 2,
+  "open_issues": 3,
   "open_prs": null,
   "created_at": "2024-10-13T18:40:54Z",
   "pushed_at": "2026-11-18T19:52:02Z",
-  "updated_at": "2026-11-19T06:16:46Z",
+  "updated_at": "2026-11-19T19:35:56Z",
   "archived": false,
   "disabled": false,
   "is_fork": true,
@@ -67,7 +67,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.708Z",
-  "checked_at": "2026-11-19T11:45:14.194Z"
+  "checked_at": "2026-11-19T20:41:52.370Z"
  },
  "contributors": {
   "count": 127,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.735Z"
  },
- "details_checked_at": "2026-11-19T11:45:14.194Z"
+ "details_checked_at": "2026-11-19T20:41:52.370Z"
 }

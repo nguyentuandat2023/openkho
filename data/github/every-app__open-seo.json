@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T11:43:13.185Z",
+ "fetched_at": "2026-11-19T20:39:53.268Z",
  "meta": {
   "name": "open-seo",
   "owner": "every-app",
@@ -35,14 +35,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 28307,
-  "forks": 4006,
+  "stars": 28359,
+  "forks": 4010,
   "watchers": 88,
   "open_issues": 110,
   "open_prs": null,
   "created_at": "2026-02-27T18:57:41Z",
   "pushed_at": "2026-11-19T04:15:31Z",
-  "updated_at": "2026-11-19T11:40:08Z",
+  "updated_at": "2026-11-19T20:36:14Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -74,7 +74,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-18T11:46:15.190Z",
-  "checked_at": "2026-11-19T11:45:09.621Z"
+  "checked_at": "2026-11-19T20:41:47.894Z"
  },
  "contributors": {
   "count": 21,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:37.938Z"
  },
- "details_checked_at": "2026-11-19T11:45:09.621Z"
+ "details_checked_at": "2026-11-19T20:41:47.894Z"
 }
