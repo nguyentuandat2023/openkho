@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:38:10.422Z",
+ "fetched_at": "2026-11-20T20:18:49.688Z",
  "meta": {
   "name": "umami",
   "owner": "umami-software",
@@ -33,14 +33,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 40262,
-  "forks": 8604,
-  "watchers": 144,
-  "open_issues": 142,
+  "stars": 40265,
+  "forks": 8607,
+  "watchers": 143,
+  "open_issues": 141,
   "open_prs": null,
   "created_at": "2020-07-17T07:59:00Z",
-  "pushed_at": "2026-11-20T00:21:39Z",
-  "updated_at": "2026-11-20T10:46:24Z",
+  "pushed_at": "2026-11-20T20:12:20Z",
+  "updated_at": "2026-11-20T19:22:01Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -72,7 +72,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.607Z",
-  "checked_at": "2026-11-20T11:40:04.697Z"
+  "checked_at": "2026-11-20T20:20:35.208Z"
  },
  "contributors": {
   "count": 476,
@@ -80,5 +80,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:37.462Z"
  },
- "details_checked_at": "2026-11-20T11:40:04.697Z"
+ "details_checked_at": "2026-11-20T20:20:35.208Z"
 }

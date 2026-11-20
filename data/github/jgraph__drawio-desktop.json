@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:37:12.032Z",
+ "fetched_at": "2026-11-20T20:17:56.597Z",
  "meta": {
   "name": "drawio-desktop",
   "owner": "jgraph",
@@ -28,14 +28,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 64086,
-  "forks": 5825,
+  "stars": 64089,
+  "forks": 5826,
   "watchers": 564,
-  "open_issues": 6,
+  "open_issues": 7,
   "open_prs": null,
   "created_at": "2017-05-25T20:58:42Z",
   "pushed_at": "2026-11-17T19:44:13Z",
-  "updated_at": "2026-11-20T08:37:13Z",
+  "updated_at": "2026-11-20T17:13:14Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:34.629Z",
-  "checked_at": "2026-11-20T11:40:02.119Z"
+  "checked_at": "2026-11-20T20:20:33.129Z"
  },
  "contributors": {
   "count": 19,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.288Z"
  },
- "details_checked_at": "2026-11-20T11:40:02.119Z"
+ "details_checked_at": "2026-11-20T20:20:33.129Z"
 }

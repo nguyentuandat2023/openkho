@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:37:05.505Z",
+ "fetched_at": "2026-11-20T20:17:50.366Z",
  "meta": {
   "name": "orm",
   "owner": "prisma",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 47692,
-  "forks": 2650,
-  "watchers": 304,
-  "open_issues": 2708,
+  "stars": 47693,
+  "forks": 2652,
+  "watchers": 305,
+  "open_issues": 2710,
   "open_prs": null,
   "created_at": "2019-06-20T13:33:47Z",
-  "pushed_at": "2026-11-20T11:13:20Z",
-  "updated_at": "2026-11-20T09:08:45Z",
+  "pushed_at": "2026-11-20T17:31:45Z",
+  "updated_at": "2026-11-20T20:06:46Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 303688,
+  "size_kb": 306238,
   "og_image": "https://opengraph.githubassets.com/1/prisma/orm",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-20T11:40:01.829Z",
-  "checked_at": "2026-11-20T11:40:01.829Z"
+  "checked_at": "2026-11-20T20:20:32.889Z"
  },
  "contributors": {
   "count": 34,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:33.828Z"
  },
- "details_checked_at": "2026-11-20T11:40:01.829Z"
+ "details_checked_at": "2026-11-20T20:20:32.889Z"
 }

@@ -1,8 +1,9 @@
 {
- "computed_at": "2026-11-20T11:44:38.822Z",
+ "computed_at": "2026-11-20T20:22:06.918Z",
  "curated_missing_github_id": [],
  "missing_contributors": 2391,
  "stale_over_48h": [
+  "abdulmannanmalik13-wq/adobe-substance-3d-studio",
   "Arda313131882/aion-2-trainer-tool",
   "App-MonicaWEB/auslogics-audio-studio-desktop",
   "Leno27-Adr/autodesk-revit-2026-standalone",
@@ -25,6 +26,7 @@
   "shahnawaz0786/payday-3-enhancement-toolkit",
   "Marcian15350/mt5-tradeprotocol",
   "farhatullah0006-art/rx-11-audio-editor-config",
+  "mahmoudtawfik1998/secure-pdf-document-processor",
   "Malik-825/sketchup-pro-desktop",
   "muddinenilakshmilalithaksh-create/sp-flash-tool",
   "RafliAbdulHaliim/sylenth-1-enhancement-suite",
@@ -38,7 +40,7 @@
   "trackboatwrightplan/GitHub-Copilot-app",
   "trackboatwrightplan/ai--manus2.0"
  ],
- "low_quality_coverage": 1644,
+ "low_quality_coverage": 1524,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -412,6 +414,11 @@
    "status": "not_found"
   },
   {
+   "id": "0marContreras/gta6recomp",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "Bodila51/gtavi-claudecode",
    "origin": "radar",
    "status": "not_found"
@@ -547,7 +554,7 @@
   {
    "id": "byted-technologies/.github",
    "reasons": [
-    "repo mới với 3.994 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 3.991 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -583,7 +590,7 @@
   {
    "id": "Cattmonkey/ChaosIntelligence",
    "reasons": [
-    "+500 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+498 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -619,7 +626,7 @@
   {
    "id": "AhmadHassan-BTed/RainGen-RainGenerator",
    "reasons": [
-    "repo mới với 1.610 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.612 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -691,13 +698,13 @@
   {
    "id": "Gosu-x/multimodal-threat-dataset",
    "reasons": [
-    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+473 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "EunChae1110/mmforge-platform",
    "reasons": [
-    "+357 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+377 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -709,7 +716,7 @@
   {
    "id": "angela-cook-1988/vegas-pro-23-desktop",
    "reasons": [
-    "+304 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -913,7 +920,7 @@
   {
    "id": "bookwjitchieni1986/blender-ai-mcp-addon",
    "reasons": [
-    "+1.014 sao nhưng chỉ +1 fork trong cùng kỳ"
+    "+1.484 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   }
  ],

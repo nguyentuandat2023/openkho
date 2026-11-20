@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:36:35.638Z",
+ "fetched_at": "2026-11-20T20:17:25.555Z",
  "meta": {
   "name": "freescout",
   "owner": "freescout-help-desk",
@@ -45,7 +45,7 @@
   "open_prs": null,
   "created_at": "2018-06-22T17:08:50Z",
   "pushed_at": "2026-11-20T07:10:29Z",
-  "updated_at": "2026-11-20T08:28:46Z",
+  "updated_at": "2026-11-20T18:47:43Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -82,7 +82,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.256Z",
-  "checked_at": "2026-11-20T11:40:00.643Z"
+  "checked_at": "2026-11-20T20:20:31.856Z"
  },
  "contributors": {
   "count": 109,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.426Z"
  },
- "details_checked_at": "2026-11-20T11:40:00.643Z"
+ "details_checked_at": "2026-11-20T20:20:31.856Z"
 }

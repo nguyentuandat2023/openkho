@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:37:40.925Z",
+ "fetched_at": "2026-11-20T20:18:20.693Z",
  "meta": {
   "name": "woocommerce",
   "owner": "woocommerce",
@@ -33,13 +33,13 @@
    "name": "GNU General Public License v2.0"
   },
   "stars": 10606,
-  "forks": 10668,
+  "forks": 10667,
   "watchers": 520,
-  "open_issues": 1429,
+  "open_issues": 1458,
   "open_prs": null,
   "created_at": "2011-08-09T15:12:11Z",
-  "pushed_at": "2026-11-20T11:37:22Z",
-  "updated_at": "2026-11-20T05:43:08Z",
+  "pushed_at": "2026-11-20T19:54:15Z",
+  "updated_at": "2026-11-20T14:12:08Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,7 +48,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 1049955,
+  "size_kb": 1051987,
   "og_image": "https://opengraph.githubassets.com/1/woocommerce/woocommerce",
   "custom_og_image": false
  },
@@ -71,7 +71,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-20T11:40:03.348Z",
-  "checked_at": "2026-11-20T11:40:03.348Z"
+  "checked_at": "2026-11-20T20:20:34.012Z"
  },
  "contributors": {
   "count": 2162,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.626Z"
  },
- "details_checked_at": "2026-11-20T11:40:03.348Z"
+ "details_checked_at": "2026-11-20T20:20:34.012Z"
 }

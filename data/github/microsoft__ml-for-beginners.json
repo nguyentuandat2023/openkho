@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:37:59.227Z",
+ "fetched_at": "2026-11-20T20:18:39.520Z",
  "meta": {
   "name": "ML-For-Beginners",
   "owner": "microsoft",
@@ -36,14 +36,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 92341,
-  "forks": 22951,
+  "stars": 92352,
+  "forks": 22956,
   "watchers": 1080,
   "open_issues": 28,
   "open_prs": null,
   "created_at": "2021-03-03T01:34:05Z",
   "pushed_at": "2026-11-07T00:35:05Z",
-  "updated_at": "2026-11-20T11:02:04Z",
+  "updated_at": "2026-11-20T19:10:54Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -81,7 +81,7 @@
   "headings": 19,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.233Z",
-  "checked_at": "2026-11-20T11:40:04.205Z"
+  "checked_at": "2026-11-20T20:20:34.793Z"
  },
  "contributors": {
   "count": 158,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:36.877Z"
  },
- "details_checked_at": "2026-11-20T11:40:04.205Z"
+ "details_checked_at": "2026-11-20T20:20:34.793Z"
 }

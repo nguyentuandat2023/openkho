@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:36:45.130Z",
+ "fetched_at": "2026-11-20T20:17:32.771Z",
  "meta": {
   "name": "pandas",
   "owner": "pandas-dev",
@@ -30,14 +30,14 @@
    "spdx": "BSD-3-Clause",
    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
   },
-  "stars": 50579,
-  "forks": 20768,
-  "watchers": 1141,
-  "open_issues": 1815,
+  "stars": 50580,
+  "forks": 20766,
+  "watchers": 1140,
+  "open_issues": 1804,
   "open_prs": null,
   "created_at": "2010-08-24T01:37:33Z",
-  "pushed_at": "2026-11-19T23:13:45Z",
-  "updated_at": "2026-11-20T10:21:35Z",
+  "pushed_at": "2026-11-20T17:43:26Z",
+  "updated_at": "2026-11-20T18:27:09Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,7 +46,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 427035,
+  "size_kb": 427030,
   "og_image": "https://opengraph.githubassets.com/1/pandas-dev/pandas",
   "custom_og_image": false
  },
@@ -74,7 +74,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.485Z",
-  "checked_at": "2026-11-20T11:40:00.972Z"
+  "checked_at": "2026-11-20T20:20:32.152Z"
  },
  "contributors": {
   "count": 4400,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.923Z"
  },
- "details_checked_at": "2026-11-20T11:40:00.972Z"
+ "details_checked_at": "2026-11-20T20:20:32.152Z"
 }

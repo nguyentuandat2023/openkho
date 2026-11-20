@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:35:36.912Z",
+ "fetched_at": "2026-11-20T20:16:35.838Z",
  "meta": {
   "name": "docling",
   "owner": "docling-project",
@@ -39,14 +39,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 70813,
-  "forks": 5397,
-  "watchers": 219,
-  "open_issues": 1055,
+  "stars": 70820,
+  "forks": 5399,
+  "watchers": 218,
+  "open_issues": 1056,
   "open_prs": null,
   "created_at": "2024-07-09T07:50:26Z",
-  "pushed_at": "2026-11-20T05:40:13Z",
-  "updated_at": "2026-11-20T11:12:10Z",
+  "pushed_at": "2026-11-20T19:09:46Z",
+  "updated_at": "2026-11-20T19:30:31Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,7 +55,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 484601,
+  "size_kb": 484686,
   "og_image": "https://opengraph.githubassets.com/1/docling-project/docling",
   "custom_og_image": false
  },
@@ -88,7 +88,7 @@
   "headings": 19,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.018Z",
-  "checked_at": "2026-11-20T11:39:58.223Z"
+  "checked_at": "2026-11-20T20:20:29.758Z"
  },
  "contributors": {
   "count": 436,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T07:03:47.194Z"
  },
- "details_checked_at": "2026-11-20T11:39:58.223Z"
+ "details_checked_at": "2026-11-20T20:20:29.758Z"
 }

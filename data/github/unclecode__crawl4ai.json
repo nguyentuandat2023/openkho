@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:35:24.453Z",
+ "fetched_at": "2026-11-20T20:16:24.207Z",
  "meta": {
   "name": "crawl4ai",
   "owner": "unclecode",
@@ -40,14 +40,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 87589,
-  "forks": 9142,
+  "stars": 87597,
+  "forks": 9143,
   "watchers": 423,
-  "open_issues": 357,
+  "open_issues": 341,
   "open_prs": null,
   "created_at": "2024-05-09T09:48:50Z",
-  "pushed_at": "2026-11-20T09:47:34Z",
-  "updated_at": "2026-11-20T11:32:02Z",
+  "pushed_at": "2026-11-20T12:51:39Z",
+  "updated_at": "2026-11-20T20:13:48Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,13 +56,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 152141,
+  "size_kb": 152148,
   "og_image": "https://opengraph.githubassets.com/1/unclecode/crawl4ai",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 28252,
+  "length": 28251,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [],
@@ -75,9 +75,9 @@
    },
    "usage": {
     "title": "Advanced usage examples",
-    "html": "<p>More in <a href=\"https://github.com/unclecode/crawl4ai/tree/main/docs/examples\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs/examples</a>.</p>\n<details>\n<summary>📝 <strong>Clean and fit Markdown</strong></summary><pre><code class=\"language-python\">import asyncio\nfrom crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode\nfrom crawl4ai.content_filter_strategy import PruningContentFilterLXML\nfrom crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator\n\nasync def main():\n    run_config = CrawlerRunConfig(\n        cache_mode=CacheMode.BYPASS,\n        markdown_generator=DefaultMarkdownGenerator(\n            content_filter=PruningContentFilterLXML(threshold=0.48, threshold_type=\"fixed\", min_word_threshold=0)\n        ),\n    )\n    async with AsyncWebCrawler(config=BrowserConfig(headless=True)) as crawler:\n        result = await crawler.arun(url=\"https://en.wikipedia.org/wiki/Web_crawler\", config=run_config)\n        print(len(result.markdown.raw_markdown), \"characters of raw Markdown\")\n        print(len(result.markdown.fit_markdown), \"characters after the filter\")\n\nasyncio.run(main())\n</code></pre>\n</details><details>\n<summary>🖥️ <strong>A JavaScript page and structured data, without an LLM</strong></summary><pre><code class=\"language-python\">import asyncio, json\nfrom crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode, JsonCssExtractionStrategy\n\nschema = {\n    \"name\": \"Quotes\",\n    \"baseSelector\": \"div.quote\",\n    \"fields\": [\n        {\"name\": \"text\", \"selector\": \"span.text\", \"type\": \"text\"},\n        {\"name\": \"author\", \"selector\": \"small.author\", \"type\": \"text\"},\n        {\"name\": \"tags\", \"selector\": \"a.tag\", \"type\": \"list\", \"fields\": [{\"name\": \"tag\", \"type\": \"text\"}]},\n    ],\n}\n\nasync def main():\n    run_config = CrawlerRunConfig(\n        extraction_strategy=JsonCssExtractionStrategy(schema),\n        scan_full_page=True,   # scroll to the end, so the page loads every quote\n        scroll_delay=0.5,\n        cache_mode=CacheMode.BYPASS,\n    )\n    async with AsyncWebCrawler(config=BrowserConfig(headless=True)) as crawler:\n        result = await crawler.arun(url=\"https://quotes.toscrape.com/scroll\", config=run_config)\n        quotes = json.loads(result.extracted_content)\n        print(f\"Extracted {len(quotes)} quotes\")\n        print(json.dumps(quotes[0], indent=2))\n\nasyncio.run(main())\n</code></pre>\n</details><details>\n<summary>📚 <strong>Structured data with an LLM</strong></summary><pre><code class=\"language-python\">import os, asyncio\nfrom pydantic import BaseModel, Field\nfrom crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode, LLMConfig, LLMExtractionStrategy\n\nclass ModelFee(BaseModel):\n    model_name: str = Field(..., description=\"Name of the model.\")\n    input_fee: str = Field(..., description=\"Fee for input tokens.\")\n    output_fee: str = Field(..., description=\"Fee for output tokens.\")\n\nasync def main():\n    run_config = CrawlerRunConfig(\n        cache_mode=CacheMode.BYPASS,\n        extraction_strategy=LLMExtractionStrategy(\n            # any provider LiteLLM supports, e.g. \"ollama/llama3.3\" with api_token=\"no-token\"\n            llm_config=LLMConfig(provider=\"openai/gpt-4o-mini\", api_token=os.getenv(\"OPENAI_API_KEY\")),\n            schema=ModelFee.model_json_schema(),\n            extraction_type=\"schema\",\n            instruction=\"Extract every model name with its input and output token fee.\",\n        ),\n    )\n    async with AsyncWebCrawler() as crawler:\n        result = await crawler.arun(url=\"https://openai.com/api/pricing/\", config=run_config)\n        print(result.extracted_content)\n\nasyncio.run(main())\n</code></pre>\n</details><details>\n<summary>🤖 <strong>Your own browser with a saved profile</strong></summary><pre><code class=\"language-python\">import os, asyncio\nfrom pathlib import Path\nfrom crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode\n\nasync def main():\n    user_data_dir = os.path.join(Path.home(), \".crawl4ai\", \"browser_profile\")\n    os.makedirs(user_data_dir, exist_ok=True)\n    browser_config = BrowserConfig(headless=True, user_data_dir=user_data_dir, use_persistent_context=True)\n    run_config = CrawlerRunConfig(cache_mode=CacheMode.BYPASS, magic=True)\n    async with AsyncWebCrawler(config=browser_config) as crawler:\n        result = await crawler.arun(url=\"ADDRESS_OF_A_CHALLENGING_WEBSITE\", config=run_config)\n        print(result.success, len(result.markdown))\n\nasyncio.run(main())\n</code></pre>\n</details>",
+    "html": "<p>More in <a href=\"https://github.com/unclecode/crawl4ai/tree/main/docs/examples\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs/examples</a>.</p>\n<details>\n<summary>📝 <strong>Clean and fit Markdown</strong></summary><pre><code class=\"language-python\">import asyncio\nfrom crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode\nfrom crawl4ai.content_filter_strategy import PruningContentFilterLXML\nfrom crawl4ai.markdown_generation_strategy import DefaultMarkdownGenerator\n\nasync def main():\n    run_config = CrawlerRunConfig(\n        cache_mode=CacheMode.BYPASS,\n        markdown_generator=DefaultMarkdownGenerator(\n            content_filter=PruningContentFilterLXML(threshold=0.48, threshold_type=\"fixed\", min_word_threshold=0)\n        ),\n    )\n    async with AsyncWebCrawler(config=BrowserConfig(headless=True)) as crawler:\n        result = await crawler.arun(url=\"https://en.wikipedia.org/wiki/Web_crawler\", config=run_config)\n        print(len(result.markdown.raw_markdown), \"characters of raw Markdown\")\n        print(len(result.markdown.fit_markdown), \"characters after the filter\")\n\nasyncio.run(main())\n</code></pre>\n</details><details>\n<summary>🖥️ <strong>A JavaScript page and structured data, without an LLM</strong></summary><pre><code class=\"language-python\">import asyncio, json\nfrom crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode, JsonCssExtractionStrategy\n\nschema = {\n    \"name\": \"Quotes\",\n    \"baseSelector\": \"div.quote\",\n    \"fields\": [\n        {\"name\": \"text\", \"selector\": \"span.text\", \"type\": \"text\"},\n        {\"name\": \"author\", \"selector\": \"small.author\", \"type\": \"text\"},\n        {\"name\": \"tags\", \"selector\": \"a.tag\", \"type\": \"list\", \"fields\": [{\"name\": \"tag\", \"type\": \"text\"}]},\n    ],\n}\n\nasync def main():\n    run_config = CrawlerRunConfig(\n        extraction_strategy=JsonCssExtractionStrategy(schema),\n        scan_full_page=True,   # scroll to the end, so the page loads every quote\n        scroll_delay=0.5,\n        cache_mode=CacheMode.BYPASS,\n    )\n    async with AsyncWebCrawler(config=BrowserConfig(headless=True)) as crawler:\n        result = await crawler.arun(url=\"https://quotes.toscrape.com/scroll\", config=run_config)\n        quotes = json.loads(result.extracted_content)\n        print(f\"Extracted {len(quotes)} quotes\")\n        print(json.dumps(quotes[0], indent=2))\n\nasyncio.run(main())\n</code></pre>\n</details><details>\n<summary>📚 <strong>Structured data with an LLM</strong></summary><pre><code class=\"language-python\">import os, asyncio\nfrom pydantic import BaseModel, Field\nfrom crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode, LLMConfig, LLMExtractionStrategy\n\nclass ModelFee(BaseModel):\n    model_name: str = Field(..., description=\"Name of the model.\")\n    input_fee: str = Field(..., description=\"Fee for input tokens.\")\n    output_fee: str = Field(..., description=\"Fee for output tokens.\")\n\nasync def main():\n    run_config = CrawlerRunConfig(\n        cache_mode=CacheMode.BYPASS,\n        extraction_strategy=LLMExtractionStrategy(\n            # any provider LiteLLM supports, e.g. \"ollama/llama3.3\" with api_token=\"no-token\"\n            llm_config=LLMConfig(provider=\"openai/gpt-6-luna\", api_token=os.getenv(\"OPENAI_API_KEY\")),\n            schema=ModelFee.model_json_schema(),\n            extraction_type=\"schema\",\n            instruction=\"Extract every model name with its input and output token fee.\",\n        ),\n    )\n    async with AsyncWebCrawler() as crawler:\n        result = await crawler.arun(url=\"https://openai.com/api/pricing/\", config=run_config)\n        print(result.extracted_content)\n\nasyncio.run(main())\n</code></pre>\n</details><details>\n<summary>🤖 <strong>Your own browser with a saved profile</strong></summary><pre><code class=\"language-python\">import os, asyncio\nfrom pathlib import Path\nfrom crawl4ai import AsyncWebCrawler, BrowserConfig, CrawlerRunConfig, CacheMode\n\nasync def main():\n    user_data_dir = os.path.join(Path.home(), \".crawl4ai\", \"browser_profile\")\n    os.makedirs(user_data_dir, exist_ok=True)\n    browser_config = BrowserConfig(headless=True, user_data_dir=user_data_dir, use_persistent_context=True)\n    run_config = CrawlerRunConfig(cache_mode=CacheMode.BYPASS, magic=True)\n    async with AsyncWebCrawler(config=browser_config) as crawler:\n        result = await crawler.arun(url=\"ADDRESS_OF_A_CHALLENGING_WEBSITE\", config=run_config)\n        print(result.success, len(result.markdown))\n\nasyncio.run(main())\n</code></pre>\n</details>",
     "truncated": false,
-    "chars": 4313
+    "chars": 4312
    },
    "features": {
     "title": "Features",
@@ -88,8 +88,8 @@
   },
   "headings": 21,
   "processor": 4,
-  "fetched_at": "2026-11-17T21:01:30.174Z",
-  "checked_at": "2026-11-20T11:39:57.751Z"
+  "fetched_at": "2026-11-20T20:20:29.317Z",
+  "checked_at": "2026-11-20T20:20:29.317Z"
  },
  "contributors": {
   "count": 104,
@@ -97,5 +97,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:34.621Z"
  },
- "details_checked_at": "2026-11-20T11:39:57.751Z"
+ "details_checked_at": "2026-11-20T20:20:29.317Z"
 }

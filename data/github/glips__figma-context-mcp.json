@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:38:33.163Z",
+ "fetched_at": "2026-11-20T20:19:10.506Z",
  "meta": {
   "name": "Figma-Context-MCP",
   "owner": "GLips",
@@ -29,14 +29,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 16267,
-  "forks": 1294,
+  "stars": 16266,
+  "forks": 1295,
   "watchers": 59,
   "open_issues": 30,
   "open_prs": null,
   "created_at": "2025-02-13T02:55:06Z",
   "pushed_at": "2026-11-15T22:22:42Z",
-  "updated_at": "2026-11-20T09:39:12Z",
+  "updated_at": "2026-11-20T19:59:33Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -74,7 +74,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.489Z",
-  "checked_at": "2026-11-20T11:40:05.771Z"
+  "checked_at": "2026-11-20T20:20:36.032Z"
  },
  "contributors": {
   "count": 30,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.550Z"
  },
- "details_checked_at": "2026-11-20T11:40:05.771Z"
+ "details_checked_at": "2026-11-20T20:20:36.032Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:36:53.994Z",
+ "fetched_at": "2026-11-20T20:17:40.477Z",
  "meta": {
   "name": "pymc-marketing",
   "owner": "pymc-labs",
@@ -89,7 +89,7 @@
   "headings": 24,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.876Z",
-  "checked_at": "2026-11-20T11:40:01.220Z"
+  "checked_at": "2026-11-20T20:20:32.420Z"
  },
  "contributors": {
   "count": 119,
@@ -97,5 +97,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:33.238Z"
  },
- "details_checked_at": "2026-11-20T11:40:01.220Z"
+ "details_checked_at": "2026-11-20T20:20:32.420Z"
 }

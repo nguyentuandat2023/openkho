@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:36:40.476Z",
+ "fetched_at": "2026-11-20T20:17:29.149Z",
  "meta": {
   "name": "WrenAI",
   "owner": "Canner",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 18350,
+  "stars": 18354,
   "forks": 2119,
   "watchers": 102,
-  "open_issues": 244,
+  "open_issues": 246,
   "open_prs": null,
   "created_at": "2024-03-13T06:18:20Z",
   "pushed_at": "2026-11-20T11:25:19Z",
-  "updated_at": "2026-11-20T11:02:16Z",
+  "updated_at": "2026-11-20T17:32:53Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 56129,
+  "size_kb": 56064,
   "og_image": "https://opengraph.githubassets.com/1/Canner/WrenAI",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "headings": 20,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.381Z",
-  "checked_at": "2026-11-20T11:40:00.768Z"
+  "checked_at": "2026-11-20T20:20:32.047Z"
  },
  "contributors": {
   "count": 95,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.644Z"
  },
- "details_checked_at": "2026-11-20T11:40:00.768Z"
+ "details_checked_at": "2026-11-20T20:20:32.047Z"
 }

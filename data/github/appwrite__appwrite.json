@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:36:55.844Z",
+ "fetched_at": "2026-11-20T20:17:42.138Z",
  "meta": {
   "name": "appwrite",
   "owner": "appwrite",
@@ -44,14 +44,14 @@
    "spdx": "BSD-3-Clause",
    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
   },
-  "stars": 58422,
-  "forks": 5908,
+  "stars": 58437,
+  "forks": 5909,
   "watchers": 457,
-  "open_issues": 746,
+  "open_issues": 738,
   "open_prs": null,
   "created_at": "2019-04-08T16:36:25Z",
-  "pushed_at": "2026-11-20T11:24:20Z",
-  "updated_at": "2026-11-20T10:25:46Z",
+  "pushed_at": "2026-11-20T18:36:27Z",
+  "updated_at": "2026-11-20T20:06:36Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 1211505,
+  "size_kb": 1213722,
   "og_image": "https://opengraph.githubassets.com/1/appwrite/appwrite",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "headings": 20,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.861Z",
-  "checked_at": "2026-11-20T11:40:01.320Z"
+  "checked_at": "2026-11-20T20:20:32.560Z"
  },
  "contributors": {
   "count": 556,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:33.419Z"
  },
- "details_checked_at": "2026-11-20T11:40:01.320Z"
+ "details_checked_at": "2026-11-20T20:20:32.560Z"
 }

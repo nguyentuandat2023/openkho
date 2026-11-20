@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:38:09.623Z",
+ "fetched_at": "2026-11-20T20:18:48.934Z",
  "meta": {
   "name": "developer-roadmap",
   "owner": "nilbuild",
@@ -42,14 +42,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 372420,
+  "stars": 372446,
   "forks": 46521,
   "watchers": 6858,
   "open_issues": 5,
   "open_prs": null,
   "created_at": "2017-03-15T13:45:52Z",
-  "pushed_at": "2026-11-19T10:52:06Z",
-  "updated_at": "2026-11-20T10:56:01Z",
+  "pushed_at": "2026-11-20T16:39:22Z",
+  "updated_at": "2026-11-20T20:13:19Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,7 +58,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 364862,
+  "size_kb": 364997,
   "og_image": "https://opengraph.githubassets.com/1/nilbuild/developer-roadmap",
   "custom_og_image": false
  },
@@ -76,7 +76,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.580Z",
-  "checked_at": "2026-11-20T11:40:04.801Z"
+  "checked_at": "2026-11-20T20:20:35.181Z"
  },
  "contributors": {
   "count": 1637,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:37.549Z"
  },
- "details_checked_at": "2026-11-20T11:40:04.801Z"
+ "details_checked_at": "2026-11-20T20:20:35.181Z"
 }

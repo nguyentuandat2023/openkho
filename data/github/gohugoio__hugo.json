@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:39:49.362Z",
+ "fetched_at": "2026-11-20T20:20:21.795Z",
  "meta": {
   "name": "hugo",
   "owner": "gohugoio",
@@ -31,14 +31,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 90528,
-  "forks": 8544,
+  "stars": 90530,
+  "forks": 8545,
   "watchers": 1090,
-  "open_issues": 221,
+  "open_issues": 222,
   "open_prs": null,
   "created_at": "2013-07-04T15:26:26Z",
   "pushed_at": "2026-11-19T17:42:51Z",
-  "updated_at": "2026-11-20T07:55:12Z",
+  "updated_at": "2026-11-20T20:02:23Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -70,7 +70,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.554Z",
-  "checked_at": "2026-11-20T11:40:09.461Z"
+  "checked_at": "2026-11-20T20:20:38.946Z"
  },
  "contributors": {
   "count": 939,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.486Z"
  },
- "details_checked_at": "2026-11-20T11:40:09.461Z"
+ "details_checked_at": "2026-11-20T20:20:38.946Z"
 }

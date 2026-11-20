@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:39:11.535Z",
+ "fetched_at": "2026-11-20T20:19:44.803Z",
  "meta": {
   "name": "AutoHotkey",
   "owner": "AutoHotkey",
@@ -65,7 +65,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.015Z",
-  "checked_at": "2026-11-20T11:40:07.580Z"
+  "checked_at": "2026-11-20T20:20:37.478Z"
  },
  "contributors": {
   "count": 30,
@@ -73,5 +73,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.325Z"
  },
- "details_checked_at": "2026-11-20T11:40:07.580Z"
+ "details_checked_at": "2026-11-20T20:20:37.478Z"
 }

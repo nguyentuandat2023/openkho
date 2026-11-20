@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:39:25.441Z",
+ "fetched_at": "2026-11-20T20:19:58.809Z",
  "meta": {
   "name": "BookStack",
   "owner": "BookStackApp",
@@ -36,8 +36,8 @@
   "open_issues": 3,
   "open_prs": null,
   "created_at": "2015-08-29T10:26:44Z",
-  "pushed_at": "2026-11-20T04:31:57Z",
-  "updated_at": "2026-11-19T19:41:50Z",
+  "pushed_at": "2026-11-20T17:33:39Z",
+  "updated_at": "2026-11-20T18:45:46Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,7 +46,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 53173,
+  "size_kb": 53186,
   "og_image": "https://opengraph.githubassets.com/1/BookStackApp/BookStack",
   "custom_og_image": false
  },
@@ -64,7 +64,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.674Z",
-  "checked_at": "2026-11-20T11:40:08.292Z"
+  "checked_at": "2026-11-20T20:20:38.075Z"
  },
  "contributors": {
   "count": 242,
@@ -72,5 +72,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.236Z"
  },
- "details_checked_at": "2026-11-20T11:40:08.292Z"
+ "details_checked_at": "2026-11-20T20:20:38.075Z"
 }

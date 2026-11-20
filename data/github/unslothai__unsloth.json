@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:35:41.768Z",
+ "fetched_at": "2026-11-20T20:16:39.836Z",
  "meta": {
   "name": "unsloth",
   "owner": "unslothai",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 79826,
+  "stars": 79837,
   "forks": 7448,
-  "watchers": 383,
-  "open_issues": 481,
+  "watchers": 382,
+  "open_issues": 467,
   "open_prs": null,
   "created_at": "2023-11-29T16:50:09Z",
-  "pushed_at": "2026-11-20T11:34:41Z",
-  "updated_at": "2026-11-20T11:01:21Z",
+  "pushed_at": "2026-11-20T20:13:54Z",
+  "updated_at": "2026-11-20T19:56:29Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 727474,
+  "size_kb": 731245,
   "og_image": "https://opengraph.githubassets.com/1/unslothai/unsloth",
   "custom_og_image": false
  },
@@ -88,7 +88,7 @@
   "headings": 40,
   "processor": 4,
   "fetched_at": "2026-11-19T20:41:40.415Z",
-  "checked_at": "2026-11-20T11:39:58.411Z"
+  "checked_at": "2026-11-20T20:20:29.913Z"
  },
  "contributors": {
   "count": 455,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T07:03:48.345Z"
  },
- "details_checked_at": "2026-11-20T11:39:58.411Z"
+ "details_checked_at": "2026-11-20T20:20:29.913Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:38:12.498Z",
+ "fetched_at": "2026-11-20T20:18:52.068Z",
  "meta": {
   "name": "posthog",
   "owner": "PostHog",
@@ -39,14 +39,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 40985,
-  "forks": 3718,
+  "stars": 40990,
+  "forks": 3716,
   "watchers": 149,
-  "open_issues": 4480,
+  "open_issues": 4440,
   "open_prs": null,
   "created_at": "2020-01-23T22:46:58Z",
-  "pushed_at": "2026-11-20T11:37:29Z",
-  "updated_at": "2026-11-20T11:00:58Z",
+  "pushed_at": "2026-11-20T20:18:18Z",
+  "updated_at": "2026-11-20T19:21:57Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,7 +55,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 9636884,
+  "size_kb": 9670606,
   "og_image": "https://opengraph.githubassets.com/1/PostHog/posthog",
   "custom_og_image": false
  },
@@ -84,7 +84,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.738Z",
-  "checked_at": "2026-11-20T11:40:04.780Z"
+  "checked_at": "2026-11-20T20:20:35.316Z"
  },
  "contributors": {
   "count": 601,
@@ -92,5 +92,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:37.563Z"
  },
- "details_checked_at": "2026-11-20T11:40:04.780Z"
+ "details_checked_at": "2026-11-20T20:20:35.316Z"
 }

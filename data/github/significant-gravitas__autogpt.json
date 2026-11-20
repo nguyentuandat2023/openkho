@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:34:47.885Z",
+ "fetched_at": "2026-11-20T20:15:53.924Z",
  "meta": {
   "name": "AutoGPT",
   "owner": "Significant-Gravitas",
@@ -35,14 +35,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 188120,
-  "forks": 45851,
-  "watchers": 1526,
-  "open_issues": 786,
+  "stars": 188116,
+  "forks": 45846,
+  "watchers": 1527,
+  "open_issues": 772,
   "open_prs": null,
   "created_at": "2023-03-16T09:21:07Z",
-  "pushed_at": "2026-11-20T11:33:11Z",
-  "updated_at": "2026-11-20T10:33:18Z",
+  "pushed_at": "2026-11-20T20:13:05Z",
+  "updated_at": "2026-11-20T20:06:33Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,7 +51,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 680147,
+  "size_kb": 678200,
   "og_image": "https://opengraph.githubassets.com/1/Significant-Gravitas/AutoGPT",
   "custom_og_image": false
  },
@@ -74,7 +74,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:19.043Z",
-  "checked_at": "2026-11-20T11:39:56.232Z"
+  "checked_at": "2026-11-20T20:20:27.870Z"
  },
  "contributors": {
   "count": 876,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:19.538Z"
  },
- "details_checked_at": "2026-11-20T11:39:56.232Z"
+ "details_checked_at": "2026-11-20T20:20:27.870Z"
 }

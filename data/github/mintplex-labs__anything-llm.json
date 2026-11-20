@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:36:08.692Z",
+ "fetched_at": "2026-11-20T20:17:02.170Z",
  "meta": {
   "name": "anything-llm",
   "owner": "Mintplex-Labs",
@@ -39,14 +39,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 68459,
-  "forks": 7739,
+  "stars": 68468,
+  "forks": 7740,
   "watchers": 411,
-  "open_issues": 345,
+  "open_issues": 337,
   "open_prs": null,
   "created_at": "2023-06-04T02:29:14Z",
-  "pushed_at": "2026-11-20T01:32:49Z",
-  "updated_at": "2026-11-20T11:21:29Z",
+  "pushed_at": "2026-11-20T19:22:38Z",
+  "updated_at": "2026-11-20T18:05:49Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -89,7 +89,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-18T03:01:34.130Z",
-  "checked_at": "2026-11-20T11:39:59.550Z"
+  "checked_at": "2026-11-20T20:20:30.947Z"
  },
  "contributors": {
   "count": 297,
@@ -97,5 +97,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.344Z"
  },
- "details_checked_at": "2026-11-20T11:39:59.550Z"
+ "details_checked_at": "2026-11-20T20:20:30.947Z"
 }

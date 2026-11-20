@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:36:17.931Z",
+ "fetched_at": "2026-11-20T20:17:09.812Z",
  "meta": {
   "name": "llama_index",
   "owner": "run-llama",
@@ -34,14 +34,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 52967,
-  "forks": 8598,
+  "stars": 52969,
+  "forks": 8604,
   "watchers": 292,
-  "open_issues": 1502,
+  "open_issues": 1511,
   "open_prs": null,
   "created_at": "2022-11-02T04:24:54Z",
   "pushed_at": "2026-11-20T00:46:38Z",
-  "updated_at": "2026-11-20T10:06:54Z",
+  "updated_at": "2026-11-20T18:02:38Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -73,7 +73,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.509Z",
-  "checked_at": "2026-11-20T11:39:59.869Z"
+  "checked_at": "2026-11-20T20:20:31.188Z"
  },
  "contributors": {
   "count": 2010,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.757Z"
  },
- "details_checked_at": "2026-11-20T11:39:59.869Z"
+ "details_checked_at": "2026-11-20T20:20:31.188Z"
 }

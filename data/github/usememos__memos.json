@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T11:39:07.368Z",
+ "fetched_at": "2026-11-20T20:19:41.465Z",
  "meta": {
   "name": "memos",
   "owner": "usememos",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 64587,
+  "stars": 64594,
   "forks": 4977,
   "watchers": 184,
-  "open_issues": 64,
+  "open_issues": 65,
   "open_prs": null,
   "created_at": "2021-12-08T15:30:18Z",
   "pushed_at": "2026-11-20T01:04:42Z",
-  "updated_at": "2026-11-20T09:41:18Z",
+  "updated_at": "2026-11-20T18:31:28Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -77,7 +77,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.816Z",
-  "checked_at": "2026-11-20T11:40:07.382Z"
+  "checked_at": "2026-11-20T20:20:37.318Z"
  },
  "contributors": {
   "count": 424,
@@ -85,5 +85,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.127Z"
  },
- "details_checked_at": "2026-11-20T11:40:07.382Z"
+ "details_checked_at": "2026-11-20T20:20:37.318Z"
 }
