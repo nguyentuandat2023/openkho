@@ -4068,6 +4068,253 @@
     "[03:43:39] Xếp hạng: 3340 repo · có Trending 24h/7d/30d: 1409/54/303 · Hidden Gem 235 · trang radar 600 (+6/−6)"
    ],
    "next_due_at": "2026-11-20T20:43:38.077Z"
+  },
+  {
+   "id": "2026-11-20T02-18-27-146Z_discover",
+   "job": "discover",
+   "trigger": "actions",
+   "status": "success",
+   "started_at": "2026-11-20T02:18:27.146Z",
+   "host": "ip-10-0-136-198",
+   "pid": 2602,
+   "log_file": ".cache/jobs/logs/2026-11-20T02-18-27-146Z_discover.log",
+   "chained": {
+    "id": "2026-11-20T02-19-41-035Z_rank",
+    "status": "success",
+    "summary": "Trending 7 ngày: 69 repo · 244 hidden gem · 600 trang radar"
+   },
+   "finished_at": "2026-11-20T02:19:42.840Z",
+   "duration_ms": 75694,
+   "attempts": 1,
+   "error": null,
+   "summary": "684 repo mới, 2070 cập nhật, radar 3000",
+   "stats": {
+    "queries": 30,
+    "query_errors": 0,
+    "items": 2948,
+    "new": 684,
+    "updated": 2070,
+    "renamed": 0,
+    "curated_seen": 194,
+    "excluded": 0,
+    "snapshots": 2948,
+    "by_group": {
+     "new7": {
+      "found": 100,
+      "new": 13,
+      "total": 2026
+     },
+     "new30": {
+      "found": 200,
+      "new": 8,
+      "total": 3362
+     },
+     "new90": {
+      "found": 200,
+      "new": 0,
+      "total": 2767
+     },
+     "popular": {
+      "found": 200,
+      "new": 0,
+      "total": 2277
+     },
+     "young_active": {
+      "found": 100,
+      "new": 0,
+      "total": 3025
+     },
+     "topic:self-hosted": {
+      "found": 100,
+      "new": 33,
+      "total": 821
+     },
+     "gem:self-hosted": {
+      "found": 100,
+      "new": 1,
+      "total": 1657
+     },
+     "topic:devops": {
+      "found": 100,
+      "new": 83,
+      "total": 308
+     },
+     "gem:devops": {
+      "found": 100,
+      "new": 1,
+      "total": 252
+     },
+     "topic:kubernetes": {
+      "found": 100,
+      "new": 53,
+      "total": 777
+     },
+     "gem:kubernetes": {
+      "found": 100,
+      "new": 1,
+      "total": 274
+     },
+     "topic:database": {
+      "found": 100,
+      "new": 49,
+      "total": 505
+     },
+     "gem:database": {
+      "found": 100,
+      "new": 14,
+      "total": 176
+     },
+     "topic:security": {
+      "found": 100,
+      "new": 51,
+      "total": 783
+     },
+     "gem:security": {
+      "found": 100,
+      "new": 2,
+      "total": 482
+     },
+     "topic:data-science": {
+      "found": 100,
+      "new": 68,
+      "total": 268
+     },
+     "gem:data-science": {
+      "found": 76,
+      "new": 34,
+      "total": 76
+     },
+     "topic:flutter": {
+      "found": 100,
+      "new": 68,
+      "total": 326
+     },
+     "gem:flutter": {
+      "found": 100,
+      "new": 1,
+      "total": 226
+     },
+     "topic:ui-components": {
+      "found": 100,
+      "new": 39,
+      "total": 116
+     },
+     "gem:ui-components": {
+      "found": 72,
+      "new": 28,
+      "total": 72
+     },
+     "topic:api": {
+      "found": 100,
+      "new": 66,
+      "total": 472
+     },
+     "gem:api": {
+      "found": 100,
+      "new": 5,
+      "total": 281
+     },
+     "topic:productivity": {
+      "found": 100,
+      "new": 66,
+      "total": 227
+     },
+     "gem:productivity": {
+      "found": 100,
+      "new": 0,
+      "total": 456
+     },
+     "topic:llm": {
+      "found": 100,
+      "new": 0,
+      "total": 1378
+     },
+     "gem:llm": {
+      "found": 100,
+      "new": 0,
+      "total": 2988
+     }
+    },
+    "dropped": 684,
+    "readme_fetched": 58,
+    "radar_total": 3000
+   },
+   "changed": true,
+   "log_tail": [
+    "[09:18:49]   gem:self-hosted        trang 1: 100 repo (tổng khớp 1.657) · search còn 20/phút",
+    "[09:18:52]   topic:devops           trang 1: 100 repo (tổng khớp 308) · search còn 19/phút",
+    "[09:18:54]   gem:devops             trang 1: 100 repo (tổng khớp 252) · search còn 18/phút",
+    "[09:18:56]   topic:kubernetes       trang 1: 100 repo (tổng khớp 777) · search còn 17/phút",
+    "[09:18:59]   gem:kubernetes         trang 1: 100 repo (tổng khớp 274) · search còn 16/phút",
+    "[09:19:02]   topic:database         trang 1: 100 repo (tổng khớp 505) · search còn 15/phút",
+    "[09:19:04]   gem:database           trang 1: 100 repo (tổng khớp 176) · search còn 14/phút",
+    "[09:19:07]   topic:security         trang 1: 100 repo (tổng khớp 783) · search còn 13/phút",
+    "[09:19:10]   gem:security           trang 1: 100 repo (tổng khớp 482) · search còn 12/phút",
+    "[09:19:12]   topic:data-science     trang 1: 100 repo (tổng khớp 268) · search còn 11/phút",
+    "[09:19:15]   gem:data-science       trang 1:  76 repo (tổng khớp 76) · search còn 10/phút",
+    "[09:19:17]   topic:flutter          trang 1: 100 repo (tổng khớp 326) · search còn 9/phút",
+    "[09:19:19]   gem:flutter            trang 1: 100 repo (tổng khớp 226) · search còn 8/phút",
+    "[09:19:22]   topic:ui-components    trang 1: 100 repo (tổng khớp 116) · search còn 7/phút",
+    "[09:19:24]   gem:ui-components      trang 1:  72 repo (tổng khớp 72) · search còn 6/phút",
+    "[09:19:26]   topic:api              trang 1: 100 repo (tổng khớp 472) · search còn 5/phút",
+    "[09:19:29]   gem:api                trang 1: 100 repo (tổng khớp 281) · search còn 4/phút",
+    "[09:19:32]   topic:productivity     trang 1: 100 repo (tổng khớp 227) · search còn 29/phút",
+    "[09:19:35]   gem:productivity       trang 1: 100 repo (tổng khớp 456) · search còn 28/phút",
+    "[09:19:37]   topic:llm              trang 1: 100 repo (tổng khớp 1.378) · search còn 27/phút",
+    "[09:19:39]   gem:llm                trang 1: 100 repo (tổng khớp 2.988) · search còn 26/phút",
+    "[09:19:39]   Radar vượt giới hạn 3000 → bỏ 684 repo ít giá trị nhất",
+    "[09:19:40]   README: 58 lấy được, 2 repo không có README (60 ứng viên)",
+    "[09:19:41] Khám phá xong: 684 repo mới · 2070 cập nhật · 194 thuộc catalog · radar có 3000 repo",
+    "[09:19:41] ↳ Xếp hạng lại sau khi dữ liệu thay đổi"
+   ],
+   "next_due_at": "2026-11-20T05:18:27.146Z"
+  },
+  {
+   "id": "2026-11-20T02-19-41-035Z_rank",
+   "job": "rank",
+   "trigger": "sau discover",
+   "status": "success",
+   "started_at": "2026-11-20T02:19:41.035Z",
+   "host": "ip-10-0-136-198",
+   "pid": 2602,
+   "log_file": ".cache/jobs/logs/2026-11-20T02-19-41-035Z_rank.log",
+   "finished_at": "2026-11-20T02:19:42.838Z",
+   "duration_ms": 1803,
+   "attempts": 1,
+   "error": null,
+   "summary": "Trending 7 ngày: 69 repo · 244 hidden gem · 600 trang radar",
+   "stats": {
+    "repos": 3340,
+    "curated": 340,
+    "radar": 3000,
+    "with_trending": {
+     "d1": 1990,
+     "d7": 69,
+     "d30": 324
+    },
+    "growth_methods": {
+     "d1:snapshots": 2054,
+     "d7:none": 3212,
+     "d30:none": 2896,
+     "d1:none": 1283,
+     "d30:created_in_window": 444,
+     "d7:created_in_window": 128,
+     "d1:created_in_window": 3
+    },
+    "gems": 244,
+    "suppressed": 105,
+    "anomalies": 74,
+    "published_total": 600,
+    "published_added": 0,
+    "published_removed": 0,
+    "history_points": 3340
+   },
+   "changed": true,
+   "log_tail": [
+    "[09:19:41] ▶ Bắt đầu job \"rank\" (kích hoạt: sau discover, lượt 2026-11-20T02-19-41-035Z_rank)",
+    "[09:19:42] Xếp hạng: 3340 repo · có Trending 24h/7d/30d: 1990/69/324 · Hidden Gem 244 · trang radar 600 (+0/−0)"
+   ],
+   "next_due_at": "2026-11-21T02:19:41.035Z"
   }
  ]
 }

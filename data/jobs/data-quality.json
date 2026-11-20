@@ -1,17 +1,43 @@
 {
- "computed_at": "2026-11-19T20:43:38.080Z",
+ "computed_at": "2026-11-20T02:19:41.037Z",
  "curated_missing_github_id": [],
  "missing_contributors": 2397,
  "stale_over_48h": [
+  "Arda313131882/aion-2-trainer-tool",
+  "App-MonicaWEB/auslogics-audio-studio-desktop",
+  "Leno27-Adr/autodesk-revit-2026-standalone",
+  "theonlyoneexocctical-beep/cellebrite-ufed-setup",
+  "woo20080623-cell/cinebench-desktop",
+  "sajawal-12/cubase-studio-desktop",
+  "IsaiaR09/daemon-pro-desktop",
+  "kcgeekedup-hash/delta-force-trainer-tool",
+  "Elegantic/designcenter-nx-desktop",
+  "Sanidhya0510/dvd-creator-game-enhancement",
   "RyoTheOne/dxo-photolab-10-config",
+  "Luk177Master/easy-worship-desktop",
+  "Gacktadactle/fortnite-skin-swapper-enhancement",
+  "robertsjunior/fonetrans-desktop-setup",
+  "hayfa1234/honkai-star-rail-enhancement-suite",
+  "dikshantghimire321-droid/kontakt-8-config",
+  "daiphu2708-crypto/melodyne-5-desktop-setup",
+  "pastebin2019/multiaccountmanager-enhancement",
+  "Eriazeri/on1-photo-raw-max-config",
+  "shahnawaz0786/payday-3-enhancement-toolkit",
+  "Marcian15350/mt5-tradeprotocol",
+  "farhatullah0006-art/rx-11-audio-editor-config",
   "Malik-825/sketchup-pro-desktop",
+  "muddinenilakshmilalithaksh-create/sp-flash-tool",
+  "RafliAbdulHaliim/sylenth-1-enhancement-suite",
+  "Forgavin/ultra-iso-desktop-setup",
+  "arthurrossetocampos1-crypto/uttorent-desktop",
+  "hitkeeen/blender-ai-mcp-addon",
   "DevedevT/FFmpeg-GUI-Editor-Windows",
   "amber-lance-72/xeno-roblox-desktop",
   "phamcucpqrwbbnposhmn96-ui/KSNStudy",
   "trackboatwrightplan/GitHub-Copilot-app",
   "trackboatwrightplan/ai--manus2.0"
  ],
- "low_quality_coverage": 1823,
+ "low_quality_coverage": 1764,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -642,6 +668,12 @@
    ]
   },
   {
+   "id": "EunChae1110/mmforge-platform",
+   "reasons": [
+    "+347 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
    "id": "ariamitchell54/cubase-studio-desktop",
    "reasons": [
     "+307 sao nhưng chỉ +0 fork trong cùng kỳ"
@@ -856,68 +888,18 @@
    "reasons": [
     "rất ít người đóng góp (3) so với tốc độ tăng sao"
    ]
+  },
+  {
+   "id": "bookwjitchieni1986/blender-ai-mcp-addon",
+   "reasons": [
+    "+615 sao nhưng chỉ +1 fork trong cùng kỳ"
+   ]
   }
  ],
  "published_changes": {
-  "added": [
-   {
-    "gid": "23088740",
-    "full_name": "axios/axios"
-   },
-   {
-    "gid": "54173593",
-    "full_name": "storybookjs/storybook"
-   },
-   {
-    "gid": "34526884",
-    "full_name": "ant-design/ant-design"
-   },
-   {
-    "gid": "1435353917",
-    "full_name": "robertnisipeanu/mgu-store"
-   },
-   {
-    "gid": "13807606",
-    "full_name": "junegunn/fzf"
-   },
-   {
-    "gid": "221981891",
-    "full_name": "microsoft/playwright"
-   }
-  ],
-  "removed": [
-   {
-    "gid": "1448721787",
-    "full_name": "AbhiKamane/ai-app-builder-open",
-    "why": "trạng thái not_found"
-   },
-   {
-    "gid": "1448734795",
-    "full_name": "ayanprob/coreldraw-desktop-installer",
-    "why": "trạng thái not_found"
-   },
-   {
-    "gid": "1448742423",
-    "full_name": "abhijot11/fabfilter-total",
-    "why": "trạng thái not_found"
-   },
-   {
-    "gid": "1448751207",
-    "full_name": "RolandoV3/metatrader-5-bot",
-    "why": "trạng thái not_found"
-   },
-   {
-    "gid": "1448752369",
-    "full_name": "ilsa99/microsoft-365-desktop",
-    "why": "trạng thái not_found"
-   },
-   {
-    "gid": "1457194288",
-    "full_name": "azuremaple1997/coreldraw-desktop",
-    "why": "thuộc cụm repo nhân bản đáng ngờ"
-   }
-  ],
-  "kept": 594
+  "added": [],
+  "removed": [],
+  "kept": 600
  },
  "suppressed_clusters": [
   {
