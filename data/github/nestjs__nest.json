@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:38:37.971Z",
+ "fetched_at": "2026-11-20T11:37:08.335Z",
  "meta": {
   "name": "nest",
   "owner": "nestjs",
@@ -37,14 +37,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 77114,
-  "forks": 8736,
-  "watchers": 791,
-  "open_issues": 41,
+  "stars": 77116,
+  "forks": 8737,
+  "watchers": 790,
+  "open_issues": 35,
   "open_prs": null,
   "created_at": "2017-02-04T20:12:52Z",
-  "pushed_at": "2026-11-19T19:43:04Z",
-  "updated_at": "2026-11-19T20:19:45Z",
+  "pushed_at": "2026-11-20T11:26:24Z",
+  "updated_at": "2026-11-20T08:55:31Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,35 +53,35 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 495687,
+  "size_kb": 495794,
   "og_image": "https://opengraph.githubassets.com/1/nestjs/nest",
   "custom_og_image": false
  },
  "readme": {
   "path": "Readme.md",
-  "length": 15741,
+  "length": 16567,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
   "sections": {
    "install": {
     "title": "Quick start",
-    "html": "<pre><code class=\"language-bash\">npx @nestjs/cli new my-api\ncd my-api\nnpm run start:dev\n</code></pre>\n<p>Add <code>--minimal</code> to start from a single file. An application can be this small:</p>\n<pre><code class=\"language-typescript\">import { Controller, Get } from '@nestjs/common';\nimport { NestFactory } from '@nestjs/core';\n\n@Controller()\nclass AppController {\n  @Get()\n  hello() {\n    return 'Hello, Nest!';\n  }\n}\n\nconst app = await NestFactory.create({ controllers: [AppController] });\nawait app.listen(3000);\n</code></pre>\n<p>The object passed to <code>NestFactory.create()</code> is the root module's metadata, so <code>imports</code> and <code>providers</code> work there too. Move it into a <code>@Module()</code> class when the root module needs middleware, or for <code>nest generate</code> to register what it creates.</p>\n<p>Run it with <code>npm run start:dev</code>, like any other Nest project. The Nest CLI compiles it with the decorator metadata that constructor injection by type and <code>ValidationPipe</code> rely on. Tools that don't emit that metadata, such as <code>tsx</code>, leave injected dependencies <code>undefined</code>.</p>",
+    "html": "<pre><code class=\"language-bash\">npx @nestjs/cli new my-api\ncd my-api\nnpm run start:dev\n</code></pre>\n<p>A coding agent or a script can create the project in the current folder with <code>npx @nestjs/cli new . --skip-git --package-manager npm</code>, which asks nothing when stdin isn't a terminal and adds an <code>AGENTS.md</code> for the agent to read.</p>\n<p>Add <code>--minimal</code> to start from a single file. An application can be this small:</p>\n<pre><code class=\"language-typescript\">import { Controller, Get } from '@nestjs/common';\nimport { NestFactory } from '@nestjs/core';\n\n@Controller()\nclass AppController {\n  @Get()\n  hello() {\n    return 'Hello, Nest!';\n  }\n}\n\nconst app = await NestFactory.create({ controllers: [AppController] });\nawait app.listen(3000);\n</code></pre>\n<p>The object passed to <code>NestFactory.create()</code> is the root module's metadata, so <code>imports</code> and <code>providers</code> work there too. Move it into a <code>@Module()</code> class when the root module needs middleware, or for <code>nest generate</code> to register what it creates.</p>\n<p>Run it with <code>npm run start:dev</code>, like any other Nest project. The Nest CLI compiles it with the decorator metadata that constructor injection by type and <code>ValidationPipe</code> rely on. Tools that don't emit that metadata, such as <code>tsx</code>, leave injected dependencies <code>undefined</code>.</p>",
     "truncated": false,
-    "chars": 970
+    "chars": 1200
    },
    "usage": {
     "title": "Using a coding agent",
-    "html": "<p>The whole documentation is available as markdown, with an index at <a href=\"https://docs.nestjs.com/llms.txt\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs.nestjs.com/llms.txt</a>. Projects from <code>nest new</code> come with an <code>AGENTS.md</code> that lists the packages above, since most models were trained before they existed.</p>",
+    "html": "<p>The whole documentation is available as markdown, with an index at <a href=\"https://docs.nestjs.com/llms.txt\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs.nestjs.com/llms.txt</a>. Projects from <code>nest new</code> come with an <code>AGENTS.md</code> that lists the packages above, since most models were trained before they existed.</p>\n<p>The official <a href=\"https://github.com/nestjs/agent-skills\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">NestJS agent skills</a> teach an agent the current APIs and the mistakes that still pass tests. They cover starting a project, features, authentication and authorization, data, testing and production. Add them to a project with:</p>\n<pre><code class=\"language-bash\">npx @nestjs/skills add\n</code></pre>\n<p>This copies them into <code>.agents/skills</code>, which Codex and Cursor read. Add <code>--agent claude</code> for Claude Code, or <code>--agent all</code> for both. Claude Code can also install them as a plugin: <code>claude plugin marketplace add nestjs/agent-skills</code>, then <code>claude plugin install nestjs@nestjs</code>.</p>",
     "truncated": false,
-    "chars": 265
+    "chars": 861
    },
    "features": null
   },
   "headings": 19,
   "processor": 4,
-  "fetched_at": "2026-11-19T20:41:44.449Z",
-  "checked_at": "2026-11-19T20:41:44.449Z"
+  "fetched_at": "2026-11-20T11:40:01.905Z",
+  "checked_at": "2026-11-20T11:40:01.905Z"
  },
  "contributors": {
   "count": 815,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:33.956Z"
  },
- "details_checked_at": "2026-11-19T20:41:44.449Z"
+ "details_checked_at": "2026-11-20T11:40:01.905Z"
 }

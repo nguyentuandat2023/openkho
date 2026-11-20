@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:41:37.047Z",
+ "fetched_at": "2026-11-20T11:39:55.630Z",
  "meta": {
   "name": "bootstrap",
   "owner": "twbs",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 175087,
-  "forks": 79610,
+  "stars": 175093,
+  "forks": 79612,
   "watchers": 6603,
-  "open_issues": 311,
+  "open_issues": 316,
   "open_prs": null,
   "created_at": "2011-07-29T21:19:00Z",
-  "pushed_at": "2026-11-19T18:44:07Z",
-  "updated_at": "2026-11-19T19:48:21Z",
+  "pushed_at": "2026-11-20T07:16:14Z",
+  "updated_at": "2026-11-20T11:37:33Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 327776,
+  "size_kb": 327787,
   "og_image": "https://opengraph.githubassets.com/1/twbs/bootstrap",
   "custom_og_image": false
  },
@@ -70,7 +70,7 @@
   "headings": 20,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.810Z",
-  "checked_at": "2026-11-19T20:41:52.569Z"
+  "checked_at": "2026-11-20T11:40:09.901Z"
  },
  "contributors": {
   "count": 1675,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.896Z"
  },
- "details_checked_at": "2026-11-19T20:41:52.569Z"
+ "details_checked_at": "2026-11-20T11:40:09.901Z"
 }

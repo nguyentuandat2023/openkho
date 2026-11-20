@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:40:40.587Z",
+ "fetched_at": "2026-11-20T11:39:05.487Z",
  "meta": {
   "name": "plane",
   "owner": "makeplane",
@@ -44,14 +44,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 62813,
-  "forks": 6477,
+  "stars": 62846,
+  "forks": 6487,
   "watchers": 189,
-  "open_issues": 1169,
+  "open_issues": 1171,
   "open_prs": null,
   "created_at": "2022-11-19T12:55:01Z",
-  "pushed_at": "2026-11-18T13:05:11Z",
-  "updated_at": "2026-11-19T20:32:42Z",
+  "pushed_at": "2026-11-20T10:08:25Z",
+  "updated_at": "2026-11-20T11:11:32Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 220252,
+  "size_kb": 220253,
   "og_image": "https://opengraph.githubassets.com/1/makeplane/plane",
   "custom_og_image": false
  },
@@ -88,7 +88,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.783Z",
-  "checked_at": "2026-11-19T20:41:50.090Z"
+  "checked_at": "2026-11-20T11:40:07.325Z"
  },
  "contributors": {
   "count": 187,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:40.371Z"
  },
- "details_checked_at": "2026-11-19T20:41:50.090Z"
+ "details_checked_at": "2026-11-20T11:40:07.325Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:40:28.713Z",
+ "fetched_at": "2026-11-20T11:38:54.021Z",
  "meta": {
   "name": "PhoBERT",
   "owner": "VinAIResearch",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 812,
+  "stars": 811,
   "forks": 112,
   "watchers": 19,
   "open_issues": 5,
   "open_prs": null,
   "created_at": "2020-03-03T10:29:48Z",
   "pushed_at": "2026-08-04T00:51:02Z",
-  "updated_at": "2026-11-14T23:53:19Z",
+  "updated_at": "2026-11-19T21:43:26Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -88,7 +88,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.298Z",
-  "checked_at": "2026-11-19T20:41:49.498Z"
+  "checked_at": "2026-11-20T11:40:06.720Z"
  },
  "contributors": {
   "count": 1,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.645Z"
  },
- "details_checked_at": "2026-11-19T20:41:49.498Z"
+ "details_checked_at": "2026-11-20T11:40:06.720Z"
 }

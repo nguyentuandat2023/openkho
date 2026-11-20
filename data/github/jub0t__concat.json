@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:41:11.454Z",
+ "fetched_at": "2026-11-20T11:39:34.162Z",
  "meta": {
   "name": "Concat",
   "owner": "jub0t",
@@ -39,14 +39,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 18942,
-  "forks": 2321,
+  "stars": 19092,
+  "forks": 2338,
   "watchers": 104,
   "open_issues": 304,
   "open_prs": null,
   "created_at": "2026-08-25T18:34:47Z",
-  "pushed_at": "2026-11-19T19:44:45Z",
-  "updated_at": "2026-11-19T20:36:30Z",
+  "pushed_at": "2026-11-20T06:14:06Z",
+  "updated_at": "2026-11-20T11:30:37Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,7 +55,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 96847,
+  "size_kb": 97783,
   "og_image": "https://opengraph.githubassets.com/1/jub0t/Concat",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-19T11:45:13.386Z",
-  "checked_at": "2026-11-19T20:41:51.438Z"
+  "checked_at": "2026-11-20T11:40:08.689Z"
  },
  "contributors": {
   "count": 54,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.418Z"
  },
- "details_checked_at": "2026-11-19T20:41:51.438Z"
+ "details_checked_at": "2026-11-20T11:40:08.689Z"
 }

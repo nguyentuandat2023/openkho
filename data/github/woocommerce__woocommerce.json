@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:39:08.810Z",
+ "fetched_at": "2026-11-20T11:37:40.925Z",
  "meta": {
   "name": "woocommerce",
   "owner": "woocommerce",
@@ -32,14 +32,14 @@
    "spdx": "GPL-2.0",
    "name": "GNU General Public License v2.0"
   },
-  "stars": 10605,
-  "forks": 10665,
+  "stars": 10606,
+  "forks": 10668,
   "watchers": 520,
-  "open_issues": 1409,
+  "open_issues": 1429,
   "open_prs": null,
   "created_at": "2011-08-09T15:12:11Z",
-  "pushed_at": "2026-11-19T20:31:27Z",
-  "updated_at": "2026-11-19T18:40:07Z",
+  "pushed_at": "2026-11-20T11:37:22Z",
+  "updated_at": "2026-11-20T05:43:08Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,30 +48,30 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 1048917,
+  "size_kb": 1049955,
   "og_image": "https://opengraph.githubassets.com/1/woocommerce/woocommerce",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 5436,
+  "length": 5389,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
   "sections": {
    "install": {
     "title": "Getting Started",
-    "html": "<p>To get up and running within the WooCommerce Monorepo, you will need to make sure that you have installed all of the prerequisites.</p>\n<h5>Prerequisites</h5>\n<ul>\n<li><a href=\"https://nodejs.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Node.js</a>: Required to run PNPM and the monorepo's build and test scripts. You do not need to match a specific Node version by hand. PNPM reads the version pinned in <a href=\"https://github.com/woocommerce/woocommerce/blob/trunk/pnpm-workspace.yaml\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>pnpm-workspace.yaml</code></a> (<code>useNodeVersion</code>, mirrored in <a href=\"https://github.com/woocommerce/woocommerce/blob/trunk/.nvmrc\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>.nvmrc</code></a>) and automatically installs and uses it for every script it runs. A Node version manager such as <a href=\"https://github.com/nvm-sh/nvm#installing-and-updating\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">NVM</a> is optional, but still handy for installing Node itself.</li>\n<li><a href=\"https://pnpm.io/installation\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PNPM</a>: Our repository utilizes PNPM to manage project dependencies and run various scripts involved in building and testing projects.</li>\n<li><a href=\"https://www.php.net/manual/en/install.php\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PHP 7.4+</a>: WooCommerce Core currently requires PHP version 7.4 or higher. It is also needed to run Composer and various project build scripts. See <a href=\"https://github.com/woocommerce/woocommerce/blob/trunk/DEVELOPMENT.md#troubleshooting\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">troubleshooting</a> for troubleshooting problems installing PHP.</li>\n<li><a href=\"https://getcomposer.org/doc/00-intro.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Composer</a>: We use Composer to manage all of the dependencies for PHP packages and plugins.</li>\n</ul>\n<p>Note: A POSIX-compliant operating system (e.g., Linux, macOS) is assumed. If you're working on a Windows machine, the recommended approach is to use <a href=\"https://learn.microsoft.com/en-us/windows/wsl/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">WSL</a> (available since Windows 10).</p>\n<p>Once you've installed all prerequisites, the following will prepare all of the build outputs necessary for development:</p>\n<pre><code class=\"language-bash\"># Install the PHP and Composer dependencies for all of the plugins, packages, and tools.\n# PNPM automatically uses the pinned Node version for every script it runs.\npnpm install --frozen-lockfile\n# Build all of the plugins, packages, and tools in the monorepo\npnpm build\n</code></pre>",
+    "html": "<p>To get up and running within the WooCommerce Monorepo, you will need to make sure that you have installed all of the prerequisites.</p>\n<h5>Prerequisites</h5>\n<ul>\n<li><a href=\"https://nodejs.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Node.js</a>: Required to run PNPM and the monorepo's build and test scripts. Use the Node version pinned in <a href=\"https://github.com/woocommerce/woocommerce/blob/trunk/package.json\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>package.json</code></a> (<code>devEngines.runtime</code>, mirrored in <a href=\"https://github.com/woocommerce/woocommerce/blob/trunk/.nvmrc\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>.nvmrc</code></a>); PNPM fails with an error when you run it on a different version. A Node version manager such as <a href=\"https://github.com/nvm-sh/nvm#installing-and-updating\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">NVM</a> is optional, but still handy for installing Node itself.</li>\n<li><a href=\"https://pnpm.io/installation\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PNPM</a>: Our repository utilizes PNPM to manage project dependencies and run various scripts involved in building and testing projects.</li>\n<li><a href=\"https://www.php.net/manual/en/install.php\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PHP 7.4+</a>: WooCommerce Core currently requires PHP version 7.4 or higher. It is also needed to run Composer and various project build scripts. See <a href=\"https://github.com/woocommerce/woocommerce/blob/trunk/DEVELOPMENT.md#troubleshooting\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">troubleshooting</a> for troubleshooting problems installing PHP.</li>\n<li><a href=\"https://getcomposer.org/doc/00-intro.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Composer</a>: We use Composer to manage all of the dependencies for PHP packages and plugins.</li>\n</ul>\n<p>Note: A POSIX-compliant operating system (e.g., Linux, macOS) is assumed. If you're working on a Windows machine, the recommended approach is to use <a href=\"https://learn.microsoft.com/en-us/windows/wsl/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">WSL</a> (available since Windows 10).</p>\n<p>Once you've installed all prerequisites, the following will prepare all of the build outputs necessary for development:</p>\n<pre><code class=\"language-bash\"># Install the PHP and Composer dependencies for all of the plugins, packages, and tools.\n# PNPM fails with an error when the Node version differs from the pinned one (see Prerequisites).\npnpm install --frozen-lockfile\n# Build all of the plugins, packages, and tools in the monorepo\npnpm build\n</code></pre>",
     "truncated": false,
-    "chars": 1898
+    "chars": 1851
    },
    "usage": null,
    "features": null
   },
   "headings": 8,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:25.513Z",
-  "checked_at": "2026-11-19T20:41:45.893Z"
+  "fetched_at": "2026-11-20T11:40:03.348Z",
+  "checked_at": "2026-11-20T11:40:03.348Z"
  },
  "contributors": {
   "count": 2162,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.626Z"
  },
- "details_checked_at": "2026-11-19T20:41:45.893Z"
+ "details_checked_at": "2026-11-20T11:40:03.348Z"
 }

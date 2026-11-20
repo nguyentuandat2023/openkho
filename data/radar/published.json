@@ -432,7 +432,8 @@
   },
   "1354991682": {
    "full_name": "Agenta-AI/awesome-ai-agent-platforms",
-   "since": "2026-11-18T11:48:17.030Z"
+   "since": "2026-11-18T11:48:17.030Z",
+   "failing_since": "2026-11-20T11:43:12.929Z"
   },
   "1355117708": {
    "full_name": "markfulton/ai-employees",
@@ -1354,7 +1355,8 @@
   },
   "1425063138": {
    "full_name": "opentrap/opentrap",
-   "since": "2026-11-18T11:38:35.808Z"
+   "since": "2026-11-18T11:38:35.808Z",
+   "failing_since": "2026-11-20T11:43:12.929Z"
   },
   "1425469723": {
    "full_name": "UniXNU/UniXNU",
@@ -2407,5 +2409,5 @@
    "since": "2026-11-17T20:54:14.953Z"
   }
  },
- "updated_at": "2026-11-20T02:19:42.825Z"
+ "updated_at": "2026-11-20T11:44:41.019Z"
 }

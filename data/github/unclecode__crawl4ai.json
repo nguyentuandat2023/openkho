@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:36:54.387Z",
+ "fetched_at": "2026-11-20T11:35:24.453Z",
  "meta": {
   "name": "crawl4ai",
   "owner": "unclecode",
@@ -40,14 +40,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 87568,
-  "forks": 9131,
-  "watchers": 422,
-  "open_issues": 348,
+  "stars": 87589,
+  "forks": 9142,
+  "watchers": 423,
+  "open_issues": 357,
   "open_prs": null,
   "created_at": "2024-05-09T09:48:50Z",
-  "pushed_at": "2026-11-19T16:02:08Z",
-  "updated_at": "2026-11-19T19:35:58Z",
+  "pushed_at": "2026-11-20T09:47:34Z",
+  "updated_at": "2026-11-20T11:32:02Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,7 +56,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 152040,
+  "size_kb": 152141,
   "og_image": "https://opengraph.githubassets.com/1/unclecode/crawl4ai",
   "custom_og_image": false
  },
@@ -89,7 +89,7 @@
   "headings": 21,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:30.174Z",
-  "checked_at": "2026-11-19T20:41:39.575Z"
+  "checked_at": "2026-11-20T11:39:57.751Z"
  },
  "contributors": {
   "count": 104,
@@ -97,5 +97,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:34.621Z"
  },
- "details_checked_at": "2026-11-19T20:41:39.575Z"
+ "details_checked_at": "2026-11-20T11:39:57.751Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:38:45.313Z",
+ "fetched_at": "2026-11-20T11:37:16.558Z",
  "meta": {
   "name": "darktable",
   "owner": "darktable-org",
@@ -23,14 +23,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 13476,
-  "forks": 1531,
+  "stars": 13477,
+  "forks": 1532,
   "watchers": 173,
-  "open_issues": 632,
+  "open_issues": 631,
   "open_prs": null,
   "created_at": "2012-03-21T21:53:04Z",
-  "pushed_at": "2026-11-19T18:24:04Z",
-  "updated_at": "2026-11-19T18:45:28Z",
+  "pushed_at": "2026-11-20T07:08:55Z",
+  "updated_at": "2026-11-20T00:52:27Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -39,7 +39,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 1379532,
+  "size_kb": 1380010,
   "og_image": "https://opengraph.githubassets.com/1/darktable-org/darktable",
   "custom_og_image": false
  },
@@ -72,7 +72,7 @@
   "headings": 41,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.591Z",
-  "checked_at": "2026-11-19T20:41:44.819Z"
+  "checked_at": "2026-11-20T11:40:02.257Z"
  },
  "contributors": {
   "count": 748,
@@ -80,5 +80,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.306Z"
  },
- "details_checked_at": "2026-11-19T20:41:44.819Z"
+ "details_checked_at": "2026-11-20T11:40:02.257Z"
 }

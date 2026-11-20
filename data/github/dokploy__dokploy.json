@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:40:58.329Z",
+ "fetched_at": "2026-11-20T11:39:22.158Z",
  "meta": {
   "name": "dokploy",
   "owner": "Dokploy",
@@ -41,14 +41,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 38617,
-  "forks": 3186,
+  "stars": 38623,
+  "forks": 3185,
   "watchers": 110,
-  "open_issues": 843,
+  "open_issues": 833,
   "open_prs": null,
   "created_at": "2024-04-19T07:49:30Z",
-  "pushed_at": "2026-11-19T20:04:57Z",
-  "updated_at": "2026-11-19T20:28:26Z",
+  "pushed_at": "2026-11-20T08:56:26Z",
+  "updated_at": "2026-11-20T11:33:00Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,7 +57,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 32546,
+  "size_kb": 32559,
   "og_image": "https://opengraph.githubassets.com/1/Dokploy/dokploy",
   "custom_og_image": false
  },
@@ -96,7 +96,7 @@
   "headings": 5,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.552Z",
-  "checked_at": "2026-11-19T20:41:50.881Z"
+  "checked_at": "2026-11-20T11:40:08.169Z"
  },
  "contributors": {
   "count": 420,
@@ -104,5 +104,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.006Z"
  },
- "details_checked_at": "2026-11-19T20:41:50.881Z"
+ "details_checked_at": "2026-11-20T11:40:08.169Z"
 }

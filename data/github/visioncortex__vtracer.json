@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:38:48.482Z",
+ "fetched_at": "2026-11-20T11:37:20.350Z",
  "meta": {
   "name": "vtracer",
   "owner": "visioncortex",
@@ -28,14 +28,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 7574,
-  "forks": 517,
+  "stars": 7575,
+  "forks": 518,
   "watchers": 68,
   "open_issues": 14,
   "open_prs": null,
   "created_at": "2020-10-23T03:58:35Z",
   "pushed_at": "2026-11-17T17:07:56Z",
-  "updated_at": "2026-11-19T18:21:14Z",
+  "updated_at": "2026-11-20T11:19:40Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.627Z",
-  "checked_at": "2026-11-19T20:41:44.925Z"
+  "checked_at": "2026-11-20T11:40:02.394Z"
  },
  "contributors": {
   "count": 10,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.562Z"
  },
- "details_checked_at": "2026-11-19T20:41:44.925Z"
+ "details_checked_at": "2026-11-20T11:40:02.394Z"
 }

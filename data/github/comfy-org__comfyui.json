@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:37:20.400Z",
+ "fetched_at": "2026-11-20T11:35:49.986Z",
  "meta": {
   "name": "ComfyUI",
   "owner": "Comfy-Org",
@@ -30,14 +30,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 147655,
-  "forks": 17660,
-  "watchers": 854,
-  "open_issues": 5593,
+  "stars": 147763,
+  "forks": 17667,
+  "watchers": 852,
+  "open_issues": 5594,
   "open_prs": null,
   "created_at": "2023-01-17T03:15:56Z",
-  "pushed_at": "2026-11-19T20:27:17Z",
-  "updated_at": "2026-11-19T20:35:31Z",
+  "pushed_at": "2026-11-20T10:56:21Z",
+  "updated_at": "2026-11-20T11:32:42Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,40 +46,35 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 108472,
+  "size_kb": 108568,
   "og_image": "https://opengraph.githubassets.com/1/Comfy-Org/ComfyUI",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 29338,
+  "length": 9786,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
   "sections": {
    "install": {
-    "title": "Get Started",
-    "html": "<h5>Local</h5>\n<h6><a href=\"https://www.comfy.org/download\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Desktop Application</a></h6>\n<ul>\n<li>The easiest way to get started.</li>\n<li>Available on Windows &amp; macOS.</li>\n</ul>\n<h6><a href=\"https://github.com/Comfy-Org/ComfyUI#manual-install-windows-linux\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Manual Install</a></h6>\n<p>Supports all operating systems and GPU types (NVIDIA, AMD, Intel, Apple Silicon, Ascend).</p>\n<h5>Cloud</h5>\n<h6><a href=\"https://www.comfy.org/cloud\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Comfy Cloud</a></h6>\n<ul>\n<li>Our official paid cloud version for those who can't afford local hardware.</li>\n</ul>",
+    "title": "Installing",
+    "html": "<h5><a href=\"https://www.comfy.org/download\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Comfy Desktop</a> is the recommended way to install ComfyUI</h5>\n<p>It is the easiest and best way to get started, on Windows and macOS.</p>\n<p>Other paths:</p>\n<ul>\n<li><strong><a href=\"https://github.com/Comfy-Org/ComfyUI/blob/master/docs/installation.md#windows-portable\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Windows Portable</a></strong> for a self-contained build you can unzip and run.</li>\n<li><strong><a href=\"https://www.comfy.org/cloud\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Comfy Cloud</a></strong> if you would rather not run it locally at all.</li>\n<li><strong><a href=\"https://www.comfy.org/cli\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">comfy-cli</a></strong> if you prefer a CLI: <code>pip install comfy-cli &amp;&amp; comfy install</code>.</li>\n<li><strong><a href=\"https://www.comfy.org/platform\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Developer Platform</a></strong> if you are deploying a workflow as a production API endpoint rather than running the app yourself.</li>\n<li><strong>Manual install</strong>, below, when you need control over your Python and Torch versions.</li>\n</ul>\n<h5>Manual install</h5>\n<p>First install PyTorch for your GPU, then:</p>\n<pre><code class=\"language-bash\">git clone https://github.com/Comfy-Org/ComfyUI.git\ncd ComfyUI\npip install -r requirements.txt\npython main.py\n</code></pre>\n<p>Python 3.13 is very well supported and 3.14 works, though some custom nodes may have\nissues. torch 2.7 is minimally supported and cu130 or above is required on Nvidia 20\nseries and above; if your pytorch is more than 6 months old, please update it.</p>\n<p>Put your checkpoints in <code>models/checkpoints</code> and your VAE in <code>models/vae</code>.</p>\n<p><strong><a href=\"https://github.com/Comfy-Org/ComfyUI/blob/master/docs/installation.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">docs/installation.md</a> has the full detail:</strong> PyTorch commands\nfor NVIDIA, AMD ROCm on Linux and Windows, Intel Arc, Apple Silicon, Huawei Ascend NPU,\nCambricon MLU and Iluvatar Corex, plus ComfyUI-Manager setup, portable builds, previews\nand TLS.</p>",
     "truncated": false,
-    "chars": 420
+    "chars": 1530
    },
-   "usage": {
-    "title": "Examples",
-    "html": "<p>See what ComfyUI can do with the <a href=\"https://comfy.org/workflows\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">newer template workflows</a> or old <a href=\"https://comfyanonymous.github.io/ComfyUI_examples/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">example workflows</a>.</p>",
-    "truncated": false,
-    "chars": 170
-   },
+   "usage": null,
    "features": {
     "title": "Features",
-    "html": "<ul>\n<li>A visual node graph for building and reusing image, video, audio, 3D, and text workflows without code.</li>\n<li>Reusable subgraphs, workflow templates, App Mode, and a local API for integrating workflows into applications.</li>\n<li>Efficient local execution with asynchronous queueing, partial graph re-execution, smart VRAM and RAM management, model offloading, and support for quantized models.</li>\n<li>Broad native model support. This is a representative list; browse the <a href=\"https://comfy.org/workflows/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">workflow library</a> for maintained, ready-to-run templates.<ul>\n<li><a href=\"https://comfy.org/workflows/tag/text-to-image/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Image generation</a>: Stable Diffusion 1.5, SDXL, SD3.5, Flux.1, Flux.2, Qwen Image, Z-Image, Hunyuan Image 2.1, HiDream, Lumina Image 2.0, Chroma, Anima, LongCat Image, Ideogram 4, Krea 2, MageFlow, Microsoft Lens, PixelDiT, Kandinsky 5, Ernie Image and Moss Image.</li>\n<li><a href=\"https://comfy.org/workflows/tag/image-edit/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Image editing</a>: Flux Kontext, Flux.2 Klein, Qwen Image Edit, HiDream E1.1 and O1, OmniGen2, Boogu, JoyImage Edit, MageFlow Edit, LongCat Image Edit, Fibo 2.0, Flux 3 image klein.</li>\n<li><a href=\"https://comfy.org/workflows/tag/video-generation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Video generation</a>: Wan 2.1 and 2.2, LTX-Video 2 and 2.3, HunyuanVideo 1.5, Kandinsky 5 Video, CogVideoX, Cosmos Predict2, Bernini-R, SCAIL 2, and Mochi.</li>\n<li><a href=\"https://comfy.org/workflows/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Audio and video generation</a>: MiniMax H3 and LTX-AV.</li>\n<li><a href=\"https://comfy.org/workflows/tag/text-to-audio/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Audio generation</a>: ACE-Step 1.5, Stable Audio 3, MiniMax Music 3 and Yue 2.</li>\n<li><a href=\"https://comfy.org/workflows/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">3D and vision</a>: Hunyuan3D 2.1, TripoSplat, SeedVR2, SUPIR, Depth Anything 3, MoGe, SAM 3 and 3.1, RT-DETRv4, and BiRefNet.</li>\n<li><a href=\"https://comfy.org/workflows/tag/text-generation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Text generation</a>: Gemma 3 and 4, Qwen3, Qwen3.5, and Qwen3-VL, including multimodal inputs.</li>\n</ul>\n</li>\n<li>Load complete checkpoints or separate diffusion models, VAEs, text encoders, LoRAs, ControlNets, adapters, and upscalers from supported model formats.</li>\n<li>Built-in tools for inpainting, outpainting, reference conditioning, masks and compositing, model merging, upscaling, frame interpolation, segmentation, depth estimation, and media processing.</li>\n<li>Save and load workflows as JSON, or recover complete workflows and seeds from supported generated media.</li>\n<li>Runs fully offline: core does not download anything unless you request it. Use <code>--offline</code> to disable the optional paid <a href=\"https://docs.comfy.org/tutorials/api-nodes/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Comfy API nodes</a> and force all built-in functionality to stay offline, or <code>--disable-partner-nodes</code> to only disable the API nodes.</li>\n<li>Extend ComfyUI with custom nodes</li>\n<li>Configure additional model locations with <a href=\"https://github.com/Comfy-Org/ComfyUI/blob/master/extra_model_paths.yaml.example\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>extra_model_paths.yaml</code></a>.</li>\n<li>Support for saving and loading high bit depth images and videos: 16 bit PNG images, 32 bit EXR, 10 bit AVIF are supported and more.</li>\n<li>Support for saving and loading HDR videos and images in various formats.</li>\n</ul>",
+    "html": "<ul>\n<li>A visual node graph for building and reusing image, video, audio, 3D, and text workflows without code.</li>\n<li>Broad native model support. This is a representative list; browse the <a href=\"https://comfy.org/workflows/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">workflow library</a> for maintained, ready-to-run templates.<ul>\n<li><a href=\"https://comfy.org/workflows/tag/text-to-image/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Image generation</a>: Stable Diffusion 1.5, SDXL, SD3.5, Flux.1, Flux.2, Qwen Image, Z-Image, Hunyuan Image 2.1, HiDream, Lumina Image 2.0, Chroma, Anima, LongCat Image, Ideogram 4, Krea 2, MageFlow, Microsoft Lens, PixelDiT, Kandinsky 5, Ernie Image and Moss Image.</li>\n<li><a href=\"https://comfy.org/workflows/tag/image-edit/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Image editing</a>: Flux Kontext, Flux.2 Klein, Qwen Image Edit, HiDream E1.1 and O1, OmniGen2, Boogu, JoyImage Edit, MageFlow Edit, LongCat Image Edit, Fibo 2.0, Flux 3 image klein.</li>\n<li><a href=\"https://comfy.org/workflows/tag/video-generation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Video generation</a>: Wan 2.1 and 2.2, LTX-Video 2 and 2.3, HunyuanVideo 1.5, Kandinsky 5 Video, CogVideoX, Cosmos Predict2, Bernini-R, SCAIL 2, and Mochi.</li>\n<li><a href=\"https://comfy.org/workflows/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Audio and video generation</a>: MiniMax H3 and LTX-AV.</li>\n<li><a href=\"https://comfy.org/workflows/tag/text-to-audio/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Audio generation</a>: ACE-Step 1.5, Stable Audio 3, MiniMax Music 3 and Yue 2.</li>\n<li><a href=\"https://comfy.org/workflows/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">3D and vision</a>: Hunyuan3D 2.1, TripoSplat, SeedVR2, SUPIR, Depth Anything 3, MoGe, SAM 3 and 3.1, RT-DETRv4, and BiRefNet.</li>\n<li><a href=\"https://comfy.org/workflows/tag/text-generation/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Text generation</a>: Gemma 3 and 4, Qwen3, Qwen3.5, and Qwen3-VL, including multimodal inputs.</li>\n</ul>\n</li>\n<li>Efficient local execution with asynchronous queueing, partial graph re-execution, smart VRAM and RAM management, model offloading, and support for quantized models.</li>\n<li>Reusable subgraphs, workflow templates, <a href=\"https://docs.comfy.org/interface/app-mode\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">App Mode</a>, and a <a href=\"https://docs.comfy.org/development/comfyui-server/api-examples\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">local API</a> for integrating workflows into applications.</li>\n<li>Load complete checkpoints or separate diffusion models, VAEs, text encoders, LoRAs, ControlNets, adapters, and upscalers from supported model formats.</li>\n<li>Built-in tools for inpainting, outpainting, reference conditioning, masks and compositing, model merging, upscaling, frame interpolation, segmentation, depth estimation, and media processing.</li>\n<li>Save and load workflows as JSON. You can also drag any image, video, audio, or 3D file made with ComfyUI onto the canvas to get back the full workflow that made it, seeds included.</li>\n<li>Runs fully offline: core does not download anything unless you request it. Use <code>--offline</code> to disable the optional paid <a href=\"https://docs.comfy.org/tutorials/api-nodes/overview\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Comfy API nodes</a> and force all built-in functionality to stay offline, or <code>--disable-partner-nodes</code> to only disable the API nodes.</li>\n<li>Extend ComfyUI with custom nodes, installed and updated through <a href=\"https://github.com/Comfy-Org/ComfyUI/blob/master/docs/installation.md#comfyui-manager\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ComfyUI-Manager</a>.</li>\n<li>Configure additional model locations with <a href=\"https://github.com/Comfy-Org/ComfyUI/blob/master/extra_model_paths.yaml.example\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><code>extra_model_paths.yaml</code></a>.</li>\n<li>Support for saving and loading high bit depth images and videos: 16 bit PNG images, 32 bit EXR, 10 bit AVIF are supported and more, including HDR.</li>\n</ul>",
     "truncated": false,
-    "chars": 2933
+    "chars": 3149
    }
   },
-  "headings": 46,
+  "headings": 9,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:21.518Z",
-  "checked_at": "2026-11-19T20:41:40.658Z"
+  "fetched_at": "2026-11-20T11:39:58.749Z",
+  "checked_at": "2026-11-20T11:39:58.749Z"
  },
  "contributors": {
   "count": 363,
@@ -87,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T02:20:53.433Z"
  },
- "details_checked_at": "2026-11-19T20:41:40.658Z"
+ "details_checked_at": "2026-11-20T11:39:58.749Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:40:00.754Z",
+ "fetched_at": "2026-11-20T11:38:27.728Z",
  "meta": {
   "name": "skills",
   "owner": "anthropics",
@@ -22,14 +22,14 @@
    "agent-skills"
   ],
   "license": null,
-  "stars": 197650,
-  "forks": 23155,
+  "stars": 197883,
+  "forks": 23175,
   "watchers": 1205,
   "open_issues": 1562,
   "open_prs": null,
   "created_at": "2025-09-22T15:53:31Z",
   "pushed_at": "2026-11-16T14:22:50Z",
-  "updated_at": "2026-11-19T20:36:13Z",
+  "updated_at": "2026-11-20T11:37:13Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,7 +56,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.312Z",
-  "checked_at": "2026-11-19T20:41:48.207Z"
+  "checked_at": "2026-11-20T11:40:05.528Z"
  },
  "contributors": {
   "count": 17,
@@ -64,5 +64,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.325Z"
  },
- "details_checked_at": "2026-11-19T20:41:48.207Z"
+ "details_checked_at": "2026-11-20T11:40:05.528Z"
 }

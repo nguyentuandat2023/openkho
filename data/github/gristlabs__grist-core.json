@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:40:21.053Z",
+ "fetched_at": "2026-11-20T11:38:46.469Z",
  "meta": {
   "name": "grist-core",
   "owner": "gristlabs",
@@ -27,14 +27,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 12118,
-  "forks": 685,
+  "stars": 12117,
+  "forks": 686,
   "watchers": 68,
-  "open_issues": 744,
+  "open_issues": 745,
   "open_prs": null,
   "created_at": "2020-05-22T06:16:02Z",
-  "pushed_at": "2026-11-19T08:50:20Z",
-  "updated_at": "2026-11-19T14:35:11Z",
+  "pushed_at": "2026-11-20T06:13:29Z",
+  "updated_at": "2026-11-19T21:50:11Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -43,7 +43,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 55796,
+  "size_kb": 55880,
   "og_image": "https://opengraph.githubassets.com/1/gristlabs/grist-core",
   "custom_og_image": false
  },
@@ -76,7 +76,7 @@
   "headings": 30,
   "processor": 4,
   "fetched_at": "2026-11-19T02:41:28.543Z",
-  "checked_at": "2026-11-19T20:41:49.215Z"
+  "checked_at": "2026-11-20T11:40:06.440Z"
  },
  "contributors": {
   "count": 210,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.427Z"
  },
- "details_checked_at": "2026-11-19T20:41:49.215Z"
+ "details_checked_at": "2026-11-20T11:40:06.440Z"
 }

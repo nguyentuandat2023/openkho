@@ -1,7 +1,7 @@
 {
- "computed_at": "2026-11-20T02:19:41.037Z",
+ "computed_at": "2026-11-20T11:44:38.822Z",
  "curated_missing_github_id": [],
- "missing_contributors": 2397,
+ "missing_contributors": 2391,
  "stale_over_48h": [
   "Arda313131882/aion-2-trainer-tool",
   "App-MonicaWEB/auslogics-audio-studio-desktop",
@@ -33,11 +33,12 @@
   "hitkeeen/blender-ai-mcp-addon",
   "DevedevT/FFmpeg-GUI-Editor-Windows",
   "amber-lance-72/xeno-roblox-desktop",
+  "ben-kennedy-81/xfer-serum-desktop",
   "phamcucpqrwbbnposhmn96-ui/KSNStudy",
   "trackboatwrightplan/GitHub-Copilot-app",
   "trackboatwrightplan/ai--manus2.0"
  ],
- "low_quality_coverage": 1764,
+ "low_quality_coverage": 1644,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -381,6 +382,11 @@
    "status": "not_found"
   },
   {
+   "id": "brave-shell-07/izotope-rx-11-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "phamcucpqrwbbnposhmn96-ui/KSNStudy",
    "origin": "radar",
    "status": "not_found"
@@ -392,6 +398,21 @@
   },
   {
    "id": "trackboatwrightplan/ai--manus2.0",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "bothaggsigym1988/frameglide",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "sourmitocand1987/VividFrame-GPU",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Bodila51/gtavi-claudecode",
    "origin": "radar",
    "status": "not_found"
   }
@@ -518,6 +539,12 @@
    ]
   },
   {
+   "id": "BaaRai/ARTEX",
+   "reasons": [
+    "rất ít người đóng góp (18) so với tốc độ tăng sao"
+   ]
+  },
+  {
    "id": "byted-technologies/.github",
    "reasons": [
     "repo mới với 3.994 sao nhưng gần như không có fork (0) và chưa có issue nào"
@@ -592,7 +619,7 @@
   {
    "id": "AhmadHassan-BTed/RainGen-RainGenerator",
    "reasons": [
-    "repo mới với 1.609 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.610 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -664,13 +691,13 @@
   {
    "id": "Gosu-x/multimodal-threat-dataset",
    "reasons": [
-    "repo mới với 429 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "EunChae1110/mmforge-platform",
    "reasons": [
-    "+347 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+357 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -725,12 +752,6 @@
    "id": "brave-plum-co/leonardo-ai-desktop",
    "reasons": [
     "+304 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "brave-shell-07/izotope-rx-11-desktop",
-   "reasons": [
-    "+306 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -892,7 +913,7 @@
   {
    "id": "bookwjitchieni1986/blender-ai-mcp-addon",
    "reasons": [
-    "+615 sao nhưng chỉ +1 fork trong cùng kỳ"
+    "+1.014 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   }
  ],

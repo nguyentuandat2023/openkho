@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:41:28.538Z",
+ "fetched_at": "2026-11-20T11:39:47.794Z",
  "meta": {
   "name": "ui",
   "owner": "shadcn-ui",
@@ -41,14 +41,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 128578,
-  "forks": 11425,
+  "stars": 128620,
+  "forks": 11423,
   "watchers": 415,
-  "open_issues": 1759,
+  "open_issues": 1760,
   "open_prs": null,
   "created_at": "2023-01-04T12:43:27Z",
   "pushed_at": "2026-11-19T16:44:27Z",
-  "updated_at": "2026-11-19T19:03:35Z",
+  "updated_at": "2026-11-20T11:29:15Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -75,7 +75,7 @@
   "headings": 4,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.523Z",
-  "checked_at": "2026-11-19T20:41:52.210Z"
+  "checked_at": "2026-11-20T11:40:09.506Z"
  },
  "contributors": {
   "count": 650,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.340Z"
  },
- "details_checked_at": "2026-11-19T20:41:52.210Z"
+ "details_checked_at": "2026-11-20T11:40:09.506Z"
 }

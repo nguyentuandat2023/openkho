@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:37:09.782Z",
+ "fetched_at": "2026-11-20T11:35:39.776Z",
  "meta": {
   "name": "tesseract",
   "owner": "tesseract-ocr",
@@ -31,14 +31,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 77589,
-  "forks": 10920,
+  "stars": 77600,
+  "forks": 10919,
   "watchers": 1703,
-  "open_issues": 489,
+  "open_issues": 488,
   "open_prs": null,
   "created_at": "2014-08-12T18:04:59Z",
-  "pushed_at": "2026-11-19T16:05:24Z",
-  "updated_at": "2026-11-19T19:18:48Z",
+  "pushed_at": "2026-11-20T05:34:01Z",
+  "updated_at": "2026-11-20T08:41:45Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 55320,
+  "size_kb": 55335,
   "og_image": "https://opengraph.githubassets.com/1/tesseract-ocr/tesseract",
   "custom_og_image": false
  },
@@ -70,7 +70,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.210Z",
-  "checked_at": "2026-11-19T20:41:40.294Z"
+  "checked_at": "2026-11-20T11:39:58.391Z"
  },
  "contributors": {
   "count": 251,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T07:03:47.522Z"
  },
- "details_checked_at": "2026-11-19T20:41:40.294Z"
+ "details_checked_at": "2026-11-20T11:39:58.391Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:37:17.525Z",
+ "fetched_at": "2026-11-20T11:35:47.049Z",
  "meta": {
   "name": "graphrag",
   "owner": "microsoft",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 36695,
+  "stars": 36698,
   "forks": 3887,
   "watchers": 205,
   "open_issues": 70,
   "open_prs": null,
   "created_at": "2024-03-27T17:57:52Z",
   "pushed_at": "2026-11-19T18:39:15Z",
-  "updated_at": "2026-11-19T18:24:15Z",
+  "updated_at": "2026-11-20T09:01:36Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -70,7 +70,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.473Z",
-  "checked_at": "2026-11-19T20:41:40.567Z"
+  "checked_at": "2026-11-20T11:39:58.653Z"
  },
  "contributors": {
   "count": 51,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T02:20:53.095Z"
  },
- "details_checked_at": "2026-11-19T20:41:40.567Z"
+ "details_checked_at": "2026-11-20T11:39:58.653Z"
 }

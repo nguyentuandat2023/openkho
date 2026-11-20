@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:40:11.717Z",
+ "fetched_at": "2026-11-20T11:38:38.383Z",
  "meta": {
   "name": "mcp-for-beginners",
   "owner": "microsoft",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 17685,
-  "forks": 5695,
+  "stars": 17687,
+  "forks": 5696,
   "watchers": 135,
   "open_issues": 58,
   "open_prs": null,
   "created_at": "2025-04-04T20:46:17Z",
   "pushed_at": "2026-11-13T14:58:19Z",
-  "updated_at": "2026-11-19T19:10:02Z",
+  "updated_at": "2026-11-20T04:44:41Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -77,7 +77,7 @@
   "headings": 39,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.679Z",
-  "checked_at": "2026-11-19T20:41:48.692Z"
+  "checked_at": "2026-11-20T11:40:06.000Z"
  },
  "contributors": {
   "count": 76,
@@ -85,5 +85,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.801Z"
  },
- "details_checked_at": "2026-11-19T20:41:48.692Z"
+ "details_checked_at": "2026-11-20T11:40:06.000Z"
 }

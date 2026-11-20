@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:40:10.107Z",
+ "fetched_at": "2026-11-20T11:38:36.434Z",
  "meta": {
   "name": "DesktopCommanderMCP",
   "owner": "wonderwhy-er",
@@ -33,14 +33,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 10367,
-  "forks": 1299,
-  "watchers": 96,
-  "open_issues": 348,
+  "stars": 10374,
+  "forks": 1303,
+  "watchers": 95,
+  "open_issues": 350,
   "open_prs": null,
   "created_at": "2024-12-04T08:26:08Z",
   "pushed_at": "2026-11-18T14:32:01Z",
-  "updated_at": "2026-11-19T20:10:39Z",
+  "updated_at": "2026-11-20T10:02:36Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -88,7 +88,7 @@
   "headings": 73,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.729Z",
-  "checked_at": "2026-11-19T20:41:48.692Z"
+  "checked_at": "2026-11-20T11:40:05.945Z"
  },
  "contributors": {
   "count": 40,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.697Z"
  },
- "details_checked_at": "2026-11-19T20:41:48.692Z"
+ "details_checked_at": "2026-11-20T11:40:05.945Z"
 }

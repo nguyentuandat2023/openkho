@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-19T20:36:26.153Z",
+ "fetched_at": "2026-11-20T11:34:54.986Z",
  "meta": {
   "name": "faster-whisper",
   "owner": "SYSTRAN",
@@ -32,14 +32,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 26874,
-  "forks": 2268,
-  "watchers": 163,
-  "open_issues": 20,
+  "stars": 26889,
+  "forks": 2272,
+  "watchers": 164,
+  "open_issues": 19,
   "open_prs": null,
   "created_at": "2023-02-11T09:17:27Z",
   "pushed_at": "2026-11-12T09:05:56Z",
-  "updated_at": "2026-11-19T18:31:14Z",
+  "updated_at": "2026-11-20T11:24:25Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -82,7 +82,7 @@
   "headings": 26,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:28.853Z",
-  "checked_at": "2026-11-19T20:41:38.217Z"
+  "checked_at": "2026-11-20T11:39:56.602Z"
  },
  "contributors": {
   "count": 55,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:21.951Z"
  },
- "details_checked_at": "2026-11-19T20:41:38.217Z"
+ "details_checked_at": "2026-11-20T11:39:56.602Z"
 }
