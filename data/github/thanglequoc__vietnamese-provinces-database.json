@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T09:51:58.058Z",
+ "fetched_at": "2026-11-21T17:35:18.573Z",
  "meta": {
   "name": "vietnamese-provinces-database",
   "owner": "thanglequoc",
@@ -75,7 +75,7 @@
   "headings": 38,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.359Z",
-  "checked_at": "2026-11-21T09:53:05.103Z"
+  "checked_at": "2026-11-21T17:36:24.755Z"
  },
  "contributors": {
   "count": 7,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.628Z"
  },
- "details_checked_at": "2026-11-21T09:53:05.103Z"
+ "details_checked_at": "2026-11-21T17:36:24.755Z"
 }

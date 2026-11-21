@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T09:51:34.483Z",
+ "fetched_at": "2026-11-21T17:34:53.238Z",
  "meta": {
   "name": "YOURLS",
   "owner": "YOURLS",
@@ -71,7 +71,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.137Z",
-  "checked_at": "2026-11-21T09:53:04.011Z"
+  "checked_at": "2026-11-21T17:36:23.662Z"
  },
  "contributors": {
   "count": 113,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.163Z"
  },
- "details_checked_at": "2026-11-21T09:53:04.011Z"
+ "details_checked_at": "2026-11-21T17:36:23.662Z"
 }

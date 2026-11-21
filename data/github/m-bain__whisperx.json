@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T09:48:39.262Z",
+ "fetched_at": "2026-11-21T17:32:08.968Z",
  "meta": {
   "name": "whisperX",
   "owner": "m-bain",
@@ -29,14 +29,14 @@
    "spdx": "BSD-2-Clause",
    "name": "BSD 2-Clause \"Simplified\" License"
   },
-  "stars": 25552,
+  "stars": 25565,
   "forks": 2589,
   "watchers": 156,
   "open_issues": 223,
   "open_prs": null,
   "created_at": "2022-12-09T02:34:23Z",
-  "pushed_at": "2026-11-12T17:34:05Z",
-  "updated_at": "2026-11-21T08:23:39Z",
+  "pushed_at": "2026-11-21T12:32:21Z",
+  "updated_at": "2026-11-21T17:04:32Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -45,13 +45,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 41998,
+  "size_kb": 42007,
   "og_image": "https://opengraph.githubassets.com/1/m-bain/whisperX",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 16436,
+  "length": 16257,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
@@ -64,16 +64,16 @@
    },
    "usage": {
     "title": "Usage (command line)",
-    "html": "<h5>English</h5>\n<p>Run whisper on example segment (using default params, whisper small) add <code>--highlight_words True</code> to visualise word timings in the .srt file.</p>\n<pre><code>whisperx path/to/audio.wav\n</code></pre>\n<p>Result using <em>WhisperX</em> with forced alignment to wav2vec2.0 large:</p>\n<p><a href=\"https://user-images.githubusercontent.com/36994049/208253969-7e35fe2a-7541-434a-ae91-8e919540555d.mp4\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://user-images.githubusercontent.com/36994049/208253969-7e35fe2a-7541-434a-ae91-8e919540555d.mp4</a></p>\n<p>Compare this to original whisper out the box, where many transcriptions are out of sync:</p>\n<p><a href=\"https://user-images.githubusercontent.com/36994049/207743923-b4f0d537-29ae-4be2-b404-bb941db73652.mov\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://user-images.githubusercontent.com/36994049/207743923-b4f0d537-29ae-4be2-b404-bb941db73652.mov</a></p>\n<p>For increased timestamp accuracy, at the cost of higher gpu mem, use bigger models (bigger alignment model not found to be that helpful, see paper) e.g.</p>\n<pre><code>whisperx path/to/audio.wav --model large-v2 --align_model WAV2VEC2_ASR_LARGE_LV60K_960H --batch_size 4\n</code></pre>\n<p>To label the transcript with speaker ID's (set number of speakers if known e.g. <code>--min_speakers 2</code> <code>--max_speakers 2</code>):</p>\n<pre><code>whisperx path/to/audio.wav --model large-v2 --diarize --highlight_words True\n</code></pre>\n<p>To maintain continuous context (ideal for technical language / punctuation), set interleaved_context=True:</p>\n<pre><code>whisperx path/to/audio.wav --model large-v2 --interleaved_context\n</code></pre>\n<p>To run on CPU instead of GPU (and for running on Mac OS X):</p>\n<pre><code>whisperx path/to/audio.wav --compute_type int8 --device cpu\n</code></pre>\n<p>For conditioning on previous context (This allows context to be passed from the previous segment, leading to better results on long audio):</p>\n<pre><code>whisperx path/to/audio.wav --model large-v2 --interleaved_context\n</code></pre>\n<h5>Other languages</h5>\n<p>The phoneme ASR alignment model is <em>language-specific</em>, for tested languages these models are <a href=\"https://github.com/m-bain/whisperX/blob/f2da2f858e99e4211fe4f64b5f2938b007827e17/whisperx/alignment.py#L24-L58\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">automatically picked from torchaudio pipelines or huggingface</a>.\nJust pass in the <code>--language</code> code, and use the whisper <code>--model large</code>.</p>\n<p>Currently default models provided for <code>{en, fr, de, es, it}</code> via torchaudio pipelines and many other languages via Hugging Face. Please find the list of currently supported languages under <code>DEFAULT_ALIGN_MODELS_HF</code> on <a href=\"https://github.com/m-bain/whisperX/blob/main/whisperx/alignment.py\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">alignment.py</a>. If the detected language is not in this list, you need to find a phoneme-based ASR model from <a href=\"https://huggingface.co/models\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">huggingface model hub</a> and test it on your data.</p>\n<h6>E.g. German</h6>\n<pre><code>whisperx --model large-v2 --language de path/to/audio.wav\n</code></pre>\n<p><a href=\"https://user-images.githubusercontent.com/36994049/208298811-e36002ba-3698-4731-97d4-0aebd07e0eb3.mov\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://user-images.githubusercontent.com/36994049/208298811-e36002ba-3698-4731-97d4-0aebd07e0eb3.mov</a></p>\n<p>See more examples in other languages <a href=\"https://github.com/m-bain/whisperX/blob/main/EXAMPLES.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>.</p>",
+    "html": "<h5>English</h5>\n<p>Run whisper on example segment (using default params, whisper small) add <code>--highlight_words True</code> to visualise word timings in the .srt file.</p>\n<pre><code>whisperx path/to/audio.wav\n</code></pre>\n<p>Result using <em>WhisperX</em> with forced alignment to wav2vec2.0 large:</p>\n<p><a href=\"https://user-images.githubusercontent.com/36994049/208253969-7e35fe2a-7541-434a-ae91-8e919540555d.mp4\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://user-images.githubusercontent.com/36994049/208253969-7e35fe2a-7541-434a-ae91-8e919540555d.mp4</a></p>\n<p>Compare this to original whisper out the box, where many transcriptions are out of sync:</p>\n<p><a href=\"https://user-images.githubusercontent.com/36994049/207743923-b4f0d537-29ae-4be2-b404-bb941db73652.mov\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://user-images.githubusercontent.com/36994049/207743923-b4f0d537-29ae-4be2-b404-bb941db73652.mov</a></p>\n<p>For increased timestamp accuracy, at the cost of higher gpu mem, use bigger models (bigger alignment model not found to be that helpful, see paper) e.g.</p>\n<pre><code>whisperx path/to/audio.wav --model large-v2 --align_model WAV2VEC2_ASR_LARGE_LV60K_960H --batch_size 4\n</code></pre>\n<p>To label the transcript with speaker ID's (set number of speakers if known e.g. <code>--min_speakers 2</code> <code>--max_speakers 2</code>):</p>\n<pre><code>whisperx path/to/audio.wav --model large-v2 --diarize --highlight_words True\n</code></pre>\n<p>To run on CPU instead of GPU (and for running on Mac OS X):</p>\n<pre><code>whisperx path/to/audio.wav --compute_type int8 --device cpu\n</code></pre>\n<p>For conditioning on previous context (This allows context to be passed from the previous segment, leading to better results on long audio):</p>\n<pre><code>whisperx path/to/audio.wav --model large-v2 --interleaved_context\n</code></pre>\n<h5>Other languages</h5>\n<p>The phoneme ASR alignment model is <em>language-specific</em>, for tested languages these models are <a href=\"https://github.com/m-bain/whisperX/blob/f2da2f858e99e4211fe4f64b5f2938b007827e17/whisperx/alignment.py#L24-L58\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">automatically picked from torchaudio pipelines or huggingface</a>.\nJust pass in the <code>--language</code> code, and use the whisper <code>--model large</code>.</p>\n<p>Currently default models provided for <code>{en, fr, de, es, it}</code> via torchaudio pipelines and many other languages via Hugging Face. Please find the list of currently supported languages under <code>DEFAULT_ALIGN_MODELS_HF</code> on <a href=\"https://github.com/m-bain/whisperX/blob/main/whisperx/alignment.py\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">alignment.py</a>. If the detected language is not in this list, you need to find a phoneme-based ASR model from <a href=\"https://huggingface.co/models\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">huggingface model hub</a> and test it on your data.</p>\n<h6>E.g. German</h6>\n<pre><code>whisperx --model large-v2 --language de path/to/audio.wav\n</code></pre>\n<p><a href=\"https://user-images.githubusercontent.com/36994049/208298811-e36002ba-3698-4731-97d4-0aebd07e0eb3.mov\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://user-images.githubusercontent.com/36994049/208298811-e36002ba-3698-4731-97d4-0aebd07e0eb3.mov</a></p>\n<p>See more examples in other languages <a href=\"https://github.com/m-bain/whisperX/blob/main/EXAMPLES.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">here</a>.</p>",
     "truncated": false,
-    "chars": 2624
+    "chars": 2445
    },
    "features": null
   },
   "headings": 23,
   "processor": 4,
-  "fetched_at": "2026-11-17T21:01:28.820Z",
-  "checked_at": "2026-11-21T09:52:57.042Z"
+  "fetched_at": "2026-11-21T17:36:17.173Z",
+  "checked_at": "2026-11-21T17:36:17.173Z"
  },
  "contributors": {
   "count": 120,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:22.305Z"
  },
- "details_checked_at": "2026-11-21T09:52:57.042Z"
+ "details_checked_at": "2026-11-21T17:36:17.173Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T09:52:30.155Z",
+ "fetched_at": "2026-11-21T17:35:52.002Z",
  "meta": {
   "name": "jitsi-meet",
   "owner": "jitsi",
@@ -34,14 +34,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 30273,
-  "forks": 8144,
+  "stars": 30275,
+  "forks": 8143,
   "watchers": 524,
-  "open_issues": 221,
+  "open_issues": 222,
   "open_prs": null,
   "created_at": "2013-12-16T12:51:09Z",
   "pushed_at": "2026-11-21T08:09:34Z",
-  "updated_at": "2026-11-21T09:34:05Z",
+  "updated_at": "2026-11-21T13:39:25Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -73,7 +73,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.721Z",
-  "checked_at": "2026-11-21T09:53:06.263Z"
+  "checked_at": "2026-11-21T17:36:25.823Z"
  },
  "contributors": {
   "count": 799,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.193Z"
  },
- "details_checked_at": "2026-11-21T09:53:06.263Z"
+ "details_checked_at": "2026-11-21T17:36:25.823Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T09:49:38.882Z",
+ "fetched_at": "2026-11-21T17:33:04.362Z",
  "meta": {
   "name": "llama.cpp",
   "owner": "ggml-org",
@@ -25,14 +25,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 135901,
-  "forks": 25839,
+  "stars": 135944,
+  "forks": 25858,
   "watchers": 908,
-  "open_issues": 2611,
+  "open_issues": 2618,
   "open_prs": null,
   "created_at": "2023-03-10T18:58:00Z",
-  "pushed_at": "2026-11-21T09:31:09Z",
-  "updated_at": "2026-11-21T09:39:31Z",
+  "pushed_at": "2026-11-21T16:24:40Z",
+  "updated_at": "2026-11-21T17:28:39Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -41,7 +41,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 510634,
+  "size_kb": 512476,
   "og_image": "https://opengraph.githubassets.com/1/ggml-org/llama.cpp",
   "custom_og_image": false
  },
@@ -64,7 +64,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-19T11:45:03.694Z",
-  "checked_at": "2026-11-21T09:52:59.451Z"
+  "checked_at": "2026-11-21T17:36:19.426Z"
  },
  "contributors": {
   "count": 2258,
@@ -72,5 +72,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.431Z"
  },
- "details_checked_at": "2026-11-21T09:52:59.451Z"
+ "details_checked_at": "2026-11-21T17:36:19.426Z"
 }

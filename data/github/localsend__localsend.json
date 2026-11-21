@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T09:52:05.906Z",
+ "fetched_at": "2026-11-21T17:35:26.023Z",
  "meta": {
   "name": "localsend",
   "owner": "localsend",
@@ -28,14 +28,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 100043,
-  "forks": 5740,
-  "watchers": 353,
-  "open_issues": 1045,
+  "stars": 100110,
+  "forks": 5746,
+  "watchers": 352,
+  "open_issues": 1046,
   "open_prs": null,
   "created_at": "2022-12-16T00:46:07Z",
   "pushed_at": "2026-11-21T03:36:03Z",
-  "updated_at": "2026-11-21T09:50:52Z",
+  "updated_at": "2026-11-21T17:34:17Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 21,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.656Z",
-  "checked_at": "2026-11-21T09:53:05.336Z"
+  "checked_at": "2026-11-21T17:36:24.925Z"
  },
  "contributors": {
   "count": 253,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:40.119Z"
  },
- "details_checked_at": "2026-11-21T09:53:05.336Z"
+ "details_checked_at": "2026-11-21T17:36:24.925Z"
 }

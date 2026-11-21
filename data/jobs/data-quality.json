@@ -1,5 +1,5 @@
 {
- "computed_at": "2026-11-21T09:57:14.664Z",
+ "computed_at": "2026-11-21T17:37:57.355Z",
  "curated_missing_github_id": [],
  "missing_contributors": 2391,
  "stale_over_48h": [
@@ -14,6 +14,7 @@
   "IsaiaR09/daemon-pro-desktop",
   "kcgeekedup-hash/delta-force-trainer-tool",
   "Elegantic/designcenter-nx-desktop",
+  "Vesuvio1/GTA-VI",
   "Sanidhya0510/dvd-creator-game-enhancement",
   "RyoTheOne/dxo-photolab-10-config",
   "Luk177Master/easy-worship-desktop",
@@ -42,7 +43,7 @@
   "trackboatwrightplan/GitHub-Copilot-app",
   "trackboatwrightplan/ai--manus2.0"
  ],
- "low_quality_coverage": 1344,
+ "low_quality_coverage": 1224,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -482,15 +483,9 @@
  ],
  "anomalies": [
   {
-   "id": "awesome-selfhosted/awesome-selfhosted",
-   "reasons": [
-    "+310 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
    "id": "sindresorhus/awesome",
    "reasons": [
-    "+487 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+503 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -509,6 +504,12 @@
    "id": "mattpocock/skills",
    "reasons": [
     "rất ít người đóng góp (9) so với tốc độ tăng sao"
+   ]
+  },
+  {
+   "id": "ifixai-ai/iFixAi",
+   "reasons": [
+    "+327 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -568,13 +569,13 @@
   {
    "id": "byted-technologies/.github",
    "reasons": [
-    "repo mới với 3.991 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 3.990 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "helloHub1212/dsh-windows-mcp",
    "reasons": [
-    "repo mới với 2.033 sao nhưng gần như không có fork (10) và chưa có issue nào"
+    "repo mới với 2.076 sao nhưng gần như không có fork (10) và chưa có issue nào"
    ]
   },
   {
@@ -718,7 +719,7 @@
   {
    "id": "Gosu-x/multimodal-threat-dataset",
    "reasons": [
-    "+474 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+479 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -796,133 +797,133 @@
   {
    "id": "TorrentArrow/IPTV_Player_2.0",
    "reasons": [
-    "repo mới với 375 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 373 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "TurtleReside/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "VisionWormStudio/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Violetnyudress/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "TypeTyrantScheme/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "TrooperFilter/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Visionbeyondtrack/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "VortexHostFeel/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Watchlespeed/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WerewolfEmuHub/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "weldbladesmithwharf/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "weightcashiercupola/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 473 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 471 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WestLocksmithSpout/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WharfBoulderColander/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WindGatorRise37/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WinnerSpecialist/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WingDataVacuum/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WindowStaffGate11/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WireProvostPucker/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WyrmClimberManacle/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
    "id": "wisemeadowlarkspike/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 470 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "YellowLaborerMarket/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 474 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {

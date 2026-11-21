@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T09:50:57.772Z",
+ "fetched_at": "2026-11-21T17:34:20.474Z",
  "meta": {
   "name": "PrestaShop",
   "owner": "PrestaShop",
@@ -33,13 +33,13 @@
    "name": "Other"
   },
   "stars": 9260,
-  "forks": 5060,
+  "forks": 5059,
   "watchers": 439,
-  "open_issues": 2387,
+  "open_issues": 2393,
   "open_prs": null,
   "created_at": "2012-11-19T16:41:31Z",
   "pushed_at": "2026-11-20T16:48:13Z",
-  "updated_at": "2026-11-21T07:00:05Z",
+  "updated_at": "2026-11-21T15:16:44Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -71,7 +71,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.649Z",
-  "checked_at": "2026-11-21T09:53:02.577Z"
+  "checked_at": "2026-11-21T17:36:22.368Z"
  },
  "contributors": {
   "count": 1355,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.909Z"
  },
- "details_checked_at": "2026-11-21T09:53:02.577Z"
+ "details_checked_at": "2026-11-21T17:36:22.368Z"
 }

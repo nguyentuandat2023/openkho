@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T09:51:53.856Z",
+ "fetched_at": "2026-11-21T17:35:13.797Z",
  "meta": {
   "name": "webstudio",
   "owner": "webstudio-is",
@@ -47,7 +47,7 @@
   "open_issues": 335,
   "open_prs": null,
   "created_at": "2022-03-13T04:19:01Z",
-  "pushed_at": "2026-11-21T09:40:41Z",
+  "pushed_at": "2026-11-21T16:59:45Z",
   "updated_at": "2026-11-20T18:16:19Z",
   "archived": false,
   "disabled": false,
@@ -57,7 +57,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 155646,
+  "size_kb": 155738,
   "og_image": "https://opengraph.githubassets.com/1/webstudio-is/webstudio",
   "custom_og_image": false
  },
@@ -75,7 +75,7 @@
   "headings": 3,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.108Z",
-  "checked_at": "2026-11-21T09:53:04.879Z"
+  "checked_at": "2026-11-21T17:36:24.524Z"
  },
  "contributors": {
   "count": 51,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.225Z"
  },
- "details_checked_at": "2026-11-21T09:53:04.879Z"
+ "details_checked_at": "2026-11-21T17:36:24.524Z"
 }

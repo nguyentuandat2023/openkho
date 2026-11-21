@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T09:49:34.290Z",
+ "fetched_at": "2026-11-21T17:32:59.435Z",
  "meta": {
   "name": "Qwen-Image",
   "owner": "QwenLM",
@@ -67,7 +67,7 @@
   "headings": 28,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.137Z",
-  "checked_at": "2026-11-21T09:52:59.276Z"
+  "checked_at": "2026-11-21T17:36:19.198Z"
  },
  "contributors": {
   "count": 16,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.172Z"
  },
- "details_checked_at": "2026-11-21T09:52:59.276Z"
+ "details_checked_at": "2026-11-21T17:36:19.198Z"
 }

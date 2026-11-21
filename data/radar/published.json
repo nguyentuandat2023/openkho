@@ -2353,8 +2353,7 @@
   },
   "1459485844": {
    "full_name": "scottsturrock/mate-wayland-desktop",
-   "since": "2026-11-18T20:29:46.512Z",
-   "failing_since": "2026-11-19T20:43:38.080Z"
+   "since": "2026-11-18T20:29:46.512Z"
   },
   "1459700211": {
    "full_name": "siliconjungle/shapeshift-labs-ink-studio",
@@ -2409,5 +2408,5 @@
    "since": "2026-11-17T20:54:14.953Z"
   }
  },
- "updated_at": "2026-11-21T09:57:17.085Z"
+ "updated_at": "2026-11-21T17:38:00.105Z"
 }

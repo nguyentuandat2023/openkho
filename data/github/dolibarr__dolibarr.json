@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T09:49:56.822Z",
+ "fetched_at": "2026-11-21T17:33:21.357Z",
  "meta": {
   "name": "dolibarr",
   "owner": "Dolibarr",
@@ -50,7 +50,7 @@
   "open_issues": 1036,
   "open_prs": null,
   "created_at": "2011-06-26T21:55:03Z",
-  "pushed_at": "2026-11-21T09:31:21Z",
+  "pushed_at": "2026-11-21T15:28:21Z",
   "updated_at": "2026-11-21T00:14:59Z",
   "archived": false,
   "disabled": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 1788279,
+  "size_kb": 1787675,
   "og_image": "https://opengraph.githubassets.com/1/Dolibarr/dolibarr",
   "custom_og_image": false
  },
@@ -93,7 +93,7 @@
   "headings": 23,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.045Z",
-  "checked_at": "2026-11-21T09:53:00.173Z"
+  "checked_at": "2026-11-21T17:36:20.109Z"
  },
  "contributors": {
   "count": 1283,
@@ -101,5 +101,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.422Z"
  },
- "details_checked_at": "2026-11-21T09:53:00.173Z"
+ "details_checked_at": "2026-11-21T17:36:20.109Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T09:52:40.609Z",
+ "fetched_at": "2026-11-21T17:36:02.038Z",
  "meta": {
   "name": "subtitleedit",
   "owner": "SubtitleEdit",
@@ -23,14 +23,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 15086,
-  "forks": 1390,
+  "stars": 15091,
+  "forks": 1392,
   "watchers": 166,
-  "open_issues": 204,
+  "open_issues": 209,
   "open_prs": null,
   "created_at": "2014-02-03T08:17:41Z",
   "pushed_at": "2026-11-21T07:48:19Z",
-  "updated_at": "2026-11-21T09:28:38Z",
+  "updated_at": "2026-11-21T17:02:48Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -62,7 +62,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.172Z",
-  "checked_at": "2026-11-21T09:53:06.730Z"
+  "checked_at": "2026-11-21T17:36:26.248Z"
  },
  "contributors": {
   "count": 247,
@@ -70,5 +70,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.063Z"
  },
- "details_checked_at": "2026-11-21T09:53:06.730Z"
+ "details_checked_at": "2026-11-21T17:36:26.248Z"
 }
