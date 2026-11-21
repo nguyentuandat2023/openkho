@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T20:18:37.979Z",
+ "fetched_at": "2026-11-21T09:51:10.453Z",
  "meta": {
   "name": "awesome-llm-apps",
   "owner": "Shubhamsaboo",
@@ -28,14 +28,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 145204,
-  "forks": 21387,
+  "stars": 145254,
+  "forks": 21388,
   "watchers": 1313,
-  "open_issues": 11,
+  "open_issues": 14,
   "open_prs": null,
   "created_at": "2024-04-29T05:30:25Z",
   "pushed_at": "2026-11-18T05:25:32Z",
-  "updated_at": "2026-11-20T20:06:34Z",
+  "updated_at": "2026-11-21T09:21:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -62,7 +62,7 @@
   "headings": 19,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.080Z",
-  "checked_at": "2026-11-20T20:20:34.748Z"
+  "checked_at": "2026-11-21T09:53:03.070Z"
  },
  "contributors": {
   "count": 140,
@@ -70,5 +70,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:36.713Z"
  },
- "details_checked_at": "2026-11-20T20:20:34.748Z"
+ "details_checked_at": "2026-11-21T09:53:03.070Z"
 }

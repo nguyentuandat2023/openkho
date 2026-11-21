@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T20:18:26.496Z",
+ "fetched_at": "2026-11-21T09:50:59.867Z",
  "meta": {
   "name": "opencart",
   "owner": "opencart",
@@ -78,7 +78,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.754Z",
-  "checked_at": "2026-11-20T20:20:34.243Z"
+  "checked_at": "2026-11-21T09:53:02.589Z"
  },
  "contributors": {
   "count": 501,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.882Z"
  },
- "details_checked_at": "2026-11-20T20:20:34.243Z"
+ "details_checked_at": "2026-11-21T09:53:02.589Z"
 }

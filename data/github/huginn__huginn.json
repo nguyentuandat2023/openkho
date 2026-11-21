@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T20:16:17.751Z",
+ "fetched_at": "2026-11-21T09:48:56.595Z",
  "meta": {
   "name": "huginn",
   "owner": "huginn",
@@ -34,14 +34,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 50598,
-  "forks": 4361,
+  "stars": 50601,
+  "forks": 4364,
   "watchers": 727,
-  "open_issues": 690,
+  "open_issues": 694,
   "open_prs": null,
   "created_at": "2013-03-10T06:00:31Z",
-  "pushed_at": "2026-11-20T17:52:43Z",
-  "updated_at": "2026-11-20T14:42:37Z",
+  "pushed_at": "2026-11-21T07:14:47Z",
+  "updated_at": "2026-11-21T02:54:56Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -50,7 +50,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 12428,
+  "size_kb": 12433,
   "og_image": "https://opengraph.githubassets.com/1/huginn/huginn",
   "custom_og_image": false
  },
@@ -78,7 +78,7 @@
   "headings": 18,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:29.690Z",
-  "checked_at": "2026-11-20T20:20:28.982Z"
+  "checked_at": "2026-11-21T09:52:57.619Z"
  },
  "contributors": {
   "count": 269,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:30.790Z"
  },
- "details_checked_at": "2026-11-20T20:20:28.982Z"
+ "details_checked_at": "2026-11-21T09:52:57.619Z"
 }

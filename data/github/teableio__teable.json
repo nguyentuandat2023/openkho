@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T20:19:21.264Z",
+ "fetched_at": "2026-11-21T09:51:51.059Z",
  "meta": {
   "name": "teable",
   "owner": "teableio",
@@ -36,14 +36,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 22004,
+  "stars": 22006,
   "forks": 1367,
   "watchers": 90,
   "open_issues": 150,
   "open_prs": null,
   "created_at": "2022-11-01T07:02:49Z",
   "pushed_at": "2026-11-20T11:29:43Z",
-  "updated_at": "2026-11-20T18:56:22Z",
+  "updated_at": "2026-11-21T03:23:14Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -80,7 +80,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-18T11:46:16.613Z",
-  "checked_at": "2026-11-20T20:20:36.438Z"
+  "checked_at": "2026-11-21T09:53:04.700Z"
  },
  "contributors": {
   "count": 44,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.023Z"
  },
- "details_checked_at": "2026-11-20T20:20:36.438Z"
+ "details_checked_at": "2026-11-21T09:53:04.700Z"
 }

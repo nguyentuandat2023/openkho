@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T20:18:47.215Z",
+ "fetched_at": "2026-11-21T09:51:19.478Z",
  "meta": {
   "name": "awesome",
   "owner": "sindresorhus",
@@ -29,14 +29,14 @@
    "spdx": "CC0-1.0",
    "name": "Creative Commons Zero v1.0 Universal"
   },
-  "stars": 539959,
-  "forks": 38572,
-  "watchers": 8506,
+  "stars": 540204,
+  "forks": 38562,
+  "watchers": 8507,
   "open_issues": 103,
   "open_prs": null,
   "created_at": "2014-07-11T13:42:37Z",
   "pushed_at": "2026-09-02T02:10:47Z",
-  "updated_at": "2026-11-20T20:18:46Z",
+  "updated_at": "2026-11-21T09:51:11Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -63,7 +63,7 @@
   "headings": 28,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.524Z",
-  "checked_at": "2026-11-20T20:20:35.140Z"
+  "checked_at": "2026-11-21T09:53:03.457Z"
  },
  "contributors": {
   "count": 678,
@@ -71,5 +71,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:37.255Z"
  },
- "details_checked_at": "2026-11-20T20:20:35.140Z"
+ "details_checked_at": "2026-11-21T09:53:03.457Z"
 }

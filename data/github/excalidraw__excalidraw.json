@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T20:17:55.757Z",
+ "fetched_at": "2026-11-21T09:50:30.065Z",
  "meta": {
   "name": "excalidraw",
   "owner": "excalidraw",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 136028,
-  "forks": 16254,
+  "stars": 136043,
+  "forks": 16238,
   "watchers": 526,
-  "open_issues": 3587,
+  "open_issues": 3589,
   "open_prs": null,
   "created_at": "2020-01-02T01:04:43Z",
-  "pushed_at": "2026-11-19T19:01:22Z",
-  "updated_at": "2026-11-20T20:06:37Z",
+  "pushed_at": "2026-11-20T20:57:33Z",
+  "updated_at": "2026-11-21T09:50:26Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 108551,
+  "size_kb": 108566,
   "og_image": "https://opengraph.githubassets.com/1/excalidraw/excalidraw",
   "custom_og_image": false
  },
@@ -75,7 +75,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.441Z",
-  "checked_at": "2026-11-20T20:20:33.121Z"
+  "checked_at": "2026-11-21T09:53:01.416Z"
  },
  "contributors": {
   "count": 381,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.096Z"
  },
- "details_checked_at": "2026-11-20T20:20:33.121Z"
+ "details_checked_at": "2026-11-21T09:53:01.416Z"
 }

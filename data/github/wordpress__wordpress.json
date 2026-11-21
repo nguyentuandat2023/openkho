@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T20:20:15.825Z",
+ "fetched_at": "2026-11-21T09:52:44.352Z",
  "meta": {
   "name": "WordPress",
   "owner": "WordPress",
@@ -23,14 +23,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 21547,
-  "forks": 13037,
+  "stars": 21549,
+  "forks": 12971,
   "watchers": 1432,
   "open_issues": 3,
   "open_prs": null,
   "created_at": "2011-12-01T07:05:17Z",
-  "pushed_at": "2026-11-20T16:56:07Z",
-  "updated_at": "2026-11-20T12:52:18Z",
+  "pushed_at": "2026-11-20T23:04:06Z",
+  "updated_at": "2026-11-21T02:18:42Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -39,7 +39,7 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 784678,
+  "size_kb": 784728,
   "og_image": "https://opengraph.githubassets.com/1/WordPress/WordPress",
   "custom_og_image": false
  },
@@ -57,7 +57,7 @@
   "headings": 0,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:41.367Z",
-  "checked_at": "2026-11-20T20:20:38.741Z"
+  "checked_at": "2026-11-21T09:53:06.815Z"
  },
  "contributors": {
   "count": 138,
@@ -65,5 +65,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.723Z"
  },
- "details_checked_at": "2026-11-20T20:20:38.741Z"
+ "details_checked_at": "2026-11-21T09:53:06.815Z"
 }

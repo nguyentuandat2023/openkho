@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T20:19:04.924Z",
+ "fetched_at": "2026-11-21T09:51:36.470Z",
  "meta": {
   "name": "awesome-mcp-servers",
   "owner": "punkpeye",
@@ -26,14 +26,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 98320,
-  "forks": 20517,
+  "stars": 98341,
+  "forks": 20552,
   "watchers": 56,
-  "open_issues": 4935,
+  "open_issues": 4986,
   "open_prs": null,
   "created_at": "2024-11-30T04:49:10Z",
   "pushed_at": "2026-11-17T05:21:40Z",
-  "updated_at": "2026-11-20T20:05:37Z",
+  "updated_at": "2026-11-21T09:18:11Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -71,7 +71,7 @@
   "headings": 27,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.419Z",
-  "checked_at": "2026-11-20T20:20:35.780Z"
+  "checked_at": "2026-11-21T09:53:04.134Z"
  },
  "contributors": {
   "count": 5066,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.331Z"
  },
- "details_checked_at": "2026-11-20T20:20:35.780Z"
+ "details_checked_at": "2026-11-21T09:53:04.134Z"
 }

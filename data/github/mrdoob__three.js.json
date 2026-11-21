@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T20:18:02.026Z",
+ "fetched_at": "2026-11-21T09:50:36.317Z",
  "meta": {
   "name": "three.js",
   "owner": "mrdoob",
@@ -36,14 +36,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 119026,
-  "forks": 37058,
+  "stars": 119054,
+  "forks": 36987,
   "watchers": 2530,
-  "open_issues": 407,
+  "open_issues": 410,
   "open_prs": null,
   "created_at": "2010-03-23T18:58:01Z",
   "pushed_at": "2026-11-20T17:34:49Z",
-  "updated_at": "2026-11-20T19:33:37Z",
+  "updated_at": "2026-11-21T09:20:18Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -75,7 +75,7 @@
   "headings": 5,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.678Z",
-  "checked_at": "2026-11-20T20:20:33.402Z"
+  "checked_at": "2026-11-21T09:53:01.687Z"
  },
  "contributors": {
   "count": 2626,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.500Z"
  },
- "details_checked_at": "2026-11-20T20:20:33.402Z"
+ "details_checked_at": "2026-11-21T09:53:01.687Z"
 }

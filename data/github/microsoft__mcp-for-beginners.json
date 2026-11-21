@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T20:19:15.335Z",
+ "fetched_at": "2026-11-21T09:51:45.834Z",
  "meta": {
   "name": "mcp-for-beginners",
   "owner": "microsoft",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 17689,
-  "forks": 5697,
+  "stars": 17693,
+  "forks": 5695,
   "watchers": 135,
-  "open_issues": 53,
+  "open_issues": 44,
   "open_prs": null,
   "created_at": "2025-04-04T20:46:17Z",
-  "pushed_at": "2026-11-20T15:21:25Z",
-  "updated_at": "2026-11-20T16:12:43Z",
+  "pushed_at": "2026-11-21T00:09:34Z",
+  "updated_at": "2026-11-21T03:54:08Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,7 +54,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 2887384,
+  "size_kb": 2887504,
   "og_image": "https://opengraph.githubassets.com/1/microsoft/mcp-for-beginners",
   "custom_og_image": false
  },
@@ -77,7 +77,7 @@
   "headings": 39,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.679Z",
-  "checked_at": "2026-11-20T20:20:36.221Z"
+  "checked_at": "2026-11-21T09:53:04.518Z"
  },
  "contributors": {
   "count": 76,
@@ -85,5 +85,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.801Z"
  },
- "details_checked_at": "2026-11-20T20:20:36.221Z"
+ "details_checked_at": "2026-11-21T09:53:04.518Z"
 }

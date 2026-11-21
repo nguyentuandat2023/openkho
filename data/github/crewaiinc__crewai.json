@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T20:15:50.935Z",
+ "fetched_at": "2026-11-21T09:48:31.604Z",
  "meta": {
   "name": "crewAI",
   "owner": "crewAIInc",
@@ -29,14 +29,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 61131,
-  "forks": 9237,
+  "stars": 61138,
+  "forks": 9226,
   "watchers": 392,
-  "open_issues": 1231,
+  "open_issues": 1251,
   "open_prs": null,
   "created_at": "2023-10-27T03:26:59Z",
-  "pushed_at": "2026-11-20T17:16:29Z",
-  "updated_at": "2026-11-20T19:05:02Z",
+  "pushed_at": "2026-11-21T02:13:50Z",
+  "updated_at": "2026-11-21T09:27:19Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -45,7 +45,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 308624,
+  "size_kb": 308633,
   "og_image": "https://opengraph.githubassets.com/1/crewAIInc/crewAI",
   "custom_og_image": false
  },
@@ -94,7 +94,7 @@
   "headings": 54,
   "processor": 4,
   "fetched_at": "2026-11-18T20:37:07.355Z",
-  "checked_at": "2026-11-20T20:20:27.809Z"
+  "checked_at": "2026-11-21T09:52:56.652Z"
  },
  "contributors": {
   "count": 376,
@@ -102,5 +102,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:18.521Z"
  },
- "details_checked_at": "2026-11-20T20:20:27.809Z"
+ "details_checked_at": "2026-11-21T09:52:56.652Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T20:18:45.475Z",
+ "fetched_at": "2026-11-21T09:51:18.076Z",
  "meta": {
   "name": "awesome-selfhosted",
   "owner": "awesome-selfhosted",
@@ -32,14 +32,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 338926,
-  "forks": 15901,
+  "stars": 339087,
+  "forks": 15897,
   "watchers": 3400,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2015-06-01T02:33:17Z",
   "pushed_at": "2026-11-17T17:21:32Z",
-  "updated_at": "2026-11-20T20:17:44Z",
+  "updated_at": "2026-11-21T09:47:28Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -76,7 +76,7 @@
   "headings": 103,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:37.069Z",
-  "checked_at": "2026-11-20T20:20:35.003Z"
+  "checked_at": "2026-11-21T09:53:03.361Z"
  },
  "contributors": {
   "count": 1362,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:37.175Z"
  },
- "details_checked_at": "2026-11-20T20:20:35.003Z"
+ "details_checked_at": "2026-11-21T09:53:03.361Z"
 }

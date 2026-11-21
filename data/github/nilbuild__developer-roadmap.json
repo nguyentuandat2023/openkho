@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T20:18:48.934Z",
+ "fetched_at": "2026-11-21T09:51:20.964Z",
  "meta": {
   "name": "developer-roadmap",
   "owner": "nilbuild",
@@ -42,14 +42,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 372446,
-  "forks": 46521,
-  "watchers": 6858,
+  "stars": 372470,
+  "forks": 45375,
+  "watchers": 6860,
   "open_issues": 5,
   "open_prs": null,
   "created_at": "2017-03-15T13:45:52Z",
   "pushed_at": "2026-11-20T16:39:22Z",
-  "updated_at": "2026-11-20T20:13:19Z",
+  "updated_at": "2026-11-21T09:41:05Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -76,7 +76,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.580Z",
-  "checked_at": "2026-11-20T20:20:35.181Z"
+  "checked_at": "2026-11-21T09:53:03.570Z"
  },
  "contributors": {
   "count": 1637,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:37.549Z"
  },
- "details_checked_at": "2026-11-20T20:20:35.181Z"
+ "details_checked_at": "2026-11-21T09:53:03.570Z"
 }

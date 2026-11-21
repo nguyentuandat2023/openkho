@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T20:17:25.555Z",
+ "fetched_at": "2026-11-21T09:50:01.004Z",
  "meta": {
   "name": "freescout",
   "owner": "freescout-help-desk",
@@ -41,10 +41,10 @@
   "stars": 4674,
   "forks": 747,
   "watchers": 43,
-  "open_issues": 10,
+  "open_issues": 7,
   "open_prs": null,
   "created_at": "2018-06-22T17:08:50Z",
-  "pushed_at": "2026-11-20T07:10:29Z",
+  "pushed_at": "2026-11-21T07:31:51Z",
   "updated_at": "2026-11-20T18:47:43Z",
   "archived": false,
   "disabled": false,
@@ -54,7 +54,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 30258,
+  "size_kb": 29586,
   "og_image": "https://opengraph.githubassets.com/1/freescout-help-desk/freescout",
   "custom_og_image": false
  },
@@ -82,7 +82,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.256Z",
-  "checked_at": "2026-11-20T20:20:31.856Z"
+  "checked_at": "2026-11-21T09:53:00.246Z"
  },
  "contributors": {
   "count": 109,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.426Z"
  },
- "details_checked_at": "2026-11-20T20:20:31.856Z"
+ "details_checked_at": "2026-11-21T09:53:00.246Z"
 }

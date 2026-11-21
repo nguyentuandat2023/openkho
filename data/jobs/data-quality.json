@@ -1,5 +1,5 @@
 {
- "computed_at": "2026-11-21T01:31:18.397Z",
+ "computed_at": "2026-11-21T09:57:14.664Z",
  "curated_missing_github_id": [],
  "missing_contributors": 2391,
  "stale_over_48h": [
@@ -42,7 +42,7 @@
   "trackboatwrightplan/GitHub-Copilot-app",
   "trackboatwrightplan/ai--manus2.0"
  ],
- "low_quality_coverage": 1464,
+ "low_quality_coverage": 1344,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -444,6 +444,10 @@
    "to": "avabbbb/Iris"
   },
   {
+   "from": "Michaelliv/runline",
+   "to": "shift-labs-ai/codemode"
+  },
+  {
    "from": "brycewang-stanford/Auto-Research-Skills",
    "to": "brycewang-stanford/Free-Research-Crew"
   },
@@ -477,6 +481,18 @@
   }
  ],
  "anomalies": [
+  {
+   "id": "awesome-selfhosted/awesome-selfhosted",
+   "reasons": [
+    "+310 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "sindresorhus/awesome",
+   "reasons": [
+    "+487 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
   {
    "id": "DigitalPlatDev/FreeDomain",
    "reasons": [
@@ -556,6 +572,12 @@
    ]
   },
   {
+   "id": "helloHub1212/dsh-windows-mcp",
+   "reasons": [
+    "repo mới với 2.033 sao nhưng gần như không có fork (10) và chưa có issue nào"
+   ]
+  },
+  {
    "id": "HeyPuter/everything",
    "reasons": [
     "rất ít người đóng góp (3) so với tốc độ tăng sao"
@@ -588,7 +610,7 @@
   {
    "id": "Cattmonkey/ChaosIntelligence",
    "reasons": [
-    "repo mới với 340 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 341 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -624,7 +646,7 @@
   {
    "id": "AhmadHassan-BTed/RainGen-RainGenerator",
    "reasons": [
-    "repo mới với 1.613 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.615 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -696,67 +718,61 @@
   {
    "id": "Gosu-x/multimodal-threat-dataset",
    "reasons": [
-    "+473 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "EunChae1110/mmforge-platform",
-   "reasons": [
-    "+377 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+474 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "ariamitchell54/cubase-studio-desktop",
    "reasons": [
-    "+307 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "angela-cook-1988/vegas-pro-23-desktop",
    "reasons": [
-    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+304 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "azure-teal-slope/windows-optimizer-desktop",
    "reasons": [
-    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+304 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "azuremaple1997/coreldraw-desktop",
    "reasons": [
-    "repo mới với 305 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "repo mới với 304 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
    "id": "azuresail195/wondershare-recoverit-desktop",
    "reasons": [
-    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+304 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "ben-cook-42/kontakt-8-desktop",
    "reasons": [
-    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+304 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "ben14-dunn/native-instruments-kontakt-desktop",
    "reasons": [
-    "+306 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "ben-miller-23/dxo-photolab-10-desktop",
    "reasons": [
-    "+307 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "brave-plum-co/leonardo-ai-desktop",
    "reasons": [
-    "+303 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 303 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -894,7 +910,7 @@
   {
    "id": "WyrmClimberManacle/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 472 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 472 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
@@ -982,7 +998,7 @@
   },
   {
    "cluster": "campaign-2026-11-13-303",
-   "reason": "Một trong 14 repo khác tên do 14 tài khoản tạo gần như cùng lúc, cùng khoảng 303–307 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "reason": "Một trong 14 repo khác tên do 14 tài khoản tạo gần như cùng lúc, cùng khoảng 303–306 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
    "repos": [
     "ariamitchell54/cubase-studio-desktop",
     "alex-wells-65/iobit-driver-booster-desktop",

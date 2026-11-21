@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-20T20:18:03.355Z",
+ "fetched_at": "2026-11-21T09:50:37.862Z",
  "meta": {
   "name": "lucide",
   "owner": "lucide-icons",
@@ -34,14 +34,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 25889,
+  "stars": 25896,
   "forks": 1703,
   "watchers": 58,
-  "open_issues": 312,
+  "open_issues": 314,
   "open_prs": null,
   "created_at": "2020-06-08T15:36:21Z",
   "pushed_at": "2026-11-20T14:04:37Z",
-  "updated_at": "2026-11-20T20:15:26Z",
+  "updated_at": "2026-11-21T09:34:26Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -68,7 +68,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.764Z",
-  "checked_at": "2026-11-20T20:20:33.441Z"
+  "checked_at": "2026-11-21T09:53:01.806Z"
  },
  "contributors": {
   "count": 450,
@@ -76,5 +76,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.531Z"
  },
- "details_checked_at": "2026-11-20T20:20:33.441Z"
+ "details_checked_at": "2026-11-21T09:53:01.806Z"
 }
