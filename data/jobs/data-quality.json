@@ -1,9 +1,10 @@
 {
- "computed_at": "2026-11-20T20:22:06.918Z",
+ "computed_at": "2026-11-21T01:31:18.397Z",
  "curated_missing_github_id": [],
  "missing_contributors": 2391,
  "stale_over_48h": [
   "abdulmannanmalik13-wq/adobe-substance-3d-studio",
+  "hembramneeraj3-create/aida-64-extreme",
   "Arda313131882/aion-2-trainer-tool",
   "App-MonicaWEB/auslogics-audio-studio-desktop",
   "Leno27-Adr/autodesk-revit-2026-standalone",
@@ -35,12 +36,13 @@
   "hitkeeen/blender-ai-mcp-addon",
   "DevedevT/FFmpeg-GUI-Editor-Windows",
   "amber-lance-72/xeno-roblox-desktop",
+  "ava25-thompson/fishstrap-roblox-fps-booster-desktop",
   "ben-kennedy-81/xfer-serum-desktop",
   "phamcucpqrwbbnposhmn96-ui/KSNStudy",
   "trackboatwrightplan/GitHub-Copilot-app",
   "trackboatwrightplan/ai--manus2.0"
  ],
- "low_quality_coverage": 1524,
+ "low_quality_coverage": 1464,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -442,10 +444,6 @@
    "to": "avabbbb/Iris"
   },
   {
-   "from": "songloft-org/songloft-player",
-   "to": "songloft-org/songloft-player-flutter"
-  },
-  {
    "from": "brycewang-stanford/Auto-Research-Skills",
    "to": "brycewang-stanford/Free-Research-Crew"
   },
@@ -590,7 +588,7 @@
   {
    "id": "Cattmonkey/ChaosIntelligence",
    "reasons": [
-    "+498 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 340 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -626,7 +624,7 @@
   {
    "id": "AhmadHassan-BTed/RainGen-RainGenerator",
    "reasons": [
-    "repo mới với 1.612 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.613 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -758,25 +756,25 @@
   {
    "id": "brave-plum-co/leonardo-ai-desktop",
    "reasons": [
-    "+304 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+303 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "bradburns2001/topaz-video-ai-desktop",
    "reasons": [
-    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 304 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "briskember13/adobe-acrobat-pdf-desktop",
    "reasons": [
-    "+304 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 303 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "brisk-thrush-husky/malware-defender-desktop",
    "reasons": [
-    "+308 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 306 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -916,12 +914,6 @@
    "reasons": [
     "rất ít người đóng góp (3) so với tốc độ tăng sao"
    ]
-  },
-  {
-   "id": "bookwjitchieni1986/blender-ai-mcp-addon",
-   "reasons": [
-    "+1.484 sao nhưng chỉ +1 fork trong cùng kỳ"
-   ]
   }
  ],
  "published_changes": {
@@ -989,8 +981,8 @@
    ]
   },
   {
-   "cluster": "campaign-2026-11-13-304",
-   "reason": "Một trong 14 repo khác tên do 14 tài khoản tạo gần như cùng lúc, cùng khoảng 304–308 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "cluster": "campaign-2026-11-13-303",
+   "reason": "Một trong 14 repo khác tên do 14 tài khoản tạo gần như cùng lúc, cùng khoảng 303–307 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
    "repos": [
     "ariamitchell54/cubase-studio-desktop",
     "alex-wells-65/iobit-driver-booster-desktop",
