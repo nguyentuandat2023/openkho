@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:13:39.649Z",
+ "fetched_at": "2026-11-22T11:23:21.045Z",
  "meta": {
   "name": "cli",
   "owner": "cli",
@@ -28,14 +28,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 47132,
-  "forks": 9434,
-  "watchers": 1173,
+  "stars": 47136,
+  "forks": 9438,
+  "watchers": 1172,
   "open_issues": 1140,
   "open_prs": null,
   "created_at": "2019-10-03T15:24:53Z",
   "pushed_at": "2026-11-20T18:16:28Z",
-  "updated_at": "2026-11-22T01:55:34Z",
+  "updated_at": "2026-11-22T09:47:56Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.377Z",
-  "checked_at": "2026-11-22T03:15:57.783Z"
+  "checked_at": "2026-11-22T11:25:33.279Z"
  },
  "contributors": {
   "count": 698,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.292Z"
  },
- "details_checked_at": "2026-11-22T03:15:57.783Z"
+ "details_checked_at": "2026-11-22T11:25:33.279Z"
 }

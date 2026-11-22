@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:14:53.257Z",
+ "fetched_at": "2026-11-22T11:24:23.888Z",
  "meta": {
   "name": "baserow",
   "owner": "baserow",
@@ -79,7 +79,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.055Z",
-  "checked_at": "2026-11-22T03:16:00.292Z"
+  "checked_at": "2026-11-22T11:25:35.954Z"
  },
  "contributors": {
   "count": 80,
@@ -87,5 +87,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.363Z"
  },
- "details_checked_at": "2026-11-22T03:16:00.292Z"
+ "details_checked_at": "2026-11-22T11:25:35.954Z"
 }

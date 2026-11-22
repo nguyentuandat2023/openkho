@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:12:52.832Z",
+ "fetched_at": "2026-11-22T11:22:34.518Z",
  "meta": {
   "name": "crm",
   "owner": "frappe",
@@ -42,14 +42,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 4024,
-  "forks": 1631,
-  "watchers": 34,
+  "stars": 4025,
+  "forks": 1632,
+  "watchers": 33,
   "open_issues": 328,
   "open_prs": null,
   "created_at": "2023-07-19T08:53:35Z",
   "pushed_at": "2026-11-21T19:02:08Z",
-  "updated_at": "2026-11-22T00:09:43Z",
+  "updated_at": "2026-11-22T03:43:46Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -86,7 +86,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-18T11:46:09.873Z",
-  "checked_at": "2026-11-22T03:15:55.915Z"
+  "checked_at": "2026-11-22T11:25:31.273Z"
  },
  "contributors": {
   "count": 91,
@@ -94,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.443Z"
  },
- "details_checked_at": "2026-11-22T03:15:55.915Z"
+ "details_checked_at": "2026-11-22T11:25:31.273Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:15:33.246Z",
+ "fetched_at": "2026-11-22T11:25:06.232Z",
  "meta": {
   "name": "hyperframes",
   "owner": "heygen-com",
@@ -39,14 +39,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 87890,
-  "forks": 8179,
+  "stars": 88009,
+  "forks": 8193,
   "watchers": 208,
-  "open_issues": 299,
+  "open_issues": 310,
   "open_prs": null,
   "created_at": "2026-03-10T01:51:06Z",
-  "pushed_at": "2026-11-22T03:14:29Z",
-  "updated_at": "2026-11-22T03:08:04Z",
+  "pushed_at": "2026-11-22T11:24:42Z",
+  "updated_at": "2026-11-22T11:24:07Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,30 +55,30 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 551196,
+  "size_kb": 552142,
   "og_image": "https://opengraph.githubassets.com/1/heygen-com/hyperframes",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 27166,
+  "length": 36180,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
   "sections": {
    "install": {
-    "title": "Quick Start",
-    "html": "<h5>With an AI coding agent</h5>\n<p>For Claude Code, install the versioned plugin:</p>\n<pre><code class=\"language-bash\">claude plugin marketplace add heygen-com/hyperframes\nclaude plugin install hyperframes@hyperframes\n</code></pre>\n<p>To enable auto-update for the <strong>hyperframes</strong> marketplace, run <code>claude</code> in a\nterminal in your project. In Claude Code's terminal UI, run <code>/plugin</code>, then select\n<strong>Marketplaces</strong> → <strong>hyperframes</strong> → <strong>Enable auto-update</strong>. Afterward, use\n<code>/hyperframes:hyperframes</code>. See the <a href=\"https://github.com/heygen-com/hyperframes/blob/main/docs/guides/plugins.mdx\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">plugin guide</a>\nfor Copilot, VS Code, Cursor, Gemini CLI, updates, and migration.</p>\n<p>For standalone skills (including OpenCode), use:</p>\n<pre><code class=\"language-bash\">npx skills add heygen-com/hyperframes\n</code></pre>\n<blockquote>\n<p>The picker opens with nothing pre-selected — the <strong>Core Skills</strong> group is all you need; <code>/slideshow</code>, <code>/remotion-to-hyperframes</code> and <code>/figma</code> install on demand. Without the picker (a script or a CI job), <code>npx hyperframes skills update</code> installs exactly the core set, whereas <code>skills add --all</code> installs all 9 published skills. The six repo-internal skills under <code>.claude/skills</code> / <code>.agents/skills</code> are excluded by default. For the full published set use <code>npx hyperframes skills</code>.</p>\n<p><code>skills add</code> resolves the skills.sh registry blob, which can lag <code>main</code> by hours. <code>npx hyperframes skills update</code> installs the skills from the release tag that matches your CLI version, so they match the CLI that runs them.</p>\n</blockquote>\n<p>Run project-local installs from your video project's directory. From a HyperFrames\ncheckout, use <code>npx hyperframes skills update</code> for a global install instead: a\nproject-local installer target can overlap the tracked <code>skills/</code> source and\noverwrite uncommitted edits. See <a href=\"https://github.com/heygen-com/hyperframes/blob/main/CONTRIBUTING.md#getting-started\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">contributor setup</a>.</p>\n<p>Try a prompt like:</p>\n<blockquote>\n<p>Using <code>/hyperframes</code>, create a 10-second product intro with a fade-in title, a background video, and subtle background music.</p>\n</blockquote>\n<p>The skills teach agents the HyperFrames production loop: plan the video, write valid HTML, wire seekable animations, add media, lint, preview, and render. They work with Claude Code, Codex, Cursor, Gemini CLI, IBM Bob, and other coding agents that support skills.</p>",
+    "title": "Quick start for developers",
+    "html": "<p>Using Claude Code, Codex, Cursor, or another coding agent? Install the skills once, then ask your agent to make a video.</p>\n<h5>Give your coding agent the skills (recommended)</h5>\n<pre><code class=\"language-bash\">npx skills add heygen-com/hyperframes     # pick \"Core Skills\" in the picker\n# or, with no picker (scripts, CI):\nnpx hyperframes skills update\n</code></pre>\n<p>Then try: <em>Using <code>/hyperframes</code>, create a 10-second product intro with a fade-in title, a background video, and subtle background music.</em></p>\n<h5>Claude Code plugin</h5>\n<pre><code class=\"language-bash\">claude plugin marketplace add heygen-com/hyperframes\nclaude plugin install hyperframes@hyperframes\n</code></pre>\n<h5>Codex, Cursor, Gemini CLI, Copilot</h5>\n<p>See the <a href=\"https://hyperframes.heygen.com/guides/plugins?utm_source=github&amp;utm_medium=readme\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">plugin guide</a>.</p>\n<h5>By hand, with the CLI</h5>\n<pre><code class=\"language-bash\">npx hyperframes init my-video\ncd my-video\nnpx hyperframes preview      # live preview in the browser\nnpx hyperframes render       # render to MP4\n</code></pre>\n<p>Requirements: Node.js 22+ and FFmpeg. Render in the cloud with <code>hyperframes cloud render</code>, or on your own <a href=\"https://hyperframes.heygen.com/deploy/aws-lambda?utm_source=github&amp;utm_medium=readme\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AWS Lambda</a>.</p>\n<details>\n<summary>Skill install options, updates and the core set (full details)</summary><h5>Claude Code plugin updates</h5>\n<p>To enable auto-update for the <strong>hyperframes</strong> marketplace, run <code>claude</code> in a\nterminal in your project. In Claude Code's terminal UI, run <code>/plugin</code>, then select\n<strong>Marketplaces</strong> → <strong>hyperframes</strong> → <strong>Enable auto-update</strong>. Afterward, use\n<code>/hyperframes:hyperframes</code>. See the <a href=\"https://github.com/heygen-com/hyperframes/blob/main/docs/guides/plugins.mdx\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">plugin guide</a>\nfor Copilot, VS Code, Cursor, Gemini CLI, updates, and migration.</p>\n<h5>Standalone skills (including OpenCode)</h5>\n<blockquote>\n<p>The picker opens with nothing pre-selected — the <strong>Core Skills</strong> group is all you need; <code>/slideshow</code>, <code>/remotion-to-hyperframes</code> and <code>/figma</code> install on demand. Without the picker (a script or a CI job), <code>npx hyperframes skills update</code> installs exactly the core set, whereas <code>skills add --all</code> installs all 9 published skills. The six repo-internal skills under <code>.claude/skills</code> / <code>.agents/skills</code> are excluded by default. For the full published set use <code>npx hyperframes skills</code>.</p>\n<p><code>skills add</code> resolves the skills.sh registry blob, which can lag <code>main</code> by hours. <code>npx hyperframes skills update</code> installs the skills from the release tag that matches your CLI version, so they match the CLI that runs them.</p>\n</blockquote>\n<p>Run project-local installs from your video project's directory. From a HyperFrames\ncheckout, use <code>npx hyperframes skills update</code> for a global install instead: a\nproject-local installer target can overlap the tracked <code>skills/</code> source and\noverwrite uncommitted edits. See <a href=\"https://github.com/heygen-com/hyperframes/blob/main/CONTRIBUTING.md#getting-started\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">contributor setup</a>.</p>\n</details><p>The skills teach agents the HyperFrames production loop: plan the video, write valid HTML, wire seekable animations, add media, lint, preview, and render. They work with Claude Code, Codex, Cursor, Gemini CLI, IBM Bob, and other coding agents that support skills.</p>\n<h5>Share a video for review</h5>\n<p>Sign in with <code>npx hyperframes auth login</code>, then run <code>npx hyperframes share</code> to\nchoose who can open the rendered review. Use <code>share --update</code> when edits should\nbecome a new version and <code>share --manage</code> for web settings. CLI and Desktop use\nthe same sharing system and five free projects per workspace. Existing legacy\npublished links remain reachable.</p>",
     "truncated": false,
-    "chars": 2121
+    "chars": 3392
    },
    "usage": null,
    "features": null
   },
-  "headings": 21,
+  "headings": 25,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:29.928Z",
-  "checked_at": "2026-11-22T03:16:01.806Z"
+  "fetched_at": "2026-11-22T11:25:37.705Z",
+  "checked_at": "2026-11-22T11:25:37.705Z"
  },
  "contributors": {
   "count": 152,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.465Z"
  },
- "details_checked_at": "2026-11-22T03:16:01.806Z"
+ "details_checked_at": "2026-11-22T11:25:37.705Z"
 }

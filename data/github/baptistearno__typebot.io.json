@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:12:44.170Z",
+ "fetched_at": "2026-11-22T11:22:25.044Z",
  "meta": {
   "name": "typebot.io",
   "owner": "baptisteArno",
@@ -30,14 +30,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 10641,
-  "forks": 3251,
+  "stars": 10642,
+  "forks": 3252,
   "watchers": 64,
   "open_issues": 22,
   "open_prs": null,
   "created_at": "2021-11-19T09:15:31Z",
   "pushed_at": "2026-11-07T10:19:56Z",
-  "updated_at": "2026-11-21T15:44:27Z",
+  "updated_at": "2026-11-22T03:20:32Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -74,7 +74,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.682Z",
-  "checked_at": "2026-11-22T03:15:55.494Z"
+  "checked_at": "2026-11-22T11:25:30.864Z"
  },
  "contributors": {
   "count": 93,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.933Z"
  },
- "details_checked_at": "2026-11-22T03:15:55.494Z"
+ "details_checked_at": "2026-11-22T11:25:30.864Z"
 }

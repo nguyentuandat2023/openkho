@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:12:18.067Z",
+ "fetched_at": "2026-11-22T11:21:57.832Z",
  "meta": {
   "name": "graphrag",
   "owner": "microsoft",
@@ -70,7 +70,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.473Z",
-  "checked_at": "2026-11-22T03:15:54.335Z"
+  "checked_at": "2026-11-22T11:25:29.657Z"
  },
  "contributors": {
   "count": 51,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T02:20:53.095Z"
  },
- "details_checked_at": "2026-11-22T03:15:54.335Z"
+ "details_checked_at": "2026-11-22T11:25:29.657Z"
 }

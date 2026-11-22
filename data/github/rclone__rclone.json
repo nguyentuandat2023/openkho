@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:15:25.855Z",
+ "fetched_at": "2026-11-22T11:24:58.427Z",
  "meta": {
   "name": "rclone",
   "owner": "rclone",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 61159,
+  "stars": 61170,
   "forks": 5712,
   "watchers": 577,
-  "open_issues": 1351,
+  "open_issues": 1355,
   "open_prs": null,
   "created_at": "2014-03-16T16:19:57Z",
   "pushed_at": "2026-11-21T18:21:42Z",
-  "updated_at": "2026-11-22T03:09:48Z",
+  "updated_at": "2026-11-22T11:20:42Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -88,7 +88,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-18T11:46:18.867Z",
-  "checked_at": "2026-11-22T03:16:01.512Z"
+  "checked_at": "2026-11-22T11:25:37.371Z"
  },
  "contributors": {
   "count": 1295,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.158Z"
  },
- "details_checked_at": "2026-11-22T03:16:01.512Z"
+ "details_checked_at": "2026-11-22T11:25:37.371Z"
 }

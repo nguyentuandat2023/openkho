@@ -1,7 +1,7 @@
 {
- "computed_at": "2026-11-22T03:18:41.290Z",
+ "computed_at": "2026-11-22T11:27:10.910Z",
  "curated_missing_github_id": [],
- "missing_contributors": 2391,
+ "missing_contributors": 2390,
  "stale_over_48h": [
   "bipro45/actual-multi-display-configurator",
   "abdulmannanmalik13-wq/adobe-substance-3d-studio",
@@ -74,7 +74,7 @@
   "trackboatwrightplan/GitHub-Copilot-app",
   "trackboatwrightplan/ai--manus2.0"
  ],
- "low_quality_coverage": 1044,
+ "low_quality_coverage": 924,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -489,10 +489,6 @@
    "to": "shift-labs-ai/codemode"
   },
   {
-   "from": "brycewang-stanford/Auto-Research-Skills",
-   "to": "brycewang-stanford/Free-Research-Crew"
-  },
-  {
    "from": "pgrundev/pgx",
    "to": "pgrundev/pgboxdb"
   },
@@ -523,6 +519,48 @@
  ],
  "anomalies": [
   {
+   "id": "EbookFoundation/free-programming-books",
+   "reasons": [
+    "+453 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "nilbuild/developer-roadmap",
+   "reasons": [
+    "+481 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "rust-lang/rust",
+   "reasons": [
+    "+378 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "torvalds/linux",
+   "reasons": [
+    "+625 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "neovim/neovim",
+   "reasons": [
+    "+324 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "freeCodeCamp/freeCodeCamp",
+   "reasons": [
+    "+311 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "jwasham/coding-interview-university",
+   "reasons": [
+    "+411 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
    "id": "DigitalPlatDev/FreeDomain",
    "reasons": [
     "rất ít người đóng góp (2) so với tốc độ tăng sao"
@@ -538,6 +576,12 @@
    "id": "mattpocock/skills",
    "reasons": [
     "rất ít người đóng góp (9) so với tốc độ tăng sao"
+   ]
+  },
+  {
+   "id": "Ryze-AI-Adgent/open-seo-mcp-skills",
+   "reasons": [
+    "+667 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -603,7 +647,7 @@
   {
    "id": "helloHub1212/dsh-windows-mcp",
    "reasons": [
-    "repo mới với 2.106 sao nhưng gần như không có fork (10) và chưa có issue nào"
+    "repo mới với 2.148 sao nhưng gần như không có fork (10) và chưa có issue nào"
    ]
   },
   {
@@ -727,6 +771,12 @@
    ]
   },
   {
+   "id": "mromidev/claude-animated-shorts",
+   "reasons": [
+    "rất ít người đóng góp (1) so với tốc độ tăng sao"
+   ]
+  },
+  {
    "id": "libracoder/kiri",
    "reasons": [
     "rất ít người đóng góp (17) so với tốc độ tăng sao"
@@ -831,7 +881,7 @@
   {
    "id": "lizhenjie137/intelligent-organization",
    "reasons": [
-    "repo mới với 312 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -964,6 +1014,192 @@
    "id": "erkamyaman/rust-anything",
    "reasons": [
     "rất ít người đóng góp (3) so với tốc độ tăng sao"
+   ]
+  },
+  {
+   "id": "darthvader097br-ctrl/acronis-standalone-bundle",
+   "reasons": [
+    "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "pravinak1188-design/ashampoo-uninstaller",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "youssefco1999-hash/aiseesoft-launch-pro",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "yrf15gamin-pixel/ashampoo-winoptimizer-pro",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "zainzedan1111-commits/auto-withdraw-bot",
+   "reasons": [
+    "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "dillithdillith4-cell/autodesk-cfd",
+   "reasons": [
+    "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Redwannn/avid-media-composer",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "juniordroid/better-discord-client",
+   "reasons": [
+    "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Urvee003/bloxshade-for-roblox",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "25227georgeyang-cpu/borisfx-video-editor",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Dhruv2710-hub/cellebrite-ufed",
+   "reasons": [
+    "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "CertificateVerfication/chimera-utility",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "fern84-svg/cinema-4d-desktop",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Matia442/cinema-4d-utility",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Gobjb/directory-opus-launch",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "drillryte/easy-worship",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Yummy2288/fonetrans-desktop-utility",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "opokukopoku/gta-6-pc-release",
+   "reasons": [
+    "+442 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "SABINOGAMESPONTOCOM/honeypot-detector",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "akashak47218/kms-pico-desktop-edition",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "eastspaper6-cmyk/ninjatrader-bot",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "vinujak/phantom-blade-zero-modifier",
+   "reasons": [
+    "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "dongarenikhilit047-star/portfolio-rebalancer",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "cr4zyp4ul/quicken-deluxe",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "saadiraq2025-cyber/rob-run-mod-menu",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "CETPROAR/rob-run-ares-enhancer",
+   "reasons": [
+    "+340 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Adabi0304/studioonepro7-release",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Daax116/startall-back-utility",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "hariachayan5-dotcom/sp-flash-tool",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "official00shivansh-eng/ultra-iso",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "rockford007/xyplorer-file-manager",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   }
  ],
@@ -1106,6 +1342,42 @@
     "WyrmClimberManacle/Gemini-Config-Checker-",
     "wisemeadowlarkspike/Gemini-Config-Checker-",
     "YellowLaborerMarket/Gemini-Config-Checker-"
+   ]
+  },
+  {
+   "cluster": "campaign-2026-11-21-337",
+   "reason": "Một trong 30 repo khác tên do 30 tài khoản tạo gần như cùng lúc, cùng khoảng 337–340 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "repos": [
+    "darthvader097br-ctrl/acronis-standalone-bundle",
+    "pravinak1188-design/ashampoo-uninstaller",
+    "youssefco1999-hash/aiseesoft-launch-pro",
+    "yrf15gamin-pixel/ashampoo-winoptimizer-pro",
+    "zainzedan1111-commits/auto-withdraw-bot",
+    "dillithdillith4-cell/autodesk-cfd",
+    "Redwannn/avid-media-composer",
+    "juniordroid/better-discord-client",
+    "Urvee003/bloxshade-for-roblox",
+    "25227georgeyang-cpu/borisfx-video-editor",
+    "Dhruv2710-hub/cellebrite-ufed",
+    "CertificateVerfication/chimera-utility",
+    "fern84-svg/cinema-4d-desktop",
+    "Matia442/cinema-4d-utility",
+    "Gobjb/directory-opus-launch",
+    "drillryte/easy-worship",
+    "Yummy2288/fonetrans-desktop-utility",
+    "SABINOGAMESPONTOCOM/honeypot-detector",
+    "akashak47218/kms-pico-desktop-edition",
+    "eastspaper6-cmyk/ninjatrader-bot",
+    "vinujak/phantom-blade-zero-modifier",
+    "dongarenikhilit047-star/portfolio-rebalancer",
+    "cr4zyp4ul/quicken-deluxe",
+    "saadiraq2025-cyber/rob-run-mod-menu",
+    "CETPROAR/rob-run-ares-enhancer",
+    "Adabi0304/studioonepro7-release",
+    "Daax116/startall-back-utility",
+    "hariachayan5-dotcom/sp-flash-tool",
+    "official00shivansh-eng/ultra-iso",
+    "rockford007/xyplorer-file-manager"
    ]
   }
  ]

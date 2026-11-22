@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:11:54.419Z",
+ "fetched_at": "2026-11-22T11:21:33.462Z",
  "meta": {
   "name": "sim",
   "owner": "simstudioai",
@@ -42,14 +42,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 30174,
+  "stars": 30175,
   "forks": 3917,
   "watchers": 125,
   "open_issues": 333,
   "open_prs": null,
   "created_at": "2025-01-05T22:47:49Z",
-  "pushed_at": "2026-11-22T00:07:53Z",
-  "updated_at": "2026-11-21T23:09:46Z",
+  "pushed_at": "2026-11-22T11:05:35Z",
+  "updated_at": "2026-11-22T10:19:57Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -86,7 +86,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:20.162Z",
-  "checked_at": "2026-11-22T03:15:53.403Z"
+  "checked_at": "2026-11-22T11:25:28.569Z"
  },
  "contributors": {
   "count": 63,
@@ -94,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:30.020Z"
  },
- "details_checked_at": "2026-11-22T03:15:53.403Z"
+ "details_checked_at": "2026-11-22T11:25:28.569Z"
 }

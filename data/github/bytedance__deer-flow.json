@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:11:31.277Z",
+ "fetched_at": "2026-11-22T11:21:07.796Z",
  "meta": {
   "name": "deer-flow",
   "owner": "bytedance",
@@ -42,14 +42,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 85586,
-  "forks": 12073,
+  "stars": 85595,
+  "forks": 12076,
   "watchers": 336,
-  "open_issues": 1117,
+  "open_issues": 1132,
   "open_prs": null,
   "created_at": "2025-05-07T02:50:19Z",
-  "pushed_at": "2026-11-22T02:23:24Z",
-  "updated_at": "2026-11-22T02:05:04Z",
+  "pushed_at": "2026-11-22T09:49:24Z",
+  "updated_at": "2026-11-22T10:50:14Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,7 +58,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 109793,
+  "size_kb": 108683,
   "og_image": "https://opengraph.githubassets.com/1/bytedance/deer-flow",
   "custom_og_image": false
  },
@@ -81,7 +81,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-18T20:37:07.323Z",
-  "checked_at": "2026-11-22T03:15:52.362Z"
+  "checked_at": "2026-11-22T11:25:27.581Z"
  },
  "contributors": {
   "count": 674,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:17.815Z"
  },
- "details_checked_at": "2026-11-22T03:15:52.362Z"
+ "details_checked_at": "2026-11-22T11:25:27.581Z"
 }

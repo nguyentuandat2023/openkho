@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:14:16.381Z",
+ "fetched_at": "2026-11-22T11:23:44.745Z",
  "meta": {
   "name": "claude-cookbooks",
   "owner": "anthropics",
@@ -23,14 +23,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 54962,
-  "forks": 6682,
+  "stars": 55011,
+  "forks": 6688,
   "watchers": 637,
   "open_issues": 397,
   "open_prs": null,
   "created_at": "2023-08-15T20:23:51Z",
   "pushed_at": "2026-11-20T22:16:45Z",
-  "updated_at": "2026-11-22T02:55:40Z",
+  "updated_at": "2026-11-22T11:21:53Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -62,7 +62,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.281Z",
-  "checked_at": "2026-11-22T03:15:58.698Z"
+  "checked_at": "2026-11-22T11:25:34.263Z"
  },
  "contributors": {
   "count": 87,
@@ -70,5 +70,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:36.953Z"
  },
- "details_checked_at": "2026-11-22T03:15:58.698Z"
+ "details_checked_at": "2026-11-22T11:25:34.263Z"
 }

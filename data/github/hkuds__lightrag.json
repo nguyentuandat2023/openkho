@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:12:17.363Z",
+ "fetched_at": "2026-11-22T11:21:57.145Z",
  "meta": {
   "name": "LightRAG",
   "owner": "HKUDS",
@@ -35,14 +35,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 40807,
-  "forks": 5795,
+  "stars": 40811,
+  "forks": 5796,
   "watchers": 287,
-  "open_issues": 243,
+  "open_issues": 246,
   "open_prs": null,
   "created_at": "2024-10-02T11:57:54Z",
-  "pushed_at": "2026-11-22T02:47:54Z",
-  "updated_at": "2026-11-22T01:16:57Z",
+  "pushed_at": "2026-11-22T11:16:24Z",
+  "updated_at": "2026-11-22T09:42:07Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,7 +51,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 127129,
+  "size_kb": 127639,
   "og_image": "https://opengraph.githubassets.com/1/HKUDS/LightRAG",
   "custom_og_image": false
  },
@@ -95,7 +95,7 @@
   "headings": 39,
   "processor": 4,
   "fetched_at": "2026-11-20T11:39:58.651Z",
-  "checked_at": "2026-11-22T03:15:54.352Z"
+  "checked_at": "2026-11-22T11:25:29.602Z"
  },
  "contributors": {
   "count": 392,
@@ -103,5 +103,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T02:20:53.117Z"
  },
- "details_checked_at": "2026-11-22T03:15:54.352Z"
+ "details_checked_at": "2026-11-22T11:25:29.602Z"
 }

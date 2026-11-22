@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:15:33.970Z",
+ "fetched_at": "2026-11-22T11:25:07.010Z",
  "meta": {
   "name": "Concat",
   "owner": "jub0t",
@@ -39,14 +39,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 19457,
-  "forks": 2372,
+  "stars": 19530,
+  "forks": 2387,
   "watchers": 103,
-  "open_issues": 314,
+  "open_issues": 298,
   "open_prs": null,
   "created_at": "2026-08-25T18:34:47Z",
-  "pushed_at": "2026-11-21T20:50:56Z",
-  "updated_at": "2026-11-22T03:14:56Z",
+  "pushed_at": "2026-11-22T08:55:18Z",
+  "updated_at": "2026-11-22T11:16:56Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,13 +55,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 97046,
+  "size_kb": 97159,
   "og_image": "https://opengraph.githubassets.com/1/jub0t/Concat",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 11891,
+  "length": 11926,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
@@ -75,15 +75,15 @@
    "usage": null,
    "features": {
     "title": "Highlights",
-    "html": "<ul>\n<li>🚫 <strong>No watermarks. No account. No paywall.</strong> Ever.</li>\n<li>🔒 <strong>100% local.</strong> Nothing uploads, the AI included. Works offline.</li>\n<li>💬 <strong>Auto-captions.</strong> In the language you speak, made on your machine, styled and on the timeline.</li>\n<li>🎤 <strong>Voice isolation.</strong> Pull a voice out of its music or its noise, or take it out, each part at its own level.</li>\n<li>🗣️ <strong>Text-to-speech + voice cloning.</strong> A free local voice, or any voice from a few seconds of a recording. On the desktop.</li>\n<li>🧍 <strong>Background removal, chroma key and masks.</strong> People and objects cut out for you, a green screen that keys itself, and a stack of masks on every clip, each with its own mode and keyframes.</li>\n<li>🌀 <strong>In, Out and Loop animations.</strong> For clips, pictures, titles and shapes. Every one plays on its card before you pick it.</li>\n<li>✨ <strong>100+ effects, filters and transitions, 25 sound effects.</strong> Cinematic looks, shakes and impacts, retro, wipes, all live in the preview. A transition is a clip you move and trim like any other.</li>\n<li>🎞️ <strong>Keyframes.</strong> Position, scale, size, rotation, opacity, volume, effect parameters. Curve editor built in.</li>\n<li>🏃 <strong>Speed ramps and curves.</strong> Constant or drawn, smooth or straight. Freeze frames and reverse.</li>\n<li>🪄 <strong>Enhance and Stabilize.</strong> Restore soft or old footage, up to 2K. Steady a shaky shot.</li>\n<li>✂️ <strong>Cut fast, cut exact.</strong> Split, trim, ripple, merge, linked captions and overlays, a magnetic timeline if you want it. Every cut lands on the frame, the same in the preview and the export.</li>\n<li>🎚️ <strong>Multi-track, multi-timeline.</strong> Stack video, stills, titles and shapes on as many tracks as you like. Several cuts in one project. Blend modes, crop, flips.</li>\n<li>📝 <strong>Titles and shapes.</strong> Fonts, stroke, shadow, plates, colour emoji, and presets for Arabic, Chinese, Hindi, Thai and eight more languages. Shapes with gradients, stars, outlines and shadows.</li>\n<li>🎙️ <strong>Voiceover and one-switch voice cleanup.</strong> Record over your cut. Denoise, enhance voice, level the loudness. Plus chipmunk, robot, telephone and friends.</li>\n<li>📤 <strong>Export.</strong> H.264, HEVC, AV1, on your computer's own encoder. Up to 4K 60, 10-bit colour.</li>\n<li>⚡ <strong>Fast.</strong> Proxies built in, so 4K scrubs smoothly. Titles paint on every core, and every effect is ready the moment the window opens.</li>\n<li>🛟 <strong>Keeps going on any machine.</strong> When the graphics chip gives up, the preview keeps drawing.</li>\n<li>🤖 <strong>Scriptable.</strong> An MCP server built in, so Claude and other AI agents can edit with it (<a href=\"https://github.com/jub0t/Concat/blob/main/docs/MCP.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">one line to set up</a>), and a JSON-RPC API for scripts. A build from source adds gRPC and a command-line tool.</li>\n<li>🖥️ <strong>macOS, Windows, Linux, Android, iOS.</strong> 26 languages. Same app, same project files.</li>\n</ul>",
+    "html": "<ul>\n<li>🚫 <strong>No watermarks. No account. No paywall.</strong> Ever.</li>\n<li>🔒 <strong>100% local.</strong> Nothing uploads, the AI included. Works offline.</li>\n<li>💬 <strong>Auto-captions.</strong> In the language you speak, made on your machine, styled and on the timeline.</li>\n<li>🎤 <strong>Voice isolation.</strong> Pull a voice out of its music or its noise, or take it out, each part at its own level.</li>\n<li>🗣️ <strong>Text-to-speech + voice cloning.</strong> A free local voice, or any voice from a few seconds of a recording. On the desktop.</li>\n<li>🧍 <strong>Background removal, chroma key and masks.</strong> People and objects cut out for you, a green screen that keys itself, and a stack of masks on every clip, each with its own mode and keyframes.</li>\n<li>🌀 <strong>In, Out and Loop animations.</strong> For clips, pictures, titles and shapes. Every one plays on its card before you pick it.</li>\n<li>✨ <strong>100+ effects, filters and transitions, 25 sound effects.</strong> Cinematic looks, shakes and impacts, retro, wipes, all live in the preview. A transition is a clip you move and trim like any other.</li>\n<li>🎞️ <strong>Keyframes.</strong> Position, scale, size, rotation, opacity, volume, effect parameters. Curve editor built in.</li>\n<li>🏃 <strong>Speed ramps and curves.</strong> Constant or drawn, smooth or straight. Freeze frames and reverse.</li>\n<li>🪄 <strong>Enhance and Stabilize.</strong> Restore soft or old footage, up to 2K. Steady a shaky shot.</li>\n<li>✂️ <strong>Cut fast, cut exact.</strong> Split, trim, ripple, merge, linked captions and overlays, a magnetic timeline if you want it. Every cut lands on the frame, the same in the preview and the export.</li>\n<li>🎚️ <strong>Multi-track, multi-timeline.</strong> Stack video, stills, titles and shapes on as many tracks as you like. Several cuts in one project. Blend modes, crop, flips.</li>\n<li>📝 <strong>Titles and shapes.</strong> Fonts, stroke, shadow, plates, colour emoji, and presets for Arabic, Chinese, Hindi, Thai and eight more languages. Shapes with gradients, stars, outlines and shadows.</li>\n<li>🎙️ <strong>Voiceover and one-switch voice cleanup.</strong> Record over your cut. Denoise, enhance voice, level the loudness. Plus chipmunk, robot, telephone and friends.</li>\n<li>📤 <strong>Export.</strong> H.264, HEVC, AV1, on your computer's own encoder. Up to 4K 60, 10-bit colour.</li>\n<li>⚡ <strong>Fast.</strong> Proxies built in, so 4K scrubs smoothly. Titles paint on every core, and every effect is ready the moment the window opens.</li>\n<li>🛟 <strong>Keeps going on any machine.</strong> When the graphics chip gives up, the preview keeps drawing.</li>\n<li>🤖 <strong>Scriptable.</strong> An MCP server built in, so Claude and other AI agents can edit with it (<a href=\"https://github.com/jub0t/Concat/blob/main/docs/MCP.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">one line to set up</a>), and a JSON-RPC API for scripts. A build from source adds gRPC and a command-line tool.</li>\n<li>🖥️ <strong>macOS, Windows, Linux, Android, iOS.</strong> 27 languages. Same app, same project files.</li>\n</ul>",
     "truncated": false,
     "chars": 2642
    }
   },
   "headings": 10,
   "processor": 4,
-  "fetched_at": "2026-11-19T11:45:13.386Z",
-  "checked_at": "2026-11-22T03:16:01.870Z"
+  "fetched_at": "2026-11-22T11:25:37.708Z",
+  "checked_at": "2026-11-22T11:25:37.708Z"
  },
  "contributors": {
   "count": 54,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.418Z"
  },
- "details_checked_at": "2026-11-22T03:16:01.870Z"
+ "details_checked_at": "2026-11-22T11:25:37.708Z"
 }

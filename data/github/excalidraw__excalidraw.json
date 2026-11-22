@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:13:21.903Z",
+ "fetched_at": "2026-11-22T11:23:04.003Z",
  "meta": {
   "name": "excalidraw",
   "owner": "excalidraw",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 136086,
-  "forks": 16245,
-  "watchers": 525,
+  "stars": 136101,
+  "forks": 16249,
+  "watchers": 526,
   "open_issues": 3592,
   "open_prs": null,
   "created_at": "2020-01-02T01:04:43Z",
   "pushed_at": "2026-11-21T18:23:04Z",
-  "updated_at": "2026-11-22T03:10:28Z",
+  "updated_at": "2026-11-22T10:53:09Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -75,7 +75,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.441Z",
-  "checked_at": "2026-11-22T03:15:57.020Z"
+  "checked_at": "2026-11-22T11:25:32.476Z"
  },
  "contributors": {
   "count": 381,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.096Z"
  },
- "details_checked_at": "2026-11-22T03:15:57.020Z"
+ "details_checked_at": "2026-11-22T11:25:32.476Z"
 }

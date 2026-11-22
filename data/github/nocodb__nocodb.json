@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:14:47.420Z",
+ "fetched_at": "2026-11-22T11:24:17.281Z",
  "meta": {
   "name": "nocodb",
   "owner": "nocodb",
@@ -38,14 +38,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 65599,
-  "forks": 5134,
+  "stars": 65601,
+  "forks": 5135,
   "watchers": 389,
   "open_issues": 248,
   "open_prs": null,
   "created_at": "2017-10-29T18:51:48Z",
   "pushed_at": "2026-11-21T12:41:12Z",
-  "updated_at": "2026-11-22T03:11:57Z",
+  "updated_at": "2026-11-22T10:31:26Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -82,7 +82,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.684Z",
-  "checked_at": "2026-11-22T03:16:00.056Z"
+  "checked_at": "2026-11-22T11:25:35.615Z"
  },
  "contributors": {
   "count": 361,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.955Z"
  },
- "details_checked_at": "2026-11-22T03:16:00.056Z"
+ "details_checked_at": "2026-11-22T11:25:35.615Z"
 }

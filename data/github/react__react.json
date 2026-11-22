@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:15:43.858Z",
+ "fetched_at": "2026-11-22T11:25:18.553Z",
  "meta": {
   "name": "react",
   "owner": "react",
@@ -30,14 +30,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 252828,
-  "forks": 51808,
+  "stars": 252871,
+  "forks": 51809,
   "watchers": 6624,
-  "open_issues": 1588,
+  "open_issues": 1589,
   "open_prs": null,
   "created_at": "2013-05-24T16:15:54Z",
   "pushed_at": "2026-11-21T23:16:08Z",
-  "updated_at": "2026-11-22T03:02:25Z",
+  "updated_at": "2026-11-22T11:25:13Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -74,7 +74,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.439Z",
-  "checked_at": "2026-11-22T03:16:02.273Z"
+  "checked_at": "2026-11-22T11:25:38.173Z"
  },
  "contributors": {
   "count": 2027,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.338Z"
  },
- "details_checked_at": "2026-11-22T03:16:02.273Z"
+ "details_checked_at": "2026-11-22T11:25:38.173Z"
 }

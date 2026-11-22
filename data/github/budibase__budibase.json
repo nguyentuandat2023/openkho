@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:14:49.580Z",
+ "fetched_at": "2026-11-22T11:24:20.041Z",
  "meta": {
   "name": "budibase",
   "owner": "Budibase",
@@ -43,14 +43,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 28431,
+  "stars": 28433,
   "forks": 2238,
   "watchers": 216,
   "open_issues": 308,
   "open_prs": null,
   "created_at": "2019-06-07T11:03:41Z",
   "pushed_at": "2026-11-20T14:19:41Z",
-  "updated_at": "2026-11-21T19:59:28Z",
+  "updated_at": "2026-11-22T11:22:35Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -82,7 +82,7 @@
   "headings": 21,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.885Z",
-  "checked_at": "2026-11-22T03:16:00.130Z"
+  "checked_at": "2026-11-22T11:25:35.799Z"
  },
  "contributors": {
   "count": 152,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.613Z"
  },
- "details_checked_at": "2026-11-22T03:16:00.130Z"
+ "details_checked_at": "2026-11-22T11:25:35.799Z"
 }

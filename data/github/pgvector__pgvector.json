@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:13:11.081Z",
+ "fetched_at": "2026-11-22T11:22:51.296Z",
  "meta": {
   "name": "pgvector",
   "owner": "pgvector",
@@ -26,14 +26,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 23769,
+  "stars": 23772,
   "forks": 1401,
   "watchers": 140,
   "open_issues": 19,
   "open_prs": null,
   "created_at": "2021-04-20T21:13:52Z",
-  "pushed_at": "2026-11-22T02:33:32Z",
-  "updated_at": "2026-11-22T01:57:24Z",
+  "pushed_at": "2026-11-22T11:20:36Z",
+  "updated_at": "2026-11-22T08:09:50Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -42,13 +42,13 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 2375,
+  "size_kb": 2396,
   "og_image": "https://opengraph.githubassets.com/1/pgvector/pgvector",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 42239,
+  "length": 42221,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [],
@@ -64,8 +64,8 @@
   },
   "headings": 96,
   "processor": 4,
-  "fetched_at": "2026-11-20T11:40:01.484Z",
-  "checked_at": "2026-11-22T03:15:56.583Z"
+  "fetched_at": "2026-11-22T11:25:32.054Z",
+  "checked_at": "2026-11-22T11:25:32.054Z"
  },
  "contributors": {
   "count": 27,
@@ -73,5 +73,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:33.422Z"
  },
- "details_checked_at": "2026-11-22T03:15:56.583Z"
+ "details_checked_at": "2026-11-22T11:25:32.054Z"
 }

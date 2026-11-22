@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:11:49.169Z",
+ "fetched_at": "2026-11-22T11:21:27.474Z",
  "meta": {
   "name": "dify",
   "owner": "langgenius",
@@ -43,14 +43,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 161635,
-  "forks": 25533,
-  "watchers": 849,
-  "open_issues": 1341,
+  "stars": 161658,
+  "forks": 25536,
+  "watchers": 850,
+  "open_issues": 1351,
   "open_prs": null,
   "created_at": "2023-04-12T07:40:24Z",
-  "pushed_at": "2026-11-22T01:03:50Z",
-  "updated_at": "2026-11-22T03:09:11Z",
+  "pushed_at": "2026-11-22T10:35:38Z",
+  "updated_at": "2026-11-22T11:17:31Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 739779,
+  "size_kb": 739978,
   "og_image": "https://opengraph.githubassets.com/1/langgenius/dify",
   "custom_og_image": false
  },
@@ -92,7 +92,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:19.936Z",
-  "checked_at": "2026-11-22T03:15:53.147Z"
+  "checked_at": "2026-11-22T11:25:28.357Z"
  },
  "contributors": {
   "count": 1630,
@@ -100,5 +100,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:27.398Z"
  },
- "details_checked_at": "2026-11-22T03:15:53.147Z"
+ "details_checked_at": "2026-11-22T11:25:28.357Z"
 }

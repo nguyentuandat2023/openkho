@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:12:29.938Z",
+ "fetched_at": "2026-11-22T11:22:10.689Z",
  "meta": {
   "name": "Qwen-Image",
   "owner": "QwenLM",
@@ -23,14 +23,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 8491,
+  "stars": 8492,
   "forks": 569,
   "watchers": 59,
   "open_issues": 241,
   "open_prs": null,
   "created_at": "2025-08-03T11:03:25Z",
   "pushed_at": "2026-02-10T07:37:37Z",
-  "updated_at": "2026-11-22T01:30:23Z",
+  "updated_at": "2026-11-22T06:24:27Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 28,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.137Z",
-  "checked_at": "2026-11-22T03:15:54.903Z"
+  "checked_at": "2026-11-22T11:25:30.272Z"
  },
  "contributors": {
   "count": 16,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.172Z"
  },
- "details_checked_at": "2026-11-22T03:15:54.903Z"
+ "details_checked_at": "2026-11-22T11:25:30.272Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:13:50.738Z",
+ "fetched_at": "2026-11-22T11:23:32.289Z",
  "meta": {
   "name": "evershop",
   "owner": "evershopcommerce",
@@ -29,14 +29,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 10564,
-  "forks": 2452,
+  "stars": 10563,
+  "forks": 2453,
   "watchers": 68,
   "open_issues": 116,
   "open_prs": null,
   "created_at": "2021-05-06T09:23:37Z",
-  "pushed_at": "2026-11-20T12:26:19Z",
-  "updated_at": "2026-11-21T10:56:39Z",
+  "pushed_at": "2026-11-22T05:01:14Z",
+  "updated_at": "2026-11-22T10:32:51Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -45,7 +45,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 52628,
+  "size_kb": 52404,
   "og_image": "https://opengraph.githubassets.com/1/evershopcommerce/evershop",
   "custom_og_image": false
  },
@@ -68,7 +68,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.675Z",
-  "checked_at": "2026-11-22T03:15:58.187Z"
+  "checked_at": "2026-11-22T11:25:33.738Z"
  },
  "contributors": {
   "count": 60,
@@ -76,5 +76,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.929Z"
  },
- "details_checked_at": "2026-11-22T03:15:58.187Z"
+ "details_checked_at": "2026-11-22T11:25:33.738Z"
 }

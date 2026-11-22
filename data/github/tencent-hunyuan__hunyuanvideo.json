@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:12:30.612Z",
+ "fetched_at": "2026-11-22T11:22:11.454Z",
  "meta": {
   "name": "HunyuanVideo",
   "owner": "Tencent-Hunyuan",
@@ -34,7 +34,7 @@
   "open_prs": null,
   "created_at": "2024-11-28T08:38:31Z",
   "pushed_at": "2026-10-08T08:57:37Z",
-  "updated_at": "2026-11-22T01:42:13Z",
+  "updated_at": "2026-11-22T06:19:21Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -76,7 +76,7 @@
   "headings": 29,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.082Z",
-  "checked_at": "2026-11-22T03:15:54.947Z"
+  "checked_at": "2026-11-22T11:25:30.303Z"
  },
  "contributors": {
   "count": 25,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.199Z"
  },
- "details_checked_at": "2026-11-22T03:15:54.947Z"
+ "details_checked_at": "2026-11-22T11:25:30.303Z"
 }

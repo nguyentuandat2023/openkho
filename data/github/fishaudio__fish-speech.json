@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:11:46.752Z",
+ "fetched_at": "2026-11-22T11:21:24.998Z",
  "meta": {
   "name": "fish-speech",
   "owner": "fishaudio",
@@ -31,14 +31,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 33824,
-  "forks": 2953,
+  "stars": 33827,
+  "forks": 2955,
   "watchers": 160,
   "open_issues": 33,
   "open_prs": null,
   "created_at": "2023-10-10T03:16:51Z",
   "pushed_at": "2026-11-14T10:03:36Z",
-  "updated_at": "2026-11-22T01:49:06Z",
+  "updated_at": "2026-11-22T07:32:22Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -75,7 +75,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:29.269Z",
-  "checked_at": "2026-11-22T03:15:53.037Z"
+  "checked_at": "2026-11-22T11:25:28.208Z"
  },
  "contributors": {
   "count": 104,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:26.197Z"
  },
- "details_checked_at": "2026-11-22T03:15:53.037Z"
+ "details_checked_at": "2026-11-22T11:25:28.208Z"
 }

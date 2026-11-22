@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:14:36.537Z",
+ "fetched_at": "2026-11-22T11:24:06.001Z",
  "meta": {
   "name": "servers",
   "owner": "modelcontextprotocol",
@@ -23,14 +23,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 92149,
-  "forks": 11973,
+  "stars": 92156,
+  "forks": 11975,
   "watchers": 628,
   "open_issues": 17,
   "open_prs": null,
   "created_at": "2024-11-19T01:10:17Z",
   "pushed_at": "2026-11-19T16:41:29Z",
-  "updated_at": "2026-11-22T02:25:11Z",
+  "updated_at": "2026-11-22T09:42:49Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-18T11:46:15.441Z",
-  "checked_at": "2026-11-22T03:15:59.468Z"
+  "checked_at": "2026-11-22T11:25:35.145Z"
  },
  "contributors": {
   "count": 1073,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.271Z"
  },
- "details_checked_at": "2026-11-22T03:15:59.468Z"
+ "details_checked_at": "2026-11-22T11:25:35.145Z"
 }

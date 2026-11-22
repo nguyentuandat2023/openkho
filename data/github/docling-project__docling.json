@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T03:12:10.759Z",
+ "fetched_at": "2026-11-22T11:21:50.048Z",
  "meta": {
   "name": "docling",
   "owner": "docling-project",
@@ -39,14 +39,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 70856,
-  "forks": 5388,
+  "stars": 70870,
+  "forks": 5391,
   "watchers": 216,
-  "open_issues": 1068,
+  "open_issues": 1071,
   "open_prs": null,
   "created_at": "2024-07-09T07:50:26Z",
   "pushed_at": "2026-11-22T01:23:19Z",
-  "updated_at": "2026-11-22T02:55:12Z",
+  "updated_at": "2026-11-22T11:09:11Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -88,7 +88,7 @@
   "headings": 19,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.018Z",
-  "checked_at": "2026-11-22T03:15:54.057Z"
+  "checked_at": "2026-11-22T11:25:29.319Z"
  },
  "contributors": {
   "count": 436,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T07:03:47.194Z"
  },
- "details_checked_at": "2026-11-22T03:15:54.057Z"
+ "details_checked_at": "2026-11-22T11:25:29.319Z"
 }
