@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T17:34:51.728Z",
+ "fetched_at": "2026-11-22T03:14:33.717Z",
  "meta": {
   "name": "formbricks",
   "owner": "formbricks",
@@ -41,14 +41,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 13286,
+  "stars": 13288,
   "forks": 2626,
   "watchers": 47,
   "open_issues": 140,
   "open_prs": null,
   "created_at": "2022-06-06T04:25:21Z",
   "pushed_at": "2026-11-20T19:19:09Z",
-  "updated_at": "2026-11-21T16:41:24Z",
+  "updated_at": "2026-11-21T18:02:50Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -85,7 +85,7 @@
   "headings": 23,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.109Z",
-  "checked_at": "2026-11-21T17:36:23.701Z"
+  "checked_at": "2026-11-22T03:15:59.472Z"
  },
  "contributors": {
   "count": 322,
@@ -93,5 +93,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.206Z"
  },
- "details_checked_at": "2026-11-21T17:36:23.701Z"
+ "details_checked_at": "2026-11-22T03:15:59.472Z"
 }

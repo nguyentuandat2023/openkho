@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T17:32:57.423Z",
+ "fetched_at": "2026-11-22T03:12:27.931Z",
  "meta": {
   "name": "LTX-Video",
   "owner": "Lightricks",
@@ -30,14 +30,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 11452,
-  "forks": 1254,
+  "stars": 11459,
+  "forks": 1255,
   "watchers": 117,
   "open_issues": 110,
   "open_prs": null,
   "created_at": "2024-11-20T20:06:28Z",
   "pushed_at": "2026-11-02T19:25:43Z",
-  "updated_at": "2026-11-21T17:08:56Z",
+  "updated_at": "2026-11-22T03:07:49Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -74,7 +74,7 @@
   "headings": 46,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.893Z",
-  "checked_at": "2026-11-21T17:36:19.226Z"
+  "checked_at": "2026-11-22T03:15:54.762Z"
  },
  "contributors": {
   "count": 11,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:30.995Z"
  },
- "details_checked_at": "2026-11-21T17:36:19.226Z"
+ "details_checked_at": "2026-11-22T03:15:54.762Z"
 }

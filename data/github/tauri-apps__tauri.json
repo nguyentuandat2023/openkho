@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T17:34:12.799Z",
+ "fetched_at": "2026-11-22T03:13:40.331Z",
  "meta": {
   "name": "tauri",
   "owner": "tauri-apps",
@@ -33,14 +33,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 113044,
-  "forks": 4225,
+  "stars": 113054,
+  "forks": 4226,
   "watchers": 586,
-  "open_issues": 1487,
+  "open_issues": 1490,
   "open_prs": null,
   "created_at": "2019-07-13T09:09:37Z",
-  "pushed_at": "2026-11-21T15:26:41Z",
-  "updated_at": "2026-11-21T16:25:12Z",
+  "pushed_at": "2026-11-22T03:06:41Z",
+  "updated_at": "2026-11-22T02:53:29Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -77,7 +77,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.312Z",
-  "checked_at": "2026-11-21T17:36:22.058Z"
+  "checked_at": "2026-11-22T03:15:57.802Z"
  },
  "contributors": {
   "count": 625,
@@ -85,5 +85,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.316Z"
  },
- "details_checked_at": "2026-11-21T17:36:22.058Z"
+ "details_checked_at": "2026-11-22T03:15:57.802Z"
 }

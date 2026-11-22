@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T17:33:52.080Z",
+ "fetched_at": "2026-11-22T03:13:21.295Z",
  "meta": {
   "name": "penpot",
   "owner": "penpot",
@@ -31,14 +31,14 @@
    "spdx": "MPL-2.0",
    "name": "Mozilla Public License 2.0"
   },
-  "stars": 62612,
-  "forks": 4435,
+  "stars": 62621,
+  "forks": 4437,
   "watchers": 281,
-  "open_issues": 922,
+  "open_issues": 923,
   "open_prs": null,
   "created_at": "2015-12-29T22:09:07Z",
   "pushed_at": "2026-11-21T09:53:23Z",
-  "updated_at": "2026-11-21T16:57:15Z",
+  "updated_at": "2026-11-22T02:34:12Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -76,7 +76,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-18T20:37:13.782Z",
-  "checked_at": "2026-11-21T17:36:21.275Z"
+  "checked_at": "2026-11-22T03:15:56.949Z"
  },
  "contributors": {
   "count": 379,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.051Z"
  },
- "details_checked_at": "2026-11-21T17:36:21.275Z"
+ "details_checked_at": "2026-11-22T03:15:56.949Z"
 }

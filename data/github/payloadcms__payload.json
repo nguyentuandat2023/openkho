@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T17:36:12.667Z",
+ "fetched_at": "2026-11-22T03:15:48.352Z",
  "meta": {
   "name": "payload",
   "owner": "payloadcms",
@@ -43,14 +43,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 45942,
-  "forks": 4473,
+  "stars": 45947,
+  "forks": 4474,
   "watchers": 165,
-  "open_issues": 1681,
+  "open_issues": 1692,
   "open_prs": null,
   "created_at": "2021-01-05T18:49:45Z",
   "pushed_at": "2026-11-21T16:15:52Z",
-  "updated_at": "2026-11-21T16:39:59Z",
+  "updated_at": "2026-11-21T23:47:48Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -92,7 +92,7 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.620Z",
-  "checked_at": "2026-11-21T17:36:26.623Z"
+  "checked_at": "2026-11-22T03:16:02.489Z"
  },
  "contributors": {
   "count": 603,
@@ -100,5 +100,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.598Z"
  },
- "details_checked_at": "2026-11-21T17:36:26.623Z"
+ "details_checked_at": "2026-11-22T03:16:02.489Z"
 }

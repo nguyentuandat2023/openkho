@@ -1,5 +1,5 @@
 {
- "computed_at": "2026-11-21T23:14:07.163Z",
+ "computed_at": "2026-11-22T03:18:41.290Z",
  "curated_missing_github_id": [],
  "missing_contributors": 2391,
  "stale_over_48h": [
@@ -74,12 +74,17 @@
   "trackboatwrightplan/GitHub-Copilot-app",
   "trackboatwrightplan/ai--manus2.0"
  ],
- "low_quality_coverage": 1164,
+ "low_quality_coverage": 1044,
  "insufficient_trending": 0,
  "not_found": [
   {
    "id": "microsoft/agent-framework",
    "origin": "curated",
+   "status": "not_found"
+  },
+  {
+   "id": "RustXNG/RustXNG",
+   "origin": "radar",
    "status": "not_found"
   },
   {
@@ -536,12 +541,6 @@
    ]
   },
   {
-   "id": "ifixai-ai/iFixAi",
-   "reasons": [
-    "+314 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
    "id": "browser-use/jev-ultrafast",
    "reasons": [
     "rất ít người đóng góp (1) so với tốc độ tăng sao"
@@ -604,7 +603,7 @@
   {
    "id": "helloHub1212/dsh-windows-mcp",
    "reasons": [
-    "repo mới với 2.076 sao nhưng gần như không có fork (10) và chưa có issue nào"
+    "repo mới với 2.106 sao nhưng gần như không có fork (10) và chưa có issue nào"
    ]
   },
   {
@@ -748,7 +747,7 @@
   {
    "id": "Gosu-x/multimodal-threat-dataset",
    "reasons": [
-    "+479 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+481 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -778,7 +777,7 @@
   {
    "id": "azuresail195/wondershare-recoverit-desktop",
    "reasons": [
-    "+304 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {

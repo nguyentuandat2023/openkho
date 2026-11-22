@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T17:34:59.455Z",
+ "fetched_at": "2026-11-22T03:14:41.295Z",
  "meta": {
   "name": "n8n-mcp",
   "owner": "czlonkowski",
@@ -31,11 +31,11 @@
   "stars": 23292,
   "forks": 3671,
   "watchers": 155,
-  "open_issues": 60,
+  "open_issues": 62,
   "open_prs": null,
   "created_at": "2025-06-07T12:15:57Z",
   "pushed_at": "2026-11-19T07:33:11Z",
-  "updated_at": "2026-11-21T16:21:44Z",
+  "updated_at": "2026-11-22T02:21:22Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -73,7 +73,7 @@
   "headings": 31,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:38.084Z",
-  "checked_at": "2026-11-21T17:36:24.006Z"
+  "checked_at": "2026-11-22T03:15:59.733Z"
  },
  "contributors": {
   "count": 35,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.615Z"
  },
- "details_checked_at": "2026-11-21T17:36:24.006Z"
+ "details_checked_at": "2026-11-22T03:15:59.733Z"
 }

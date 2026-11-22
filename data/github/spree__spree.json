@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T17:34:22.707Z",
+ "fetched_at": "2026-11-22T03:13:49.882Z",
  "meta": {
   "name": "spree",
   "owner": "spree",
@@ -83,7 +83,7 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.667Z",
-  "checked_at": "2026-11-21T17:36:22.409Z"
+  "checked_at": "2026-11-22T03:15:58.115Z"
  },
  "contributors": {
   "count": 1249,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:36.454Z"
  },
- "details_checked_at": "2026-11-21T17:36:22.409Z"
+ "details_checked_at": "2026-11-22T03:15:58.115Z"
 }

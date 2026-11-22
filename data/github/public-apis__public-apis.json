@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T17:34:38.969Z",
+ "fetched_at": "2026-11-22T03:14:20.401Z",
  "meta": {
   "name": "public-apis",
   "owner": "public-apis",
@@ -37,14 +37,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 500620,
-  "forks": 56208,
-  "watchers": 4761,
-  "open_issues": 2826,
+  "stars": 500664,
+  "forks": 56218,
+  "watchers": 4763,
+  "open_issues": 2840,
   "open_prs": null,
   "created_at": "2016-03-20T23:49:42Z",
   "pushed_at": "2026-11-20T19:42:29Z",
-  "updated_at": "2026-11-21T17:34:07Z",
+  "updated_at": "2026-11-22T03:07:49Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -71,7 +71,7 @@
   "headings": 59,
   "processor": 4,
   "fetched_at": "2026-11-20T20:20:35.139Z",
-  "checked_at": "2026-11-21T17:36:23.119Z"
+  "checked_at": "2026-11-22T03:15:58.924Z"
  },
  "contributors": {
   "count": 2355,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:37.320Z"
  },
- "details_checked_at": "2026-11-21T17:36:23.119Z"
+ "details_checked_at": "2026-11-22T03:15:58.924Z"
 }

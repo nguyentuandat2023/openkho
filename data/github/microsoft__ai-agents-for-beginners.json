@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T17:34:29.065Z",
+ "fetched_at": "2026-11-22T03:14:10.289Z",
  "meta": {
   "name": "ai-agents-for-beginners",
   "owner": "microsoft",
@@ -35,14 +35,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 80683,
-  "forks": 26359,
+  "stars": 80712,
+  "forks": 26371,
   "watchers": 593,
   "open_issues": 3,
   "open_prs": null,
   "created_at": "2024-11-28T10:42:52Z",
   "pushed_at": "2026-11-17T09:24:01Z",
-  "updated_at": "2026-11-21T17:03:09Z",
+  "updated_at": "2026-11-22T03:03:38Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -90,7 +90,7 @@
   "headings": 20,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.045Z",
-  "checked_at": "2026-11-21T17:36:22.757Z"
+  "checked_at": "2026-11-22T03:15:58.488Z"
  },
  "contributors": {
   "count": 119,
@@ -98,5 +98,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:36.613Z"
  },
- "details_checked_at": "2026-11-21T17:36:22.757Z"
+ "details_checked_at": "2026-11-22T03:15:58.488Z"
 }

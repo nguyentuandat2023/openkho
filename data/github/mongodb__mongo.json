@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T17:33:51.374Z",
+ "fetched_at": "2026-11-22T03:13:20.513Z",
  "meta": {
   "name": "mongo",
   "owner": "mongodb",
@@ -28,14 +28,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 28702,
-  "forks": 5860,
+  "stars": 28701,
+  "forks": 5861,
   "watchers": 1235,
   "open_issues": 46,
   "open_prs": null,
   "created_at": "2009-01-15T16:15:18Z",
   "pushed_at": "2026-11-20T23:56:55Z",
-  "updated_at": "2026-11-21T10:18:01Z",
+  "updated_at": "2026-11-21T21:18:28Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.378Z",
-  "checked_at": "2026-11-21T17:36:21.318Z"
+  "checked_at": "2026-11-22T03:15:56.937Z"
  },
  "contributors": {
   "count": 1511,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.031Z"
  },
- "details_checked_at": "2026-11-21T17:36:21.318Z"
+ "details_checked_at": "2026-11-22T03:15:56.937Z"
 }

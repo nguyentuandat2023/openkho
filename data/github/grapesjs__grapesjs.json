@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T17:36:15.688Z",
+ "fetched_at": "2026-11-22T03:15:51.306Z",
  "meta": {
   "name": "grapesjs",
   "owner": "GrapesJS",
@@ -85,7 +85,7 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.778Z",
-  "checked_at": "2026-11-21T17:36:26.760Z"
+  "checked_at": "2026-11-22T03:16:02.546Z"
  },
  "contributors": {
   "count": 231,
@@ -93,5 +93,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.838Z"
  },
- "details_checked_at": "2026-11-21T17:36:26.760Z"
+ "details_checked_at": "2026-11-22T03:16:02.546Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T17:33:54.332Z",
+ "fetched_at": "2026-11-22T03:13:23.330Z",
  "meta": {
   "name": "blender",
   "owner": "blender",
@@ -30,14 +30,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 22300,
-  "forks": 3644,
+  "stars": 22309,
+  "forks": 3643,
   "watchers": 375,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2019-10-09T12:47:28Z",
-  "pushed_at": "2026-11-21T14:58:51Z",
-  "updated_at": "2026-11-21T16:03:14Z",
+  "pushed_at": "2026-11-21T21:34:50Z",
+  "updated_at": "2026-11-22T02:39:49Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,7 +46,7 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 1453784,
+  "size_kb": 1453803,
   "og_image": "https://opengraph.githubassets.com/1/blender/blender",
   "custom_og_image": false
  },
@@ -64,7 +64,7 @@
   "headings": 4,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.436Z",
-  "checked_at": "2026-11-21T17:36:21.323Z"
+  "checked_at": "2026-11-22T03:15:57.084Z"
  },
  "contributors": {
   "count": 1612,
@@ -72,5 +72,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.731Z"
  },
- "details_checked_at": "2026-11-21T17:36:21.323Z"
+ "details_checked_at": "2026-11-22T03:15:57.084Z"
 }

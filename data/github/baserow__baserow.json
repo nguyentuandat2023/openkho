@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T17:35:12.569Z",
+ "fetched_at": "2026-11-22T03:14:53.257Z",
  "meta": {
   "name": "baserow",
   "owner": "baserow",
@@ -41,7 +41,7 @@
    "name": "Other"
   },
   "stars": 6376,
-  "forks": 793,
+  "forks": 794,
   "watchers": 46,
   "open_issues": 1202,
   "open_prs": null,
@@ -79,7 +79,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.055Z",
-  "checked_at": "2026-11-21T17:36:24.529Z"
+  "checked_at": "2026-11-22T03:16:00.292Z"
  },
  "contributors": {
   "count": 80,
@@ -87,5 +87,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.363Z"
  },
- "details_checked_at": "2026-11-21T17:36:24.529Z"
+ "details_checked_at": "2026-11-22T03:16:00.292Z"
 }

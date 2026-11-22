@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-21T17:34:21.272Z",
+ "fetched_at": "2026-11-22T03:13:48.405Z",
  "meta": {
   "name": "magento2",
   "owner": "magento",
@@ -31,7 +31,7 @@
    "name": "Open Software License 3.0"
   },
   "stars": 12242,
-  "forks": 9355,
+  "forks": 9356,
   "watchers": 1201,
   "open_issues": 2637,
   "open_prs": null,
@@ -69,7 +69,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.652Z",
-  "checked_at": "2026-11-21T17:36:22.376Z"
+  "checked_at": "2026-11-22T03:15:58.106Z"
  },
  "contributors": {
   "count": 3208,
@@ -77,5 +77,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.100Z"
  },
- "details_checked_at": "2026-11-21T17:36:22.376Z"
+ "details_checked_at": "2026-11-22T03:15:58.106Z"
 }
