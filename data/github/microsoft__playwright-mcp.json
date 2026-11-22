@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:24:09.276Z",
+ "fetched_at": "2026-11-22T19:40:42.131Z",
  "meta": {
   "name": "playwright-mcp",
   "owner": "microsoft",
@@ -26,14 +26,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 39994,
+  "stars": 40007,
   "forks": 3478,
   "watchers": 150,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2025-03-21T17:48:36Z",
   "pushed_at": "2026-11-18T18:50:37Z",
-  "updated_at": "2026-11-22T11:23:23Z",
+  "updated_at": "2026-11-22T19:06:47Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -70,7 +70,7 @@
   "headings": 20,
   "processor": 4,
   "fetched_at": "2026-11-18T20:37:17.767Z",
-  "checked_at": "2026-11-22T11:25:35.307Z"
+  "checked_at": "2026-11-22T19:42:03.322Z"
  },
  "contributors": {
   "count": 72,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.436Z"
  },
- "details_checked_at": "2026-11-22T11:25:35.307Z"
+ "details_checked_at": "2026-11-22T19:42:03.322Z"
 }

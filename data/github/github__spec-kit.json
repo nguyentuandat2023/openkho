@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:23:24.854Z",
+ "fetched_at": "2026-11-22T19:39:59.619Z",
  "meta": {
   "name": "spec-kit",
   "owner": "github",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 150978,
-  "forks": 13558,
+  "stars": 151026,
+  "forks": 13561,
   "watchers": 748,
-  "open_issues": 238,
+  "open_issues": 239,
   "open_prs": null,
   "created_at": "2025-08-21T22:54:31Z",
-  "pushed_at": "2026-11-20T15:50:42Z",
-  "updated_at": "2026-11-22T11:21:09Z",
+  "pushed_at": "2026-11-22T17:35:25Z",
+  "updated_at": "2026-11-22T19:29:05Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 23935,
+  "size_kb": 23894,
   "og_image": "https://opengraph.githubassets.com/1/github/spec-kit",
   "custom_og_image": false
  },
@@ -86,7 +86,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.438Z",
-  "checked_at": "2026-11-22T11:25:33.412Z"
+  "checked_at": "2026-11-22T19:42:01.540Z"
  },
  "contributors": {
   "count": 350,
@@ -94,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.619Z"
  },
- "details_checked_at": "2026-11-22T11:25:33.412Z"
+ "details_checked_at": "2026-11-22T19:42:01.540Z"
 }

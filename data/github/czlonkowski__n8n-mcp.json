@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:24:10.646Z",
+ "fetched_at": "2026-11-22T19:40:43.463Z",
  "meta": {
   "name": "n8n-mcp",
   "owner": "czlonkowski",
@@ -29,7 +29,7 @@
    "name": "MIT License"
   },
   "stars": 23294,
-  "forks": 3672,
+  "forks": 3673,
   "watchers": 155,
   "open_issues": 61,
   "open_prs": null,
@@ -73,7 +73,7 @@
   "headings": 31,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:38.084Z",
-  "checked_at": "2026-11-22T11:25:35.357Z"
+  "checked_at": "2026-11-22T19:42:03.305Z"
  },
  "contributors": {
   "count": 35,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.615Z"
  },
- "details_checked_at": "2026-11-22T11:25:35.357Z"
+ "details_checked_at": "2026-11-22T19:42:03.305Z"
 }

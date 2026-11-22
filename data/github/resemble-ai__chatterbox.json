@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:21:18.956Z",
+ "fetched_at": "2026-11-22T19:37:51.800Z",
  "meta": {
   "name": "chatterbox",
   "owner": "resemble-ai",
@@ -23,14 +23,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 28032,
-  "forks": 3783,
+  "stars": 28037,
+  "forks": 3782,
   "watchers": 161,
-  "open_issues": 384,
+  "open_issues": 385,
   "open_prs": null,
   "created_at": "2025-04-23T08:16:38Z",
   "pushed_at": "2026-11-04T18:48:12Z",
-  "updated_at": "2026-11-22T09:35:52Z",
+  "updated_at": "2026-11-22T19:35:59Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 18,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:28.893Z",
-  "checked_at": "2026-11-22T11:25:28.026Z"
+  "checked_at": "2026-11-22T19:41:56.925Z"
  },
  "contributors": {
   "count": 17,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:23.306Z"
  },
- "details_checked_at": "2026-11-22T11:25:28.026Z"
+ "details_checked_at": "2026-11-22T19:41:56.925Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:21:54.452Z",
+ "fetched_at": "2026-11-22T19:38:24.110Z",
  "meta": {
   "name": "LlamaFactory",
   "owner": "hiyouga",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 76188,
+  "stars": 76202,
   "forks": 9385,
   "watchers": 341,
   "open_issues": 1262,
   "open_prs": null,
   "created_at": "2023-05-28T10:09:12Z",
   "pushed_at": "2026-11-21T10:57:51Z",
-  "updated_at": "2026-11-22T10:50:28Z",
+  "updated_at": "2026-11-22T18:21:23Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -88,7 +88,7 @@
   "headings": 35,
   "processor": 4,
   "fetched_at": "2026-11-21T17:36:18.596Z",
-  "checked_at": "2026-11-22T11:25:29.475Z"
+  "checked_at": "2026-11-22T19:41:58.237Z"
  },
  "contributors": {
   "count": 303,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T07:03:47.895Z"
  },
- "details_checked_at": "2026-11-22T11:25:29.475Z"
+ "details_checked_at": "2026-11-22T19:41:58.237Z"
 }

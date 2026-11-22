@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:24:12.150Z",
+ "fetched_at": "2026-11-22T19:40:44.637Z",
  "meta": {
   "name": "mcp-for-blender",
   "owner": "ahujasid",
@@ -35,14 +35,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 35314,
-  "forks": 3236,
+  "stars": 35366,
+  "forks": 3242,
   "watchers": 216,
   "open_issues": 67,
   "open_prs": null,
   "created_at": "2025-03-07T09:58:58Z",
   "pushed_at": "2026-11-18T10:27:07Z",
-  "updated_at": "2026-11-22T11:11:33Z",
+  "updated_at": "2026-11-22T19:27:15Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -100,7 +100,7 @@
   "headings": 48,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.516Z",
-  "checked_at": "2026-11-22T11:25:35.392Z"
+  "checked_at": "2026-11-22T19:42:03.533Z"
  },
  "contributors": {
   "count": 47,
@@ -108,5 +108,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.546Z"
  },
- "details_checked_at": "2026-11-22T11:25:35.392Z"
+ "details_checked_at": "2026-11-22T19:42:03.533Z"
 }

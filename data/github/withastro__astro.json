@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:25:20.697Z",
+ "fetched_at": "2026-11-22T19:41:49.908Z",
  "meta": {
   "name": "astro",
   "owner": "withastro",
@@ -35,14 +35,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 64125,
-  "forks": 3914,
+  "stars": 64133,
+  "forks": 3912,
   "watchers": 217,
-  "open_issues": 91,
+  "open_issues": 94,
   "open_prs": null,
   "created_at": "2021-03-15T17:19:47Z",
-  "pushed_at": "2026-11-22T08:59:11Z",
-  "updated_at": "2026-11-22T10:38:06Z",
+  "pushed_at": "2026-11-22T15:18:20Z",
+  "updated_at": "2026-11-22T18:41:50Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,7 +51,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 246189,
+  "size_kb": 245740,
   "og_image": "https://opengraph.githubassets.com/1/withastro/astro",
   "custom_og_image": false
  },
@@ -74,7 +74,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.592Z",
-  "checked_at": "2026-11-22T11:25:38.289Z"
+  "checked_at": "2026-11-22T19:42:05.908Z"
  },
  "contributors": {
   "count": 1274,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.438Z"
  },
- "details_checked_at": "2026-11-22T11:25:38.289Z"
+ "details_checked_at": "2026-11-22T19:42:05.908Z"
 }

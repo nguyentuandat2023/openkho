@@ -1,6 +1,6 @@
 {
- "started_at": "2026-11-22T11:19:17.956Z",
- "finished_at": "2026-11-22T11:25:38.840Z",
+ "started_at": "2026-11-22T19:35:53.684Z",
+ "finished_at": "2026-11-22T19:42:06.368Z",
  "mode": "full",
  "token": true,
  "totals": {
@@ -22,82 +22,82 @@
  ],
  "unverified": [],
  "errors": [],
- "snapshots": 253,
+ "snapshots": 256,
  "rate_limit": {
   "search": {
    "limit": 30,
    "remaining": 30,
-   "reset": 1795346798000
+   "reset": 1795376586000
   },
   "core": {
    "limit": 5000,
-   "remaining": 4658,
-   "reset": 1795350063000
+   "remaining": 4656,
+   "reset": 1795379858000
   },
   "graphql": {
    "limit": 5000,
-   "remaining": 4925,
-   "reset": 1795349968000
+   "remaining": 4911,
+   "reset": 1795379754000
   },
   "integration_manifest": {
    "limit": 5000,
    "remaining": 5000,
-   "reset": 1795350338000
+   "reset": 1795380126000
   },
   "source_import": {
    "limit": 100,
    "remaining": 100,
-   "reset": 1795346798000
+   "reset": 1795376586000
   },
   "code_scanning_autofix": {
    "limit": 10,
    "remaining": 10,
-   "reset": 1795346798000
+   "reset": 1795376586000
   },
   "actions_runner_registration": {
    "limit": 10000,
    "remaining": 10000,
-   "reset": 1795350338000
+   "reset": 1795380126000
   },
   "scim": {
    "limit": 15000,
    "remaining": 15000,
-   "reset": 1795350338000
+   "reset": 1795380126000
   },
   "dependency_snapshots": {
    "limit": 100,
    "remaining": 100,
-   "reset": 1795346798000
+   "reset": 1795376586000
   },
   "dependency_sbom": {
    "limit": 100,
    "remaining": 100,
-   "reset": 1795346798000
+   "reset": 1795376586000
   },
   "audit_log": {
    "limit": 1750,
    "remaining": 1750,
-   "reset": 1795350338000
+   "reset": 1795380126000
   },
   "audit_log_streaming": {
    "limit": 15,
    "remaining": 15,
-   "reset": 1795350338000
+   "reset": 1795380126000
   },
   "code_search": {
    "limit": 10,
    "remaining": 10,
-   "reset": 1795346798000
+   "reset": 1795376586000
   },
   "copilot_usage_records": {
    "limit": 1750,
    "remaining": 1750,
-   "reset": 1795350338000
+   "reset": 1795380126000
   },
   "enterprise_token_inventory": {
    "limit": 1750,
    "remaining": 1750,
-   "reset": 1795350338000
+   "reset": 1795380126000
   }
  }
 }

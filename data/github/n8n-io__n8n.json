@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:21:26.857Z",
+ "fetched_at": "2026-11-22T19:37:58.092Z",
  "meta": {
   "name": "n8n",
   "owner": "n8n-io",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 211750,
-  "forks": 61617,
-  "watchers": 1211,
-  "open_issues": 1268,
+  "stars": 211821,
+  "forks": 61624,
+  "watchers": 1214,
+  "open_issues": 1270,
   "open_prs": null,
   "created_at": "2019-06-22T09:24:21Z",
-  "pushed_at": "2026-11-22T10:43:45Z",
-  "updated_at": "2026-11-22T11:20:26Z",
+  "pushed_at": "2026-11-22T17:01:25Z",
+  "updated_at": "2026-11-22T19:34:00Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 882149,
+  "size_kb": 882813,
   "og_image": "https://opengraph.githubassets.com/1/n8n-io/n8n",
   "custom_og_image": false
  },
@@ -88,7 +88,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:19.933Z",
-  "checked_at": "2026-11-22T11:25:28.381Z"
+  "checked_at": "2026-11-22T19:41:57.211Z"
  },
  "contributors": {
   "count": 864,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:27.038Z"
  },
- "details_checked_at": "2026-11-22T11:25:28.381Z"
+ "details_checked_at": "2026-11-22T19:41:57.211Z"
 }

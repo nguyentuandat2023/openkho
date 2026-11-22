@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:24:54.356Z",
+ "fetched_at": "2026-11-22T19:41:26.165Z",
  "meta": {
   "name": "jellyfin",
   "owner": "jellyfin",
@@ -28,14 +28,14 @@
    "spdx": "GPL-2.0",
    "name": "GNU General Public License v2.0"
   },
-  "stars": 59620,
-  "forks": 5847,
+  "stars": 59637,
+  "forks": 5856,
   "watchers": 375,
-  "open_issues": 944,
+  "open_issues": 948,
   "open_prs": null,
   "created_at": "2018-12-09T06:36:45Z",
   "pushed_at": "2026-11-21T18:29:01Z",
-  "updated_at": "2026-11-22T11:03:47Z",
+  "updated_at": "2026-11-22T19:09:49Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.424Z",
-  "checked_at": "2026-11-22T11:25:37.173Z"
+  "checked_at": "2026-11-22T19:42:05.013Z"
  },
  "contributors": {
   "count": 1889,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.746Z"
  },
- "details_checked_at": "2026-11-22T11:25:37.173Z"
+ "details_checked_at": "2026-11-22T19:42:05.013Z"
 }

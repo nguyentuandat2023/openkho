@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:24:12.742Z",
+ "fetched_at": "2026-11-22T19:40:45.360Z",
  "meta": {
   "name": "fastmcp",
   "owner": "PrefectHQ",
@@ -33,14 +33,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 28711,
-  "forks": 2640,
+  "stars": 28712,
+  "forks": 2641,
   "watchers": 120,
-  "open_issues": 245,
+  "open_issues": 215,
   "open_prs": null,
   "created_at": "2024-11-30T01:47:40Z",
-  "pushed_at": "2026-11-22T11:14:02Z",
-  "updated_at": "2026-11-22T09:48:32Z",
+  "pushed_at": "2026-11-22T19:33:53Z",
+  "updated_at": "2026-11-22T14:04:07Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,7 +49,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 69919,
+  "size_kb": 69703,
   "og_image": "https://opengraph.githubassets.com/1/PrefectHQ/fastmcp",
   "custom_og_image": false
  },
@@ -72,7 +72,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.532Z",
-  "checked_at": "2026-11-22T11:25:35.434Z"
+  "checked_at": "2026-11-22T19:42:03.406Z"
  },
  "contributors": {
   "count": 409,
@@ -80,5 +80,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.607Z"
  },
- "details_checked_at": "2026-11-22T11:25:35.434Z"
+ "details_checked_at": "2026-11-22T19:42:03.406Z"
 }

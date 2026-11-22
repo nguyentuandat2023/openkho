@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:21:35.526Z",
+ "fetched_at": "2026-11-22T19:38:05.490Z",
  "meta": {
   "name": "windmill",
   "owner": "windmill-labs",
@@ -37,14 +37,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 18675,
-  "forks": 1171,
+  "stars": 18679,
+  "forks": 1172,
   "watchers": 52,
-  "open_issues": 847,
+  "open_issues": 852,
   "open_prs": null,
   "created_at": "2022-05-05T02:21:17Z",
-  "pushed_at": "2026-11-22T10:05:09Z",
-  "updated_at": "2026-11-22T10:20:33Z",
+  "pushed_at": "2026-11-22T16:40:51Z",
+  "updated_at": "2026-11-22T18:50:21Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,7 +53,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 569034,
+  "size_kb": 570102,
   "og_image": "https://opengraph.githubassets.com/1/windmill-labs/windmill",
   "custom_og_image": false
  },
@@ -76,7 +76,7 @@
   "headings": 21,
   "processor": 4,
   "fetched_at": "2026-11-18T20:37:09.054Z",
-  "checked_at": "2026-11-22T11:25:28.721Z"
+  "checked_at": "2026-11-22T19:41:57.447Z"
  },
  "contributors": {
   "count": 175,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:31.931Z"
  },
- "details_checked_at": "2026-11-22T11:25:28.721Z"
+ "details_checked_at": "2026-11-22T19:41:57.447Z"
 }

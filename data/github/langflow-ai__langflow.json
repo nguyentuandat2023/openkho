@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:21:28.613Z",
+ "fetched_at": "2026-11-22T19:37:59.419Z",
  "meta": {
   "name": "langflow",
   "owner": "langflow-ai",
@@ -30,14 +30,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 156838,
+  "stars": 156847,
   "forks": 10431,
   "watchers": 527,
   "open_issues": 1344,
   "open_prs": null,
   "created_at": "2023-02-08T22:28:03Z",
   "pushed_at": "2026-11-22T00:26:30Z",
-  "updated_at": "2026-11-22T11:17:31Z",
+  "updated_at": "2026-11-22T19:11:55Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -74,7 +74,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:19.931Z",
-  "checked_at": "2026-11-22T11:25:28.391Z"
+  "checked_at": "2026-11-22T19:41:57.203Z"
  },
  "contributors": {
   "count": 403,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:27.767Z"
  },
- "details_checked_at": "2026-11-22T11:25:28.391Z"
+ "details_checked_at": "2026-11-22T19:41:57.203Z"
 }

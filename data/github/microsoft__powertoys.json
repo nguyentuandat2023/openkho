@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:24:35.317Z",
+ "fetched_at": "2026-11-22T19:41:08.449Z",
  "meta": {
   "name": "PowerToys",
   "owner": "microsoft",
@@ -36,14 +36,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 141285,
-  "forks": 8726,
-  "watchers": 1229,
-  "open_issues": 8137,
+  "stars": 141303,
+  "forks": 8730,
+  "watchers": 1230,
+  "open_issues": 8141,
   "open_prs": null,
   "created_at": "2019-05-01T17:44:02Z",
   "pushed_at": "2026-11-22T00:17:19Z",
-  "updated_at": "2026-11-22T11:12:40Z",
+  "updated_at": "2026-11-22T19:34:17Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -75,7 +75,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.600Z",
-  "checked_at": "2026-11-22T11:25:36.397Z"
+  "checked_at": "2026-11-22T19:42:04.322Z"
  },
  "contributors": {
   "count": 708,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:40.068Z"
  },
- "details_checked_at": "2026-11-22T11:25:36.397Z"
+ "details_checked_at": "2026-11-22T19:42:04.322Z"
 }

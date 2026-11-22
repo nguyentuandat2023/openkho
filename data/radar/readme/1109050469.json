@@ -1,0 +1,1 @@
+{"full_name":"norish-recipes/norish","path":"README.md","fetched_at":"2026-11-22T19:43:26.828Z","length":5171,"text":"Generate MASTER KEY with openssl rand -base64 32 and keep it stable: it derives the encryption keys.","intro":null,"sections":{"install":null,"usage":null,"features":null}}

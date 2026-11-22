@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:21:33.462Z",
+ "fetched_at": "2026-11-22T19:38:03.625Z",
  "meta": {
   "name": "sim",
   "owner": "simstudioai",
@@ -42,14 +42,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 30175,
-  "forks": 3917,
+  "stars": 30185,
+  "forks": 3916,
   "watchers": 125,
-  "open_issues": 333,
+  "open_issues": 332,
   "open_prs": null,
   "created_at": "2025-01-05T22:47:49Z",
-  "pushed_at": "2026-11-22T11:05:35Z",
-  "updated_at": "2026-11-22T10:19:57Z",
+  "pushed_at": "2026-11-22T19:19:53Z",
+  "updated_at": "2026-11-22T18:07:01Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,7 +58,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 791656,
+  "size_kb": 794599,
   "og_image": "https://opengraph.githubassets.com/1/simstudioai/sim",
   "custom_og_image": false
  },
@@ -86,7 +86,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:20.162Z",
-  "checked_at": "2026-11-22T11:25:28.569Z"
+  "checked_at": "2026-11-22T19:41:57.424Z"
  },
  "contributors": {
   "count": 63,
@@ -94,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:30.020Z"
  },
- "details_checked_at": "2026-11-22T11:25:28.569Z"
+ "details_checked_at": "2026-11-22T19:41:57.424Z"
 }

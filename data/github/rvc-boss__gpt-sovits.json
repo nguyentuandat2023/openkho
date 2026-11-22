@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:21:18.240Z",
+ "fetched_at": "2026-11-22T19:37:51.114Z",
  "meta": {
   "name": "GPT-SoVITS",
   "owner": "RVC-Boss",
@@ -30,14 +30,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 64181,
-  "forks": 6811,
+  "stars": 64196,
+  "forks": 6812,
   "watchers": 287,
   "open_issues": 914,
   "open_prs": null,
   "created_at": "2024-01-14T18:05:21Z",
   "pushed_at": "2026-11-11T16:26:18Z",
-  "updated_at": "2026-11-22T10:16:54Z",
+  "updated_at": "2026-11-22T18:13:00Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -74,7 +74,7 @@
   "headings": 44,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:28.926Z",
-  "checked_at": "2026-11-22T11:25:27.982Z"
+  "checked_at": "2026-11-22T19:41:56.880Z"
  },
  "contributors": {
   "count": 101,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-16T05:40:22.968Z"
  },
- "details_checked_at": "2026-11-22T11:25:27.982Z"
+ "details_checked_at": "2026-11-22T19:41:56.880Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:22:17.700Z",
+ "fetched_at": "2026-11-22T19:38:49.247Z",
  "meta": {
   "name": "NextChat",
   "owner": "ChatGPTNextWeb",
@@ -42,14 +42,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 88984,
-  "forks": 58448,
+  "stars": 88987,
+  "forks": 58449,
   "watchers": 489,
   "open_issues": 868,
   "open_prs": null,
   "created_at": "2023-03-10T18:27:54Z",
   "pushed_at": "2026-10-20T10:19:31Z",
-  "updated_at": "2026-11-22T10:56:28Z",
+  "updated_at": "2026-11-22T19:15:10Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -86,7 +86,7 @@
   "headings": 71,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.337Z",
-  "checked_at": "2026-11-22T11:25:30.523Z"
+  "checked_at": "2026-11-22T19:41:59.087Z"
  },
  "contributors": {
   "count": 306,
@@ -94,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.531Z"
  },
- "details_checked_at": "2026-11-22T11:25:30.523Z"
+ "details_checked_at": "2026-11-22T19:41:59.087Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:24:49.532Z",
+ "fetched_at": "2026-11-22T19:41:22.669Z",
  "meta": {
   "name": "uptime-kuma",
   "owner": "louislam",
@@ -36,14 +36,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 94757,
-  "forks": 8867,
+  "stars": 94769,
+  "forks": 8872,
   "watchers": 325,
   "open_issues": 862,
   "open_prs": null,
   "created_at": "2021-07-03T01:02:42Z",
   "pushed_at": "2026-11-22T07:50:56Z",
-  "updated_at": "2026-11-22T11:04:41Z",
+  "updated_at": "2026-11-22T19:18:36Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -80,7 +80,7 @@
   "headings": 23,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.202Z",
-  "checked_at": "2026-11-22T11:25:36.971Z"
+  "checked_at": "2026-11-22T19:42:04.797Z"
  },
  "contributors": {
   "count": 1162,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.448Z"
  },
- "details_checked_at": "2026-11-22T11:25:36.971Z"
+ "details_checked_at": "2026-11-22T19:42:04.797Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:24:22.309Z",
+ "fetched_at": "2026-11-22T19:40:55.031Z",
  "meta": {
   "name": "nocobase",
   "owner": "nocobase",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 24979,
+  "stars": 24980,
   "forks": 2956,
   "watchers": 172,
-  "open_issues": 306,
+  "open_issues": 301,
   "open_prs": null,
   "created_at": "2020-10-24T07:27:48Z",
-  "pushed_at": "2026-11-22T11:21:25Z",
-  "updated_at": "2026-11-22T08:42:16Z",
+  "pushed_at": "2026-11-22T19:25:17Z",
+  "updated_at": "2026-11-22T17:50:12Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 694643,
+  "size_kb": 693760,
   "og_image": "https://opengraph.githubassets.com/1/nocobase/nocobase",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.959Z",
-  "checked_at": "2026-11-22T11:25:35.871Z"
+  "checked_at": "2026-11-22T19:42:03.935Z"
  },
  "contributors": {
   "count": 16,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.107Z"
  },
- "details_checked_at": "2026-11-22T11:25:35.871Z"
+ "details_checked_at": "2026-11-22T19:42:03.935Z"
 }

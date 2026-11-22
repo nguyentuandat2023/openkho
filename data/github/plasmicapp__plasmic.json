@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T11:24:26.397Z",
+ "fetched_at": "2026-11-22T19:40:59.834Z",
  "meta": {
   "name": "plasmic",
   "owner": "plasmicapp",
@@ -43,12 +43,12 @@
    "name": "MIT License"
   },
   "stars": 7177,
-  "forks": 743,
+  "forks": 742,
   "watchers": 67,
   "open_issues": 46,
   "open_prs": null,
   "created_at": "2021-02-02T19:37:59Z",
-  "pushed_at": "2026-11-21T11:16:33Z",
+  "pushed_at": "2026-11-22T17:31:49Z",
   "updated_at": "2026-11-22T11:20:31Z",
   "archived": false,
   "disabled": false,
@@ -58,7 +58,7 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 342420,
+  "size_kb": 335367,
   "og_image": "https://opengraph.githubassets.com/1/plasmicapp/plasmic",
   "custom_og_image": false
  },
@@ -92,7 +92,7 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.178Z",
-  "checked_at": "2026-11-22T11:25:36.051Z"
+  "checked_at": "2026-11-22T19:42:03.945Z"
  },
  "contributors": {
   "count": 88,
@@ -100,5 +100,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.779Z"
  },
- "details_checked_at": "2026-11-22T11:25:36.051Z"
+ "details_checked_at": "2026-11-22T19:42:03.945Z"
 }
