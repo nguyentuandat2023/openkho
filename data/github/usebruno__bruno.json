@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:39:52.971Z",
+ "fetched_at": "2026-11-23T09:03:54.327Z",
  "meta": {
   "name": "bruno",
   "owner": "usebruno",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 48503,
-  "forks": 3135,
+  "stars": 48511,
+  "forks": 3137,
   "watchers": 105,
-  "open_issues": 1996,
+  "open_issues": 1992,
   "open_prs": null,
   "created_at": "2022-09-27T20:51:45Z",
-  "pushed_at": "2026-11-20T18:02:11Z",
-  "updated_at": "2026-11-22T18:39:34Z",
+  "pushed_at": "2026-11-23T08:27:11Z",
+  "updated_at": "2026-11-23T08:24:48Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,13 +54,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 69877,
+  "size_kb": 69846,
   "og_image": "https://opengraph.githubassets.com/1/usebruno/bruno",
   "custom_og_image": false
  },
  "readme": {
   "path": "readme.md",
-  "length": 8279,
+  "length": 8299,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [
@@ -87,8 +87,8 @@
   },
   "headings": 18,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:25.171Z",
-  "checked_at": "2026-11-22T19:42:01.373Z"
+  "fetched_at": "2026-11-23T09:06:24.690Z",
+  "checked_at": "2026-11-23T09:06:24.690Z"
  },
  "contributors": {
   "count": 504,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.361Z"
  },
- "details_checked_at": "2026-11-22T19:42:01.373Z"
+ "details_checked_at": "2026-11-23T09:06:24.690Z"
 }

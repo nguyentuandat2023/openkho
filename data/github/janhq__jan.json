@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:38:51.116Z",
+ "fetched_at": "2026-11-23T09:02:45.412Z",
  "meta": {
   "name": "jan",
   "owner": "janhq",
@@ -32,14 +32,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 46025,
-  "forks": 3237,
+  "stars": 46041,
+  "forks": 3242,
   "watchers": 226,
-  "open_issues": 594,
+  "open_issues": 590,
   "open_prs": null,
   "created_at": "2023-08-17T02:17:10Z",
-  "pushed_at": "2026-11-18T12:50:22Z",
-  "updated_at": "2026-11-22T18:51:54Z",
+  "pushed_at": "2026-11-23T07:01:13Z",
+  "updated_at": "2026-11-23T08:31:05Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,7 +48,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 1583188,
+  "size_kb": 1583179,
   "og_image": "https://opengraph.githubassets.com/1/janhq/jan",
   "custom_og_image": false
  },
@@ -76,7 +76,7 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.495Z",
-  "checked_at": "2026-11-22T19:41:59.199Z"
+  "checked_at": "2026-11-23T09:06:21.492Z"
  },
  "contributors": {
   "count": 193,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.653Z"
  },
- "details_checked_at": "2026-11-22T19:41:59.199Z"
+ "details_checked_at": "2026-11-23T09:06:21.492Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:37:48.267Z",
+ "fetched_at": "2026-11-23T09:01:32.974Z",
  "meta": {
   "name": "VieNeu-TTS",
   "owner": "pnnbao97",
@@ -32,14 +32,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 3539,
-  "forks": 1072,
+  "stars": 3545,
+  "forks": 1074,
   "watchers": 48,
   "open_issues": 21,
   "open_prs": null,
   "created_at": "2025-10-28T14:07:23Z",
   "pushed_at": "2026-11-20T16:35:30Z",
-  "updated_at": "2026-11-22T16:35:38Z",
+  "updated_at": "2026-11-23T08:37:47Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -76,13 +76,13 @@
   "headings": 34,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:19.260Z",
-  "checked_at": "2026-11-22T19:41:56.731Z"
+  "checked_at": "2026-11-23T09:06:17.967Z"
  },
  "contributors": {
-  "count": 19,
+  "count": 20,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-16T05:40:21.302Z"
+  "fetched_at": "2026-11-23T09:06:32.186Z"
  },
- "details_checked_at": "2026-11-22T19:41:56.731Z"
+ "details_checked_at": "2026-11-23T09:06:17.967Z"
 }

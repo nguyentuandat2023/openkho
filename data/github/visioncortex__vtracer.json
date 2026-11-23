@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:39:43.209Z",
+ "fetched_at": "2026-11-23T09:03:43.009Z",
  "meta": {
   "name": "vtracer",
   "owner": "visioncortex",
@@ -67,7 +67,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.627Z",
-  "checked_at": "2026-11-22T19:42:00.999Z"
+  "checked_at": "2026-11-23T09:06:24.196Z"
  },
  "contributors": {
   "count": 10,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.562Z"
  },
- "details_checked_at": "2026-11-22T19:42:00.999Z"
+ "details_checked_at": "2026-11-23T09:06:24.196Z"
 }

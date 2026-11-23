@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:39:41.808Z",
+ "fetched_at": "2026-11-23T09:03:41.379Z",
  "meta": {
   "name": "FreeCAD",
   "owner": "FreeCAD",
@@ -40,14 +40,14 @@
    "spdx": "LGPL-2.1",
    "name": "GNU Lesser General Public License v2.1"
   },
-  "stars": 35691,
-  "forks": 6447,
+  "stars": 35703,
+  "forks": 6454,
   "watchers": 559,
-  "open_issues": 4083,
+  "open_issues": 4077,
   "open_prs": null,
   "created_at": "2012-09-09T08:25:02Z",
-  "pushed_at": "2026-11-22T19:36:49Z",
-  "updated_at": "2026-11-22T19:31:05Z",
+  "pushed_at": "2026-11-23T06:36:04Z",
+  "updated_at": "2026-11-23T08:34:32Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,7 +56,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 3008267,
+  "size_kb": 3019945,
   "og_image": "https://opengraph.githubassets.com/1/FreeCAD/FreeCAD",
   "custom_og_image": false
  },
@@ -84,7 +84,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.636Z",
-  "checked_at": "2026-11-22T19:42:00.886Z"
+  "checked_at": "2026-11-23T09:06:24.137Z"
  },
  "contributors": {
   "count": 1109,
@@ -92,5 +92,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.374Z"
  },
- "details_checked_at": "2026-11-22T19:42:00.886Z"
+ "details_checked_at": "2026-11-23T09:06:24.137Z"
 }

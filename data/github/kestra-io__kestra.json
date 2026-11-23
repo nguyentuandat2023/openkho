@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:38:06.303Z",
+ "fetched_at": "2026-11-23T09:01:55.989Z",
  "meta": {
   "name": "kestra",
   "owner": "kestra-io",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 30317,
-  "forks": 3547,
+  "stars": 30322,
+  "forks": 3549,
   "watchers": 167,
-  "open_issues": 626,
+  "open_issues": 624,
   "open_prs": null,
   "created_at": "2019-08-24T13:56:15Z",
-  "pushed_at": "2026-11-22T16:28:05Z",
-  "updated_at": "2026-11-22T19:32:35Z",
+  "pushed_at": "2026-11-23T09:00:51Z",
+  "updated_at": "2026-11-23T07:16:21Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 160897,
+  "size_kb": 161273,
   "og_image": "https://opengraph.githubassets.com/1/kestra-io/kestra",
   "custom_og_image": false
  },
@@ -83,13 +83,13 @@
   "headings": 22,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:20.339Z",
-  "checked_at": "2026-11-22T19:41:57.510Z"
+  "checked_at": "2026-11-23T09:06:19.075Z"
  },
  "contributors": {
-  "count": 872,
+  "count": 901,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-16T05:40:32.422Z"
+  "fetched_at": "2026-11-23T09:06:33.497Z"
  },
- "details_checked_at": "2026-11-22T19:41:57.510Z"
+ "details_checked_at": "2026-11-23T09:06:19.075Z"
 }

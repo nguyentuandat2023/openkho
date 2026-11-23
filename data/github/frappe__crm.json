@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:39:05.642Z",
+ "fetched_at": "2026-11-23T09:03:02.105Z",
  "meta": {
   "name": "crm",
   "owner": "frappe",
@@ -43,9 +43,9 @@
    "name": "GNU Affero General Public License v3.0"
   },
   "stars": 4026,
-  "forks": 1633,
+  "forks": 1635,
   "watchers": 33,
-  "open_issues": 331,
+  "open_issues": 332,
   "open_prs": null,
   "created_at": "2023-07-19T08:53:35Z",
   "pushed_at": "2026-11-22T17:18:04Z",
@@ -64,16 +64,16 @@
  },
  "readme": {
   "path": "README.md",
-  "length": 9189,
+  "length": 9211,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [],
   "sections": {
    "install": {
     "title": "Getting Started (Production)",
-    "html": "<h5>Managed Hosting</h5>\n<p>Get started with your personal or business site with a few clicks on Frappe Cloud - our official hosting service.</p>\n<div>\n\t<a href=\"https://frappecloud.com/crm/signup\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">\n\t\t\n\t\t\t\n\t\t\t<img src=\"https://frappe.io/files/try-on-fc-black.png\" alt=\"Try on Frappe Cloud\" loading=\"lazy\" decoding=\"async\" height=\"28\" />\n\t\t\n\t</a>\n</div><h5>Self Hosting</h5>\n<p>Follow these steps to set up Frappe CRM in production:</p>\n<p><strong>Step 1</strong>: Download the easy install script</p>\n<pre><code class=\"language-bash\">wget https://frappe.io/easy-install.py\n</code></pre>\n<p><strong>Step 2</strong>: Run the deployment command</p>\n<pre><code class=\"language-bash\">python3 ./easy-install.py deploy \\\n    --project=crm_prod_setup \\\n    --email=email.example.com \\\n    --image=ghcr.io/frappe/crm \\\n    --version=stable \\\n    --app=crm \\\n    --sitename subdomain.domain.tld\n</code></pre>\n<p>Replace the following parameters with your values:</p>\n<ul>\n<li><code>email.example.com</code>: Your email address</li>\n<li><code>subdomain.domain.tld</code>: Your domain name where CRM will be hosted</li>\n</ul>\n<p>The script will set up a production-ready instance of Frappe CRM with all the necessary configurations in about 5 minutes.</p>",
+    "html": "<h5>Managed Hosting</h5>\n<p>Get started with your personal or business site with a few clicks on Frappe Cloud - our official hosting service.</p>\n<div>\n\t<a href=\"https://dashboard.frappe.io/dashboard/signup?product=crm\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">\n\t\t\n\t\t\t\n\t\t\t<img src=\"https://frappe.io/files/try-on-fc-black.png\" alt=\"Try on Frappe Cloud\" loading=\"lazy\" decoding=\"async\" height=\"28\" />\n\t\t\n\t</a>\n</div><h5>Self Hosting</h5>\n<p>Follow these steps to set up Frappe CRM in production:</p>\n<p><strong>Step 1</strong>: Download the easy install script</p>\n<pre><code class=\"language-bash\">wget https://frappe.io/easy-install.py\n</code></pre>\n<p><strong>Step 2</strong>: Run the deployment command</p>\n<pre><code class=\"language-bash\">python3 ./easy-install.py deploy \\\n    --project=crm_prod_setup \\\n    --email=email.example.com \\\n    --image=ghcr.io/frappe/crm \\\n    --version=stable \\\n    --app=crm \\\n    --sitename subdomain.domain.tld\n</code></pre>\n<p>Replace the following parameters with your values:</p>\n<ul>\n<li><code>email.example.com</code>: Your email address</li>\n<li><code>subdomain.domain.tld</code>: Your domain name where CRM will be hosted</li>\n</ul>\n<p>The script will set up a production-ready instance of Frappe CRM with all the necessary configurations in about 5 minutes.</p>",
     "truncated": false,
-    "chars": 1168
+    "chars": 1190
    },
    "usage": null,
    "features": {
@@ -85,8 +85,8 @@
   },
   "headings": 14,
   "processor": 4,
-  "fetched_at": "2026-11-18T11:46:09.873Z",
-  "checked_at": "2026-11-22T19:41:59.728Z"
+  "fetched_at": "2026-11-23T09:06:22.294Z",
+  "checked_at": "2026-11-23T09:06:22.294Z"
  },
  "contributors": {
   "count": 91,
@@ -94,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.443Z"
  },
- "details_checked_at": "2026-11-22T19:41:59.728Z"
+ "details_checked_at": "2026-11-23T09:06:22.294Z"
 }

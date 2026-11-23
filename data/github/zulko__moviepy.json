@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:41:44.915Z",
+ "fetched_at": "2026-11-23T09:06:03.880Z",
  "meta": {
   "name": "moviepy",
   "owner": "Zulko",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 15192,
-  "forks": 2169,
+  "stars": 15194,
+  "forks": 2171,
   "watchers": 254,
   "open_issues": 96,
   "open_prs": null,
   "created_at": "2013-08-12T09:39:28Z",
   "pushed_at": "2026-08-26T06:17:08Z",
-  "updated_at": "2026-11-22T17:03:42Z",
+  "updated_at": "2026-11-23T05:42:37Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -75,7 +75,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.396Z",
-  "checked_at": "2026-11-22T19:42:05.691Z"
+  "checked_at": "2026-11-23T09:06:30.811Z"
  },
  "contributors": {
   "count": 193,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.956Z"
  },
- "details_checked_at": "2026-11-22T19:42:05.691Z"
+ "details_checked_at": "2026-11-23T09:06:30.812Z"
 }

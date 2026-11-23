@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:41:47.668Z",
+ "fetched_at": "2026-11-23T09:06:07.429Z",
  "meta": {
   "name": "react",
   "owner": "react",
@@ -30,14 +30,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 252924,
-  "forks": 51808,
+  "stars": 252941,
+  "forks": 51809,
   "watchers": 6628,
-  "open_issues": 1590,
+  "open_issues": 1596,
   "open_prs": null,
   "created_at": "2013-05-24T16:15:54Z",
-  "pushed_at": "2026-11-21T23:16:08Z",
-  "updated_at": "2026-11-22T18:59:59Z",
+  "pushed_at": "2026-11-23T04:39:03Z",
+  "updated_at": "2026-11-23T08:39:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,7 +46,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 1154544,
+  "size_kb": 1154148,
   "og_image": "https://opengraph.githubassets.com/1/react/react",
   "custom_og_image": false
  },
@@ -74,7 +74,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.439Z",
-  "checked_at": "2026-11-22T19:42:05.877Z"
+  "checked_at": "2026-11-23T09:06:30.884Z"
  },
  "contributors": {
   "count": 2027,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.338Z"
  },
- "details_checked_at": "2026-11-22T19:42:05.877Z"
+ "details_checked_at": "2026-11-23T09:06:30.884Z"
 }

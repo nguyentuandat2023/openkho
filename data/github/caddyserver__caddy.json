@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:39:59.093Z",
+ "fetched_at": "2026-11-23T09:03:59.779Z",
  "meta": {
   "name": "caddy",
   "owner": "caddyserver",
@@ -39,14 +39,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 79406,
-  "forks": 5307,
+  "stars": 79431,
+  "forks": 5319,
   "watchers": 876,
-  "open_issues": 293,
+  "open_issues": 296,
   "open_prs": null,
   "created_at": "2015-01-13T19:45:03Z",
   "pushed_at": "2026-11-19T07:04:45Z",
-  "updated_at": "2026-11-22T18:56:38Z",
+  "updated_at": "2026-11-23T08:56:44Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -83,7 +83,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.441Z",
-  "checked_at": "2026-11-22T19:42:01.578Z"
+  "checked_at": "2026-11-23T09:06:24.916Z"
  },
  "contributors": {
   "count": 483,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.625Z"
  },
- "details_checked_at": "2026-11-22T19:42:01.578Z"
+ "details_checked_at": "2026-11-23T09:06:24.916Z"
 }

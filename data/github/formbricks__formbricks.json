@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:40:36.242Z",
+ "fetched_at": "2026-11-23T09:04:43.753Z",
  "meta": {
   "name": "formbricks",
   "owner": "formbricks",
@@ -41,14 +41,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 13286,
-  "forks": 2628,
+  "stars": 13289,
+  "forks": 2629,
   "watchers": 47,
-  "open_issues": 140,
+  "open_issues": 146,
   "open_prs": null,
   "created_at": "2022-06-06T04:25:21Z",
-  "pushed_at": "2026-11-20T19:19:09Z",
-  "updated_at": "2026-11-22T16:38:01Z",
+  "pushed_at": "2026-11-23T09:02:21Z",
+  "updated_at": "2026-11-23T08:29:48Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,7 +57,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 791464,
+  "size_kb": 795406,
   "og_image": "https://opengraph.githubassets.com/1/formbricks/formbricks",
   "custom_og_image": false
  },
@@ -85,7 +85,7 @@
   "headings": 23,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.109Z",
-  "checked_at": "2026-11-22T19:42:03.010Z"
+  "checked_at": "2026-11-23T09:06:26.986Z"
  },
  "contributors": {
   "count": 322,
@@ -93,5 +93,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.206Z"
  },
- "details_checked_at": "2026-11-22T19:42:03.010Z"
+ "details_checked_at": "2026-11-23T09:06:26.986Z"
 }

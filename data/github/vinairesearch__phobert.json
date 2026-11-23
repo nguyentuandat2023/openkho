@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:41:03.525Z",
+ "fetched_at": "2026-11-23T09:05:16.138Z",
  "meta": {
   "name": "PhoBERT",
   "owner": "VinAIResearch",
@@ -88,7 +88,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.298Z",
-  "checked_at": "2026-11-22T19:42:04.132Z"
+  "checked_at": "2026-11-23T09:06:28.468Z"
  },
  "contributors": {
   "count": 1,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.645Z"
  },
- "details_checked_at": "2026-11-22T19:42:04.132Z"
+ "details_checked_at": "2026-11-23T09:06:28.468Z"
 }

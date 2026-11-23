@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:37:53.177Z",
+ "fetched_at": "2026-11-23T09:01:39.548Z",
  "meta": {
   "name": "sherpa-onnx",
   "owner": "k2-fsa",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 16100,
-  "forks": 1904,
+  "stars": 16150,
+  "forks": 1910,
   "watchers": 118,
-  "open_issues": 673,
+  "open_issues": 664,
   "open_prs": null,
   "created_at": "2022-09-01T05:47:33Z",
-  "pushed_at": "2026-11-22T10:48:32Z",
-  "updated_at": "2026-11-22T19:04:58Z",
+  "pushed_at": "2026-11-23T08:14:07Z",
+  "updated_at": "2026-11-23T09:00:58Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,13 +60,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 19461,
+  "size_kb": 19781,
   "og_image": "https://opengraph.githubassets.com/1/k2-fsa/sherpa-onnx",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 60945,
+  "length": 61591,
   "cjk_ratio": 0.02,
   "docker_mentioned": false,
   "videos": [
@@ -81,16 +81,16 @@
    "usage": null,
    "features": null
   },
-  "headings": 63,
+  "headings": 64,
   "processor": 4,
-  "fetched_at": "2026-11-19T11:45:00.264Z",
-  "checked_at": "2026-11-22T19:41:56.965Z"
+  "fetched_at": "2026-11-23T09:06:18.331Z",
+  "checked_at": "2026-11-23T09:06:18.331Z"
  },
  "contributors": {
-  "count": 279,
+  "count": 293,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-16T05:40:24.086Z"
+  "fetched_at": "2026-11-23T09:06:32.654Z"
  },
- "details_checked_at": "2026-11-22T19:41:56.965Z"
+ "details_checked_at": "2026-11-23T09:06:18.331Z"
 }

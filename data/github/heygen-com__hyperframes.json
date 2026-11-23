@@ -6,47 +6,52 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:41:37.697Z",
+ "fetched_at": "2026-11-23T09:05:55.229Z",
  "meta": {
   "name": "hyperframes",
   "owner": "heygen-com",
   "owner_type": "Organization",
   "avatar_url": "https://avatars.githubusercontent.com/u/65394575?v=4",
-  "description": "AI video you can actually edit. HyperFrames is a free, open-source AI video editor. Describe any video and get a real project you can change down to the frame.",
+  "description": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
   "homepage": "https://hyperframes.heygen.com",
   "html_url": "https://github.com/heygen-com/hyperframes",
   "default_branch": "main",
   "language": "TypeScript",
   "languages": null,
   "topics": [
+   "agent-skills",
    "ai",
    "ai-agents",
+   "ai-video",
+   "ai-video-editor",
    "animation",
    "claude-code",
    "ffmpeg",
-   "framework",
    "gsap",
    "html",
    "html-to-video",
    "mcp",
    "motion-graphics",
    "puppeteer",
+   "remotion-alternative",
    "rendering",
    "typescript",
-   "video-editor"
+   "video-editing",
+   "video-editor",
+   "video-generation"
   ],
   "license": {
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 88205,
-  "forks": 8211,
+  "stars": 88539,
+  "forks": 8240,
   "watchers": 208,
-  "open_issues": 300,
+  "open_issues": 305,
   "open_prs": null,
   "created_at": "2026-03-10T01:51:06Z",
-  "pushed_at": "2026-11-22T19:37:44Z",
-  "updated_at": "2026-11-22T19:39:52Z",
+  "pushed_at": "2026-11-23T09:02:55Z",
+  "updated_at": "2026-11-23T09:05:14Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 551721,
+  "size_kb": 552671,
   "og_image": "https://opengraph.githubassets.com/1/heygen-com/hyperframes",
   "custom_og_image": false
  },
@@ -78,7 +83,7 @@
   "headings": 25,
   "processor": 4,
   "fetched_at": "2026-11-22T11:25:37.705Z",
-  "checked_at": "2026-11-22T19:42:05.427Z"
+  "checked_at": "2026-11-23T09:06:30.293Z"
  },
  "contributors": {
   "count": 152,
@@ -86,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.465Z"
  },
- "details_checked_at": "2026-11-22T19:42:05.427Z"
+ "details_checked_at": "2026-11-23T09:06:30.293Z"
 }

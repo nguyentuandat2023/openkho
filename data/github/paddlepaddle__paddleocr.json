@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:38:21.254Z",
+ "fetched_at": "2026-11-23T09:02:12.887Z",
  "meta": {
   "name": "PaddleOCR",
   "owner": "PaddlePaddle",
@@ -37,14 +37,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 93008,
-  "forks": 11661,
-  "watchers": 569,
-  "open_issues": 277,
+  "stars": 93061,
+  "forks": 11669,
+  "watchers": 570,
+  "open_issues": 279,
   "open_prs": null,
   "created_at": "2020-05-08T10:38:16Z",
   "pushed_at": "2026-09-16T03:31:50Z",
-  "updated_at": "2026-11-22T19:24:27Z",
+  "updated_at": "2026-11-23T08:54:14Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -81,13 +81,13 @@
   "headings": 22,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.141Z",
-  "checked_at": "2026-11-22T19:41:58.131Z"
+  "checked_at": "2026-11-23T09:06:19.932Z"
  },
  "contributors": {
   "count": 295,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-16T07:03:47.191Z"
+  "fetched_at": "2026-11-23T09:06:34.368Z"
  },
- "details_checked_at": "2026-11-22T19:41:58.131Z"
+ "details_checked_at": "2026-11-23T09:06:19.932Z"
 }

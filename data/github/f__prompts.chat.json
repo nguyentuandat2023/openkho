@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:40:11.915Z",
+ "fetched_at": "2026-11-23T09:04:15.636Z",
  "meta": {
   "name": "prompts.chat",
   "owner": "f",
@@ -42,14 +42,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 178269,
-  "forks": 22732,
+  "stars": 178302,
+  "forks": 22728,
   "watchers": 1681,
-  "open_issues": 94,
+  "open_issues": 95,
   "open_prs": null,
   "created_at": "2022-12-05T13:54:13Z",
-  "pushed_at": "2026-11-22T03:13:47Z",
-  "updated_at": "2026-11-22T19:32:14Z",
+  "pushed_at": "2026-11-23T06:57:48Z",
+  "updated_at": "2026-11-23T08:26:18Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,7 +58,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 956514,
+  "size_kb": 1006725,
   "og_image": "https://opengraph.githubassets.com/1/f/prompts.chat",
   "custom_og_image": false
  },
@@ -81,7 +81,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.943Z",
-  "checked_at": "2026-11-22T19:42:02.020Z"
+  "checked_at": "2026-11-23T09:06:25.622Z"
  },
  "contributors": {
   "count": 1529,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:36.486Z"
  },
- "details_checked_at": "2026-11-22T19:42:02.020Z"
+ "details_checked_at": "2026-11-23T09:06:25.622Z"
 }

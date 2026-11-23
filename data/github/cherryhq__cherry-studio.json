@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:38:50.505Z",
+ "fetched_at": "2026-11-23T09:02:44.632Z",
  "meta": {
   "name": "cherry-studio",
   "owner": "CherryHQ",
@@ -37,14 +37,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 53751,
-  "forks": 5252,
-  "watchers": 205,
-  "open_issues": 2918,
+  "stars": 53774,
+  "forks": 5257,
+  "watchers": 203,
+  "open_issues": 2965,
   "open_prs": null,
   "created_at": "2024-05-24T01:56:26Z",
-  "pushed_at": "2026-11-22T19:26:09Z",
-  "updated_at": "2026-11-22T18:38:16Z",
+  "pushed_at": "2026-11-23T08:54:30Z",
+  "updated_at": "2026-11-23T08:57:44Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,7 +53,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 903845,
+  "size_kb": 904895,
   "og_image": "https://opengraph.githubassets.com/1/CherryHQ/cherry-studio",
   "custom_og_image": false
  },
@@ -81,7 +81,7 @@
   "headings": 18,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.452Z",
-  "checked_at": "2026-11-22T19:41:59.115Z"
+  "checked_at": "2026-11-23T09:06:21.497Z"
  },
  "contributors": {
   "count": 543,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.576Z"
  },
- "details_checked_at": "2026-11-22T19:41:59.115Z"
+ "details_checked_at": "2026-11-23T09:06:21.497Z"
 }

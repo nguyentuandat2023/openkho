@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:37:55.685Z",
+ "fetched_at": "2026-11-23T09:01:42.889Z",
  "meta": {
   "name": "CosyVoice",
   "owner": "QwenAudio",
@@ -43,14 +43,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 24481,
-  "forks": 2791,
+  "stars": 24485,
+  "forks": 2792,
   "watchers": 134,
   "open_issues": 626,
   "open_prs": null,
   "created_at": "2024-07-03T02:59:22Z",
   "pushed_at": "2026-05-25T18:15:40Z",
-  "updated_at": "2026-11-22T17:57:29Z",
+  "updated_at": "2026-11-23T07:30:31Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -92,13 +92,13 @@
   "headings": 19,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:29.213Z",
-  "checked_at": "2026-11-22T19:41:57.057Z"
+  "checked_at": "2026-11-23T09:06:18.448Z"
  },
  "contributors": {
   "count": 51,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-16T05:40:25.828Z"
+  "fetched_at": "2026-11-23T09:06:32.755Z"
  },
- "details_checked_at": "2026-11-22T19:41:57.057Z"
+ "details_checked_at": "2026-11-23T09:06:18.448Z"
 }

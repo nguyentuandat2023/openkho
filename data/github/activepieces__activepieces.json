@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:38:00.773Z",
+ "fetched_at": "2026-11-23T09:01:48.979Z",
  "meta": {
   "name": "activepieces",
   "owner": "activepieces",
@@ -37,14 +37,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 25680,
-  "forks": 4495,
+  "stars": 25683,
+  "forks": 4499,
   "watchers": 127,
-  "open_issues": 1012,
+  "open_issues": 1016,
   "open_prs": null,
   "created_at": "2022-12-03T02:52:46Z",
-  "pushed_at": "2026-11-22T18:29:42Z",
-  "updated_at": "2026-11-22T19:31:52Z",
+  "pushed_at": "2026-11-23T08:53:06Z",
+  "updated_at": "2026-11-23T08:54:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,7 +53,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 1077520,
+  "size_kb": 1078728,
   "og_image": "https://opengraph.githubassets.com/1/activepieces/activepieces",
   "custom_og_image": false
  },
@@ -76,13 +76,13 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:20.014Z",
-  "checked_at": "2026-11-22T19:41:57.234Z"
+  "checked_at": "2026-11-23T09:06:18.750Z"
  },
  "contributors": {
-  "count": 500,
+  "count": 501,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-16T05:40:28.681Z"
+  "fetched_at": "2026-11-23T09:06:33.150Z"
  },
- "details_checked_at": "2026-11-22T19:41:57.234Z"
+ "details_checked_at": "2026-11-23T09:06:18.750Z"
 }

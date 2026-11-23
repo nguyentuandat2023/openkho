@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:41:19.500Z",
+ "fetched_at": "2026-11-23T09:05:34.428Z",
  "meta": {
   "name": "actual",
   "owner": "actualbudget",
@@ -28,14 +28,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 30405,
-  "forks": 3368,
+  "stars": 30414,
+  "forks": 3371,
   "watchers": 82,
-  "open_issues": 186,
+  "open_issues": 187,
   "open_prs": null,
   "created_at": "2022-04-29T02:41:34Z",
-  "pushed_at": "2026-11-22T19:24:52Z",
-  "updated_at": "2026-11-22T19:28:33Z",
+  "pushed_at": "2026-11-23T08:15:11Z",
+  "updated_at": "2026-11-23T08:32:32Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -44,7 +44,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 721261,
+  "size_kb": 721264,
   "og_image": "https://opengraph.githubassets.com/1/actualbudget/actual",
   "custom_og_image": false
  },
@@ -67,7 +67,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.196Z",
-  "checked_at": "2026-11-22T19:42:04.745Z"
+  "checked_at": "2026-11-23T09:06:29.380Z"
  },
  "contributors": {
   "count": 798,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.516Z"
  },
- "details_checked_at": "2026-11-22T19:42:04.745Z"
+ "details_checked_at": "2026-11-23T09:06:29.380Z"
 }

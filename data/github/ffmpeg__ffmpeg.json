@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:41:36.860Z",
+ "fetched_at": "2026-11-23T09:05:54.370Z",
  "meta": {
   "name": "FFmpeg",
   "owner": "FFmpeg",
@@ -39,14 +39,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 67969,
-  "forks": 14713,
+  "stars": 68042,
+  "forks": 14717,
   "watchers": 1575,
   "open_issues": 3,
   "open_prs": null,
   "created_at": "2011-04-14T14:12:38Z",
-  "pushed_at": "2026-11-22T16:39:35Z",
-  "updated_at": "2026-11-22T19:41:34Z",
+  "pushed_at": "2026-11-23T08:03:59Z",
+  "updated_at": "2026-11-23T08:51:59Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,7 +55,7 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 510915,
+  "size_kb": 511201,
   "og_image": "https://opengraph.githubassets.com/1/FFmpeg/FFmpeg",
   "custom_og_image": false
  },
@@ -78,7 +78,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.932Z",
-  "checked_at": "2026-11-22T19:42:05.384Z"
+  "checked_at": "2026-11-23T09:06:30.255Z"
  },
  "contributors": {
   "count": 2834,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.434Z"
  },
- "details_checked_at": "2026-11-22T19:42:05.384Z"
+ "details_checked_at": "2026-11-23T09:06:30.255Z"
 }

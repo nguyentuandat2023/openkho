@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:40:06.153Z",
+ "fetched_at": "2026-11-23T09:04:08.318Z",
  "meta": {
   "name": "opencart",
   "owner": "opencart",
@@ -50,7 +50,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 232208,
+  "size_kb": 232225,
   "og_image": "https://opengraph.githubassets.com/1/opencart/opencart",
   "custom_og_image": false
  },
@@ -78,7 +78,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.754Z",
-  "checked_at": "2026-11-22T19:42:01.761Z"
+  "checked_at": "2026-11-23T09:06:25.352Z"
  },
  "contributors": {
   "count": 501,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.882Z"
  },
- "details_checked_at": "2026-11-22T19:42:01.761Z"
+ "details_checked_at": "2026-11-23T09:06:25.352Z"
 }

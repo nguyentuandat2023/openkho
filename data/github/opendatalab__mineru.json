@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:38:20.647Z",
+ "fetched_at": "2026-11-23T09:02:12.033Z",
  "meta": {
   "name": "MinerU",
   "owner": "opendatalab",
@@ -40,14 +40,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 84144,
-  "forks": 6952,
+  "stars": 84181,
+  "forks": 6953,
   "watchers": 281,
   "open_issues": 15,
   "open_prs": null,
   "created_at": "2024-02-29T08:52:34Z",
   "pushed_at": "2026-11-22T18:08:38Z",
-  "updated_at": "2026-11-22T17:56:05Z",
+  "updated_at": "2026-11-23T09:01:46Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -84,13 +84,13 @@
   "headings": 62,
   "processor": 4,
   "fetched_at": "2026-11-18T11:46:07.442Z",
-  "checked_at": "2026-11-22T19:41:58.055Z"
+  "checked_at": "2026-11-23T09:06:19.842Z"
  },
  "contributors": {
   "count": 107,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-16T07:03:47.247Z"
+  "fetched_at": "2026-11-23T09:06:34.422Z"
  },
- "details_checked_at": "2026-11-22T19:41:58.055Z"
+ "details_checked_at": "2026-11-23T09:06:19.842Z"
 }

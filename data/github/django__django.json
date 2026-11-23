@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:39:32.584Z",
+ "fetched_at": "2026-11-23T09:03:30.674Z",
  "meta": {
   "name": "django",
   "owner": "django",
@@ -33,14 +33,14 @@
    "spdx": "BSD-3-Clause",
    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
   },
-  "stars": 91935,
+  "stars": 91951,
   "forks": 35117,
-  "watchers": 2288,
+  "watchers": 2287,
   "open_issues": 541,
   "open_prs": null,
   "created_at": "2012-04-28T02:47:18Z",
   "pushed_at": "2026-11-21T16:52:56Z",
-  "updated_at": "2026-11-22T18:46:57Z",
+  "updated_at": "2026-11-23T08:50:11Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 0,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.223Z",
-  "checked_at": "2026-11-22T19:42:00.549Z"
+  "checked_at": "2026-11-23T09:06:23.660Z"
  },
  "contributors": {
   "count": 3537,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:33.882Z"
  },
- "details_checked_at": "2026-11-22T19:42:00.549Z"
+ "details_checked_at": "2026-11-23T09:06:23.660Z"
 }

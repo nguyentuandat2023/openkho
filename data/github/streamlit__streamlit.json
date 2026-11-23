@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:39:11.819Z",
+ "fetched_at": "2026-11-23T09:03:09.309Z",
  "meta": {
   "name": "streamlit",
   "owner": "streamlit",
@@ -37,14 +37,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 46480,
+  "stars": 46485,
   "forks": 4461,
   "watchers": 345,
-  "open_issues": 1198,
+  "open_issues": 1201,
   "open_prs": null,
   "created_at": "2019-08-24T00:14:52Z",
-  "pushed_at": "2026-11-22T06:05:33Z",
-  "updated_at": "2026-11-22T17:51:34Z",
+  "pushed_at": "2026-11-23T07:31:00Z",
+  "updated_at": "2026-11-23T06:43:07Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,7 +53,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 1288668,
+  "size_kb": 1289148,
   "og_image": "https://opengraph.githubassets.com/1/streamlit/streamlit",
   "custom_og_image": false
  },
@@ -76,7 +76,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.460Z",
-  "checked_at": "2026-11-22T19:41:59.886Z"
+  "checked_at": "2026-11-23T09:06:22.687Z"
  },
  "contributors": {
   "count": 339,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.910Z"
  },
- "details_checked_at": "2026-11-22T19:41:59.886Z"
+ "details_checked_at": "2026-11-23T09:06:22.687Z"
 }

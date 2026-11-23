@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-22T19:40:02.118Z",
+ "fetched_at": "2026-11-23T09:04:03.529Z",
  "meta": {
   "name": "medusa",
   "owner": "medusajs",
@@ -35,14 +35,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 37371,
-  "forks": 5560,
+  "stars": 37378,
+  "forks": 5561,
   "watchers": 210,
-  "open_issues": 107,
+  "open_issues": 108,
   "open_prs": null,
   "created_at": "2020-01-18T13:39:04Z",
-  "pushed_at": "2026-11-21T03:08:09Z",
-  "updated_at": "2026-11-22T19:11:26Z",
+  "pushed_at": "2026-11-23T09:02:35Z",
+  "updated_at": "2026-11-23T08:28:49Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,7 +51,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 917592,
+  "size_kb": 921618,
   "og_image": "https://opengraph.githubassets.com/1/medusajs/medusa",
   "custom_og_image": false
  },
@@ -74,7 +74,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.498Z",
-  "checked_at": "2026-11-22T19:42:01.634Z"
+  "checked_at": "2026-11-23T09:06:25.160Z"
  },
  "contributors": {
   "count": 594,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.645Z"
  },
- "details_checked_at": "2026-11-22T19:42:01.634Z"
+ "details_checked_at": "2026-11-23T09:06:25.160Z"
 }
