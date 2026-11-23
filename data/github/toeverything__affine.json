@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T09:05:26.484Z",
+ "fetched_at": "2026-11-23T21:27:05.763Z",
  "meta": {
   "name": "AFFiNE",
   "owner": "toeverything",
@@ -42,14 +42,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 77039,
-  "forks": 5646,
-  "watchers": 293,
-  "open_issues": 739,
+  "stars": 77320,
+  "forks": 5662,
+  "watchers": 294,
+  "open_issues": 706,
   "open_prs": null,
   "created_at": "2022-07-31T18:45:21Z",
-  "pushed_at": "2026-11-23T08:47:14Z",
-  "updated_at": "2026-11-23T09:04:37Z",
+  "pushed_at": "2026-11-23T17:46:24Z",
+  "updated_at": "2026-11-23T21:23:18Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,7 +58,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 460818,
+  "size_kb": 461293,
   "og_image": "https://opengraph.githubassets.com/1/toeverything/AFFiNE",
   "custom_og_image": false
  },
@@ -86,7 +86,7 @@
   "headings": 18,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.750Z",
-  "checked_at": "2026-11-23T09:06:28.976Z"
+  "checked_at": "2026-11-23T21:28:10.630Z"
  },
  "contributors": {
   "count": 277,
@@ -94,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:40.322Z"
  },
- "details_checked_at": "2026-11-23T09:06:28.976Z"
+ "details_checked_at": "2026-11-23T21:28:10.630Z"
 }

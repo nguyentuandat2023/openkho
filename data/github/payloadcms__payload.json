@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T09:06:12.716Z",
+ "fetched_at": "2026-11-23T21:27:53.093Z",
  "meta": {
   "name": "payload",
   "owner": "payloadcms",
@@ -43,14 +43,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 45964,
-  "forks": 4479,
+  "stars": 45975,
+  "forks": 4478,
   "watchers": 164,
-  "open_issues": 1703,
+  "open_issues": 1709,
   "open_prs": null,
   "created_at": "2021-01-05T18:49:45Z",
-  "pushed_at": "2026-11-21T16:15:52Z",
-  "updated_at": "2026-11-23T08:49:35Z",
+  "pushed_at": "2026-11-23T21:20:19Z",
+  "updated_at": "2026-11-23T21:22:20Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 246558,
+  "size_kb": 245934,
   "og_image": "https://opengraph.githubassets.com/1/payloadcms/payload",
   "custom_og_image": false
  },
@@ -92,7 +92,7 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.620Z",
-  "checked_at": "2026-11-23T09:06:31.167Z"
+  "checked_at": "2026-11-23T21:28:13.061Z"
  },
  "contributors": {
   "count": 603,
@@ -100,5 +100,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.598Z"
  },
- "details_checked_at": "2026-11-23T09:06:31.167Z"
+ "details_checked_at": "2026-11-23T21:28:13.061Z"
 }

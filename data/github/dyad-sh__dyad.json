@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T09:06:14.598Z",
+ "fetched_at": "2026-11-23T21:27:54.810Z",
  "meta": {
   "name": "dyad",
   "owner": "dyad-sh",
@@ -43,14 +43,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 22394,
+  "stars": 22412,
   "forks": 2840,
   "watchers": 117,
-  "open_issues": 368,
+  "open_issues": 369,
   "open_prs": null,
   "created_at": "2025-04-11T06:33:48Z",
-  "pushed_at": "2026-11-23T06:47:10Z",
-  "updated_at": "2026-11-23T08:30:16Z",
+  "pushed_at": "2026-11-23T17:02:41Z",
+  "updated_at": "2026-11-23T19:32:05Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 63238,
+  "size_kb": 63242,
   "og_image": "https://opengraph.githubassets.com/1/dyad-sh/dyad",
   "custom_og_image": false
  },
@@ -87,7 +87,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.719Z",
-  "checked_at": "2026-11-23T09:06:31.303Z"
+  "checked_at": "2026-11-23T21:28:13.219Z"
  },
  "contributors": {
   "count": 41,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.690Z"
  },
- "details_checked_at": "2026-11-23T09:06:31.303Z"
+ "details_checked_at": "2026-11-23T21:28:13.219Z"
 }

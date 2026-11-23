@@ -1,12 +1,12 @@
 {
  "id": "RVC-Boss/GPT-SoVITS",
- "github_id": 743230067,
- "node_id": "R_kgDOLEzKcw",
+ "github_id": 1468768600,
+ "node_id": "R_kgDOV4uhWA",
  "full_name": "RVC-Boss/GPT-SoVITS",
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T09:01:37.262Z",
+ "fetched_at": "2026-11-23T21:23:03.920Z",
  "meta": {
   "name": "GPT-SoVITS",
   "owner": "RVC-Boss",
@@ -16,31 +16,24 @@
   "homepage": null,
   "html_url": "https://github.com/RVC-Boss/GPT-SoVITS",
   "default_branch": "main",
-  "language": "Python",
+  "language": null,
   "languages": null,
-  "topics": [
-   "text-to-speech",
-   "tts",
-   "vits",
-   "voice-clone",
-   "voice-cloneai",
-   "voice-cloning"
-  ],
+  "topics": [],
   "license": {
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 64205,
-  "forks": 6813,
-  "watchers": 287,
-  "open_issues": 914,
+  "stars": 4,
+  "forks": 0,
+  "watchers": 0,
+  "open_issues": 0,
   "open_prs": null,
-  "created_at": "2024-01-14T18:05:21Z",
+  "created_at": "2026-11-23T12:58:36Z",
   "pushed_at": "2026-11-11T16:26:18Z",
-  "updated_at": "2026-11-23T08:55:57Z",
+  "updated_at": "2026-11-23T20:54:03Z",
   "archived": false,
   "disabled": false,
-  "is_fork": false,
+  "is_fork": true,
   "is_template": false,
   "is_mirror": false,
   "has_issues": true,
@@ -74,7 +67,7 @@
   "headings": 44,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:28.926Z",
-  "checked_at": "2026-11-23T09:06:18.120Z"
+  "checked_at": "2026-11-23T21:27:58.688Z"
  },
  "contributors": {
   "count": 101,
@@ -82,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:32.453Z"
  },
- "details_checked_at": "2026-11-23T09:06:18.120Z"
+ "details_checked_at": "2026-11-23T21:27:58.688Z"
 }

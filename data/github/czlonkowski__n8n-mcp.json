@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T09:04:53.522Z",
+ "fetched_at": "2026-11-23T21:26:33.226Z",
  "meta": {
   "name": "n8n-mcp",
   "owner": "czlonkowski",
@@ -28,14 +28,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 23295,
-  "forks": 3672,
+  "stars": 23297,
+  "forks": 3669,
   "watchers": 155,
   "open_issues": 61,
   "open_prs": null,
   "created_at": "2025-06-07T12:15:57Z",
-  "pushed_at": "2026-11-19T07:33:11Z",
-  "updated_at": "2026-11-23T07:26:54Z",
+  "pushed_at": "2026-11-23T09:57:53Z",
+  "updated_at": "2026-11-23T18:56:11Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -44,7 +44,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 1106701,
+  "size_kb": 1106455,
   "og_image": "https://opengraph.githubassets.com/1/czlonkowski/n8n-mcp",
   "custom_og_image": false
  },
@@ -73,7 +73,7 @@
   "headings": 31,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:38.084Z",
-  "checked_at": "2026-11-23T09:06:27.467Z"
+  "checked_at": "2026-11-23T21:28:08.964Z"
  },
  "contributors": {
   "count": 35,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.615Z"
  },
- "details_checked_at": "2026-11-23T09:06:27.467Z"
+ "details_checked_at": "2026-11-23T21:28:08.964Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T09:05:22.336Z",
+ "fetched_at": "2026-11-23T21:27:01.635Z",
  "meta": {
   "name": "PowerToys",
   "owner": "microsoft",
@@ -36,14 +36,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 141315,
-  "forks": 8730,
-  "watchers": 1230,
-  "open_issues": 7964,
+  "stars": 141332,
+  "forks": 8728,
+  "watchers": 1224,
+  "open_issues": 7198,
   "open_prs": null,
   "created_at": "2019-05-01T17:44:02Z",
-  "pushed_at": "2026-11-23T07:56:54Z",
-  "updated_at": "2026-11-23T08:56:12Z",
+  "pushed_at": "2026-11-23T18:50:51Z",
+  "updated_at": "2026-11-23T20:54:45Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -52,7 +52,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 598180,
+  "size_kb": 598546,
   "og_image": "https://opengraph.githubassets.com/1/microsoft/PowerToys",
   "custom_og_image": false
  },
@@ -75,7 +75,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.600Z",
-  "checked_at": "2026-11-23T09:06:28.791Z"
+  "checked_at": "2026-11-23T21:28:10.352Z"
  },
  "contributors": {
   "count": 708,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:40.068Z"
  },
- "details_checked_at": "2026-11-23T09:06:28.791Z"
+ "details_checked_at": "2026-11-23T21:28:10.352Z"
 }

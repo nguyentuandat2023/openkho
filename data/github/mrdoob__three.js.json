@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T09:03:42.142Z",
+ "fetched_at": "2026-11-23T21:25:20.943Z",
  "meta": {
   "name": "three.js",
   "owner": "mrdoob",
@@ -36,14 +36,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 119194,
-  "forks": 37003,
-  "watchers": 2531,
-  "open_issues": 413,
+  "stars": 119232,
+  "forks": 37009,
+  "watchers": 2528,
+  "open_issues": 405,
   "open_prs": null,
   "created_at": "2010-03-23T18:58:01Z",
-  "pushed_at": "2026-11-23T04:04:18Z",
-  "updated_at": "2026-11-23T08:32:21Z",
+  "pushed_at": "2026-11-23T19:32:25Z",
+  "updated_at": "2026-11-23T20:40:40Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -52,7 +52,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 1707759,
+  "size_kb": 1707857,
   "og_image": "https://opengraph.githubassets.com/1/mrdoob/three.js",
   "custom_og_image": false
  },
@@ -75,7 +75,7 @@
   "headings": 5,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.678Z",
-  "checked_at": "2026-11-23T09:06:24.168Z"
+  "checked_at": "2026-11-23T21:28:05.272Z"
  },
  "contributors": {
   "count": 2626,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.500Z"
  },
- "details_checked_at": "2026-11-23T09:06:24.168Z"
+ "details_checked_at": "2026-11-23T21:28:05.272Z"
 }

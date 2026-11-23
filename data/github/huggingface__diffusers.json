@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T09:02:29.363Z",
+ "fetched_at": "2026-11-23T21:24:02.458Z",
  "meta": {
   "name": "diffusers",
   "owner": "huggingface",
@@ -39,14 +39,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 34970,
-  "forks": 7507,
-  "watchers": 227,
-  "open_issues": 1633,
+  "stars": 34968,
+  "forks": 7509,
+  "watchers": 224,
+  "open_issues": 1638,
   "open_prs": null,
   "created_at": "2022-05-30T16:04:02Z",
-  "pushed_at": "2026-11-23T08:37:04Z",
-  "updated_at": "2026-11-23T06:17:08Z",
+  "pushed_at": "2026-11-23T18:00:12Z",
+  "updated_at": "2026-11-23T19:26:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,7 +55,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 117062,
+  "size_kb": 117256,
   "og_image": "https://opengraph.githubassets.com/1/huggingface/diffusers",
   "custom_og_image": false
  },
@@ -78,7 +78,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.934Z",
-  "checked_at": "2026-11-23T09:06:20.780Z"
+  "checked_at": "2026-11-23T21:28:01.448Z"
  },
  "contributors": {
   "count": 1196,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:31.095Z"
  },
- "details_checked_at": "2026-11-23T09:06:20.780Z"
+ "details_checked_at": "2026-11-23T21:28:01.448Z"
 }

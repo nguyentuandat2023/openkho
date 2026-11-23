@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T09:04:42.884Z",
+ "fetched_at": "2026-11-23T21:26:22.735Z",
  "meta": {
   "name": "serpbear",
   "owner": "towfiqi",
@@ -24,7 +24,7 @@
    "name": "MIT License"
   },
   "stars": 2192,
-  "forks": 316,
+  "forks": 315,
   "watchers": 19,
   "open_issues": 78,
   "open_prs": null,
@@ -73,7 +73,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.118Z",
-  "checked_at": "2026-11-23T09:06:27.048Z"
+  "checked_at": "2026-11-23T21:28:08.467Z"
  },
  "contributors": {
   "count": 18,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.030Z"
  },
- "details_checked_at": "2026-11-23T09:06:27.048Z"
+ "details_checked_at": "2026-11-23T21:28:08.467Z"
 }

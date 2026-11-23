@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T09:02:02.850Z",
+ "fetched_at": "2026-11-23T21:23:32.895Z",
  "meta": {
   "name": "gpt-researcher",
   "owner": "assafelovic",
@@ -35,14 +35,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 30873,
-  "forks": 4254,
+  "stars": 30878,
+  "forks": 4258,
   "watchers": 169,
-  "open_issues": 15,
+  "open_issues": 19,
   "open_prs": null,
   "created_at": "2023-05-12T10:33:54Z",
-  "pushed_at": "2026-11-22T20:36:30Z",
-  "updated_at": "2026-11-23T08:08:39Z",
+  "pushed_at": "2026-11-23T14:51:56Z",
+  "updated_at": "2026-11-23T20:29:19Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -51,13 +51,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 58906,
+  "size_kb": 59593,
   "og_image": "https://opengraph.githubassets.com/1/assafelovic/gpt-researcher",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 19274,
+  "length": 19634,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [],
@@ -76,15 +76,15 @@
    },
    "features": {
     "title": "Features",
-    "html": "<ul>\n<li>📝 Generate detailed research reports using web and local documents.</li>\n<li>🖼️ Smart image scraping and filtering for reports.</li>\n<li>🍌 <strong>AI-generated inline images</strong> using Google Gemini (Nano Banana) for visual illustrations.</li>\n<li>📜 Generate detailed reports exceeding 2,000 words.</li>\n<li>🌐 Aggregate over 20 sources for objective conclusions.</li>\n<li>🎯 Smart context filtering with <a href=\"https://github.com/assafelovic/gpt-researcher#-smart-context-filtering-with-jev\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Jev</a>, with no API key or embeddings required by default.</li>\n<li>🖥️ Frontend available in lightweight (HTML/CSS/JS) and production-ready (NextJS + Tailwind) versions.</li>\n<li>🔍 JavaScript-enabled web scraping.</li>\n<li>📂 Maintains memory and context throughout research.</li>\n<li>📄 Export reports to PDF, Word, and other formats.</li>\n</ul>",
+    "html": "<ul>\n<li>📝 Generate detailed research reports using web and local documents.</li>\n<li>🖼️ Smart image scraping and filtering for reports.</li>\n<li>🍌 <strong>AI-generated inline images</strong> using Google Gemini (Nano Banana) for visual illustrations.</li>\n<li>📜 Generate detailed reports exceeding 2,000 words.</li>\n<li>🌐 Aggregate over 20 sources for objective conclusions.</li>\n<li>🎯 Smart context filtering with <a href=\"https://github.com/assafelovic/gpt-researcher#-smart-context-filtering-with-jev\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Jev</a>, with no API key or embeddings required by default.</li>\n<li>🖥️ Frontend available in lightweight (HTML/CSS/JS) and production-ready (NextJS + Tailwind) versions.</li>\n<li>🔍 JavaScript-enabled web scraping.</li>\n<li>📂 Maintains memory and context throughout research.</li>\n<li>📄 Export reports to PDF, Word, and other formats.</li>\n<li>💰 About $0.08 and a minute per research report with the default models, with every run's cost tracked (<a href=\"https://docs.gptr.dev/docs/gpt-researcher/gptr/costs\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">cost breakdown</a>).</li>\n</ul>",
     "truncated": false,
-    "chars": 715
+    "chars": 894
    }
   },
   "headings": 25,
   "processor": 4,
-  "fetched_at": "2026-11-23T09:06:19.511Z",
-  "checked_at": "2026-11-23T09:06:19.511Z"
+  "fetched_at": "2026-11-23T21:28:00.092Z",
+  "checked_at": "2026-11-23T21:28:00.092Z"
  },
  "contributors": {
   "count": 331,
@@ -92,5 +92,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:33.974Z"
  },
- "details_checked_at": "2026-11-23T09:06:19.511Z"
+ "details_checked_at": "2026-11-23T21:28:00.092Z"
 }

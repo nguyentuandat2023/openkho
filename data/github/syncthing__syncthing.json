@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T09:05:39.648Z",
+ "fetched_at": "2026-11-23T21:27:19.368Z",
  "meta": {
   "name": "syncthing",
   "owner": "syncthing",
@@ -28,14 +28,14 @@
    "spdx": "MPL-2.0",
    "name": "Mozilla Public License 2.0"
   },
-  "stars": 90732,
-  "forks": 5598,
+  "stars": 90752,
+  "forks": 5596,
   "watchers": 1057,
   "open_issues": 406,
   "open_prs": null,
   "created_at": "2013-11-26T09:48:21Z",
   "pushed_at": "2026-11-23T03:47:43Z",
-  "updated_at": "2026-11-23T08:47:50Z",
+  "updated_at": "2026-11-23T20:27:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.493Z",
-  "checked_at": "2026-11-23T09:06:29.700Z"
+  "checked_at": "2026-11-23T21:28:11.405Z"
  },
  "contributors": {
   "count": 398,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.767Z"
  },
- "details_checked_at": "2026-11-23T09:06:29.700Z"
+ "details_checked_at": "2026-11-23T21:28:11.406Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T09:05:35.346Z",
+ "fetched_at": "2026-11-23T21:27:14.879Z",
  "meta": {
   "name": "immich",
   "owner": "immich-app",
@@ -40,14 +40,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 119912,
-  "forks": 7684,
-  "watchers": 369,
-  "open_issues": 678,
+  "stars": 119958,
+  "forks": 7687,
+  "watchers": 366,
+  "open_issues": 666,
   "open_prs": null,
   "created_at": "2022-02-03T15:56:27Z",
-  "pushed_at": "2026-11-23T06:14:47Z",
-  "updated_at": "2026-11-23T08:46:04Z",
+  "pushed_at": "2026-11-23T21:20:51Z",
+  "updated_at": "2026-11-23T21:12:45Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,13 +56,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 327418,
+  "size_kb": 327950,
   "og_image": "https://opengraph.githubassets.com/1/immich-app/immich",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 5507,
+  "length": 5534,
   "cjk_ratio": 0.01,
   "docker_mentioned": false,
   "videos": [],
@@ -78,8 +78,8 @@
   },
   "headings": 7,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:29.209Z",
-  "checked_at": "2026-11-23T09:06:29.404Z"
+  "fetched_at": "2026-11-23T21:28:11.159Z",
+  "checked_at": "2026-11-23T21:28:11.159Z"
  },
  "contributors": {
   "count": 1057,
@@ -87,5 +87,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.417Z"
  },
- "details_checked_at": "2026-11-23T09:06:29.404Z"
+ "details_checked_at": "2026-11-23T21:28:11.159Z"
 }

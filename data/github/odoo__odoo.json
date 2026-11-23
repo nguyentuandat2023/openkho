@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T09:02:53.188Z",
+ "fetched_at": "2026-11-23T21:24:28.708Z",
  "meta": {
   "name": "odoo",
   "owner": "odoo",
@@ -31,14 +31,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 56034,
-  "forks": 34398,
+  "stars": 56052,
+  "forks": 34401,
   "watchers": 1531,
-  "open_issues": 11338,
+  "open_issues": 11353,
   "open_prs": null,
   "created_at": "2014-05-13T15:38:58Z",
-  "pushed_at": "2026-11-23T08:32:29Z",
-  "updated_at": "2026-11-23T08:20:38Z",
+  "pushed_at": "2026-11-23T20:56:52Z",
+  "updated_at": "2026-11-23T19:38:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 18627125,
+  "size_kb": 18637426,
   "og_image": "https://opengraph.githubassets.com/1/odoo/odoo",
   "custom_og_image": false
  },
@@ -70,7 +70,7 @@
   "headings": 3,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.810Z",
-  "checked_at": "2026-11-23T09:06:21.955Z"
+  "checked_at": "2026-11-23T21:28:02.778Z"
  },
  "contributors": {
   "count": 4395,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.153Z"
  },
- "details_checked_at": "2026-11-23T09:06:21.955Z"
+ "details_checked_at": "2026-11-23T21:28:02.778Z"
 }

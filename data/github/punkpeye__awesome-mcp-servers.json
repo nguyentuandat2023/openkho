@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T09:04:47.931Z",
+ "fetched_at": "2026-11-23T21:26:27.918Z",
  "meta": {
   "name": "awesome-mcp-servers",
   "owner": "punkpeye",
@@ -26,14 +26,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 98401,
-  "forks": 20721,
+  "stars": 98425,
+  "forks": 20754,
   "watchers": 57,
-  "open_issues": 5198,
+  "open_issues": 5236,
   "open_prs": null,
   "created_at": "2024-11-30T04:49:10Z",
-  "pushed_at": "2026-11-23T01:44:48Z",
-  "updated_at": "2026-11-23T08:48:28Z",
+  "pushed_at": "2026-11-23T20:45:40Z",
+  "updated_at": "2026-11-23T18:55:54Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -42,7 +42,7 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 653610,
+  "size_kb": 653612,
   "og_image": "https://opengraph.githubassets.com/1/punkpeye/awesome-mcp-servers",
   "custom_og_image": false
  },
@@ -71,7 +71,7 @@
   "headings": 27,
   "processor": 4,
   "fetched_at": "2026-11-23T09:06:27.396Z",
-  "checked_at": "2026-11-23T09:06:27.396Z"
+  "checked_at": "2026-11-23T21:28:08.706Z"
  },
  "contributors": {
   "count": 5066,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.331Z"
  },
- "details_checked_at": "2026-11-23T09:06:27.396Z"
+ "details_checked_at": "2026-11-23T21:28:08.706Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T09:03:49.405Z",
+ "fetched_at": "2026-11-23T21:25:28.472Z",
  "meta": {
   "name": "winget-cli",
   "owner": "microsoft",
@@ -30,12 +30,12 @@
   },
   "stars": 26635,
   "forks": 1820,
-  "watchers": 348,
-  "open_issues": 1332,
+  "watchers": 347,
+  "open_issues": 1338,
   "open_prs": null,
   "created_at": "2019-07-16T22:16:49Z",
   "pushed_at": "2026-11-19T19:19:44Z",
-  "updated_at": "2026-11-22T18:08:43Z",
+  "updated_at": "2026-11-23T19:27:19Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 20,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.956Z",
-  "checked_at": "2026-11-23T09:06:24.433Z"
+  "checked_at": "2026-11-23T21:28:05.571Z"
  },
  "contributors": {
   "count": 136,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.808Z"
  },
- "details_checked_at": "2026-11-23T09:06:24.433Z"
+ "details_checked_at": "2026-11-23T21:28:05.571Z"
 }

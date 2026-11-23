@@ -1,7 +1,7 @@
 {
- "computed_at": "2026-11-23T09:11:45.323Z",
+ "computed_at": "2026-11-23T21:30:22.323Z",
  "curated_missing_github_id": [],
- "missing_contributors": 2389,
+ "missing_contributors": 2382,
  "stale_over_48h": [
   "bipro45/actual-multi-display-configurator",
   "abdulmannanmalik13-wq/adobe-substance-3d-studio",
@@ -79,7 +79,7 @@
   "0marContreras/gta6recomp",
   "Bodila51/gtavi-claudecode"
  ],
- "low_quality_coverage": 721,
+ "low_quality_coverage": 602,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -478,12 +478,117 @@
    "status": "not_found"
   },
   {
+   "id": "dickoyudha-netizen/adobe-firefly-image-creator",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "realdody/americas-recomp",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "cachedarknorth54/wolfram-alpha-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Fadiperez71/substance-painter-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "LongNorth1998/charles-proxy-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Jnikitin06/pioneer-dj-rekordbox-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "JieFedorov81/runway-ml-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "debugdigital677/descript-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "ruiz1341/gitkraken-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Mahmoudp06/serato-dj-suite-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Jeretei33/clair-obscur-expedition-33-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "zainzedan1111-commits/auto-withdraw-bot",
    "origin": "radar",
    "status": "not_found"
   },
   {
+   "id": "YudiGardner/ansys-2026-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Chukwudi-code83/driver-easy-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "25227georgeyang-cpu/borisfx-video-editor",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "owensmario536/jetbrains-pycharm-ultimate-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "VINODP86/magix-vegas-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "craign03/pioneer-dj-rekordbox-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "fern84-svg/cinema-4d-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Matia442/cinema-4d-utility",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "BhaveshPham/tableau-prep-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "hendersonbharat/avast-premium-security-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "ycollins30/clip-studio-paint-ex-win",
    "origin": "radar",
    "status": "not_found"
   },
@@ -498,7 +603,447 @@
    "status": "not_found"
   },
   {
+   "id": "hub-bear-blue/revit-2026-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "birdsolutions98/v-ray-for-revit-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Joanegorov01/capture-one-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "WebShort/unreal-5-4-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "akashak47218/kms-pico-desktop-edition",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Morriswawan05/elevenlabs-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Maheshgray68/sublime-text-4-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Truesand8603/beyond-compare-4-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "FadiHarris80/fusion-360-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "bozkurthasan/marmoset-toolbag-5-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Shellsmall/mathway-premium-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "fernandeslokesh10/figma-desktop-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "kofistudio/autocad-2026-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "birddebug/cinema-4d-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "bo-design8152/filmora-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "bearclicache812/insomnia-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "kernelbest/kaspersky-premium-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "cacheapp2003/microsoft-office-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Cloudcode04/runway-ml-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "castro-vivek-31/rhino-8-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Bagussa998/affinity-designer-2-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "emekayang2003/substance-painter-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "cliblacktech/unreal-5-6-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "samir-cai/nitro-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Wojcik1999/rob-run-menu-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "CliBranchLong/microsoft-excel-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Mnowak64/iobit-uninstaller-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "freerealstudio/figma-desktop-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "NileshLiu/acrobat-dc-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Snow-clienT-best1/microsoft-excel-vcardconverter-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Chowdhurymary/microsoft-office-premium-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "LuisDesai/trimble-sketchup-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Shortproxy2007/fabfilter-pro-l-2-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "veshah/quillbot-premium-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "igwei/topaz-video-ai-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "rodr1guezandrew356/berlin-strings-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "pilpay29/izotope-nectar-4-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "debraly2005/softube-console-1-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "deepaksilva/u-he-hive-2-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Jxue907/mathcad-prime-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "logbor2000/adobe-photoshop-elements-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "bluepatchproxy/cableguys-shaperbox-3-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "suryacode04/jasper-ai-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "colealina/winrar-7-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Juanlabs1989/descript-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "alexandere58/ableton-live-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Fire-snow-07/spectrasonics-stylus-rmx-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "NaHamilton/toontrack-superior-drummer-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "monicaellis48/jetbrains-intellij-idea-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Scottmauricio/indesign-cc-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "blessingc185/advanced-systemcare-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "andresdeshmukh26/synchro-arts-vocalign-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Roagu1lar/autodesk-fusion-360-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Polinaagarwal02/native-instruments-komplete-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "alexeytarasov8/jetbrains-pycharm-professional-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Nilespand/tableau-desktop-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "PatriciaIo/topaz-denoise-ai-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "andrewpandey/total-commander-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "PatriciaIo/deflicker-for-after-effects-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Clientplus1990/streamlabs-desktop-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "christinaarslan01/output-portal-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "aslanabigail/autocad-2026-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Hasanturner/discord-nitro-premium-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "VitalyMukherjee92/lightroom-classic-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "serkanellis/spire-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Cool-east811/presonus-studio-one-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "moon-dark2000/todoist-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "deep-patch-true/synchro-arts-revoice-pro-5-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "tiansokolov/pdfelement-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Tarunwang/fl-studio-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "sloweastlab1987/wise-care-365-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Debrde30/deepl-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "loudonline/metatrader-5-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "YASIRCAMPBELL2/acrobat-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "alexeytarasov8/filmora-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Link-script-new/notion-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "kennethw627/figma-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "rockcode55/keyscape-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "huif1993/oeksound-soothe-2-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "aminatapolat/plugin-alliance-mega-bundle-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "meiluo13/sylenth1-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "buildpixelwind/photoshop-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Aroralayla99/capcut-seedance-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "michellemurphy2001/affinity-designer-2-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Nilespand/acronis-true-image-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "GuzmanJacqueline93/copy-ai-pro-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Fast-black-tech5681/archicad-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "volkov-ping/camtasia-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "G4rdner26/luminar-neo-win",
    "origin": "radar",
    "status": "not_found"
   },
@@ -528,6 +1073,11 @@
    "status": "not_found"
   },
   {
+   "id": "felixrajdev2096h7/fivem-citizenfx-adhesive-utility-clean-cleaner-portable-x6",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "marcus-ali-lab1905z4/path-of-exile-2-map-reveal-zoom-out-portable-x64",
    "origin": "radar",
    "status": "not_found"
@@ -543,7 +1093,27 @@
    "status": "not_found"
   },
   {
+   "id": "kyle-brown-io2003g7/civilization-vii-in-game-editor-ige-portable-x64",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "markdevx1901r4/shadps4-bloodborne-pc-60fps-patch-vertex-explosion-portabl",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "ivanjops96a3/polymarket-perp-dex-whale-wallet-copytrader-resolution-por",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "antonhall-x91s9/discord-local-uncensored-ai-activity-utility-quest-auto-po",
    "origin": "radar",
    "status": "not_found"
   },
@@ -553,7 +1123,22 @@
    "status": "not_found"
   },
   {
+   "id": "roman-chencode1904b4/cad-3d-engineering-suite-autodesk-2026-autocad-revit-porta",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "antonlopezeng2093z4/ai-ide-system-utilities-windsurf-pro-jetbrains-2026-portab",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "sergeygarcia-devo0/wave-velocity-bootstrapper-external-luau-loader-serial-por",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "dan-leelab19f7/roblox-game-hub-fisch-auto-cast-instant-portable-x64",
    "origin": "radar",
    "status": "not_found"
   },
@@ -573,7 +1158,22 @@
    "status": "not_found"
   },
   {
+   "id": "dave-wilsoncode1999d3/elden-ring-nightreign-standalone-trainer-relic-murk-portab",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "benhhq1993s5/dune-awakening-external-player-ornithopter-radar-portable",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "kyle-moore-code2001v1/marvel-rivals-hitscan-projectile-smoothing-assistant-porta",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "tomivanovops00n9/civilization-vii-ui-quick-deal-detailed-portable-x64",
    "origin": "radar",
    "status": "not_found"
   },
@@ -608,6 +1208,11 @@
    "status": "not_found"
   },
   {
+   "id": "nikita-deveng1999g0/switch-emulator-keys-firmware-nsp-box-xci-nsp-portable-x64",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "jake-j-19d3/discord-local-uncensored-ai-deep-live-cam-v2-portable-x64",
    "origin": "radar",
    "status": "not_found"
@@ -618,7 +1223,22 @@
    "status": "not_found"
   },
   {
+   "id": "ryanhall-2095a5/xeno-bootstrapper-multi-instance-roblox-account-portable-x",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "nikitadlab00k6/fivem-hwid-spoofer",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "oscar-j-code1904n1/blox-fruits-script",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "daviddevhq98y8/monster-hunter-wilds-reframework",
    "origin": "radar",
    "status": "not_found"
   },
@@ -669,6 +1289,10 @@
    "to": "shift-labs-ai/codemode"
   },
   {
+   "from": "Fei2411/DS-Bot",
+   "to": "Fei-Craft/DS-Bot"
+  },
+  {
    "from": "pgrundev/pgx",
    "to": "pgrundev/pgboxdb"
   },
@@ -709,43 +1333,31 @@
   {
    "id": "EbookFoundation/free-programming-books",
    "reasons": [
-    "+434 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+438 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "nilbuild/developer-roadmap",
    "reasons": [
-    "+492 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "rust-lang/rust",
-   "reasons": [
-    "+403 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+477 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "torvalds/linux",
    "reasons": [
-    "+679 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "neovim/neovim",
-   "reasons": [
-    "+328 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+564 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "freeCodeCamp/freeCodeCamp",
    "reasons": [
-    "+327 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+321 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "jwasham/coding-interview-university",
    "reasons": [
-    "+410 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+405 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -764,12 +1376,6 @@
    "id": "mattpocock/skills",
    "reasons": [
     "rất ít người đóng góp (9) so với tốc độ tăng sao"
-   ]
-  },
-  {
-   "id": "Ryze-AI-Adgent/open-seo-mcp-skills",
-   "reasons": [
-    "+585 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -835,7 +1441,7 @@
   {
    "id": "helloHub1212/dsh-windows-mcp",
    "reasons": [
-    "repo mới với 2.257 sao nhưng gần như không có fork (10) và chưa có issue nào"
+    "repo mới với 2.307 sao nhưng gần như không có fork (11) và chưa có issue nào"
    ]
   },
   {
@@ -871,7 +1477,7 @@
   {
    "id": "Cattmonkey/ChaosIntelligence",
    "reasons": [
-    "repo mới với 341 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 348 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -907,7 +1513,7 @@
   {
    "id": "AhmadHassan-BTed/RainGen-RainGenerator",
    "reasons": [
-    "repo mới với 1.616 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.617 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -1057,145 +1663,205 @@
   {
    "id": "ShutongLiang/Neural-State-OS",
    "reasons": [
-    "+317 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "TorrentArrow/IPTV_Player_2.0",
    "reasons": [
-    "+370 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+369 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "lizhenjie137/intelligent-organization",
    "reasons": [
-    "repo mới với 371 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+388 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "TurtleReside/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "VisionWormStudio/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Violetnyudress/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "TypeTyrantScheme/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "TrooperFilter/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Visionbeyondtrack/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "VortexHostFeel/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Watchlespeed/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WerewolfEmuHub/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "weldbladesmithwharf/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "weightcashiercupola/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 467 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 465 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WestLocksmithSpout/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WharfBoulderColander/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WindGatorRise37/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WinnerSpecialist/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WingDataVacuum/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WindowStaffGate11/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WireProvostPucker/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WyrmClimberManacle/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
    "id": "wisemeadowlarkspike/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "YellowLaborerMarket/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 468 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 467 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "fujc683/awesome-seedance-2-5-flash-prompts",
+   "reasons": [
+    "+342 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "fujc683/seedance-2-5-flash-api",
+   "reasons": [
+    "repo mới với 357 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "fujc683/seedance-2-5-flash-pricing",
+   "reasons": [
+    "repo mới với 370 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "fujc683/seedance-2-5-flash-alternatives",
+   "reasons": [
+    "repo mới với 365 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "fujc683/seedance-2-5-flash-free-tier",
+   "reasons": [
+    "repo mới với 352 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "fujc683/seedance-2-5-flash-camera-movements",
+   "reasons": [
+    "repo mới với 355 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "fujc683/seedance-2-5-flash-api-proxy",
+   "reasons": [
+    "+355 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "fujc683/seedance-2-5-flash-reference-video",
+   "reasons": [
+    "repo mới với 352 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "fujc683/ai-video-api-gateway",
+   "reasons": [
+    "+350 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "fujc683/cheap-video-api",
+   "reasons": [
+    "+356 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1205,63 +1871,33 @@
    ]
   },
   {
-   "id": "cachedarknorth54/wolfram-alpha-pro-win",
-   "reasons": [
-    "+439 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Fadiperez71/substance-painter-win",
-   "reasons": [
-    "+436 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "LongNorth1998/charles-proxy-win",
-   "reasons": [
-    "+436 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Jnikitin06/pioneer-dj-rekordbox-win",
-   "reasons": [
-    "+443 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "JieFedorov81/runway-ml-pro-win",
-   "reasons": [
-    "+436 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "debugdigital677/descript-pro-win",
-   "reasons": [
-    "+435 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "ruiz1341/gitkraken-pro-win",
-   "reasons": [
-    "+432 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Mahmoudp06/serato-dj-suite-win",
-   "reasons": [
-    "+441 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
    "id": "darthvader097br-ctrl/acronis-standalone-bundle",
    "reasons": [
     "+340 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
-   "id": "Jeretei33/clair-obscur-expedition-33-win",
+   "id": "ali7080/adobe-air-sdk",
    "reasons": [
-    "+428 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "orakio1975/acrobat-pro-pdf-editor",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "cleidsonmachadoalves45-byte/adobe-audition",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "rafiiiakmall-cpu/aida-64-extreme",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1273,7 +1909,7 @@
   {
    "id": "youssefco1999-hash/aiseesoft-launch-pro",
    "reasons": [
-    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1286,18 +1922,6 @@
    "id": "lebrowndnasty-hash/ai-app-builder",
    "reasons": [
     "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "YudiGardner/ansys-2026-win",
-   "reasons": [
-    "+421 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Chukwudi-code83/driver-easy-pro-win",
-   "reasons": [
-    "+427 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1325,27 +1949,9 @@
    ]
   },
   {
-   "id": "25227georgeyang-cpu/borisfx-video-editor",
+   "id": "icitycode/capcut-for-windows",
    "reasons": [
-    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "owensmario536/jetbrains-pycharm-ultimate-win",
-   "reasons": [
-    "+432 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "VINODP86/magix-vegas-win",
-   "reasons": [
-    "+426 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "craign03/pioneer-dj-rekordbox-win",
-   "reasons": [
-    "+432 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+357 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1361,27 +1967,21 @@
    ]
   },
   {
-   "id": "fern84-svg/cinema-4d-desktop",
+   "id": "maslah44/cinebench-benchmark",
    "reasons": [
-    "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
-   "id": "Matia442/cinema-4d-utility",
+   "id": "parthivvinod95-blip/clion-desktop",
    "reasons": [
-    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
-   "id": "BhaveshPham/tableau-prep-win",
+   "id": "gaichayoubb-hub/directory-opus-utility",
    "reasons": [
-    "+436 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "ycollins30/clip-studio-paint-ex-win",
-   "reasons": [
-    "+426 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1391,9 +1991,27 @@
    ]
   },
   {
+   "id": "sadiqameen2005-pixel/display-fusion",
+   "reasons": [
+    "+337 sao nhưng chỉ +1 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "SELAMUMESHESHA/dxo-photolab-10",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
    "id": "drillryte/easy-worship",
    "reasons": [
     "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Buntee-tech/exitlag-utility",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1403,207 +2021,27 @@
    ]
   },
   {
-   "id": "hub-bear-blue/revit-2026-win",
-   "reasons": [
-    "+425 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "birdsolutions98/v-ray-for-revit-win",
-   "reasons": [
-    "+429 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Joanegorov01/capture-one-pro-win",
-   "reasons": [
-    "+437 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "WebShort/unreal-5-4-win",
-   "reasons": [
-    "+435 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "akashak47218/kms-pico-desktop-edition",
+   "id": "23080960124/ibm-spss-statistics",
    "reasons": [
     "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
-   "id": "Morriswawan05/elevenlabs-pro-win",
+   "id": "ayux777/metatrader-5-bot",
    "reasons": [
-    "+439 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
-   "id": "Maheshgray68/sublime-text-4-win",
+   "id": "jorgezaltoo-design/microsoft-visio",
    "reasons": [
-    "+431 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Truesand8603/beyond-compare-4-win",
-   "reasons": [
-    "+430 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "FadiHarris80/fusion-360-win",
-   "reasons": [
-    "+434 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "bozkurthasan/marmoset-toolbag-5-win",
-   "reasons": [
-    "+434 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Shellsmall/mathway-premium-win",
-   "reasons": [
-    "+441 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "fernandeslokesh10/figma-desktop-win",
-   "reasons": [
-    "+442 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "kofistudio/autocad-2026-win",
-   "reasons": [
-    "+430 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "birddebug/cinema-4d-win",
-   "reasons": [
-    "+440 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "bo-design8152/filmora-win",
-   "reasons": [
-    "+436 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "bearclicache812/insomnia-pro-win",
-   "reasons": [
-    "+435 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "cacheapp2003/microsoft-office-win",
-   "reasons": [
-    "+432 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Cloudcode04/runway-ml-pro-win",
-   "reasons": [
-    "+436 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "castro-vivek-31/rhino-8-win",
-   "reasons": [
-    "+432 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Bagussa998/affinity-designer-2-win",
-   "reasons": [
-    "+438 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "emekayang2003/substance-painter-win",
-   "reasons": [
-    "+439 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "cliblacktech/unreal-5-6-win",
-   "reasons": [
-    "+431 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "samir-cai/nitro-pro-win",
-   "reasons": [
-    "+434 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Wojcik1999/rob-run-menu-win",
-   "reasons": [
-    "+441 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "eastspaper6-cmyk/ninjatrader-bot",
    "reasons": [
-    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "CliBranchLong/microsoft-excel-win",
-   "reasons": [
-    "+426 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Mnowak64/iobit-uninstaller-pro-win",
-   "reasons": [
-    "+442 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "freerealstudio/figma-desktop-win",
-   "reasons": [
-    "+432 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "NileshLiu/acrobat-dc-win",
-   "reasons": [
-    "+440 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Snow-clienT-best1/microsoft-excel-vcardconverter-win",
-   "reasons": [
-    "+435 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Chowdhurymary/microsoft-office-premium-win",
-   "reasons": [
-    "+433 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "LuisDesai/trimble-sketchup-win",
-   "reasons": [
-    "+434 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Shortproxy2007/fabfilter-pro-l-2-win",
-   "reasons": [
-    "+432 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "veshah/quillbot-premium-win",
-   "reasons": [
-    "+431 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1613,351 +2051,39 @@
    ]
   },
   {
-   "id": "igwei/topaz-video-ai-win",
+   "id": "rahul9350125/photo-commander",
    "reasons": [
-    "+434 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "rodr1guezandrew356/berlin-strings-win",
-   "reasons": [
-    "+424 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "pilpay29/izotope-nectar-4-win",
-   "reasons": [
-    "+434 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "debraly2005/softube-console-1-win",
-   "reasons": [
-    "+429 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "dongarenikhilit047-star/portfolio-rebalancer",
    "reasons": [
-    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
-   "id": "deepaksilva/u-he-hive-2-win",
+   "id": "purvprajapati2504-design/premiere-pro-video-editor",
    "reasons": [
-    "+433 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Jxue907/mathcad-prime-win",
-   "reasons": [
-    "+446 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "logbor2000/adobe-photoshop-elements-win",
-   "reasons": [
-    "+434 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "bluepatchproxy/cableguys-shaperbox-3-win",
-   "reasons": [
-    "+436 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "suryacode04/jasper-ai-win",
-   "reasons": [
-    "+417 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "colealina/winrar-7-win",
-   "reasons": [
-    "+426 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Juanlabs1989/descript-pro-win",
-   "reasons": [
-    "+439 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "alexandere58/ableton-live-win",
-   "reasons": [
-    "+427 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Fire-snow-07/spectrasonics-stylus-rmx-win",
-   "reasons": [
-    "+435 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "NaHamilton/toontrack-superior-drummer-win",
-   "reasons": [
-    "+434 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "monicaellis48/jetbrains-intellij-idea-win",
-   "reasons": [
-    "+441 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Scottmauricio/indesign-cc-win",
-   "reasons": [
-    "+433 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "blessingc185/advanced-systemcare-pro-win",
-   "reasons": [
-    "+432 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "andresdeshmukh26/synchro-arts-vocalign-pro-win",
-   "reasons": [
-    "+432 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Roagu1lar/autodesk-fusion-360-win",
-   "reasons": [
-    "+434 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Polinaagarwal02/native-instruments-komplete-win",
-   "reasons": [
-    "+431 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "alexeytarasov8/jetbrains-pycharm-professional-win",
-   "reasons": [
-    "+446 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Nilespand/tableau-desktop-win",
-   "reasons": [
-    "+440 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "PatriciaIo/topaz-denoise-ai-win",
-   "reasons": [
-    "+433 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "andrewpandey/total-commander-win",
-   "reasons": [
-    "+440 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "PatriciaIo/deflicker-for-after-effects-win",
-   "reasons": [
-    "+433 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Clientplus1990/streamlabs-desktop-win",
-   "reasons": [
-    "+436 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "christinaarslan01/output-portal-win",
-   "reasons": [
-    "+436 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "aslanabigail/autocad-2026-win",
-   "reasons": [
-    "+428 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Hasanturner/discord-nitro-premium-win",
-   "reasons": [
-    "+435 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "VitalyMukherjee92/lightroom-classic-win",
-   "reasons": [
-    "+430 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "serkanellis/spire-win",
-   "reasons": [
-    "+431 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Cool-east811/presonus-studio-one-win",
-   "reasons": [
-    "+434 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "moon-dark2000/todoist-pro-win",
-   "reasons": [
-    "+425 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "deep-patch-true/synchro-arts-revoice-pro-5-win",
-   "reasons": [
-    "+440 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "tiansokolov/pdfelement-win",
-   "reasons": [
-    "+415 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Tarunwang/fl-studio-win",
-   "reasons": [
-    "+429 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "sloweastlab1987/wise-care-365-pro-win",
-   "reasons": [
-    "+431 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Debrde30/deepl-pro-win",
-   "reasons": [
-    "+416 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "loudonline/metatrader-5-pro-win",
-   "reasons": [
-    "+436 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "YASIRCAMPBELL2/acrobat-pro-win",
-   "reasons": [
-    "+436 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "alexeytarasov8/filmora-win",
-   "reasons": [
-    "+428 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Link-script-new/notion-win",
-   "reasons": [
-    "+431 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "kennethw627/figma-win",
-   "reasons": [
-    "+432 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "rockcode55/keyscape-win",
-   "reasons": [
-    "+418 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "huif1993/oeksound-soothe-2-win",
-   "reasons": [
-    "+417 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "aminatapolat/plugin-alliance-mega-bundle-win",
-   "reasons": [
-    "+436 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "meiluo13/sylenth1-win",
-   "reasons": [
-    "+430 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "buildpixelwind/photoshop-win",
-   "reasons": [
-    "+436 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Aroralayla99/capcut-seedance-win",
-   "reasons": [
-    "+436 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "michellemurphy2001/affinity-designer-2-win",
-   "reasons": [
-    "+430 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Nilespand/acronis-true-image-win",
-   "reasons": [
-    "+428 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "GuzmanJacqueline93/copy-ai-pro-win",
-   "reasons": [
-    "+432 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "Fast-black-tech5681/archicad-win",
-   "reasons": [
-    "+436 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "volkov-ping/camtasia-win",
-   "reasons": [
-    "+435 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "G4rdner26/luminar-neo-win",
-   "reasons": [
-    "+433 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "cr4zyp4ul/quicken-deluxe",
    "reasons": [
-    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "jomicat1989-dotcom/rust-external-trainer-tool",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Adabi0304/studioonepro7-release",
    "reasons": [
-    "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+340 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1979,9 +2105,45 @@
    ]
   },
   {
+   "id": "VenkateshGorityala/voicemod-audio-modifier",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
    "id": "rockford007/xyplorer-file-manager",
    "reasons": [
     "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "praseesh369/youtube-ai-video-editing-system",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "aathreynair22-bit/wifi-password-tester",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "lenguyenkhang816792-arch/gta-6-pc-emulator",
+   "reasons": [
+    "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Mouad06/gta",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Meetsaini/emulator",
+   "reasons": [
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   }
  ],
@@ -2237,9 +2399,13 @@
   },
   {
    "cluster": "campaign-2026-11-21-337",
-   "reason": "Một trong 31 repo khác tên do 31 tài khoản tạo gần như cùng lúc, cùng khoảng 337–340 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "reason": "Một trong 50 repo khác tên do 50 tài khoản tạo gần như cùng lúc, cùng khoảng 337–340 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
    "repos": [
     "darthvader097br-ctrl/acronis-standalone-bundle",
+    "ali7080/adobe-air-sdk",
+    "orakio1975/acrobat-pro-pdf-editor",
+    "cleidsonmachadoalves45-byte/adobe-audition",
+    "rafiiiakmall-cpu/aida-64-extreme",
     "pravinak1188-design/ashampoo-uninstaller",
     "youssefco1999-hash/aiseesoft-launch-pro",
     "yrf15gamin-pixel/ashampoo-winoptimizer-pro",
@@ -2252,24 +2418,39 @@
     "25227georgeyang-cpu/borisfx-video-editor",
     "Dhruv2710-hub/cellebrite-ufed",
     "CertificateVerfication/chimera-utility",
+    "maslah44/cinebench-benchmark",
     "fern84-svg/cinema-4d-desktop",
     "Matia442/cinema-4d-utility",
+    "parthivvinod95-blip/clion-desktop",
+    "gaichayoubb-hub/directory-opus-utility",
     "Gobjb/directory-opus-launch",
+    "sadiqameen2005-pixel/display-fusion",
+    "SELAMUMESHESHA/dxo-photolab-10",
     "drillryte/easy-worship",
+    "Buntee-tech/exitlag-utility",
     "Yummy2288/fonetrans-desktop-utility",
     "SABINOGAMESPONTOCOM/honeypot-detector",
+    "23080960124/ibm-spss-statistics",
     "akashak47218/kms-pico-desktop-edition",
+    "ayux777/metatrader-5-bot",
+    "jorgezaltoo-design/microsoft-visio",
     "eastspaper6-cmyk/ninjatrader-bot",
     "vinujak/phantom-blade-zero-modifier",
+    "rahul9350125/photo-commander",
     "dongarenikhilit047-star/portfolio-rebalancer",
+    "purvprajapati2504-design/premiere-pro-video-editor",
     "cr4zyp4ul/quicken-deluxe",
     "saadiraq2025-cyber/rob-run-mod-menu",
     "CETPROAR/rob-run-ares-enhancer",
+    "jomicat1989-dotcom/rust-external-trainer-tool",
     "Adabi0304/studioonepro7-release",
     "Daax116/startall-back-utility",
     "hariachayan5-dotcom/sp-flash-tool",
     "official00shivansh-eng/ultra-iso",
-    "rockford007/xyplorer-file-manager"
+    "VenkateshGorityala/voicemod-audio-modifier",
+    "rockford007/xyplorer-file-manager",
+    "praseesh369/youtube-ai-video-editing-system",
+    "aathreynair22-bit/wifi-password-tester"
    ]
   }
  ]
