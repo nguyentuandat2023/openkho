@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:07:21.361Z",
+ "fetched_at": "2026-11-24T17:49:33.797Z",
  "meta": {
   "name": "pyvideotrans",
   "owner": "jianchang512",
@@ -30,14 +30,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 19821,
-  "forks": 2479,
+  "stars": 19825,
+  "forks": 2480,
   "watchers": 105,
   "open_issues": 8,
   "open_prs": null,
   "created_at": "2023-10-02T16:13:19Z",
-  "pushed_at": "2026-11-23T08:40:11Z",
-  "updated_at": "2026-11-24T06:03:51Z",
+  "pushed_at": "2026-11-24T07:47:03Z",
+  "updated_at": "2026-11-24T14:13:47Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,7 +46,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 500391,
+  "size_kb": 500459,
   "og_image": "https://opengraph.githubassets.com/1/jianchang512/pyvideotrans",
   "custom_og_image": false
  },
@@ -74,7 +74,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-19T11:45:13.506Z",
-  "checked_at": "2026-11-24T06:07:48.285Z"
+  "checked_at": "2026-11-24T17:50:08.847Z"
  },
  "contributors": {
   "count": 62,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.654Z"
  },
- "details_checked_at": "2026-11-24T06:07:48.285Z"
+ "details_checked_at": "2026-11-24T17:50:08.847Z"
 }

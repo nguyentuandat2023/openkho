@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:04:28.412Z",
+ "fetched_at": "2026-11-24T17:45:57.623Z",
  "meta": {
   "name": "jan",
   "owner": "janhq",
@@ -32,14 +32,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 46064,
-  "forks": 3251,
-  "watchers": 227,
+  "stars": 46079,
+  "forks": 3258,
+  "watchers": 228,
   "open_issues": 591,
   "open_prs": null,
   "created_at": "2023-08-17T02:17:10Z",
   "pushed_at": "2026-11-23T07:01:13Z",
-  "updated_at": "2026-11-24T05:37:32Z",
+  "updated_at": "2026-11-24T17:26:13Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -76,13 +76,13 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.495Z",
-  "checked_at": "2026-11-24T06:07:41.172Z"
+  "checked_at": "2026-11-24T17:49:58.699Z"
  },
  "contributors": {
   "count": 193,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-17T11:56:31.653Z"
+  "fetched_at": "2026-11-24T17:50:10.817Z"
  },
- "details_checked_at": "2026-11-24T06:07:41.172Z"
+ "details_checked_at": "2026-11-24T17:49:58.699Z"
 }

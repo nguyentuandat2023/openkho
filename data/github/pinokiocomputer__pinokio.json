@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:04:07.753Z",
+ "fetched_at": "2026-11-24T17:45:31.863Z",
  "meta": {
   "name": "pinokio",
   "owner": "pinokiocomputer",
@@ -23,14 +23,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 8430,
+  "stars": 8432,
   "forks": 857,
   "watchers": 108,
-  "open_issues": 474,
+  "open_issues": 475,
   "open_prs": null,
   "created_at": "2023-07-09T10:02:41Z",
   "pushed_at": "2026-11-24T00:47:51Z",
-  "updated_at": "2026-11-23T20:28:17Z",
+  "updated_at": "2026-11-24T17:23:54Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,7 +57,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.663Z",
-  "checked_at": "2026-11-24T06:07:40.364Z"
+  "checked_at": "2026-11-24T17:49:57.598Z"
  },
  "contributors": {
   "count": 1,
@@ -65,5 +65,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T06:07:49.117Z"
  },
- "details_checked_at": "2026-11-24T06:07:40.364Z"
+ "details_checked_at": "2026-11-24T17:49:57.598Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:06:46.667Z",
+ "fetched_at": "2026-11-24T17:48:52.361Z",
  "meta": {
   "name": "reactive-resume",
   "owner": "reactive-resume",
@@ -34,14 +34,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 46029,
-  "forks": 4966,
+  "stars": 46046,
+  "forks": 4967,
   "watchers": 128,
-  "open_issues": 10,
+  "open_issues": 14,
   "open_prs": null,
   "created_at": "2020-03-25T14:08:22Z",
   "pushed_at": "2026-11-20T03:14:03Z",
-  "updated_at": "2026-11-24T05:36:39Z",
+  "updated_at": "2026-11-24T16:51:42Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -78,13 +78,13 @@
   "headings": 18,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.547Z",
-  "checked_at": "2026-11-24T06:07:46.937Z"
+  "checked_at": "2026-11-24T17:50:06.712Z"
  },
  "contributors": {
   "count": 267,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-17T11:56:40.087Z"
+  "fetched_at": "2026-11-24T17:50:20.624Z"
  },
- "details_checked_at": "2026-11-24T06:07:46.937Z"
+ "details_checked_at": "2026-11-24T17:50:06.712Z"
 }

@@ -6,13 +6,13 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:07:18.521Z",
+ "fetched_at": "2026-11-24T17:49:30.236Z",
  "meta": {
   "name": "Concat",
   "owner": "jub0t",
   "owner_type": "User",
   "avatar_url": "https://avatars.githubusercontent.com/u/57962439?v=4",
-  "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
+  "description": "Beta: The open-source CapCut alternative. Scriptable through a JSON-RPC API & MCP.",
   "homepage": "https://concat.standalones.org",
   "html_url": "https://github.com/jub0t/Concat",
   "default_branch": "main",
@@ -39,14 +39,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 19858,
-  "forks": 2432,
+  "stars": 19978,
+  "forks": 2447,
   "watchers": 106,
-  "open_issues": 307,
+  "open_issues": 311,
   "open_prs": null,
   "created_at": "2026-08-25T18:34:47Z",
-  "pushed_at": "2026-11-24T01:36:05Z",
-  "updated_at": "2026-11-24T06:03:22Z",
+  "pushed_at": "2026-11-24T17:42:22Z",
+  "updated_at": "2026-11-24T17:47:30Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,7 +55,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 97841,
+  "size_kb": 98568,
   "og_image": "https://opengraph.githubassets.com/1/jub0t/Concat",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-22T11:25:37.708Z",
-  "checked_at": "2026-11-24T06:07:48.168Z"
+  "checked_at": "2026-11-24T17:50:08.691Z"
  },
  "contributors": {
   "count": 54,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:43.418Z"
  },
- "details_checked_at": "2026-11-24T06:07:48.168Z"
+ "details_checked_at": "2026-11-24T17:50:08.691Z"
 }

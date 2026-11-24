@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:07:04.282Z",
+ "fetched_at": "2026-11-24T17:49:14.020Z",
  "meta": {
   "name": "core",
   "owner": "home-assistant",
@@ -32,14 +32,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 92470,
-  "forks": 39346,
-  "watchers": 1381,
-  "open_issues": 4005,
+  "stars": 92479,
+  "forks": 39350,
+  "watchers": 1379,
+  "open_issues": 3854,
   "open_prs": null,
   "created_at": "2013-09-17T07:29:48Z",
-  "pushed_at": "2026-11-24T02:51:28Z",
-  "updated_at": "2026-11-24T04:01:28Z",
+  "pushed_at": "2026-11-24T17:43:57Z",
+  "updated_at": "2026-11-24T16:40:33Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,7 +48,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 949794,
+  "size_kb": 951243,
   "og_image": "https://opengraph.githubassets.com/1/home-assistant/core",
   "custom_og_image": false
  },
@@ -66,7 +66,7 @@
   "headings": 0,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.385Z",
-  "checked_at": "2026-11-24T06:07:47.642Z"
+  "checked_at": "2026-11-24T17:50:07.776Z"
  },
  "contributors": {
   "count": 6227,
@@ -74,5 +74,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.930Z"
  },
- "details_checked_at": "2026-11-24T06:07:47.642Z"
+ "details_checked_at": "2026-11-24T17:50:07.776Z"
 }

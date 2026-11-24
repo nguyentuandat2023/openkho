@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:05:33.905Z",
+ "fetched_at": "2026-11-24T17:47:21.883Z",
  "meta": {
   "name": "flutter",
   "owner": "flutter",
@@ -43,14 +43,14 @@
    "spdx": "BSD-3-Clause",
    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
   },
-  "stars": 181399,
-  "forks": 32066,
-  "watchers": 3569,
-  "open_issues": 13627,
+  "stars": 181410,
+  "forks": 32038,
+  "watchers": 3568,
+  "open_issues": 13649,
   "open_prs": null,
   "created_at": "2015-03-06T22:54:58Z",
-  "pushed_at": "2026-11-24T06:01:28Z",
-  "updated_at": "2026-11-24T04:02:14Z",
+  "pushed_at": "2026-11-24T17:25:23Z",
+  "updated_at": "2026-11-24T17:46:54Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 471418,
+  "size_kb": 471464,
   "og_image": "https://opengraph.githubassets.com/1/flutter/flutter",
   "custom_og_image": false
  },
@@ -77,13 +77,13 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.299Z",
-  "checked_at": "2026-11-24T06:07:43.985Z"
+  "checked_at": "2026-11-24T17:50:02.341Z"
  },
  "contributors": {
-  "count": 2482,
+  "count": 2494,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-17T11:56:35.405Z"
+  "fetched_at": "2026-11-24T17:50:15.680Z"
  },
- "details_checked_at": "2026-11-24T06:07:43.985Z"
+ "details_checked_at": "2026-11-24T17:50:02.341Z"
 }

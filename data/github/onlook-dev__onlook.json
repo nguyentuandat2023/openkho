@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:07:36.013Z",
+ "fetched_at": "2026-11-24T17:49:52.434Z",
  "meta": {
   "name": "onlook",
   "owner": "onlook-dev",
@@ -43,14 +43,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 27850,
+  "stars": 27884,
   "forks": 2186,
-  "watchers": 121,
+  "watchers": 119,
   "open_issues": 21,
   "open_prs": null,
   "created_at": "2024-06-25T19:16:02Z",
-  "pushed_at": "2026-11-24T05:54:49Z",
-  "updated_at": "2026-11-24T05:54:02Z",
+  "pushed_at": "2026-11-24T17:19:32Z",
+  "updated_at": "2026-11-24T17:19:22Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 91579,
+  "size_kb": 91796,
   "og_image": "https://opengraph.githubassets.com/1/onlook-dev/onlook",
   "custom_og_image": false
  },
@@ -87,7 +87,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:41.799Z",
-  "checked_at": "2026-11-24T06:07:48.972Z"
+  "checked_at": "2026-11-24T17:50:09.730Z"
  },
  "contributors": {
   "count": 109,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.747Z"
  },
- "details_checked_at": "2026-11-24T06:07:48.972Z"
+ "details_checked_at": "2026-11-24T17:50:09.730Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:03:39.406Z",
+ "fetched_at": "2026-11-24T17:44:55.323Z",
  "meta": {
   "name": "huginn",
   "owner": "huginn",
@@ -34,14 +34,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 50615,
-  "forks": 4362,
+  "stars": 50621,
+  "forks": 4363,
   "watchers": 727,
   "open_issues": 689,
   "open_prs": null,
   "created_at": "2013-03-10T06:00:31Z",
   "pushed_at": "2026-11-23T17:52:54Z",
-  "updated_at": "2026-11-24T02:50:43Z",
+  "updated_at": "2026-11-24T17:25:52Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -78,7 +78,7 @@
   "headings": 18,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:29.690Z",
-  "checked_at": "2026-11-24T06:07:39.118Z"
+  "checked_at": "2026-11-24T17:49:55.986Z"
  },
  "contributors": {
   "count": 272,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:33.224Z"
  },
- "details_checked_at": "2026-11-24T06:07:39.118Z"
+ "details_checked_at": "2026-11-24T17:49:55.986Z"
 }

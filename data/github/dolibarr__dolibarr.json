@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:04:40.782Z",
+ "fetched_at": "2026-11-24T17:46:14.803Z",
  "meta": {
   "name": "dolibarr",
   "owner": "Dolibarr",
@@ -44,14 +44,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 7896,
-  "forks": 3635,
+  "stars": 7897,
+  "forks": 3633,
   "watchers": 272,
-  "open_issues": 1028,
+  "open_issues": 1032,
   "open_prs": null,
   "created_at": "2011-06-26T21:55:03Z",
-  "pushed_at": "2026-11-24T03:33:10Z",
-  "updated_at": "2026-11-24T04:18:13Z",
+  "pushed_at": "2026-11-24T17:37:47Z",
+  "updated_at": "2026-11-24T14:08:38Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,13 +60,13 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 1789597,
+  "size_kb": 1790030,
   "og_image": "https://opengraph.githubassets.com/1/Dolibarr/dolibarr",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 13013,
+  "length": 13025,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
@@ -87,14 +87,14 @@
   },
   "headings": 22,
   "processor": 4,
-  "fetched_at": "2026-11-22T19:41:59.602Z",
-  "checked_at": "2026-11-24T06:07:41.789Z"
+  "fetched_at": "2026-11-24T17:49:59.493Z",
+  "checked_at": "2026-11-24T17:49:59.493Z"
  },
  "contributors": {
-  "count": 1283,
+  "count": 1290,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-17T11:56:32.422Z"
+  "fetched_at": "2026-11-24T17:50:11.713Z"
  },
- "details_checked_at": "2026-11-24T06:07:41.789Z"
+ "details_checked_at": "2026-11-24T17:49:59.493Z"
 }

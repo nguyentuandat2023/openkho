@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:04:55.677Z",
+ "fetched_at": "2026-11-24T17:46:34.334Z",
  "meta": {
   "name": "airflow",
   "owner": "apache",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 47636,
-  "forks": 18388,
-  "watchers": 791,
-  "open_issues": 1988,
+  "stars": 47651,
+  "forks": 18396,
+  "watchers": 790,
+  "open_issues": 2002,
   "open_prs": null,
   "created_at": "2015-04-13T18:04:58Z",
-  "pushed_at": "2026-11-24T03:30:34Z",
-  "updated_at": "2026-11-24T04:22:43Z",
+  "pushed_at": "2026-11-24T17:35:14Z",
+  "updated_at": "2026-11-24T17:01:48Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 825339,
+  "size_kb": 824768,
   "og_image": "https://opengraph.githubassets.com/1/apache/airflow",
   "custom_og_image": false
  },
@@ -83,13 +83,13 @@
   "headings": 26,
   "processor": 4,
   "fetched_at": "2026-11-23T21:28:04.001Z",
-  "checked_at": "2026-11-24T06:07:42.348Z"
+  "checked_at": "2026-11-24T17:50:00.237Z"
  },
  "contributors": {
-  "count": 4811,
+  "count": 4830,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-17T11:56:33.148Z"
+  "fetched_at": "2026-11-24T17:50:12.858Z"
  },
- "details_checked_at": "2026-11-24T06:07:42.348Z"
+ "details_checked_at": "2026-11-24T17:50:00.237Z"
 }

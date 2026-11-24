@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:04:09.264Z",
+ "fetched_at": "2026-11-24T17:45:33.847Z",
  "meta": {
   "name": "rembg",
   "owner": "danielgatis",
@@ -27,14 +27,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 25652,
+  "stars": 25663,
   "forks": 2512,
   "watchers": 168,
-  "open_issues": 2,
+  "open_issues": 0,
   "open_prs": null,
   "created_at": "2020-08-10T14:38:24Z",
-  "pushed_at": "2026-11-24T04:14:29Z",
-  "updated_at": "2026-11-24T04:29:52Z",
+  "pushed_at": "2026-11-24T13:54:32Z",
+  "updated_at": "2026-11-24T17:42:51Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -43,13 +43,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 89564,
+  "size_kb": 89757,
   "og_image": "https://opengraph.githubassets.com/1/danielgatis/rembg",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 27495,
+  "length": 27817,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [],
@@ -70,8 +70,8 @@
   },
   "headings": 27,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:21.649Z",
-  "checked_at": "2026-11-24T06:07:40.376Z"
+  "fetched_at": "2026-11-24T17:49:57.816Z",
+  "checked_at": "2026-11-24T17:49:57.816Z"
  },
  "contributors": {
   "count": 92,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T06:07:49.317Z"
  },
- "details_checked_at": "2026-11-24T06:07:40.376Z"
+ "details_checked_at": "2026-11-24T17:49:57.816Z"
 }

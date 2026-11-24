@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:03:10.263Z",
+ "fetched_at": "2026-11-24T17:44:21.572Z",
  "meta": {
   "name": "codex",
   "owner": "openai",
@@ -23,14 +23,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 136271,
-  "forks": 21623,
+  "stars": 136327,
+  "forks": 21629,
   "watchers": 667,
-  "open_issues": 28444,
+  "open_issues": 28524,
   "open_prs": null,
   "created_at": "2025-04-13T05:37:54Z",
-  "pushed_at": "2026-11-24T05:34:14Z",
-  "updated_at": "2026-11-24T06:02:42Z",
+  "pushed_at": "2026-11-24T17:34:54Z",
+  "updated_at": "2026-11-24T17:11:48Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -39,7 +39,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 772704,
+  "size_kb": 775547,
   "og_image": "https://opengraph.githubassets.com/1/openai/codex",
   "custom_og_image": false
  },
@@ -67,7 +67,7 @@
   "headings": 4,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:18.795Z",
-  "checked_at": "2026-11-24T06:07:37.916Z"
+  "checked_at": "2026-11-24T17:49:54.641Z"
  },
  "contributors": {
   "count": 746,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:31.706Z"
  },
- "details_checked_at": "2026-11-24T06:07:37.916Z"
+ "details_checked_at": "2026-11-24T17:49:54.641Z"
 }

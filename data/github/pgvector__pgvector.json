@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:05:01.050Z",
+ "fetched_at": "2026-11-24T17:46:41.082Z",
  "meta": {
   "name": "pgvector",
   "owner": "pgvector",
@@ -26,14 +26,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 23794,
+  "stars": 23799,
   "forks": 1405,
-  "watchers": 140,
+  "watchers": 139,
   "open_issues": 19,
   "open_prs": null,
   "created_at": "2021-04-20T21:13:52Z",
   "pushed_at": "2026-11-23T23:11:23Z",
-  "updated_at": "2026-11-24T05:10:57Z",
+  "updated_at": "2026-11-24T16:00:04Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -65,13 +65,13 @@
   "headings": 96,
   "processor": 4,
   "fetched_at": "2026-11-22T11:25:32.054Z",
-  "checked_at": "2026-11-24T06:07:42.648Z"
+  "checked_at": "2026-11-24T17:50:00.520Z"
  },
  "contributors": {
   "count": 27,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-17T11:56:33.422Z"
+  "fetched_at": "2026-11-24T17:50:13.142Z"
  },
- "details_checked_at": "2026-11-24T06:07:42.648Z"
+ "details_checked_at": "2026-11-24T17:50:00.520Z"
 }

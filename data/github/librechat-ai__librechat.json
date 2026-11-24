@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:04:26.831Z",
+ "fetched_at": "2026-11-24T17:45:55.612Z",
  "meta": {
   "name": "LibreChat",
   "owner": "LibreChat-AI",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 47466,
-  "forks": 9789,
+  "stars": 47493,
+  "forks": 9795,
   "watchers": 216,
-  "open_issues": 1147,
+  "open_issues": 1139,
   "open_prs": null,
   "created_at": "2023-02-12T01:06:52Z",
-  "pushed_at": "2026-11-24T05:45:28Z",
-  "updated_at": "2026-11-24T04:31:54Z",
+  "pushed_at": "2026-11-24T17:45:21Z",
+  "updated_at": "2026-11-24T17:40:40Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 319845,
+  "size_kb": 320895,
   "og_image": "https://opengraph.githubassets.com/1/LibreChat-AI/LibreChat",
   "custom_og_image": false
  },
@@ -89,13 +89,13 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:32.340Z",
-  "checked_at": "2026-11-24T06:07:41.102Z"
+  "checked_at": "2026-11-24T17:49:58.723Z"
  },
  "contributors": {
-  "count": 425,
+  "count": 426,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-17T11:56:31.604Z"
+  "fetched_at": "2026-11-24T17:50:10.719Z"
  },
- "details_checked_at": "2026-11-24T06:07:41.102Z"
+ "details_checked_at": "2026-11-24T17:49:58.723Z"
 }

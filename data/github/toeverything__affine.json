@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:06:51.321Z",
+ "fetched_at": "2026-11-24T17:48:58.131Z",
  "meta": {
   "name": "AFFiNE",
   "owner": "toeverything",
@@ -42,14 +42,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 77526,
-  "forks": 5670,
+  "stars": 77823,
+  "forks": 5689,
   "watchers": 294,
-  "open_issues": 694,
+  "open_issues": 660,
   "open_prs": null,
   "created_at": "2022-07-31T18:45:21Z",
-  "pushed_at": "2026-11-24T06:02:41Z",
-  "updated_at": "2026-11-24T06:02:27Z",
+  "pushed_at": "2026-11-24T17:48:15Z",
+  "updated_at": "2026-11-24T17:45:20Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,13 +58,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 461605,
+  "size_kb": 461891,
   "og_image": "https://opengraph.githubassets.com/1/toeverything/AFFiNE",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 16255,
+  "length": 16193,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
@@ -78,21 +78,21 @@
    "usage": null,
    "features": {
     "title": "Features",
-    "html": "<p><strong>A true canvas for blocks in any form. Docs and whiteboard are now fully merged.</strong></p>\n<ul>\n<li>Many editor apps claim to be a canvas for productivity, but AFFiNE is one of the very few which allows you to put any building block on an edgeless canvas -- rich text, sticky notes, any embedded web pages, multi-view databases, linked pages, shapes and even slides. We have it all.</li>\n</ul>\n<p><strong>Multimodal AI partner ready to kick in any work</strong></p>\n<ul>\n<li>Write up professional work report? Turn an outline into expressive and presentable slides? Summary an article into a well-structured mindmap? Sorting your job plan and backlog for tasks? Or... draw and code prototype apps and web pages directly all with one prompt? With you, <a href=\"https://affine.pro/ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AFFiNE AI</a> pushes your creativity to the edge of your imagination, just like <a href=\"https://affine.pro/blog/best-canvas-ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Canvas AI</a> to generate mind map for brainstorming.</li>\n</ul>\n<p><strong>Local-first &amp; Real-time collaborative</strong></p>\n<ul>\n<li>We love the idea of local-first that you always own your data on your disk, in spite of the cloud. Furthermore, AFFiNE supports real-time sync and collaborations on web and cross-platform clients.</li>\n</ul>\n<p><strong>Self-host &amp; Shape your own AFFiNE</strong></p>\n<ul>\n<li>You have the freedom to manage, self-host, fork and build your own AFFiNE. Plugin community and third-party blocks are coming soon. More tractions on <a href=\"https://blocksuite.io\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Blocksuite</a>. Check there to learn how to <a href=\"https://docs.affine.pro/self-host-affine\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">self-host AFFiNE</a>.</li>\n</ul>",
+    "html": "<p><strong>A true canvas for blocks in any form. Docs and whiteboard are now fully merged.</strong></p>\n<ul>\n<li>Many editor apps claim to be a canvas for productivity, but AFFiNE is one of the very few which allows you to put any building block on an edgeless canvas -- rich text, sticky notes, any embedded web pages, multi-view databases, linked pages, shapes and even slides. We have it all.</li>\n</ul>\n<p><strong>Multimodal AI partner ready to kick in any work</strong></p>\n<ul>\n<li>Write up a professional work report? Turn an outline into expressive and presentable slides? Summarize an article into a well-structured mindmap? Sort your job plan and backlog tasks? Or... draw and code prototype apps and web pages directly, all with one prompt? <a href=\"https://affine.pro/ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">AFFiNE AI</a> pushes your creativity to the edge of your imagination, just like <a href=\"https://affine.pro/blog/best-canvas-ai\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Canvas AI</a> to generate mind maps for brainstorming.</li>\n</ul>\n<p><strong>Local-first &amp; Real-time collaborative</strong></p>\n<ul>\n<li>We love the idea of local-first -- you always own your data on your disk, independent of the cloud. Furthermore, AFFiNE supports real-time sync and collaborations on web and cross-platform clients.</li>\n</ul>\n<p><strong>Self-host &amp; Shape your own AFFiNE</strong></p>\n<ul>\n<li>You have the freedom to manage, self-host, fork and build your own AFFiNE. Plugin community and third-party blocks are coming soon. More tractions on <a href=\"https://blocksuite.io\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Blocksuite</a>. Check there to learn how to <a href=\"https://docs.affine.pro/self-host-affine\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">self-host AFFiNE</a>.</li>\n</ul>",
     "truncated": false,
-    "chars": 1460
+    "chars": 1450
    }
   },
   "headings": 18,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:28.750Z",
-  "checked_at": "2026-11-24T06:07:47.127Z"
+  "fetched_at": "2026-11-24T17:50:07.251Z",
+  "checked_at": "2026-11-24T17:50:07.251Z"
  },
  "contributors": {
-  "count": 277,
+  "count": 289,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-17T11:56:40.322Z"
+  "fetched_at": "2026-11-24T17:50:20.810Z"
  },
- "details_checked_at": "2026-11-24T06:07:47.127Z"
+ "details_checked_at": "2026-11-24T17:50:07.251Z"
 }

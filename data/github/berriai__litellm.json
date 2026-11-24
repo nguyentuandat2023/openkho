@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:04:30.832Z",
+ "fetched_at": "2026-11-24T17:46:00.775Z",
  "meta": {
   "name": "litellm",
   "owner": "BerriAI",
@@ -40,14 +40,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 63786,
-  "forks": 13507,
+  "stars": 63825,
+  "forks": 13528,
   "watchers": 240,
-  "open_issues": 5502,
+  "open_issues": 5525,
   "open_prs": null,
   "created_at": "2023-07-27T00:09:52Z",
-  "pushed_at": "2026-11-24T06:04:16Z",
-  "updated_at": "2026-11-24T05:52:11Z",
+  "pushed_at": "2026-11-24T17:45:14Z",
+  "updated_at": "2026-11-24T17:37:38Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,7 +56,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 3226064,
+  "size_kb": 3232225,
   "og_image": "https://opengraph.githubassets.com/1/BerriAI/litellm",
   "custom_og_image": false
  },
@@ -84,13 +84,13 @@
   "headings": 31,
   "processor": 4,
   "fetched_at": "2026-11-23T21:28:02.507Z",
-  "checked_at": "2026-11-24T06:07:41.293Z"
+  "checked_at": "2026-11-24T17:49:58.934Z"
  },
  "contributors": {
-  "count": 1949,
+  "count": 1981,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-17T11:56:31.929Z"
+  "fetched_at": "2026-11-24T17:50:11.101Z"
  },
- "details_checked_at": "2026-11-24T06:07:41.293Z"
+ "details_checked_at": "2026-11-24T17:49:58.934Z"
 }

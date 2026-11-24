@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:05:22.210Z",
+ "fetched_at": "2026-11-24T17:47:05.676Z",
  "meta": {
   "name": "simple-icons",
   "owner": "simple-icons",
@@ -43,14 +43,14 @@
    "spdx": "CC0-1.0",
    "name": "Creative Commons Zero v1.0 Universal"
   },
-  "stars": 26257,
-  "forks": 3202,
+  "stars": 26259,
+  "forks": 3201,
   "watchers": 179,
-  "open_issues": 1051,
+  "open_issues": 1048,
   "open_prs": null,
   "created_at": "2012-11-16T11:09:13Z",
-  "pushed_at": "2026-11-22T18:37:22Z",
-  "updated_at": "2026-11-24T03:33:28Z",
+  "pushed_at": "2026-11-24T09:44:09Z",
+  "updated_at": "2026-11-24T15:57:55Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 69080,
+  "size_kb": 69305,
   "og_image": "https://opengraph.githubassets.com/1/simple-icons/simple-icons",
   "custom_og_image": false
  },
@@ -82,13 +82,13 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.867Z",
-  "checked_at": "2026-11-24T06:07:43.513Z"
+  "checked_at": "2026-11-24T17:50:01.725Z"
  },
  "contributors": {
-  "count": 913,
+  "count": 914,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-17T11:56:34.652Z"
+  "fetched_at": "2026-11-24T17:50:15.033Z"
  },
- "details_checked_at": "2026-11-24T06:07:43.513Z"
+ "details_checked_at": "2026-11-24T17:50:01.725Z"
 }

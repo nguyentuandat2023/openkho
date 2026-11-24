@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:06:55.717Z",
+ "fetched_at": "2026-11-24T17:49:03.663Z",
  "meta": {
   "name": "ShareX",
   "owner": "ShareX",
@@ -44,14 +44,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 41338,
-  "forks": 4100,
+  "stars": 41350,
+  "forks": 4102,
   "watchers": 549,
-  "open_issues": 613,
+  "open_issues": 618,
   "open_prs": null,
   "created_at": "2013-10-08T23:32:10Z",
   "pushed_at": "2026-11-23T15:04:21Z",
-  "updated_at": "2026-11-24T05:47:06Z",
+  "updated_at": "2026-11-24T17:12:32Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -88,7 +88,7 @@
   "headings": 18,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.017Z",
-  "checked_at": "2026-11-24T06:07:47.302Z"
+  "checked_at": "2026-11-24T17:50:07.237Z"
  },
  "contributors": {
   "count": 311,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.138Z"
  },
- "details_checked_at": "2026-11-24T06:07:47.302Z"
+ "details_checked_at": "2026-11-24T17:50:07.237Z"
 }

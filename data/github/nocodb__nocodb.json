@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T06:06:29.724Z",
+ "fetched_at": "2026-11-24T17:48:31.505Z",
  "meta": {
   "name": "nocodb",
   "owner": "nocodb",
@@ -38,14 +38,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 65600,
-  "forks": 5128,
+  "stars": 65602,
+  "forks": 5130,
   "watchers": 391,
-  "open_issues": 242,
+  "open_issues": 241,
   "open_prs": null,
   "created_at": "2017-10-29T18:51:48Z",
-  "pushed_at": "2026-11-24T06:01:10Z",
-  "updated_at": "2026-11-24T05:57:15Z",
+  "pushed_at": "2026-11-24T17:20:31Z",
+  "updated_at": "2026-11-24T16:57:51Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,7 +54,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 1525047,
+  "size_kb": 1524814,
   "og_image": "https://opengraph.githubassets.com/1/nocodb/nocodb",
   "custom_og_image": false
  },
@@ -82,13 +82,13 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.684Z",
-  "checked_at": "2026-11-24T06:07:46.268Z"
+  "checked_at": "2026-11-24T17:50:05.691Z"
  },
  "contributors": {
-  "count": 361,
+  "count": 365,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-17T11:56:38.955Z"
+  "fetched_at": "2026-11-24T17:50:19.547Z"
  },
- "details_checked_at": "2026-11-24T06:07:46.268Z"
+ "details_checked_at": "2026-11-24T17:50:05.691Z"
 }
