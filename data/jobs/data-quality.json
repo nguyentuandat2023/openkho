@@ -1,8 +1,9 @@
 {
- "computed_at": "2026-11-23T21:30:22.323Z",
+ "computed_at": "2026-11-24T06:09:17.637Z",
  "curated_missing_github_id": [],
  "missing_contributors": 2382,
  "stale_over_48h": [
+  "RustXNG/RustXNG",
   "bipro45/actual-multi-display-configurator",
   "abdulmannanmalik13-wq/adobe-substance-3d-studio",
   "AbhiKamane/ai-app-builder-open",
@@ -79,7 +80,7 @@
   "0marContreras/gta6recomp",
   "Bodila51/gtavi-claudecode"
  ],
- "low_quality_coverage": 602,
+ "low_quality_coverage": 595,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -478,12 +479,22 @@
    "status": "not_found"
   },
   {
+   "id": "bookwjitchieni1986/blender-ai-mcp-addon",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "dickoyudha-netizen/adobe-firefly-image-creator",
    "origin": "radar",
    "status": "not_found"
   },
   {
    "id": "realdody/americas-recomp",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "ItsNotRexed/Leonida",
    "origin": "radar",
    "status": "not_found"
   },
@@ -1331,33 +1342,69 @@
  ],
  "anomalies": [
   {
+   "id": "n8n-io/n8n",
+   "reasons": [
+    "+1.054 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "appwrite/appwrite",
+   "reasons": [
+    "+303 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "mrdoob/three.js",
+   "reasons": [
+    "+535 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "astral-sh/uv",
+   "reasons": [
+    "+365 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
    "id": "EbookFoundation/free-programming-books",
    "reasons": [
-    "+438 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+432 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "nilbuild/developer-roadmap",
    "reasons": [
-    "+477 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+461 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
-   "id": "torvalds/linux",
+   "id": "avelino/awesome-go",
    "reasons": [
-    "+564 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.295 sao nhưng chỉ +3 fork trong cùng kỳ"
    ]
   },
   {
    "id": "freeCodeCamp/freeCodeCamp",
    "reasons": [
-    "+321 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+312 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "nginx/nginx",
+   "reasons": [
+    "+1.036 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "jwasham/coding-interview-university",
    "reasons": [
-    "+405 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+460 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "ruanyf/weekly",
+   "reasons": [
+    "+419 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
@@ -1441,7 +1488,7 @@
   {
    "id": "helloHub1212/dsh-windows-mcp",
    "reasons": [
-    "repo mới với 2.307 sao nhưng gần như không có fork (11) và chưa có issue nào"
+    "repo mới với 2.349 sao nhưng gần như không có fork (11) và chưa có issue nào"
    ]
   },
   {
@@ -1591,7 +1638,7 @@
   {
    "id": "Gosu-x/multimodal-threat-dataset",
    "reasons": [
-    "+484 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+485 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1663,7 +1710,7 @@
   {
    "id": "ShutongLiang/Neural-State-OS",
    "reasons": [
-    "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+358 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1675,7 +1722,7 @@
   {
    "id": "lizhenjie137/intelligent-organization",
    "reasons": [
-    "+388 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+396 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1807,61 +1854,61 @@
   {
    "id": "fujc683/awesome-seedance-2-5-flash-prompts",
    "reasons": [
-    "+342 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+392 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "fujc683/seedance-2-5-flash-api",
    "reasons": [
-    "repo mới với 357 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 438 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "fujc683/seedance-2-5-flash-pricing",
    "reasons": [
-    "repo mới với 370 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 434 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "fujc683/seedance-2-5-flash-alternatives",
    "reasons": [
-    "repo mới với 365 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 444 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "fujc683/seedance-2-5-flash-free-tier",
    "reasons": [
-    "repo mới với 352 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 456 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "fujc683/seedance-2-5-flash-camera-movements",
    "reasons": [
-    "repo mới với 355 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 438 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "fujc683/seedance-2-5-flash-api-proxy",
    "reasons": [
-    "+355 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+447 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "fujc683/seedance-2-5-flash-reference-video",
    "reasons": [
-    "repo mới với 352 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 444 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "fujc683/ai-video-api-gateway",
    "reasons": [
-    "+350 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+433 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "fujc683/cheap-video-api",
    "reasons": [
-    "+356 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+440 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1877,7 +1924,19 @@
    ]
   },
   {
+   "id": "mohidur2005/abbyy-finereader-pdf",
+   "reasons": [
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
    "id": "ali7080/adobe-air-sdk",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "anasarfat2024-ui/adobe-substance-3d",
    "reasons": [
     "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
@@ -1907,6 +1966,18 @@
    ]
   },
   {
+   "id": "MBPERFORMANCE/adobe-lightroom-full",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "rosario28enmanuel-cpu/anydesk-remote-desktop",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
    "id": "youssefco1999-hash/aiseesoft-launch-pro",
    "reasons": [
     "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
@@ -1921,7 +1992,7 @@
   {
    "id": "lebrowndnasty-hash/ai-app-builder",
    "reasons": [
-    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -1951,7 +2022,7 @@
   {
    "id": "icitycode/capcut-for-windows",
    "reasons": [
-    "+357 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1973,9 +2044,33 @@
    ]
   },
   {
+   "id": "samiirnor0-arch/clion-ide",
+   "reasons": [
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
    "id": "parthivvinod95-blip/clion-desktop",
    "reasons": [
     "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "WezTerp/daemon-pro",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Speedydx/delta-force-trainer",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "arnavvashisht135/delta-executor-pc",
+   "reasons": [
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2021,6 +2116,12 @@
    ]
   },
   {
+   "id": "Bishmendark123/frp-launch-tool",
+   "reasons": [
+    "+336 sao nhưng chỉ +1 fork trong cùng kỳ"
+   ]
+  },
+  {
    "id": "23080960124/ibm-spss-statistics",
    "reasons": [
     "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
@@ -2033,7 +2134,19 @@
    ]
   },
   {
+   "id": "Fitzner88/microsoft-project",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
    "id": "jorgezaltoo-design/microsoft-visio",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "njoniktu5/microstation-utility",
    "reasons": [
     "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
@@ -2042,6 +2155,12 @@
    "id": "eastspaper6-cmyk/ninjatrader-bot",
    "reasons": [
     "+339 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "varunbumra09-bot/ph-downer",
+   "reasons": [
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2081,6 +2200,12 @@
    ]
   },
   {
+   "id": "jshami391-bit/scrcpy-screen-mirroring",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
    "id": "Adabi0304/studioonepro7-release",
    "reasons": [
     "+340 sao nhưng chỉ +0 fork trong cùng kỳ"
@@ -2096,6 +2221,12 @@
    "id": "hariachayan5-dotcom/sp-flash-tool",
    "reasons": [
     "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "dagn3009-cyber/sylenth-1-configuration-utility",
+   "reasons": [
+    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2143,14 +2274,25 @@
   {
    "id": "Meetsaini/emulator",
    "reasons": [
-    "+338 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+338 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   }
  ],
  "published_changes": {
-  "added": [],
-  "removed": [],
-  "kept": 600
+  "added": [
+   {
+    "gid": "1469344551",
+    "full_name": "Marvisak/VIctory"
+   }
+  ],
+  "removed": [
+   {
+    "gid": "1465855400",
+    "full_name": "ItsNotRexed/Leonida",
+    "why": "trạng thái not_found"
+   }
+  ],
+  "kept": 599
  },
  "suppressed_clusters": [
   {
@@ -2398,15 +2540,19 @@
    ]
   },
   {
-   "cluster": "campaign-2026-11-21-337",
-   "reason": "Một trong 50 repo khác tên do 50 tài khoản tạo gần như cùng lúc, cùng khoảng 337–340 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "cluster": "campaign-2026-11-21-336",
+   "reason": "Một trong 64 repo khác tên do 64 tài khoản tạo gần như cùng lúc, cùng khoảng 336–340 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
    "repos": [
     "darthvader097br-ctrl/acronis-standalone-bundle",
+    "mohidur2005/abbyy-finereader-pdf",
     "ali7080/adobe-air-sdk",
+    "anasarfat2024-ui/adobe-substance-3d",
     "orakio1975/acrobat-pro-pdf-editor",
     "cleidsonmachadoalves45-byte/adobe-audition",
     "rafiiiakmall-cpu/aida-64-extreme",
     "pravinak1188-design/ashampoo-uninstaller",
+    "MBPERFORMANCE/adobe-lightroom-full",
+    "rosario28enmanuel-cpu/anydesk-remote-desktop",
     "youssefco1999-hash/aiseesoft-launch-pro",
     "yrf15gamin-pixel/ashampoo-winoptimizer-pro",
     "lebrowndnasty-hash/ai-app-builder",
@@ -2416,12 +2562,17 @@
     "juniordroid/better-discord-client",
     "Urvee003/bloxshade-for-roblox",
     "25227georgeyang-cpu/borisfx-video-editor",
+    "icitycode/capcut-for-windows",
     "Dhruv2710-hub/cellebrite-ufed",
     "CertificateVerfication/chimera-utility",
     "maslah44/cinebench-benchmark",
     "fern84-svg/cinema-4d-desktop",
     "Matia442/cinema-4d-utility",
+    "samiirnor0-arch/clion-ide",
     "parthivvinod95-blip/clion-desktop",
+    "WezTerp/daemon-pro",
+    "Speedydx/delta-force-trainer",
+    "arnavvashisht135/delta-executor-pc",
     "gaichayoubb-hub/directory-opus-utility",
     "Gobjb/directory-opus-launch",
     "sadiqameen2005-pixel/display-fusion",
@@ -2433,8 +2584,11 @@
     "23080960124/ibm-spss-statistics",
     "akashak47218/kms-pico-desktop-edition",
     "ayux777/metatrader-5-bot",
+    "Fitzner88/microsoft-project",
     "jorgezaltoo-design/microsoft-visio",
+    "njoniktu5/microstation-utility",
     "eastspaper6-cmyk/ninjatrader-bot",
+    "varunbumra09-bot/ph-downer",
     "vinujak/phantom-blade-zero-modifier",
     "rahul9350125/photo-commander",
     "dongarenikhilit047-star/portfolio-rebalancer",
@@ -2443,9 +2597,11 @@
     "saadiraq2025-cyber/rob-run-mod-menu",
     "CETPROAR/rob-run-ares-enhancer",
     "jomicat1989-dotcom/rust-external-trainer-tool",
+    "jshami391-bit/scrcpy-screen-mirroring",
     "Adabi0304/studioonepro7-release",
     "Daax116/startall-back-utility",
     "hariachayan5-dotcom/sp-flash-tool",
+    "dagn3009-cyber/sylenth-1-configuration-utility",
     "official00shivansh-eng/ultra-iso",
     "VenkateshGorityala/voicemod-audio-modifier",
     "rockford007/xyplorer-file-manager",

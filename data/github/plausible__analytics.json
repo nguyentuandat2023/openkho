@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:26:14.604Z",
+ "fetched_at": "2026-11-24T06:06:06.839Z",
  "meta": {
   "name": "analytics",
   "owner": "plausible",
@@ -44,14 +44,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 29917,
+  "stars": 29922,
   "forks": 1944,
   "watchers": 154,
   "open_issues": 55,
   "open_prs": null,
   "created_at": "2018-12-04T22:33:36Z",
-  "pushed_at": "2026-11-23T19:11:10Z",
-  "updated_at": "2026-11-23T21:01:24Z",
+  "pushed_at": "2026-11-24T04:55:18Z",
+  "updated_at": "2026-11-24T05:33:02Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 730987,
+  "size_kb": 730988,
   "og_image": "https://opengraph.githubassets.com/1/plausible/analytics",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.718Z",
-  "checked_at": "2026-11-23T21:28:07.923Z"
+  "checked_at": "2026-11-24T06:07:45.276Z"
  },
  "contributors": {
   "count": 123,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:37.653Z"
  },
- "details_checked_at": "2026-11-23T21:28:07.923Z"
+ "details_checked_at": "2026-11-24T06:07:45.276Z"
 }

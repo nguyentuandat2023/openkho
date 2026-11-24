@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:23:18.088Z",
+ "fetched_at": "2026-11-24T06:03:35.964Z",
  "meta": {
   "name": "self-hosted-ai-starter-kit",
   "owner": "n8n-io",
@@ -29,14 +29,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 15388,
-  "forks": 3812,
+  "stars": 15390,
+  "forks": 3810,
   "watchers": 179,
   "open_issues": 8,
   "open_prs": null,
   "created_at": "2024-02-23T13:56:32Z",
   "pushed_at": "2026-11-23T09:53:16Z",
-  "updated_at": "2026-11-23T18:47:30Z",
+  "updated_at": "2026-11-24T05:24:00Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -79,7 +79,7 @@
   "headings": 22,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:20.046Z",
-  "checked_at": "2026-11-23T21:27:59.335Z"
+  "checked_at": "2026-11-24T06:07:39.004Z"
  },
  "contributors": {
   "count": 16,
@@ -87,5 +87,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:33.120Z"
  },
- "details_checked_at": "2026-11-23T21:27:59.335Z"
+ "details_checked_at": "2026-11-24T06:07:39.004Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:27:14.879Z",
+ "fetched_at": "2026-11-24T06:06:59.602Z",
  "meta": {
   "name": "immich",
   "owner": "immich-app",
@@ -40,14 +40,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 119958,
-  "forks": 7687,
+  "stars": 119989,
+  "forks": 7688,
   "watchers": 366,
-  "open_issues": 666,
+  "open_issues": 703,
   "open_prs": null,
   "created_at": "2022-02-03T15:56:27Z",
-  "pushed_at": "2026-11-23T21:20:51Z",
-  "updated_at": "2026-11-23T21:12:45Z",
+  "pushed_at": "2026-11-24T05:23:29Z",
+  "updated_at": "2026-11-24T06:05:48Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,7 +56,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 327950,
+  "size_kb": 329430,
   "og_image": "https://opengraph.githubassets.com/1/immich-app/immich",
   "custom_og_image": false
  },
@@ -79,7 +79,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-23T21:28:11.159Z",
-  "checked_at": "2026-11-23T21:28:11.159Z"
+  "checked_at": "2026-11-24T06:07:47.487Z"
  },
  "contributors": {
   "count": 1057,
@@ -87,5 +87,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:42.417Z"
  },
- "details_checked_at": "2026-11-23T21:28:11.159Z"
+ "details_checked_at": "2026-11-24T06:07:47.487Z"
 }

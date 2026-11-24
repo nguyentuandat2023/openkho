@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:25:55.260Z",
+ "fetched_at": "2026-11-24T06:05:49.422Z",
  "meta": {
   "name": "generative-ai-for-beginners",
   "owner": "microsoft",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 124084,
-  "forks": 66867,
+  "stars": 124100,
+  "forks": 66874,
   "watchers": 1027,
   "open_issues": 4,
   "open_prs": null,
   "created_at": "2023-06-19T16:28:59Z",
   "pushed_at": "2026-11-19T03:43:07Z",
-  "updated_at": "2026-11-23T21:22:59Z",
+  "updated_at": "2026-11-24T05:45:55Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -77,7 +77,7 @@
   "headings": 21,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.051Z",
-  "checked_at": "2026-11-23T21:28:06.891Z"
+  "checked_at": "2026-11-24T06:07:44.604Z"
  },
  "contributors": {
   "count": 167,
@@ -85,5 +85,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:36.634Z"
  },
- "details_checked_at": "2026-11-23T21:28:06.891Z"
+ "details_checked_at": "2026-11-24T06:07:44.604Z"
 }

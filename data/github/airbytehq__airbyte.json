@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:24:51.543Z",
+ "fetched_at": "2026-11-24T06:04:54.093Z",
  "meta": {
   "name": "airbyte",
   "owner": "airbytehq",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 22434,
+  "stars": 22436,
   "forks": 5555,
   "watchers": 180,
-  "open_issues": 2827,
+  "open_issues": 2826,
   "open_prs": null,
   "created_at": "2020-07-27T23:55:54Z",
-  "pushed_at": "2026-11-23T20:50:44Z",
-  "updated_at": "2026-11-23T18:33:10Z",
+  "pushed_at": "2026-11-24T01:37:09Z",
+  "updated_at": "2026-11-24T05:09:53Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 711834,
+  "size_kb": 711844,
   "og_image": "https://opengraph.githubassets.com/1/airbytehq/airbyte",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.650Z",
-  "checked_at": "2026-11-23T21:28:03.871Z"
+  "checked_at": "2026-11-24T06:07:42.314Z"
  },
  "contributors": {
   "count": 1271,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:33.175Z"
  },
- "details_checked_at": "2026-11-23T21:28:03.871Z"
+ "details_checked_at": "2026-11-24T06:07:42.314Z"
 }

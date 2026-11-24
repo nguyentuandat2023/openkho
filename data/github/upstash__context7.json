@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:26:29.557Z",
+ "fetched_at": "2026-11-24T06:06:19.962Z",
  "meta": {
   "name": "context7",
   "owner": "upstash",
@@ -28,14 +28,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 65343,
-  "forks": 3266,
+  "stars": 65353,
+  "forks": 3267,
   "watchers": 165,
-  "open_issues": 54,
+  "open_issues": 55,
   "open_prs": null,
   "created_at": "2025-03-26T23:40:39Z",
   "pushed_at": "2026-11-23T13:55:48Z",
-  "updated_at": "2026-11-23T21:19:43Z",
+  "updated_at": "2026-11-24T05:12:10Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -83,7 +83,7 @@
   "headings": 17,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.301Z",
-  "checked_at": "2026-11-23T21:28:08.772Z"
+  "checked_at": "2026-11-24T06:07:45.844Z"
  },
  "contributors": {
   "count": 148,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:38.377Z"
  },
- "details_checked_at": "2026-11-23T21:28:08.772Z"
+ "details_checked_at": "2026-11-24T06:07:45.844Z"
 }

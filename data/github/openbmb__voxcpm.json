@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:23:09.400Z",
+ "fetched_at": "2026-11-24T06:03:28.880Z",
  "meta": {
   "name": "VoxCPM",
   "owner": "OpenBMB",
@@ -38,14 +38,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 42913,
+  "stars": 42928,
   "forks": 4904,
   "watchers": 165,
   "open_issues": 178,
   "open_prs": null,
   "created_at": "2025-09-16T03:41:49Z",
   "pushed_at": "2026-11-09T07:36:59Z",
-  "updated_at": "2026-11-23T21:05:33Z",
+  "updated_at": "2026-11-24T05:57:39Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -87,7 +87,7 @@
   "headings": 32,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:29.136Z",
-  "checked_at": "2026-11-23T21:27:58.925Z"
+  "checked_at": "2026-11-24T06:07:38.763Z"
  },
  "contributors": {
   "count": 31,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:32.678Z"
  },
- "details_checked_at": "2026-11-23T21:27:58.925Z"
+ "details_checked_at": "2026-11-24T06:07:38.763Z"
 }

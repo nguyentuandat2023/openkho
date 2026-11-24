@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:24:40.520Z",
+ "fetched_at": "2026-11-24T06:04:45.490Z",
  "meta": {
   "name": "monica",
   "owner": "monicahq",
@@ -32,14 +32,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 25827,
+  "stars": 25829,
   "forks": 2639,
   "watchers": 294,
   "open_issues": 416,
   "open_prs": null,
   "created_at": "2017-02-17T00:02:58Z",
   "pushed_at": "2026-10-28T22:30:13Z",
-  "updated_at": "2026-11-23T12:30:14Z",
+  "updated_at": "2026-11-24T04:41:00Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -71,7 +71,7 @@
   "headings": 19,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.316Z",
-  "checked_at": "2026-11-23T21:28:03.397Z"
+  "checked_at": "2026-11-24T06:07:41.993Z"
  },
  "contributors": {
   "count": 40,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:32.682Z"
  },
- "details_checked_at": "2026-11-23T21:28:03.397Z"
+ "details_checked_at": "2026-11-24T06:07:41.993Z"
 }

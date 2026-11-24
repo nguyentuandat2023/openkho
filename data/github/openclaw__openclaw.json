@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:22:45.217Z",
+ "fetched_at": "2026-11-24T06:03:08.490Z",
  "meta": {
   "name": "openclaw",
   "owner": "openclaw",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 395110,
-  "forks": 82967,
+  "stars": 395124,
+  "forks": 82970,
   "watchers": 1693,
-  "open_issues": 8974,
+  "open_issues": 8991,
   "open_prs": null,
   "created_at": "2025-11-24T10:16:47Z",
-  "pushed_at": "2026-11-23T21:22:20Z",
-  "updated_at": "2026-11-23T21:22:13Z",
+  "pushed_at": "2026-11-24T06:02:58Z",
+  "updated_at": "2026-11-24T05:54:57Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 17090988,
+  "size_kb": 17195702,
   "og_image": "https://opengraph.githubassets.com/1/openclaw/openclaw",
   "custom_og_image": false
  },
@@ -70,7 +70,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:18.836Z",
-  "checked_at": "2026-11-23T21:27:57.785Z"
+  "checked_at": "2026-11-24T06:07:37.902Z"
  },
  "contributors": {
   "count": 3822,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:31.598Z"
  },
- "details_checked_at": "2026-11-23T21:27:57.785Z"
+ "details_checked_at": "2026-11-24T06:07:37.902Z"
 }

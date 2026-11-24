@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:26:49.331Z",
+ "fetched_at": "2026-11-24T06:06:36.145Z",
  "meta": {
   "name": "baserow",
   "owner": "baserow",
@@ -40,14 +40,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 6381,
+  "stars": 6385,
   "forks": 794,
   "watchers": 45,
-  "open_issues": 1194,
+  "open_issues": 1196,
   "open_prs": null,
   "created_at": "2020-07-20T09:32:04Z",
-  "pushed_at": "2026-11-23T20:17:43Z",
-  "updated_at": "2026-11-23T08:25:32Z",
+  "pushed_at": "2026-11-24T05:14:38Z",
+  "updated_at": "2026-11-24T03:09:46Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -79,7 +79,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.055Z",
-  "checked_at": "2026-11-23T21:28:09.709Z"
+  "checked_at": "2026-11-24T06:07:46.565Z"
  },
  "contributors": {
   "count": 80,
@@ -87,5 +87,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:39.363Z"
  },
- "details_checked_at": "2026-11-23T21:28:09.709Z"
+ "details_checked_at": "2026-11-24T06:07:46.565Z"
 }

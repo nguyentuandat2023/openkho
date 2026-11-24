@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:25:33.685Z",
+ "fetched_at": "2026-11-24T06:05:30.561Z",
  "meta": {
   "name": "bruno",
   "owner": "usebruno",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 48520,
-  "forks": 3137,
+  "stars": 48527,
+  "forks": 3140,
   "watchers": 105,
-  "open_issues": 1993,
+  "open_issues": 1994,
   "open_prs": null,
   "created_at": "2022-09-27T20:51:45Z",
   "pushed_at": "2026-11-23T12:51:27Z",
-  "updated_at": "2026-11-23T19:54:15Z",
+  "updated_at": "2026-11-24T03:19:53Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -88,7 +88,7 @@
   "headings": 18,
   "processor": 4,
   "fetched_at": "2026-11-23T09:06:24.690Z",
-  "checked_at": "2026-11-23T21:28:05.843Z"
+  "checked_at": "2026-11-24T06:07:43.798Z"
  },
  "contributors": {
   "count": 504,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:35.361Z"
  },
- "details_checked_at": "2026-11-23T21:28:05.843Z"
+ "details_checked_at": "2026-11-24T06:07:43.798Z"
 }

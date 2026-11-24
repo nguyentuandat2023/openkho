@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:26:15.540Z",
+ "fetched_at": "2026-11-24T06:06:07.675Z",
  "meta": {
   "name": "matomo",
   "owner": "matomo-org",
@@ -39,14 +39,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 22046,
+  "stars": 22047,
   "forks": 2942,
-  "watchers": 390,
-  "open_issues": 2374,
+  "watchers": 389,
+  "open_issues": 2373,
   "open_prs": null,
   "created_at": "2011-03-30T21:18:17Z",
-  "pushed_at": "2026-11-23T21:03:28Z",
-  "updated_at": "2026-11-23T20:03:01Z",
+  "pushed_at": "2026-11-24T04:43:31Z",
+  "updated_at": "2026-11-24T04:35:21Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,7 +55,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 396869,
+  "size_kb": 395979,
   "og_image": "https://opengraph.githubassets.com/1/matomo-org/matomo",
   "custom_og_image": false
  },
@@ -78,7 +78,7 @@
   "headings": 19,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.740Z",
-  "checked_at": "2026-11-23T21:28:07.994Z"
+  "checked_at": "2026-11-24T06:07:45.259Z"
  },
  "contributors": {
   "count": 452,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:37.706Z"
  },
- "details_checked_at": "2026-11-23T21:28:07.994Z"
+ "details_checked_at": "2026-11-24T06:07:45.259Z"
 }

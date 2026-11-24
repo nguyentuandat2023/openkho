@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:23:30.958Z",
+ "fetched_at": "2026-11-24T06:03:47.273Z",
  "meta": {
   "name": "Scrapling",
   "owner": "D4Vinci",
@@ -44,14 +44,14 @@
    "spdx": "BSD-3-Clause",
    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
   },
-  "stars": 105272,
-  "forks": 11021,
-  "watchers": 354,
-  "open_issues": 25,
+  "stars": 105361,
+  "forks": 11028,
+  "watchers": 356,
+  "open_issues": 26,
   "open_prs": null,
   "created_at": "2024-10-13T20:29:53Z",
   "pushed_at": "2026-11-23T17:30:01Z",
-  "updated_at": "2026-11-23T21:20:33Z",
+  "updated_at": "2026-11-24T05:53:51Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -99,7 +99,7 @@
   "headings": 28,
   "processor": 4,
   "fetched_at": "2026-11-23T21:28:00.001Z",
-  "checked_at": "2026-11-23T21:28:00.001Z"
+  "checked_at": "2026-11-24T06:07:39.510Z"
  },
  "contributors": {
   "count": 53,
@@ -107,5 +107,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:33.842Z"
  },
- "details_checked_at": "2026-11-23T21:28:00.001Z"
+ "details_checked_at": "2026-11-24T06:07:39.510Z"
 }

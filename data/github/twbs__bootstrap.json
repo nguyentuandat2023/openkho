@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:27:57.356Z",
+ "fetched_at": "2026-11-24T06:07:37.680Z",
  "meta": {
   "name": "bootstrap",
   "owner": "twbs",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 175114,
-  "forks": 78756,
-  "watchers": 6602,
-  "open_issues": 245,
+  "stars": 175121,
+  "forks": 78753,
+  "watchers": 6603,
+  "open_issues": 246,
   "open_prs": null,
   "created_at": "2011-07-29T21:19:00Z",
-  "pushed_at": "2026-11-23T19:03:15Z",
-  "updated_at": "2026-11-23T20:57:22Z",
+  "pushed_at": "2026-11-24T02:49:05Z",
+  "updated_at": "2026-11-24T05:05:07Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 328675,
+  "size_kb": 332829,
   "og_image": "https://opengraph.githubassets.com/1/twbs/bootstrap",
   "custom_og_image": false
  },
@@ -60,7 +60,7 @@
   "sections": {
    "install": {
     "title": "Quick start",
-    "html": "<p>Several quick start options are available:</p>\n<ul>\n<li><a href=\"https://github.com/twbs/bootstrap/archive/v6.0.0-alpha.1.zip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download the latest release</a></li>\n<li>Clone the repo: <code>git clone https://github.com/twbs/bootstrap.git</code></li>\n<li>Install with <a href=\"https://www.npmjs.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">npm</a>: <code>npm install bootstrap@6.0.0-alpha.1</code></li>\n<li>Install with <a href=\"https://yarnpkg.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">yarn</a>: <code>yarn add bootstrap@6.0.0-alpha.1</code></li>\n<li>Install with <a href=\"https://bun.sh/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Bun</a>: <code>bun add bootstrap@6.0.0-alpha.1</code></li>\n<li>Install with <a href=\"https://getcomposer.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Composer</a>: <code>composer require twbs/bootstrap:6.0.0-alpha.1</code></li>\n<li>Install with <a href=\"https://www.nuget.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">NuGet</a>: CSS: <code>Install-Package bootstrap</code> Sass: <code>Install-Package bootstrap.sass</code></li>\n</ul>\n<p>Read the <a href=\"https://getbootstrap.com/docs/6.0/getting-started/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Getting started page</a> for information on the framework contents, templates, examples, and more.</p>",
+    "html": "<p>Several quick start options are available:</p>\n<ul>\n<li><a href=\"https://github.com/twbs/bootstrap/archive/v6.0.0-alpha.2.zip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download the latest release</a></li>\n<li>Clone the repo: <code>git clone https://github.com/twbs/bootstrap.git</code></li>\n<li>Install with <a href=\"https://www.npmjs.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">npm</a>: <code>npm install bootstrap@6.0.0-alpha.2</code></li>\n<li>Install with <a href=\"https://yarnpkg.com/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">yarn</a>: <code>yarn add bootstrap@6.0.0-alpha.2</code></li>\n<li>Install with <a href=\"https://bun.sh/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Bun</a>: <code>bun add bootstrap@6.0.0-alpha.2</code></li>\n<li>Install with <a href=\"https://getcomposer.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Composer</a>: <code>composer require twbs/bootstrap:6.0.0-alpha.2</code></li>\n<li>Install with <a href=\"https://www.nuget.org/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">NuGet</a>: CSS: <code>Install-Package bootstrap</code> Sass: <code>Install-Package bootstrap.sass</code></li>\n</ul>\n<p>Read the <a href=\"https://getbootstrap.com/docs/6.0/getting-started/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Getting started page</a> for information on the framework contents, templates, examples, and more.</p>",
     "truncated": false,
     "chars": 826
    },
@@ -69,8 +69,8 @@
   },
   "headings": 20,
   "processor": 4,
-  "fetched_at": "2026-11-21T09:53:07.345Z",
-  "checked_at": "2026-11-23T21:28:13.227Z"
+  "fetched_at": "2026-11-24T06:07:48.941Z",
+  "checked_at": "2026-11-24T06:07:48.941Z"
  },
  "contributors": {
   "count": 1675,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.896Z"
  },
- "details_checked_at": "2026-11-23T21:28:13.227Z"
+ "details_checked_at": "2026-11-24T06:07:48.941Z"
 }

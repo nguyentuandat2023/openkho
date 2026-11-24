@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:25:26.447Z",
+ "fetched_at": "2026-11-24T06:05:23.821Z",
  "meta": {
   "name": "vscode",
   "owner": "microsoft",
@@ -29,14 +29,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 195665,
+  "stars": 195671,
   "forks": 43875,
-  "watchers": 3601,
-  "open_issues": 21892,
+  "watchers": 3602,
+  "open_issues": 21854,
   "open_prs": null,
   "created_at": "2015-09-03T20:23:38Z",
-  "pushed_at": "2026-11-23T21:21:59Z",
-  "updated_at": "2026-11-23T21:24:16Z",
+  "pushed_at": "2026-11-24T06:05:14Z",
+  "updated_at": "2026-11-24T06:04:18Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -45,7 +45,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 1789961,
+  "size_kb": 1789427,
   "og_image": "https://opengraph.githubassets.com/1/microsoft/vscode",
   "custom_og_image": false
  },
@@ -63,7 +63,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.845Z",
-  "checked_at": "2026-11-23T21:28:05.560Z"
+  "checked_at": "2026-11-24T06:07:43.618Z"
  },
  "contributors": {
   "count": 3326,
@@ -71,5 +71,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T11:56:34.785Z"
  },
- "details_checked_at": "2026-11-23T21:28:05.560Z"
+ "details_checked_at": "2026-11-24T06:07:43.618Z"
 }

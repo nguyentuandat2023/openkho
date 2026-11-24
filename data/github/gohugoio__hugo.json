@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-23T21:27:51.365Z",
+ "fetched_at": "2026-11-24T06:07:32.391Z",
  "meta": {
   "name": "hugo",
   "owner": "gohugoio",
@@ -38,7 +38,7 @@
   "open_prs": null,
   "created_at": "2013-07-04T15:26:26Z",
   "pushed_at": "2026-11-23T18:49:14Z",
-  "updated_at": "2026-11-23T19:31:52Z",
+  "updated_at": "2026-11-24T05:54:27Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -70,7 +70,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.554Z",
-  "checked_at": "2026-11-23T21:28:12.959Z"
+  "checked_at": "2026-11-24T06:07:48.764Z"
  },
  "contributors": {
   "count": 939,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-17T21:01:44.486Z"
  },
- "details_checked_at": "2026-11-23T21:28:12.959Z"
+ "details_checked_at": "2026-11-24T06:07:48.764Z"
 }

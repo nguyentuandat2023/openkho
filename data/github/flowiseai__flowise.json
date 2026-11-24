@@ -6,7 +6,7 @@
  "status": "archived",
  "renamed_from": null,
  "source": "graphql",
- "fetched_at": "2026-11-23T21:20:42.210Z",
+ "fetched_at": "2026-11-24T06:01:19.479Z",
  "meta": {
   "name": "Flowise",
   "owner": "FlowiseAI",
@@ -115,9 +115,9 @@
   "total": 307
  },
  "stars_recent": {
-  "per_day": 6.3,
+  "per_day": 6.1,
   "sample": 100,
-  "window_days": 16,
+  "window_days": 16.3,
   "complete": false,
   "method": "stargazers"
  },
@@ -141,7 +141,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:29.897Z",
-  "checked_at": "2026-11-23T21:27:59.683Z"
+  "checked_at": "2026-11-24T06:07:39.312Z"
  },
  "contributors": {
   "count": 331,
@@ -149,5 +149,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:33.512Z"
  },
- "details_checked_at": "2026-11-23T21:27:59.683Z"
+ "details_checked_at": "2026-11-24T06:07:39.312Z"
 }
