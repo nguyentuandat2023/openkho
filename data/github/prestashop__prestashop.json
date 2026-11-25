@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T02:29:20.857Z",
+ "fetched_at": "2026-11-25T12:55:45.066Z",
  "meta": {
   "name": "PrestaShop",
   "owner": "PrestaShop",
@@ -32,14 +32,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 9265,
-  "forks": 5064,
+  "stars": 9266,
+  "forks": 5062,
   "watchers": 438,
-  "open_issues": 2399,
+  "open_issues": 2398,
   "open_prs": null,
   "created_at": "2012-11-19T16:41:31Z",
-  "pushed_at": "2026-11-24T15:05:49Z",
-  "updated_at": "2026-11-24T14:49:53Z",
+  "pushed_at": "2026-11-25T11:16:59Z",
+  "updated_at": "2026-11-25T05:59:28Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,7 +48,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 802474,
+  "size_kb": 802460,
   "og_image": "https://opengraph.githubassets.com/1/PrestaShop/PrestaShop",
   "custom_og_image": false
  },
@@ -71,7 +71,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.649Z",
-  "checked_at": "2026-11-25T02:31:29.448Z"
+  "checked_at": "2026-11-25T12:58:06.896Z"
  },
  "contributors": {
   "count": 1363,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:16.206Z"
  },
- "details_checked_at": "2026-11-25T02:31:29.448Z"
+ "details_checked_at": "2026-11-25T12:58:06.896Z"
 }

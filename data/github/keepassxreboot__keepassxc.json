@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T02:30:40.773Z",
+ "fetched_at": "2026-11-25T12:57:11.893Z",
  "meta": {
   "name": "keepassxc",
   "owner": "keepassxreboot",
@@ -36,14 +36,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 30137,
-  "forks": 2069,
+  "stars": 30146,
+  "forks": 2072,
   "watchers": 271,
   "open_issues": 1042,
   "open_prs": null,
   "created_at": "2016-02-28T15:52:40Z",
   "pushed_at": "2026-11-24T16:59:12Z",
-  "updated_at": "2026-11-24T23:07:14Z",
+  "updated_at": "2026-11-25T12:33:34Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -80,7 +80,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.039Z",
-  "checked_at": "2026-11-25T02:31:32.814Z"
+  "checked_at": "2026-11-25T12:58:11.380Z"
  },
  "contributors": {
   "count": 517,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:34.942Z"
  },
- "details_checked_at": "2026-11-25T02:31:32.814Z"
+ "details_checked_at": "2026-11-25T12:58:11.380Z"
 }

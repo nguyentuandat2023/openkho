@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T02:30:32.611Z",
+ "fetched_at": "2026-11-25T12:57:03.008Z",
  "meta": {
   "name": "AppFlowy",
   "owner": "AppFlowy-IO",
@@ -36,14 +36,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 79515,
-  "forks": 6364,
+  "stars": 79534,
+  "forks": 6367,
   "watchers": 407,
   "open_issues": 1055,
   "open_prs": null,
   "created_at": "2021-06-16T12:56:48Z",
   "pushed_at": "2026-11-15T11:08:51Z",
-  "updated_at": "2026-11-25T02:17:45Z",
+  "updated_at": "2026-11-25T12:45:36Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -75,7 +75,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.814Z",
-  "checked_at": "2026-11-25T02:31:32.419Z"
+  "checked_at": "2026-11-25T12:58:10.935Z"
  },
  "contributors": {
   "count": 382,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:20.790Z"
  },
- "details_checked_at": "2026-11-25T02:31:32.419Z"
+ "details_checked_at": "2026-11-25T12:58:10.935Z"
 }

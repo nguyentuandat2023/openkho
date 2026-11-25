@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T02:27:16.972Z",
+ "fetched_at": "2026-11-25T12:53:25.104Z",
  "meta": {
   "name": "node-red",
   "owner": "node-red",
@@ -30,14 +30,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 23876,
+  "stars": 23878,
   "forks": 3976,
   "watchers": 529,
   "open_issues": 356,
   "open_prs": null,
   "created_at": "2013-09-05T13:30:47Z",
   "pushed_at": "2026-11-24T17:20:02Z",
-  "updated_at": "2026-11-25T00:45:11Z",
+  "updated_at": "2026-11-25T09:01:07Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -69,7 +69,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:29.766Z",
-  "checked_at": "2026-11-25T02:31:23.727Z"
+  "checked_at": "2026-11-25T12:58:00.180Z"
  },
  "contributors": {
   "count": 300,
@@ -77,5 +77,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:33.629Z"
  },
- "details_checked_at": "2026-11-25T02:31:23.727Z"
+ "details_checked_at": "2026-11-25T12:58:00.180Z"
 }

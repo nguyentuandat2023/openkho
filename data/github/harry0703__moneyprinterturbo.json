@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T02:27:20.226Z",
+ "fetched_at": "2026-11-25T12:53:28.720Z",
  "meta": {
   "name": "MoneyPrinterTurbo",
   "owner": "harry0703",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 145516,
-  "forks": 23428,
+  "stars": 145620,
+  "forks": 23439,
   "watchers": 854,
-  "open_issues": 92,
+  "open_issues": 90,
   "open_prs": null,
   "created_at": "2024-03-11T02:57:34Z",
-  "pushed_at": "2026-11-24T01:59:01Z",
-  "updated_at": "2026-11-25T02:22:44Z",
+  "pushed_at": "2026-11-25T08:37:28Z",
+  "updated_at": "2026-11-25T12:41:15Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,22 +54,22 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 541917,
+  "size_kb": 542335,
   "og_image": "https://opengraph.githubassets.com/1/harry0703/MoneyPrinterTurbo",
   "custom_og_image": false
  },
  "readme": {
   "path": "README-en.md",
-  "length": 52457,
+  "length": 52350,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [],
   "sections": {
    "install": {
     "title": "Quick Start",
-    "html": "<h5>Recommended Paths</h5>\n<ul>\n<li>If you do not want to install or configure the project manually: generate videos with an AI Agent</li>\n<li>If you already have Python and want a direct installation: <a href=\"https://github.com/harry0703/MoneyPrinterTurbo#install-the-official-package-with-pip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">install the official package with pip</a></li>\n<li>Windows users: use the one-click package first for the fastest local trial</li>\n<li>For source deployment or development: use <code>uv</code> to manage the environment and dependencies</li>\n<li>If you want a more isolated runtime: use Docker deployment</li>\n</ul>\n<h5>Generate Videos with an AI Agent</h5>\n<p>If your AI Agent can read Skill documents and operate a local terminal, send it the prompt below. The Agent will install and configure MoneyPrinterTurbo, generate the video, and return the video file path. It will ask only for required API keys that are not already configured. This workflow currently supports macOS and Windows.</p>\n<pre><code class=\"language-text\">Use this Skill: https://raw.githubusercontent.com/harry0703/MoneyPrinterTurbo/main/docs/skill/SKILL.md\nCreate a video with the topic \"How AI is changing everyday life.\"\n</code></pre>\n<h5>Run in Google Colab</h5>\n<p>Want to try MoneyPrinterTurbo without setting up a local environment? Run it directly in Google Colab!</p>\n<p><a href=\"https://colab.research.google.com/github/harry0703/MoneyPrinterTurbo/blob/main/docs/MoneyPrinterTurbo.ipynb\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open in Colab\" loading=\"lazy\" decoding=\"async\" /></a></p>\n<h5>Windows</h5>\n<p>Download the latest Windows one-click package from GitHub Releases, then extract it directly.</p>\n<ul>\n<li><a href=\"https://github.com/harry0703/MoneyPrinterTurbo/releases/latest\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download the latest Windows one-click package</a></li>\n</ul>\n<blockquote>\n<p>Download the <code>.7z</code> archive from the <strong>Assets</strong> section of that page. The\nauto-generated <code>Source code (zip)</code> / <code>Source code (tar.gz)</code> archives contain\nsource code only: after extracting them you get <code>webui.bat</code> but no <code>start.bat</code>\nor <code>update.bat</code>.</p>\n</blockquote>\n<p>After downloading, it is recommended to <strong>double-click</strong> <code>update.bat</code> first to update to the <strong>latest code</strong>, then double-click <code>start.bat</code> to launch</p>\n<p>After launching, the browser will open automatically (if it opens blank, it is recommended to use <strong>Chrome</strong> or <strong>Edge</strong>)</p>\n<h5>macOS / Linux</h5>\n<p>Use the local setup or Docker instructions below.</p>",
+    "html": "<h5>Recommended Paths</h5>\n<ul>\n<li>To use the desktop app, <a href=\"https://github.com/harry0703/MoneyPrinterTurbo#download-the-desktop-app\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">download it for your system</a></li>\n<li>If you do not want to install or configure the project manually: generate videos with an AI Agent</li>\n<li>If you already have Python and want a direct installation: <a href=\"https://github.com/harry0703/MoneyPrinterTurbo#install-the-official-package-with-pip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">install the official package with pip</a></li>\n<li>For source deployment or development: use <code>uv</code> to manage the environment and dependencies</li>\n<li>If you want a more isolated runtime: use Docker deployment</li>\n</ul>\n<h5>Download the Desktop App</h5>\n<table>\n<thead>\n<tr>\n<th>System</th>\n<th>Download</th>\n<th>Launch</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>macOS 14 or later (Apple Silicon)</td>\n<td><a href=\"https://github.com/harry0703/MoneyPrinterTurbo/releases/latest/download/MoneyPrinterTurbo-Desktop-macos-arm64.zip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ARM64 ZIP</a></td>\n<td>Extract the ZIP and open <code>MoneyPrinterTurbo.app</code></td>\n</tr>\n<tr>\n<td>Windows (x64)</td>\n<td><a href=\"https://github.com/harry0703/MoneyPrinterTurbo/releases/latest/download/MoneyPrinterTurbo-Desktop-windows-x64.zip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">x64 ZIP</a></td>\n<td>Extract the entire ZIP and double-click <code>MoneyPrinterTurbo.exe</code></td>\n</tr>\n<tr>\n<td>Ubuntu 22.04 (x64)</td>\n<td><a href=\"https://github.com/harry0703/MoneyPrinterTurbo/releases/latest/download/MoneyPrinterTurbo-Desktop-ubuntu-x64.zip\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">x64 ZIP</a></td>\n<td>Extract with <code>unzip</code> and run <code>MoneyPrinterTurbo/bin/mpt-desktop</code></td>\n</tr>\n</tbody></table>\n<h5>Generate Videos with an AI Agent</h5>\n<p>If your AI Agent can read Skill documents and operate a local terminal, send it the prompt below. The Agent will install and configure MoneyPrinterTurbo, generate the video, and return the video file path. It will ask only for required API keys that are not already configured. This workflow currently supports macOS and Windows.</p>\n<pre><code class=\"language-text\">Use this Skill: https://raw.githubusercontent.com/harry0703/MoneyPrinterTurbo/main/docs/skill/SKILL.md\nCreate a video with the topic \"How AI is changing everyday life.\"\n</code></pre>\n<h5>Run in Google Colab</h5>\n<p>Want to try MoneyPrinterTurbo without setting up a local environment? Run it directly in Google Colab!</p>\n<p><a href=\"https://colab.research.google.com/github/harry0703/MoneyPrinterTurbo/blob/main/docs/MoneyPrinterTurbo.ipynb\" rel=\"nofollow noopener noreferrer\" target=\"_blank\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open in Colab\" loading=\"lazy\" decoding=\"async\" /></a></p>",
     "truncated": false,
-    "chars": 2186
+    "chars": 2097
    },
    "usage": null,
    "features": {
@@ -79,11 +79,11 @@
     "chars": 8104
    }
   },
-  "headings": 48,
+  "headings": 47,
   "processor": 4,
   "original_path": "README.md",
-  "fetched_at": "2026-11-20T11:39:58.118Z",
-  "checked_at": "2026-11-25T02:31:23.858Z"
+  "fetched_at": "2026-11-25T12:58:01.217Z",
+  "checked_at": "2026-11-25T12:58:01.217Z"
  },
  "contributors": {
   "count": 182,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:33.665Z"
  },
- "details_checked_at": "2026-11-25T02:31:23.858Z"
+ "details_checked_at": "2026-11-25T12:58:01.217Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T02:29:01.357Z",
+ "fetched_at": "2026-11-25T12:55:23.977Z",
  "meta": {
   "name": "tabler-icons",
   "owner": "tabler",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 22802,
-  "forks": 1292,
+  "stars": 22812,
+  "forks": 1293,
   "watchers": 108,
-  "open_issues": 84,
+  "open_issues": 86,
   "open_prs": null,
   "created_at": "2020-02-27T15:10:04Z",
-  "pushed_at": "2026-11-24T20:36:28Z",
-  "updated_at": "2026-11-25T02:27:38Z",
+  "pushed_at": "2026-11-25T11:30:42Z",
+  "updated_at": "2026-11-25T12:18:21Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,7 +54,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 1147438,
+  "size_kb": 1147440,
   "og_image": "https://opengraph.githubassets.com/1/tabler/tabler-icons",
   "custom_og_image": false
  },
@@ -82,7 +82,7 @@
   "headings": 26,
   "processor": 4,
   "fetched_at": "2026-11-25T02:31:28.785Z",
-  "checked_at": "2026-11-25T02:31:28.785Z"
+  "checked_at": "2026-11-25T12:58:05.836Z"
  },
  "contributors": {
   "count": 110,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:14.788Z"
  },
- "details_checked_at": "2026-11-25T02:31:28.785Z"
+ "details_checked_at": "2026-11-25T12:58:05.836Z"
 }

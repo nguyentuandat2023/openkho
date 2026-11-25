@@ -313,11 +313,6 @@
    "full_name": "amosblomqvist/learn",
    "since": "2026-11-17T02:23:10.342Z"
   },
-  "1345838715": {
-   "full_name": "Derpyu520/qq-bridge",
-   "since": "2026-11-17T11:49:28.515Z",
-   "failing_since": "2026-11-18T11:48:17.030Z"
-  },
   "1346870728": {
    "full_name": "monid-ai/monid",
    "since": "2026-11-17T02:16:46.877Z"
@@ -2384,6 +2379,10 @@
    "full_name": "iamajmeena/neonclipping",
    "since": "2026-11-22T03:17:30.771Z"
   },
+  "1464004445": {
+   "full_name": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+   "since": "2026-11-25T12:50:45.594Z"
+  },
   "1465728637": {
    "full_name": "R0Y00/Xbox2Windows",
    "since": "2026-11-23T21:20:16.888Z"
@@ -2409,5 +2408,5 @@
    "since": "2026-11-25T02:33:08.596Z"
   }
  },
- "updated_at": "2026-11-25T02:33:10.883Z"
+ "updated_at": "2026-11-25T13:00:19.525Z"
 }

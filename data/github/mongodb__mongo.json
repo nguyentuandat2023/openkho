@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T02:28:50.642Z",
+ "fetched_at": "2026-11-25T12:55:11.582Z",
  "meta": {
   "name": "mongo",
   "owner": "mongodb",
@@ -28,14 +28,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 28705,
+  "stars": 28709,
   "forks": 5857,
   "watchers": 1232,
   "open_issues": 46,
   "open_prs": null,
   "created_at": "2009-01-15T16:15:18Z",
-  "pushed_at": "2026-11-25T02:13:42Z",
-  "updated_at": "2026-11-24T22:15:18Z",
+  "pushed_at": "2026-11-25T12:32:34Z",
+  "updated_at": "2026-11-25T10:33:27Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -44,7 +44,7 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 1460506,
+  "size_kb": 1460680,
   "og_image": "https://opengraph.githubassets.com/1/mongodb/mongo",
   "custom_og_image": false
  },
@@ -67,7 +67,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.378Z",
-  "checked_at": "2026-11-25T02:31:28.183Z"
+  "checked_at": "2026-11-25T12:58:05.231Z"
  },
  "contributors": {
   "count": 1518,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:13.967Z"
  },
- "details_checked_at": "2026-11-25T02:31:28.183Z"
+ "details_checked_at": "2026-11-25T12:58:05.231Z"
 }

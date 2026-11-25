@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T02:30:17.840Z",
+ "fetched_at": "2026-11-25T12:56:47.479Z",
  "meta": {
   "name": "webstudio",
   "owner": "webstudio-is",
@@ -75,7 +75,7 @@
   "headings": 3,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.108Z",
-  "checked_at": "2026-11-25T02:31:31.829Z"
+  "checked_at": "2026-11-25T12:58:10.255Z"
  },
  "contributors": {
   "count": 51,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:19.789Z"
  },
- "details_checked_at": "2026-11-25T02:31:31.829Z"
+ "details_checked_at": "2026-11-25T12:58:10.255Z"
 }

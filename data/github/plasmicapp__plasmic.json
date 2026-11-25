@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T02:30:19.731Z",
+ "fetched_at": "2026-11-25T12:56:49.699Z",
  "meta": {
   "name": "plasmic",
   "owner": "plasmicapp",
@@ -92,7 +92,7 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.178Z",
-  "checked_at": "2026-11-25T02:31:31.894Z"
+  "checked_at": "2026-11-25T12:58:10.404Z"
  },
  "contributors": {
   "count": 88,
@@ -100,5 +100,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:20.243Z"
  },
- "details_checked_at": "2026-11-25T02:31:31.894Z"
+ "details_checked_at": "2026-11-25T12:58:10.404Z"
 }

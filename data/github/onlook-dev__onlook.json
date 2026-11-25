@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T02:31:20.519Z",
+ "fetched_at": "2026-11-25T12:57:56.464Z",
  "meta": {
   "name": "onlook",
   "owner": "onlook-dev",
@@ -43,14 +43,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 27894,
-  "forks": 2186,
+  "stars": 27924,
+  "forks": 2191,
   "watchers": 119,
-  "open_issues": 23,
+  "open_issues": 22,
   "open_prs": null,
   "created_at": "2024-06-25T19:16:02Z",
-  "pushed_at": "2026-11-25T02:24:28Z",
-  "updated_at": "2026-11-25T02:22:27Z",
+  "pushed_at": "2026-11-25T10:06:33Z",
+  "updated_at": "2026-11-25T12:33:20Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,22 +59,22 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 92207,
+  "size_kb": 91818,
   "og_image": "https://opengraph.githubassets.com/1/onlook-dev/onlook",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 10937,
+  "length": 10859,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
   "sections": {
    "install": {
     "title": "Getting Started",
-    "html": "<p>🖥️ <a href=\"https://www.onlook.com/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download the Desktop App</a> (Recommended) – The fastest way to get started with Onlook.</p>\n<ul>\n<li>macOS (Apple Silicon · Intel x64) → <a href=\"https://www.onlook.com/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></li>\n<li>Windows – Coming soon. Join the <a href=\"https://www.onlook.com/waitlist?os=windows\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Windows waitlist here</a> and be emailed when we have updates.</li>\n<li>Linux – No Linux artifact is published and we're still gauging demand for Linux. Join the <a href=\"https://www.onlook.com/waitlist?os=linux\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Linux waitlist here</a> and be emailed when we have updates.</li>\n</ul>\n<p>🧑‍💻 Build from source – <a href=\"https://github.com/onlook-dev/onlook/blob/main/SOURCE_BUILD.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SOURCE_BUILD.md</a> covers building and running Onlook on a Mac. No Onlook account or cloud keys needed.</p>",
+    "html": "<p>🖥️ <a href=\"https://www.onlook.com/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download the Desktop App</a> (Recommended) – The fastest way to get started with Onlook.</p>\n<ul>\n<li>macOS (Apple Silicon · Intel x64) → <a href=\"https://www.onlook.com/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></li>\n<li>Windows (x64) → <a href=\"https://www.onlook.com/install\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Download</a></li>\n<li>Linux – No Linux artifact is published and we're still gauging demand for Linux. Join the <a href=\"https://www.onlook.com/waitlist?os=linux\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Linux waitlist here</a> and be emailed when we have updates.</li>\n</ul>\n<p>🧑‍💻 Build from source – <a href=\"https://github.com/onlook-dev/onlook/blob/main/SOURCE_BUILD.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SOURCE_BUILD.md</a> covers building and running Onlook on a Mac. No Onlook account or cloud keys needed.</p>",
     "truncated": false,
-    "chars": 686
+    "chars": 608
    },
    "usage": {
     "title": "Usage data",
@@ -86,8 +86,8 @@
   },
   "headings": 13,
   "processor": 4,
-  "fetched_at": "2026-11-17T21:01:41.799Z",
-  "checked_at": "2026-11-25T02:31:34.307Z"
+  "fetched_at": "2026-11-25T12:58:13.389Z",
+  "checked_at": "2026-11-25T12:58:13.389Z"
  },
  "contributors": {
   "count": 110,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:37.273Z"
  },
- "details_checked_at": "2026-11-25T02:31:34.307Z"
+ "details_checked_at": "2026-11-25T12:58:13.389Z"
 }

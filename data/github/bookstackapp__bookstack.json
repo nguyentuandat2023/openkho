@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T02:30:53.763Z",
+ "fetched_at": "2026-11-25T12:57:26.382Z",
  "meta": {
   "name": "BookStack",
   "owner": "BookStackApp",
@@ -30,14 +30,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 19153,
+  "stars": 19155,
   "forks": 2438,
   "watchers": 195,
   "open_issues": 3,
   "open_prs": null,
   "created_at": "2015-08-29T10:26:44Z",
-  "pushed_at": "2026-11-24T21:23:02Z",
-  "updated_at": "2026-11-24T13:21:20Z",
+  "pushed_at": "2026-11-25T04:31:36Z",
+  "updated_at": "2026-11-25T08:49:49Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -64,7 +64,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.674Z",
-  "checked_at": "2026-11-25T02:31:33.305Z"
+  "checked_at": "2026-11-25T12:58:12.163Z"
  },
  "contributors": {
   "count": 242,
@@ -72,5 +72,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:35.786Z"
  },
- "details_checked_at": "2026-11-25T02:31:33.305Z"
+ "details_checked_at": "2026-11-25T12:58:12.163Z"
 }

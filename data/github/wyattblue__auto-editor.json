@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T02:31:07.245Z",
+ "fetched_at": "2026-11-25T12:57:41.729Z",
  "meta": {
   "name": "auto-editor",
   "owner": "WyattBlue",
@@ -32,14 +32,14 @@
    "spdx": "Unlicense",
    "name": "The Unlicense"
   },
-  "stars": 6109,
-  "forks": 770,
+  "stars": 6125,
+  "forks": 771,
   "watchers": 44,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2020-04-30T04:57:21Z",
-  "pushed_at": "2026-11-25T00:34:51Z",
-  "updated_at": "2026-11-25T01:56:55Z",
+  "pushed_at": "2026-11-25T06:32:30Z",
+  "updated_at": "2026-11-25T12:41:32Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,7 +48,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 122302,
+  "size_kb": 121991,
   "og_image": "https://opengraph.githubassets.com/1/WyattBlue/auto-editor",
   "custom_og_image": false
  },
@@ -71,7 +71,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.198Z",
-  "checked_at": "2026-11-25T02:31:33.804Z"
+  "checked_at": "2026-11-25T12:58:12.724Z"
  },
  "contributors": {
   "count": 17,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:36.230Z"
  },
- "details_checked_at": "2026-11-25T02:31:33.804Z"
+ "details_checked_at": "2026-11-25T12:58:12.724Z"
 }

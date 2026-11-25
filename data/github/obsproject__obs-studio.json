@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T02:30:56.839Z",
+ "fetched_at": "2026-11-25T12:57:29.965Z",
  "meta": {
   "name": "obs-studio",
   "owner": "obsproject",
@@ -35,14 +35,14 @@
    "spdx": "GPL-2.0",
    "name": "GNU General Public License v2.0"
   },
-  "stars": 80060,
-  "forks": 11360,
-  "watchers": 1592,
+  "stars": 80105,
+  "forks": 11367,
+  "watchers": 1591,
   "open_issues": 1217,
   "open_prs": null,
   "created_at": "2013-10-01T02:40:31Z",
   "pushed_at": "2026-11-23T00:47:28Z",
-  "updated_at": "2026-11-25T02:22:13Z",
+  "updated_at": "2026-11-25T12:41:17Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -69,7 +69,7 @@
   "headings": 0,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.748Z",
-  "checked_at": "2026-11-25T02:31:33.424Z"
+  "checked_at": "2026-11-25T12:58:12.223Z"
  },
  "contributors": {
   "count": 757,
@@ -77,5 +77,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:35.898Z"
  },
- "details_checked_at": "2026-11-25T02:31:33.424Z"
+ "details_checked_at": "2026-11-25T12:58:12.223Z"
 }

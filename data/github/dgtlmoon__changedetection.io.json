@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T02:29:56.293Z",
+ "fetched_at": "2026-11-25T12:56:24.461Z",
  "meta": {
   "name": "changedetection.io",
   "owner": "dgtlmoon",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 36013,
-  "forks": 2273,
+  "stars": 36033,
+  "forks": 2275,
   "watchers": 115,
-  "open_issues": 385,
+  "open_issues": 384,
   "open_prs": null,
   "created_at": "2021-01-27T16:03:30Z",
-  "pushed_at": "2026-11-24T17:35:03Z",
-  "updated_at": "2026-11-25T02:19:49Z",
+  "pushed_at": "2026-11-25T12:51:48Z",
+  "updated_at": "2026-11-25T12:15:04Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 82977,
+  "size_kb": 86383,
   "og_image": "https://opengraph.githubassets.com/1/dgtlmoon/changedetection.io",
   "custom_og_image": false
  },
@@ -93,7 +93,7 @@
   "headings": 35,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.140Z",
-  "checked_at": "2026-11-25T02:31:30.928Z"
+  "checked_at": "2026-11-25T12:58:09.072Z"
  },
  "contributors": {
   "count": 184,
@@ -101,5 +101,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:18.644Z"
  },
- "details_checked_at": "2026-11-25T02:31:30.928Z"
+ "details_checked_at": "2026-11-25T12:58:09.072Z"
 }

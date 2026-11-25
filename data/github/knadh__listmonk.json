@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T02:29:48.071Z",
+ "fetched_at": "2026-11-25T12:56:14.409Z",
  "meta": {
   "name": "listmonk",
   "owner": "knadh",
@@ -37,14 +37,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 24449,
-  "forks": 2827,
-  "watchers": 142,
-  "open_issues": 72,
+  "stars": 24457,
+  "forks": 2828,
+  "watchers": 143,
+  "open_issues": 71,
   "open_prs": null,
   "created_at": "2019-06-26T05:08:39Z",
-  "pushed_at": "2026-11-25T02:17:00Z",
-  "updated_at": "2026-11-25T00:25:38Z",
+  "pushed_at": "2026-11-25T07:28:38Z",
+  "updated_at": "2026-11-25T11:10:09Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,7 +53,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 55076,
+  "size_kb": 55133,
   "og_image": "https://opengraph.githubassets.com/1/knadh/listmonk",
   "custom_og_image": false
  },
@@ -76,7 +76,7 @@
   "headings": 5,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.820Z",
-  "checked_at": "2026-11-25T02:31:30.562Z"
+  "checked_at": "2026-11-25T12:58:08.488Z"
  },
  "contributors": {
   "count": 302,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:18.094Z"
  },
- "details_checked_at": "2026-11-25T02:31:30.562Z"
+ "details_checked_at": "2026-11-25T12:58:08.488Z"
 }
