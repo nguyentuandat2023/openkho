@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:53:28.720Z",
+ "fetched_at": "2026-11-25T22:33:10.597Z",
  "meta": {
   "name": "MoneyPrinterTurbo",
   "owner": "harry0703",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 145620,
-  "forks": 23439,
-  "watchers": 854,
-  "open_issues": 90,
+  "stars": 145686,
+  "forks": 23453,
+  "watchers": 853,
+  "open_issues": 91,
   "open_prs": null,
   "created_at": "2024-03-11T02:57:34Z",
   "pushed_at": "2026-11-25T08:37:28Z",
-  "updated_at": "2026-11-25T12:41:15Z",
+  "updated_at": "2026-11-25T22:27:41Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -83,7 +83,7 @@
   "processor": 4,
   "original_path": "README.md",
   "fetched_at": "2026-11-25T12:58:01.217Z",
-  "checked_at": "2026-11-25T12:58:01.217Z"
+  "checked_at": "2026-11-25T22:37:07.933Z"
  },
  "contributors": {
   "count": 182,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:33.665Z"
  },
- "details_checked_at": "2026-11-25T12:58:01.217Z"
+ "details_checked_at": "2026-11-25T22:37:07.933Z"
 }

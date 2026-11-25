@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:57:40.873Z",
+ "fetched_at": "2026-11-25T22:36:50.949Z",
  "meta": {
   "name": "subtitleedit",
   "owner": "SubtitleEdit",
@@ -23,14 +23,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 15132,
+  "stars": 15133,
   "forks": 1398,
   "watchers": 164,
   "open_issues": 207,
   "open_prs": null,
   "created_at": "2014-02-03T08:17:41Z",
-  "pushed_at": "2026-11-25T12:23:37Z",
-  "updated_at": "2026-11-25T12:19:37Z",
+  "pushed_at": "2026-11-25T21:57:43Z",
+  "updated_at": "2026-11-25T22:14:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -39,7 +39,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 300999,
+  "size_kb": 301872,
   "og_image": "https://opengraph.githubassets.com/1/SubtitleEdit/subtitleedit",
   "custom_og_image": false
  },
@@ -62,7 +62,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.172Z",
-  "checked_at": "2026-11-25T12:58:12.815Z"
+  "checked_at": "2026-11-25T22:37:17.413Z"
  },
  "contributors": {
   "count": 249,
@@ -70,5 +70,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:36.625Z"
  },
- "details_checked_at": "2026-11-25T12:58:12.815Z"
+ "details_checked_at": "2026-11-25T22:37:17.413Z"
 }

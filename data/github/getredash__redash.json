@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:54:48.829Z",
+ "fetched_at": "2026-11-25T22:34:19.513Z",
  "meta": {
   "name": "redash",
   "owner": "getredash",
@@ -82,7 +82,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.569Z",
-  "checked_at": "2026-11-25T12:58:04.283Z"
+  "checked_at": "2026-11-25T22:37:10.987Z"
  },
  "contributors": {
   "count": 557,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:12.597Z"
  },
- "details_checked_at": "2026-11-25T12:58:04.283Z"
+ "details_checked_at": "2026-11-25T22:37:10.987Z"
 }

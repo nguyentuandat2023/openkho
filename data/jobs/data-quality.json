@@ -1,5 +1,5 @@
 {
- "computed_at": "2026-11-25T13:00:16.990Z",
+ "computed_at": "2026-11-25T22:38:47.525Z",
  "curated_missing_github_id": [],
  "missing_contributors": 2378,
  "stale_over_48h": [
@@ -70,7 +70,6 @@
   "alex-wells-65/iobit-driver-booster-desktop",
   "ava25-thompson/fishstrap-roblox-fps-booster-desktop",
   "azuresail195/wondershare-recoverit-desktop",
-  "ben-kennedy-81/xfer-serum-desktop",
   "brave-shell-07/izotope-rx-11-desktop",
   "krisgfx9/Wireless-Device-Battery-Monitor",
   "gylive/google-ultra",
@@ -78,42 +77,134 @@
   "sourmitocand1987/VividFrame-GPU",
   "0marContreras/gta6recomp",
   "Bodila51/gtavi-claudecode",
+  "dickoyudha-netizen/adobe-firefly-image-creator",
+  "realdody/americas-recomp",
   "hatsunemiku-ai/google-one-tools",
+  "cachedarknorth54/wolfram-alpha-pro-win",
+  "Fadiperez71/substance-painter-win",
+  "LongNorth1998/charles-proxy-win",
+  "Jnikitin06/pioneer-dj-rekordbox-win",
+  "JieFedorov81/runway-ml-pro-win",
+  "debugdigital677/descript-pro-win",
+  "ruiz1341/gitkraken-pro-win",
+  "Mahmoudp06/serato-dj-suite-win",
+  "Jeretei33/clair-obscur-expedition-33-win",
   "zainzedan1111-commits/auto-withdraw-bot",
+  "YudiGardner/ansys-2026-win",
+  "Chukwudi-code83/driver-easy-pro-win",
+  "25227georgeyang-cpu/borisfx-video-editor",
+  "owensmario536/jetbrains-pycharm-ultimate-win",
+  "VINODP86/magix-vegas-win",
+  "craign03/pioneer-dj-rekordbox-win",
+  "fern84-svg/cinema-4d-desktop",
+  "Matia442/cinema-4d-utility",
+  "BhaveshPham/tableau-prep-win",
   "hendersonbharat/avast-premium-security-win",
+  "ycollins30/clip-studio-paint-ex-win",
   "opokukopoku/gta-6-pc-release",
   "SABINOGAMESPONTOCOM/honeypot-detector",
+  "hub-bear-blue/revit-2026-win",
+  "birdsolutions98/v-ray-for-revit-win",
+  "Joanegorov01/capture-one-pro-win",
+  "WebShort/unreal-5-4-win",
+  "akashak47218/kms-pico-desktop-edition",
+  "Morriswawan05/elevenlabs-pro-win",
+  "Maheshgray68/sublime-text-4-win",
+  "Truesand8603/beyond-compare-4-win",
+  "FadiHarris80/fusion-360-win",
+  "bozkurthasan/marmoset-toolbag-5-win",
+  "Shellsmall/mathway-premium-win",
+  "fernandeslokesh10/figma-desktop-win",
+  "kofistudio/autocad-2026-win",
+  "birddebug/cinema-4d-win",
+  "bo-design8152/filmora-win",
+  "bearclicache812/insomnia-pro-win",
   "kernelbest/kaspersky-premium-win",
+  "cacheapp2003/microsoft-office-win",
+  "Cloudcode04/runway-ml-pro-win",
+  "castro-vivek-31/rhino-8-win",
+  "Bagussa998/affinity-designer-2-win",
+  "emekayang2003/substance-painter-win",
+  "cliblacktech/unreal-5-6-win",
+  "samir-cai/nitro-pro-win",
+  "Wojcik1999/rob-run-menu-win",
+  "CliBranchLong/microsoft-excel-win",
+  "Mnowak64/iobit-uninstaller-pro-win",
+  "freerealstudio/figma-desktop-win",
+  "NileshLiu/acrobat-dc-win",
+  "Snow-clienT-best1/microsoft-excel-vcardconverter-win",
+  "Chowdhurymary/microsoft-office-premium-win",
+  "LuisDesai/trimble-sketchup-win",
+  "Shortproxy2007/fabfilter-pro-l-2-win",
+  "veshah/quillbot-premium-win",
+  "igwei/topaz-video-ai-win",
+  "rodr1guezandrew356/berlin-strings-win",
+  "pilpay29/izotope-nectar-4-win",
+  "debraly2005/softube-console-1-win",
+  "deepaksilva/u-he-hive-2-win",
+  "Jxue907/mathcad-prime-win",
+  "logbor2000/adobe-photoshop-elements-win",
+  "bluepatchproxy/cableguys-shaperbox-3-win",
+  "suryacode04/jasper-ai-win",
+  "colealina/winrar-7-win",
+  "Juanlabs1989/descript-pro-win",
+  "alexandere58/ableton-live-win",
+  "Fire-snow-07/spectrasonics-stylus-rmx-win",
+  "NaHamilton/toontrack-superior-drummer-win",
+  "monicaellis48/jetbrains-intellij-idea-win",
+  "Scottmauricio/indesign-cc-win",
+  "blessingc185/advanced-systemcare-pro-win",
+  "andresdeshmukh26/synchro-arts-vocalign-pro-win",
+  "Roagu1lar/autodesk-fusion-360-win",
+  "Polinaagarwal02/native-instruments-komplete-win",
+  "alexeytarasov8/jetbrains-pycharm-professional-win",
+  "Nilespand/tableau-desktop-win",
+  "PatriciaIo/topaz-denoise-ai-win",
+  "andrewpandey/total-commander-win",
+  "PatriciaIo/deflicker-for-after-effects-win",
+  "Clientplus1990/streamlabs-desktop-win",
+  "christinaarslan01/output-portal-win",
+  "aslanabigail/autocad-2026-win",
+  "Hasanturner/discord-nitro-premium-win",
+  "VitalyMukherjee92/lightroom-classic-win",
+  "serkanellis/spire-win",
+  "Cool-east811/presonus-studio-one-win",
+  "moon-dark2000/todoist-pro-win",
+  "deep-patch-true/synchro-arts-revoice-pro-5-win",
+  "tiansokolov/pdfelement-win",
+  "Tarunwang/fl-studio-win",
+  "sloweastlab1987/wise-care-365-pro-win",
+  "Debrde30/deepl-pro-win",
+  "loudonline/metatrader-5-pro-win",
+  "YASIRCAMPBELL2/acrobat-pro-win",
+  "alexeytarasov8/filmora-win",
+  "Link-script-new/notion-win",
+  "kennethw627/figma-win",
+  "rockcode55/keyscape-win",
+  "huif1993/oeksound-soothe-2-win",
+  "aminatapolat/plugin-alliance-mega-bundle-win",
+  "meiluo13/sylenth1-win",
+  "buildpixelwind/photoshop-win",
+  "Aroralayla99/capcut-seedance-win",
+  "michellemurphy2001/affinity-designer-2-win",
+  "Nilespand/acronis-true-image-win",
+  "GuzmanJacqueline93/copy-ai-pro-win",
+  "Fast-black-tech5681/archicad-win",
+  "volkov-ping/camtasia-win",
+  "G4rdner26/luminar-neo-win",
   "saadiraq2025-cyber/rob-run-mod-menu",
   "CETPROAR/rob-run-ares-enhancer",
   "marcus-ali-lab1905z4/cad-3d-engineering-suite-solidworks-2026-sp1-ssq-po",
   "ericwilsoneng1994y8/xeno-bootstrapper-v1-60-direct-desktop-portable-x64",
   "sam-king-1904w1/wave-velocity-bootstrapper-direct-lite-loader-100-portable",
+  "felixrajdev2096h7/fivem-citizenfx-adhesive-utility-clean-cleaner-portable-x6",
   "marcus-ali-lab1905z4/path-of-exile-2-map-reveal-zoom-out-portable-x64",
   "max-moore-x1905b1/arc-raiders-external-extraction-radar-loot-portable-x64",
   "david-ivanovio2004x4/schedule-i-melonloader-mod-menu-cash-portable-x64",
-  "kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64",
-  "ericgarciacode03f3/creative-video-adobe-cc-v4-universal-portable-x64",
-  "sergeygarcia-devo0/wave-velocity-bootstrapper-external-luau-loader-serial-por",
-  "leonmiller-io01l1/gta-6-vice-city-ps5-remote-play-60fps-portable-x64",
-  "max-clarkdev2097g3/arc-raiders-weapon-recoil-spread-compensation-portable-x64",
-  "danielrops99q3/deadlock-minimap-cooldown-jungle-timer-portable-x64",
-  "kyle-moore-code2001v1/marvel-rivals-hitscan-projectile-smoothing-assistant-porta",
-  "artem-petrovlab04i2/counter-strike-2-inventory-skin-knife-glove-portable-x64",
-  "anton-g-dev2099m4/escape-from-tarkov-spt-aki-10-profile-portable-x64",
-  "anton-ivanov-97x5/call-of-duty-black-ops-6-warzone-camo-blueprint-operator-l",
-  "danx1905k8/war-thunder-realistic-tank-outline-thermal-portable-x64",
-  "ryan-v-x2003c8/ea-sports-fc-26-green-timed-finishing-legacy-portable-x64",
-  "kevincodeeng2099i4/shadps4-bloodborne-pc-1440p-4k-resolution-scaler-portable",
-  "jake-j-19d3/discord-local-uncensored-ai-deep-live-cam-v2-portable-x64",
-  "nickcode-01e6/samsung-android-mtp-unlocktool-portable-loader-xiaomi-port",
-  "nikitadlab00k6/fivem-hwid-spoofer",
-  "ericmoorecode2001j6/monster-hunter-wilds-reframework-download",
-  "antong-code95j8/rust-recoil-script-download",
-  "ivan-taylorio94v4/marvel-rivals-cheat-download",
-  "eric-lopezdev1992b4/polar-client-skyblock-mining-2026"
+  "kyle-brown-io2003g7/civilization-vii-in-game-editor-ige-portable-x64",
+  "markdevx1901r4/shadps4-bloodborne-pc-60fps-patch-vertex-explosion-portabl"
  ],
- "low_quality_coverage": 576,
+ "low_quality_coverage": 577,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -472,12 +563,12 @@
    "status": "not_found"
   },
   {
-   "id": "ben-kennedy-81/xfer-serum-desktop",
+   "id": "brave-shell-07/izotope-rx-11-desktop",
    "origin": "radar",
    "status": "not_found"
   },
   {
-   "id": "brave-shell-07/izotope-rx-11-desktop",
+   "id": "zgraham1981/Stablecoin-Payment-Gateway",
    "origin": "radar",
    "status": "not_found"
   },
@@ -513,6 +604,11 @@
   },
   {
    "id": "aurahamzzz-cyber/microsoft-excel-alvaora",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
    "origin": "radar",
    "status": "not_found"
   },
@@ -783,6 +879,11 @@
   },
   {
    "id": "Wojcik1999/rob-run-menu-win",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "eastspaper6-cmyk/ninjatrader-bot",
    "origin": "radar",
    "status": "not_found"
   },
@@ -1337,7 +1438,17 @@
    "status": "not_found"
   },
   {
+   "id": "rowanbyte3329/stardew-valley-mod-manager",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "LeonidaReforge/Leonida",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Zettrox/ztrx",
    "origin": "radar",
    "status": "not_found"
   }
@@ -1422,27 +1533,21 @@
  ],
  "anomalies": [
   {
-   "id": "supabase/supabase",
-   "reasons": [
-    "+346 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
    "id": "mrdoob/three.js",
    "reasons": [
-    "+532 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+544 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "EbookFoundation/free-programming-books",
    "reasons": [
-    "+437 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+439 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "nilbuild/developer-roadmap",
    "reasons": [
-    "+448 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+457 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1454,43 +1559,31 @@
   {
    "id": "Stirling-Tools/Stirling-PDF",
    "reasons": [
-    "+519 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+513 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "torvalds/linux",
    "reasons": [
-    "+523 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "avelino/awesome-go",
-   "reasons": [
-    "+1.310 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+540 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "freeCodeCamp/freeCodeCamp",
    "reasons": [
-    "+322 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+326 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "nginx/nginx",
    "reasons": [
-    "+1.050 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.183 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "jwasham/coding-interview-university",
    "reasons": [
-    "+550 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "ruanyf/weekly",
-   "reasons": [
-    "+436 sao nhưng chỉ +1 fork trong cùng kỳ"
+    "+540 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1514,7 +1607,7 @@
   {
    "id": "ifixai-ai/iFixAi",
    "reasons": [
-    "+826 sao nhưng chỉ +1 fork trong cùng kỳ"
+    "+803 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1574,13 +1667,13 @@
   {
    "id": "byted-technologies/.github",
    "reasons": [
-    "repo mới với 3.985 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 3.983 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "helloHub1212/dsh-windows-mcp",
    "reasons": [
-    "repo mới với 2.512 sao nhưng gần như không có fork (11) và chưa có issue nào"
+    "repo mới với 2.542 sao nhưng gần như không có fork (11) và chưa có issue nào"
    ]
   },
   {
@@ -1640,7 +1733,7 @@
   {
    "id": "ksjhk/api",
    "reasons": [
-    "repo mới với 1.059 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.073 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -1802,7 +1895,7 @@
   {
    "id": "ShutongLiang/Neural-State-OS",
    "reasons": [
-    "+397 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+401 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1820,7 +1913,7 @@
   {
    "id": "lizhenjie137/intelligent-organization",
    "reasons": [
-    "+459 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+484 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2018,410 +2111,409 @@
   {
    "id": "darthvader097br-ctrl/acronis-standalone-bundle",
    "reasons": [
-    "repo mới với 340 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 339 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "mohidur2005/abbyy-finereader-pdf",
    "reasons": [
-    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+335 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "ali7080/adobe-air-sdk",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "anasarfat2024-ui/adobe-substance-3d",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "orakio1975/acrobat-pro-pdf-editor",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "cleidsonmachadoalves45-byte/adobe-audition",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "rafiiiakmall-cpu/aida-64-extreme",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "pravinak1188-design/ashampoo-uninstaller",
    "reasons": [
-    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "MBPERFORMANCE/adobe-lightroom-full",
    "reasons": [
-    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "rosario28enmanuel-cpu/anydesk-remote-desktop",
    "reasons": [
-    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "youssefco1999-hash/aiseesoft-launch-pro",
    "reasons": [
-    "repo mới với 339 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "yrf15gamin-pixel/ashampoo-winoptimizer-pro",
    "reasons": [
-    "repo mới với 339 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "lebrowndnasty-hash/ai-app-builder",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "dillithdillith4-cell/autodesk-cfd",
    "reasons": [
-    "repo mới với 340 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "repo mới với 339 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
    "id": "Redwannn/avid-media-composer",
    "reasons": [
-    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "juniordroid/better-discord-client",
    "reasons": [
-    "repo mới với 340 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 339 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Urvee003/bloxshade-for-roblox",
    "reasons": [
-    "repo mới với 339 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Dhruv2710-hub/cellebrite-ufed",
    "reasons": [
-    "repo mới với 340 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 339 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "CertificateVerfication/chimera-utility",
    "reasons": [
-    "repo mới với 339 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "maslah44/cinebench-benchmark",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "samiirnor0-arch/clion-ide",
    "reasons": [
-    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+335 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "parthivvinod95-blip/clion-desktop",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WezTerp/daemon-pro",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Speedydx/delta-force-trainer",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "gaichayoubb-hub/directory-opus-utility",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Gobjb/directory-opus-launch",
    "reasons": [
-    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "sadiqameen2005-pixel/display-fusion",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
    "id": "SELAMUMESHESHA/dxo-photolab-10",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "drillryte/easy-worship",
    "reasons": [
-    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Buntee-tech/exitlag-utility",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Yummy2288/fonetrans-desktop-utility",
    "reasons": [
-    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Bishmendark123/frp-launch-tool",
    "reasons": [
-    "+336 sao nhưng chỉ +1 fork trong cùng kỳ"
+    "+335 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
    "id": "23080960124/ibm-spss-statistics",
    "reasons": [
-    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "abj-a11y/landr-plugin-bundle",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "ayux777/metatrader-5-bot",
    "reasons": [
-    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Fitzner88/microsoft-project",
    "reasons": [
-    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "jorgezaltoo-design/microsoft-visio",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "njoniktu5/microstation-utility",
    "reasons": [
-    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "eastspaper6-cmyk/ninjatrader-bot",
-   "reasons": [
-    "repo mới với 339 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "varunbumra09-bot/ph-downer",
    "reasons": [
-    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+335 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "vinujak/phantom-blade-zero-modifier",
    "reasons": [
-    "repo mới với 340 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 339 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "rahul9350125/photo-commander",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "dongarenikhilit047-star/portfolio-rebalancer",
    "reasons": [
-    "repo mới với 339 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "purvprajapati2504-design/premiere-pro-video-editor",
    "reasons": [
-    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "cr4zyp4ul/quicken-deluxe",
    "reasons": [
-    "repo mới với 339 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "jomicat1989-dotcom/rust-external-trainer-tool",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "jshami391-bit/scrcpy-screen-mirroring",
    "reasons": [
-    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Adabi0304/studioonepro7-release",
    "reasons": [
-    "repo mới với 341 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 340 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Daax116/startall-back-utility",
    "reasons": [
-    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "hariachayan5-dotcom/sp-flash-tool",
    "reasons": [
-    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "dagn3009-cyber/sylenth-1-configuration-utility",
    "reasons": [
-    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "official00shivansh-eng/ultra-iso",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "VenkateshGorityala/voicemod-audio-modifier",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "rockford007/xyplorer-file-manager",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "praseesh369/youtube-ai-video-editing-system",
    "reasons": [
-    "repo mới với 339 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "aathreynair22-bit/wifi-password-tester",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "olive527/steam-library-manager-windows",
    "reasons": [
-    "+723 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 719 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Basil0879/steam-game-idler",
    "reasons": [
-    "+682 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "rowanbyte3329/stardew-valley-mod-manager",
-   "reasons": [
-    "+871 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 681 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "peak85-sketch/stardew-valley-mod-manager",
    "reasons": [
-    "+514 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 509 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Indigo-0167/universal-game-mod-manager",
    "reasons": [
-    "+1.300 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+750 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "solv4626/steam-achievement-manager-windows",
    "reasons": [
-    "+1.063 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+492 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "kai415-debug/ffmpeg-video-audio-converter",
    "reasons": [
-    "+1.024 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+451 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Nebula4207/av1-video-encoder-gui",
    "reasons": [
-    "+685 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 681 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "umbradev315/ffmpeg-video-audio-converter",
    "reasons": [
-    "+554 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 551 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "zero5122/offline-file-converter-windows",
    "reasons": [
-    "+1.060 sao nhưng chỉ +1 fork trong cùng kỳ"
+    "+474 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Umbra9179/clipboard-history-manager-windows",
    "reasons": [
-    "+1.265 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+734 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   }
  ],
  "published_changes": {
-  "added": [],
-  "removed": [],
-  "kept": 600
+  "added": [
+   {
+    "gid": "1466700014",
+    "full_name": "qianyiai/kurocat"
+   }
+  ],
+  "removed": [
+   {
+    "gid": "1464004445",
+    "full_name": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
+    "why": "trạng thái not_found"
+   }
+  ],
+  "kept": 599
  },
  "suppressed_clusters": [
   {
@@ -2667,8 +2759,8 @@
    ]
   },
   {
-   "cluster": "campaign-2026-11-21-336",
-   "reason": "Một trong 65 repo khác tên do 65 tài khoản tạo gần như cùng lúc, cùng khoảng 336–341 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "cluster": "campaign-2026-11-21-335",
+   "reason": "Một trong 65 repo khác tên do 65 tài khoản tạo gần như cùng lúc, cùng khoảng 335–340 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
    "repos": [
     "darthvader097br-ctrl/acronis-standalone-bundle",
     "mohidur2005/abbyy-finereader-pdf",

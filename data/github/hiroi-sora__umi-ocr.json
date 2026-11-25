@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:57:07.546Z",
+ "fetched_at": "2026-11-25T22:36:21.688Z",
  "meta": {
   "name": "Umi-OCR",
   "owner": "hiroi-sora",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 48978,
-  "forks": 4792,
-  "watchers": 231,
+  "stars": 48983,
+  "forks": 4794,
+  "watchers": 232,
   "open_issues": 371,
   "open_prs": null,
   "created_at": "2022-03-28T04:01:46Z",
   "pushed_at": "2025-11-20T14:58:13Z",
-  "updated_at": "2026-11-25T12:13:47Z",
+  "updated_at": "2026-11-25T21:13:22Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -76,7 +76,7 @@
   "processor": 4,
   "original_path": "README.md",
   "fetched_at": "2026-11-17T11:56:29.192Z",
-  "checked_at": "2026-11-25T12:58:11.160Z"
+  "checked_at": "2026-11-25T22:37:16.197Z"
  },
  "contributors": {
   "count": 17,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:34.616Z"
  },
- "details_checked_at": "2026-11-25T12:58:11.160Z"
+ "details_checked_at": "2026-11-25T22:37:16.197Z"
 }

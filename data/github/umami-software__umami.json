@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:56:09.432Z",
+ "fetched_at": "2026-11-25T22:35:31.188Z",
  "meta": {
   "name": "umami",
   "owner": "umami-software",
@@ -33,14 +33,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 40343,
-  "forks": 8653,
+  "stars": 40352,
+  "forks": 8656,
   "watchers": 140,
-  "open_issues": 150,
+  "open_issues": 140,
   "open_prs": null,
   "created_at": "2020-07-17T07:59:00Z",
-  "pushed_at": "2026-11-25T08:39:55Z",
-  "updated_at": "2026-11-25T12:47:56Z",
+  "pushed_at": "2026-11-25T21:44:05Z",
+  "updated_at": "2026-11-25T22:22:57Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,7 +49,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 34208,
+  "size_kb": 34243,
   "og_image": "https://opengraph.githubassets.com/1/umami-software/umami",
   "custom_og_image": false
  },
@@ -72,7 +72,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.607Z",
-  "checked_at": "2026-11-25T12:58:08.346Z"
+  "checked_at": "2026-11-25T22:37:14.151Z"
  },
  "contributors": {
   "count": 476,
@@ -80,5 +80,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:17.698Z"
  },
- "details_checked_at": "2026-11-25T12:58:08.346Z"
+ "details_checked_at": "2026-11-25T22:37:14.151Z"
 }

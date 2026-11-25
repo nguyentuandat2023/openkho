@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:53:22.399Z",
+ "fetched_at": "2026-11-25T22:33:05.233Z",
  "meta": {
   "name": "awesome-n8n-templates",
   "owner": "enescingoz",
@@ -40,14 +40,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 26564,
-  "forks": 6652,
+  "stars": 26568,
+  "forks": 6653,
   "watchers": 343,
   "open_issues": 122,
   "open_prs": null,
   "created_at": "2025-05-08T18:34:01Z",
   "pushed_at": "2026-09-12T13:00:32Z",
-  "updated_at": "2026-11-25T12:47:43Z",
+  "updated_at": "2026-11-25T21:17:20Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -79,7 +79,7 @@
   "headings": 36,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:29.686Z",
-  "checked_at": "2026-11-25T12:58:00.113Z"
+  "checked_at": "2026-11-25T22:37:07.690Z"
  },
  "contributors": {
   "count": 60,
@@ -87,5 +87,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:33.164Z"
  },
- "details_checked_at": "2026-11-25T12:58:00.113Z"
+ "details_checked_at": "2026-11-25T22:37:07.690Z"
 }

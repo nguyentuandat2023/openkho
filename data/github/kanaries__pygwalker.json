@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:54:54.355Z",
+ "fetched_at": "2026-11-25T22:34:23.716Z",
  "meta": {
   "name": "pygwalker",
   "owner": "Kanaries",
@@ -39,7 +39,7 @@
   "open_issues": 72,
   "open_prs": null,
   "created_at": "2023-02-16T05:17:24Z",
-  "pushed_at": "2026-09-05T19:19:19Z",
+  "pushed_at": "2026-11-25T19:29:53Z",
   "updated_at": "2026-11-25T11:19:21Z",
   "archived": false,
   "disabled": false,
@@ -49,13 +49,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 75119,
+  "size_kb": 75141,
   "og_image": "https://opengraph.githubassets.com/1/Kanaries/pygwalker",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 23898,
+  "length": 23587,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [
@@ -87,8 +87,8 @@
   },
   "headings": 21,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:23.755Z",
-  "checked_at": "2026-11-25T12:58:04.463Z"
+  "fetched_at": "2026-11-25T22:37:11.174Z",
+  "checked_at": "2026-11-25T22:37:11.174Z"
  },
  "contributors": {
   "count": 28,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:12.877Z"
  },
- "details_checked_at": "2026-11-25T12:58:04.463Z"
+ "details_checked_at": "2026-11-25T22:37:11.174Z"
 }

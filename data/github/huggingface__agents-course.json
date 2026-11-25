@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:55:58.275Z",
+ "fetched_at": "2026-11-25T22:35:20.860Z",
  "meta": {
   "name": "agents-course",
   "owner": "huggingface",
@@ -31,14 +31,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 35419,
-  "forks": 2543,
+  "stars": 35434,
+  "forks": 2546,
   "watchers": 229,
   "open_issues": 200,
   "open_prs": null,
   "created_at": "2025-01-16T19:50:22Z",
   "pushed_at": "2026-11-17T00:53:47Z",
-  "updated_at": "2026-11-25T12:36:24Z",
+  "updated_at": "2026-11-25T21:31:14Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -65,7 +65,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.146Z",
-  "checked_at": "2026-11-25T12:58:07.683Z"
+  "checked_at": "2026-11-25T22:37:13.594Z"
  },
  "contributors": {
   "count": 196,
@@ -73,5 +73,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:17.208Z"
  },
- "details_checked_at": "2026-11-25T12:58:07.683Z"
+ "details_checked_at": "2026-11-25T22:37:13.594Z"
 }

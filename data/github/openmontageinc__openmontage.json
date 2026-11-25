@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:53:33.215Z",
+ "fetched_at": "2026-11-25T22:33:14.378Z",
  "meta": {
   "name": "OpenMontage",
   "owner": "OpenMontageInc",
@@ -43,14 +43,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 83233,
-  "forks": 11339,
-  "watchers": 415,
+  "stars": 83319,
+  "forks": 11362,
+  "watchers": 416,
   "open_issues": 357,
   "open_prs": null,
   "created_at": "2026-03-29T15:23:22Z",
   "pushed_at": "2026-11-16T06:55:27Z",
-  "updated_at": "2026-11-25T12:50:42Z",
+  "updated_at": "2026-11-25T22:28:40Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -82,7 +82,7 @@
   "headings": 37,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:20.586Z",
-  "checked_at": "2026-11-25T12:58:00.625Z"
+  "checked_at": "2026-11-25T22:37:08.174Z"
  },
  "contributors": {
   "count": 129,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:33.927Z"
  },
- "details_checked_at": "2026-11-25T12:58:00.625Z"
+ "details_checked_at": "2026-11-25T22:37:08.174Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:54:39.991Z",
+ "fetched_at": "2026-11-25T22:34:11.982Z",
  "meta": {
   "name": "monica",
   "owner": "monicahq",
@@ -32,14 +32,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 25834,
-  "forks": 2641,
-  "watchers": 294,
-  "open_issues": 341,
+  "stars": 25837,
+  "forks": 2640,
+  "watchers": 293,
+  "open_issues": 338,
   "open_prs": null,
   "created_at": "2017-02-17T00:02:58Z",
-  "pushed_at": "2026-11-25T12:54:08Z",
-  "updated_at": "2026-11-25T11:21:11Z",
+  "pushed_at": "2026-11-25T22:33:52Z",
+  "updated_at": "2026-11-25T21:31:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,13 +48,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 186642,
+  "size_kb": 188104,
   "og_image": "https://opengraph.githubassets.com/1/monicahq/monica",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 10352,
+  "length": 10547,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
@@ -68,10 +68,10 @@
     "chars": 650
    }
   },
-  "headings": 19,
+  "headings": 20,
   "processor": 4,
-  "fetched_at": "2026-11-25T02:31:26.777Z",
-  "checked_at": "2026-11-25T12:58:03.853Z"
+  "fetched_at": "2026-11-25T22:37:10.728Z",
+  "checked_at": "2026-11-25T22:37:10.728Z"
  },
  "contributors": {
   "count": 40,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:12.197Z"
  },
- "details_checked_at": "2026-11-25T12:58:03.853Z"
+ "details_checked_at": "2026-11-25T22:37:10.728Z"
 }

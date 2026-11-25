@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:53:51.835Z",
+ "fetched_at": "2026-11-25T22:33:31.462Z",
  "meta": {
   "name": "graphrag",
   "owner": "microsoft",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 36752,
+  "stars": 36755,
   "forks": 3890,
   "watchers": 203,
-  "open_issues": 74,
+  "open_issues": 60,
   "open_prs": null,
   "created_at": "2024-03-27T17:57:52Z",
-  "pushed_at": "2026-11-25T12:19:47Z",
-  "updated_at": "2026-11-25T11:53:21Z",
+  "pushed_at": "2026-11-25T20:55:24Z",
+  "updated_at": "2026-11-25T22:23:47Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 209057,
+  "size_kb": 209628,
   "og_image": "https://opengraph.githubassets.com/1/microsoft/graphrag",
   "custom_og_image": false
  },
@@ -70,7 +70,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.473Z",
-  "checked_at": "2026-11-25T12:58:01.747Z"
+  "checked_at": "2026-11-25T22:37:08.841Z"
  },
  "contributors": {
   "count": 51,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T06:07:49.198Z"
  },
- "details_checked_at": "2026-11-25T12:58:01.747Z"
+ "details_checked_at": "2026-11-25T22:37:08.841Z"
 }

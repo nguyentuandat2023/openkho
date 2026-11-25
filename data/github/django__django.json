@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:55:08.601Z",
+ "fetched_at": "2026-11-25T22:34:34.790Z",
  "meta": {
   "name": "django",
   "owner": "django",
@@ -33,14 +33,14 @@
    "spdx": "BSD-3-Clause",
    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
   },
-  "stars": 91892,
-  "forks": 35063,
+  "stars": 91905,
+  "forks": 35064,
   "watchers": 2281,
   "open_issues": 539,
   "open_prs": null,
   "created_at": "2012-04-28T02:47:18Z",
   "pushed_at": "2026-11-25T12:49:52Z",
-  "updated_at": "2026-11-25T11:46:06Z",
+  "updated_at": "2026-11-25T22:29:30Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,7 +49,7 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 285058,
+  "size_kb": 285063,
   "og_image": "https://opengraph.githubassets.com/1/django/django",
   "custom_og_image": false
  },
@@ -67,7 +67,7 @@
   "headings": 0,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.223Z",
-  "checked_at": "2026-11-25T12:58:05.109Z"
+  "checked_at": "2026-11-25T22:37:11.693Z"
  },
  "contributors": {
   "count": 3541,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:13.794Z"
  },
- "details_checked_at": "2026-11-25T12:58:05.109Z"
+ "details_checked_at": "2026-11-25T22:37:11.693Z"
 }

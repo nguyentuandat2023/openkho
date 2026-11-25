@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:54:10.141Z",
+ "fetched_at": "2026-11-25T22:33:46.867Z",
  "meta": {
   "name": "ollama",
   "owner": "ollama",
@@ -38,14 +38,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 188082,
-  "forks": 19193,
+  "stars": 188126,
+  "forks": 19207,
   "watchers": 1038,
-  "open_issues": 4761,
+  "open_issues": 4771,
   "open_prs": null,
   "created_at": "2023-06-26T19:39:32Z",
-  "pushed_at": "2026-11-24T19:30:53Z",
-  "updated_at": "2026-11-25T11:54:39Z",
+  "pushed_at": "2026-11-25T16:56:03Z",
+  "updated_at": "2026-11-25T22:26:38Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,7 +54,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 98293,
+  "size_kb": 98318,
   "og_image": "https://opengraph.githubassets.com/1/ollama/ollama",
   "custom_og_image": false
  },
@@ -77,7 +77,7 @@
   "headings": 34,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.140Z",
-  "checked_at": "2026-11-25T12:58:02.548Z"
+  "checked_at": "2026-11-25T22:37:09.607Z"
  },
  "contributors": {
   "count": 630,
@@ -85,5 +85,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:10.387Z"
  },
- "details_checked_at": "2026-11-25T12:58:02.548Z"
+ "details_checked_at": "2026-11-25T22:37:09.607Z"
 }

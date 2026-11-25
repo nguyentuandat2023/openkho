@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:56:02.281Z",
+ "fetched_at": "2026-11-25T22:35:24.666Z",
  "meta": {
   "name": "LLMs-from-scratch",
   "owner": "rasbt",
@@ -43,14 +43,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 109031,
-  "forks": 16850,
+  "stars": 109051,
+  "forks": 16857,
   "watchers": 872,
-  "open_issues": 4,
+  "open_issues": 5,
   "open_prs": null,
   "created_at": "2023-07-23T18:15:57Z",
-  "pushed_at": "2026-11-25T02:29:44Z",
-  "updated_at": "2026-11-25T12:17:14Z",
+  "pushed_at": "2026-11-25T17:29:27Z",
+  "updated_at": "2026-11-25T22:07:17Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 17485,
+  "size_kb": 17487,
   "og_image": "https://opengraph.githubassets.com/1/rasbt/LLMs-from-scratch",
   "custom_og_image": false
  },
@@ -77,7 +77,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-21T17:36:22.955Z",
-  "checked_at": "2026-11-25T12:58:07.901Z"
+  "checked_at": "2026-11-25T22:37:13.765Z"
  },
  "contributors": {
   "count": 78,
@@ -85,5 +85,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:17.425Z"
  },
- "details_checked_at": "2026-11-25T12:58:07.901Z"
+ "details_checked_at": "2026-11-25T22:37:13.765Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:55:10.476Z",
+ "fetched_at": "2026-11-25T22:34:36.237Z",
  "meta": {
   "name": "nest",
   "owner": "nestjs",
@@ -37,14 +37,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 77161,
-  "forks": 8652,
+  "stars": 77179,
+  "forks": 8653,
   "watchers": 779,
-  "open_issues": 48,
+  "open_issues": 51,
   "open_prs": null,
   "created_at": "2017-02-04T20:12:52Z",
-  "pushed_at": "2026-11-25T10:39:05Z",
-  "updated_at": "2026-11-25T10:29:30Z",
+  "pushed_at": "2026-11-25T14:11:35Z",
+  "updated_at": "2026-11-25T21:42:41Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,7 +53,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 496343,
+  "size_kb": 496203,
   "og_image": "https://opengraph.githubassets.com/1/nestjs/nest",
   "custom_og_image": false
  },
@@ -81,7 +81,7 @@
   "headings": 19,
   "processor": 4,
   "fetched_at": "2026-11-20T11:40:01.905Z",
-  "checked_at": "2026-11-25T12:58:05.180Z"
+  "checked_at": "2026-11-25T22:37:11.783Z"
  },
  "contributors": {
   "count": 830,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:13.755Z"
  },
- "details_checked_at": "2026-11-25T12:58:05.180Z"
+ "details_checked_at": "2026-11-25T22:37:11.783Z"
 }

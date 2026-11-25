@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:54:00.048Z",
+ "fetched_at": "2026-11-25T22:33:39.092Z",
  "meta": {
   "name": "StabilityMatrix",
   "owner": "LykosAI",
@@ -33,14 +33,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 9079,
-  "forks": 627,
+  "stars": 9080,
+  "forks": 628,
   "watchers": 96,
-  "open_issues": 175,
+  "open_issues": 177,
   "open_prs": null,
   "created_at": "2023-06-13T05:20:38Z",
   "pushed_at": "2026-11-24T02:27:37Z",
-  "updated_at": "2026-11-25T11:33:37Z",
+  "updated_at": "2026-11-25T20:32:05Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -72,7 +72,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.830Z",
-  "checked_at": "2026-11-25T12:58:02.066Z"
+  "checked_at": "2026-11-25T22:37:09.168Z"
  },
  "contributors": {
   "count": 35,
@@ -80,5 +80,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T06:07:49.655Z"
  },
- "details_checked_at": "2026-11-25T12:58:02.066Z"
+ "details_checked_at": "2026-11-25T22:37:09.168Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T12:53:38.382Z",
+ "fetched_at": "2026-11-25T22:33:18.982Z",
  "meta": {
   "name": "markitdown",
   "owner": "microsoft",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 198381,
-  "forks": 15051,
+  "stars": 198456,
+  "forks": 15064,
   "watchers": 603,
-  "open_issues": 824,
+  "open_issues": 823,
   "open_prs": null,
   "created_at": "2024-11-13T19:56:40Z",
   "pushed_at": "2026-11-07T00:14:01Z",
-  "updated_at": "2026-11-25T12:45:47Z",
+  "updated_at": "2026-11-25T22:25:58Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -75,7 +75,7 @@
   "headings": 23,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:30.375Z",
-  "checked_at": "2026-11-25T12:58:00.958Z"
+  "checked_at": "2026-11-25T22:37:08.422Z"
  },
  "contributors": {
   "count": 134,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:34.211Z"
  },
- "details_checked_at": "2026-11-25T12:58:00.958Z"
+ "details_checked_at": "2026-11-25T22:37:08.422Z"
 }
