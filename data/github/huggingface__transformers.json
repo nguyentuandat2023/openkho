@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:45:12.608Z",
+ "fetched_at": "2026-11-25T02:27:29.722Z",
  "meta": {
   "name": "transformers",
   "owner": "huggingface",
@@ -43,14 +43,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 169249,
-  "forks": 35278,
-  "watchers": 1263,
-  "open_issues": 1137,
+  "stars": 169286,
+  "forks": 35281,
+  "watchers": 1262,
+  "open_issues": 1143,
   "open_prs": null,
   "created_at": "2018-10-29T13:56:00Z",
-  "pushed_at": "2026-11-24T17:45:10Z",
-  "updated_at": "2026-11-24T17:20:11Z",
+  "pushed_at": "2026-11-25T01:09:42Z",
+  "updated_at": "2026-11-25T02:02:35Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,35 +59,30 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 577687,
+  "size_kb": 581400,
   "og_image": "https://opengraph.githubassets.com/1/huggingface/transformers",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 16901,
+  "length": 12828,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
   "sections": {
    "install": {
-    "title": "Installation",
-    "html": "<p>Transformers works with Python 3.11+, and <a href=\"https://pytorch.org/get-started/locally/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PyTorch</a> 2.6+.</p>\n<p>Create and activate a virtual environment with <a href=\"https://docs.python.org/3/library/venv.html\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">venv</a> or <a href=\"https://docs.astral.sh/uv/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">uv</a>, a fast Rust-based Python package and project manager.</p>\n<pre><code class=\"language-py\"># venv\npython -m venv .my-env\nsource .my-env/bin/activate\n# uv\nuv venv .my-env\nsource .my-env/bin/activate\n</code></pre>\n<p>Install Transformers in your virtual environment.</p>\n<pre><code class=\"language-py\"># pip\npip install \"transformers[torch]\"\n\n# uv\nuv pip install \"transformers[torch]\"\n</code></pre>\n<p>Install Transformers from source if you want the latest changes in the library or are interested in contributing. However, the <em>latest</em> version may not be stable. Feel free to open an <a href=\"https://github.com/huggingface/transformers/issues\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">issue</a> if you encounter an error.</p>\n<pre><code class=\"language-shell\">git clone https://github.com/huggingface/transformers.git\ncd transformers\n\n# pip\npip install '.[torch]'\n\n# uv\nuv pip install '.[torch]'\n</code></pre>",
+    "title": "Set up your coding agent",
+    "html": "<p>Copy the prompt below into your coding agent. It has the agent check your installed version, read the docs for that version, and use the current Transformers v5 APIs.</p>\n<pre><code class=\"language-text\">I'm building with Hugging Face Transformers. Before you write any Transformers code:\n\n1. Check the installed version with `python -c \"import transformers; print(transformers.__version__)\"`. If Transformers isn't installed, install it with `pip install \"transformers[torch]\"`.\n2. Read the docs index for that version at https://huggingface.co/docs/transformers/v&lt;version&gt;/llms.txt, for example v5.22.2. For a .dev version, use https://huggingface.co/docs/transformers/main/llms.txt. Add .md to any docs page URL to read it as Markdown. Look up each class and argument there instead of relying on memory.\n3. If the version is 5.0 or later, read https://github.com/huggingface/transformers/blob/main/MIGRATION_GUIDE_V5.md. Don't use APIs from older versions.\n4. Read the model card of each model you use on the Hugging Face Hub. Many models need specific arguments, like a chat template option or a minimum Transformers version.\n</code></pre>",
     "truncated": false,
-    "chars": 979
+    "chars": 1109
    },
-   "usage": {
-    "title": "Example models",
-    "html": "<p>You can test most of our models directly on their <a href=\"https://huggingface.co/models\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Hub model pages</a>.</p>\n<p>Expand each modality below to see a few example models for various use cases.</p>\n<details>\n<summary>Audio</summary><ul>\n<li>Audio classification with <a href=\"https://huggingface.co/laion/clap-htsat-fused\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CLAP</a></li>\n<li>Automatic speech recognition with <a href=\"https://huggingface.co/nvidia/parakeet-ctc-1.1b#transcribing-using-transformers-%F0%9F%A4%97\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Parakeet</a>, <a href=\"https://huggingface.co/openai/whisper-large-v3-turbo\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Whisper</a>, <a href=\"https://huggingface.co/zai-org/GLM-ASR-Nano-2512\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GLM-ASR</a> and <a href=\"https://huggingface.co/UsefulSensors/moonshine-streaming-medium\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Moonshine-Streaming</a></li>\n<li>Keyword spotting with <a href=\"https://huggingface.co/superb/wav2vec2-base-superb-ks\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Wav2Vec2</a></li>\n<li>Speech to speech generation with <a href=\"https://huggingface.co/kyutai/moshiko-pytorch-bf16\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Moshi</a></li>\n<li>Text to audio with <a href=\"https://huggingface.co/facebook/musicgen-large\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MusicGen</a></li>\n<li>Text to speech with <a href=\"https://huggingface.co/sesame/csm-1b\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">CSM</a></li>\n</ul>\n</details><details>\n<summary>Computer vision</summary><ul>\n<li>Automatic mask generation with <a href=\"https://huggingface.co/facebook/sam-vit-base\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SAM</a></li>\n<li>Depth estimation with <a href=\"https://huggingface.co/apple/DepthPro-hf\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">DepthPro</a></li>\n<li>Image classification with <a href=\"https://huggingface.co/facebook/dinov2-base\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">DINO v2</a></li>\n<li>Keypoint detection with <a href=\"https://huggingface.co/magic-leap-community/superpoint\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SuperPoint</a></li>\n<li>Keypoint matching with <a href=\"https://huggingface.co/magic-leap-community/superglue_outdoor\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">SuperGlue</a></li>\n<li>Object detection with <a href=\"https://huggingface.co/PekingU/rtdetr_v2_r50vd\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">RT-DETRv2</a></li>\n<li>Pose Estimation with <a href=\"https://huggingface.co/usyd-community/vitpose-base-simple\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">VitPose</a></li>\n<li>Universal segmentation with <a href=\"https://huggingface.co/shi-labs/oneformer_ade20k_swin_large\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">OneFormer</a></li>\n<li>Video classification with <a href=\"https://huggingface.co/MCG-NJU/videomae-large\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">VideoMAE</a></li>\n</ul>\n</details><details>\n<summary>Multimodal</summary><ul>\n<li>Audio or text to text with <a href=\"https://huggingface.co/mistralai/Voxtral-Mini-3B-2507\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Voxtral</a>, <a href=\"https://huggingface.co/nvidia/audio-flamingo-3-hf\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Audio Flamingo</a></li>\n<li>Document question answering with <a href=\"https://huggingface.co/microsoft/layoutlmv3-base\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">LayoutLMv3</a></li>\n<li>Image or text to text with <a href=\"https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Qwen-VL</a></li>\n<li>Image captioning <a href=\"https://huggingface.co/Salesforce/blip2-opt-2.7b\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">BLIP-2</a></li>\n<li>OCR-based document understanding with <a href=\"https://huggingface.co/stepfun-ai/GOT-OCR-2.0-hf\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">GOT-OCR2</a></li>\n<li>Table question answering with <a href=\"https://huggingface.co/google/tapas-base\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">TAPAS</a></li>\n<li>Unified multimodal understanding and generation with <a href=\"https://huggingface.co/BAAI/Emu3-Gen\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Emu3</a></li>\n<li>Vision to text with <a href=\"https://huggingface.co/llava-hf/llava-onevision-qwen2-0.5b-ov-hf\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Llava-OneVision</a></li>\n<li>Visual question answering with <a href=\"https://huggingface.co/llava-hf/llava-1.5-7b-hf\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Llava</a></li>\n<li>Visual referring expression segmentation with <a href=\"https://huggingface.co/microsoft/kosmos-2-patch14-224\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Kosmos-2</a></li>\n</ul>\n</details><details>\n<summary>NLP</summary><ul>\n<li>Masked word completion with <a href=\"https://huggingface.co/answerdotai/ModernBERT-base\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">ModernBERT</a></li>\n<li>Named entity recognition with <a href=\"https://huggingface.co/google/gemma-2-2b\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Gemma</a></li>\n<li>Question answering with <a href=\"https://huggingface.co/mistralai/Mixtral-8x7B-v0.1\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Mixtral</a></li>\n<li>Summarization with <a href=\"https://huggingface.co/facebook/bart-large-cnn\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">BART</a></li>\n<li>Translation with <a href=\"https://huggingface.co/google-t5/t5-base\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">T5</a></li>\n<li>Text generation with <a href=\"https://huggingface.co/meta-llama/Llama-3.2-1B\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Llama</a></li>\n<li>Text classification with <a href=\"https://huggingface.co/Qwen/Qwen2.5-0.5B\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Qwen</a></li>\n</ul>\n</details>",
-    "truncated": false,
-    "chars": 3552
-   },
+   "usage": null,
    "features": null
   },
-  "headings": 9,
+  "headings": 10,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:20.930Z",
-  "checked_at": "2026-11-24T17:49:56.767Z"
+  "fetched_at": "2026-11-25T02:31:24.388Z",
+  "checked_at": "2026-11-25T02:31:24.388Z"
  },
  "contributors": {
   "count": 4274,
@@ -95,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:34.362Z"
  },
- "details_checked_at": "2026-11-24T17:49:56.767Z"
+ "details_checked_at": "2026-11-25T02:31:24.388Z"
 }

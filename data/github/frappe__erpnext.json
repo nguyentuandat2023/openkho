@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:46:09.635Z",
+ "fetched_at": "2026-11-25T02:28:14.940Z",
  "meta": {
   "name": "erpnext",
   "owner": "frappe",
@@ -40,14 +40,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 41603,
-  "forks": 13618,
+  "stars": 41612,
+  "forks": 13621,
   "watchers": 671,
-  "open_issues": 1868,
+  "open_issues": 1860,
   "open_prs": null,
   "created_at": "2011-06-08T08:20:56Z",
-  "pushed_at": "2026-11-24T17:38:19Z",
-  "updated_at": "2026-11-24T17:15:52Z",
+  "pushed_at": "2026-11-25T02:09:34Z",
+  "updated_at": "2026-11-25T02:18:05Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,7 +56,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 2086697,
+  "size_kb": 2086573,
   "og_image": "https://opengraph.githubassets.com/1/frappe/erpnext",
   "custom_og_image": false
  },
@@ -84,7 +84,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.884Z",
-  "checked_at": "2026-11-24T17:49:59.266Z"
+  "checked_at": "2026-11-25T02:31:26.327Z"
  },
  "contributors": {
   "count": 961,
@@ -92,5 +92,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:11.326Z"
  },
- "details_checked_at": "2026-11-24T17:49:59.266Z"
+ "details_checked_at": "2026-11-25T02:31:26.327Z"
 }

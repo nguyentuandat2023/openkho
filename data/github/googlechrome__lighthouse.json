@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:48:07.956Z",
+ "fetched_at": "2026-11-25T02:29:50.231Z",
  "meta": {
   "name": "lighthouse",
   "owner": "GoogleChrome",
@@ -33,13 +33,13 @@
    "name": "Apache License 2.0"
   },
   "stars": 31200,
-  "forks": 9803,
+  "forks": 9802,
   "watchers": 606,
   "open_issues": 434,
   "open_prs": null,
   "created_at": "2016-03-08T01:03:11Z",
   "pushed_at": "2026-11-20T06:31:10Z",
-  "updated_at": "2026-11-24T13:20:06Z",
+  "updated_at": "2026-11-24T23:06:05Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -87,7 +87,7 @@
   "headings": 31,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.922Z",
-  "checked_at": "2026-11-24T17:50:04.573Z"
+  "checked_at": "2026-11-25T02:31:30.683Z"
  },
  "contributors": {
   "count": 400,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:18.354Z"
  },
- "details_checked_at": "2026-11-24T17:50:04.573Z"
+ "details_checked_at": "2026-11-25T02:31:30.683Z"
 }

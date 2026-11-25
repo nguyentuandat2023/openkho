@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:44:22.428Z",
+ "fetched_at": "2026-11-25T02:26:48.113Z",
  "meta": {
   "name": "gemini-cli",
   "owner": "google-gemini",
@@ -31,14 +31,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 109057,
-  "forks": 14989,
-  "watchers": 582,
-  "open_issues": 743,
+  "stars": 109071,
+  "forks": 14994,
+  "watchers": 581,
+  "open_issues": 744,
   "open_prs": null,
   "created_at": "2025-04-17T17:04:31Z",
-  "pushed_at": "2026-11-24T03:54:31Z",
-  "updated_at": "2026-11-24T17:25:13Z",
+  "pushed_at": "2026-11-25T01:08:48Z",
+  "updated_at": "2026-11-25T02:09:56Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 106103,
+  "size_kb": 105785,
   "og_image": "https://opengraph.githubassets.com/1/google-gemini/gemini-cli",
   "custom_og_image": false
  },
@@ -80,7 +80,7 @@
   "headings": 40,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:18.792Z",
-  "checked_at": "2026-11-24T17:49:54.504Z"
+  "checked_at": "2026-11-25T02:31:22.369Z"
  },
  "contributors": {
   "count": 703,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:31.614Z"
  },
- "details_checked_at": "2026-11-24T17:49:54.504Z"
+ "details_checked_at": "2026-11-25T02:31:22.369Z"
 }

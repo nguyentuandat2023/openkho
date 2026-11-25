@@ -1,5 +1,5 @@
 {
- "computed_at": "2026-11-24T17:51:57.719Z",
+ "computed_at": "2026-11-25T02:33:08.596Z",
  "curated_missing_github_id": [],
  "missing_contributors": 2381,
  "stale_over_48h": [
@@ -70,22 +70,35 @@
   "alex-wells-65/iobit-driver-booster-desktop",
   "amber-lance-72/xeno-roblox-desktop",
   "ava25-thompson/fishstrap-roblox-fps-booster-desktop",
+  "azuresail195/wondershare-recoverit-desktop",
   "ben-kennedy-81/xfer-serum-desktop",
   "brave-shell-07/izotope-rx-11-desktop",
   "phamcucpqrwbbnposhmn96-ui/KSNStudy",
+  "krisgfx9/Wireless-Device-Battery-Monitor",
   "gylive/google-ultra",
   "bothaggsigym1988/frameglide",
   "sourmitocand1987/VividFrame-GPU",
   "0marContreras/gta6recomp",
   "Bodila51/gtavi-claudecode",
-  "hatsunemiku-ai/google-one-tools"
+  "hatsunemiku-ai/google-one-tools",
+  "zainzedan1111-commits/auto-withdraw-bot",
+  "opokukopoku/gta-6-pc-release",
+  "SABINOGAMESPONTOCOM/honeypot-detector",
+  "saadiraq2025-cyber/rob-run-mod-menu",
+  "CETPROAR/rob-run-ares-enhancer",
+  "leonmiller-io01l1/gta-6-vice-city-ps5-remote-play-60fps-portable-x64"
  ],
- "low_quality_coverage": 583,
+ "low_quality_coverage": 575,
  "insufficient_trending": 0,
  "not_found": [
   {
    "id": "microsoft/agent-framework",
    "origin": "curated",
+   "status": "not_found"
+  },
+  {
+   "id": "horizon-rust/horizon",
+   "origin": "radar",
    "status": "not_found"
   },
   {
@@ -404,6 +417,11 @@
    "status": "not_found"
   },
   {
+   "id": "racdeufindurch198812/Blender-AI-MCP-Studio",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "DevedevT/FFmpeg-GUI-Editor-Windows",
    "origin": "radar",
    "status": "not_found"
@@ -449,6 +467,11 @@
    "status": "not_found"
   },
   {
+   "id": "hasan6969macho-bit/vectorbt-avoria-analysis",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "bothaggsigym1988/frameglide",
    "origin": "radar",
    "status": "not_found"
@@ -465,6 +488,11 @@
   },
   {
    "id": "Bodila51/gtavi-claudecode",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "aurahamzzz-cyber/microsoft-excel-alvaora",
    "origin": "radar",
    "status": "not_found"
   },
@@ -1282,6 +1310,11 @@
    "id": "Meetsaini/emulator",
    "origin": "radar",
    "status": "not_found"
+  },
+  {
+   "id": "LeonidaReforge/Leonida",
+   "origin": "radar",
+   "status": "not_found"
   }
  ],
  "renamed": [
@@ -1312,6 +1345,10 @@
   {
    "from": "Michaelliv/runline",
    "to": "shift-labs-ai/codemode"
+  },
+  {
+   "from": "kgoedecke/doop",
+   "to": "doop-design/doop"
   },
   {
    "from": "danielroe/forges",
@@ -1366,67 +1403,73 @@
   {
    "id": "openai/whisper",
    "reasons": [
-    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+328 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "appwrite/appwrite",
+   "reasons": [
+    "+309 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "mrdoob/three.js",
    "reasons": [
-    "+539 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+538 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
    "id": "astral-sh/uv",
    "reasons": [
-    "+362 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+370 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "EbookFoundation/free-programming-books",
    "reasons": [
-    "+435 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+443 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "nilbuild/developer-roadmap",
    "reasons": [
-    "+457 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+454 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Stirling-Tools/Stirling-PDF",
    "reasons": [
-    "+535 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+531 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "torvalds/linux",
    "reasons": [
-    "+303 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+361 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "avelino/awesome-go",
    "reasons": [
-    "+1.308 sao nhưng chỉ +2 fork trong cùng kỳ"
+    "+1.309 sao nhưng chỉ +3 fork trong cùng kỳ"
    ]
   },
   {
    "id": "freeCodeCamp/freeCodeCamp",
    "reasons": [
-    "+312 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+308 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "nginx/nginx",
    "reasons": [
-    "+1.036 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.050 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "jwasham/coding-interview-university",
    "reasons": [
-    "+504 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+495 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1504,13 +1547,13 @@
   {
    "id": "byted-technologies/.github",
    "reasons": [
-    "repo mới với 3.987 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 3.986 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "helloHub1212/dsh-windows-mcp",
    "reasons": [
-    "repo mới với 2.414 sao nhưng gần như không có fork (11) và chưa có issue nào"
+    "repo mới với 2.440 sao nhưng gần như không có fork (11) và chưa có issue nào"
    ]
   },
   {
@@ -1576,7 +1619,7 @@
   {
    "id": "ksjhk/api",
    "reasons": [
-    "+1.027 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.045 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1588,7 +1631,7 @@
   {
    "id": "AhmadHassan-BTed/RainGen-RainGenerator",
    "reasons": [
-    "repo mới với 1.617 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.616 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -1666,7 +1709,7 @@
   {
    "id": "Gosu-x/multimodal-threat-dataset",
    "reasons": [
-    "+484 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+488 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1726,7 +1769,7 @@
   {
    "id": "briskember13/adobe-acrobat-pdf-desktop",
    "reasons": [
-    "+303 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+304 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1738,145 +1781,145 @@
   {
    "id": "ShutongLiang/Neural-State-OS",
    "reasons": [
-    "+371 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+378 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "TorrentArrow/IPTV_Player_2.0",
    "reasons": [
-    "+369 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+363 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "lizhenjie137/intelligent-organization",
    "reasons": [
-    "+451 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+456 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "TurtleReside/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "VisionWormStudio/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Violetnyudress/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "TypeTyrantScheme/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "TrooperFilter/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Visionbeyondtrack/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "VortexHostFeel/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Watchlespeed/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WerewolfEmuHub/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "weldbladesmithwharf/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "weightcashiercupola/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 464 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 452 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WestLocksmithSpout/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WharfBoulderColander/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WindGatorRise37/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WinnerSpecialist/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WingDataVacuum/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WindowStaffGate11/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WireProvostPucker/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "WyrmClimberManacle/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
    "id": "wisemeadowlarkspike/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 463 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 451 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "YellowLaborerMarket/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 466 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 454 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -1966,7 +2009,7 @@
   {
    "id": "anasarfat2024-ui/adobe-substance-3d",
    "reasons": [
-    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -2020,7 +2063,7 @@
   {
    "id": "lebrowndnasty-hash/ai-app-builder",
    "reasons": [
-    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -2080,13 +2123,13 @@
   {
    "id": "WezTerp/daemon-pro",
    "reasons": [
-    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Speedydx/delta-force-trainer",
    "reasons": [
-    "+337 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -2272,7 +2315,7 @@
   {
    "id": "praseesh369/youtube-ai-video-editing-system",
    "reasons": [
-    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 339 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -2284,14 +2327,100 @@
   {
    "id": "lenguyenkhang816792-arch/gta-6-pc-emulator",
    "reasons": [
-    "repo mới với 340 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 341 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "olive527/steam-library-manager-windows",
+   "reasons": [
+    "+643 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Basil0879/steam-game-idler",
+   "reasons": [
+    "+651 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "rowanbyte3329/stardew-valley-mod-manager",
+   "reasons": [
+    "+660 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "peak85-sketch/stardew-valley-mod-manager",
+   "reasons": [
+    "+514 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Indigo-0167/universal-game-mod-manager",
+   "reasons": [
+    "+670 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "solv4626/steam-achievement-manager-windows",
+   "reasons": [
+    "+646 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "kai415-debug/ffmpeg-video-audio-converter",
+   "reasons": [
+    "+642 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Nebula4207/av1-video-encoder-gui",
+   "reasons": [
+    "+643 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "umbradev315/ffmpeg-video-audio-converter",
+   "reasons": [
+    "+554 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "zero5122/offline-file-converter-windows",
+   "reasons": [
+    "+661 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Umbra9179/clipboard-history-manager-windows",
+   "reasons": [
+    "+646 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   }
  ],
  "published_changes": {
-  "added": [],
-  "removed": [],
-  "kept": 600
+  "added": [
+   {
+    "gid": "1470579726",
+    "full_name": "fxceless/victory-fork"
+   },
+   {
+    "gid": "1469441675",
+    "full_name": "ubiquitarianism/leonida"
+   }
+  ],
+  "removed": [
+   {
+    "gid": "1403446451",
+    "full_name": "horizon-rust/horizon",
+    "why": "trạng thái not_found"
+   },
+   {
+    "gid": "1455740160",
+    "full_name": "racdeufindurch198812/Blender-AI-MCP-Studio",
+    "why": "trạng thái not_found"
+   }
+  ],
+  "kept": 598
  },
  "suppressed_clusters": [
   {
@@ -2605,6 +2734,21 @@
     "rockford007/xyplorer-file-manager",
     "praseesh369/youtube-ai-video-editing-system",
     "aathreynair22-bit/wifi-password-tester"
+   ]
+  },
+  {
+   "cluster": "campaign-2026-11-23-642",
+   "reason": "Một trong 9 repo khác tên do 9 tài khoản tạo gần như cùng lúc, cùng khoảng 642–670 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "repos": [
+    "olive527/steam-library-manager-windows",
+    "Basil0879/steam-game-idler",
+    "rowanbyte3329/stardew-valley-mod-manager",
+    "Indigo-0167/universal-game-mod-manager",
+    "solv4626/steam-achievement-manager-windows",
+    "kai415-debug/ffmpeg-video-audio-converter",
+    "Nebula4207/av1-video-encoder-gui",
+    "zero5122/offline-file-converter-windows",
+    "Umbra9179/clipboard-history-manager-windows"
    ]
   }
  ]

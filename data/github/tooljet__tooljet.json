@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:48:33.535Z",
+ "fetched_at": "2026-11-25T02:30:12.128Z",
  "meta": {
   "name": "ToolJet",
   "owner": "ToolJet",
@@ -42,14 +42,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 41294,
+  "stars": 41297,
   "forks": 5523,
   "watchers": 203,
-  "open_issues": 966,
+  "open_issues": 968,
   "open_prs": null,
   "created_at": "2021-03-30T08:51:34Z",
-  "pushed_at": "2026-11-24T17:37:50Z",
-  "updated_at": "2026-11-24T09:23:48Z",
+  "pushed_at": "2026-11-25T01:57:37Z",
+  "updated_at": "2026-11-25T02:19:09Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,7 +58,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 1807828,
+  "size_kb": 1808272,
   "og_image": "https://opengraph.githubassets.com/1/ToolJet/ToolJet",
   "custom_og_image": false
  },
@@ -91,7 +91,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.903Z",
-  "checked_at": "2026-11-24T17:50:05.721Z"
+  "checked_at": "2026-11-25T02:31:31.596Z"
  },
  "contributors": {
   "count": 685,
@@ -99,5 +99,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:19.592Z"
  },
- "details_checked_at": "2026-11-24T17:50:05.721Z"
+ "details_checked_at": "2026-11-25T02:31:31.596Z"
 }

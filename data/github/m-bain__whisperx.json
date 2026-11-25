@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:44:36.101Z",
+ "fetched_at": "2026-11-25T02:26:59.171Z",
  "meta": {
   "name": "whisperX",
   "owner": "m-bain",
@@ -29,14 +29,14 @@
    "spdx": "BSD-2-Clause",
    "name": "BSD 2-Clause \"Simplified\" License"
   },
-  "stars": 25649,
+  "stars": 25657,
   "forks": 2606,
   "watchers": 156,
   "open_issues": 227,
   "open_prs": null,
   "created_at": "2022-12-09T02:34:23Z",
   "pushed_at": "2026-11-21T12:32:21Z",
-  "updated_at": "2026-11-24T17:38:25Z",
+  "updated_at": "2026-11-25T01:54:45Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -73,7 +73,7 @@
   "headings": 23,
   "processor": 4,
   "fetched_at": "2026-11-21T17:36:17.173Z",
-  "checked_at": "2026-11-24T17:49:55.178Z"
+  "checked_at": "2026-11-25T02:31:22.961Z"
  },
  "contributors": {
   "count": 120,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:32.401Z"
  },
- "details_checked_at": "2026-11-24T17:49:55.178Z"
+ "details_checked_at": "2026-11-25T02:31:22.961Z"
 }

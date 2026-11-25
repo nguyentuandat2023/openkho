@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:46:30.582Z",
+ "fetched_at": "2026-11-25T02:28:32.049Z",
  "meta": {
   "name": "redash",
   "owner": "getredash",
@@ -43,14 +43,14 @@
    "spdx": "BSD-2-Clause",
    "name": "BSD 2-Clause \"Simplified\" License"
   },
-  "stars": 28901,
+  "stars": 28902,
   "forks": 4646,
   "watchers": 560,
   "open_issues": 783,
   "open_prs": null,
   "created_at": "2013-10-28T13:19:39Z",
   "pushed_at": "2026-11-24T17:39:11Z",
-  "updated_at": "2026-11-24T16:04:54Z",
+  "updated_at": "2026-11-24T22:15:01Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 68712,
+  "size_kb": 68546,
   "og_image": "https://opengraph.githubassets.com/1/getredash/redash",
   "custom_og_image": false
  },
@@ -82,7 +82,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.569Z",
-  "checked_at": "2026-11-24T17:50:00.044Z"
+  "checked_at": "2026-11-25T02:31:27.182Z"
  },
  "contributors": {
   "count": 557,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:12.597Z"
  },
- "details_checked_at": "2026-11-24T17:50:00.044Z"
+ "details_checked_at": "2026-11-25T02:31:27.182Z"
 }

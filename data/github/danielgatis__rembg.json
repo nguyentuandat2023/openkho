@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:45:33.847Z",
+ "fetched_at": "2026-11-25T02:27:45.491Z",
  "meta": {
   "name": "rembg",
   "owner": "danielgatis",
@@ -27,14 +27,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 25663,
-  "forks": 2512,
+  "stars": 25670,
+  "forks": 2514,
   "watchers": 168,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2020-08-10T14:38:24Z",
   "pushed_at": "2026-11-24T13:54:32Z",
-  "updated_at": "2026-11-24T17:42:51Z",
+  "updated_at": "2026-11-25T00:22:06Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -71,7 +71,7 @@
   "headings": 27,
   "processor": 4,
   "fetched_at": "2026-11-24T17:49:57.816Z",
-  "checked_at": "2026-11-24T17:49:57.816Z"
+  "checked_at": "2026-11-25T02:31:25.088Z"
  },
  "contributors": {
   "count": 92,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T06:07:49.317Z"
  },
- "details_checked_at": "2026-11-24T17:49:57.816Z"
+ "details_checked_at": "2026-11-25T02:31:25.088Z"
 }

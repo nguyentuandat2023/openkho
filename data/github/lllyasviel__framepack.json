@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:45:42.835Z",
+ "fetched_at": "2026-11-25T02:27:54.062Z",
  "meta": {
   "name": "FramePack",
   "owner": "lllyasviel",
@@ -23,14 +23,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 17392,
-  "forks": 1750,
+  "stars": 17394,
+  "forks": 1751,
   "watchers": 142,
   "open_issues": 499,
   "open_prs": null,
   "created_at": "2025-04-12T14:45:22Z",
   "pushed_at": "2025-10-16T01:28:50Z",
-  "updated_at": "2026-11-24T17:20:17Z",
+  "updated_at": "2026-11-24T22:22:36Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.913Z",
-  "checked_at": "2026-11-24T17:49:58.057Z"
+  "checked_at": "2026-11-25T02:31:25.381Z"
  },
  "contributors": {
   "count": 1,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:10.014Z"
  },
- "details_checked_at": "2026-11-24T17:49:58.057Z"
+ "details_checked_at": "2026-11-25T02:31:25.381Z"
 }

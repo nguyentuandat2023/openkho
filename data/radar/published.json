@@ -278,7 +278,7 @@
    "since": "2026-11-16T07:04:25.959Z"
   },
   "1342943152": {
-   "full_name": "kgoedecke/doop",
+   "full_name": "doop-design/doop",
    "since": "2026-11-17T11:58:40.135Z"
   },
   "1343167809": {
@@ -992,10 +992,6 @@
   "1403307052": {
    "full_name": "jiwoochris/artex-global",
    "since": "2026-11-17T11:49:28.515Z"
-  },
-  "1403446451": {
-   "full_name": "horizon-rust/horizon",
-   "since": "2026-11-16T06:58:46.301Z"
   },
   "1403590652": {
    "full_name": "flohoeller/affectui",
@@ -2121,7 +2117,8 @@
   },
   "1452864416": {
    "full_name": "ValidatorStack/solana-vigil",
-   "since": "2026-11-18T20:39:19.124Z"
+   "since": "2026-11-18T20:39:19.124Z",
+   "failing_since": "2026-11-25T02:33:08.596Z"
   },
   "1453006141": {
    "full_name": "XinaTian/MROffice",
@@ -2217,10 +2214,6 @@
   },
   "1455738282": {
    "full_name": "findavoulot1973/Blender-AI-MCP-Suite",
-   "since": "2026-11-18T11:48:17.030Z"
-  },
-  "1455740160": {
-   "full_name": "racdeufindurch198812/Blender-AI-MCP-Studio",
    "since": "2026-11-18T11:48:17.030Z"
   },
   "1455742253": {
@@ -2406,7 +2399,15 @@
   "1469344551": {
    "full_name": "Marvisak/VIctory",
    "since": "2026-11-24T06:09:17.637Z"
+  },
+  "1469441675": {
+   "full_name": "ubiquitarianism/leonida",
+   "since": "2026-11-25T02:33:08.596Z"
+  },
+  "1470579726": {
+   "full_name": "fxceless/victory-fork",
+   "since": "2026-11-25T02:33:08.596Z"
   }
  },
- "updated_at": "2026-11-24T17:52:00.436Z"
+ "updated_at": "2026-11-25T02:33:10.883Z"
 }

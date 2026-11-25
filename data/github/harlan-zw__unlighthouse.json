@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:48:08.726Z",
+ "fetched_at": "2026-11-25T02:29:51.005Z",
  "meta": {
   "name": "unlighthouse",
   "owner": "harlan-zw",
@@ -27,14 +27,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 4965,
+  "stars": 4966,
   "forks": 185,
   "watchers": 22,
   "open_issues": 24,
   "open_prs": null,
   "created_at": "2021-10-31T07:14:30Z",
   "pushed_at": "2026-11-24T16:19:00Z",
-  "updated_at": "2026-11-24T15:36:09Z",
+  "updated_at": "2026-11-24T20:08:20Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -66,7 +66,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.893Z",
-  "checked_at": "2026-11-24T17:50:04.590Z"
+  "checked_at": "2026-11-25T02:31:30.767Z"
  },
  "contributors": {
   "count": 29,
@@ -74,5 +74,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:18.347Z"
  },
- "details_checked_at": "2026-11-24T17:50:04.590Z"
+ "details_checked_at": "2026-11-25T02:31:30.767Z"
 }

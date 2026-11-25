@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:46:58.351Z",
+ "fetched_at": "2026-11-25T02:28:55.394Z",
  "meta": {
   "name": "krita",
   "owner": "KDE",
@@ -23,14 +23,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 10800,
+  "stars": 10802,
   "forks": 929,
   "watchers": 202,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2015-10-09T19:24:19Z",
   "pushed_at": "2026-11-24T08:55:28Z",
-  "updated_at": "2026-11-24T16:47:02Z",
+  "updated_at": "2026-11-24T23:20:52Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,7 +57,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.551Z",
-  "checked_at": "2026-11-24T17:50:01.336Z"
+  "checked_at": "2026-11-25T02:31:28.569Z"
  },
  "contributors": {
   "count": 681,
@@ -65,5 +65,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:14.887Z"
  },
- "details_checked_at": "2026-11-24T17:50:01.336Z"
+ "details_checked_at": "2026-11-25T02:31:28.569Z"
 }

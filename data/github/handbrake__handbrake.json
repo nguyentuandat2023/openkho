@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:49:32.851Z",
+ "fetched_at": "2026-11-25T02:31:03.795Z",
  "meta": {
   "name": "HandBrake",
   "owner": "HandBrake",
@@ -28,13 +28,13 @@
    "name": "Other"
   },
   "stars": 25117,
-  "forks": 1764,
+  "forks": 1765,
   "watchers": 297,
-  "open_issues": 298,
+  "open_issues": 297,
   "open_prs": null,
   "created_at": "2015-08-22T16:32:28Z",
-  "pushed_at": "2026-11-22T21:37:43Z",
-  "updated_at": "2026-11-24T16:49:08Z",
+  "pushed_at": "2026-11-24T18:03:55Z",
+  "updated_at": "2026-11-25T01:24:17Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -43,7 +43,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 125544,
+  "size_kb": 125566,
   "og_image": "https://opengraph.githubassets.com/1/HandBrake/HandBrake",
   "custom_og_image": false
  },
@@ -61,13 +61,13 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.077Z",
-  "checked_at": "2026-11-24T17:50:08.732Z"
+  "checked_at": "2026-11-25T02:31:33.704Z"
  },
  "contributors": {
   "count": 175,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-17T21:01:43.827Z"
+  "fetched_at": "2026-11-25T02:31:38.426Z"
  },
- "details_checked_at": "2026-11-24T17:50:08.733Z"
+ "details_checked_at": "2026-11-25T02:31:33.704Z"
 }

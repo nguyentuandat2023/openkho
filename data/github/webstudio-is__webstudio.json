@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:48:40.952Z",
+ "fetched_at": "2026-11-25T02:30:17.840Z",
  "meta": {
   "name": "webstudio",
   "owner": "webstudio-is",
@@ -41,14 +41,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 9187,
+  "stars": 9188,
   "forks": 1639,
   "watchers": 61,
   "open_issues": 335,
   "open_prs": null,
   "created_at": "2022-03-13T04:19:01Z",
   "pushed_at": "2026-11-21T17:44:42Z",
-  "updated_at": "2026-11-24T05:03:10Z",
+  "updated_at": "2026-11-25T00:43:27Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -75,7 +75,7 @@
   "headings": 3,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.108Z",
-  "checked_at": "2026-11-24T17:50:06.207Z"
+  "checked_at": "2026-11-25T02:31:31.829Z"
  },
  "contributors": {
   "count": 51,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:19.789Z"
  },
- "details_checked_at": "2026-11-24T17:50:06.207Z"
+ "details_checked_at": "2026-11-25T02:31:31.829Z"
 }

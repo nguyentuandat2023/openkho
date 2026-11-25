@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:46:42.050Z",
+ "fetched_at": "2026-11-25T02:28:41.736Z",
  "meta": {
   "name": "meilisearch",
   "owner": "meilisearch",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 59984,
-  "forks": 2798,
+  "stars": 59987,
+  "forks": 2797,
   "watchers": 291,
   "open_issues": 319,
   "open_prs": null,
   "created_at": "2018-04-23T11:45:28Z",
-  "pushed_at": "2026-11-24T16:01:53Z",
-  "updated_at": "2026-11-24T16:33:03Z",
+  "pushed_at": "2026-11-24T21:47:10Z",
+  "updated_at": "2026-11-25T02:17:26Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 93053,
+  "size_kb": 93129,
   "og_image": "https://opengraph.githubassets.com/1/meilisearch/meilisearch",
   "custom_og_image": false
  },
@@ -93,7 +93,7 @@
   "headings": 21,
   "processor": 4,
   "fetched_at": "2026-11-18T11:46:11.093Z",
-  "checked_at": "2026-11-24T17:50:00.519Z"
+  "checked_at": "2026-11-25T02:31:27.647Z"
  },
  "contributors": {
   "count": 261,
@@ -101,5 +101,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:13.294Z"
  },
- "details_checked_at": "2026-11-24T17:50:00.519Z"
+ "details_checked_at": "2026-11-25T02:31:27.647Z"
 }

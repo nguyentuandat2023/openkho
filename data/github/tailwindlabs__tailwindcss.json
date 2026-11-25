@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:49:44.338Z",
+ "fetched_at": "2026-11-25T02:31:13.631Z",
  "meta": {
   "name": "tailwindcss",
   "owner": "tailwindlabs",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 98748,
-  "forks": 6362,
-  "watchers": 728,
-  "open_issues": 110,
+  "stars": 98780,
+  "forks": 6351,
+  "watchers": 726,
+  "open_issues": 109,
   "open_prs": null,
   "created_at": "2017-10-06T14:59:14Z",
-  "pushed_at": "2026-11-24T17:36:17Z",
-  "updated_at": "2026-11-24T17:45:24Z",
+  "pushed_at": "2026-11-24T18:04:57Z",
+  "updated_at": "2026-11-25T00:53:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 115187,
+  "size_kb": 114649,
   "og_image": "https://opengraph.githubassets.com/1/tailwindlabs/tailwindcss",
   "custom_og_image": false
  },
@@ -65,13 +65,13 @@
   "headings": 3,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.545Z",
-  "checked_at": "2026-11-24T17:50:09.337Z"
+  "checked_at": "2026-11-25T02:31:34.119Z"
  },
  "contributors": {
-  "count": 400,
+  "count": 404,
   "capped": false,
   "anon": true,
-  "fetched_at": "2026-11-17T21:01:44.451Z"
+  "fetched_at": "2026-11-25T02:31:36.970Z"
  },
- "details_checked_at": "2026-11-24T17:50:09.337Z"
+ "details_checked_at": "2026-11-25T02:31:34.119Z"
 }

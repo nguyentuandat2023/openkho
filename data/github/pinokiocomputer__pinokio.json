@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-24T17:45:31.863Z",
+ "fetched_at": "2026-11-25T02:27:43.794Z",
  "meta": {
   "name": "pinokio",
   "owner": "pinokiocomputer",
@@ -57,7 +57,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.663Z",
-  "checked_at": "2026-11-24T17:49:57.598Z"
+  "checked_at": "2026-11-25T02:31:25.052Z"
  },
  "contributors": {
   "count": 1,
@@ -65,5 +65,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T06:07:49.117Z"
  },
- "details_checked_at": "2026-11-24T17:49:57.598Z"
+ "details_checked_at": "2026-11-25T02:31:25.052Z"
 }
