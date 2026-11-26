@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T22:35:31.937Z",
+ "fetched_at": "2026-11-26T05:06:12.266Z",
  "meta": {
   "name": "mautic",
   "owner": "mautic",
@@ -36,14 +36,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 11117,
-  "forks": 3570,
+  "stars": 11118,
+  "forks": 3571,
   "watchers": 291,
-  "open_issues": 393,
+  "open_issues": 388,
   "open_prs": null,
   "created_at": "2013-08-19T00:36:28Z",
-  "pushed_at": "2026-11-25T21:55:57Z",
-  "updated_at": "2026-11-25T19:50:13Z",
+  "pushed_at": "2026-11-25T23:50:07Z",
+  "updated_at": "2026-11-25T23:01:18Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -52,7 +52,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 331544,
+  "size_kb": 331793,
   "og_image": "https://opengraph.githubassets.com/1/mautic/mautic",
   "custom_og_image": false
  },
@@ -80,7 +80,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.703Z",
-  "checked_at": "2026-11-25T22:37:14.214Z"
+  "checked_at": "2026-11-26T05:07:50.004Z"
  },
  "contributors": {
   "count": 532,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:17.847Z"
  },
- "details_checked_at": "2026-11-25T22:37:14.214Z"
+ "details_checked_at": "2026-11-26T05:07:50.004Z"
 }

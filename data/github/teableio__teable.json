@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T22:36:00.814Z",
+ "fetched_at": "2026-11-26T05:06:40.351Z",
  "meta": {
   "name": "teable",
   "owner": "teableio",
@@ -36,14 +36,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 22021,
-  "forks": 1369,
+  "stars": 22024,
+  "forks": 1368,
   "watchers": 90,
   "open_issues": 151,
   "open_prs": null,
   "created_at": "2022-11-01T07:02:49Z",
-  "pushed_at": "2026-11-25T13:14:11Z",
-  "updated_at": "2026-11-25T19:02:10Z",
+  "pushed_at": "2026-11-26T04:58:19Z",
+  "updated_at": "2026-11-26T05:05:43Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -52,7 +52,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 99171,
+  "size_kb": 99167,
   "og_image": "https://opengraph.githubassets.com/1/teableio/teable",
   "custom_og_image": false
  },
@@ -80,7 +80,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-18T11:46:16.613Z",
-  "checked_at": "2026-11-25T22:37:15.326Z"
+  "checked_at": "2026-11-26T05:07:51.237Z"
  },
  "contributors": {
   "count": 43,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:19.780Z"
  },
- "details_checked_at": "2026-11-25T22:37:15.326Z"
+ "details_checked_at": "2026-11-26T05:07:51.237Z"
 }

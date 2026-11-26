@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T22:34:23.716Z",
+ "fetched_at": "2026-11-26T05:05:05.924Z",
  "meta": {
   "name": "pygwalker",
   "owner": "Kanaries",
@@ -88,7 +88,7 @@
   "headings": 21,
   "processor": 4,
   "fetched_at": "2026-11-25T22:37:11.174Z",
-  "checked_at": "2026-11-25T22:37:11.174Z"
+  "checked_at": "2026-11-26T05:07:47.371Z"
  },
  "contributors": {
   "count": 28,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:12.877Z"
  },
- "details_checked_at": "2026-11-25T22:37:11.174Z"
+ "details_checked_at": "2026-11-26T05:07:47.371Z"
 }

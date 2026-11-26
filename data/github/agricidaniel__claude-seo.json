@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T22:35:39.187Z",
+ "fetched_at": "2026-11-26T05:06:19.550Z",
  "meta": {
   "name": "claude-seo",
   "owner": "AgriciDaniel",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 32405,
-  "forks": 3950,
-  "watchers": 175,
-  "open_issues": 73,
+  "stars": 32461,
+  "forks": 3956,
+  "watchers": 173,
+  "open_issues": 28,
   "open_prs": null,
   "created_at": "2026-02-07T08:17:38Z",
-  "pushed_at": "2026-11-16T06:16:01Z",
-  "updated_at": "2026-11-25T22:31:17Z",
+  "pushed_at": "2026-11-26T04:20:57Z",
+  "updated_at": "2026-11-26T05:02:42Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,13 +47,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 9782,
+  "size_kb": 10163,
   "og_image": "https://opengraph.githubassets.com/1/AgriciDaniel/claude-seo",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 23537,
+  "length": 24103,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [
@@ -61,6 +61,11 @@
     "type": "youtube",
     "id": "1VQvcKMcVsk",
     "url": "https://www.youtube.com/watch?v=1VQvcKMcVsk"
+   },
+   {
+    "type": "youtube",
+    "id": "ahcFBHCOk_Y",
+    "url": "https://www.youtube.com/watch?v=ahcFBHCOk_Y"
    },
    {
     "type": "youtube",
@@ -85,8 +90,8 @@
   },
   "headings": 14,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:26.925Z",
-  "checked_at": "2026-11-25T22:37:14.388Z"
+  "fetched_at": "2026-11-26T05:07:50.254Z",
+  "checked_at": "2026-11-26T05:07:50.254Z"
  },
  "contributors": {
   "count": 52,
@@ -94,5 +99,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:18.229Z"
  },
- "details_checked_at": "2026-11-25T22:37:14.388Z"
+ "details_checked_at": "2026-11-26T05:07:50.254Z"
 }

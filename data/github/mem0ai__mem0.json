@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T22:32:44.757Z",
+ "fetched_at": "2026-11-26T05:03:27.147Z",
  "meta": {
   "name": "mem0",
   "owner": "mem0ai",
@@ -38,14 +38,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 69472,
-  "forks": 8265,
+  "stars": 69485,
+  "forks": 8269,
   "watchers": 254,
-  "open_issues": 997,
+  "open_issues": 1000,
   "open_prs": null,
   "created_at": "2023-06-20T08:58:36Z",
   "pushed_at": "2026-11-25T10:59:52Z",
-  "updated_at": "2026-11-25T22:27:58Z",
+  "updated_at": "2026-11-26T04:49:22Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -87,7 +87,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-24T17:49:54.906Z",
-  "checked_at": "2026-11-25T22:37:06.685Z"
+  "checked_at": "2026-11-26T05:07:43.269Z"
  },
  "contributors": {
   "count": 412,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:32.102Z"
  },
- "details_checked_at": "2026-11-25T22:37:06.685Z"
+ "details_checked_at": "2026-11-26T05:07:43.269Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T22:33:41.635Z",
+ "fetched_at": "2026-11-26T05:04:21.778Z",
  "meta": {
   "name": "WanGP",
   "owner": "deepbeepmeep",
@@ -37,14 +37,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 12269,
-  "forks": 1925,
-  "watchers": 117,
-  "open_issues": 1416,
+  "stars": 12279,
+  "forks": 1926,
+  "watchers": 116,
+  "open_issues": 1418,
   "open_prs": null,
   "created_at": "2025-02-27T23:52:36Z",
   "pushed_at": "2026-11-24T23:49:59Z",
-  "updated_at": "2026-11-25T21:11:01Z",
+  "updated_at": "2026-11-26T04:24:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": true,
@@ -97,7 +97,7 @@
   "headings": 52,
   "processor": 4,
   "fetched_at": "2026-11-25T02:31:25.381Z",
-  "checked_at": "2026-11-25T22:37:09.340Z"
+  "checked_at": "2026-11-26T05:07:45.602Z"
  },
  "contributors": {
   "count": 36,
@@ -105,5 +105,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:10.072Z"
  },
- "details_checked_at": "2026-11-25T22:37:09.340Z"
+ "details_checked_at": "2026-11-26T05:07:45.602Z"
 }

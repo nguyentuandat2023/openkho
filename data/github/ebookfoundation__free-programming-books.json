@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T22:35:29.657Z",
+ "fetched_at": "2026-11-26T05:06:10.052Z",
  "meta": {
   "name": "free-programming-books",
   "owner": "EbookFoundation",
@@ -29,14 +29,14 @@
    "spdx": "CC-BY-4.0",
    "name": "Creative Commons Attribution 4.0 International"
   },
-  "stars": 402285,
-  "forks": 67235,
+  "stars": 402301,
+  "forks": 67236,
   "watchers": 9758,
-  "open_issues": 119,
+  "open_issues": 122,
   "open_prs": null,
   "created_at": "2013-10-11T06:50:37Z",
   "pushed_at": "2026-11-25T16:23:45Z",
-  "updated_at": "2026-11-25T22:24:13Z",
+  "updated_at": "2026-11-26T03:42:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -63,7 +63,7 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.527Z",
-  "checked_at": "2026-11-25T22:37:13.985Z"
+  "checked_at": "2026-11-26T05:07:49.865Z"
  },
  "contributors": {
   "count": 3619,
@@ -71,5 +71,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:17.748Z"
  },
- "details_checked_at": "2026-11-25T22:37:13.985Z"
+ "details_checked_at": "2026-11-26T05:07:49.865Z"
 }

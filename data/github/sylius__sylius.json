@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T22:35:13.071Z",
+ "fetched_at": "2026-11-26T05:05:53.157Z",
  "meta": {
   "name": "Sylius",
   "owner": "Sylius",
@@ -46,7 +46,7 @@
   "open_issues": 247,
   "open_prs": null,
   "created_at": "2011-11-05T22:05:52Z",
-  "pushed_at": "2026-11-25T02:08:38Z",
+  "pushed_at": "2026-11-26T02:07:44Z",
   "updated_at": "2026-11-24T17:56:37Z",
   "archived": false,
   "disabled": false,
@@ -79,7 +79,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.859Z",
-  "checked_at": "2026-11-25T22:37:13.294Z"
+  "checked_at": "2026-11-26T05:07:49.180Z"
  },
  "contributors": {
   "count": 957,
@@ -87,5 +87,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:16.284Z"
  },
- "details_checked_at": "2026-11-25T22:37:13.294Z"
+ "details_checked_at": "2026-11-26T05:07:49.180Z"
 }

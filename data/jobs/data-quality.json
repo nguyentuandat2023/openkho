@@ -1,7 +1,7 @@
 {
- "computed_at": "2026-11-25T22:38:47.525Z",
+ "computed_at": "2026-11-26T05:09:21.750Z",
  "curated_missing_github_id": [],
- "missing_contributors": 2378,
+ "missing_contributors": 2377,
  "stale_over_48h": [
   "RustXNG/RustXNG",
   "bipro45/actual-multi-display-configurator",
@@ -66,7 +66,6 @@
   "parthkshirsagar2456-blip/voicemod-desktop-edition",
   "shivsupratik/windows-optimizer",
   "hitkeeen/blender-ai-mcp-addon",
-  "DevedevT/FFmpeg-GUI-Editor-Windows",
   "alex-wells-65/iobit-driver-booster-desktop",
   "ava25-thompson/fishstrap-roblox-fps-booster-desktop",
   "azuresail195/wondershare-recoverit-desktop",
@@ -202,9 +201,10 @@
   "max-moore-x1905b1/arc-raiders-external-extraction-radar-loot-portable-x64",
   "david-ivanovio2004x4/schedule-i-melonloader-mod-menu-cash-portable-x64",
   "kyle-brown-io2003g7/civilization-vii-in-game-editor-ige-portable-x64",
-  "markdevx1901r4/shadps4-bloodborne-pc-60fps-patch-vertex-explosion-portabl"
+  "markdevx1901r4/shadps4-bloodborne-pc-60fps-patch-vertex-explosion-portabl",
+  "kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64"
  ],
- "low_quality_coverage": 577,
+ "low_quality_coverage": 513,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -534,11 +534,6 @@
   },
   {
    "id": "racdeufindurch198812/Blender-AI-MCP-Studio",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "DevedevT/FFmpeg-GUI-Editor-Windows",
    "origin": "radar",
    "status": "not_found"
   },
@@ -1533,45 +1528,33 @@
  ],
  "anomalies": [
   {
-   "id": "mrdoob/three.js",
-   "reasons": [
-    "+544 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
    "id": "EbookFoundation/free-programming-books",
    "reasons": [
-    "+439 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+438 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "nilbuild/developer-roadmap",
    "reasons": [
-    "+457 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "upstash/context7",
-   "reasons": [
-    "+373 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+458 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Stirling-Tools/Stirling-PDF",
    "reasons": [
-    "+513 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+515 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "torvalds/linux",
    "reasons": [
-    "+540 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+573 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "freeCodeCamp/freeCodeCamp",
    "reasons": [
-    "+326 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+330 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1583,7 +1566,7 @@
   {
    "id": "jwasham/coding-interview-university",
    "reasons": [
-    "+540 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+531 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1607,7 +1590,7 @@
   {
    "id": "ifixai-ai/iFixAi",
    "reasons": [
-    "+803 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+797 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1673,7 +1656,7 @@
   {
    "id": "helloHub1212/dsh-windows-mcp",
    "reasons": [
-    "repo mới với 2.542 sao nhưng gần như không có fork (11) và chưa có issue nào"
+    "+781 sao nhưng chỉ +2 fork trong cùng kỳ"
    ]
   },
   {
@@ -1733,7 +1716,7 @@
   {
    "id": "ksjhk/api",
    "reasons": [
-    "repo mới với 1.073 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.082 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -1829,7 +1812,7 @@
   {
    "id": "Gosu-x/multimodal-threat-dataset",
    "reasons": [
-    "+489 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+491 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1895,7 +1878,7 @@
   {
    "id": "ShutongLiang/Neural-State-OS",
    "reasons": [
-    "+401 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+405 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1913,7 +1896,7 @@
   {
    "id": "lizhenjie137/intelligent-organization",
    "reasons": [
-    "+484 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+490 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2459,19 +2442,19 @@
   {
    "id": "Indigo-0167/universal-game-mod-manager",
    "reasons": [
-    "+750 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+566 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "solv4626/steam-achievement-manager-windows",
    "reasons": [
-    "+492 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+371 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "kai415-debug/ffmpeg-video-audio-converter",
    "reasons": [
-    "+451 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+341 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2489,31 +2472,20 @@
   {
    "id": "zero5122/offline-file-converter-windows",
    "reasons": [
-    "+474 sao nhưng chỉ +1 fork trong cùng kỳ"
+    "repo mới với 1.062 sao nhưng gần như không có fork (2) và chưa có issue nào"
    ]
   },
   {
    "id": "Umbra9179/clipboard-history-manager-windows",
    "reasons": [
-    "+734 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+555 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   }
  ],
  "published_changes": {
-  "added": [
-   {
-    "gid": "1466700014",
-    "full_name": "qianyiai/kurocat"
-   }
-  ],
-  "removed": [
-   {
-    "gid": "1464004445",
-    "full_name": "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
-    "why": "trạng thái not_found"
-   }
-  ],
-  "kept": 599
+  "added": [],
+  "removed": [],
+  "kept": 600
  },
  "suppressed_clusters": [
   {

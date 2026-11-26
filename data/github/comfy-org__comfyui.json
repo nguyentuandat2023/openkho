@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T22:33:33.682Z",
+ "fetched_at": "2026-11-26T05:04:13.981Z",
  "meta": {
   "name": "ComfyUI",
   "owner": "Comfy-Org",
@@ -30,14 +30,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 148608,
-  "forks": 17712,
+  "stars": 148644,
+  "forks": 17719,
   "watchers": 854,
-  "open_issues": 5648,
+  "open_issues": 5653,
   "open_prs": null,
   "created_at": "2023-01-17T03:15:56Z",
-  "pushed_at": "2026-11-25T22:31:32Z",
-  "updated_at": "2026-11-25T22:25:57Z",
+  "pushed_at": "2026-11-26T05:03:41Z",
+  "updated_at": "2026-11-26T05:04:11Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,7 +46,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 109302,
+  "size_kb": 109416,
   "og_image": "https://opengraph.githubassets.com/1/Comfy-Org/ComfyUI",
   "custom_og_image": false
  },
@@ -74,7 +74,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-21T09:52:58.784Z",
-  "checked_at": "2026-11-25T22:37:08.968Z"
+  "checked_at": "2026-11-26T05:07:45.351Z"
  },
  "contributors": {
   "count": 366,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T06:07:49.221Z"
  },
- "details_checked_at": "2026-11-25T22:37:08.968Z"
+ "details_checked_at": "2026-11-26T05:07:45.351Z"
 }

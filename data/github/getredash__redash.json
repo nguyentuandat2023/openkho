@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T22:34:19.513Z",
+ "fetched_at": "2026-11-26T05:05:01.515Z",
  "meta": {
   "name": "redash",
   "owner": "getredash",
@@ -44,7 +44,7 @@
    "name": "BSD 2-Clause \"Simplified\" License"
   },
   "stars": 28902,
-  "forks": 4647,
+  "forks": 4648,
   "watchers": 560,
   "open_issues": 784,
   "open_prs": null,
@@ -82,7 +82,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.569Z",
-  "checked_at": "2026-11-25T22:37:10.987Z"
+  "checked_at": "2026-11-26T05:07:47.193Z"
  },
  "contributors": {
   "count": 557,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:12.597Z"
  },
- "details_checked_at": "2026-11-25T22:37:10.987Z"
+ "details_checked_at": "2026-11-26T05:07:47.193Z"
 }

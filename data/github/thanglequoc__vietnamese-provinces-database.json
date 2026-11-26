@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T22:36:08.383Z",
+ "fetched_at": "2026-11-26T05:06:47.448Z",
  "meta": {
   "name": "vietnamese-provinces-database",
   "owner": "thanglequoc",
@@ -36,14 +36,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 1872,
+  "stars": 1873,
   "forks": 443,
   "watchers": 18,
   "open_issues": 4,
   "open_prs": null,
   "created_at": "2021-11-06T11:08:07Z",
   "pushed_at": "2026-10-14T19:12:11Z",
-  "updated_at": "2026-11-25T03:47:03Z",
+  "updated_at": "2026-11-25T23:19:55Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -75,7 +75,7 @@
   "headings": 38,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.359Z",
-  "checked_at": "2026-11-25T22:37:15.837Z"
+  "checked_at": "2026-11-26T05:07:51.590Z"
  },
  "contributors": {
   "count": 7,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:20.196Z"
  },
- "details_checked_at": "2026-11-25T22:37:15.837Z"
+ "details_checked_at": "2026-11-26T05:07:51.590Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T22:35:47.029Z",
+ "fetched_at": "2026-11-26T05:06:27.843Z",
  "meta": {
   "name": "chrome-devtools-mcp",
   "owner": "ChromeDevTools",
@@ -32,14 +32,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 59342,
-  "forks": 4889,
+  "stars": 59389,
+  "forks": 4890,
   "watchers": 257,
-  "open_issues": 116,
+  "open_issues": 117,
   "open_prs": null,
   "created_at": "2025-09-11T10:39:55Z",
   "pushed_at": "2026-11-25T18:41:45Z",
-  "updated_at": "2026-11-25T22:05:14Z",
+  "updated_at": "2026-11-26T05:00:32Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -81,7 +81,7 @@
   "headings": 18,
   "processor": 4,
   "fetched_at": "2026-11-25T22:37:14.744Z",
-  "checked_at": "2026-11-25T22:37:14.744Z"
+  "checked_at": "2026-11-26T05:07:50.741Z"
  },
  "contributors": {
   "count": 178,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:18.987Z"
  },
- "details_checked_at": "2026-11-25T22:37:14.744Z"
+ "details_checked_at": "2026-11-26T05:07:50.741Z"
 }

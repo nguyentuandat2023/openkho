@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T22:35:09.750Z",
+ "fetched_at": "2026-11-26T05:05:49.872Z",
  "meta": {
   "name": "opencart",
   "owner": "opencart",
@@ -34,14 +34,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 8244,
+  "stars": 8245,
   "forks": 5067,
   "watchers": 579,
   "open_issues": 261,
   "open_prs": null,
   "created_at": "2011-08-02T07:32:17Z",
   "pushed_at": "2026-11-25T11:46:21Z",
-  "updated_at": "2026-11-24T14:05:50Z",
+  "updated_at": "2026-11-26T01:43:10Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -78,7 +78,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.754Z",
-  "checked_at": "2026-11-25T22:37:13.088Z"
+  "checked_at": "2026-11-26T05:07:49.062Z"
  },
  "contributors": {
   "count": 501,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:16.529Z"
  },
- "details_checked_at": "2026-11-25T22:37:13.088Z"
+ "details_checked_at": "2026-11-26T05:07:49.062Z"
 }

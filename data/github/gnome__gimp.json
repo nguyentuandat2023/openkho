@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T22:34:40.963Z",
+ "fetched_at": "2026-11-26T05:05:23.734Z",
  "meta": {
   "name": "gimp",
   "owner": "GNOME",
@@ -23,14 +23,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 6624,
-  "forks": 933,
+  "stars": 6627,
+  "forks": 934,
   "watchers": 213,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2012-06-03T13:37:45Z",
-  "pushed_at": "2026-11-25T20:03:26Z",
-  "updated_at": "2026-11-25T20:56:35Z",
+  "pushed_at": "2026-11-26T04:37:13Z",
+  "updated_at": "2026-11-26T04:01:03Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,7 +57,7 @@
   "headings": 0,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.467Z",
-  "checked_at": "2026-11-25T22:37:11.949Z"
+  "checked_at": "2026-11-26T05:07:48.029Z"
  },
  "contributors": {
   "count": 1215,
@@ -65,5 +65,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:14.682Z"
  },
- "details_checked_at": "2026-11-25T22:37:11.949Z"
+ "details_checked_at": "2026-11-26T05:07:48.029Z"
 }

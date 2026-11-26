@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-25T22:34:16.681Z",
+ "fetched_at": "2026-11-26T05:04:57.817Z",
  "meta": {
   "name": "duckdb",
   "owner": "duckdb",
@@ -29,14 +29,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 43357,
-  "forks": 4202,
+  "stars": 43364,
+  "forks": 4203,
   "watchers": 282,
-  "open_issues": 1312,
+  "open_issues": 1316,
   "open_prs": null,
   "created_at": "2018-06-26T15:04:45Z",
   "pushed_at": "2026-11-25T17:33:08Z",
-  "updated_at": "2026-11-25T22:30:19Z",
+  "updated_at": "2026-11-26T04:46:15Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -68,7 +68,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.482Z",
-  "checked_at": "2026-11-25T22:37:10.939Z"
+  "checked_at": "2026-11-26T05:07:47.083Z"
  },
  "contributors": {
   "count": 1007,
@@ -76,5 +76,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:12.317Z"
  },
- "details_checked_at": "2026-11-25T22:37:10.939Z"
+ "details_checked_at": "2026-11-26T05:07:47.083Z"
 }
