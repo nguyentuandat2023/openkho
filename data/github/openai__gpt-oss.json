@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:15:48.729Z",
+ "fetched_at": "2026-11-26T23:54:26.635Z",
  "meta": {
   "name": "gpt-oss",
   "owner": "openai",
@@ -23,14 +23,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 20572,
-  "forks": 2205,
+  "stars": 20571,
+  "forks": 2204,
   "watchers": 129,
-  "open_issues": 176,
+  "open_issues": 175,
   "open_prs": null,
   "created_at": "2025-06-23T16:43:33Z",
   "pushed_at": "2026-10-29T16:42:13Z",
-  "updated_at": "2026-11-26T13:42:04Z",
+  "updated_at": "2026-11-26T18:01:27Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -72,7 +72,7 @@
   "headings": 33,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.695Z",
-  "checked_at": "2026-11-26T15:19:24.137Z"
+  "checked_at": "2026-11-26T23:57:26.968Z"
  },
  "contributors": {
   "count": 65,
@@ -80,5 +80,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:10.975Z"
  },
- "details_checked_at": "2026-11-26T15:19:24.137Z"
+ "details_checked_at": "2026-11-26T23:57:26.968Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:19:14.993Z",
+ "fetched_at": "2026-11-26T23:57:19.627Z",
  "meta": {
   "name": "strapi",
   "owner": "strapi",
@@ -46,11 +46,11 @@
   "stars": 73556,
   "forks": 9964,
   "watchers": 648,
-  "open_issues": 623,
+  "open_issues": 637,
   "open_prs": null,
   "created_at": "2015-09-30T15:34:48Z",
-  "pushed_at": "2026-11-26T15:04:28Z",
-  "updated_at": "2026-11-26T14:54:04Z",
+  "pushed_at": "2026-11-26T17:58:09Z",
+  "updated_at": "2026-11-26T21:11:06Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 803788,
+  "size_kb": 805781,
   "og_image": "https://opengraph.githubassets.com/1/strapi/strapi",
   "custom_og_image": false
  },
@@ -82,7 +82,7 @@
   "headings": 18,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.618Z",
-  "checked_at": "2026-11-26T15:19:32.565Z"
+  "checked_at": "2026-11-26T23:57:33.867Z"
  },
  "contributors": {
   "count": 1436,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:37.147Z"
  },
- "details_checked_at": "2026-11-26T15:19:32.565Z"
+ "details_checked_at": "2026-11-26T23:57:33.867Z"
 }

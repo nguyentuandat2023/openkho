@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:15:57.394Z",
+ "fetched_at": "2026-11-26T23:54:34.144Z",
  "meta": {
   "name": "documenso",
   "owner": "documenso",
@@ -42,14 +42,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 15924,
-  "forks": 3544,
+  "stars": 15932,
+  "forks": 3547,
   "watchers": 56,
   "open_issues": 260,
   "open_prs": null,
   "created_at": "2023-03-12T16:28:56Z",
   "pushed_at": "2026-11-26T09:47:02Z",
-  "updated_at": "2026-11-26T13:19:03Z",
+  "updated_at": "2026-11-26T23:12:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -87,7 +87,7 @@
   "headings": 23,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.995Z",
-  "checked_at": "2026-11-26T15:19:24.580Z"
+  "checked_at": "2026-11-26T23:57:27.299Z"
  },
  "contributors": {
   "count": 192,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:11.605Z"
  },
- "details_checked_at": "2026-11-26T15:19:24.580Z"
+ "details_checked_at": "2026-11-26T23:57:27.299Z"
 }

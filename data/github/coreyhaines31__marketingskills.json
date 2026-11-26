@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:14:53.405Z",
+ "fetched_at": "2026-11-26T23:53:42.209Z",
  "meta": {
   "name": "marketingskills",
   "owner": "coreyhaines31",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 62777,
-  "forks": 9167,
-  "watchers": 413,
-  "open_issues": 79,
+  "stars": 62847,
+  "forks": 9184,
+  "watchers": 414,
+  "open_issues": 82,
   "open_prs": null,
   "created_at": "2026-01-15T19:45:23Z",
-  "pushed_at": "2026-11-25T17:37:26Z",
-  "updated_at": "2026-11-26T15:11:50Z",
+  "pushed_at": "2026-11-26T17:57:51Z",
+  "updated_at": "2026-11-26T23:51:04Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 7574,
+  "size_kb": 7611,
   "og_image": "https://opengraph.githubassets.com/1/coreyhaines31/marketingskills",
   "custom_og_image": false
  },
@@ -88,7 +88,7 @@
   "headings": 32,
   "processor": 4,
   "fetched_at": "2026-11-20T11:39:57.640Z",
-  "checked_at": "2026-11-26T15:19:21.768Z"
+  "checked_at": "2026-11-26T23:57:25.012Z"
  },
  "contributors": {
   "count": 93,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:33.455Z"
  },
- "details_checked_at": "2026-11-26T15:19:21.768Z"
+ "details_checked_at": "2026-11-26T23:57:25.012Z"
 }

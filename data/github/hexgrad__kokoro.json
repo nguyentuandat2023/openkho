@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:14:34.819Z",
+ "fetched_at": "2026-11-26T23:53:27.018Z",
  "meta": {
   "name": "kokoro",
   "owner": "hexgrad",
@@ -23,14 +23,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 10392,
-  "forks": 1192,
+  "stars": 10398,
+  "forks": 1194,
   "watchers": 74,
   "open_issues": 228,
   "open_prs": null,
   "created_at": "2025-01-10T21:37:05Z",
   "pushed_at": "2025-08-06T22:28:53Z",
-  "updated_at": "2026-11-26T15:09:52Z",
+  "updated_at": "2026-11-26T21:39:34Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:28.931Z",
-  "checked_at": "2026-11-26T15:19:20.903Z"
+  "checked_at": "2026-11-26T23:57:24.278Z"
  },
  "contributors": {
   "count": 22,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:32.604Z"
  },
- "details_checked_at": "2026-11-26T15:19:20.903Z"
+ "details_checked_at": "2026-11-26T23:57:24.278Z"
 }

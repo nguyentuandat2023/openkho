@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:19:07.405Z",
+ "fetched_at": "2026-11-26T23:57:13.631Z",
  "meta": {
   "name": "WordPress",
   "owner": "WordPress",
@@ -29,7 +29,7 @@
   "open_issues": 3,
   "open_prs": null,
   "created_at": "2011-12-01T07:05:17Z",
-  "pushed_at": "2026-11-26T14:36:07Z",
+  "pushed_at": "2026-11-26T21:43:07Z",
   "updated_at": "2026-11-26T06:58:28Z",
   "archived": false,
   "disabled": false,
@@ -39,7 +39,7 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 789446,
+  "size_kb": 789464,
   "og_image": "https://opengraph.githubassets.com/1/WordPress/WordPress",
   "custom_og_image": false
  },
@@ -57,7 +57,7 @@
   "headings": 0,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:41.367Z",
-  "checked_at": "2026-11-26T15:19:32.244Z"
+  "checked_at": "2026-11-26T23:57:33.687Z"
  },
  "contributors": {
   "count": 139,
@@ -65,5 +65,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:37.641Z"
  },
- "details_checked_at": "2026-11-26T15:19:32.244Z"
+ "details_checked_at": "2026-11-26T23:57:33.687Z"
 }

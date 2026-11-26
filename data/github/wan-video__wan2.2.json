@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:15:27.541Z",
+ "fetched_at": "2026-11-26T23:54:09.884Z",
  "meta": {
   "name": "Wan2.2",
   "owner": "Wan-Video",
@@ -26,14 +26,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 18944,
+  "stars": 18956,
   "forks": 2559,
   "watchers": 133,
-  "open_issues": 353,
+  "open_issues": 354,
   "open_prs": null,
   "created_at": "2025-07-28T08:17:01Z",
   "pushed_at": "2026-09-21T06:16:22Z",
-  "updated_at": "2026-11-26T15:14:25Z",
+  "updated_at": "2026-11-26T23:05:18Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -65,7 +65,7 @@
   "headings": 27,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.869Z",
-  "checked_at": "2026-11-26T15:19:23.305Z"
+  "checked_at": "2026-11-26T23:57:26.215Z"
  },
  "contributors": {
   "count": 14,
@@ -73,5 +73,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:10.044Z"
  },
- "details_checked_at": "2026-11-26T15:19:23.305Z"
+ "details_checked_at": "2026-11-26T23:57:26.215Z"
 }

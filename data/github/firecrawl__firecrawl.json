@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:14:55.807Z",
+ "fetched_at": "2026-11-26T23:53:44.669Z",
  "meta": {
   "name": "firecrawl",
   "owner": "firecrawl",
@@ -43,14 +43,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 210630,
-  "forks": 11026,
+  "stars": 210919,
+  "forks": 11050,
   "watchers": 515,
-  "open_issues": 929,
+  "open_issues": 930,
   "open_prs": null,
   "created_at": "2024-04-15T21:02:29Z",
-  "pushed_at": "2026-11-26T11:36:25Z",
-  "updated_at": "2026-11-26T15:14:38Z",
+  "pushed_at": "2026-11-26T22:08:44Z",
+  "updated_at": "2026-11-26T23:52:18Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 195372,
+  "size_kb": 196088,
   "og_image": "https://opengraph.githubassets.com/1/firecrawl/firecrawl",
   "custom_og_image": false
  },
@@ -82,7 +82,7 @@
   "headings": 25,
   "processor": 4,
   "fetched_at": "2026-11-19T20:41:39.592Z",
-  "checked_at": "2026-11-26T15:19:21.956Z"
+  "checked_at": "2026-11-26T23:57:25.158Z"
  },
  "contributors": {
   "count": 181,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:33.708Z"
  },
- "details_checked_at": "2026-11-26T15:19:21.956Z"
+ "details_checked_at": "2026-11-26T23:57:25.158Z"
 }

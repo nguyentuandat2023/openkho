@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:18:58.727Z",
+ "fetched_at": "2026-11-26T23:57:06.770Z",
  "meta": {
   "name": "shotcut",
   "owner": "mltframework",
@@ -29,14 +29,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 15802,
-  "forks": 1587,
+  "stars": 15806,
+  "forks": 1590,
   "watchers": 231,
-  "open_issues": 47,
+  "open_issues": 46,
   "open_prs": null,
   "created_at": "2012-04-23T22:37:04Z",
-  "pushed_at": "2026-11-26T01:31:02Z",
-  "updated_at": "2026-11-26T15:17:51Z",
+  "pushed_at": "2026-11-26T19:32:01Z",
+  "updated_at": "2026-11-26T20:40:01Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -45,7 +45,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 164694,
+  "size_kb": 164789,
   "og_image": "https://opengraph.githubassets.com/1/mltframework/shotcut",
   "custom_og_image": false
  },
@@ -68,7 +68,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.020Z",
-  "checked_at": "2026-11-26T15:19:31.926Z"
+  "checked_at": "2026-11-26T23:57:33.370Z"
  },
  "contributors": {
   "count": 83,
@@ -76,5 +76,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:36.211Z"
  },
- "details_checked_at": "2026-11-26T15:19:31.926Z"
+ "details_checked_at": "2026-11-26T23:57:33.370Z"
 }

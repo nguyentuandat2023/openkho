@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:15:06.006Z",
+ "fetched_at": "2026-11-26T23:53:53.255Z",
  "meta": {
   "name": "pytorch",
   "owner": "pytorch",
@@ -32,14 +32,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 105776,
-  "forks": 30667,
+  "stars": 105786,
+  "forks": 30675,
   "watchers": 1815,
-  "open_issues": 18652,
+  "open_issues": 18662,
   "open_prs": null,
   "created_at": "2016-08-13T05:26:41Z",
-  "pushed_at": "2026-11-26T15:14:22Z",
-  "updated_at": "2026-11-26T15:10:54Z",
+  "pushed_at": "2026-11-26T23:50:19Z",
+  "updated_at": "2026-11-26T23:18:43Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,7 +48,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 1740348,
+  "size_kb": 1739366,
   "og_image": "https://opengraph.githubassets.com/1/pytorch/pytorch",
   "custom_og_image": false
  },
@@ -76,7 +76,7 @@
   "headings": 29,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:20.989Z",
-  "checked_at": "2026-11-26T15:19:22.462Z"
+  "checked_at": "2026-11-26T23:57:25.547Z"
  },
  "contributors": {
   "count": 7363,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:34.402Z"
  },
- "details_checked_at": "2026-11-26T15:19:22.462Z"
+ "details_checked_at": "2026-11-26T23:57:25.547Z"
 }

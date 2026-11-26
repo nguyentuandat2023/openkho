@@ -510,11 +510,6 @@
    "full_name": "Edge0-AI/Edge0",
    "since": "2026-11-16T06:58:46.301Z"
   },
-  "1361497109": {
-   "full_name": "fossaryhq/catalog",
-   "since": "2026-11-18T20:29:46.512Z",
-   "failing_since": "2026-11-19T20:43:38.080Z"
-  },
   "1361605273": {
    "full_name": "realmyang/MLView",
    "since": "2026-11-18T11:48:17.030Z"
@@ -958,11 +953,6 @@
   "1401476500": {
    "full_name": "QingYunA/answer-me-with-html",
    "since": "2026-11-16T07:04:25.959Z"
-  },
-  "1401556740": {
-   "full_name": "NPMscan/npmscan-action",
-   "since": "2026-11-18T11:48:17.030Z",
-   "failing_since": "2026-11-19T20:43:38.080Z"
   },
   "1401744296": {
    "full_name": "vAPI-Network/vapi-network",
@@ -1977,11 +1967,6 @@
    "full_name": "DIYgod/pinky",
    "since": "2026-11-17T11:58:40.135Z"
   },
-  "1448763320": {
-   "full_name": "manjushree-iyer/soundpad-audio-suite",
-   "since": "2026-11-18T20:29:46.512Z",
-   "failing_since": "2026-11-19T20:43:38.080Z"
-  },
   "1448807268": {
    "full_name": "sostenesfreitas/ocarina-recomp",
    "since": "2026-11-18T02:55:07.183Z"
@@ -2379,6 +2364,10 @@
    "full_name": "iamajmeena/neonclipping",
    "since": "2026-11-22T03:17:30.771Z"
   },
+  "1465281397": {
+   "full_name": "AFK-surf/xnulinux",
+   "since": "2026-11-26T23:51:23.674Z"
+  },
   "1465728637": {
    "full_name": "R0Y00/Xbox2Windows",
    "since": "2026-11-23T21:20:16.888Z"
@@ -2392,8 +2381,12 @@
    "since": "2026-11-23T21:20:16.888Z"
   },
   "1466700014": {
-   "full_name": "qianyiai/kurocat",
+   "full_name": "qianyiai/KuroCat",
    "since": "2026-11-25T22:38:47.525Z"
+  },
+  "1467880545": {
+   "full_name": "Avaneesh-Inamdar/Stream-Tube-Desktop",
+   "since": "2026-11-26T23:51:23.674Z"
   },
   "1469344551": {
    "full_name": "Marvisak/VIctory",
@@ -2406,7 +2399,11 @@
   "1470579726": {
    "full_name": "fxceless/victory-fork",
    "since": "2026-11-25T02:33:08.596Z"
+  },
+  "1471422729": {
+   "full_name": "alesha-pro/llm.asm",
+   "since": "2026-11-26T23:51:23.674Z"
   }
  },
- "updated_at": "2026-11-26T15:21:06.548Z"
+ "updated_at": "2026-11-26T23:59:06.132Z"
 }

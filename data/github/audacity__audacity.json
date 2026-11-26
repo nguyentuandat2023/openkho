@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:19:04.691Z",
+ "fetched_at": "2026-11-26T23:57:11.481Z",
  "meta": {
   "name": "audacity",
   "owner": "audacity",
@@ -31,14 +31,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 19188,
-  "forks": 2754,
+  "stars": 19192,
+  "forks": 2755,
   "watchers": 265,
   "open_issues": 1960,
   "open_prs": null,
   "created_at": "2015-03-26T10:46:17Z",
-  "pushed_at": "2026-11-26T12:16:56Z",
-  "updated_at": "2026-11-26T14:09:09Z",
+  "pushed_at": "2026-11-26T16:53:38Z",
+  "updated_at": "2026-11-26T23:14:35Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 460588,
+  "size_kb": 460647,
   "og_image": "https://opengraph.githubassets.com/1/audacity/audacity",
   "custom_og_image": false
  },
@@ -65,7 +65,7 @@
   "headings": 3,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.299Z",
-  "checked_at": "2026-11-26T15:19:32.147Z"
+  "checked_at": "2026-11-26T23:57:33.593Z"
  },
  "contributors": {
   "count": 323,
@@ -73,5 +73,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:36.354Z"
  },
- "details_checked_at": "2026-11-26T15:19:32.147Z"
+ "details_checked_at": "2026-11-26T23:57:33.593Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:18:43.896Z",
+ "fetched_at": "2026-11-26T23:56:54.775Z",
  "meta": {
   "name": "CasaOS",
   "owner": "IceWhaleTech",
@@ -34,14 +34,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 37709,
-  "forks": 2228,
+  "stars": 37712,
+  "forks": 2226,
   "watchers": 206,
   "open_issues": 846,
   "open_prs": null,
   "created_at": "2021-09-26T02:33:09Z",
   "pushed_at": "2026-11-17T03:51:16Z",
-  "updated_at": "2026-11-26T15:11:23Z",
+  "updated_at": "2026-11-26T19:50:40Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -78,7 +78,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.378Z",
-  "checked_at": "2026-11-26T15:19:31.302Z"
+  "checked_at": "2026-11-26T23:57:32.896Z"
  },
  "contributors": {
   "count": 26,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:35.105Z"
  },
- "details_checked_at": "2026-11-26T15:19:31.302Z"
+ "details_checked_at": "2026-11-26T23:57:32.896Z"
 }

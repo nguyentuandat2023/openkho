@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:17:13.823Z",
+ "fetched_at": "2026-11-26T23:55:41.761Z",
  "meta": {
   "name": "prompts.chat",
   "owner": "f",
@@ -42,14 +42,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 178565,
-  "forks": 22762,
+  "stars": 178595,
+  "forks": 22760,
   "watchers": 1683,
   "open_issues": 99,
   "open_prs": null,
   "created_at": "2022-12-05T13:54:13Z",
   "pushed_at": "2026-11-26T07:09:14Z",
-  "updated_at": "2026-11-26T15:06:36Z",
+  "updated_at": "2026-11-26T23:48:22Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -81,7 +81,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.943Z",
-  "checked_at": "2026-11-26T15:19:27.818Z"
+  "checked_at": "2026-11-26T23:57:29.900Z"
  },
  "contributors": {
   "count": 1596,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:16.848Z"
  },
- "details_checked_at": "2026-11-26T15:19:27.818Z"
+ "details_checked_at": "2026-11-26T23:57:29.900Z"
 }

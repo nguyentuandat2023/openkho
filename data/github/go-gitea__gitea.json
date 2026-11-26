@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:16:54.547Z",
+ "fetched_at": "2026-11-26T23:55:26.077Z",
  "meta": {
   "name": "gitea",
   "owner": "go-gitea",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 59271,
-  "forks": 7433,
-  "watchers": 492,
-  "open_issues": 2199,
+  "stars": 59282,
+  "forks": 7434,
+  "watchers": 493,
+  "open_issues": 2209,
   "open_prs": null,
   "created_at": "2016-11-01T02:13:26Z",
   "pushed_at": "2026-11-26T14:44:05Z",
-  "updated_at": "2026-11-26T11:27:41Z",
+  "updated_at": "2026-11-26T23:10:05Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -84,7 +84,7 @@
   "headings": 24,
   "processor": 4,
   "fetched_at": "2026-11-26T15:19:26.935Z",
-  "checked_at": "2026-11-26T15:19:26.935Z"
+  "checked_at": "2026-11-26T23:57:29.224Z"
  },
  "contributors": {
   "count": 1931,
@@ -92,5 +92,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:15.579Z"
  },
- "details_checked_at": "2026-11-26T15:19:26.935Z"
+ "details_checked_at": "2026-11-26T23:57:29.224Z"
 }

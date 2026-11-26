@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:17:38.829Z",
+ "fetched_at": "2026-11-26T23:56:01.782Z",
  "meta": {
   "name": "dub.link",
   "owner": "dubinc",
@@ -36,13 +36,13 @@
    "name": "Other"
   },
   "stars": 25233,
-  "forks": 3414,
+  "forks": 3415,
   "watchers": 88,
   "open_issues": 76,
   "open_prs": null,
   "created_at": "2022-08-27T22:15:11Z",
   "pushed_at": "2026-10-27T02:24:37Z",
-  "updated_at": "2026-11-26T00:32:30Z",
+  "updated_at": "2026-11-26T17:28:03Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -74,7 +74,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.915Z",
-  "checked_at": "2026-11-26T15:19:28.708Z"
+  "checked_at": "2026-11-26T23:57:30.726Z"
  },
  "contributors": {
   "count": 94,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:18.004Z"
  },
- "details_checked_at": "2026-11-26T15:19:28.708Z"
+ "details_checked_at": "2026-11-26T23:57:30.726Z"
 }

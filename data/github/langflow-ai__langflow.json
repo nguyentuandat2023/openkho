@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:14:44.035Z",
+ "fetched_at": "2026-11-26T23:53:34.560Z",
  "meta": {
   "name": "langflow",
   "owner": "langflow-ai",
@@ -30,14 +30,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 156969,
-  "forks": 10455,
+  "stars": 156973,
+  "forks": 10457,
   "watchers": 527,
-  "open_issues": 1357,
+  "open_issues": 1361,
   "open_prs": null,
   "created_at": "2023-02-08T22:28:03Z",
-  "pushed_at": "2026-11-26T14:38:43Z",
-  "updated_at": "2026-11-26T15:06:29Z",
+  "pushed_at": "2026-11-26T22:30:25Z",
+  "updated_at": "2026-11-26T23:19:09Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -46,7 +46,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 1763318,
+  "size_kb": 1759549,
   "og_image": "https://opengraph.githubassets.com/1/langflow-ai/langflow",
   "custom_og_image": false
  },
@@ -74,7 +74,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:19.931Z",
-  "checked_at": "2026-11-26T15:19:21.345Z"
+  "checked_at": "2026-11-26T23:57:24.610Z"
  },
  "contributors": {
   "count": 404,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:32.965Z"
  },
- "details_checked_at": "2026-11-26T15:19:21.345Z"
+ "details_checked_at": "2026-11-26T23:57:24.610Z"
 }

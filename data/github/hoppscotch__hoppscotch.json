@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:16:52.712Z",
+ "fetched_at": "2026-11-26T23:55:24.390Z",
  "meta": {
   "name": "hoppscotch",
   "owner": "hoppscotch",
@@ -42,14 +42,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 80982,
-  "forks": 6256,
+  "stars": 80986,
+  "forks": 6257,
   "watchers": 501,
-  "open_issues": 927,
+  "open_issues": 929,
   "open_prs": null,
   "created_at": "2019-08-21T13:15:24Z",
-  "pushed_at": "2026-11-25T09:21:52Z",
-  "updated_at": "2026-11-26T14:40:25Z",
+  "pushed_at": "2026-11-26T18:27:34Z",
+  "updated_at": "2026-11-26T23:17:56Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,7 +58,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 101151,
+  "size_kb": 101155,
   "og_image": "https://opengraph.githubassets.com/1/hoppscotch/hoppscotch",
   "custom_og_image": false
  },
@@ -86,7 +86,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.099Z",
-  "checked_at": "2026-11-26T15:19:26.903Z"
+  "checked_at": "2026-11-26T23:57:29.253Z"
  },
  "contributors": {
   "count": 357,
@@ -94,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:15.351Z"
  },
- "details_checked_at": "2026-11-26T15:19:26.903Z"
+ "details_checked_at": "2026-11-26T23:57:29.253Z"
 }

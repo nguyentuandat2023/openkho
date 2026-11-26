@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:14:14.865Z",
+ "fetched_at": "2026-11-26T23:53:07.469Z",
  "meta": {
   "name": "browser-use",
   "owner": "browser-use",
@@ -41,14 +41,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 122125,
-  "forks": 13658,
+  "stars": 122152,
+  "forks": 13662,
   "watchers": 473,
-  "open_issues": 590,
+  "open_issues": 591,
   "open_prs": null,
   "created_at": "2024-10-31T16:00:56Z",
-  "pushed_at": "2026-11-26T07:03:58Z",
-  "updated_at": "2026-11-26T14:52:50Z",
+  "pushed_at": "2026-11-26T23:16:54Z",
+  "updated_at": "2026-11-26T23:34:45Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,20 +57,20 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 43464,
+  "size_kb": 43783,
   "og_image": "https://opengraph.githubassets.com/1/browser-use/browser-use",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 24138,
+  "length": 25205,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
   "sections": {
    "install": {
     "title": "Quickstart",
-    "html": "<h4>Path 1: Fully Hosted Cloud</h4>\n<p>Scale browser automation with our hosted agent, stealth browsers, and infrastructure for profiles, recordings, and data policies.</p>\n<p><a href=\"https://docs.browser-use.com/cloud/agent/quickstart\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Get started with the API ↗</a></p>\n<p>New Google, GitHub, or Microsoft signups get <strong>$1 cloud credit</strong>.</p>\n<br /><h4>Path 2: CLI</h4>\n<p>Paste this prompt into Claude Code, Codex, Hermes, OpenClaw, or your favorite agent.</p>\n<pre><code class=\"language-text\">Install browser-use with `uv tool install browser-use==1.0.8`, run `browser-use skill install` to register the skill, and connect it to my browser. If setup or connection fails, run `browser-use --doctor` and follow its output and the error message.\n</code></pre>\n<br /><h4>Path 3: Python Library</h4>\n<blockquote>\n<p><strong>browser-use 1.0.</strong> The agent writes Python against raw CDP in a persistent REPL, on <a href=\"https://ai.pydantic.dev\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Pydantic AI</a>. Coming from 0.x? Read <a href=\"https://github.com/browser-use/browser-use/blob/main/MIGRATING.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MIGRATING.md</a>.</p>\n</blockquote>\n<p>Python 3.11 or newer. Get an API key at <a href=\"https://cloud.browser-use.com/new-api-key?utm_source=github&amp;utm_medium=readme-quickstart-api-key\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Browser Use Cloud</a>, then install with uv, or pip in a venv:</p>\n<pre><code class=\"language-bash\">uv init --python 3.12 my-agent &amp;&amp; cd my-agent\nuv add 'browser-use==1.0.8'\nuv run browser-use login             # sign in once; the key is saved (over SSH: --device-code)\n</code></pre>\n<pre><code class=\"language-bash\">python3 -m venv .venv &amp;&amp; source .venv/bin/activate\npip install 'browser-use==1.0.8'\nbrowser-use login\n</code></pre>\n<p>Or set <code>BROWSER_USE_API_KEY=bu_...</code> (a key from <a href=\"https://cloud.browser-use.com/new-api-key\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://cloud.browser-use.com/new-api-key</a>). In a notebook: <code>browser_use.login()</code>.</p>\n<p><strong>Pin the exact version</strong> (<code>==</code>, never <code>&gt;=</code>). browser-use moves fast and releases can break things. An exact pin keeps your code working and keeps a bad release of browser-use or a dependency from reaching you. Upgrade on purpose, after reading the release notes.</p>\n<pre><code class=\"language-python\">from browser_use import Agent\n\nresult = Agent('Find the number of stars of the browser-use repo').run_sync()\nprint(result.final_result())\n</code></pre>\n<p>Defaults: model <code>bu-4.0</code> (BU 4.0) on the Browser Use gateway, browser = a Browser Use Cloud browser (stopped when the run ends). One key pays for the model and the cloud browser (also <code>ChatBrowserUse(api_key=...)</code>'s), and also works for the CLI and MCP server. A <code>.env</code> file works too.</p>\n<p>Without a key, an interactive desktop run opens Browser Use login and continues after approval.\nOver SSH or on Linux without a desktop it prints a link and a code to approve on any device, then continues.\nLogin creates and saves the key automatically; no copying is needed. Ctrl-C stops it with the missing-key error.\nSet <code>BROWSER_USE_AUTO_LOGIN=false</code> to disable automatic login (<code>=true</code> allows the device code in a container).\nServers, CI, notebooks, containers and piped input keep the missing-key error and the <code>browser-use login</code> instructions.</p>\n<p>Cloud browsers print their interactive live-view link to stderr by default.\nUse <code>Browser(live_view=True)</code> to open it automatically, or <code>Browser(live_view=False)</code> to hide it.\nAnyone with the link can control the browser.</p>\n<p>With telemetry enabled, anonymous <code>library_auth</code> events record missing keys, login outcomes, available keys, and browser starts.\nThese events use the existing installation ID and contain no API keys, login URLs, or account identifiers (fields: <strong>Telemetry</strong> below).\nKey availability does not prove that the server accepts the key.\nCloud browser startup confirms that authentication worked.</p>\n<p><strong>Local browser, your model:</strong></p>\n<pre><code class=\"language-python\">from browser_use import Agent, Browser, ChatOpenAI\n\nagent = Agent(\n    'Find the number of stars of the browser-use repo',\n    llm=ChatOpenAI('gpt-6-luna'),        # OPENAI_API_KEY; or ChatOpenAI(model, base_url=...) for any compatible server\n    browser=Browser('chromium'),         # a fresh local Chrome with its own temp profile\n)\nprint(agent.run_sync().final_result())  # in async code: result = await agent.run()\n</code></pre>\n<table>\n<thead>\n<tr>\n<th>Browser</th>\n<th>What the agent drives</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><code>Browser()</code></td>\n<td>a Browser Use Cloud browser (default)</td>\n</tr>\n<tr>\n<td><code>Browser('chromium')</code></td>\n<td>a fresh local Chrome/Chromium/Edge with its own temp profile, deleted afterwards. Headless when there is no display (Docker, CI); <code>headless=</code>, <code>executable_path=</code>, <code>user_data_dir=</code> (a profile dir kept between runs)</td>\n</tr>\n<tr>\n<td><code>Browser('chrome')</code></td>\n<td>the Chrome you have open, with your logins (turn on chrome://inspect/#remote-debugging once)</td>\n</tr>\n<tr>\n<td><code>Browser('chrome', profile='Work')</code></td>\n<td>a new Chrome on a temporary copy of your Chrome profile <code>Work</code> (sync off); your Chrome can stay open, except on Windows</td>\n</tr>\n</tbody></table>\n<p>Other models: <code>ChatAnthropic</code>, <code>ChatGoogle</code> (both built in), or any Pydantic AI model string such as <code>llm='groq:llama-3.3-70b-versatile'</code> (after <code>pip install 'pydantic-ai-slim[groq]'</code>).</p>",
+    "html": "<h4>Path 1: Fully Hosted Cloud</h4>\n<p>Scale browser automation with our hosted agent, stealth browsers, and infrastructure for profiles, recordings, and data policies.</p>\n<p><a href=\"https://docs.browser-use.com/cloud/agent/quickstart\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Get started with the API ↗</a></p>\n<p>New Google, GitHub, or Microsoft signups get <strong>$1 cloud credit</strong>.</p>\n<br /><h4>Path 2: CLI</h4>\n<p>Paste this prompt into Claude Code, Codex, Hermes, OpenClaw, or your favorite agent.</p>\n<pre><code class=\"language-text\">Install browser-use with `uv tool install browser-use==1.0.9`, run `browser-use skill install` to register the skill, and connect it to my browser. If setup or connection fails, run `browser-use --doctor` and follow its output and the error message.\n</code></pre>\n<br /><h4>Path 3: Python Library</h4>\n<blockquote>\n<p><strong>browser-use 1.0.</strong> The agent writes Python against raw CDP in a persistent REPL, on <a href=\"https://ai.pydantic.dev\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Pydantic AI</a>. Coming from 0.x? Read <a href=\"https://github.com/browser-use/browser-use/blob/main/MIGRATING.md\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">MIGRATING.md</a>.</p>\n</blockquote>\n<p>Python 3.11 or newer. Get an API key at <a href=\"https://cloud.browser-use.com/new-api-key?utm_source=github&amp;utm_medium=readme-quickstart-api-key\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Browser Use Cloud</a>, then install with uv, or pip in a venv:</p>\n<pre><code class=\"language-bash\">uv init --python 3.12 my-agent &amp;&amp; cd my-agent\nuv add 'browser-use==1.0.9'\nuv run browser-use login             # sign in once; the key is saved (over SSH: --device-code)\n</code></pre>\n<pre><code class=\"language-bash\">python3 -m venv .venv &amp;&amp; source .venv/bin/activate\npip install 'browser-use==1.0.9'\nbrowser-use login\n</code></pre>\n<p>Or set <code>BROWSER_USE_API_KEY=bu_...</code> (a key from <a href=\"https://cloud.browser-use.com/new-api-key\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">https://cloud.browser-use.com/new-api-key</a>). In a notebook: <code>browser_use.login()</code>.</p>\n<p><strong>Pin the exact version</strong> (<code>==</code>, never <code>&gt;=</code>). browser-use moves fast and releases can break things. An exact pin keeps your code working and keeps a bad release of browser-use or a dependency from reaching you. Upgrade on purpose, after reading the release notes.</p>\n<pre><code class=\"language-python\">from browser_use import Agent\n\nresult = Agent('Find the number of stars of the browser-use repo').run_sync()\nprint(result.final_result())\n</code></pre>\n<p>Defaults: model <code>bu-4.0</code> (BU 4.0) on the Browser Use gateway, browser = a Browser Use Cloud browser (stopped when the run ends). One key pays for the model and the cloud browser (also <code>ChatBrowserUse(api_key=...)</code>'s), and also works for the CLI and MCP server. A <code>.env</code> file works too.</p>\n<p>Without a key, an interactive desktop run opens Browser Use login and continues after approval.\nOver SSH or on Linux without a desktop it prints a link and a code to approve on any device, then continues.\nLogin creates and saves the key automatically; no copying is needed. Ctrl-C stops it with the missing-key error.\nSet <code>BROWSER_USE_AUTO_LOGIN=false</code> to disable automatic login (<code>=true</code> allows the device code in a container).\nServers, CI, notebooks, containers and piped input keep the missing-key error and the <code>browser-use login</code> instructions.</p>\n<p>Cloud browsers print their interactive live-view link to stderr by default.\nUse <code>Browser(live_view=True)</code> to open it automatically, or <code>Browser(live_view=False)</code> to hide it.\nAnyone with the link can control the browser.</p>\n<p>With telemetry enabled, anonymous <code>library_auth</code> events record missing keys, login outcomes, available keys, and browser starts.\nThese events use the existing installation ID and contain no API keys, login URLs, or account identifiers (fields: <strong>Telemetry</strong> below).\nKey availability does not prove that the server accepts the key.\nCloud browser startup confirms that authentication worked.</p>\n<p><strong>Local browser, your model:</strong></p>\n<pre><code class=\"language-python\">from browser_use import Agent, Browser, ChatOpenAI\n\nagent = Agent(\n    'Find the number of stars of the browser-use repo',\n    llm=ChatOpenAI('gpt-6-luna'),        # OPENAI_API_KEY; or ChatOpenAI(model, base_url=...) for any compatible server\n    browser=Browser('chromium'),         # a fresh local Chrome with its own temp profile\n)\nprint(agent.run_sync().final_result())  # in async code: result = await agent.run()\n</code></pre>\n<table>\n<thead>\n<tr>\n<th>Browser</th>\n<th>What the agent drives</th>\n</tr>\n</thead>\n<tbody><tr>\n<td><code>Browser()</code></td>\n<td>a Browser Use Cloud browser (default)</td>\n</tr>\n<tr>\n<td><code>Browser('chromium')</code></td>\n<td>a fresh local Chrome/Chromium/Edge with its own temp profile, deleted afterwards. Headless when there is no display (Docker, CI); <code>headless=</code>, <code>executable_path=</code>, <code>user_data_dir=</code> (a profile dir kept between runs)</td>\n</tr>\n<tr>\n<td><code>Browser('chrome')</code></td>\n<td>the Chrome you have open, with your logins (turn on chrome://inspect/#remote-debugging once)</td>\n</tr>\n<tr>\n<td><code>Browser('chrome', profile='Work')</code></td>\n<td>a new Chrome on a temporary copy of your Chrome profile <code>Work</code> (sync off); your Chrome can stay open, except on Windows</td>\n</tr>\n</tbody></table>\n<p>Other models: <code>ChatAnthropic</code>, <code>ChatGoogle</code> (both built in), or any Pydantic AI model string such as <code>llm='groq:llama-3.3-70b-versatile'</code> (after <code>pip install 'pydantic-ai-slim[groq]'</code>).</p>",
     "truncated": true,
     "chars": 4729
    },
@@ -79,8 +79,8 @@
   },
   "headings": 12,
   "processor": 4,
-  "fetched_at": "2026-11-22T11:25:27.348Z",
-  "checked_at": "2026-11-26T15:19:20.198Z"
+  "fetched_at": "2026-11-26T23:57:23.699Z",
+  "checked_at": "2026-11-26T23:57:23.699Z"
  },
  "contributors": {
   "count": 385,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:31.593Z"
  },
- "details_checked_at": "2026-11-26T15:19:20.198Z"
+ "details_checked_at": "2026-11-26T23:57:23.699Z"
 }

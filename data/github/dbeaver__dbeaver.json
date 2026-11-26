@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T15:16:24.628Z",
+ "fetched_at": "2026-11-26T23:54:58.199Z",
  "meta": {
   "name": "dbeaver",
   "owner": "dbeaver",
@@ -42,14 +42,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 52541,
+  "stars": 52545,
   "forks": 4473,
   "watchers": 548,
-  "open_issues": 3339,
+  "open_issues": 3332,
   "open_prs": null,
   "created_at": "2015-10-21T08:26:28Z",
-  "pushed_at": "2026-11-26T15:08:40Z",
-  "updated_at": "2026-11-26T14:30:31Z",
+  "pushed_at": "2026-11-26T19:38:46Z",
+  "updated_at": "2026-11-26T21:16:56Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,7 +58,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 261935,
+  "size_kb": 262326,
   "og_image": "https://opengraph.githubassets.com/1/dbeaver/dbeaver",
   "custom_og_image": false
  },
@@ -81,7 +81,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-20T20:20:32.744Z",
-  "checked_at": "2026-11-26T15:19:25.747Z"
+  "checked_at": "2026-11-26T23:57:28.187Z"
  },
  "contributors": {
   "count": 562,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:13.459Z"
  },
- "details_checked_at": "2026-11-26T15:19:25.748Z"
+ "details_checked_at": "2026-11-26T23:57:28.187Z"
 }
