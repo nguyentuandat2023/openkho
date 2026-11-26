@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:07:35.471Z",
+ "fetched_at": "2026-11-26T15:19:12.150Z",
  "meta": {
   "name": "ui",
   "owner": "shadcn-ui",
@@ -41,14 +41,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 129103,
-  "forks": 11440,
-  "watchers": 418,
-  "open_issues": 1749,
+  "stars": 129155,
+  "forks": 11449,
+  "watchers": 417,
+  "open_issues": 1750,
   "open_prs": null,
   "created_at": "2023-01-04T12:43:27Z",
-  "pushed_at": "2026-11-25T19:07:40Z",
-  "updated_at": "2026-11-26T04:17:32Z",
+  "pushed_at": "2026-11-26T09:13:17Z",
+  "updated_at": "2026-11-26T15:10:58Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,7 +57,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 75676,
+  "size_kb": 75624,
   "og_image": "https://opengraph.githubassets.com/1/shadcn-ui/ui",
   "custom_og_image": false
  },
@@ -75,7 +75,7 @@
   "headings": 4,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.523Z",
-  "checked_at": "2026-11-26T05:07:53.411Z"
+  "checked_at": "2026-11-26T15:19:32.448Z"
  },
  "contributors": {
   "count": 651,
@@ -83,5 +83,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:36.879Z"
  },
- "details_checked_at": "2026-11-26T05:07:53.411Z"
+ "details_checked_at": "2026-11-26T15:19:32.448Z"
 }

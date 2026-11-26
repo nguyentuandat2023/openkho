@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:06:05.581Z",
+ "fetched_at": "2026-11-26T15:17:24.624Z",
  "meta": {
   "name": "llm-course",
   "owner": "mlabonne",
@@ -29,14 +29,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 85241,
-  "forks": 9899,
-  "watchers": 758,
+  "stars": 85262,
+  "forks": 9897,
+  "watchers": 759,
   "open_issues": 92,
   "open_prs": null,
   "created_at": "2023-06-17T22:16:25Z",
   "pushed_at": "2026-02-05T13:09:26Z",
-  "updated_at": "2026-11-26T03:52:14Z",
+  "updated_at": "2026-11-26T15:04:51Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -84,7 +84,7 @@
   "headings": 29,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.331Z",
-  "checked_at": "2026-11-26T05:07:49.664Z"
+  "checked_at": "2026-11-26T15:19:28.243Z"
  },
  "contributors": {
   "count": 3,
@@ -92,5 +92,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:17.200Z"
  },
- "details_checked_at": "2026-11-26T05:07:49.664Z"
+ "details_checked_at": "2026-11-26T15:19:28.243Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:04:32.712Z",
+ "fetched_at": "2026-11-26T15:15:39.862Z",
  "meta": {
   "name": "lobehub",
   "owner": "lobehub",
@@ -34,14 +34,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 86164,
-  "forks": 16374,
+  "stars": 86180,
+  "forks": 16369,
   "watchers": 302,
-  "open_issues": 1359,
+  "open_issues": 1356,
   "open_prs": null,
   "created_at": "2023-05-21T07:19:12Z",
-  "pushed_at": "2026-11-26T04:59:05Z",
-  "updated_at": "2026-11-26T04:38:08Z",
+  "pushed_at": "2026-11-26T15:14:49Z",
+  "updated_at": "2026-11-26T15:12:23Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -50,7 +50,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 662143,
+  "size_kb": 671679,
   "og_image": "https://opengraph.githubassets.com/1/lobehub/lobehub",
   "custom_og_image": false
  },
@@ -78,7 +78,7 @@
   "headings": 19,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.309Z",
-  "checked_at": "2026-11-26T05:07:46.024Z"
+  "checked_at": "2026-11-26T15:19:23.789Z"
  },
  "contributors": {
   "count": 365,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:10.591Z"
  },
- "details_checked_at": "2026-11-26T05:07:46.024Z"
+ "details_checked_at": "2026-11-26T15:19:23.789Z"
 }

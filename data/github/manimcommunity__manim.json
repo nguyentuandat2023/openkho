@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:07:30.562Z",
+ "fetched_at": "2026-11-26T15:19:05.616Z",
  "meta": {
   "name": "manim",
   "owner": "ManimCommunity",
@@ -29,14 +29,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 42919,
-  "forks": 3410,
-  "watchers": 68,
-  "open_issues": 408,
+  "stars": 42935,
+  "forks": 3420,
+  "watchers": 69,
+  "open_issues": 411,
   "open_prs": null,
   "created_at": "2020-05-19T02:37:13Z",
-  "pushed_at": "2026-11-25T21:59:06Z",
-  "updated_at": "2026-11-26T04:38:32Z",
+  "pushed_at": "2026-11-26T13:57:25Z",
+  "updated_at": "2026-11-26T15:12:47Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -45,7 +45,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 51456,
+  "size_kb": 51511,
   "og_image": "https://opengraph.githubassets.com/1/ManimCommunity/manim",
   "custom_og_image": false
  },
@@ -73,7 +73,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.284Z",
-  "checked_at": "2026-11-26T05:07:53.227Z"
+  "checked_at": "2026-11-26T15:19:32.180Z"
  },
  "contributors": {
   "count": 544,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:36.659Z"
  },
- "details_checked_at": "2026-11-26T05:07:53.227Z"
+ "details_checked_at": "2026-11-26T15:19:32.180Z"
 }

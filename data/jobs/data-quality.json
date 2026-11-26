@@ -1,5 +1,5 @@
 {
- "computed_at": "2026-11-26T05:09:21.750Z",
+ "computed_at": "2026-11-26T15:21:03.591Z",
  "curated_missing_github_id": [],
  "missing_contributors": 2377,
  "stale_over_48h": [
@@ -76,8 +76,10 @@
   "sourmitocand1987/VividFrame-GPU",
   "0marContreras/gta6recomp",
   "Bodila51/gtavi-claudecode",
+  "bookwjitchieni1986/blender-ai-mcp-addon",
   "dickoyudha-netizen/adobe-firefly-image-creator",
   "realdody/americas-recomp",
+  "ItsNotRexed/Leonida",
   "hatsunemiku-ai/google-one-tools",
   "cachedarknorth54/wolfram-alpha-pro-win",
   "Fadiperez71/substance-painter-win",
@@ -200,11 +202,9 @@
   "marcus-ali-lab1905z4/path-of-exile-2-map-reveal-zoom-out-portable-x64",
   "max-moore-x1905b1/arc-raiders-external-extraction-radar-loot-portable-x64",
   "david-ivanovio2004x4/schedule-i-melonloader-mod-menu-cash-portable-x64",
-  "kyle-brown-io2003g7/civilization-vii-in-game-editor-ige-portable-x64",
-  "markdevx1901r4/shadps4-bloodborne-pc-60fps-patch-vertex-explosion-portabl",
-  "kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64"
+  "kyle-brown-io2003g7/civilization-vii-in-game-editor-ige-portable-x64"
  ],
- "low_quality_coverage": 513,
+ "low_quality_coverage": 394,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -739,6 +739,11 @@
   },
   {
    "id": "arnavvashisht135/delta-executor-pc",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Buntee-tech/exitlag-utility",
    "origin": "radar",
    "status": "not_found"
   },
@@ -1450,6 +1455,10 @@
  ],
  "renamed": [
   {
+   "from": "RekklesNA/ProxmoxMCP-Plus",
+   "to": "im-xiangda-li/ProxmoxMCP-Plus"
+  },
+  {
    "from": "jhlee0409/claude-code-history-viewer",
    "to": "jhlee0409/omnilogue"
   },
@@ -1528,33 +1537,45 @@
  ],
  "anomalies": [
   {
+   "id": "mrdoob/three.js",
+   "reasons": [
+    "+521 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
    "id": "EbookFoundation/free-programming-books",
    "reasons": [
-    "+438 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+444 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "nilbuild/developer-roadmap",
    "reasons": [
-    "+458 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+447 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Stirling-Tools/Stirling-PDF",
    "reasons": [
-    "+515 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+511 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "torvalds/linux",
    "reasons": [
-    "+573 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+771 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "avelino/awesome-go",
+   "reasons": [
+    "+1.319 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "freeCodeCamp/freeCodeCamp",
    "reasons": [
-    "+330 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+335 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1564,9 +1585,21 @@
    ]
   },
   {
+   "id": "BurntSushi/ripgrep",
+   "reasons": [
+    "+311 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
    "id": "jwasham/coding-interview-university",
    "reasons": [
-    "+531 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+544 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "krahets/hello-algo",
+   "reasons": [
+    "+303 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1585,12 +1618,6 @@
    "id": "mattpocock/skills",
    "reasons": [
     "rất ít người đóng góp (9) so với tốc độ tăng sao"
-   ]
-  },
-  {
-   "id": "ifixai-ai/iFixAi",
-   "reasons": [
-    "+797 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1716,7 +1743,7 @@
   {
    "id": "ksjhk/api",
    "reasons": [
-    "repo mới với 1.082 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 973 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -1728,7 +1755,7 @@
   {
    "id": "AhmadHassan-BTed/RainGen-RainGenerator",
    "reasons": [
-    "repo mới với 1.615 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.621 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -1798,9 +1825,9 @@
    ]
   },
   {
-   "id": "XinaTian/MROffice",
+   "id": "JenkinWoo/sheeridVerify",
    "reasons": [
-    "rất ít người đóng góp (2) so với tốc độ tăng sao"
+    "rất ít người đóng góp (1) so với tốc độ tăng sao"
    ]
   },
   {
@@ -1860,7 +1887,7 @@
   {
    "id": "bradburns2001/topaz-video-ai-desktop",
    "reasons": [
-    "+304 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1878,7 +1905,7 @@
   {
    "id": "ShutongLiang/Neural-State-OS",
    "reasons": [
-    "+405 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+430 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1896,7 +1923,7 @@
   {
    "id": "lizhenjie137/intelligent-organization",
    "reasons": [
-    "+490 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+504 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2166,7 +2193,7 @@
   {
    "id": "lebrowndnasty-hash/ai-app-builder",
    "reasons": [
-    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2266,12 +2293,6 @@
    ]
   },
   {
-   "id": "Buntee-tech/exitlag-utility",
-   "reasons": [
-    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
    "id": "Yummy2288/fonetrans-desktop-utility",
    "reasons": [
     "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
@@ -2298,7 +2319,7 @@
   {
    "id": "ayux777/metatrader-5-bot",
    "reasons": [
-    "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -2442,19 +2463,19 @@
   {
    "id": "Indigo-0167/universal-game-mod-manager",
    "reasons": [
-    "+566 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.300 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "solv4626/steam-achievement-manager-windows",
    "reasons": [
-    "+371 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 1.058 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "kai415-debug/ffmpeg-video-audio-converter",
    "reasons": [
-    "+341 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 1.020 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -2472,13 +2493,13 @@
   {
    "id": "zero5122/offline-file-converter-windows",
    "reasons": [
-    "repo mới với 1.062 sao nhưng gần như không có fork (2) và chưa có issue nào"
+    "repo mới với 1.067 sao nhưng gần như không có fork (2) và chưa có issue nào"
    ]
   },
   {
    "id": "Umbra9179/clipboard-history-manager-windows",
    "reasons": [
-    "+555 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 1.263 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   }
  ],

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:06:16.910Z",
+ "fetched_at": "2026-11-26T15:17:37.768Z",
  "meta": {
   "name": "BillionMail",
   "owner": "Billionmail",
@@ -80,7 +80,7 @@
   "headings": 17,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.926Z",
-  "checked_at": "2026-11-26T05:07:50.193Z"
+  "checked_at": "2026-11-26T15:19:28.696Z"
  },
  "contributors": {
   "count": 18,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:18.160Z"
  },
- "details_checked_at": "2026-11-26T05:07:50.193Z"
+ "details_checked_at": "2026-11-26T15:19:28.696Z"
 }

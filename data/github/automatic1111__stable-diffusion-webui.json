@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:04:16.874Z",
+ "fetched_at": "2026-11-26T15:15:23.596Z",
  "meta": {
   "name": "stable-diffusion-webui",
   "owner": "AUTOMATIC1111",
@@ -40,14 +40,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 165388,
-  "forks": 31028,
+  "stars": 165387,
+  "forks": 31027,
   "watchers": 1245,
   "open_issues": 2511,
   "open_prs": null,
   "created_at": "2022-08-22T14:05:26Z",
   "pushed_at": "2026-03-02T07:00:53Z",
-  "updated_at": "2026-11-26T03:59:01Z",
+  "updated_at": "2026-11-26T14:59:27Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -84,7 +84,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.667Z",
-  "checked_at": "2026-11-26T05:07:45.434Z"
+  "checked_at": "2026-11-26T15:19:23.133Z"
  },
  "contributors": {
   "count": 639,
@@ -92,5 +92,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T06:07:49.437Z"
  },
- "details_checked_at": "2026-11-26T05:07:45.434Z"
+ "details_checked_at": "2026-11-26T15:19:23.133Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:07:13.792Z",
+ "fetched_at": "2026-11-26T15:18:46.738Z",
  "meta": {
   "name": "portainer",
   "owner": "portainer",
@@ -39,12 +39,12 @@
   },
   "stars": 38915,
   "forks": 2949,
-  "watchers": 467,
+  "watchers": 468,
   "open_issues": 776,
   "open_prs": null,
   "created_at": "2016-05-19T20:15:28Z",
   "pushed_at": "2026-11-25T13:01:21Z",
-  "updated_at": "2026-11-25T23:50:52Z",
+  "updated_at": "2026-11-26T15:10:48Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -76,7 +76,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.597Z",
-  "checked_at": "2026-11-26T05:07:52.561Z"
+  "checked_at": "2026-11-26T15:19:31.436Z"
  },
  "contributors": {
   "count": 264,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:35.385Z"
  },
- "details_checked_at": "2026-11-26T05:07:52.561Z"
+ "details_checked_at": "2026-11-26T15:19:31.436Z"
 }

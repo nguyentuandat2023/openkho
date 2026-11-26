@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:06:13.747Z",
+ "fetched_at": "2026-11-26T15:17:33.820Z",
  "meta": {
   "name": "posthog",
   "owner": "PostHog",
@@ -39,14 +39,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 41130,
-  "forks": 3731,
+  "stars": 41155,
+  "forks": 3734,
   "watchers": 147,
-  "open_issues": 4483,
+  "open_issues": 4478,
   "open_prs": null,
   "created_at": "2020-01-23T22:46:58Z",
-  "pushed_at": "2026-11-26T05:05:25Z",
-  "updated_at": "2026-11-26T04:57:03Z",
+  "pushed_at": "2026-11-26T15:17:12Z",
+  "updated_at": "2026-11-26T15:13:57Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -55,13 +55,13 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 9830130,
+  "size_kb": 9845390,
   "og_image": "https://opengraph.githubassets.com/1/PostHog/posthog",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 13728,
+  "length": 14481,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [
@@ -74,17 +74,17 @@
   "sections": {
    "install": {
     "title": "Getting started with PostHog",
-    "html": "<h5>PostHog Cloud (Recommended)</h5>\n<p>The fastest and most reliable way to get started with PostHog is signing up for free to <a href=\"https://us.posthog.com/signup\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PostHog Cloud</a> or <a href=\"https://eu.posthog.com/signup\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PostHog Cloud EU</a>. Your first 1 million events, 5k recordings, 1M flag requests, 100k exceptions, 10GB of logs, and 1500 survey responses are free every month, after which you pay based on usage.</p>\n<h5>Self-hosting the open-source hobby deploy (Advanced)</h5>\n<p>If you want to self-host PostHog, you can deploy a hobby instance in one line on Linux with Docker (recommended 4GB memory):</p>\n<pre><code class=\"language-bash\">/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/posthog/posthog/HEAD/bin/deploy-hobby)\"\n</code></pre>\n<p>Open source deployments should scale to approximately 100k events per month, after which we recommend <a href=\"https://posthog.com/docs/migrate/migrate-to-cloud\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">migrating to a PostHog Cloud</a>.</p>\n<p>We <em>do not</em> provide customer support or offer guarantees for open source deployments. See our <a href=\"https://posthog.com/docs/self-host\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">self-hosting docs</a>, <a href=\"https://posthog.com/docs/self-host/deploy/troubleshooting\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">troubleshooting guide</a>, and <a href=\"https://posthog.com/docs/self-host/open-source/disclaimer\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">disclaimer</a> for more info.</p>",
+    "html": "<h5>PostHog Cloud (Recommended)</h5>\n<p>The fastest and most reliable way to get started with PostHog is signing up for free to <a href=\"https://us.posthog.com/signup\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PostHog Cloud</a> or <a href=\"https://eu.posthog.com/signup\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">PostHog Cloud EU</a>. Your first 1 million events, 5k recordings, 1M flag requests, 100k exceptions, 10GB of logs, and 1500 survey responses are free every month, after which you pay based on usage.</p>\n<h5>Self-hosting the open-source hobby deploy (Advanced)</h5>\n<p>If you want to self-host PostHog, you can deploy a hobby instance in one line on Ubuntu with Docker. It needs 8GB or more of memory and a domain whose DNS A record points to the machine:</p>\n<pre><code class=\"language-bash\">/bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/posthog/posthog/HEAD/bin/deploy-hobby)\"\n</code></pre>\n<p>Open source deployments should scale to approximately 100k events per month, after which we recommend <a href=\"https://posthog.com/docs/migrate/migrate-to-cloud\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">migrating to a PostHog Cloud</a>.</p>\n<p>We <em>do not</em> provide customer support or offer guarantees for open source deployments. See our <a href=\"https://posthog.com/docs/self-host\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">self-hosting docs</a>, <a href=\"https://posthog.com/docs/self-host/deploy/troubleshooting\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">troubleshooting guide</a>, and <a href=\"https://posthog.com/docs/self-host/open-source/disclaimer\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">disclaimer</a> for more info.</p>",
     "truncated": false,
-    "chars": 1213
+    "chars": 1275
    },
    "usage": null,
    "features": null
   },
   "headings": 10,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:26.738Z",
-  "checked_at": "2026-11-26T05:07:50.003Z"
+  "fetched_at": "2026-11-26T15:19:28.504Z",
+  "checked_at": "2026-11-26T15:19:28.504Z"
  },
  "contributors": {
   "count": 608,
@@ -92,5 +92,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:17.962Z"
  },
- "details_checked_at": "2026-11-26T05:07:50.003Z"
+ "details_checked_at": "2026-11-26T15:19:28.504Z"
 }

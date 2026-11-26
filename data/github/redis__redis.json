@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:05:13.437Z",
+ "fetched_at": "2026-11-26T15:16:25.493Z",
  "meta": {
   "name": "redis",
   "owner": "redis",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 77768,
-  "forks": 24981,
-  "watchers": 2510,
-  "open_issues": 3171,
+  "stars": 77779,
+  "forks": 24987,
+  "watchers": 2511,
+  "open_issues": 3169,
   "open_prs": null,
   "created_at": "2009-03-21T22:32:25Z",
-  "pushed_at": "2026-11-25T10:29:41Z",
-  "updated_at": "2026-11-26T03:05:10Z",
+  "pushed_at": "2026-11-26T13:26:13Z",
+  "updated_at": "2026-11-26T14:50:53Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 221637,
+  "size_kb": 221801,
   "og_image": "https://opengraph.githubassets.com/1/redis/redis",
   "custom_og_image": false
  },
@@ -93,7 +93,7 @@
   "headings": 29,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.101Z",
-  "checked_at": "2026-11-26T05:07:47.601Z"
+  "checked_at": "2026-11-26T15:19:25.717Z"
  },
  "contributors": {
   "count": 975,
@@ -101,5 +101,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:13.436Z"
  },
- "details_checked_at": "2026-11-26T05:07:47.601Z"
+ "details_checked_at": "2026-11-26T15:19:25.717Z"
 }

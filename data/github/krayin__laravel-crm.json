@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:04:45.613Z",
+ "fetched_at": "2026-11-26T15:15:55.079Z",
  "meta": {
   "name": "laravel-crm",
   "owner": "krayin",
@@ -48,7 +48,7 @@
   "open_prs": null,
   "created_at": "2021-06-05T14:18:48Z",
   "pushed_at": "2026-11-24T04:39:36Z",
-  "updated_at": "2026-11-26T04:00:07Z",
+  "updated_at": "2026-11-26T09:23:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -80,7 +80,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.993Z",
-  "checked_at": "2026-11-26T05:07:46.613Z"
+  "checked_at": "2026-11-26T15:19:24.380Z"
  },
  "contributors": {
   "count": 68,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:11.361Z"
  },
- "details_checked_at": "2026-11-26T05:07:46.613Z"
+ "details_checked_at": "2026-11-26T15:19:24.380Z"
 }

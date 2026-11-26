@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:06:41.047Z",
+ "fetched_at": "2026-11-26T15:18:07.532Z",
  "meta": {
   "name": "nocobase",
   "owner": "nocobase",
@@ -20,23 +20,23 @@
   "languages": null,
   "topics": [
    "admin-dashboard",
-   "agent-skills",
-   "agentic-ai",
-   "ai-agent",
-   "ai-agents",
+   "agent-harness",
+   "agent-orchestration",
    "ai-governance",
-   "claude-code",
-   "codex",
+   "ai-tools",
+   "coding-agent",
    "crm",
-   "crud",
-   "erp",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
    "internal-tools",
    "low-code",
+   "multi-agent",
    "no-code",
    "opencode",
-   "rbac",
-   "self-hosted",
+   "project-management",
    "vibe-coding",
+   "workflow-automation",
    "workflow-engine",
    "workflows"
   ],
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 25013,
-  "forks": 2958,
+  "stars": 25021,
+  "forks": 2957,
   "watchers": 172,
-  "open_issues": 301,
+  "open_issues": 304,
   "open_prs": null,
   "created_at": "2020-10-24T07:27:48Z",
-  "pushed_at": "2026-11-26T04:53:37Z",
-  "updated_at": "2026-11-26T03:40:23Z",
+  "pushed_at": "2026-11-26T15:15:18Z",
+  "updated_at": "2026-11-26T12:32:11Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 696807,
+  "size_kb": 698234,
   "og_image": "https://opengraph.githubassets.com/1/nocobase/nocobase",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.959Z",
-  "checked_at": "2026-11-26T05:07:51.317Z"
+  "checked_at": "2026-11-26T15:19:29.822Z"
  },
  "contributors": {
   "count": 16,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:19.682Z"
  },
- "details_checked_at": "2026-11-26T05:07:51.317Z"
+ "details_checked_at": "2026-11-26T15:19:29.822Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:05:39.482Z",
+ "fetched_at": "2026-11-26T15:16:54.547Z",
  "meta": {
   "name": "gitea",
   "owner": "go-gitea",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 59265,
-  "forks": 7430,
+  "stars": 59271,
+  "forks": 7433,
   "watchers": 492,
-  "open_issues": 2194,
+  "open_issues": 2199,
   "open_prs": null,
   "created_at": "2016-11-01T02:13:26Z",
-  "pushed_at": "2026-11-26T02:12:18Z",
-  "updated_at": "2026-11-26T03:39:52Z",
+  "pushed_at": "2026-11-26T14:44:05Z",
+  "updated_at": "2026-11-26T11:27:41Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,13 +60,13 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 373737,
+  "size_kb": 373780,
   "og_image": "https://opengraph.githubassets.com/1/go-gitea/gitea",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 10410,
+  "length": 10525,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [
@@ -83,8 +83,8 @@
   },
   "headings": 24,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:25.249Z",
-  "checked_at": "2026-11-26T05:07:48.630Z"
+  "fetched_at": "2026-11-26T15:19:26.935Z",
+  "checked_at": "2026-11-26T15:19:26.935Z"
  },
  "contributors": {
   "count": 1931,
@@ -92,5 +92,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:15.579Z"
  },
- "details_checked_at": "2026-11-26T05:07:48.630Z"
+ "details_checked_at": "2026-11-26T15:19:26.935Z"
 }

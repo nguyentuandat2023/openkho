@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:05:30.622Z",
+ "fetched_at": "2026-11-26T15:16:44.811Z",
  "meta": {
   "name": "simple-icons",
   "owner": "simple-icons",
@@ -43,14 +43,14 @@
    "spdx": "CC0-1.0",
    "name": "Creative Commons Zero v1.0 Universal"
   },
-  "stars": 26276,
-  "forks": 3203,
+  "stars": 26281,
+  "forks": 3204,
   "watchers": 179,
   "open_issues": 1048,
   "open_prs": null,
   "created_at": "2012-11-16T11:09:13Z",
   "pushed_at": "2026-11-24T21:44:29Z",
-  "updated_at": "2026-11-26T04:51:09Z",
+  "updated_at": "2026-11-26T11:51:18Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -82,7 +82,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.867Z",
-  "checked_at": "2026-11-26T05:07:48.311Z"
+  "checked_at": "2026-11-26T15:19:26.608Z"
  },
  "contributors": {
   "count": 914,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:15.033Z"
  },
- "details_checked_at": "2026-11-26T05:07:48.311Z"
+ "details_checked_at": "2026-11-26T15:19:26.608Z"
 }

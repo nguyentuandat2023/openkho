@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:04:04.858Z",
+ "fetched_at": "2026-11-26T15:15:09.354Z",
  "meta": {
   "name": "MinerU",
   "owner": "opendatalab",
@@ -40,14 +40,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 84344,
-  "forks": 6963,
+  "stars": 84375,
+  "forks": 6966,
   "watchers": 281,
-  "open_issues": 21,
+  "open_issues": 24,
   "open_prs": null,
   "created_at": "2024-02-29T08:52:34Z",
-  "pushed_at": "2026-11-22T18:08:38Z",
-  "updated_at": "2026-11-26T04:49:42Z",
+  "pushed_at": "2026-11-26T06:52:33Z",
+  "updated_at": "2026-11-26T14:53:57Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -56,7 +56,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 191024,
+  "size_kb": 191032,
   "og_image": "https://opengraph.githubassets.com/1/opendatalab/MinerU",
   "custom_og_image": false
  },
@@ -84,7 +84,7 @@
   "headings": 62,
   "processor": 4,
   "fetched_at": "2026-11-18T11:46:07.442Z",
-  "checked_at": "2026-11-26T05:07:44.882Z"
+  "checked_at": "2026-11-26T15:19:22.539Z"
  },
  "contributors": {
   "count": 107,
@@ -92,5 +92,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:34.422Z"
  },
- "details_checked_at": "2026-11-26T05:07:44.882Z"
+ "details_checked_at": "2026-11-26T15:19:22.539Z"
 }

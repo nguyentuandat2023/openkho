@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:05:29.187Z",
+ "fetched_at": "2026-11-26T15:16:43.053Z",
  "meta": {
   "name": "lucide",
   "owner": "lucide-icons",
@@ -34,14 +34,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 26005,
-  "forks": 1719,
+  "stars": 26015,
+  "forks": 1720,
   "watchers": 60,
-  "open_issues": 286,
+  "open_issues": 283,
   "open_prs": null,
   "created_at": "2020-06-08T15:36:21Z",
-  "pushed_at": "2026-11-25T20:24:03Z",
-  "updated_at": "2026-11-26T04:00:57Z",
+  "pushed_at": "2026-11-26T13:38:33Z",
+  "updated_at": "2026-11-26T14:51:50Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -50,7 +50,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 29269,
+  "size_kb": 29841,
   "og_image": "https://opengraph.githubassets.com/1/lucide-icons/lucide",
   "custom_og_image": false
  },
@@ -68,7 +68,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.764Z",
-  "checked_at": "2026-11-26T05:07:48.266Z"
+  "checked_at": "2026-11-26T15:19:26.501Z"
  },
  "contributors": {
   "count": 462,
@@ -76,5 +76,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:14.763Z"
  },
- "details_checked_at": "2026-11-26T05:07:48.266Z"
+ "details_checked_at": "2026-11-26T15:19:26.501Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:07:24.221Z",
+ "fetched_at": "2026-11-26T15:18:58.727Z",
  "meta": {
   "name": "shotcut",
   "owner": "mltframework",
@@ -29,14 +29,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 15799,
+  "stars": 15802,
   "forks": 1587,
   "watchers": 231,
   "open_issues": 47,
   "open_prs": null,
   "created_at": "2012-04-23T22:37:04Z",
   "pushed_at": "2026-11-26T01:31:02Z",
-  "updated_at": "2026-11-26T04:40:34Z",
+  "updated_at": "2026-11-26T15:17:51Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -68,7 +68,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.020Z",
-  "checked_at": "2026-11-26T05:07:52.966Z"
+  "checked_at": "2026-11-26T15:19:31.926Z"
  },
  "contributors": {
   "count": 83,
@@ -76,5 +76,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:36.211Z"
  },
- "details_checked_at": "2026-11-26T05:07:52.966Z"
+ "details_checked_at": "2026-11-26T15:19:31.926Z"
 }

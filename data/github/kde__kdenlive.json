@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:07:24.990Z",
+ "fetched_at": "2026-11-26T15:18:59.592Z",
  "meta": {
   "name": "kdenlive",
   "owner": "KDE",
@@ -24,12 +24,12 @@
    "name": "GNU General Public License v3.0"
   },
   "stars": 6191,
-  "forks": 591,
+  "forks": 590,
   "watchers": 79,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2015-09-18T13:16:08Z",
-  "pushed_at": "2026-11-26T04:21:17Z",
+  "pushed_at": "2026-11-26T08:07:02Z",
   "updated_at": "2026-11-26T03:09:31Z",
   "archived": false,
   "disabled": false,
@@ -39,7 +39,7 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 5358330,
+  "size_kb": 5358846,
   "og_image": "https://opengraph.githubassets.com/1/KDE/kdenlive",
   "custom_og_image": false
  },
@@ -62,7 +62,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.199Z",
-  "checked_at": "2026-11-26T05:07:52.995Z"
+  "checked_at": "2026-11-26T15:19:31.965Z"
  },
  "contributors": {
   "count": 237,
@@ -70,5 +70,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:36.415Z"
  },
- "details_checked_at": "2026-11-26T05:07:52.995Z"
+ "details_checked_at": "2026-11-26T15:19:31.965Z"
 }

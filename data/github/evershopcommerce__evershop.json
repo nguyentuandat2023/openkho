@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:05:51.455Z",
+ "fetched_at": "2026-11-26T15:17:07.857Z",
  "meta": {
   "name": "evershop",
   "owner": "evershopcommerce",
@@ -68,7 +68,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.675Z",
-  "checked_at": "2026-11-26T05:07:49.124Z"
+  "checked_at": "2026-11-26T15:19:27.544Z"
  },
  "contributors": {
   "count": 60,
@@ -76,5 +76,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:16.331Z"
  },
- "details_checked_at": "2026-11-26T05:07:49.124Z"
+ "details_checked_at": "2026-11-26T15:19:27.544Z"
 }

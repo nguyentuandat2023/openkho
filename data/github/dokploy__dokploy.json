@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:07:13.072Z",
+ "fetched_at": "2026-11-26T15:18:45.587Z",
  "meta": {
   "name": "dokploy",
   "owner": "Dokploy",
@@ -41,14 +41,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 38718,
-  "forks": 3198,
+  "stars": 38725,
+  "forks": 3201,
   "watchers": 107,
-  "open_issues": 839,
+  "open_issues": 843,
   "open_prs": null,
   "created_at": "2024-04-19T07:49:30Z",
   "pushed_at": "2026-11-26T01:09:28Z",
-  "updated_at": "2026-11-26T03:27:20Z",
+  "updated_at": "2026-11-26T14:38:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -96,7 +96,7 @@
   "headings": 5,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.552Z",
-  "checked_at": "2026-11-26T05:07:52.542Z"
+  "checked_at": "2026-11-26T15:19:31.366Z"
  },
  "contributors": {
   "count": 422,
@@ -104,5 +104,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:35.547Z"
  },
- "details_checked_at": "2026-11-26T05:07:52.542Z"
+ "details_checked_at": "2026-11-26T15:19:31.366Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:07:27.770Z",
+ "fetched_at": "2026-11-26T15:19:01.973Z",
  "meta": {
   "name": "VideoLingo",
   "owner": "Huanshere",
@@ -29,14 +29,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 19394,
+  "stars": 19398,
   "forks": 2139,
   "watchers": 104,
   "open_issues": 27,
   "open_prs": null,
   "created_at": "2024-08-09T11:19:52Z",
   "pushed_at": "2026-11-13T10:58:15Z",
-  "updated_at": "2026-11-26T00:56:46Z",
+  "updated_at": "2026-11-26T14:13:57Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -68,7 +68,7 @@
   "headings": 18,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.080Z",
-  "checked_at": "2026-11-26T05:07:53.099Z"
+  "checked_at": "2026-11-26T15:19:31.999Z"
  },
  "contributors": {
   "count": 24,
@@ -76,5 +76,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:36.099Z"
  },
- "details_checked_at": "2026-11-26T05:07:53.099Z"
+ "details_checked_at": "2026-11-26T15:19:31.999Z"
 }

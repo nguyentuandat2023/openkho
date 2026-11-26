@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:05:47.439Z",
+ "fetched_at": "2026-11-26T15:17:03.784Z",
  "meta": {
   "name": "saleor",
   "owner": "saleor",
@@ -42,14 +42,14 @@
    "spdx": "BSD-3-Clause",
    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
   },
-  "stars": 23607,
-  "forks": 6220,
+  "stars": 23609,
+  "forks": 6222,
   "watchers": 359,
-  "open_issues": 316,
+  "open_issues": 317,
   "open_prs": null,
   "created_at": "2013-02-12T16:46:39Z",
   "pushed_at": "2026-11-23T02:24:14Z",
-  "updated_at": "2026-11-26T02:22:32Z",
+  "updated_at": "2026-11-26T12:05:17Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -86,7 +86,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.688Z",
-  "checked_at": "2026-11-26T05:07:48.982Z"
+  "checked_at": "2026-11-26T15:19:27.404Z"
  },
  "contributors": {
   "count": 333,
@@ -94,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:16.395Z"
  },
- "details_checked_at": "2026-11-26T05:07:48.982Z"
+ "details_checked_at": "2026-11-26T15:19:27.404Z"
 }

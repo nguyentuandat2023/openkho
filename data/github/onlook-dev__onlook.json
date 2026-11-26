@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:07:41.306Z",
+ "fetched_at": "2026-11-26T15:19:18.364Z",
  "meta": {
   "name": "onlook",
   "owner": "onlook-dev",
@@ -43,14 +43,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 27955,
-  "forks": 2197,
+  "stars": 27972,
+  "forks": 2200,
   "watchers": 119,
-  "open_issues": 21,
+  "open_issues": 24,
   "open_prs": null,
   "created_at": "2024-06-25T19:16:02Z",
   "pushed_at": "2026-11-26T04:01:11Z",
-  "updated_at": "2026-11-26T04:51:49Z",
+  "updated_at": "2026-11-26T15:11:51Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -87,7 +87,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-25T12:58:13.389Z",
-  "checked_at": "2026-11-26T05:07:53.650Z"
+  "checked_at": "2026-11-26T15:19:32.658Z"
  },
  "contributors": {
   "count": 110,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:37.273Z"
  },
- "details_checked_at": "2026-11-26T05:07:53.650Z"
+ "details_checked_at": "2026-11-26T15:19:32.658Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:04:24.410Z",
+ "fetched_at": "2026-11-26T15:15:31.381Z",
  "meta": {
   "name": "krita-ai-diffusion",
   "owner": "Acly",
@@ -27,14 +27,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 10954,
+  "stars": 10956,
   "forks": 667,
   "watchers": 91,
   "open_issues": 139,
   "open_prs": null,
   "created_at": "2023-09-01T22:52:13Z",
-  "pushed_at": "2026-11-21T12:44:21Z",
-  "updated_at": "2026-11-26T03:18:41Z",
+  "pushed_at": "2026-11-26T14:13:22Z",
+  "updated_at": "2026-11-26T07:41:45Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -43,7 +43,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 33548,
+  "size_kb": 33688,
   "og_image": "https://opengraph.githubassets.com/1/Acly/krita-ai-diffusion",
   "custom_og_image": false
  },
@@ -87,7 +87,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.049Z",
-  "checked_at": "2026-11-26T05:07:45.755Z"
+  "checked_at": "2026-11-26T15:19:23.519Z"
  },
  "contributors": {
   "count": 51,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:10.117Z"
  },
- "details_checked_at": "2026-11-26T05:07:45.755Z"
+ "details_checked_at": "2026-11-26T15:19:23.519Z"
 }

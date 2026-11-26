@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T05:04:06.991Z",
+ "fetched_at": "2026-11-26T15:15:12.239Z",
  "meta": {
   "name": "OCRmyPDF",
   "owner": "ocrmypdf",
@@ -29,14 +29,14 @@
    "spdx": "MPL-2.0",
    "name": "Mozilla Public License 2.0"
   },
-  "stars": 35405,
+  "stars": 35408,
   "forks": 2466,
   "watchers": 185,
   "open_issues": 67,
   "open_prs": null,
   "created_at": "2013-12-20T08:26:28Z",
   "pushed_at": "2026-11-25T08:05:57Z",
-  "updated_at": "2026-11-26T03:12:07Z",
+  "updated_at": "2026-11-26T14:34:14Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -73,7 +73,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.246Z",
-  "checked_at": "2026-11-26T05:07:45.066Z"
+  "checked_at": "2026-11-26T15:19:22.674Z"
  },
  "contributors": {
   "count": 133,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:34.524Z"
  },
- "details_checked_at": "2026-11-26T05:07:45.066Z"
+ "details_checked_at": "2026-11-26T15:19:22.674Z"
 }
