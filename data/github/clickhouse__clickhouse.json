@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:29:45.106Z",
+ "fetched_at": "2026-11-27T19:01:58.075Z",
  "meta": {
   "name": "ClickHouse",
   "owner": "ClickHouse",
@@ -41,14 +41,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 51184,
+  "stars": 51198,
   "forks": 9341,
-  "watchers": 690,
-  "open_issues": 9604,
+  "watchers": 691,
+  "open_issues": 9610,
   "open_prs": null,
   "created_at": "2016-06-02T08:28:18Z",
-  "pushed_at": "2026-11-27T08:28:37Z",
-  "updated_at": "2026-11-27T08:29:16Z",
+  "pushed_at": "2026-11-27T19:00:18Z",
+  "updated_at": "2026-11-27T18:46:17Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,7 +57,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 17387548,
+  "size_kb": 17434421,
   "og_image": "https://opengraph.githubassets.com/1/ClickHouse/ClickHouse",
   "custom_og_image": false
  },
@@ -96,7 +96,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.141Z",
-  "checked_at": "2026-11-27T08:32:42.143Z"
+  "checked_at": "2026-11-27T19:04:35.496Z"
  },
  "contributors": {
   "count": 3476,
@@ -104,5 +104,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:13.468Z"
  },
- "details_checked_at": "2026-11-27T08:32:42.143Z"
+ "details_checked_at": "2026-11-27T19:04:35.496Z"
 }

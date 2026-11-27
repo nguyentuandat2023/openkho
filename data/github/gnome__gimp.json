@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:29:54.168Z",
+ "fetched_at": "2026-11-27T19:02:07.338Z",
  "meta": {
   "name": "gimp",
   "owner": "GNOME",
@@ -24,12 +24,12 @@
    "name": "Other"
   },
   "stars": 6631,
-  "forks": 935,
+  "forks": 936,
   "watchers": 213,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2012-06-03T13:37:45Z",
-  "pushed_at": "2026-11-27T01:21:12Z",
+  "pushed_at": "2026-11-27T18:15:03Z",
   "updated_at": "2026-11-27T07:48:53Z",
   "archived": false,
   "disabled": false,
@@ -39,7 +39,7 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 886186,
+  "size_kb": 886277,
   "og_image": "https://opengraph.githubassets.com/1/GNOME/gimp",
   "custom_og_image": false
  },
@@ -57,7 +57,7 @@
   "headings": 0,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.467Z",
-  "checked_at": "2026-11-27T08:32:42.614Z"
+  "checked_at": "2026-11-27T19:04:35.850Z"
  },
  "contributors": {
   "count": 1215,
@@ -65,5 +65,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:14.682Z"
  },
- "details_checked_at": "2026-11-27T08:32:42.614Z"
+ "details_checked_at": "2026-11-27T19:04:35.850Z"
 }

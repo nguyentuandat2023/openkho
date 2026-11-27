@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:28:32.973Z",
+ "fetched_at": "2026-11-27T19:00:49.411Z",
  "meta": {
   "name": "tesseract",
   "owner": "tesseract-ocr",
@@ -31,14 +31,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 77680,
-  "forks": 10917,
-  "watchers": 1703,
-  "open_issues": 484,
+  "stars": 77690,
+  "forks": 10923,
+  "watchers": 1702,
+  "open_issues": 486,
   "open_prs": null,
   "created_at": "2014-08-12T18:04:59Z",
   "pushed_at": "2026-11-26T17:22:14Z",
-  "updated_at": "2026-11-27T07:39:25Z",
+  "updated_at": "2026-11-27T18:11:17Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -70,7 +70,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-23T09:06:20.068Z",
-  "checked_at": "2026-11-27T08:32:38.439Z"
+  "checked_at": "2026-11-27T19:04:32.726Z"
  },
  "contributors": {
   "count": 252,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:34.565Z"
  },
- "details_checked_at": "2026-11-27T08:32:38.439Z"
+ "details_checked_at": "2026-11-27T19:04:32.726Z"
 }

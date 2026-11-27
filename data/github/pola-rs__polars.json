@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:29:29.746Z",
+ "fetched_at": "2026-11-27T19:01:43.688Z",
  "meta": {
   "name": "polars",
   "owner": "pola-rs",
@@ -32,14 +32,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 40538,
+  "stars": 40543,
   "forks": 3271,
   "watchers": 216,
-  "open_issues": 2853,
+  "open_issues": 2854,
   "open_prs": null,
   "created_at": "2020-05-13T19:45:33Z",
-  "pushed_at": "2026-11-27T08:27:42Z",
-  "updated_at": "2026-11-27T08:21:28Z",
+  "pushed_at": "2026-11-27T17:43:55Z",
+  "updated_at": "2026-11-27T18:37:13Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,7 +48,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 246406,
+  "size_kb": 248526,
   "og_image": "https://opengraph.githubassets.com/1/pola-rs/polars",
   "custom_og_image": false
  },
@@ -71,7 +71,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-26T15:19:25.106Z",
-  "checked_at": "2026-11-27T08:32:41.338Z"
+  "checked_at": "2026-11-27T19:04:34.917Z"
  },
  "contributors": {
   "count": 795,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:12.661Z"
  },
- "details_checked_at": "2026-11-27T08:32:41.338Z"
+ "details_checked_at": "2026-11-27T19:04:34.917Z"
 }

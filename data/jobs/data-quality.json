@@ -1,7 +1,7 @@
 {
- "computed_at": "2026-11-27T08:34:23.540Z",
+ "computed_at": "2026-11-27T19:07:11.518Z",
  "curated_missing_github_id": [],
- "missing_contributors": 2374,
+ "missing_contributors": 2372,
  "stale_over_48h": [
   "horizon-rust/horizon",
   "RustXNG/RustXNG",
@@ -41,6 +41,7 @@
   "shivsupratik/windows-optimizer",
   "hitkeeen/blender-ai-mcp-addon",
   "racdeufindurch198812/Blender-AI-MCP-Studio",
+  "ariamitchell54/cubase-studio-desktop",
   "alex-wells-65/iobit-driver-booster-desktop",
   "ava25-thompson/fishstrap-roblox-fps-booster-desktop",
   "azuresail195/wondershare-recoverit-desktop",
@@ -201,10 +202,9 @@
   "artem-petrovlab04i2/counter-strike-2-inventory-skin-knife-glove-portable-x64",
   "anton-g-dev2099m4/escape-from-tarkov-spt-aki-10-profile-portable-x64",
   "anton-ivanov-97x5/call-of-duty-black-ops-6-warzone-camo-blueprint-operator-l",
-  "danx1905k8/war-thunder-realistic-tank-outline-thermal-portable-x64",
-  "ryan-v-x2003c8/ea-sports-fc-26-green-timed-finishing-legacy-portable-x64"
+  "danx1905k8/war-thunder-realistic-tank-outline-thermal-portable-x64"
  ],
- "low_quality_coverage": 165,
+ "low_quality_coverage": 47,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -214,6 +214,11 @@
   },
   {
    "id": "horizon-rust/horizon",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "shogunakatsukiremedy/capri-ai-desktop",
    "origin": "radar",
    "status": "not_found"
   },
@@ -413,7 +418,22 @@
    "status": "not_found"
   },
   {
+   "id": "angela-cook-1988/vegas-pro-23-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "ava25-thompson/fishstrap-roblox-fps-booster-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "azure-teal-slope/windows-optimizer-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "azuremaple1997/coreldraw-desktop",
    "origin": "radar",
    "status": "not_found"
   },
@@ -423,7 +443,42 @@
    "status": "not_found"
   },
   {
+   "id": "ben-cook-42/kontakt-8-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "ben14-dunn/native-instruments-kontakt-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "ben-miller-23/dxo-photolab-10-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "brave-plum-co/leonardo-ai-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "brave-shell-07/izotope-rx-11-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "bradburns2001/topaz-video-ai-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "briskember13/adobe-acrobat-pdf-desktop",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "brisk-thrush-husky/malware-defender-desktop",
    "origin": "radar",
    "status": "not_found"
   },
@@ -1308,6 +1363,11 @@
    "status": "not_found"
   },
   {
+   "id": "zero5122/offline-file-converter-windows",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "LeonidaReforge/Leonida",
    "origin": "radar",
    "status": "not_found"
@@ -1316,9 +1376,23 @@
    "id": "Zettrox/ztrx",
    "origin": "radar",
    "status": "not_found"
+  },
+  {
+   "id": "Belobug/VIctory-Belobug-AMD",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "avatarmanz/VIctory-7900XTX",
+   "origin": "radar",
+   "status": "not_found"
   }
  ],
  "renamed": [
+  {
+   "from": "chen08209/FlClash",
+   "to": "Vialibrex/FlClash"
+  },
   {
    "from": "RekklesNA/ProxmoxMCP-Plus",
    "to": "im-xiangda-li/ProxmoxMCP-Plus"
@@ -1404,43 +1478,43 @@
   {
    "id": "mrdoob/three.js",
    "reasons": [
-    "+518 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+529 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "EbookFoundation/free-programming-books",
    "reasons": [
-    "+423 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+421 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "nilbuild/developer-roadmap",
    "reasons": [
-    "+442 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+452 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "upstash/context7",
    "reasons": [
-    "+376 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+371 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Stirling-Tools/Stirling-PDF",
    "reasons": [
-    "+494 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+503 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "torvalds/linux",
    "reasons": [
-    "+765 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+715 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "freeCodeCamp/freeCodeCamp",
    "reasons": [
-    "+322 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+308 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1452,13 +1526,13 @@
   {
    "id": "jwasham/coding-interview-university",
    "reasons": [
-    "+487 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+476 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "ruanyf/weekly",
    "reasons": [
-    "+425 sao nhưng chỉ +1 fork trong cùng kỳ"
+    "+420 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1536,7 +1610,7 @@
   {
    "id": "helloHub1212/dsh-windows-mcp",
    "reasons": [
-    "repo mới với 2.685 sao nhưng gần như không có fork (12) và chưa có issue nào"
+    "repo mới với 2.740 sao nhưng gần như không có fork (12) và chưa có issue nào"
    ]
   },
   {
@@ -1602,7 +1676,7 @@
   {
    "id": "AhmadHassan-BTed/RainGen-RainGenerator",
    "reasons": [
-    "repo mới với 1.624 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.626 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -1686,7 +1760,8 @@
   {
    "id": "XinaTian/MROffice",
    "reasons": [
-    "rất ít người đóng góp (2) so với tốc độ tăng sao"
+    "rất ít người đóng góp (2) so với tốc độ tăng sao",
+    "+426 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1702,69 +1777,9 @@
    ]
   },
   {
-   "id": "angela-cook-1988/vegas-pro-23-desktop",
-   "reasons": [
-    "+304 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "azure-teal-slope/windows-optimizer-desktop",
-   "reasons": [
-    "+304 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "azuremaple1997/coreldraw-desktop",
-   "reasons": [
-    "repo mới với 304 sao nhưng gần như không có fork (1) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "ben-cook-42/kontakt-8-desktop",
-   "reasons": [
-    "+304 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "ben14-dunn/native-instruments-kontakt-desktop",
-   "reasons": [
-    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "ben-miller-23/dxo-photolab-10-desktop",
-   "reasons": [
-    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "brave-plum-co/leonardo-ai-desktop",
-   "reasons": [
-    "+303 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "bradburns2001/topaz-video-ai-desktop",
-   "reasons": [
-    "+305 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "briskember13/adobe-acrobat-pdf-desktop",
-   "reasons": [
-    "+304 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "brisk-thrush-husky/malware-defender-desktop",
-   "reasons": [
-    "+306 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
    "id": "ShutongLiang/Neural-State-OS",
    "reasons": [
-    "+430 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+432 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1782,7 +1797,7 @@
   {
    "id": "lizhenjie137/intelligent-organization",
    "reasons": [
-    "+529 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+551 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1848,7 +1863,7 @@
   {
    "id": "weightcashiercupola/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 453 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+453 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
@@ -1909,6 +1924,12 @@
    "id": "YellowLaborerMarket/Gemini-Config-Checker-",
    "reasons": [
     "repo mới với 454 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "scottsturrock/mate-wayland-desktop",
+   "reasons": [
+    "repo mới với 893 sao nhưng gần như không có fork (4) và chưa có issue nào"
    ]
   },
   {
@@ -2004,7 +2025,7 @@
   {
    "id": "orakio1975/acrobat-pro-pdf-editor",
    "reasons": [
-    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2052,7 +2073,7 @@
   {
    "id": "lebrowndnasty-hash/ai-app-builder",
    "reasons": [
-    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -2106,7 +2127,7 @@
   {
    "id": "parthivvinod95-blip/clion-desktop",
    "reasons": [
-    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2136,7 +2157,7 @@
   {
    "id": "sadiqameen2005-pixel/display-fusion",
    "reasons": [
-    "repo mới với 336 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "+336 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
@@ -2172,7 +2193,7 @@
   {
    "id": "abj-a11y/landr-plugin-bundle",
    "reasons": [
-    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2214,7 +2235,7 @@
   {
    "id": "rahul9350125/photo-commander",
    "reasons": [
-    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2280,7 +2301,7 @@
   {
    "id": "VenkateshGorityala/voicemod-audio-modifier",
    "reasons": [
-    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2304,79 +2325,61 @@
   {
    "id": "olive527/steam-library-manager-windows",
    "reasons": [
-    "repo mới với 719 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 802 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Basil0879/steam-game-idler",
    "reasons": [
-    "repo mới với 681 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 773 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "peak85-sketch/stardew-valley-mod-manager",
    "reasons": [
-    "repo mới với 509 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 596 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Indigo-0167/universal-game-mod-manager",
    "reasons": [
-    "+1.301 sao nhưng chỉ +1 fork trong cùng kỳ"
+    "+1.340 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
    "id": "solv4626/steam-achievement-manager-windows",
    "reasons": [
-    "repo mới với 1.058 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "repo mới với 1.109 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
    "id": "kai415-debug/ffmpeg-video-audio-converter",
    "reasons": [
-    "repo mới với 1.020 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.078 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Nebula4207/av1-video-encoder-gui",
    "reasons": [
-    "repo mới với 681 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "repo mới với 749 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
    "id": "umbradev315/ffmpeg-video-audio-converter",
    "reasons": [
-    "repo mới với 551 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "zero5122/offline-file-converter-windows",
-   "reasons": [
-    "repo mới với 1.073 sao nhưng gần như không có fork (3) và chưa có issue nào"
+    "repo mới với 652 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Umbra9179/clipboard-history-manager-windows",
    "reasons": [
-    "repo mới với 1.265 sao nhưng gần như không có fork (1) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "Locorreia1992/native-instruments-reaktor-6",
-   "reasons": [
-    "repo mới với 311 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "0x1A6C1A9Y/focus-clock",
-   "reasons": [
-    "repo mới với 476 sao nhưng gần như không có fork (2) và chưa có issue nào"
+    "repo mới với 1.270 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
    "id": "Pixel679-cmyk/windows-titlebar-blur-customizer",
    "reasons": [
-    "+717 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.354 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   }
  ],

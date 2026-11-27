@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:31:11.332Z",
+ "fetched_at": "2026-11-27T19:03:17.265Z",
  "meta": {
   "name": "excel-mcp-server",
   "owner": "haris-musa",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 4327,
+  "stars": 4328,
   "forks": 487,
   "watchers": 23,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2025-02-12T06:39:48Z",
   "pushed_at": "2026-11-26T09:26:07Z",
-  "updated_at": "2026-11-26T17:04:17Z",
+  "updated_at": "2026-11-27T10:15:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -88,7 +88,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.627Z",
-  "checked_at": "2026-11-27T08:32:46.287Z"
+  "checked_at": "2026-11-27T19:04:38.649Z"
  },
  "contributors": {
   "count": 14,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:19.180Z"
  },
- "details_checked_at": "2026-11-27T08:32:46.287Z"
+ "details_checked_at": "2026-11-27T19:04:38.649Z"
 }

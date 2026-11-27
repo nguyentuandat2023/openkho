@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:27:47.802Z",
+ "fetched_at": "2026-11-27T19:00:03.781Z",
  "meta": {
   "name": "cline",
   "owner": "cline",
@@ -23,14 +23,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 71937,
-  "forks": 7976,
+  "stars": 71951,
+  "forks": 7978,
   "watchers": 292,
-  "open_issues": 1831,
+  "open_issues": 1828,
   "open_prs": null,
   "created_at": "2024-07-06T07:28:10Z",
   "pushed_at": "2026-11-26T09:57:48Z",
-  "updated_at": "2026-11-27T08:22:51Z",
+  "updated_at": "2026-11-27T18:38:42Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,7 +57,7 @@
   "headings": 19,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:19.003Z",
-  "checked_at": "2026-11-27T08:32:36.028Z"
+  "checked_at": "2026-11-27T19:04:30.893Z"
  },
  "contributors": {
   "count": 356,
@@ -65,5 +65,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:31.924Z"
  },
- "details_checked_at": "2026-11-27T08:32:36.028Z"
+ "details_checked_at": "2026-11-27T19:04:30.893Z"
 }

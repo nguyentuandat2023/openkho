@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:30:40.870Z",
+ "fetched_at": "2026-11-27T19:02:50.595Z",
  "meta": {
   "name": "nanochat",
   "owner": "karpathy",
@@ -23,14 +23,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 60932,
-  "forks": 8559,
+  "stars": 60944,
+  "forks": 8558,
   "watchers": 378,
   "open_issues": 139,
   "open_prs": null,
   "created_at": "2025-10-13T13:46:35Z",
   "pushed_at": "2026-09-07T20:06:43Z",
-  "updated_at": "2026-11-27T07:53:35Z",
+  "updated_at": "2026-11-27T17:40:27Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -62,7 +62,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.422Z",
-  "checked_at": "2026-11-27T08:32:44.912Z"
+  "checked_at": "2026-11-27T19:04:37.578Z"
  },
  "contributors": {
   "count": 56,
@@ -70,5 +70,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:17.369Z"
  },
- "details_checked_at": "2026-11-27T08:32:44.912Z"
+ "details_checked_at": "2026-11-27T19:04:37.578Z"
 }

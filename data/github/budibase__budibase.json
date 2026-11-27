@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:31:18.081Z",
+ "fetched_at": "2026-11-27T19:03:23.922Z",
  "meta": {
   "name": "budibase",
   "owner": "Budibase",
@@ -43,14 +43,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 28454,
+  "stars": 28455,
   "forks": 2239,
   "watchers": 216,
-  "open_issues": 296,
+  "open_issues": 298,
   "open_prs": null,
   "created_at": "2019-06-07T11:03:41Z",
-  "pushed_at": "2026-11-26T16:58:20Z",
-  "updated_at": "2026-11-27T03:56:29Z",
+  "pushed_at": "2026-11-27T12:40:45Z",
+  "updated_at": "2026-11-27T16:38:30Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 828843,
+  "size_kb": 828858,
   "og_image": "https://opengraph.githubassets.com/1/Budibase/budibase",
   "custom_og_image": false
  },
@@ -82,7 +82,7 @@
   "headings": 21,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.885Z",
-  "checked_at": "2026-11-27T08:32:46.645Z"
+  "checked_at": "2026-11-27T19:04:39.010Z"
  },
  "contributors": {
   "count": 154,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:20.092Z"
  },
- "details_checked_at": "2026-11-27T08:32:46.645Z"
+ "details_checked_at": "2026-11-27T19:04:39.010Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:31:26.356Z",
+ "fetched_at": "2026-11-27T19:03:31.728Z",
  "meta": {
   "name": "underthesea",
   "owner": "undertheseanlp",
@@ -73,7 +73,7 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.207Z",
-  "checked_at": "2026-11-27T08:32:46.972Z"
+  "checked_at": "2026-11-27T19:04:39.273Z"
  },
  "contributors": {
   "count": 31,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:20.068Z"
  },
- "details_checked_at": "2026-11-27T08:32:46.972Z"
+ "details_checked_at": "2026-11-27T19:04:39.273Z"
 }

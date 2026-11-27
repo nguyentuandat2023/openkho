@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:31:05.327Z",
+ "fetched_at": "2026-11-27T19:03:11.721Z",
  "meta": {
   "name": "chrome-devtools-mcp",
   "owner": "ChromeDevTools",
@@ -32,14 +32,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 59547,
-  "forks": 4901,
+  "stars": 59604,
+  "forks": 4903,
   "watchers": 257,
-  "open_issues": 115,
+  "open_issues": 112,
   "open_prs": null,
   "created_at": "2025-09-11T10:39:55Z",
-  "pushed_at": "2026-11-27T05:12:45Z",
-  "updated_at": "2026-11-27T08:28:59Z",
+  "pushed_at": "2026-11-27T14:34:29Z",
+  "updated_at": "2026-11-27T18:39:21Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -48,7 +48,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 14555,
+  "size_kb": 14614,
   "og_image": "https://opengraph.githubassets.com/1/ChromeDevTools/chrome-devtools-mcp",
   "custom_og_image": false
  },
@@ -81,7 +81,7 @@
   "headings": 18,
   "processor": 4,
   "fetched_at": "2026-11-26T15:19:29.222Z",
-  "checked_at": "2026-11-27T08:32:46.104Z"
+  "checked_at": "2026-11-27T19:04:38.472Z"
  },
  "contributors": {
   "count": 178,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:18.987Z"
  },
- "details_checked_at": "2026-11-27T08:32:46.104Z"
+ "details_checked_at": "2026-11-27T19:04:38.472Z"
 }

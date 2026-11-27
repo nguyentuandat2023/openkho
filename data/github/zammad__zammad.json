@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:29:21.191Z",
+ "fetched_at": "2026-11-27T19:01:35.428Z",
  "meta": {
   "name": "zammad",
   "owner": "zammad",
@@ -38,14 +38,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 6152,
+  "stars": 6154,
   "forks": 1113,
   "watchers": 130,
-  "open_issues": 488,
+  "open_issues": 487,
   "open_prs": null,
   "created_at": "2012-04-02T08:50:33Z",
-  "pushed_at": "2026-11-27T07:48:31Z",
-  "updated_at": "2026-11-27T05:37:44Z",
+  "pushed_at": "2026-11-27T15:42:12Z",
+  "updated_at": "2026-11-27T16:20:07Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,7 +54,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 1152709,
+  "size_kb": 1153102,
   "og_image": "https://opengraph.githubassets.com/1/zammad/zammad",
   "custom_og_image": false
  },
@@ -72,7 +72,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-24T17:49:59.635Z",
-  "checked_at": "2026-11-27T08:32:40.979Z"
+  "checked_at": "2026-11-27T19:04:34.525Z"
  },
  "contributors": {
   "count": 189,
@@ -80,5 +80,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:12.291Z"
  },
- "details_checked_at": "2026-11-27T08:32:40.979Z"
+ "details_checked_at": "2026-11-27T19:04:34.525Z"
 }

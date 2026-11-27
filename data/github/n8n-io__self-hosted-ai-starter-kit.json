@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:28:10.903Z",
+ "fetched_at": "2026-11-27T19:00:27.825Z",
  "meta": {
   "name": "self-hosted-ai-starter-kit",
   "owner": "n8n-io",
@@ -35,7 +35,7 @@
   "open_issues": 8,
   "open_prs": null,
   "created_at": "2024-02-23T13:56:32Z",
-  "pushed_at": "2026-11-27T06:03:50Z",
+  "pushed_at": "2026-11-27T12:49:58Z",
   "updated_at": "2026-11-27T03:40:40Z",
   "archived": false,
   "disabled": false,
@@ -45,7 +45,7 @@
   "has_issues": false,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 4634,
+  "size_kb": 4675,
   "og_image": "https://opengraph.githubassets.com/1/n8n-io/self-hosted-ai-starter-kit",
   "custom_og_image": false
  },
@@ -79,7 +79,7 @@
   "headings": 22,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:20.046Z",
-  "checked_at": "2026-11-27T08:32:37.185Z"
+  "checked_at": "2026-11-27T19:04:31.763Z"
  },
  "contributors": {
   "count": 16,
@@ -87,5 +87,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:33.120Z"
  },
- "details_checked_at": "2026-11-27T08:32:37.185Z"
+ "details_checked_at": "2026-11-27T19:04:31.763Z"
 }

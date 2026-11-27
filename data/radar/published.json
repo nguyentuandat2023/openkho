@@ -425,11 +425,6 @@
    "full_name": "NVlabs/SoL-Pi",
    "since": "2026-11-17T11:49:28.515Z"
   },
-  "1354991682": {
-   "full_name": "Agenta-AI/awesome-ai-agent-platforms",
-   "since": "2026-11-18T11:48:17.030Z",
-   "failing_since": "2026-11-20T11:43:12.929Z"
-  },
   "1355117708": {
    "full_name": "markfulton/ai-employees",
    "since": "2026-11-18T11:38:35.808Z"
@@ -1329,11 +1324,6 @@
   "1425045498": {
    "full_name": "EricJujianZou/rederive",
    "since": "2026-11-18T11:38:35.808Z"
-  },
-  "1425063138": {
-   "full_name": "opentrap/opentrap",
-   "since": "2026-11-18T11:38:35.808Z",
-   "failing_since": "2026-11-20T11:43:12.929Z"
   },
   "1425469723": {
    "full_name": "UniXNU/UniXNU",
@@ -2403,7 +2393,15 @@
   "1471422729": {
    "full_name": "alesha-pro/llm.asm",
    "since": "2026-11-26T23:51:23.674Z"
+  },
+  "1471624301": {
+   "full_name": "nexu-io/opengame",
+   "since": "2026-11-27T18:57:56.820Z"
+  },
+  "1472451283": {
+   "full_name": "trustno1-coder/VIctory-NVIDIA",
+   "since": "2026-11-27T18:57:56.820Z"
   }
  },
- "updated_at": "2026-11-27T08:34:26.713Z"
+ "updated_at": "2026-11-27T19:07:14.539Z"
 }

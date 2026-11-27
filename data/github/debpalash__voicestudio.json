@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:28:05.990Z",
+ "fetched_at": "2026-11-27T19:00:22.234Z",
  "meta": {
   "name": "VoiceStudio",
   "owner": "debpalash",
@@ -43,14 +43,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 119070,
-  "forks": 13291,
+  "stars": 119315,
+  "forks": 13318,
   "watchers": 381,
-  "open_issues": 8,
+  "open_issues": 2,
   "open_prs": null,
   "created_at": "2026-04-09T21:40:26Z",
-  "pushed_at": "2026-11-27T07:35:30Z",
-  "updated_at": "2026-11-27T08:26:49Z",
+  "pushed_at": "2026-11-27T18:57:21Z",
+  "updated_at": "2026-11-27T18:56:57Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 222169,
+  "size_kb": 223449,
   "og_image": "https://opengraph.githubassets.com/1/debpalash/VoiceStudio",
   "custom_og_image": false
  },
@@ -103,7 +103,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-25T22:37:07.498Z",
-  "checked_at": "2026-11-27T08:32:36.977Z"
+  "checked_at": "2026-11-27T19:04:31.568Z"
  },
  "contributors": {
   "count": 174,
@@ -111,5 +111,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:32.907Z"
  },
- "details_checked_at": "2026-11-27T08:32:36.977Z"
+ "details_checked_at": "2026-11-27T19:04:31.568Z"
 }

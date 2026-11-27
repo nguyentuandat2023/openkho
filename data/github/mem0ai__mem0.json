@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:27:51.492Z",
+ "fetched_at": "2026-11-27T19:00:07.509Z",
  "meta": {
   "name": "mem0",
   "owner": "mem0ai",
@@ -38,14 +38,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 69527,
-  "forks": 8281,
+  "stars": 69548,
+  "forks": 8285,
   "watchers": 254,
-  "open_issues": 1020,
+  "open_issues": 1023,
   "open_prs": null,
   "created_at": "2023-06-20T08:58:36Z",
-  "pushed_at": "2026-11-25T10:59:52Z",
-  "updated_at": "2026-11-27T08:01:17Z",
+  "pushed_at": "2026-11-27T15:43:44Z",
+  "updated_at": "2026-11-27T18:59:26Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,7 +54,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 70199,
+  "size_kb": 70453,
   "og_image": "https://opengraph.githubassets.com/1/mem0ai/mem0",
   "custom_og_image": false
  },
@@ -87,7 +87,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-24T17:49:54.906Z",
-  "checked_at": "2026-11-27T08:32:36.134Z"
+  "checked_at": "2026-11-27T19:04:30.957Z"
  },
  "contributors": {
   "count": 412,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:32.102Z"
  },
- "details_checked_at": "2026-11-27T08:32:36.134Z"
+ "details_checked_at": "2026-11-27T19:04:30.957Z"
 }

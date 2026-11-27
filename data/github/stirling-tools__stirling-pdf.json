@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:31:36.189Z",
+ "fetched_at": "2026-11-27T19:03:39.725Z",
  "meta": {
   "name": "Stirling-PDF",
   "owner": "Stirling-Tools",
@@ -37,14 +37,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 97563,
-  "forks": 9369,
+  "stars": 97603,
+  "forks": 9375,
   "watchers": 297,
-  "open_issues": 463,
+  "open_issues": 464,
   "open_prs": null,
   "created_at": "2023-01-27T18:22:42Z",
-  "pushed_at": "2026-11-27T08:30:17Z",
-  "updated_at": "2026-11-27T08:24:29Z",
+  "pushed_at": "2026-11-27T19:01:06Z",
+  "updated_at": "2026-11-27T18:26:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,7 +53,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 726194,
+  "size_kb": 721972,
   "og_image": "https://opengraph.githubassets.com/1/Stirling-Tools/Stirling-PDF",
   "custom_og_image": false
  },
@@ -81,7 +81,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.571Z",
-  "checked_at": "2026-11-27T08:32:47.382Z"
+  "checked_at": "2026-11-27T19:04:39.615Z"
  },
  "contributors": {
   "count": 326,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:20.487Z"
  },
- "details_checked_at": "2026-11-27T08:32:47.382Z"
+ "details_checked_at": "2026-11-27T19:04:39.615Z"
 }

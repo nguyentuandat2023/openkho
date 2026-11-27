@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:30:50.987Z",
+ "fetched_at": "2026-11-27T19:02:59.600Z",
  "meta": {
   "name": "listmonk",
   "owner": "knadh",
@@ -37,14 +37,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 24482,
-  "forks": 2835,
+  "stars": 24487,
+  "forks": 2836,
   "watchers": 143,
-  "open_issues": 69,
+  "open_issues": 71,
   "open_prs": null,
   "created_at": "2019-06-26T05:08:39Z",
   "pushed_at": "2026-11-27T02:15:06Z",
-  "updated_at": "2026-11-27T08:27:01Z",
+  "updated_at": "2026-11-27T18:00:59Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -76,7 +76,7 @@
   "headings": 5,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.820Z",
-  "checked_at": "2026-11-27T08:32:45.392Z"
+  "checked_at": "2026-11-27T19:04:37.929Z"
  },
  "contributors": {
   "count": 302,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:18.094Z"
  },
- "details_checked_at": "2026-11-27T08:32:45.392Z"
+ "details_checked_at": "2026-11-27T19:04:37.929Z"
 }

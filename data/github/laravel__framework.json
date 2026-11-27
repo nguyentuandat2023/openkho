@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:29:48.540Z",
+ "fetched_at": "2026-11-27T19:02:00.920Z",
  "meta": {
   "name": "framework",
   "owner": "laravel",
@@ -27,14 +27,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 35181,
-  "forks": 12105,
-  "watchers": 937,
-  "open_issues": 125,
+  "stars": 35195,
+  "forks": 12129,
+  "watchers": 938,
+  "open_issues": 103,
   "open_prs": null,
   "created_at": "2013-01-10T21:27:28Z",
-  "pushed_at": "2026-11-27T06:34:09Z",
-  "updated_at": "2026-11-27T07:19:16Z",
+  "pushed_at": "2026-11-27T13:55:38Z",
+  "updated_at": "2026-11-27T17:56:52Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -43,7 +43,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 109819,
+  "size_kb": 109925,
   "og_image": "https://opengraph.githubassets.com/1/laravel/framework",
   "custom_og_image": false
  },
@@ -61,7 +61,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.214Z",
-  "checked_at": "2026-11-27T08:32:42.256Z"
+  "checked_at": "2026-11-27T19:04:35.556Z"
  },
  "contributors": {
   "count": 5038,
@@ -69,5 +69,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:13.903Z"
  },
- "details_checked_at": "2026-11-27T08:32:42.256Z"
+ "details_checked_at": "2026-11-27T19:04:35.556Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:32:33.322Z",
+ "fetched_at": "2026-11-27T19:04:28.246Z",
  "meta": {
   "name": "dyad",
   "owner": "dyad-sh",
@@ -43,14 +43,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 22464,
-  "forks": 2857,
+  "stars": 22468,
+  "forks": 2858,
   "watchers": 119,
-  "open_issues": 374,
+  "open_issues": 376,
   "open_prs": null,
   "created_at": "2025-04-11T06:33:48Z",
   "pushed_at": "2026-11-24T17:57:09Z",
-  "updated_at": "2026-11-27T08:23:49Z",
+  "updated_at": "2026-11-27T18:50:33Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -87,7 +87,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.719Z",
-  "checked_at": "2026-11-27T08:32:49.903Z"
+  "checked_at": "2026-11-27T19:04:41.466Z"
  },
  "contributors": {
   "count": 41,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:37.130Z"
  },
- "details_checked_at": "2026-11-27T08:32:49.903Z"
+ "details_checked_at": "2026-11-27T19:04:41.466Z"
 }

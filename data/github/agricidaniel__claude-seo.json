@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:30:55.452Z",
+ "fetched_at": "2026-11-27T19:03:03.173Z",
  "meta": {
   "name": "claude-seo",
   "owner": "AgriciDaniel",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 32732,
-  "forks": 3974,
+  "stars": 32828,
+  "forks": 3984,
   "watchers": 172,
   "open_issues": 44,
   "open_prs": null,
   "created_at": "2026-02-07T08:17:38Z",
   "pushed_at": "2026-11-26T04:20:57Z",
-  "updated_at": "2026-11-27T08:27:46Z",
+  "updated_at": "2026-11-27T18:54:53Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -91,7 +91,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-26T05:07:50.254Z",
-  "checked_at": "2026-11-27T08:32:45.603Z"
+  "checked_at": "2026-11-27T19:04:38.088Z"
  },
  "contributors": {
   "count": 52,
@@ -99,5 +99,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:18.229Z"
  },
- "details_checked_at": "2026-11-27T08:32:45.603Z"
+ "details_checked_at": "2026-11-27T19:04:38.088Z"
 }

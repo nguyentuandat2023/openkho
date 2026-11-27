@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:29:34.446Z",
+ "fetched_at": "2026-11-27T19:01:48.568Z",
  "meta": {
   "name": "marimo",
   "owner": "marimo-team",
@@ -37,14 +37,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 23769,
-  "forks": 1423,
+  "stars": 23774,
+  "forks": 1424,
   "watchers": 67,
-  "open_issues": 598,
+  "open_issues": 600,
   "open_prs": null,
   "created_at": "2023-08-14T18:56:20Z",
   "pushed_at": "2026-11-26T17:52:07Z",
-  "updated_at": "2026-11-27T08:28:58Z",
+  "updated_at": "2026-11-27T16:23:22Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -82,7 +82,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.666Z",
-  "checked_at": "2026-11-27T08:32:41.568Z"
+  "checked_at": "2026-11-27T19:04:35.048Z"
  },
  "contributors": {
   "count": 396,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:13.048Z"
  },
- "details_checked_at": "2026-11-27T08:32:41.568Z"
+ "details_checked_at": "2026-11-27T19:04:35.048Z"
 }

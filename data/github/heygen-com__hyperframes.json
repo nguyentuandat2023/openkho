@@ -6,14 +6,14 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:32:10.052Z",
+ "fetched_at": "2026-11-27T19:04:11.492Z",
  "meta": {
   "name": "hyperframes",
   "owner": "heygen-com",
   "owner_type": "Organization",
   "avatar_url": "https://avatars.githubusercontent.com/u/65394575?v=4",
   "description": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app. Write HTML, render MP4. By HeyGen.",
-  "homepage": "https://hyperframes.heygen.com",
+  "homepage": "https://hyperframes.studio",
   "html_url": "https://github.com/heygen-com/hyperframes",
   "default_branch": "main",
   "language": "TypeScript",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 91109,
-  "forks": 8502,
-  "watchers": 211,
-  "open_issues": 327,
+  "stars": 91408,
+  "forks": 8532,
+  "watchers": 212,
+  "open_issues": 331,
   "open_prs": null,
   "created_at": "2026-03-10T01:51:06Z",
-  "pushed_at": "2026-11-27T08:30:16Z",
-  "updated_at": "2026-11-27T08:31:21Z",
+  "pushed_at": "2026-11-27T19:01:46Z",
+  "updated_at": "2026-11-27T19:03:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 561365,
+  "size_kb": 560566,
   "og_image": "https://opengraph.githubassets.com/1/heygen-com/hyperframes",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "headings": 25,
   "processor": 4,
   "fetched_at": "2026-11-25T12:58:12.494Z",
-  "checked_at": "2026-11-27T08:32:48.804Z"
+  "checked_at": "2026-11-27T19:04:40.756Z"
  },
  "contributors": {
   "count": 155,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:36.076Z"
  },
- "details_checked_at": "2026-11-27T08:32:48.804Z"
+ "details_checked_at": "2026-11-27T19:04:40.756Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:29:17.246Z",
+ "fetched_at": "2026-11-27T19:01:32.066Z",
  "meta": {
   "name": "documenso",
   "owner": "documenso",
@@ -42,14 +42,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 15934,
-  "forks": 3548,
+  "stars": 15936,
+  "forks": 3552,
   "watchers": 56,
-  "open_issues": 261,
+  "open_issues": 263,
   "open_prs": null,
   "created_at": "2023-03-12T16:28:56Z",
   "pushed_at": "2026-11-27T07:40:41Z",
-  "updated_at": "2026-11-27T04:43:35Z",
+  "updated_at": "2026-11-27T13:14:58Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,7 +58,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 281239,
+  "size_kb": 281248,
   "og_image": "https://opengraph.githubassets.com/1/documenso/documenso",
   "custom_og_image": false
  },
@@ -87,7 +87,7 @@
   "headings": 23,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.995Z",
-  "checked_at": "2026-11-27T08:32:40.829Z"
+  "checked_at": "2026-11-27T19:04:34.394Z"
  },
  "contributors": {
   "count": 192,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:11.605Z"
  },
- "details_checked_at": "2026-11-27T08:32:40.829Z"
+ "details_checked_at": "2026-11-27T19:04:34.394Z"
 }

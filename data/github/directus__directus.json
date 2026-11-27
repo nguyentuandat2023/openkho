@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T08:31:19.046Z",
+ "fetched_at": "2026-11-27T19:03:24.736Z",
  "meta": {
   "name": "directus",
   "owner": "directus",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 38695,
+  "stars": 38716,
   "forks": 4992,
-  "watchers": 341,
+  "watchers": 344,
   "open_issues": 357,
   "open_prs": null,
   "created_at": "2012-12-12T01:35:36Z",
-  "pushed_at": "2026-11-26T14:15:45Z",
-  "updated_at": "2026-11-27T08:14:02Z",
+  "pushed_at": "2026-11-27T11:56:31Z",
+  "updated_at": "2026-11-27T18:12:28Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 455265,
+  "size_kb": 455254,
   "og_image": "https://opengraph.githubassets.com/1/directus/directus",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "headings": 9,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:27.872Z",
-  "checked_at": "2026-11-27T08:32:46.681Z"
+  "checked_at": "2026-11-27T19:04:39.039Z"
  },
  "contributors": {
   "count": 599,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:19.808Z"
  },
- "details_checked_at": "2026-11-27T08:32:46.681Z"
+ "details_checked_at": "2026-11-27T19:04:39.039Z"
 }
