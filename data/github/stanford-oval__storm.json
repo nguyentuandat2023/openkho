@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T23:53:47.992Z",
+ "fetched_at": "2026-11-27T08:28:23.476Z",
  "meta": {
   "name": "storm",
   "owner": "stanford-oval",
@@ -33,14 +33,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 31968,
+  "stars": 31974,
   "forks": 3025,
   "watchers": 188,
   "open_issues": 123,
   "open_prs": null,
   "created_at": "2024-03-24T16:23:39Z",
   "pushed_at": "2025-09-30T18:07:21Z",
-  "updated_at": "2026-11-26T22:16:39Z",
+  "updated_at": "2026-11-27T07:47:04Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -77,7 +77,7 @@
   "headings": 22,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:30.265Z",
-  "checked_at": "2026-11-26T23:57:25.328Z"
+  "checked_at": "2026-11-27T08:32:37.983Z"
  },
  "contributors": {
   "count": 26,
@@ -85,5 +85,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:33.992Z"
  },
- "details_checked_at": "2026-11-26T23:57:25.328Z"
+ "details_checked_at": "2026-11-27T08:32:37.983Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T23:54:10.823Z",
+ "fetched_at": "2026-11-27T08:28:50.596Z",
  "meta": {
   "name": "WanGP",
   "owner": "deepbeepmeep",
@@ -37,14 +37,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 12300,
-  "forks": 1928,
+  "stars": 12304,
+  "forks": 1929,
   "watchers": 116,
-  "open_issues": 1419,
+  "open_issues": 1420,
   "open_prs": null,
   "created_at": "2025-02-27T23:52:36Z",
   "pushed_at": "2026-11-26T23:08:11Z",
-  "updated_at": "2026-11-26T23:11:07Z",
+  "updated_at": "2026-11-27T06:13:20Z",
   "archived": false,
   "disabled": false,
   "is_fork": true,
@@ -53,7 +53,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 114087,
+  "size_kb": 113869,
   "og_image": "https://opengraph.githubassets.com/1/deepbeepmeep/WanGP",
   "custom_og_image": false
  },
@@ -97,7 +97,7 @@
   "headings": 52,
   "processor": 4,
   "fetched_at": "2026-11-26T23:57:26.305Z",
-  "checked_at": "2026-11-26T23:57:26.305Z"
+  "checked_at": "2026-11-27T08:32:39.878Z"
  },
  "contributors": {
   "count": 36,
@@ -105,5 +105,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:10.072Z"
  },
- "details_checked_at": "2026-11-26T23:57:26.305Z"
+ "details_checked_at": "2026-11-27T08:32:39.878Z"
 }

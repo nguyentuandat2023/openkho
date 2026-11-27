@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T23:54:55.454Z",
+ "fetched_at": "2026-11-27T08:29:38.468Z",
  "meta": {
   "name": "postgres",
   "owner": "postgres",
@@ -23,14 +23,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 22960,
-  "forks": 6078,
+  "stars": 22961,
+  "forks": 6079,
   "watchers": 583,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2010-09-21T11:35:45Z",
   "pushed_at": "2026-11-26T21:04:41Z",
-  "updated_at": "2026-11-26T21:55:14Z",
+  "updated_at": "2026-11-27T08:04:51Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,7 +57,7 @@
   "headings": 1,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.866Z",
-  "checked_at": "2026-11-26T23:57:28.118Z"
+  "checked_at": "2026-11-27T08:32:41.902Z"
  },
  "contributors": {
   "count": 58,
@@ -65,5 +65,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:13.029Z"
  },
- "details_checked_at": "2026-11-26T23:57:28.118Z"
+ "details_checked_at": "2026-11-27T08:32:41.902Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T23:55:49.741Z",
+ "fetched_at": "2026-11-27T08:30:39.231Z",
  "meta": {
   "name": "LLMs-from-scratch",
   "owner": "rasbt",
@@ -43,14 +43,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 109099,
-  "forks": 16864,
+  "stars": 109110,
+  "forks": 16867,
   "watchers": 873,
   "open_issues": 4,
   "open_prs": null,
   "created_at": "2023-07-23T18:15:57Z",
   "pushed_at": "2026-11-26T15:25:17Z",
-  "updated_at": "2026-11-26T23:49:06Z",
+  "updated_at": "2026-11-27T08:18:08Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -77,7 +77,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-21T17:36:22.955Z",
-  "checked_at": "2026-11-26T23:57:30.183Z"
+  "checked_at": "2026-11-27T08:32:44.805Z"
  },
  "contributors": {
   "count": 78,
@@ -85,5 +85,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:17.425Z"
  },
- "details_checked_at": "2026-11-26T23:57:30.183Z"
+ "details_checked_at": "2026-11-27T08:32:44.805Z"
 }

@@ -1,79 +1,58 @@
 {
- "computed_at": "2026-11-26T23:59:03.074Z",
+ "computed_at": "2026-11-27T08:34:23.540Z",
  "curated_missing_github_id": [],
  "missing_contributors": 2374,
  "stale_over_48h": [
+  "horizon-rust/horizon",
   "RustXNG/RustXNG",
   "bipro45/actual-multi-display-configurator",
   "abdulmannanmalik13-wq/adobe-substance-3d-studio",
   "AbhiKamane/ai-app-builder-open",
   "hembramneeraj3-create/aida-64-extreme",
-  "Arda313131882/aion-2-trainer-tool",
-  "App-MonicaWEB/auslogics-audio-studio-desktop",
-  "Leno27-Adr/autodesk-revit-2026-standalone",
-  "theonlyoneexocctical-beep/cellebrite-ufed-setup",
   "thiagoaureliomartins-programador/chief-architect-premier",
   "angelonyn/chimera-desktop-suite",
-  "woo20080623-cell/cinebench-desktop",
   "ayanprob/coreldraw-desktop-installer",
-  "sajawal-12/cubase-studio-desktop",
-  "IsaiaR09/daemon-pro-desktop",
-  "kcgeekedup-hash/delta-force-trainer-tool",
   "tss878/grand-six",
-  "Elegantic/designcenter-nx-desktop",
   "ebtsamalhakmy-sketch/desktop-backup-suite",
   "Vesuvio1/GTA-VI",
-  "Sanidhya0510/dvd-creator-game-enhancement",
-  "Luk177Master/easy-worship-desktop",
   "farhodzodatojiddin5-cpu/exitlag-optimizer",
   "abhijot11/fabfilter-total",
-  "Gacktadactle/fortnite-skin-swapper-enhancement",
-  "robertsjunior/fonetrans-desktop-setup",
   "Paulinho182/hitfilm-desktop-installer",
   "shayannazar84-hero/honkai-star-rail-companion-suite",
-  "hayfa1234/honkai-star-rail-enhancement-suite",
   "uchihamx999-beep/imei-repair-toolkit",
   "leanislizarzado/ibm-spss-desktop-suite",
-  "dikshantghimire321-droid/kontakt-8-config",
   "RolandoV3/metatrader-5-bot",
-  "daiphu2708-crypto/melodyne-5-desktop-setup",
   "ilsa99/microsoft-365-desktop",
-  "pastebin2019/multiaccountmanager-enhancement",
   "blockacc12345/music-maker-unlimited",
   "janitoff0/ninjatrader-bot",
   "ethangangasingh-crypto/musicmakerunlimited",
-  "Eriazeri/on1-photo-raw-max-config",
   "vishnu05-codes/ozone-12-advanced",
-  "shahnawaz0786/payday-3-enhancement-toolkit",
   "SnehalSukale27/power-director",
   "tianjanahary05-source/reason-14-installer",
   "xavier442/pump-fun-desktop",
   "rdeepak-wq121/quicken-deluxe-installer",
-  "Marcian15350/mt5-tradeprotocol",
   "21041979/rufus-usb-formatter",
   "SK-Dev666/rust-external-trainer-tool",
-  "farhatullah0006-art/rx-11-audio-editor-config",
   "SirBonney/scrcpy-mirror-control",
   "mahmoudtawfik1998/secure-pdf-document-processor",
   "pravinpote1985/serato-dj-pro-2026",
-  "muddinenilakshmilalithaksh-create/sp-flash-tool",
   "FarhanNaem/startall-back",
-  "RafliAbdulHaliim/sylenth-1-enhancement-suite",
-  "Forgavin/ultra-iso-desktop-setup",
-  "arthurrossetocampos1-crypto/uttorent-desktop",
   "parthkshirsagar2456-blip/voicemod-desktop-edition",
   "shivsupratik/windows-optimizer",
   "hitkeeen/blender-ai-mcp-addon",
+  "racdeufindurch198812/Blender-AI-MCP-Studio",
   "alex-wells-65/iobit-driver-booster-desktop",
   "ava25-thompson/fishstrap-roblox-fps-booster-desktop",
   "azuresail195/wondershare-recoverit-desktop",
   "brave-shell-07/izotope-rx-11-desktop",
   "krisgfx9/Wireless-Device-Battery-Monitor",
   "gylive/google-ultra",
+  "hasan6969macho-bit/vectorbt-avoria-analysis",
   "bothaggsigym1988/frameglide",
   "sourmitocand1987/VividFrame-GPU",
   "0marContreras/gta6recomp",
   "Bodila51/gtavi-claudecode",
+  "aurahamzzz-cyber/microsoft-excel-alvaora",
   "bookwjitchieni1986/blender-ai-mcp-addon",
   "dickoyudha-netizen/adobe-firefly-image-creator",
   "realdody/americas-recomp",
@@ -202,9 +181,30 @@
   "marcus-ali-lab1905z4/path-of-exile-2-map-reveal-zoom-out-portable-x64",
   "max-moore-x1905b1/arc-raiders-external-extraction-radar-loot-portable-x64",
   "david-ivanovio2004x4/schedule-i-melonloader-mod-menu-cash-portable-x64",
-  "kyle-brown-io2003g7/civilization-vii-in-game-editor-ige-portable-x64"
+  "kyle-brown-io2003g7/civilization-vii-in-game-editor-ige-portable-x64",
+  "markdevx1901r4/shadps4-bloodborne-pc-60fps-patch-vertex-explosion-portabl",
+  "kyle-millerx2098t3/daw-synth-fl-studio-2026-producer-portable-x64",
+  "ivanjops96a3/polymarket-perp-dex-whale-wallet-copytrader-resolution-por",
+  "antonhall-x91s9/discord-local-uncensored-ai-activity-utility-quest-auto-po",
+  "ericgarciacode03f3/creative-video-adobe-cc-v4-universal-portable-x64",
+  "roman-chencode1904b4/cad-3d-engineering-suite-autodesk-2026-autocad-revit-porta",
+  "antonlopezeng2093z4/ai-ide-system-utilities-windsurf-pro-jetbrains-2026-portab",
+  "sergeygarcia-devo0/wave-velocity-bootstrapper-external-luau-loader-serial-por",
+  "dan-leelab19f7/roblox-game-hub-fisch-auto-cast-instant-portable-x64",
+  "leonmiller-io01l1/gta-6-vice-city-ps5-remote-play-60fps-portable-x64",
+  "max-clarkdev2097g3/arc-raiders-weapon-recoil-spread-compensation-portable-x64",
+  "danielrops99q3/deadlock-minimap-cooldown-jungle-timer-portable-x64",
+  "dave-wilsoncode1999d3/elden-ring-nightreign-standalone-trainer-relic-murk-portab",
+  "benhhq1993s5/dune-awakening-external-player-ornithopter-radar-portable",
+  "kyle-moore-code2001v1/marvel-rivals-hitscan-projectile-smoothing-assistant-porta",
+  "tomivanovops00n9/civilization-vii-ui-quick-deal-detailed-portable-x64",
+  "artem-petrovlab04i2/counter-strike-2-inventory-skin-knife-glove-portable-x64",
+  "anton-g-dev2099m4/escape-from-tarkov-spt-aki-10-profile-portable-x64",
+  "anton-ivanov-97x5/call-of-duty-black-ops-6-warzone-camo-blueprint-operator-l",
+  "danx1905k8/war-thunder-realistic-tank-outline-thermal-portable-x64",
+  "ryan-v-x2003c8/ea-sports-fc-26-green-timed-finishing-legacy-portable-x64"
  ],
- "low_quality_coverage": 277,
+ "low_quality_coverage": 165,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -243,26 +243,6 @@
    "status": "not_found"
   },
   {
-   "id": "Arda313131882/aion-2-trainer-tool",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "App-MonicaWEB/auslogics-audio-studio-desktop",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "Leno27-Adr/autodesk-revit-2026-standalone",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "theonlyoneexocctical-beep/cellebrite-ufed-setup",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
    "id": "thiagoaureliomartins-programador/chief-architect-premier",
    "origin": "radar",
    "status": "not_found"
@@ -273,37 +253,12 @@
    "status": "not_found"
   },
   {
-   "id": "woo20080623-cell/cinebench-desktop",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
    "id": "ayanprob/coreldraw-desktop-installer",
    "origin": "radar",
    "status": "not_found"
   },
   {
-   "id": "sajawal-12/cubase-studio-desktop",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "IsaiaR09/daemon-pro-desktop",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "kcgeekedup-hash/delta-force-trainer-tool",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
    "id": "tss878/grand-six",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "Elegantic/designcenter-nx-desktop",
    "origin": "radar",
    "status": "not_found"
   },
@@ -318,32 +273,12 @@
    "status": "not_found"
   },
   {
-   "id": "Sanidhya0510/dvd-creator-game-enhancement",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "Luk177Master/easy-worship-desktop",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
    "id": "farhodzodatojiddin5-cpu/exitlag-optimizer",
    "origin": "radar",
    "status": "not_found"
   },
   {
    "id": "abhijot11/fabfilter-total",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "Gacktadactle/fortnite-skin-swapper-enhancement",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "robertsjunior/fonetrans-desktop-setup",
    "origin": "radar",
    "status": "not_found"
   },
@@ -358,11 +293,6 @@
    "status": "not_found"
   },
   {
-   "id": "hayfa1234/honkai-star-rail-enhancement-suite",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
    "id": "uchihamx999-beep/imei-repair-toolkit",
    "origin": "radar",
    "status": "not_found"
@@ -373,27 +303,12 @@
    "status": "not_found"
   },
   {
-   "id": "dikshantghimire321-droid/kontakt-8-config",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
    "id": "RolandoV3/metatrader-5-bot",
    "origin": "radar",
    "status": "not_found"
   },
   {
-   "id": "daiphu2708-crypto/melodyne-5-desktop-setup",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
    "id": "ilsa99/microsoft-365-desktop",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "pastebin2019/multiaccountmanager-enhancement",
    "origin": "radar",
    "status": "not_found"
   },
@@ -413,17 +328,7 @@
    "status": "not_found"
   },
   {
-   "id": "Eriazeri/on1-photo-raw-max-config",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
    "id": "vishnu05-codes/ozone-12-advanced",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "shahnawaz0786/payday-3-enhancement-toolkit",
    "origin": "radar",
    "status": "not_found"
   },
@@ -448,22 +353,12 @@
    "status": "not_found"
   },
   {
-   "id": "Marcian15350/mt5-tradeprotocol",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
    "id": "21041979/rufus-usb-formatter",
    "origin": "radar",
    "status": "not_found"
   },
   {
    "id": "SK-Dev666/rust-external-trainer-tool",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "farhatullah0006-art/rx-11-audio-editor-config",
    "origin": "radar",
    "status": "not_found"
   },
@@ -483,27 +378,7 @@
    "status": "not_found"
   },
   {
-   "id": "muddinenilakshmilalithaksh-create/sp-flash-tool",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
    "id": "FarhanNaem/startall-back",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "RafliAbdulHaliim/sylenth-1-enhancement-suite",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "Forgavin/ultra-iso-desktop-setup",
-   "origin": "radar",
-   "status": "not_found"
-  },
-  {
-   "id": "arthurrossetocampos1-crypto/uttorent-desktop",
    "origin": "radar",
    "status": "not_found"
   },
@@ -1529,61 +1404,61 @@
   {
    "id": "mrdoob/three.js",
    "reasons": [
-    "+514 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+518 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "EbookFoundation/free-programming-books",
    "reasons": [
-    "+435 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+423 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "nilbuild/developer-roadmap",
    "reasons": [
-    "+446 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+442 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "upstash/context7",
    "reasons": [
-    "+381 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+376 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Stirling-Tools/Stirling-PDF",
    "reasons": [
-    "+504 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+494 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "torvalds/linux",
    "reasons": [
-    "+784 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "avelino/awesome-go",
-   "reasons": [
-    "+1.332 sao nhưng chỉ +3 fork trong cùng kỳ"
+    "+765 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "freeCodeCamp/freeCodeCamp",
    "reasons": [
-    "+325 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+322 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "BurntSushi/ripgrep",
    "reasons": [
-    "+311 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+315 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "jwasham/coding-interview-university",
    "reasons": [
-    "+530 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+487 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "ruanyf/weekly",
+   "reasons": [
+    "+425 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
@@ -1661,7 +1536,7 @@
   {
    "id": "helloHub1212/dsh-windows-mcp",
    "reasons": [
-    "+781 sao nhưng chỉ +2 fork trong cùng kỳ"
+    "repo mới với 2.685 sao nhưng gần như không có fork (12) và chưa có issue nào"
    ]
   },
   {
@@ -1727,7 +1602,7 @@
   {
    "id": "AhmadHassan-BTed/RainGen-RainGenerator",
    "reasons": [
-    "repo mới với 1.622 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.624 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -1809,6 +1684,12 @@
    ]
   },
   {
+   "id": "XinaTian/MROffice",
+   "reasons": [
+    "rất ít người đóng góp (2) so với tốc độ tăng sao"
+   ]
+  },
+  {
    "id": "deepseek-ai/chat-demo",
    "reasons": [
     "rất ít người đóng góp (1) so với tốc độ tăng sao"
@@ -1817,7 +1698,7 @@
   {
    "id": "Gosu-x/multimodal-threat-dataset",
    "reasons": [
-    "+493 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+494 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1901,7 +1782,7 @@
   {
    "id": "lizhenjie137/intelligent-organization",
    "reasons": [
-    "+522 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+529 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1967,7 +1848,7 @@
   {
    "id": "weightcashiercupola/Gemini-Config-Checker-",
    "reasons": [
-    "repo mới với 452 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 453 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -2195,7 +2076,7 @@
   {
    "id": "Urvee003/bloxshade-for-roblox",
    "reasons": [
-    "repo mới với 338 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 339 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -2441,13 +2322,13 @@
   {
    "id": "Indigo-0167/universal-game-mod-manager",
    "reasons": [
-    "+1.300 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.301 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
    "id": "solv4626/steam-achievement-manager-windows",
    "reasons": [
-    "repo mới với 1.058 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.058 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
@@ -2459,7 +2340,7 @@
   {
    "id": "Nebula4207/av1-video-encoder-gui",
    "reasons": [
-    "repo mới với 681 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 681 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
@@ -2471,13 +2352,31 @@
   {
    "id": "zero5122/offline-file-converter-windows",
    "reasons": [
-    "repo mới với 1.072 sao nhưng gần như không có fork (2) và chưa có issue nào"
+    "repo mới với 1.073 sao nhưng gần như không có fork (3) và chưa có issue nào"
    ]
   },
   {
    "id": "Umbra9179/clipboard-history-manager-windows",
    "reasons": [
-    "repo mới với 1.264 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "repo mới với 1.265 sao nhưng gần như không có fork (1) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Locorreia1992/native-instruments-reaktor-6",
+   "reasons": [
+    "repo mới với 311 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "0x1A6C1A9Y/focus-clock",
+   "reasons": [
+    "repo mới với 476 sao nhưng gần như không có fork (2) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "Pixel679-cmyk/windows-titlebar-blur-customizer",
+   "reasons": [
+    "+717 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   }
  ],
@@ -2489,64 +2388,31 @@
  "suppressed_clusters": [
   {
    "cluster": "campaign-2026-11-06-1099",
-   "reason": "Một trong 41 repo khác tên do 41 tài khoản tạo gần như cùng lúc, cùng khoảng 1.099–1.113 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "reason": "Một trong 23 repo khác tên do 23 tài khoản tạo gần như cùng lúc, cùng khoảng 1.099–1.107 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
    "repos": [
     "bipro45/actual-multi-display-configurator",
-    "App-MonicaWEB/auslogics-audio-studio-desktop",
-    "Leno27-Adr/autodesk-revit-2026-standalone",
-    "theonlyoneexocctical-beep/cellebrite-ufed-setup",
     "thiagoaureliomartins-programador/chief-architect-premier",
     "angelonyn/chimera-desktop-suite",
-    "woo20080623-cell/cinebench-desktop",
-    "Luk177Master/easy-worship-desktop",
     "farhodzodatojiddin5-cpu/exitlag-optimizer",
-    "robertsjunior/fonetrans-desktop-setup",
     "Paulinho182/hitfilm-desktop-installer",
     "shayannazar84-hero/honkai-star-rail-companion-suite",
-    "hayfa1234/honkai-star-rail-enhancement-suite",
     "uchihamx999-beep/imei-repair-toolkit",
     "leanislizarzado/ibm-spss-desktop-suite",
-    "dikshantghimire321-droid/kontakt-8-config",
-    "daiphu2708-crypto/melodyne-5-desktop-setup",
-    "pastebin2019/multiaccountmanager-enhancement",
     "blockacc12345/music-maker-unlimited",
     "janitoff0/ninjatrader-bot",
     "ethangangasingh-crypto/musicmakerunlimited",
-    "Eriazeri/on1-photo-raw-max-config",
     "vishnu05-codes/ozone-12-advanced",
-    "shahnawaz0786/payday-3-enhancement-toolkit",
     "SnehalSukale27/power-director",
     "tianjanahary05-source/reason-14-installer",
     "xavier442/pump-fun-desktop",
     "rdeepak-wq121/quicken-deluxe-installer",
-    "Marcian15350/mt5-tradeprotocol",
     "21041979/rufus-usb-formatter",
     "SK-Dev666/rust-external-trainer-tool",
-    "farhatullah0006-art/rx-11-audio-editor-config",
     "SirBonney/scrcpy-mirror-control",
     "pravinpote1985/serato-dj-pro-2026",
-    "muddinenilakshmilalithaksh-create/sp-flash-tool",
     "FarhanNaem/startall-back",
-    "RafliAbdulHaliim/sylenth-1-enhancement-suite",
-    "Forgavin/ultra-iso-desktop-setup",
-    "arthurrossetocampos1-crypto/uttorent-desktop",
     "parthkshirsagar2456-blip/voicemod-desktop-edition",
     "shivsupratik/windows-optimizer"
-   ]
-  },
-  {
-   "cluster": "campaign-2026-11-06-1155",
-   "reason": "Một trong 9 repo khác tên do 9 tài khoản tạo gần như cùng lúc, cùng khoảng 1.155–1.209 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
-   "repos": [
-    "hembramneeraj3-create/aida-64-extreme",
-    "Arda313131882/aion-2-trainer-tool",
-    "sajawal-12/cubase-studio-desktop",
-    "IsaiaR09/daemon-pro-desktop",
-    "kcgeekedup-hash/delta-force-trainer-tool",
-    "Elegantic/designcenter-nx-desktop",
-    "ebtsamalhakmy-sketch/desktop-backup-suite",
-    "Vesuvio1/GTA-VI",
-    "Sanidhya0510/dvd-creator-game-enhancement"
    ]
   },
   {

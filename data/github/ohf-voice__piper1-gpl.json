@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T23:53:25.031Z",
+ "fetched_at": "2026-11-27T08:27:58.089Z",
  "meta": {
   "name": "piper1-gpl",
   "owner": "OHF-Voice",
@@ -23,14 +23,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 6412,
-  "forks": 646,
+  "stars": 6416,
+  "forks": 649,
   "watchers": 48,
   "open_issues": 72,
   "open_prs": null,
   "created_at": "2025-03-28T21:47:10Z",
   "pushed_at": "2026-11-24T22:34:13Z",
-  "updated_at": "2026-11-26T22:15:48Z",
+  "updated_at": "2026-11-27T07:18:14Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -68,7 +68,7 @@
   "headings": 1,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:28.835Z",
-  "checked_at": "2026-11-26T23:57:24.257Z"
+  "checked_at": "2026-11-27T08:32:36.531Z"
  },
  "contributors": {
   "count": 33,
@@ -76,5 +76,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:32.414Z"
  },
- "details_checked_at": "2026-11-26T23:57:24.257Z"
+ "details_checked_at": "2026-11-27T08:32:36.531Z"
 }

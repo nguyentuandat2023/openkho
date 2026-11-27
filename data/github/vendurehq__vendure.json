@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T23:55:38.294Z",
+ "fetched_at": "2026-11-27T08:30:25.827Z",
  "meta": {
   "name": "vendure",
   "owner": "vendurehq",
@@ -38,12 +38,12 @@
    "name": "Other"
   },
   "stars": 8622,
-  "forks": 1563,
+  "forks": 1564,
   "watchers": 86,
-  "open_issues": 216,
+  "open_issues": 214,
   "open_prs": null,
   "created_at": "2018-06-11T14:29:20Z",
-  "pushed_at": "2026-11-26T19:56:21Z",
+  "pushed_at": "2026-11-27T07:45:34Z",
   "updated_at": "2026-11-26T01:21:05Z",
   "archived": false,
   "disabled": false,
@@ -53,7 +53,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 187692,
+  "size_kb": 187685,
   "og_image": "https://opengraph.githubassets.com/1/vendurehq/vendure",
   "custom_og_image": false
  },
@@ -76,7 +76,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.823Z",
-  "checked_at": "2026-11-26T23:57:29.743Z"
+  "checked_at": "2026-11-27T08:32:44.094Z"
  },
  "contributors": {
   "count": 327,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:16.557Z"
  },
- "details_checked_at": "2026-11-26T23:57:29.743Z"
+ "details_checked_at": "2026-11-27T08:32:44.094Z"
 }

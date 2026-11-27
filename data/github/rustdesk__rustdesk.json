@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T23:56:37.380Z",
+ "fetched_at": "2026-11-27T08:31:37.976Z",
  "meta": {
   "name": "rustdesk",
   "owner": "rustdesk",
@@ -43,14 +43,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 131662,
-  "forks": 21309,
+  "stars": 131749,
+  "forks": 21327,
   "watchers": 656,
-  "open_issues": 235,
+  "open_issues": 237,
   "open_prs": null,
   "created_at": "2020-09-28T15:36:08Z",
   "pushed_at": "2026-11-26T15:14:20Z",
-  "updated_at": "2026-11-26T23:55:27Z",
+  "updated_at": "2026-11-27T08:27:06Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -82,7 +82,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-23T09:06:28.856Z",
-  "checked_at": "2026-11-26T23:57:32.284Z"
+  "checked_at": "2026-11-27T08:32:47.442Z"
  },
  "contributors": {
   "count": 540,
@@ -90,5 +90,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:20.761Z"
  },
- "details_checked_at": "2026-11-26T23:57:32.284Z"
+ "details_checked_at": "2026-11-27T08:32:47.442Z"
 }

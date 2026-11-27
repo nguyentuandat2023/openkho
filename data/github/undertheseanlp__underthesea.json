@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T23:56:27.217Z",
+ "fetched_at": "2026-11-27T08:31:26.356Z",
  "meta": {
   "name": "underthesea",
   "owner": "undertheseanlp",
@@ -50,7 +50,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 187714,
+  "size_kb": 187722,
   "og_image": "https://opengraph.githubassets.com/1/undertheseanlp/underthesea",
   "custom_og_image": false
  },
@@ -73,7 +73,7 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.207Z",
-  "checked_at": "2026-11-26T23:57:31.842Z"
+  "checked_at": "2026-11-27T08:32:46.972Z"
  },
  "contributors": {
   "count": 31,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:20.068Z"
  },
- "details_checked_at": "2026-11-26T23:57:31.842Z"
+ "details_checked_at": "2026-11-27T08:32:46.972Z"
 }

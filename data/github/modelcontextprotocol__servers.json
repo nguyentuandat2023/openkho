@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T23:56:07.912Z",
+ "fetched_at": "2026-11-27T08:31:01.837Z",
  "meta": {
   "name": "servers",
   "owner": "modelcontextprotocol",
@@ -23,14 +23,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 92283,
-  "forks": 11994,
+  "stars": 92291,
+  "forks": 11996,
   "watchers": 628,
-  "open_issues": 26,
+  "open_issues": 28,
   "open_prs": null,
   "created_at": "2024-11-19T01:10:17Z",
-  "pushed_at": "2026-11-25T05:08:57Z",
-  "updated_at": "2026-11-26T22:42:36Z",
+  "pushed_at": "2026-11-27T08:12:21Z",
+  "updated_at": "2026-11-27T08:07:51Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -39,7 +39,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 34900,
+  "size_kb": 34723,
   "og_image": "https://opengraph.githubassets.com/1/modelcontextprotocol/servers",
   "custom_og_image": false
  },
@@ -67,7 +67,7 @@
   "headings": 15,
   "processor": 4,
   "fetched_at": "2026-11-18T11:46:15.441Z",
-  "checked_at": "2026-11-26T23:57:30.961Z"
+  "checked_at": "2026-11-27T08:32:45.917Z"
  },
  "contributors": {
   "count": 1073,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:18.708Z"
  },
- "details_checked_at": "2026-11-26T23:57:30.961Z"
+ "details_checked_at": "2026-11-27T08:32:45.917Z"
 }

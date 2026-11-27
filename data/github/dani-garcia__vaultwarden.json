@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T23:56:49.442Z",
+ "fetched_at": "2026-11-27T08:31:53.353Z",
  "meta": {
   "name": "vaultwarden",
   "owner": "dani-garcia",
@@ -30,14 +30,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 71600,
-  "forks": 3560,
-  "watchers": 321,
+  "stars": 71656,
+  "forks": 3565,
+  "watchers": 320,
   "open_issues": 70,
   "open_prs": null,
   "created_at": "2018-02-17T22:40:20Z",
   "pushed_at": "2026-11-25T16:02:05Z",
-  "updated_at": "2026-11-26T23:53:44Z",
+  "updated_at": "2026-11-27T08:22:46Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -79,7 +79,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.338Z",
-  "checked_at": "2026-11-26T23:57:32.759Z"
+  "checked_at": "2026-11-27T08:32:48.108Z"
  },
  "contributors": {
   "count": 224,
@@ -87,5 +87,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:35.140Z"
  },
- "details_checked_at": "2026-11-26T23:57:32.759Z"
+ "details_checked_at": "2026-11-27T08:32:48.108Z"
 }

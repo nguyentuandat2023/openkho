@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T23:54:27.288Z",
+ "fetched_at": "2026-11-27T08:29:09.400Z",
  "meta": {
   "name": "DeepSeek-V3",
   "owner": "deepseek-ai",
@@ -23,14 +23,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 104918,
+  "stars": 104917,
   "forks": 16738,
   "watchers": 733,
-  "open_issues": 344,
+  "open_issues": 346,
   "open_prs": null,
   "created_at": "2024-12-26T09:52:40Z",
   "pushed_at": "2025-08-28T03:24:37Z",
-  "updated_at": "2026-11-26T22:01:08Z",
+  "updated_at": "2026-11-27T08:18:52Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 28,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.805Z",
-  "checked_at": "2026-11-26T23:57:27.004Z"
+  "checked_at": "2026-11-27T08:32:40.284Z"
  },
  "contributors": {
   "count": 26,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:10.984Z"
  },
- "details_checked_at": "2026-11-26T23:57:27.004Z"
+ "details_checked_at": "2026-11-27T08:32:40.284Z"
 }

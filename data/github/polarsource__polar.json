@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T23:55:39.791Z",
+ "fetched_at": "2026-11-27T08:30:27.643Z",
  "meta": {
   "name": "polar",
   "owner": "polarsource",
@@ -38,14 +38,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 10522,
+  "stars": 10521,
   "forks": 833,
   "watchers": 26,
-  "open_issues": 145,
+  "open_issues": 137,
   "open_prs": null,
   "created_at": "2023-01-26T10:04:27Z",
-  "pushed_at": "2026-11-26T20:46:21Z",
-  "updated_at": "2026-11-26T14:56:49Z",
+  "pushed_at": "2026-11-27T08:30:26Z",
+  "updated_at": "2026-11-27T00:41:44Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -54,7 +54,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 594433,
+  "size_kb": 594442,
   "og_image": "https://opengraph.githubassets.com/1/polarsource/polar",
   "custom_og_image": false
  },
@@ -72,7 +72,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-26T15:19:27.629Z",
-  "checked_at": "2026-11-26T23:57:29.827Z"
+  "checked_at": "2026-11-27T08:32:44.296Z"
  },
  "contributors": {
   "count": 136,
@@ -80,5 +80,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:16.584Z"
  },
- "details_checked_at": "2026-11-26T23:57:29.827Z"
+ "details_checked_at": "2026-11-27T08:32:44.296Z"
 }

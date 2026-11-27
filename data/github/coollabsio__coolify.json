@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T23:56:47.225Z",
+ "fetched_at": "2026-11-27T08:31:50.702Z",
  "meta": {
   "name": "coolify",
   "owner": "coollabsio",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 66591,
-  "forks": 6035,
+  "stars": 66634,
+  "forks": 6041,
   "watchers": 205,
-  "open_issues": 46,
+  "open_issues": 47,
   "open_prs": null,
   "created_at": "2021-01-25T20:54:01Z",
   "pushed_at": "2026-11-26T17:28:07Z",
-  "updated_at": "2026-11-26T23:56:39Z",
+  "updated_at": "2026-11-27T07:51:38Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -88,7 +88,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-19T20:41:50.564Z",
-  "checked_at": "2026-11-26T23:57:32.772Z"
+  "checked_at": "2026-11-27T08:32:48.037Z"
  },
  "contributors": {
   "count": 774,
@@ -96,5 +96,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:34.973Z"
  },
- "details_checked_at": "2026-11-26T23:57:32.772Z"
+ "details_checked_at": "2026-11-27T08:32:48.037Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T23:55:20.096Z",
+ "fetched_at": "2026-11-27T08:30:03.680Z",
  "meta": {
   "name": "notepad-plus-plus",
   "owner": "notepad-plus-plus",
@@ -28,14 +28,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 29988,
+  "stars": 29993,
   "forks": 5455,
   "watchers": 661,
-  "open_issues": 2915,
+  "open_issues": 2914,
   "open_prs": null,
   "created_at": "2015-03-28T00:05:08Z",
-  "pushed_at": "2026-11-26T08:07:35Z",
-  "updated_at": "2026-11-26T21:24:02Z",
+  "pushed_at": "2026-11-27T04:04:20Z",
+  "updated_at": "2026-11-27T07:58:47Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -44,7 +44,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 337876,
+  "size_kb": 337880,
   "og_image": "https://opengraph.githubassets.com/1/notepad-plus-plus/notepad-plus-plus",
   "custom_og_image": false
  },
@@ -62,7 +62,7 @@
   "headings": 5,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.885Z",
-  "checked_at": "2026-11-26T23:57:28.991Z"
+  "checked_at": "2026-11-27T08:32:43.072Z"
  },
  "contributors": {
   "count": 478,
@@ -70,5 +70,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:15.187Z"
  },
- "details_checked_at": "2026-11-26T23:57:28.991Z"
+ "details_checked_at": "2026-11-27T08:32:43.072Z"
 }

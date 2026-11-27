@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-26T23:56:47.972Z",
+ "fetched_at": "2026-11-27T08:31:51.545Z",
  "meta": {
   "name": "uptime-kuma",
   "owner": "louislam",
@@ -36,14 +36,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 94929,
-  "forks": 8895,
+  "stars": 94945,
+  "forks": 8898,
   "watchers": 323,
-  "open_issues": 873,
+  "open_issues": 870,
   "open_prs": null,
   "created_at": "2021-07-03T01:02:42Z",
-  "pushed_at": "2026-11-26T17:39:50Z",
-  "updated_at": "2026-11-26T21:06:24Z",
+  "pushed_at": "2026-11-27T06:17:22Z",
+  "updated_at": "2026-11-27T07:43:46Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -52,7 +52,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 40428,
+  "size_kb": 40436,
   "og_image": "https://opengraph.githubassets.com/1/louislam/uptime-kuma",
   "custom_og_image": false
  },
@@ -80,7 +80,7 @@
   "headings": 23,
   "processor": 4,
   "fetched_at": "2026-11-24T17:50:07.723Z",
-  "checked_at": "2026-11-26T23:57:32.722Z"
+  "checked_at": "2026-11-27T08:32:48.066Z"
  },
  "contributors": {
   "count": 1166,
@@ -88,5 +88,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:34.911Z"
  },
- "details_checked_at": "2026-11-26T23:57:32.722Z"
+ "details_checked_at": "2026-11-27T08:32:48.066Z"
 }
