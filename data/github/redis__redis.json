@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:01:56.512Z",
+ "fetched_at": "2026-11-28T02:02:50.684Z",
  "meta": {
   "name": "redis",
   "owner": "redis",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 77760,
-  "forks": 24982,
-  "watchers": 2509,
+  "stars": 77676,
+  "forks": 24976,
+  "watchers": 2510,
   "open_issues": 3157,
   "open_prs": null,
   "created_at": "2009-03-21T22:32:25Z",
   "pushed_at": "2026-11-27T10:14:16Z",
-  "updated_at": "2026-11-27T18:17:07Z",
+  "updated_at": "2026-11-28T01:05:03Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -93,7 +93,7 @@
   "headings": 29,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.101Z",
-  "checked_at": "2026-11-27T19:04:35.352Z"
+  "checked_at": "2026-11-28T02:05:35.675Z"
  },
  "contributors": {
   "count": 975,
@@ -101,5 +101,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:13.436Z"
  },
- "details_checked_at": "2026-11-27T19:04:35.352Z"
+ "details_checked_at": "2026-11-28T02:05:35.675Z"
 }

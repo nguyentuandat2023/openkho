@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:00:53.279Z",
+ "fetched_at": "2026-11-28T02:01:48.737Z",
  "meta": {
   "name": "gradio",
   "owner": "gradio-app",
@@ -38,14 +38,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 44169,
-  "forks": 3686,
-  "watchers": 211,
+  "stars": 44173,
+  "forks": 3687,
+  "watchers": 208,
   "open_issues": 121,
   "open_prs": null,
   "created_at": "2018-12-19T08:24:04Z",
   "pushed_at": "2026-11-27T17:45:57Z",
-  "updated_at": "2026-11-27T18:06:14Z",
+  "updated_at": "2026-11-28T01:47:24Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -77,7 +77,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.324Z",
-  "checked_at": "2026-11-27T19:04:32.869Z"
+  "checked_at": "2026-11-28T02:05:33.241Z"
  },
  "contributors": {
   "count": 505,
@@ -85,5 +85,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:34.737Z"
  },
- "details_checked_at": "2026-11-27T19:04:32.869Z"
+ "details_checked_at": "2026-11-28T02:05:33.241Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:04:25.173Z",
+ "fetched_at": "2026-11-28T02:05:24.258Z",
  "meta": {
   "name": "hugo",
   "owner": "gohugoio",
@@ -31,14 +31,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 90579,
-  "forks": 8569,
-  "watchers": 1081,
-  "open_issues": 220,
+  "stars": 90578,
+  "forks": 8576,
+  "watchers": 1080,
+  "open_issues": 218,
   "open_prs": null,
   "created_at": "2013-07-04T15:26:26Z",
-  "pushed_at": "2026-11-27T18:01:26Z",
-  "updated_at": "2026-11-27T17:58:42Z",
+  "pushed_at": "2026-11-27T19:21:36Z",
+  "updated_at": "2026-11-28T00:25:29Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -47,7 +47,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 153621,
+  "size_kb": 153656,
   "og_image": "https://opengraph.githubassets.com/1/gohugoio/hugo",
   "custom_og_image": false
  },
@@ -70,7 +70,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.554Z",
-  "checked_at": "2026-11-27T19:04:41.332Z"
+  "checked_at": "2026-11-28T02:05:41.610Z"
  },
  "contributors": {
   "count": 942,
@@ -78,5 +78,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:36.926Z"
  },
- "details_checked_at": "2026-11-27T19:04:41.332Z"
+ "details_checked_at": "2026-11-28T02:05:41.610Z"
 }

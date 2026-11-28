@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:03:01.530Z",
+ "fetched_at": "2026-11-28T02:04:00.486Z",
  "meta": {
   "name": "lighthouse",
   "owner": "GoogleChrome",
@@ -87,7 +87,7 @@
   "headings": 31,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.922Z",
-  "checked_at": "2026-11-27T19:04:38.121Z"
+  "checked_at": "2026-11-28T02:05:38.395Z"
  },
  "contributors": {
   "count": 400,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:18.354Z"
  },
- "details_checked_at": "2026-11-27T19:04:38.121Z"
+ "details_checked_at": "2026-11-28T02:05:38.395Z"
 }

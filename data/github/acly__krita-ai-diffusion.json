@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:01:07.941Z",
+ "fetched_at": "2026-11-28T02:02:02.710Z",
  "meta": {
   "name": "krita-ai-diffusion",
   "owner": "Acly",
@@ -27,14 +27,14 @@
    "spdx": "GPL-3.0",
    "name": "GNU General Public License v3.0"
   },
-  "stars": 10962,
+  "stars": 10963,
   "forks": 667,
   "watchers": 91,
   "open_issues": 140,
   "open_prs": null,
   "created_at": "2023-09-01T22:52:13Z",
   "pushed_at": "2026-11-26T14:13:22Z",
-  "updated_at": "2026-11-27T17:49:37Z",
+  "updated_at": "2026-11-27T19:41:54Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -87,7 +87,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.049Z",
-  "checked_at": "2026-11-27T19:04:33.456Z"
+  "checked_at": "2026-11-28T02:05:33.899Z"
  },
  "contributors": {
   "count": 51,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:10.117Z"
  },
- "details_checked_at": "2026-11-27T19:04:33.456Z"
+ "details_checked_at": "2026-11-28T02:05:33.899Z"
 }

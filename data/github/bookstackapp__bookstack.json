@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:04:04.714Z",
+ "fetched_at": "2026-11-28T02:05:00.884Z",
  "meta": {
   "name": "BookStack",
   "owner": "BookStackApp",
@@ -31,12 +31,12 @@
    "name": "MIT License"
   },
   "stars": 19157,
-  "forks": 2436,
+  "forks": 2434,
   "watchers": 195,
   "open_issues": 3,
   "open_prs": null,
   "created_at": "2015-08-29T10:26:44Z",
-  "pushed_at": "2026-11-27T04:31:38Z",
+  "pushed_at": "2026-11-27T20:32:33Z",
   "updated_at": "2026-11-27T13:34:03Z",
   "archived": false,
   "disabled": false,
@@ -46,7 +46,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 53513,
+  "size_kb": 53603,
   "og_image": "https://opengraph.githubassets.com/1/BookStackApp/BookStack",
   "custom_og_image": false
  },
@@ -64,7 +64,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:29.674Z",
-  "checked_at": "2026-11-27T19:04:40.513Z"
+  "checked_at": "2026-11-28T02:05:40.749Z"
  },
  "contributors": {
   "count": 242,
@@ -72,5 +72,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:35.786Z"
  },
- "details_checked_at": "2026-11-27T19:04:40.513Z"
+ "details_checked_at": "2026-11-28T02:05:40.749Z"
 }

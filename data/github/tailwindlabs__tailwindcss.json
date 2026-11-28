@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:04:23.122Z",
+ "fetched_at": "2026-11-28T02:05:21.976Z",
  "meta": {
   "name": "tailwindcss",
   "owner": "tailwindlabs",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 98865,
-  "forks": 6378,
-  "watchers": 729,
+  "stars": 98855,
+  "forks": 6352,
+  "watchers": 724,
   "open_issues": 116,
   "open_prs": null,
   "created_at": "2017-10-06T14:59:14Z",
   "pushed_at": "2026-11-27T11:22:26Z",
-  "updated_at": "2026-11-27T19:02:46Z",
+  "updated_at": "2026-11-28T01:37:45Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -65,7 +65,7 @@
   "headings": 3,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.545Z",
-  "checked_at": "2026-11-27T19:04:41.268Z"
+  "checked_at": "2026-11-28T02:05:41.483Z"
  },
  "contributors": {
   "count": 404,
@@ -73,5 +73,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:36.970Z"
  },
- "details_checked_at": "2026-11-27T19:04:41.268Z"
+ "details_checked_at": "2026-11-28T02:05:41.483Z"
 }

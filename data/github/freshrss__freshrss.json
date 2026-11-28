@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:04:07.045Z",
+ "fetched_at": "2026-11-28T02:05:03.241Z",
  "meta": {
   "name": "FreshRSS",
   "owner": "FreshRSS",
@@ -33,14 +33,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 16687,
-  "forks": 1359,
+  "stars": 16690,
+  "forks": 1360,
   "watchers": 114,
   "open_issues": 690,
   "open_prs": null,
   "created_at": "2012-10-21T16:48:50Z",
-  "pushed_at": "2026-11-26T16:25:41Z",
-  "updated_at": "2026-11-27T17:46:31Z",
+  "pushed_at": "2026-11-28T00:45:16Z",
+  "updated_at": "2026-11-28T00:47:39Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,13 +49,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 37761,
+  "size_kb": 37490,
   "og_image": "https://opengraph.githubassets.com/1/FreshRSS/FreshRSS",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 25109,
+  "length": 25110,
   "cjk_ratio": 0,
   "docker_mentioned": true,
   "videos": [],
@@ -71,8 +71,8 @@
   },
   "headings": 17,
   "processor": 4,
-  "fetched_at": "2026-11-26T23:57:33.158Z",
-  "checked_at": "2026-11-27T19:04:40.607Z"
+  "fetched_at": "2026-11-28T02:05:40.815Z",
+  "checked_at": "2026-11-28T02:05:40.815Z"
  },
  "contributors": {
   "count": 477,
@@ -80,5 +80,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:35.835Z"
  },
- "details_checked_at": "2026-11-27T19:04:40.607Z"
+ "details_checked_at": "2026-11-28T02:05:40.815Z"
 }

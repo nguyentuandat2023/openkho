@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:01:14.874Z",
+ "fetched_at": "2026-11-28T02:02:09.776Z",
  "meta": {
   "name": "langchain",
   "owner": "langchain-ai",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 150077,
+  "stars": 150088,
   "forks": 25185,
-  "watchers": 930,
-  "open_issues": 786,
+  "watchers": 932,
+  "open_issues": 787,
   "open_prs": null,
   "created_at": "2022-10-17T02:58:36Z",
   "pushed_at": "2026-11-27T08:21:12Z",
-  "updated_at": "2026-11-27T18:21:16Z",
+  "updated_at": "2026-11-28T01:17:06Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -83,7 +83,7 @@
   "headings": 4,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.267Z",
-  "checked_at": "2026-11-27T19:04:33.731Z"
+  "checked_at": "2026-11-28T02:05:34.105Z"
  },
  "contributors": {
   "count": 3754,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:10.558Z"
  },
- "details_checked_at": "2026-11-27T19:04:33.731Z"
+ "details_checked_at": "2026-11-28T02:05:34.105Z"
 }

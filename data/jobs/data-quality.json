@@ -1,5 +1,5 @@
 {
- "computed_at": "2026-11-27T19:07:11.518Z",
+ "computed_at": "2026-11-28T02:07:13.209Z",
  "curated_missing_github_id": [],
  "missing_contributors": 2372,
  "stale_over_48h": [
@@ -46,6 +46,7 @@
   "ava25-thompson/fishstrap-roblox-fps-booster-desktop",
   "azuresail195/wondershare-recoverit-desktop",
   "brave-shell-07/izotope-rx-11-desktop",
+  "zgraham1981/Stablecoin-Payment-Gateway",
   "krisgfx9/Wireless-Device-Battery-Monitor",
   "gylive/google-ultra",
   "hasan6969macho-bit/vectorbt-avoria-analysis",
@@ -54,6 +55,7 @@
   "0marContreras/gta6recomp",
   "Bodila51/gtavi-claudecode",
   "aurahamzzz-cyber/microsoft-excel-alvaora",
+  "nataphong-lab/Open-Source-Face-Recognition-Ultimate",
   "bookwjitchieni1986/blender-ai-mcp-addon",
   "dickoyudha-netizen/adobe-firefly-image-creator",
   "realdody/americas-recomp",
@@ -109,6 +111,7 @@
   "cliblacktech/unreal-5-6-win",
   "samir-cai/nitro-pro-win",
   "Wojcik1999/rob-run-menu-win",
+  "eastspaper6-cmyk/ninjatrader-bot",
   "CliBranchLong/microsoft-excel-win",
   "Mnowak64/iobit-uninstaller-pro-win",
   "freerealstudio/figma-desktop-win",
@@ -199,12 +202,9 @@
   "benhhq1993s5/dune-awakening-external-player-ornithopter-radar-portable",
   "kyle-moore-code2001v1/marvel-rivals-hitscan-projectile-smoothing-assistant-porta",
   "tomivanovops00n9/civilization-vii-ui-quick-deal-detailed-portable-x64",
-  "artem-petrovlab04i2/counter-strike-2-inventory-skin-knife-glove-portable-x64",
-  "anton-g-dev2099m4/escape-from-tarkov-spt-aki-10-profile-portable-x64",
-  "anton-ivanov-97x5/call-of-duty-black-ops-6-warzone-camo-blueprint-operator-l",
-  "danx1905k8/war-thunder-realistic-tank-outline-thermal-portable-x64"
+  "artem-petrovlab04i2/counter-strike-2-inventory-skin-knife-glove-portable-x64"
  ],
- "low_quality_coverage": 47,
+ "low_quality_coverage": 2,
  "insufficient_trending": 0,
  "not_found": [
   {
@@ -484,6 +484,16 @@
   },
   {
    "id": "zgraham1981/Stablecoin-Payment-Gateway",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Chairul30/binance-trading-bot",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
+   "id": "Wilfriedbkt/interview-copilot-edtech-app",
    "origin": "radar",
    "status": "not_found"
   },
@@ -1373,6 +1383,11 @@
    "status": "not_found"
   },
   {
+   "id": "Locorreia1992/native-instruments-reaktor-6",
+   "origin": "radar",
+   "status": "not_found"
+  },
+  {
    "id": "Zettrox/ztrx",
    "origin": "radar",
    "status": "not_found"
@@ -1472,6 +1487,10 @@
   {
    "from": "ivall/xcl",
    "to": "xcl-dev/xcl"
+  },
+  {
+   "from": "ubiquitarianism/leonida",
+   "to": "ProjectLeonida/mandy"
   }
  ],
  "anomalies": [
@@ -1484,55 +1503,49 @@
   {
    "id": "EbookFoundation/free-programming-books",
    "reasons": [
-    "+421 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+410 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "nilbuild/developer-roadmap",
    "reasons": [
-    "+452 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+444 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "upstash/context7",
    "reasons": [
-    "+371 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+363 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "ChromeDevTools/chrome-devtools-mcp",
+   "reasons": [
+    "+1.094 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Stirling-Tools/Stirling-PDF",
    "reasons": [
-    "+503 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+490 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "torvalds/linux",
    "reasons": [
-    "+715 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "freeCodeCamp/freeCodeCamp",
-   "reasons": [
-    "+308 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "BurntSushi/ripgrep",
-   "reasons": [
-    "+315 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+622 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "jwasham/coding-interview-university",
    "reasons": [
-    "+476 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+454 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "ruanyf/weekly",
    "reasons": [
-    "+420 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+408 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1610,7 +1623,7 @@
   {
    "id": "helloHub1212/dsh-windows-mcp",
    "reasons": [
-    "repo mới với 2.740 sao nhưng gần như không có fork (12) và chưa có issue nào"
+    "repo mới với 2.753 sao nhưng gần như không có fork (12) và chưa có issue nào"
    ]
   },
   {
@@ -1676,7 +1689,7 @@
   {
    "id": "AhmadHassan-BTed/RainGen-RainGenerator",
    "reasons": [
-    "repo mới với 1.626 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.627 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -1760,8 +1773,7 @@
   {
    "id": "XinaTian/MROffice",
    "reasons": [
-    "rất ít người đóng góp (2) so với tốc độ tăng sao",
-    "+426 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "rất ít người đóng góp (2) so với tốc độ tăng sao"
    ]
   },
   {
@@ -1773,7 +1785,7 @@
   {
    "id": "Gosu-x/multimodal-threat-dataset",
    "reasons": [
-    "+494 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+495 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1797,7 +1809,7 @@
   {
    "id": "lizhenjie137/intelligent-organization",
    "reasons": [
-    "+551 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+567 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1929,7 +1941,7 @@
   {
    "id": "scottsturrock/mate-wayland-desktop",
    "reasons": [
-    "repo mới với 893 sao nhưng gần như không có fork (4) và chưa có issue nào"
+    "repo mới với 892 sao nhưng gần như không có fork (4) và chưa có issue nào"
    ]
   },
   {
@@ -2325,61 +2337,145 @@
   {
    "id": "olive527/steam-library-manager-windows",
    "reasons": [
-    "repo mới với 802 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.023 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Basil0879/steam-game-idler",
    "reasons": [
-    "repo mới với 773 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+353 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "peak85-sketch/stardew-valley-mod-manager",
    "reasons": [
-    "repo mới với 596 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+369 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Indigo-0167/universal-game-mod-manager",
    "reasons": [
-    "+1.340 sao nhưng chỉ +1 fork trong cùng kỳ"
+    "+1.371 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
    "id": "solv4626/steam-achievement-manager-windows",
    "reasons": [
-    "repo mới với 1.109 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "repo mới với 1.236 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
    "id": "kai415-debug/ffmpeg-video-audio-converter",
    "reasons": [
-    "repo mới với 1.078 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.136 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
    "id": "Nebula4207/av1-video-encoder-gui",
    "reasons": [
-    "repo mới với 749 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "+344 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
    "id": "umbradev315/ffmpeg-video-audio-converter",
    "reasons": [
-    "repo mới với 652 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+374 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Umbra9179/clipboard-history-manager-windows",
    "reasons": [
-    "repo mới với 1.270 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "repo mới với 1.271 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
    "id": "Pixel679-cmyk/windows-titlebar-blur-customizer",
    "reasons": [
-    "+1.354 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.505 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "quartzdev666/windows-pdf-editor",
+   "reasons": [
+    "+568 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Ash793318/windows-hardware-monitor",
+   "reasons": [
+    "+569 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Loris-593/notebook-fan-control-windows",
+   "reasons": [
+    "+563 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "flint63-code/gitdesk-windows",
+   "reasons": [
+    "+584 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "hollow-445/windows-keyboard-manager",
+   "reasons": [
+    "+582 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Red2076-arch/waifu2x-image-upscaler-windows",
+   "reasons": [
+    "+582 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Riven-639/windows-dwm-blur-glass-customizer",
+   "reasons": [
+    "+572 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "riveran0226/windows-explorer-blur-mica",
+   "reasons": [
+    "+598 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Leaf82770/windows-mica-backdrop-customizer",
+   "reasons": [
+    "+569 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "mist-8659/windows-mouse-keyboard-sharing-kvm",
+   "reasons": [
+    "+589 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Codelab781/windows-clipboard-sync-manager",
+   "reasons": [
+    "+563 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "leaf7684/windows-modern-media-player",
+   "reasons": [
+    "+583 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "Quill400/windows-image-viewer",
+   "reasons": [
+    "+564 sao nhưng chỉ +0 fork trong cùng kỳ"
+   ]
+  },
+  {
+   "id": "nocta1554/windows-video-downloader-gui",
+   "reasons": [
+    "+579 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   }
  ],
@@ -2671,6 +2767,26 @@
     "rockford007/xyplorer-file-manager",
     "praseesh369/youtube-ai-video-editing-system",
     "aathreynair22-bit/wifi-password-tester"
+   ]
+  },
+  {
+   "cluster": "campaign-2026-11-27-563",
+   "reason": "Một trong 14 repo khác tên do 14 tài khoản tạo gần như cùng lúc, cùng khoảng 563–598 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "repos": [
+    "quartzdev666/windows-pdf-editor",
+    "Ash793318/windows-hardware-monitor",
+    "Loris-593/notebook-fan-control-windows",
+    "flint63-code/gitdesk-windows",
+    "hollow-445/windows-keyboard-manager",
+    "Red2076-arch/waifu2x-image-upscaler-windows",
+    "Riven-639/windows-dwm-blur-glass-customizer",
+    "riveran0226/windows-explorer-blur-mica",
+    "Leaf82770/windows-mica-backdrop-customizer",
+    "mist-8659/windows-mouse-keyboard-sharing-kvm",
+    "Codelab781/windows-clipboard-sync-manager",
+    "leaf7684/windows-modern-media-player",
+    "Quill400/windows-image-viewer",
+    "nocta1554/windows-video-downloader-gui"
    ]
   }
  ]

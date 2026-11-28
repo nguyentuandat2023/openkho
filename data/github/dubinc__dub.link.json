@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:03:00.887Z",
+ "fetched_at": "2026-11-28T02:03:59.766Z",
  "meta": {
   "name": "dub.link",
   "owner": "dubinc",
@@ -74,7 +74,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:26.915Z",
-  "checked_at": "2026-11-27T19:04:38.038Z"
+  "checked_at": "2026-11-28T02:05:38.283Z"
  },
  "contributors": {
   "count": 94,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:18.004Z"
  },
- "details_checked_at": "2026-11-27T19:04:38.038Z"
+ "details_checked_at": "2026-11-28T02:05:38.283Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:00:31.032Z",
+ "fetched_at": "2026-11-28T02:01:24.076Z",
  "meta": {
   "name": "huginn",
   "owner": "huginn",
@@ -78,7 +78,7 @@
   "headings": 18,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:29.690Z",
-  "checked_at": "2026-11-27T19:04:31.971Z"
+  "checked_at": "2026-11-28T02:05:32.234Z"
  },
  "contributors": {
   "count": 272,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:33.224Z"
  },
- "details_checked_at": "2026-11-27T19:04:31.971Z"
+ "details_checked_at": "2026-11-28T02:05:32.234Z"
 }

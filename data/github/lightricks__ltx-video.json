@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:01:06.729Z",
+ "fetched_at": "2026-11-28T02:02:01.353Z",
  "meta": {
   "name": "LTX-Video",
   "owner": "Lightricks",
@@ -74,7 +74,7 @@
   "headings": 46,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.893Z",
-  "checked_at": "2026-11-27T19:04:33.437Z"
+  "checked_at": "2026-11-28T02:05:33.767Z"
  },
  "contributors": {
   "count": 11,
@@ -82,5 +82,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:09.999Z"
  },
- "details_checked_at": "2026-11-27T19:04:33.437Z"
+ "details_checked_at": "2026-11-28T02:05:33.767Z"
 }

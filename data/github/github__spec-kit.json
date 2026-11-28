@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:02:27.506Z",
+ "fetched_at": "2026-11-28T02:03:26.015Z",
  "meta": {
   "name": "spec-kit",
   "owner": "github",
@@ -31,14 +31,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 152175,
-  "forks": 13676,
+  "stars": 152334,
+  "forks": 13683,
   "watchers": 747,
-  "open_issues": 255,
+  "open_issues": 256,
   "open_prs": null,
   "created_at": "2025-08-21T22:54:31Z",
   "pushed_at": "2026-11-26T21:54:22Z",
-  "updated_at": "2026-11-27T18:59:23Z",
+  "updated_at": "2026-11-28T02:02:42Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -86,7 +86,7 @@
   "headings": 11,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.438Z",
-  "checked_at": "2026-11-27T19:04:36.721Z"
+  "checked_at": "2026-11-28T02:05:36.935Z"
  },
  "contributors": {
   "count": 354,
@@ -94,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:15.864Z"
  },
- "details_checked_at": "2026-11-27T19:04:36.721Z"
+ "details_checked_at": "2026-11-28T02:05:36.935Z"
 }

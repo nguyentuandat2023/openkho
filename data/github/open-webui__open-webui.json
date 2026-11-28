@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:01:11.629Z",
+ "fetched_at": "2026-11-28T02:02:07.139Z",
  "meta": {
   "name": "open-webui",
   "owner": "open-webui",
@@ -39,14 +39,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 159688,
-  "forks": 23168,
+  "stars": 159699,
+  "forks": 23171,
   "watchers": 684,
-  "open_issues": 235,
+  "open_issues": 234,
   "open_prs": null,
   "created_at": "2023-10-06T22:08:27Z",
   "pushed_at": "2026-11-27T16:00:01Z",
-  "updated_at": "2026-11-27T17:50:05Z",
+  "updated_at": "2026-11-28T01:35:15Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -78,7 +78,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-25T12:58:02.613Z",
-  "checked_at": "2026-11-27T19:04:33.682Z"
+  "checked_at": "2026-11-28T02:05:33.969Z"
  },
  "contributors": {
   "count": 893,
@@ -86,5 +86,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:10.434Z"
  },
- "details_checked_at": "2026-11-27T19:04:33.682Z"
+ "details_checked_at": "2026-11-28T02:05:33.969Z"
 }

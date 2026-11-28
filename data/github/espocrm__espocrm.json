@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:01:34.134Z",
+ "fetched_at": "2026-11-28T02:02:29.121Z",
  "meta": {
   "name": "espocrm",
   "owner": "espocrm",
@@ -81,7 +81,7 @@
   "headings": 16,
   "processor": 4,
   "fetched_at": "2026-11-24T17:49:59.552Z",
-  "checked_at": "2026-11-27T19:04:34.510Z"
+  "checked_at": "2026-11-28T02:05:34.840Z"
  },
  "contributors": {
   "count": 71,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:12.045Z"
  },
- "details_checked_at": "2026-11-27T19:04:34.510Z"
+ "details_checked_at": "2026-11-28T02:05:34.840Z"
 }

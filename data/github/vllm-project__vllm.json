@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:01:19.863Z",
+ "fetched_at": "2026-11-28T02:02:15.278Z",
  "meta": {
   "name": "vllm",
   "owner": "vllm-project",
@@ -44,14 +44,14 @@
    "spdx": "Apache-2.0",
    "name": "Apache License 2.0"
   },
-  "stars": 97709,
-  "forks": 25375,
-  "watchers": 610,
-  "open_issues": 11267,
+  "stars": 97716,
+  "forks": 25389,
+  "watchers": 607,
+  "open_issues": 11234,
   "open_prs": null,
   "created_at": "2023-02-09T11:23:20Z",
-  "pushed_at": "2026-11-27T18:02:28Z",
-  "updated_at": "2026-11-27T18:46:27Z",
+  "pushed_at": "2026-11-28T00:56:47Z",
+  "updated_at": "2026-11-28T01:32:48Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 395848,
+  "size_kb": 395540,
   "og_image": "https://opengraph.githubassets.com/1/vllm-project/vllm",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.507Z",
-  "checked_at": "2026-11-27T19:04:33.925Z"
+  "checked_at": "2026-11-28T02:05:34.265Z"
  },
  "contributors": {
   "count": 4202,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:10.945Z"
  },
- "details_checked_at": "2026-11-27T19:04:33.925Z"
+ "details_checked_at": "2026-11-28T02:05:34.265Z"
 }

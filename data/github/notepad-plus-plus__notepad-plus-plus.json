@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-27T19:02:16.831Z",
+ "fetched_at": "2026-11-28T02:03:14.629Z",
  "meta": {
   "name": "notepad-plus-plus",
   "owner": "notepad-plus-plus",
@@ -28,14 +28,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 29998,
-  "forks": 5456,
+  "stars": 30000,
+  "forks": 5457,
   "watchers": 661,
-  "open_issues": 2908,
+  "open_issues": 2909,
   "open_prs": null,
   "created_at": "2015-03-28T00:05:08Z",
   "pushed_at": "2026-11-27T12:05:24Z",
-  "updated_at": "2026-11-27T15:30:18Z",
+  "updated_at": "2026-11-28T01:44:27Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -62,7 +62,7 @@
   "headings": 5,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.885Z",
-  "checked_at": "2026-11-27T19:04:36.274Z"
+  "checked_at": "2026-11-28T02:05:36.462Z"
  },
  "contributors": {
   "count": 478,
@@ -70,5 +70,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:15.187Z"
  },
- "details_checked_at": "2026-11-27T19:04:36.274Z"
+ "details_checked_at": "2026-11-28T02:05:36.462Z"
 }
