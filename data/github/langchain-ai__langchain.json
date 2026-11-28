@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:02:09.776Z",
+ "fetched_at": "2026-11-28T10:26:36.536Z",
  "meta": {
   "name": "langchain",
   "owner": "langchain-ai",
@@ -44,14 +44,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 150088,
-  "forks": 25185,
-  "watchers": 932,
-  "open_issues": 787,
+  "stars": 150101,
+  "forks": 25188,
+  "watchers": 933,
+  "open_issues": 788,
   "open_prs": null,
   "created_at": "2022-10-17T02:58:36Z",
-  "pushed_at": "2026-11-27T08:21:12Z",
-  "updated_at": "2026-11-28T01:17:06Z",
+  "pushed_at": "2026-11-28T08:17:36Z",
+  "updated_at": "2026-11-28T10:10:02Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -60,7 +60,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 642237,
+  "size_kb": 642242,
   "og_image": "https://opengraph.githubassets.com/1/langchain-ai/langchain",
   "custom_og_image": false
  },
@@ -83,7 +83,7 @@
   "headings": 4,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.267Z",
-  "checked_at": "2026-11-28T02:05:34.105Z"
+  "checked_at": "2026-11-28T10:29:51.280Z"
  },
  "contributors": {
   "count": 3754,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:10.558Z"
  },
- "details_checked_at": "2026-11-28T02:05:34.105Z"
+ "details_checked_at": "2026-11-28T10:29:51.280Z"
 }

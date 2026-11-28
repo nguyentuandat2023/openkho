@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:02:46.907Z",
+ "fetched_at": "2026-11-28T10:27:11.848Z",
  "meta": {
   "name": "postgres",
   "owner": "postgres",
@@ -23,14 +23,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 22971,
-  "forks": 6085,
-  "watchers": 580,
+  "stars": 22973,
+  "forks": 6086,
+  "watchers": 581,
   "open_issues": 0,
   "open_prs": null,
   "created_at": "2010-09-21T11:35:45Z",
-  "pushed_at": "2026-11-28T01:14:42Z",
-  "updated_at": "2026-11-28T00:25:42Z",
+  "pushed_at": "2026-11-28T07:50:28Z",
+  "updated_at": "2026-11-28T10:18:52Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -39,7 +39,7 @@
   "has_issues": false,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 830641,
+  "size_kb": 830725,
   "og_image": "https://opengraph.githubassets.com/1/postgres/postgres",
   "custom_og_image": false
  },
@@ -57,7 +57,7 @@
   "headings": 1,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.866Z",
-  "checked_at": "2026-11-28T02:05:35.515Z"
+  "checked_at": "2026-11-28T10:29:52.917Z"
  },
  "contributors": {
   "count": 58,
@@ -65,5 +65,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:13.029Z"
  },
- "details_checked_at": "2026-11-28T02:05:35.515Z"
+ "details_checked_at": "2026-11-28T10:29:52.917Z"
 }

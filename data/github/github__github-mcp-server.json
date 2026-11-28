@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:04:11.488Z",
+ "fetched_at": "2026-11-28T10:28:31.032Z",
  "meta": {
   "name": "github-mcp-server",
   "owner": "github",
@@ -27,14 +27,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 34809,
-  "forks": 5434,
+  "stars": 34812,
+  "forks": 5437,
   "watchers": 416,
-  "open_issues": 488,
+  "open_issues": 489,
   "open_prs": null,
   "created_at": "2025-03-04T16:42:04Z",
   "pushed_at": "2026-11-27T13:10:50Z",
-  "updated_at": "2026-11-28T01:56:16Z",
+  "updated_at": "2026-11-28T10:15:44Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -71,7 +71,7 @@
   "headings": 45,
   "processor": 4,
   "fetched_at": "2026-11-25T22:37:14.914Z",
-  "checked_at": "2026-11-28T02:05:38.835Z"
+  "checked_at": "2026-11-28T10:29:56.205Z"
  },
  "contributors": {
   "count": 184,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:19.023Z"
  },
- "details_checked_at": "2026-11-28T02:05:38.835Z"
+ "details_checked_at": "2026-11-28T10:29:56.205Z"
 }

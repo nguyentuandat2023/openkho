@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:05:10.123Z",
+ "fetched_at": "2026-11-28T10:29:28.590Z",
  "meta": {
   "name": "Concat",
   "owner": "jub0t",
@@ -39,14 +39,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 22453,
-  "forks": 2763,
-  "watchers": 107,
-  "open_issues": 335,
+  "stars": 22600,
+  "forks": 2786,
+  "watchers": 108,
+  "open_issues": 337,
   "open_prs": null,
   "created_at": "2026-08-25T18:34:47Z",
   "pushed_at": "2026-11-27T19:52:13Z",
-  "updated_at": "2026-11-28T02:02:14Z",
+  "updated_at": "2026-11-28T10:25:03Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -83,7 +83,7 @@
   "headings": 10,
   "processor": 4,
   "fetched_at": "2026-11-27T08:32:48.903Z",
-  "checked_at": "2026-11-28T02:05:41.008Z"
+  "checked_at": "2026-11-28T10:29:58.501Z"
  },
  "contributors": {
   "count": 58,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:35.886Z"
  },
- "details_checked_at": "2026-11-28T02:05:41.008Z"
+ "details_checked_at": "2026-11-28T10:29:58.501Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:05:18.676Z",
+ "fetched_at": "2026-11-28T10:29:37.184Z",
  "meta": {
   "name": "WordPress",
   "owner": "WordPress",
@@ -23,14 +23,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 21568,
-  "forks": 12978,
+  "stars": 21569,
+  "forks": 12977,
   "watchers": 1432,
   "open_issues": 3,
   "open_prs": null,
   "created_at": "2011-12-01T07:05:17Z",
   "pushed_at": "2026-11-27T23:25:08Z",
-  "updated_at": "2026-11-27T19:12:53Z",
+  "updated_at": "2026-11-28T08:27:46Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -57,7 +57,7 @@
   "headings": 0,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:41.367Z",
-  "checked_at": "2026-11-28T02:05:41.332Z"
+  "checked_at": "2026-11-28T10:29:58.825Z"
  },
  "contributors": {
   "count": 139,
@@ -65,5 +65,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:37.641Z"
  },
- "details_checked_at": "2026-11-28T02:05:41.332Z"
+ "details_checked_at": "2026-11-28T10:29:58.825Z"
 }

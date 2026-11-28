@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:02:59.256Z",
+ "fetched_at": "2026-11-28T10:27:21.237Z",
  "meta": {
   "name": "framework",
   "owner": "laravel",
@@ -27,14 +27,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 35203,
-  "forks": 12139,
+  "stars": 35219,
+  "forks": 12149,
   "watchers": 938,
-  "open_issues": 104,
+  "open_issues": 106,
   "open_prs": null,
   "created_at": "2013-01-10T21:27:28Z",
   "pushed_at": "2026-11-27T13:55:38Z",
-  "updated_at": "2026-11-28T01:45:41Z",
+  "updated_at": "2026-11-28T10:07:46Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -61,7 +61,7 @@
   "headings": 6,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.214Z",
-  "checked_at": "2026-11-28T02:05:35.952Z"
+  "checked_at": "2026-11-28T10:29:53.148Z"
  },
  "contributors": {
   "count": 5038,
@@ -69,5 +69,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:13.903Z"
  },
- "details_checked_at": "2026-11-28T02:05:35.952Z"
+ "details_checked_at": "2026-11-28T10:29:53.148Z"
 }

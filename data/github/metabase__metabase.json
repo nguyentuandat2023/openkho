@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:02:32.940Z",
+ "fetched_at": "2026-11-28T10:26:58.480Z",
  "meta": {
   "name": "metabase",
   "owner": "metabase",
@@ -42,14 +42,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 50631,
-  "forks": 7061,
-  "watchers": 659,
-  "open_issues": 4975,
+  "stars": 50639,
+  "forks": 7063,
+  "watchers": 660,
+  "open_issues": 4966,
   "open_prs": null,
   "created_at": "2015-02-02T19:25:47Z",
-  "pushed_at": "2026-11-28T01:38:31Z",
-  "updated_at": "2026-11-28T00:51:15Z",
+  "pushed_at": "2026-11-28T06:46:48Z",
+  "updated_at": "2026-11-28T08:55:25Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -58,7 +58,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": false,
-  "size_kb": 2608983,
+  "size_kb": 2608896,
   "og_image": "https://opengraph.githubassets.com/1/metabase/metabase",
   "custom_og_image": false
  },
@@ -86,7 +86,7 @@
   "headings": 13,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.320Z",
-  "checked_at": "2026-11-28T02:05:34.968Z"
+  "checked_at": "2026-11-28T10:29:52.274Z"
  },
  "contributors": {
   "count": 532,
@@ -94,5 +94,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:12.064Z"
  },
- "details_checked_at": "2026-11-28T02:05:34.968Z"
+ "details_checked_at": "2026-11-28T10:29:52.274Z"
 }

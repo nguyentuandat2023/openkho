@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:05:20.213Z",
+ "fetched_at": "2026-11-28T10:29:38.858Z",
  "meta": {
   "name": "Ghost",
   "owner": "TryGhost",
@@ -32,14 +32,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 55947,
+  "stars": 55951,
   "forks": 12091,
   "watchers": 1005,
   "open_issues": 279,
   "open_prs": null,
   "created_at": "2013-05-04T11:09:13Z",
-  "pushed_at": "2026-11-28T00:57:31Z",
-  "updated_at": "2026-11-27T22:58:27Z",
+  "pushed_at": "2026-11-28T02:25:07Z",
+  "updated_at": "2026-11-28T08:39:10Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -71,7 +71,7 @@
   "headings": 5,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:30.399Z",
-  "checked_at": "2026-11-28T02:05:41.391Z"
+  "checked_at": "2026-11-28T10:29:58.866Z"
  },
  "contributors": {
   "count": 949,
@@ -79,5 +79,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:36.713Z"
  },
- "details_checked_at": "2026-11-28T02:05:41.391Z"
+ "details_checked_at": "2026-11-28T10:29:58.866Z"
 }

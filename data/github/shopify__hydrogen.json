@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:03:37.264Z",
+ "fetched_at": "2026-11-28T10:27:58.560Z",
  "meta": {
   "name": "hydrogen",
   "owner": "Shopify",
@@ -32,10 +32,10 @@
   "stars": 2186,
   "forks": 469,
   "watchers": 162,
-  "open_issues": 86,
+  "open_issues": 85,
   "open_prs": null,
   "created_at": "2022-09-19T19:28:49Z",
-  "pushed_at": "2026-11-27T23:00:59Z",
+  "pushed_at": "2026-11-28T04:01:17Z",
   "updated_at": "2026-11-27T15:54:40Z",
   "archived": false,
   "disabled": false,
@@ -45,7 +45,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 102179,
+  "size_kb": 102162,
   "og_image": "https://opengraph.githubassets.com/1/Shopify/hydrogen",
   "custom_og_image": false
  },
@@ -68,7 +68,7 @@
   "headings": 14,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:25.897Z",
-  "checked_at": "2026-11-28T02:05:37.437Z"
+  "checked_at": "2026-11-28T10:29:54.665Z"
  },
  "contributors": {
   "count": 148,
@@ -76,5 +76,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:16.679Z"
  },
- "details_checked_at": "2026-11-28T02:05:37.437Z"
+ "details_checked_at": "2026-11-28T10:29:54.665Z"
 }

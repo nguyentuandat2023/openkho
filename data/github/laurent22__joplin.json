@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:04:42.283Z",
+ "fetched_at": "2026-11-28T10:29:02.316Z",
  "meta": {
   "name": "joplin",
   "owner": "laurent22",
@@ -42,14 +42,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 57380,
-  "forks": 6475,
-  "watchers": 488,
-  "open_issues": 667,
+  "stars": 57384,
+  "forks": 6474,
+  "watchers": 489,
+  "open_issues": 668,
   "open_prs": null,
   "created_at": "2017-01-16T21:49:41Z",
   "pushed_at": "2026-11-27T22:15:37Z",
-  "updated_at": "2026-11-28T00:30:51Z",
+  "updated_at": "2026-11-28T09:04:06Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -76,7 +76,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:28.824Z",
-  "checked_at": "2026-11-28T02:05:40.017Z"
+  "checked_at": "2026-11-28T10:29:57.424Z"
  },
  "contributors": {
   "count": 835,
@@ -84,5 +84,5 @@
   "anon": true,
   "fetched_at": "2026-11-25T02:31:34.667Z"
  },
- "details_checked_at": "2026-11-28T02:05:40.017Z"
+ "details_checked_at": "2026-11-28T10:29:57.424Z"
 }

@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:02:13.715Z",
+ "fetched_at": "2026-11-28T10:26:39.565Z",
  "meta": {
   "name": "cherry-studio",
   "owner": "CherryHQ",
@@ -37,14 +37,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 53937,
+  "stars": 53939,
   "forks": 5277,
   "watchers": 201,
-  "open_issues": 3103,
+  "open_issues": 3113,
   "open_prs": null,
   "created_at": "2024-05-24T01:56:26Z",
-  "pushed_at": "2026-11-28T02:02:08Z",
-  "updated_at": "2026-11-28T01:19:24Z",
+  "pushed_at": "2026-11-28T10:23:47Z",
+  "updated_at": "2026-11-28T09:38:07Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -53,13 +53,13 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": false,
-  "size_kb": 943704,
+  "size_kb": 927206,
   "og_image": "https://opengraph.githubassets.com/1/CherryHQ/cherry-studio",
   "custom_og_image": false
  },
  "readme": {
   "path": "README.md",
-  "length": 15310,
+  "length": 15314,
   "cjk_ratio": 0,
   "docker_mentioned": false,
   "videos": [],
@@ -73,15 +73,15 @@
    "usage": null,
    "features": {
     "title": "Key Features",
-    "html": "<h4>Agents &amp; Automation</h4>\n<ul>\n<li>🤖 Create agents with their own instructions, workspaces, models, and tool permissions.</li>\n<li>🛠️ Work with files, run commands, and use browser and computer automation tools.</li>\n<li>🔌 Extend capabilities with Skills and MCP (Model Context Protocol) servers.</li>\n<li>⏰ Run scheduled tasks and connect agents to messaging platforms through Channels.</li>\n</ul>\n<h4>Models &amp; Conversations</h4>\n<ul>\n<li>☁️ Connect OpenAI, Anthropic, Gemini, and other cloud providers, or add custom compatible services.</li>\n<li>💻 Use local models through Ollama and LM Studio.</li>\n<li>💬 Customize assistants and compare responses from multiple models in one conversation.</li>\n<li>📝 Read and share rich responses with Markdown, code highlighting, formulas, Mermaid charts, and conversation exports.</li>\n</ul>\n<h4>Knowledge &amp; Documents</h4>\n<ul>\n<li>📚 Build local knowledge bases from files, folders, and web pages, then use them in conversations and agents.</li>\n<li>📄 Process PDF, Office documents, images, and text, with OCR and document processing options.</li>\n<li>✍️ Organize ideas in Markdown notes and manage attachments and generated files in the file library.</li>\n</ul>\n<h4>Creative &amp; Everyday Tools</h4>\n<ul>\n<li>🎨 Generate and edit images with supported image models.</li>\n<li>🔤 Translate text and documents, and use quick translation from other apps.</li>\n<li>🔍 Search the web, read pages, and find content across your conversations and knowledge bases.</li>\n<li>🧩 Open web-based tools through Mini Apps, or use the API Gateway to connect other applications to your configured models.</li>\n</ul>\n<h4>Voice &amp; Workspace</h4>\n<ul>\n<li>🎙️ Dictate messages and listen to responses with speech recognition and text-to-speech options, including local models.</li>\n<li>🪟 Work across tabs and detached windows, with window pinning, Quick Assistant, and text selection tools.</li>\n<li>🌈 Customize your workspace with light and dark themes, layouts, and custom CSS.</li>\n<li>💾 Keep conversation history and knowledge bases on your device, with local and WebDAV backup options.</li>\n</ul>\n<p>Model and tool availability depends on your provider, operating system, and configuration. Some features require API credentials, downloaded models, additional dependencies, or system permissions. See the <a href=\"https://cherryai.com/docs/en/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">user documentation</a> for setup.</p>",
+    "html": "<h4>Agents &amp; Automation</h4>\n<ul>\n<li>🤖 Create agents with their own instructions, workspaces, models, and tool permissions.</li>\n<li>🛠️ Work with files, run commands, and use browser and computer automation tools.</li>\n<li>🔌 Extend capabilities with Skills and MCP (Model Context Protocol) servers.</li>\n<li>⏰ Run scheduled tasks and connect agents to messaging platforms through Channels.</li>\n</ul>\n<h4>Models &amp; Conversations</h4>\n<ul>\n<li>☁️ Connect OpenAI, Anthropic, Gemini, and other cloud providers, or add custom compatible services.</li>\n<li>💻 Use local models through Ollama and LM Studio.</li>\n<li>💬 Customize assistants and compare responses from multiple models in one conversation.</li>\n<li>📝 Read and share rich responses with Markdown, code highlighting, formulas, Mermaid charts, and conversation exports.</li>\n</ul>\n<h4>Knowledge &amp; Documents</h4>\n<ul>\n<li>📚 Build local knowledge bases from files, folders, and web pages, then use them in conversations and agents.</li>\n<li>📄 Process PDF, Office documents, images, and text, with OCR and document processing options.</li>\n<li>✍️ Organize ideas in Markdown notes and manage attachments and generated files in the file library.</li>\n</ul>\n<h4>Creative &amp; Everyday Tools</h4>\n<ul>\n<li>🎨 Generate and edit images with supported image models.</li>\n<li>🔤 Translate text and documents, and use quick translation from other apps.</li>\n<li>🔍 Search the web, read pages, and find content across your conversations and knowledge bases.</li>\n<li>🧩 Open web-based tools through Mini Apps, or use the Unified Gateway to connect other applications to your configured models.</li>\n</ul>\n<h4>Voice &amp; Workspace</h4>\n<ul>\n<li>🎙️ Dictate messages and listen to responses with speech recognition and text-to-speech options, including local models.</li>\n<li>🪟 Work across tabs and detached windows, with window pinning, Quick Assistant, and text selection tools.</li>\n<li>🌈 Customize your workspace with light and dark themes, layouts, and custom CSS.</li>\n<li>💾 Keep conversation history and knowledge bases on your device, with local and WebDAV backup options.</li>\n</ul>\n<p>Model and tool availability depends on your provider, operating system, and configuration. Some features require API credentials, downloaded models, additional dependencies, or system permissions. See the <a href=\"https://cherryai.com/docs/en/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">user documentation</a> for setup.</p>",
     "truncated": false,
-    "chars": 2195
+    "chars": 2199
    }
   },
   "headings": 18,
   "processor": 4,
-  "fetched_at": "2026-11-17T11:56:22.452Z",
-  "checked_at": "2026-11-28T02:05:34.216Z"
+  "fetched_at": "2026-11-28T10:29:51.511Z",
+  "checked_at": "2026-11-28T10:29:51.511Z"
  },
  "contributors": {
   "count": 546,
@@ -89,5 +89,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:10.741Z"
  },
- "details_checked_at": "2026-11-28T02:05:34.216Z"
+ "details_checked_at": "2026-11-28T10:29:51.511Z"
 }

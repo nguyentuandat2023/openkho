@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:02:34.439Z",
+ "fetched_at": "2026-11-28T10:26:59.958Z",
  "meta": {
   "name": "WrenAI",
   "owner": "Canner",
@@ -51,7 +51,7 @@
   "open_prs": null,
   "created_at": "2024-03-13T06:18:20Z",
   "pushed_at": "2026-11-27T11:25:14Z",
-  "updated_at": "2026-11-27T23:52:11Z",
+  "updated_at": "2026-11-28T06:28:03Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -83,7 +83,7 @@
   "headings": 20,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.381Z",
-  "checked_at": "2026-11-28T02:05:35.055Z"
+  "checked_at": "2026-11-28T10:29:52.288Z"
  },
  "contributors": {
   "count": 98,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:11.980Z"
  },
- "details_checked_at": "2026-11-28T02:05:35.055Z"
+ "details_checked_at": "2026-11-28T10:29:52.288Z"
 }

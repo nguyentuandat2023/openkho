@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:03:15.379Z",
+ "fetched_at": "2026-11-28T10:27:35.702Z",
  "meta": {
   "name": "winget-cli",
   "owner": "microsoft",
@@ -29,13 +29,13 @@
    "name": "MIT License"
   },
   "stars": 26651,
-  "forks": 1822,
+  "forks": 1823,
   "watchers": 344,
   "open_issues": 1344,
   "open_prs": null,
   "created_at": "2019-07-16T22:16:49Z",
   "pushed_at": "2026-11-26T01:06:05Z",
-  "updated_at": "2026-11-28T00:54:52Z",
+  "updated_at": "2026-11-28T09:28:44Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -67,7 +67,7 @@
   "headings": 20,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:24.956Z",
-  "checked_at": "2026-11-28T02:05:36.512Z"
+  "checked_at": "2026-11-28T10:29:53.882Z"
  },
  "contributors": {
   "count": 136,
@@ -75,5 +75,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:15.263Z"
  },
- "details_checked_at": "2026-11-28T02:05:36.512Z"
+ "details_checked_at": "2026-11-28T10:29:53.882Z"
 }

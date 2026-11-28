@@ -1,5 +1,5 @@
 {
- "computed_at": "2026-11-28T02:07:13.209Z",
+ "computed_at": "2026-11-28T10:31:33.441Z",
  "curated_missing_github_id": [],
  "missing_contributors": 2372,
  "stale_over_48h": [
@@ -210,6 +210,11 @@
   {
    "id": "microsoft/agent-framework",
    "origin": "curated",
+   "status": "not_found"
+  },
+  {
+   "id": "onestardao/WFGY",
+   "origin": "radar",
    "status": "not_found"
   },
   {
@@ -1461,6 +1466,10 @@
    "to": "reylosql/reylo"
   },
   {
+   "from": "schematrix/HAS_Prepper_Disk",
+   "to": "schematrix/HAS_Disk"
+  },
+  {
    "from": "tss878/delta-executor-toolkit",
    "to": "tss878/grand-six"
   },
@@ -1495,57 +1504,27 @@
  ],
  "anomalies": [
   {
-   "id": "mrdoob/three.js",
-   "reasons": [
-    "+529 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "EbookFoundation/free-programming-books",
-   "reasons": [
-    "+410 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "nilbuild/developer-roadmap",
-   "reasons": [
-    "+444 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "upstash/context7",
-   "reasons": [
-    "+363 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
    "id": "ChromeDevTools/chrome-devtools-mcp",
    "reasons": [
-    "+1.094 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.060 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Stirling-Tools/Stirling-PDF",
    "reasons": [
-    "+490 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+512 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
-   "id": "torvalds/linux",
+   "id": "shadcn-ui/ui",
    "reasons": [
-    "+622 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+658 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
-   "id": "jwasham/coding-interview-university",
+   "id": "chatanywhere/GPT_API_free",
    "reasons": [
-    "+454 sao nhưng chỉ +0 fork trong cùng kỳ"
-   ]
-  },
-  {
-   "id": "ruanyf/weekly",
-   "reasons": [
-    "+408 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+402 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
@@ -1617,13 +1596,7 @@
   {
    "id": "byted-technologies/.github",
    "reasons": [
-    "repo mới với 3.982 sao nhưng gần như không có fork (0) và chưa có issue nào"
-   ]
-  },
-  {
-   "id": "helloHub1212/dsh-windows-mcp",
-   "reasons": [
-    "repo mới với 2.753 sao nhưng gần như không có fork (12) và chưa có issue nào"
+    "repo mới với 3.980 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -1689,7 +1662,7 @@
   {
    "id": "AhmadHassan-BTed/RainGen-RainGenerator",
    "reasons": [
-    "repo mới với 1.627 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "repo mới với 1.628 sao nhưng gần như không có fork (0) và chưa có issue nào"
    ]
   },
   {
@@ -1785,13 +1758,13 @@
   {
    "id": "Gosu-x/multimodal-threat-dataset",
    "reasons": [
-    "+495 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+497 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "ShutongLiang/Neural-State-OS",
    "reasons": [
-    "+432 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+437 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1809,7 +1782,7 @@
   {
    "id": "lizhenjie137/intelligent-organization",
    "reasons": [
-    "+567 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+574 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -1941,7 +1914,7 @@
   {
    "id": "scottsturrock/mate-wayland-desktop",
    "reasons": [
-    "repo mới với 892 sao nhưng gần như không có fork (4) và chưa có issue nào"
+    "repo mới với 891 sao nhưng gần như không có fork (4) và chưa có issue nào"
    ]
   },
   {
@@ -2049,7 +2022,7 @@
   {
    "id": "rafiiiakmall-cpu/aida-64-extreme",
    "reasons": [
-    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2085,7 +2058,7 @@
   {
    "id": "lebrowndnasty-hash/ai-app-builder",
    "reasons": [
-    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2157,7 +2130,7 @@
   {
    "id": "gaichayoubb-hub/directory-opus-utility",
    "reasons": [
-    "repo mới với 336 sao nhưng gần như không có fork (0) và chưa có issue nào"
+    "+336 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
@@ -2200,6 +2173,12 @@
    "id": "23080960124/ibm-spss-statistics",
    "reasons": [
     "repo mới với 337 sao nhưng gần như không có fork (0) và chưa có issue nào"
+   ]
+  },
+  {
+   "id": "EL4CTEO/fast-anything",
+   "reasons": [
+    "rất ít người đóng góp (9) so với tốc độ tăng sao"
    ]
   },
   {
@@ -2343,25 +2322,25 @@
   {
    "id": "Basil0879/steam-game-idler",
    "reasons": [
-    "+353 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+502 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "peak85-sketch/stardew-valley-mod-manager",
    "reasons": [
-    "+369 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+711 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Indigo-0167/universal-game-mod-manager",
    "reasons": [
-    "+1.371 sao nhưng chỉ +1 fork trong cùng kỳ"
+    "+1.372 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
    "id": "solv4626/steam-achievement-manager-windows",
    "reasons": [
-    "repo mới với 1.236 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "repo mới với 1.237 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
@@ -2373,109 +2352,109 @@
   {
    "id": "Nebula4207/av1-video-encoder-gui",
    "reasons": [
-    "+344 sao nhưng chỉ +1 fork trong cùng kỳ"
+    "+394 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "umbradev315/ffmpeg-video-audio-converter",
    "reasons": [
-    "+374 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+704 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Umbra9179/clipboard-history-manager-windows",
    "reasons": [
-    "repo mới với 1.271 sao nhưng gần như không có fork (1) và chưa có issue nào"
+    "repo mới với 1.274 sao nhưng gần như không có fork (1) và chưa có issue nào"
    ]
   },
   {
    "id": "Pixel679-cmyk/windows-titlebar-blur-customizer",
    "reasons": [
-    "+1.505 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+731 sao nhưng chỉ +1 fork trong cùng kỳ"
    ]
   },
   {
    "id": "quartzdev666/windows-pdf-editor",
    "reasons": [
-    "+568 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.067 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Ash793318/windows-hardware-monitor",
    "reasons": [
-    "+569 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.069 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Loris-593/notebook-fan-control-windows",
    "reasons": [
-    "+563 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.062 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "flint63-code/gitdesk-windows",
    "reasons": [
-    "+584 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.094 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "hollow-445/windows-keyboard-manager",
    "reasons": [
-    "+582 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.079 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Red2076-arch/waifu2x-image-upscaler-windows",
    "reasons": [
-    "+582 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.079 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Riven-639/windows-dwm-blur-glass-customizer",
    "reasons": [
-    "+572 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.068 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "riveran0226/windows-explorer-blur-mica",
    "reasons": [
-    "+598 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.093 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Leaf82770/windows-mica-backdrop-customizer",
    "reasons": [
-    "+569 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.062 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "mist-8659/windows-mouse-keyboard-sharing-kvm",
    "reasons": [
-    "+589 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.087 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Codelab781/windows-clipboard-sync-manager",
    "reasons": [
-    "+563 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.060 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "leaf7684/windows-modern-media-player",
    "reasons": [
-    "+583 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.083 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "Quill400/windows-image-viewer",
    "reasons": [
-    "+564 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.069 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   },
   {
    "id": "nocta1554/windows-video-downloader-gui",
    "reasons": [
-    "+579 sao nhưng chỉ +0 fork trong cùng kỳ"
+    "+1.084 sao nhưng chỉ +0 fork trong cùng kỳ"
    ]
   }
  ],
@@ -2770,8 +2749,19 @@
    ]
   },
   {
-   "cluster": "campaign-2026-11-27-563",
-   "reason": "Một trong 14 repo khác tên do 14 tài khoản tạo gần như cùng lúc, cùng khoảng 563–598 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "cluster": "campaign-2026-11-23-1224",
+   "reason": "Một trong 5 repo khác tên do 5 tài khoản tạo gần như cùng lúc, cùng khoảng 1.224–1.313 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
+   "repos": [
+    "Basil0879/steam-game-idler",
+    "peak85-sketch/stardew-valley-mod-manager",
+    "solv4626/steam-achievement-manager-windows",
+    "umbradev315/ffmpeg-video-audio-converter",
+    "Umbra9179/clipboard-history-manager-windows"
+   ]
+  },
+  {
+   "cluster": "campaign-2026-11-27-1060",
+   "reason": "Một trong 14 repo khác tên do 14 tài khoản tạo gần như cùng lúc, cùng khoảng 1.060–1.094 sao nhưng không có fork/issue — dấu hiệu chiến dịch sao ảo. Tự động loại khỏi xếp hạng.",
    "repos": [
     "quartzdev666/windows-pdf-editor",
     "Ash793318/windows-hardware-monitor",

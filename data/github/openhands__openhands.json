@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:00:55.172Z",
+ "fetched_at": "2026-11-28T10:25:21.420Z",
  "meta": {
   "name": "OpenHands",
   "owner": "OpenHands",
@@ -33,14 +33,14 @@
    "spdx": "MIT",
    "name": "MIT License"
   },
-  "stars": 94469,
-  "forks": 12670,
+  "stars": 94484,
+  "forks": 12674,
   "watchers": 501,
-  "open_issues": 1254,
+  "open_issues": 1256,
   "open_prs": null,
   "created_at": "2024-03-13T03:33:31Z",
-  "pushed_at": "2026-11-28T00:05:06Z",
-  "updated_at": "2026-11-28T01:31:50Z",
+  "pushed_at": "2026-11-28T08:58:37Z",
+  "updated_at": "2026-11-28T10:17:34Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -49,7 +49,7 @@
   "has_issues": true,
   "has_discussions": false,
   "has_wiki": true,
-  "size_kb": 721134,
+  "size_kb": 720507,
   "og_image": "https://opengraph.githubassets.com/1/OpenHands/OpenHands",
   "custom_og_image": false
  },
@@ -72,7 +72,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-26T15:19:20.210Z",
-  "checked_at": "2026-11-28T02:05:30.965Z"
+  "checked_at": "2026-11-28T10:29:48.220Z"
  },
  "contributors": {
   "count": 602,
@@ -80,5 +80,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:31.674Z"
  },
- "details_checked_at": "2026-11-28T02:05:30.965Z"
+ "details_checked_at": "2026-11-28T10:29:48.220Z"
 }

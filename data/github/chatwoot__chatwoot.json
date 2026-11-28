@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:02:22.427Z",
+ "fetched_at": "2026-11-28T10:26:48.541Z",
  "meta": {
   "name": "chatwoot",
   "owner": "chatwoot",
@@ -43,14 +43,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 40696,
-  "forks": 9914,
-  "watchers": 295,
-  "open_issues": 1651,
+  "stars": 40708,
+  "forks": 9917,
+  "watchers": 294,
+  "open_issues": 1654,
   "open_prs": null,
   "created_at": "2019-08-14T06:50:51Z",
-  "pushed_at": "2026-11-28T01:55:21Z",
-  "updated_at": "2026-11-28T01:26:52Z",
+  "pushed_at": "2026-11-28T06:24:20Z",
+  "updated_at": "2026-11-28T09:17:04Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -59,7 +59,7 @@
   "has_issues": true,
   "has_discussions": true,
   "has_wiki": true,
-  "size_kb": 312482,
+  "size_kb": 312485,
   "og_image": "https://opengraph.githubassets.com/1/chatwoot/chatwoot",
   "custom_og_image": false
  },
@@ -87,7 +87,7 @@
   "headings": 19,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:22.778Z",
-  "checked_at": "2026-11-28T02:05:34.478Z"
+  "checked_at": "2026-11-28T10:29:51.744Z"
  },
  "contributors": {
   "count": 412,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:11.306Z"
  },
- "details_checked_at": "2026-11-28T02:05:34.478Z"
+ "details_checked_at": "2026-11-28T10:29:51.744Z"
 }

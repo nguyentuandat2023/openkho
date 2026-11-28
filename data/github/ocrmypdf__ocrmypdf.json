@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:01:45.314Z",
+ "fetched_at": "2026-11-28T10:26:13.685Z",
  "meta": {
   "name": "OCRmyPDF",
   "owner": "ocrmypdf",
@@ -73,7 +73,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:21.246Z",
-  "checked_at": "2026-11-28T02:05:33.153Z"
+  "checked_at": "2026-11-28T10:29:50.285Z"
  },
  "contributors": {
   "count": 133,
@@ -81,5 +81,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:34.524Z"
  },
- "details_checked_at": "2026-11-28T02:05:33.153Z"
+ "details_checked_at": "2026-11-28T10:29:50.285Z"
 }

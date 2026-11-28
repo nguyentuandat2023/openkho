@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:02:40.963Z",
+ "fetched_at": "2026-11-28T10:27:05.915Z",
  "meta": {
   "name": "airbyte",
   "owner": "airbytehq",
@@ -44,14 +44,14 @@
    "spdx": "NOASSERTION",
    "name": "Other"
   },
-  "stars": 22456,
+  "stars": 22458,
   "forks": 5557,
   "watchers": 180,
   "open_issues": 2823,
   "open_prs": null,
   "created_at": "2020-07-27T23:55:54Z",
   "pushed_at": "2026-11-26T20:33:17Z",
-  "updated_at": "2026-11-28T00:19:50Z",
+  "updated_at": "2026-11-28T08:46:30Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -83,7 +83,7 @@
   "headings": 7,
   "processor": 4,
   "fetched_at": "2026-11-17T11:56:23.650Z",
-  "checked_at": "2026-11-28T02:05:35.254Z"
+  "checked_at": "2026-11-28T10:29:52.522Z"
  },
  "contributors": {
   "count": 1271,
@@ -91,5 +91,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:12.817Z"
  },
- "details_checked_at": "2026-11-28T02:05:35.254Z"
+ "details_checked_at": "2026-11-28T10:29:52.522Z"
 }

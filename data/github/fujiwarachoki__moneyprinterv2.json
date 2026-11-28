@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:01:34.228Z",
+ "fetched_at": "2026-11-28T10:26:05.335Z",
  "meta": {
   "name": "MoneyPrinterV2",
   "owner": "FujiwaraChoki",
@@ -32,14 +32,14 @@
    "spdx": "AGPL-3.0",
    "name": "GNU Affero General Public License v3.0"
   },
-  "stars": 32612,
-  "forks": 3479,
+  "stars": 32621,
+  "forks": 3481,
   "watchers": 250,
   "open_issues": 93,
   "open_prs": null,
   "created_at": "2024-02-12T11:20:42Z",
   "pushed_at": "2026-09-15T22:35:17Z",
-  "updated_at": "2026-11-28T01:08:33Z",
+  "updated_at": "2026-11-28T09:25:16Z",
   "archived": false,
   "disabled": false,
   "is_fork": false,
@@ -87,7 +87,7 @@
   "headings": 12,
   "processor": 4,
   "fetched_at": "2026-11-17T21:01:30.363Z",
-  "checked_at": "2026-11-28T02:05:32.714Z"
+  "checked_at": "2026-11-28T10:29:49.973Z"
  },
  "contributors": {
   "count": 12,
@@ -95,5 +95,5 @@
   "anon": true,
   "fetched_at": "2026-11-23T09:06:34.052Z"
  },
- "details_checked_at": "2026-11-28T02:05:32.714Z"
+ "details_checked_at": "2026-11-28T10:29:49.973Z"
 }

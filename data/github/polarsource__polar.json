@@ -6,7 +6,7 @@
  "status": "ok",
  "renamed_from": null,
  "source": "rest",
- "fetched_at": "2026-11-28T02:03:36.467Z",
+ "fetched_at": "2026-11-28T10:27:57.762Z",
  "meta": {
   "name": "polar",
   "owner": "polarsource",
@@ -72,7 +72,7 @@
   "headings": 8,
   "processor": 4,
   "fetched_at": "2026-11-26T15:19:27.629Z",
-  "checked_at": "2026-11-28T02:05:37.324Z"
+  "checked_at": "2026-11-28T10:29:54.643Z"
  },
  "contributors": {
   "count": 136,
@@ -80,5 +80,5 @@
   "anon": true,
   "fetched_at": "2026-11-24T17:50:16.584Z"
  },
- "details_checked_at": "2026-11-28T02:05:37.324Z"
+ "details_checked_at": "2026-11-28T10:29:54.643Z"
 }
